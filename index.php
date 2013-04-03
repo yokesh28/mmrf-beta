@@ -16,12 +16,12 @@
 <body>
 
 
-   <div class="container">
-   <div class="fade">
+   <div class="alert alert-block">
+  <button type="button" class="close closebutton" data-dismiss="alert">&times;</button>
+  <h4>Warning!</h4>
+  Best check yo self, you're not...
+</div>
    
-  <a class="fermer"></a> fdhghjgj
-   </div>
-   </div>
    
 
 
@@ -33,6 +33,13 @@
 
 			<img src="images/slide_menu.png">
 			
+			
+   
+			
+			
+			
+			
+			
 		</div>
 		
 	</div>
@@ -40,6 +47,7 @@
 	<div class="slide2">
 
 		<img src="images/4.jpg" width="100%" height="100%">
+		
 	</div>
 
 	
