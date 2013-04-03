@@ -13,7 +13,16 @@
 <script src="http://code.jquery.com/jquery.js"></script>
 </head>
 <body>
-	
+
+
+   <div class="container">
+   <div class="fade">
+   
+  <a class="fermer"></a> fdhghjgj
+   </div>
+   </div>
+   
+
 
 	<div class="slide1">
 	
@@ -60,3 +69,4 @@
 	
 </body>
 </html>
+
