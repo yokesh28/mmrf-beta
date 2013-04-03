@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	font-family: Malgun Gothic;
+}
+.navbar  .navbar-inner {
+	background: none;
+	border: none;
+}
+
+.navbar .nav {
+	background: rgba(0, 0, 0, 0.4);
+}
+.navbar .container li:hover{
+	background-color: rgba(0,0,0,0.7);
+	cursor: pointer;
+}
+.navbar .container li a {
+	color: white;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 22px !important;
+	margin-bottom: 22px !important;
+	border-right:1px solid black; 
+}
+
+.navbar .container li:last-child a{
+	border-right:none; 
+}
+.brand {
+	float: left;
+	margin: 0px;
+	padding: 0px !important;
+}
+
+.collapse {
+	display: inline-block;
+	margin-left: 0px !important;
+}
