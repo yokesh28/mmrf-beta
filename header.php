@@ -4,7 +4,7 @@
 	
 <header>
 <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
+      <div class="">
         <div class="container">
       
           <div class="row-fluid">

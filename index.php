@@ -13,7 +13,7 @@
 	<?php include 'header.php';?>
 
 	<div class="slide1">
-		<img src="images/1.jpg" width="100%" height="100%">
+		<img src="images/3.jpg" width="100%" height="100%">
 		<div id="slidemenu">
 
 			<img src="images/slide_menu.png">
@@ -21,7 +21,7 @@
 	</div>
 	<div class="slide2">
 
-		<img src="images/2.jpg" width="100%" height="100%">
+		<img src="images/4.jpg" width="100%" height="100%">
 	</div>
 
 	<script src="http://code.jquery.com/jquery.js"></script>
