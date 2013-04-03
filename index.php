@@ -20,13 +20,13 @@
 		</div>
 	</div>
 	<div class="slide2">
-	
-	<img src="images/2.jpg" width="100%" height="100%">
+
+		<img src="images/2.jpg" width="100%" height="100%">
 	</div>
 
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	
+
 	<script src="js/jquery.mobilemenu.js"></script>
 	<script src="js/jquery.mobilemenu.min.js"></script>
 	<script>
@@ -35,18 +35,22 @@
 });
 	</script>
 	<script type="text/javascript">
-
+	var pos=$('#slidemenu').css('left');
+	pos=pos.replace('px','');
+	
 	$(document).scroll(function(e){
 
 		var per=($(window).scrollTop()/1100)*100;
 		var sc=((per/100)*338);
-		var pos=$('#slidemenu').css('left');
-		pos=pos.replace('px','');
 		
+		
+		pos=(-338);
 		pos=(parseInt(pos)+parseInt(sc));
 		console.log(pos);
+		if(pos<0)
+		{
 		$('#slidemenu').css('left',pos);
-	    console.log($(window).scrollTop());
+		}
 	});
 </script>
 
