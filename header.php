@@ -1,4 +1,7 @@
 
+
+	
+	
 <header>
 <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -8,7 +11,8 @@
          <a class="span2" href="#"><img src="images/logo.png"></a>
           <div class="nav-collapse collapse span10 ">
           
-            <ul class="nav row-fluid ">
+	
+            <ul class="nav row-fluid menu">
             
               <li class="span2 ">
                 <a href="#">Home</a>
@@ -36,3 +40,6 @@
       </div>
     </div>
 </header>
+
+
+		
