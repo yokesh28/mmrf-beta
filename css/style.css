@@ -2,6 +2,7 @@
 
 body{
 	font-family: Malgun Gothic;
+	
 }
 .navbar  .navbar-inner {
 	background: none;
@@ -10,6 +11,9 @@ body{
 
 .navbar .nav {
 	background: rgba(0, 0, 0, 0.4);
+}
+.navbar .container li{
+	margin-left: 0px !important;
 }
 .navbar .container li:hover{
 	background-color: rgba(0,0,0,0.7);
@@ -38,4 +42,15 @@ body{
 .collapse {
 	display: inline-block;
 	margin-left: 0px !important;
+}
+
+
+.slide1>img{
+	
+
+}
+#slidemenu{
+	position: fixed;
+	bottom: 0%;
+	left: -338px;
 }
