@@ -61,14 +61,15 @@ body{
 	
 	
 	position: absolute;
-top: 161px;
-left: 532px;
+top: 60%;
+right: 10%;
 width: 480px;
 height: 152px;
 opacity: 0.8;
 opacity: 0.8;
 background-color: black;
 border: 1px solid black;
+color: white;
 }
 
 .closebutton {

@@ -20,8 +20,8 @@
 
    <div class="alert alert-block">
   <button type="button" class="close closebutton" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
-  Best check yo self, you're not...
+  <h4>MMRF!</h4>
+  Check it
 </div>
    
    
