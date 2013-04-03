@@ -49,13 +49,43 @@ body{
 	margin-left: 0px !important;
 }
 
-
-.slide1>img{
-	
-
+.fade {
+	position: absolute;
+width: 480px;
+height: 152px;
+top: 200px;
+right: 30px;
+background-color: rgb(14, 14, 14);
+color: rgb(255, 255, 255);
+opacity: 0.5;
+display: block;
 }
+
+
+
+.fermer {
+z-index: 10;
+position: absolute;
+right: 0;
+width: 20px;
+height: 20px;
+margin: 10px;
+background: url(../images/close.png") 0 0 no-repeat;
+}
+
+
+
+
+
+
+a.fermer {
+cursor: pointer;
+}
+
+
 #slidemenu{
 	position: fixed;
 	bottom: 0%;
 	left: -338px;
 }
+
