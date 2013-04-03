@@ -12,8 +12,22 @@
   <body>
    <?php include 'header.php';?>
 
+   <div class="container">
+   <div class="fade">
    
+  <a class="fermer"></a> fdhghjgj
+   </div>
+   </div>
    
+   <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+  });
+});
+</script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
