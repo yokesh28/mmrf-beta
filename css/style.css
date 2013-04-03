@@ -13,9 +13,15 @@ body{
 	background: none;
 	border: none;
 }
-
+.logo>img
+{
+	height: 84px;
+}
 .navbar .nav {
 	background: rgba(0, 0, 0, 0.4);
+}
+.navbar .container{
+	height: 84px;
 }
 .navbar .container li{
 	margin-left: 0px !important;
