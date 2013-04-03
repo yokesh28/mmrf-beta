@@ -55,7 +55,9 @@ body{
 	margin-left: 0px !important;
 }
 
-
+.alert h4 {
+	color: white;
+	}
 
 .alert-block{
 	
