@@ -9,6 +9,7 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 	<?php include 'header.php';?>
 
@@ -37,6 +38,7 @@
 
 	<script src="js/jquery.mobilemenu.js"></script>
 	<script src="js/jquery.mobilemenu.min.js"></script>
+	
 	<script>
 	$(document).ready(function(){
 		$('.menu').mobileMenu();
