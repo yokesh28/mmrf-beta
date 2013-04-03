@@ -2,7 +2,13 @@
 
 body{
 	font-family: Malgun Gothic;
+	
 }
+
+
+
+
+
 .navbar  .navbar-inner {
 	background: none;
 	border: none;
@@ -10,6 +16,9 @@ body{
 
 .navbar .nav {
 	background: rgba(0, 0, 0, 0.4);
+}
+.navbar .container li{
+	margin-left: 0px !important;
 }
 .navbar .container li:hover{
 	background-color: rgba(0,0,0,0.7);
@@ -71,5 +80,12 @@ background: url(../img/close.png") 0 0 no-repeat;
 
 a.fermer {
 cursor: pointer;
+}
+
+
+#slidemenu{
+	position: fixed;
+	bottom: 0%;
+	left: -338px;
 }
 
