@@ -6,11 +6,57 @@
 
 /* Portrait tablet to landscape and desktop */
 @media ( min-width : 768px) and (max-width: 979px) {
-	...
+	body{
+	
+	padding:0px !important;
+	margin: 0px !important; 
+	}
+	header {
+		position: absolute;
+		top: 0px;
+		
+		width: 100%;
+	}
+	.logo {
+		margin: 0 400px 0px !important;
+		width: 190px !important;
+	}
+	.dropmenu {
+		margin: 10px 250px 0px  !important;
+		width: 60% !important;
+		
+	}
+	.dropmenu select {
+		display: block;
+		clear: both;
+		padding-left: 10px;
+		font-weight: bold;
+		width: 100%;
+		height: 40px;
+		-webkit-appearance: none;
+		background-position: center right;
+		background-repeat: no-repeat;
+		background-color: rgba(255, 255, 255, 0.7);
+		border: 1px solid #E0E0E0;
+		border-radius: 3px;
+		text-transform: uppercase;
+		color: black;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.nav-collapse {
+		height: auto !important;
+	}
 }
 
 /* Landscape phone to portrait tablet */
 @media ( max-width : 767px) {
+	body{
+	
+	padding:0px !important;
+	margin: 0px !important; 
+	}
 	header {
 		position: absolute;
 		top: 0px;

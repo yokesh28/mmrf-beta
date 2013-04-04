@@ -8,7 +8,7 @@
 			<div class="container">
 
 				<div class="row-fluid">
-					<a class="span2 logo" href="#"><img src="images/logo.png"> </a>
+					<a class="span2 logo" href="#"><img src="images/logo.png" height="84px"> </a>
 					<div class="nav-collapse collapse span10 ">
 
 
@@ -40,7 +40,7 @@
 
 	<script>
 	$(document).ready(function(){
-		$('#menu').mobileMenu({switchWidth :768,prependTo:'.dropmenu',topOptionText :'-MAIN MENU'});
+		$('#menu').mobileMenu({switchWidth :979,prependTo:'.dropmenu',topOptionText :'-MAIN MENU'});
 });
 	</script>
 </header>

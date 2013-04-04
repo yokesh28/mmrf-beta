@@ -13,9 +13,15 @@ body{
 	background: none;
 	border: none;
 }
-
+.logo>img
+{
+	height: 84px;
+}
 .navbar .nav {
 	background: rgba(0, 0, 0, 0.4);
+}
+.navbar .container{
+	height: 84px;
 }
 .navbar .container li{
 	margin-left: 0px !important;
@@ -49,38 +55,30 @@ body{
 	margin-left: 0px !important;
 }
 
-.fade {
+.alert h4 {
+	color: white;
+	}
+
+.alert-block{
+	
+	
 	position: absolute;
+top: 60%;
+right: 10%;
 width: 480px;
 height: 152px;
-top: 200px;
-right: 30px;
-background-color: rgb(14, 14, 14);
-color: rgb(255, 255, 255);
-opacity: 0.5;
-display: block;
+opacity: 0.8;
+opacity: 0.8;
+background-color: black;
+border: 1px solid black;
+color: white;
+}
+
+.closebutton {
+	color:  white;
 }
 
 
-
-.fermer {
-z-index: 10;
-position: absolute;
-right: 0;
-width: 20px;
-height: 20px;
-margin: 10px;
-background: url(../images/close.png") 0 0 no-repeat;
-}
-
-
-
-
-
-
-a.fermer {
-cursor: pointer;
-}
 
 
 #slidemenu{
