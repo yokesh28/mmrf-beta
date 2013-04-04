@@ -14,9 +14,9 @@
 
 						<ul class="nav row-fluid menu" id="menu">
 
-							<li class="span2 "><a href="index.html">Home</a>
+							<li class="span2 "><a href="index.php">Home</a>
 							</li>
-							<li class="span2"><a href="projects.html">Projects</a>
+							<li class="span2"><a href="projects.php">Projects</a>
 							</li>
 							<li class="span2"><a href="about.html">About Us</a>
 							</li>
@@ -35,8 +35,6 @@
 		</div>
 	</div>
 
-
-	
 
 	<script>
 	$(document).ready(function(){
