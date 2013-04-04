@@ -20,9 +20,17 @@
 	var m, t, u, f, D, j, E, n, z, A, q = 0, e = {}, o = [], p = 0, d = {}, l = [], G = null, v = new Image, J = /\.(jpg|gif|png|bmp|jpeg)(.*)?$/i, W = /[^\.]\.(swf)\s*$/i, K, L = 1, y = 0, s = "", r, i, h = false, B = b
 			.extend(b("<div/>")[0], {
 				prop : 0
-			}), M = b.browser.msie && b.browser.version < 7
+			}), M =!$.support.boxModel || b.browser.version < 7
 			&& !window.XMLHttpRequest, N = function() {
 		t.hide();
+		
+		
+		
+		
+		
+		
+		
+		
 		v.onerror = v.onload = null;
 		G && G.abort();
 		m.empty()

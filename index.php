@@ -3,6 +3,43 @@
 <head>
 <title>mmrf</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<meta charset="utf-8">
+	<title>Parc Amazonien de Guyane</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<link rel='shortcut icon' href='/img/favicon.png'>
+	
+	<!-- This site is optimized with the Yoast WordPress SEO plugin v1.3.4.4 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://www.parc-amazonien-guyane.fr/" />
+<meta property='og:locale' content='fr_FR'/>
+<meta property='og:title' content='Parc Amazonien de Guyane'/>
+<meta property='og:url' content='http://www.parc-amazonien-guyane.fr/'/>
+<meta property='og:site_name' content='Parc Amazonien de Guyane'/>
+<meta property='og:type' content='article'/>
+<!-- / Yoast WordPress SEO plugin. -->
+	
+	
+	  <script type="text/javascript">
+		var _gaq = _gaq || [];
+	 	_gaq.push(['_setAccount', 'UA-33459997-1']);
+	 	_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	 	})();
+	</script>
+	  
+	
+	
+	
+	
+	
+	
+
 <!-- Bootstrap -->
 <link href="css/res.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -10,20 +47,26 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
-<link href="css/easy-fancybox.css" rel="stylesheet">
+<link rel="stylesheet" href="css/easy-fancybox.css">
 
-<script src="http://code.jquery.com/jquery.js"></script>
+<link rel="alternate" type="application/rss+xml" title="Parc Amazonien de Guyane Feed" href="http://www.parc-amazonien-guyane.fr/feed/">
+
+
+
+<script src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
 </head>
 
 <body>
 
 
+ 
    <div class="alert alert-block">
   <button type="button" class="close closebutton" data-dismiss="alert">&times;</button>
   <h4>MMRF!</h4>
   Check it
 </div>
-   
+
+
    
 
 
@@ -99,11 +142,11 @@ $('#fancybox-auto').trigger('click');
 /* ]]> */
 </script>
 	<script type='text/javascript' src='js/prefixfree.min.js'></script>
-	<script type='text/javascript' src='js/jquery.fancybox-1.3.4.pack.js'></script>
+	<script type='text/javascript' src='js/jquery.fancybox-1.3.4.pack.js?ver=1.3.4'></script>
 	<script type="text/javascript" src="js/cryptx.js"></script>
 
 
-	<script language="javascript" type="text/javascript">var kpg_cell="N";var kpg_nrci_image="/plugins/no-right-click-images-plugin/not.gif";var kpg_nrci_extra="N";var kpg_nrci_drag="Y";</script>
+	<script language="javascript" type="text/javascript">var kpg_cell="N";var kpg_nrci_image="img/not.gif";var kpg_nrci_extra="N";var kpg_nrci_drag="Y";</script>
 	<script language="javascript" type="text/javascript"
 		src="js/no-right-click-images.js"></script>
 	<script>
@@ -117,13 +160,13 @@ $('#fancybox-auto').trigger('click');
 	<script type='text/javascript' src='js/skrollr.js'></script>
 	<script type='text/javascript' src='js/mediaelement-and-player.min.js'></script>
 	<script type='text/javascript' src='js/jquery.jscrollpane.min.js'></script>
-	<script type='text/javascript' src='js/jquery.fancyNews-1.3.js'></script>
+	<script type='text/javascript' src='http://www.parc-amazonien-guyane.fr/js/jquery.fancyNews-1.3.js'></script>
 	<script type='text/javascript' src='js/jquery.preloader.js'></script>
 	<script type='text/javascript' src='js/home.js'></script>
 	<script type='text/javascript' src='js/main.js'></script>
-	<script type='text/javascript' src='js/jquery.easing-1.3.pack.js'></script>
-	<script type='text/javascript' src='js/jquery.mousewheel-3.0.4.pack.js'></script>
-	<script type='text/javascript' src='js/jquery.metadata.js'></script>
+	<script type='text/javascript' src='js/jquery.easing-1.3.pack.js?ver=1.3'></script>
+<script type='text/javascript' src='js/jquery.mousewheel-3.0.4.pack.js?ver=3.0.4'></script>
+<script type='text/javascript' src='js/jquery.metadata.js?ver=2.1'></script>
 
 </body>
 </html>

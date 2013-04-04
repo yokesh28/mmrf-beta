@@ -36,9 +36,6 @@
 	</div>
 
 
-	
-
-
 	<script>
 	$(document).ready(function(){
 		$('#menu').mobileMenu({switchWidth :979,prependTo:'.dropmenu',topOptionText :'-MAIN MENU'});
