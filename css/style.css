@@ -4,19 +4,19 @@ body {
 	font-family: Malgun Gothic;
 }
 
-
-
-.middle{position: absolute;
-right: 9%;
-top: 22%;
-width: 780px;
-
+.middle {
+	position: fixed;
+	right: 9%;
+	top: 22%;
+	width: 780px;
 }
-.im{position:absolute;top:0px;
-left:31px;}
 
-
-
+.im {
+	position: fixed;
+	top: 0px;
+	left:0px;
+	height: 100%;
+}
 
 .navbar  .navbar-inner {
 	background: none;
@@ -52,9 +52,7 @@ left:31px;}
 	font-weight: bold;
 	margin-top: 22px !important;
 	margin-bottom: 22px !important;
-
-	border-right:1px solid white; 
-
+	border-right: 1px solid white;
 }
 
 .navbar .container li:last-child a {
