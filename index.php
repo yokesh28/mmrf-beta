@@ -29,7 +29,7 @@
 
 	<div class="slide1">
 	
-		<img src="images/3.jpg" width="100%" height="100%">
+		<img src="images/2.jpg" width="100%" height="100%">
 		<?php include 'header.php';?>
 		<div id="slidemenu" class="visible-desktop">
 
