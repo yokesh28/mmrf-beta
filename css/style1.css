@@ -2247,7 +2247,7 @@
     #sb-info-inner{font-size:12px;}
     #sb-nav{float:right;height:16px;padding:2px 0;width:45%;}
     #sb-nav a{display:block;float:right;height:16px;width:16px;margin-left:3px;cursor:pointer;background-repeat:no-repeat;}
-    #sb-nav-close{background-image:url(../img/img-shadowbox/close.png)}
+    #sb-nav-close{background-image:url(../img/close.png)}
     #sb-nav-next{background-image:url(../img/img-shadowbox/next.png)}
     #sb-nav-previous{background-image:url(../img/img-shadowbox/previous.png)}
     #sb-nav-play{background-image:url(../img/img-shadowbox/play.png)}
