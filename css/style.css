@@ -18,7 +18,7 @@ body{
 	height: 84px;
 }
 .navbar .nav {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(250, 247, 247, 0.52);
 }
 .navbar .container{
 	height: 84px;
@@ -31,14 +31,14 @@ body{
 	cursor: pointer;
 }
 .navbar .container li a {
-	color: white;
+	color: black;
 	padding-top: 10px !important;
 	padding-bottom: 10px !important;
 	text-align: center;
 	font-weight: bold;
 	margin-top: 22px !important;
 	margin-bottom: 22px !important;
-	border-right:1px solid black; 
+	border-right:1px solid white; 
 }
 
 .navbar .container li:last-child a{
