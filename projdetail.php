@@ -21,10 +21,9 @@
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-<script
-	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
-
 </head>
 <body>
 	<div class="slide1">
@@ -49,38 +48,13 @@
 
 					<div class="uc-container">
 						<div class="uc-initial-content">
-							<p>Overview</p> 
+							<p>Overview</p>
 							<span class="icon-eye">Overview</span>
 
 						</div>
 						<div class="uc-final-content">
-						<span class="icon-cancel"></span>
-						
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p><p>Overview</p>
-							
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							
-							<p>Overview</p>
-							<p>Overview</p>
-							
-							<p>Overview</p>
-							<p>Overview</p>
-							
-							<p>Overview</p>
-							<p>Overview</p>
-							
+							<span class="icon-cancel"></span>
+
 							<p>Overview</p>
 							<p>Overview</p>
 							<p>Overview</p>
@@ -93,16 +67,42 @@
 							<p>Overview</p>
 							<p>Overview</p>
 							<p>Overview</p>
+
 							<p>Overview</p>
 							<p>Overview</p>
-							
+							<p>Overview</p>
+
 							<p>Overview</p>
 							<p>Overview</p>
-							
+
 							<p>Overview</p>
 							<p>Overview</p>
-							
-							
+
+							<p>Overview</p>
+							<p>Overview</p>
+
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+
+							<p>Overview</p>
+							<p>Overview</p>
+
+							<p>Overview</p>
+							<p>Overview</p>
+
+
 						</div>
 					</div>
 					<!-- / uc-container -->
@@ -161,17 +161,20 @@
 			</div>
 
 
-			<div class="position"> 
-			<img src="images/l-slide.png">
+			<div class="position">
+				<img src="images/l-slide.png">
 
-			<div class="ongoing"><p>Ongoing</p></div>
-             <div class="upcoming"><p>Upcoming</p></div>
-		</div>
+				<div class="ongoing">
+					<p>Ongoing</p>
+				</div>
+				<div class="upcoming">
+					<p>Upcoming</p>
+				</div>
+			</div>
 
-		<script type="text/javascript"
-			src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.pfold.js"></script>
-		<script type="text/javascript">
+
+			<script type="text/javascript" src="js/jquery.pfold.js"></script>
+			<script type="text/javascript">
 			$(function() {
 
 				// say we want to have only one item opened at one moment
@@ -213,6 +216,12 @@
 				
 			});
 		</script>
+		
+
+	<script src="js/bootstrap.min.js"></script>
+
+
+	<script src="js/jquery.mobilemenu.js"></script>
 
 </body>
 </html>
