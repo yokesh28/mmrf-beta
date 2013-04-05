@@ -32,6 +32,7 @@
 
 
 		<?php include 'header.php';?>
+
 		<div class="im">
 
 			<div class="middle">
@@ -113,6 +114,7 @@
 				<!-- / grid --> </section>
 
 			</div>
+
 
 
 			
