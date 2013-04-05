@@ -176,6 +176,12 @@ body {
 	overflow-x: hidden;
 }
 
+.contant {
+	overflow: scroll;
+	margin: 28px;
+	height: 245px;
+}
+
 .alert1 {
 	padding: 8px 35px 8px 14px;
 	margin-bottom: 20px;
@@ -216,29 +222,3 @@ body {
 	background-color: white;
 }
 /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
->>>>>>>
-branch
-
- 
-
-'
-master
-
-
-'
-of
-
- 
-
-https
-
-
-:
-//github
-
-
-.com
-/yokesh28/mmrf-beta
-
-
-.git

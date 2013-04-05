@@ -54,7 +54,7 @@
 						</div>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
-
+							<div class="contant">
 							<p>Overview</p>
 							<p>Overview</p>
 							<p>Overview</p>
@@ -101,7 +101,7 @@
 
 							<p>Overview</p>
 							<p>Overview</p>
-
+							</div>
 
 						</div>
 					</div>
