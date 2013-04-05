@@ -88,6 +88,7 @@ position: absolute;
 	height: 42px;
 	width: 80%;
 	cursor: pointer;
+	
 }
 
 .upcoming {
@@ -149,7 +150,7 @@ margin: 45px 20px;}
 
 .position>img {
 	position: absolute;
-	z-index: 999;
+
 	height: 100%;
 	width: 420px;
 }
