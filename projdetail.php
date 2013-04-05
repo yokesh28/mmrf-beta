@@ -54,12 +54,55 @@
 
 						</div>
 						<div class="uc-final-content">
-							<img src="images/large/3.jpg" alt="image03-large" />
-							<div class="title">
-								<h4>Angry Nerd Blofeld</h4>
-								by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a>
-							</div>
-							<span class="icon-cancel"></span>
+						<span class="icon-cancel"></span>
+						
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p><p>Overview</p>
+							
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							
+							<p>Overview</p>
+							<p>Overview</p>
+							
+							<p>Overview</p>
+							<p>Overview</p>
+							
+							<p>Overview</p>
+							<p>Overview</p>
+							
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							<p>Overview</p>
+							
+							<p>Overview</p>
+							<p>Overview</p>
+							
+							<p>Overview</p>
+							<p>Overview</p>
+							
+							
 						</div>
 					</div>
 					<!-- / uc-container -->
