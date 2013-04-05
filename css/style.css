@@ -22,6 +22,55 @@ body {
 	width: 780px;
 }
 
+.middle1{
+	background: url(../images/images/project.png) 0 0 no-repeat;
+	position: fixed;
+	right: 12%;
+	top: 22%;
+	width: 780px;
+	height:600px;
+}
+
+.building{
+	position: absolute;
+top: 2%;
+left: 2%;
+background: white;
+padding: 0px;
+margin: 0px;
+width: 324px;
+height: 200px;
+}
+
+.building1{
+	position: absolute;
+background: white;
+bottom: 30%;
+left: 52%;
+height: 202px;
+width: 320px;
+}
+
+
+.textright{background: white;
+top: 2%;
+left: 52%;
+width: 317px;
+height: 166px;
+position: absolute;}
+
+
+.textleft{background: white;
+bottom: 31%;
+left: 2%;
+width: 317px;
+height: 166px;
+position: absolute;
+}
+
+
+
+
 .slide1 {
 	position: relative;
 	background: url(../images/3.jpg) 0 0 no-repeat;
@@ -30,7 +79,8 @@ body {
 }
 
 .ongoing {
-	background: white;
+	background-color: white;
+	background: url(../images/images/on.png) 0 0 no-repeat;
 	position: absolute;
 	top: 30%;
 	opacity: 0.7;
@@ -41,7 +91,8 @@ body {
 }
 
 .upcoming {
-	background: white;
+	background-color: white;
+	background: url(../images/images/on.png) 0 0 no-repeat;
 	position: absolute;
 	top: 40%;
 	opacity: 0.7;
@@ -59,7 +110,15 @@ body {
 	padding-right: 8px;
 	font-style: italic;
 }
-
+#menu li{
+	cursor: pointer;
+}
+#menu a{
+	cursor: pointer;
+}
+#menu img{
+	cursor: pointer;
+}
 .upcoming p {
 	font-family: chaparral Pro;
 	text-align: right;
@@ -83,6 +142,11 @@ body {
 	height: 100%;
 }
 
+.position1 {position: relative;
+width: 100%;
+height: 100%;
+margin: 45px 20px;}
+
 .position>img {
 	position: absolute;
 	z-index: 999;
@@ -100,7 +164,7 @@ body {
 }
 
 .navbar .nav {
-	background: rgba(250, 247, 247, 0.52);
+	
 }
 
 .navbar .container {
@@ -109,6 +173,7 @@ body {
 
 .navbar .container li {
 	margin-left: 0px !important;
+	background: rgba(250, 247, 247, 0.52);
 }
 
 .navbar .container li:hover {
@@ -241,4 +306,6 @@ padding-right: 10px;
 ::-webkit-scrollbar-corner {
 	background-color: black;
 }
+
 /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
