@@ -230,6 +230,12 @@ margin: 45px 20px;}
 	overflow-x: hidden;
 }
 
+.contant {
+	overflow: scroll;
+	margin: 28px;
+	height: 245px;
+}
+
 .alert1 {
 	padding: 8px 35px 8px 14px;
 	margin-bottom: 20px;
@@ -269,5 +275,6 @@ margin: 45px 20px;}
 ::-webkit-scrollbar-corner {
 	background-color: white;
 }
+
 /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
 
