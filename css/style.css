@@ -30,12 +30,37 @@ body {
 }
 .ongoing{background: white;
 position: absolute;
-top: 43%;
-
-left: 32%;
-height: 35px;
-width: 159px;
+top: 20%;
+opacity:0.7;
+left: 22%;
+height: 42px;
+width: 255px;
 }
+ 
+ .upcoming{background: white;
+position: absolute;
+top: 41%;
+opacity: 0.7;
+left: 43%;
+height: 42px;
+width: 227px;
+ }
+ 
+ .ongoing p{font-family:chaparral Pro;text-align: right;
+font-size: 30px;
+padding-top: 7px;
+padding-right: 8px;
+font-style: italic;
+}
+ 
+ 
+ .upcoming p{font-family:schaparral Pro;text-align: right;
+font-size: 30px;
+padding-top: 7px;
+padding-right: 8px;
+font-style: italic;
+}
+ 
  
 .im {
 	
@@ -48,7 +73,7 @@ width: 159px;
 
 
 
-.ongoing p{text-align:center;}
+
 
 .position {
 	position: relative;

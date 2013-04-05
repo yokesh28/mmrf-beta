@@ -164,8 +164,8 @@
 			<div class="position"> 
 			<img src="images/l-slide.png">
 
-			<div class="ongoing"></div>
-
+			<div class="ongoing"><p>Ongoing</p></div>
+             <div class="upcoming"><p>Upcoming</p></div>
 		</div>
 
 		<script type="text/javascript"
