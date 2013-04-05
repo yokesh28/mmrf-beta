@@ -10,7 +10,8 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 
-
+<script
+	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
 
 </head>
 <body>
@@ -18,20 +19,18 @@
 
 
 		<?php include 'header.php';?>
-<div class="im"></div>
+		<div class="im"></div>
 		<div class="middle">
-			
 
-	<div class="position">
 
-		<div class="ongoing"></div>
-		
-	</div>
+			<div class="position">
+
+				<div class="ongoing"></div>
+
+			</div>
 		</div>
 
 	</div>
-
-
 
 
 </body>
