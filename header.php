@@ -16,17 +16,27 @@
 						<ul class="nav row-fluid menu" id="menu">
 
 							<li class="span2 "><a href="index.php">Home</a> <img
-								src="img/home.jpg" width="150px" style="display: none">
+								src="img/home.jpg"  style="display: none" width=150px>
 							</li>
 							<li class="span2"><a href="project.html">Projects</a>
+							<img
+								src="images/1-1.png"  style="display: none">
 							</li>
 							<li class="span2"><a href="about.html">About Us</a>
+							<img
+								src="images/2-2.png"  style="display: none">
 							</li>
 							<li class="span2"><a href="gallery.html">Gallery</a>
+							<img
+								src="images/3-3.png"  style="display: none">
 							</li>
 							<li class="span2"><a href="media.html">Media Center</a>
+							<img
+								src="images/4-4.png"  style="display: none">
 							</li>
 							<li class="span2"><a href="contact.html">Contact Us</a>
+							<img
+								src="images/5-5.png"  style="display: none">
 							</li>
 
 						</ul>

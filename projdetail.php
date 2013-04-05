@@ -33,14 +33,26 @@
 
 		<div class="im">
 
-			<div class="middle">
+		
+		<div class="middle1" style="right:-50%;">
 
-
-				<!-- Codrops top bar -->
-
-
-
-
+				<div class="position1">
+					<div class="building">
+						<img src="images/images/build.gif">
+					</div>
+					<div class="building1">
+						<img src="images/images/on2.gif">
+					</div>
+					<div class="textright enclave" style="cursor: pointer;">
+						<p>Sai Enclave</p>
+					</div>
+					<div class="textleft padur" style="cursor: pointer;">
+						<p>Padur Residence</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="middle" style="right:-50%">
 				<section class="main demo-2">
 
 				<div id="grid" class="grid clearfix">
@@ -152,9 +164,8 @@
 						</div>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
-							<div class="contant">
+							<div class="contant"></div>
 						</div>
-					</div>
 					</div>
 					<!-- / uc-container -->
 
@@ -165,9 +176,8 @@
 						</div>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
-							<div class="contant">
+							<div class="contant"></div>
 						</div>
-					</div>
 					</div>
 					<!-- / uc-container -->
 
@@ -178,12 +188,11 @@
 						</div>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
-							<div class="contant">
+							<div class="contant"></div>
 						</div>
 					</div>
-					</div>
-					
-					
+
+
 					<div class="uc-container">
 						<div class="uc-initial-content">
 							<p>Specifications</p>
@@ -191,13 +200,12 @@
 						</div>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
-							<div class="contant">
+							<div class="contant"></div>
 						</div>
 					</div>
-					</div>
-					
-					
-					
+
+
+
 					<div class="uc-container">
 						<div class="uc-initial-content">
 							<p>Floor Plans</p>
@@ -205,13 +213,12 @@
 						</div>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
-							<div class="contant">
+							<div class="contant"></div>
 						</div>
-					</div>
 
 					</div>
-					
-	
+
+
 					<!-- / uc-container -->
 
 				</div>
@@ -235,6 +242,20 @@
 			<script type="text/javascript" src="js/jquery.pfold.js"></script>
 			<script type="text/javascript">
 			$(function() {
+
+				  $('.middle1').animate({"right":"12%",opacity:1},500);
+
+
+				  $(".enclave").click(function() {
+					  $('.middle1').animate({"right":"152%",opacity:1},500);
+					  $('.middle').animate({"right":"12%",opacity:1},500);
+					});
+				  $(".padur").click(function() {
+					  $('.middle1').animate({"right":"152%",opacity:1},500);
+					  $('.middle').animate({"right":"12%",opacity:1},500);
+					});
+				
+				  
 
 				// say we want to have only one item opened at one moment
 				var opened = false;
