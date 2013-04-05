@@ -51,7 +51,8 @@ height: 202px;
 width: 320px;
 }
 
-
+.building img{width:100%;height:100%;}
+.building1 img{width:100%;}
 .textright{background: white;
 top: 2%;
 left: 52%;
@@ -59,6 +60,15 @@ width: 317px;
 height: 166px;
 position: absolute;}
 
+.textright p{text-align: center;
+top: 39%;
+position: absolute;
+left: 38%;}
+
+.textleft p{text-align: center;
+bottom: 39%;
+position: absolute;
+left: 38%;}
 
 .textleft{background: white;
 bottom: 31%;
@@ -79,7 +89,8 @@ position: absolute;
 }
 
 .ongoing {
-	background: white;
+	background-color: white;
+	background: url(../images/images/on.png) 0 0 no-repeat;
 	position: absolute;
 	top: 30%;
 	opacity: 0.7;
@@ -90,7 +101,8 @@ position: absolute;
 }
 
 .upcoming {
-	background: white;
+	background-color: white;
+	background: url(../images/images/on.png) 0 0 no-repeat;
 	position: absolute;
 	top: 40%;
 	opacity: 0.7;
