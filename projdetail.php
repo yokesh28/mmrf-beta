@@ -27,108 +27,113 @@
 
 </head>
 <body>
+
 	<div class="slide1">
 
 
 		<?php include 'header.php';?>
 		<div class="im">
-			<div class="ongoing">
-				<p>ongoing</p>
-			</div>
+
 			<div class="middle">
-				
-
-					<!-- Codrops top bar -->
 
 
+				<!-- Codrops top bar -->
 
-					<section class="main demo-2">
 
-					<div id="grid" class="grid clearfix">
 
-						<div class="uc-container">
-							<div class="uc-initial-content">
-								<img src="images/thumbs/3.jpg" alt="image03" /> <span
-									class="icon-eye"></span>
-							</div>
-							<div class="uc-final-content">
-								<img src="images/large/3.jpg" alt="image03-large" />
-								<div class="title">
-									<h4>Angry Nerd Blofeld</h4>
-									by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a>
-								</div>
-								<span class="icon-cancel"></span>
-							</div>
+				<section class="main demo-2">
+
+				<div id="grid" class="grid clearfix">
+
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<img src="images/thumbs/3.jpg" alt="image03" /> <span
+								class="icon-eye"></span>
 						</div>
-						<!-- / uc-container -->
-
-						<div class="uc-container">
-							<div class="uc-initial-content">
-								<img src="images/thumbs/1.jpg" alt="image01" /> <span
-									class="icon-eye"></span>
+						<div class="uc-final-content">
+							<img src="images/large/3.jpg" alt="image03-large" />
+							<div class="title">
+								<h4>Angry Nerd Blofeld</h4>
+								by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a>
 							</div>
-							<div class="uc-final-content">
-								<img src="images/large/1.jpg" alt="image01-large" />
-								<div class="title">
-									<h4>The Professor</h4>
-									by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a>
-								</div>
-								<span class="icon-cancel"></span>
-							</div>
+							<span class="icon-cancel"></span>
 						</div>
-						<!-- / uc-container -->
-
-						<div class="uc-container">
-							<div class="uc-initial-content">
-								<img src="images/thumbs/2.jpg" alt="image02" /> <span
-									class="icon-eye"></span>
-							</div>
-							<div class="uc-final-content">
-								<img src="images/large/2.jpg" alt="image02-large" />
-								<div class="title">
-									<h4>Planet</h4>
-									by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a>
-								</div>
-								<span class="icon-cancel"></span>
-							</div>
-						</div>
-						<!-- / uc-container -->
-
-						<div class="uc-container">
-							<div class="uc-initial-content">
-								<img src="images/thumbs/4.jpg" alt="image04" /> <span
-									class="icon-eye"></span>
-							</div>
-							<div class="uc-final-content">
-								<img src="images/large/4.jpg" alt="image04-large" />
-								<div class="title">
-									<h4>Ero Senin</h4>
-									by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a>
-								</div>
-								<span class="icon-cancel"></span>
-							</div>
-						</div>
-						<!-- / uc-container -->
-
 					</div>
-					<!-- / grid --> </section>
+					<!-- / uc-container -->
+
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<img src="images/thumbs/1.jpg" alt="image01" /> <span
+								class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<img src="images/large/1.jpg" alt="image01-large" />
+							<div class="title">
+								<h4>The Professor</h4>
+								by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a>
+							</div>
+							<span class="icon-cancel"></span>
+						</div>
+					</div>
+					<!-- / uc-container -->
+
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<img src="images/thumbs/2.jpg" alt="image02" /> <span
+								class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<img src="images/large/2.jpg" alt="image02-large" />
+							<div class="title">
+								<h4>Planet</h4>
+								by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a>
+							</div>
+							<span class="icon-cancel"></span>
+						</div>
+					</div>
+					<!-- / uc-container -->
+
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<img src="images/thumbs/4.jpg" alt="image04" /> <span
+								class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<img src="images/large/4.jpg" alt="image04-large" />
+							<div class="title">
+								<h4>Ero Senin</h4>
+								by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a>
+							</div>
+							<span class="icon-cancel"></span>
+						</div>
+					</div>
+					<!-- / uc-container -->
 
 				</div>
+				<!-- / grid --> </section>
 
-
-				<div class="position">
-
-					<div class="ongoing"></div>
-
-				
 			</div>
 
-		</div>
 
-		<script type="text/javascript"
-			src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.pfold.js"></script>
-		<script type="text/javascript">
+			
+			
+			<div class="position">
+			<img src="images/l-slide.png">
+			<div class="ongoing">nfhgfhgfhgfhgfhg</div>
+			</div>
+			
+
+
+		</div>
+		
+
+	</div>
+
+
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.pfold.js"></script>
+	<script type="text/javascript">
 			$(function() {
 
 				// say we want to have only one item opened at one moment
