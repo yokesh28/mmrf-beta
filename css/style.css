@@ -59,7 +59,15 @@ body {
 	padding-right: 8px;
 	font-style: italic;
 }
-
+#menu li{
+	cursor: pointer;
+}
+#menu a{
+	cursor: pointer;
+}
+#menu img{
+	cursor: pointer;
+}
 .upcoming p {
 	font-family: chaparral Pro;
 	text-align: right;
@@ -100,7 +108,7 @@ body {
 }
 
 .navbar .nav {
-	background: rgba(250, 247, 247, 0.52);
+	
 }
 
 .navbar .container {
@@ -109,6 +117,7 @@ body {
 
 .navbar .container li {
 	margin-left: 0px !important;
+	background: rgba(250, 247, 247, 0.52);
 }
 
 .navbar .container li:hover {
