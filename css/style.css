@@ -7,7 +7,7 @@ html {
 html {
 	overflow-y: hidden;
 	overflow-x: hidden;
-	}
+}
 
 body {
 	font-family: Malgun Gothic;
@@ -28,65 +28,66 @@ body {
 	width: 100%;
 	height: 100%;
 }
-.ongoing{background: white;
-position: absolute;
-top: 30%;
-opacity:0.7;
-left: 27%;
-height: 42px;
-width:120%;
-cursor: pointer;
+
+.ongoing {
+	background: white;
+	position: absolute;
+	top: 30%;
+	opacity: 0.7;
+	left: 30%;
+	height: 42px;
+	width: 80%;
+	cursor: pointer;
 }
- 
- .upcoming{background: white;
-position: absolute;
-top: 40%;
-opacity: 0.7;
-left: 43%;
-height: 42px;
-width: 120%;
-cursor: pointer;
- }
- 
- .ongoing p{font-family:chaparral Pro;text-align: right;
-font-size: 30px;
-padding-top: 11px;
-padding-right: 8px;
-font-style: italic;
+
+.upcoming {
+	background: white;
+	position: absolute;
+	top: 40%;
+	opacity: 0.7;
+	left: 40%;
+	height: 42px;
+	width: 80%;
+	cursor: pointer;
 }
- 
- 
- .upcoming p{font-family:chaparral Pro;text-align: right;
-font-size: 30px;
-padding-top: 11px;
-padding-right: 8px;
-font-style: italic;
+
+.ongoing p {
+	font-family: chaparral Pro;
+	text-align: right;
+	font-size: 30px;
+	padding-top: 11px;
+	padding-right: 8px;
+	font-style: italic;
 }
- 
- 
+
+.upcoming p {
+	font-family: chaparral Pro;
+	text-align: right;
+	font-size: 30px;
+	padding-top: 11px;
+	padding-right: 8px;
+	font-style: italic;
+}
+
 .im {
-	
 	position: absolute;
 	top: 0px;
 	height: 100%;
 	width: 152px;
 }
 
-
-
-
-
-
 .position {
 	position: relative;
 	top: 25px;
-
+	width: 267px;
 	height: 100%;
 }
-.position>img{
+
+.position>img {
 	position: absolute;
 	z-index: 999;
 	height: 100%;
+	width: 420px;
 }
 
 .navbar  .navbar-inner {
@@ -191,8 +192,6 @@ font-style: italic;
 	background-color: black;
 }
 
-
-
 #slidemenu {
 	position: fixed;
 	bottom: 0%;
@@ -205,30 +204,41 @@ font-style: italic;
 ::-webkit-scrollbar-track {
 	background-color: white;
 }
-	/* the new scrollbar will have a flat appearance with the set background color */
+/* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {
 	background: white;
 } /* this will style the thumb, ignoring the track */
 ::-webkit-scrollbar-button {
 	background-color: white;
 }
-	/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
 ::-webkit-scrollbar-corner {
 	background-color: white;
 }
-	/* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+/* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
 >>>>>>>
 branch
+
  
+
 '
 master
+
+
 '
- 
 of
+
  
+
 https
+
+
 :
 //github
+
+
 .com
 /yokesh28/mmrf-beta
+
+
 .git
