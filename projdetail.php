@@ -19,7 +19,7 @@
 
 
 		<?php include 'header.php';?>
-		<div class="im"></div>
+		<div class="im"><div class="ongoing"><p>ongoing</p></div>
 		<div class="middle">
 
 

@@ -29,6 +29,16 @@ body {
 width: 152px;
 }
 
+
+.ongoing{background: white;
+position: absolute;
+top: 43%;
+left: 44%;
+height: 35px;
+width: 159px;
+}
+
+
 .middle {
 	background: url(../images/images/projectdetail.png) 0 0 no-repeat;
 	position: absolute;
