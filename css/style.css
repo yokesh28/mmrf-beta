@@ -30,14 +30,15 @@ body {
 }
 .ongoing{background: white;
 position: absolute;
-top: 30%;
-left: 50px;
+top: 43%;
+
+left: 32%;
 height: 35px;
 width: 159px;
 }
 
 .im {
-	
+	background: url(../images/new.png) 0 0 no-repeat;
 	position: absolute;
 	top: 0px;
 	height: 100%;
@@ -52,14 +53,9 @@ width: 159px;
 .position {
 	position: relative;
 	top: 25px;
-	height: 100%;
-	
-}
-
-.position>img{
-	position: absolute;
-	height: 100%;
-	z-index: 999;
+	height: 60px;
+	width: 160px;
+	height: 600px;
 }
 
 .navbar  .navbar-inner {

@@ -121,12 +121,8 @@
 			</div>
 
 
-			<div class="position">
-			<img src="images/l-slide.png">
+			<div class="position"></div>
 			<div class="ongoing"></div>
-			
-			</div>
-			
 
 		</div>
 
