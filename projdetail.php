@@ -55,52 +55,74 @@
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
+							<h2>Overview</h2>
+			<p>The top-notch names of the Real Estate sector have joined
+				hands to create and bestow an exceptional projects with unparalleled
+				quality. MMRF is a collaboraive endeavor of four leading Real Estate
+				Developers; Mayflower Enterprises Private Limited, Mount Housing &
+				Infrastructure Limited, Ramani Realtors Private Limited & Fairyland
+				Foundations Private Limited.</p>
+			<p>MMRF with its team of experts further aims to develop ambience
+				based Residential Flats, and commercial units at strategically
+				chosen locations. this extraordinary amalgamatin of dedicated and
+				esteemed Real Estate Developers ensures of a larger than life
+				dwelling in each of their project which will surpass the expectaions
+				of a high-end living.</p>
+				<h2>Our Board Of Directors</h2>
+			<h2>Mr. V. Mohan
+			<br><span>(Managing Director of<a href="http://www.mayflowerenterprises.com/" target="_blank"> Mayflower Enterprises Pvt.Ltd</a>)</span></h2>
+			<p>Mayflower was established in 1985 as property developers in
+Coimbatore by Mr. A.N. Venkatachalam, one of the key
+members of the Chettinad business empire for over 5 decades.</p>
+<p>Under the leadership of Mr. V Mohan, the Managing Director,
+the company has today grown to become a leading developer of
+gated communities, independent villas and townships.</p>
+<p>The company has completed over 8 commercial projects
+measuring over 250,000 sq. ft and 18 residential projects –
+apartment complexes and independent villas measuring an
+estimated 1,200,000 sq. ft.</p>
 
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
+<h2>Mr. Ramesh Bafna
+			<br><span>(Managing Director of<a href="http://www.mounthousing.com" target="_blank"> Mount Housing & Infrastructure Limited</a>)</span></h2>
+			<p>Mount Housing & Infrastructure Limited is one
+of the leading developers in Coimbatore in the
+areas of residential flats and commercial
+buildings.</p>
+<p>The company has executed over 500,000 sq. ft of
+constructions across 7 projects and has an
+estimated 325,000 sq. ft of construction currently
+underway.</p>
 
-							<p>Overview</p>
-							<p>Overview</p>
 
-							<p>Overview</p>
-							<p>Overview</p>
+<h2>Mr. V. Subramanian (“Mani”)
+			<br><span>(Managing Director of<a href="http://www.ramanirealtors.com//" target="_blank"> Ramani Realtors Pvt. Limited</a>)</span></h2>
+			<p>Ramani Realtors Pvt. Limited – RRPL, an ISO 9001:2008 certified
+Company is professionally managed by its Chairman Shri V S
+Venkatraman</p>
+<p>Founded as Rajmani Builders, VSV Builders & Balaji Constructions by
+its Chairman, the Company has projects across Chennai and
+Coimbatore</p>
+<p>Mr V Subramanian joined his Father Shri V S Venkatraman in 1981
+and established Ramani Realtors in the year 1987. He is the Managing
+Director of the Company and keeps himself abreast of the latest
+developments in the construction industry and implements them in
+his projects. He is ably supported by its Executive Director Mrs
+Dharma Subramanian.</p>
+<p>RRPL is one of the volume leaders for budget homes in Chennai &
+Coimbatore with over 4000 satisfied Customer families and over 4
+million sq ft of completed constructions.</p>
 
-							<p>Overview</p>
-							<p>Overview</p>
-
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-							<p>Overview</p>
-
-							<p>Overview</p>
-							<p>Overview</p>
-
-							<p>Overview</p>
-							<p>Overview</p>
+<h2>Mr. Saravanan
+			<br><span>(Managing Director of<a href="http://www.fairylandfoundations.com/" target="_blank"> Fairyland Foundations Pvt. Ltd</a>)</span></h2>
+			<p>Established in 2000, Fairyland Foundations Pvt. Ltd. is a one of
+the leading builders in Chennai and is engaged in the construction
+of residential flats and individual homes in Chennai.</p>
+<p>Spurred by its remarkable success in Chennai, the Company has
+now spread its wings to Hosur and Coimbatore which have been
+witnessing rapid and consistent growth in recent years.</p>
+<p>The company has completed over 14 residential projects
+comprising of 500 flats and 40 individual & duplex units spanning
+across 650,000sq. ft.</p>
 							</div>
 
 						</div>
@@ -109,8 +131,8 @@
 
 					<div class="uc-container">
 						<div class="uc-initial-content">
-							<img src="images/thumbs/1.jpg" alt="image01" /> <span
-								class="icon-eye"></span>
+							 <p>Location</p>
+							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
 							<img src="images/large/1.jpg" alt="image01-large" />
@@ -125,8 +147,8 @@
 
 					<div class="uc-container">
 						<div class="uc-initial-content">
-							<img src="images/thumbs/2.jpg" alt="image02" /> <span
-								class="icon-eye"></span>
+							<p>KeyPLan</p>
+							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
 							<img src="images/large/2.jpg" alt="image02-large" />
@@ -141,8 +163,8 @@
 
 					<div class="uc-container">
 						<div class="uc-initial-content">
-							<img src="images/thumbs/4.jpg" alt="image04" /> <span
-								class="icon-eye"></span>
+							<p>Amenities</p>
+							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
 							<img src="images/large/4.jpg" alt="image04-large" />
@@ -153,6 +175,36 @@
 							<span class="icon-cancel"></span>
 						</div>
 					</div>
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<p>Specifications</p>
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<img src="images/large/4.jpg" alt="image04-large" />
+							<div class="title">
+								<h4>Ero Senin</h4>
+								by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a>
+							</div>
+							<span class="icon-cancel"></span>
+						</div>
+					</div>
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<p>Floor Plans</p>
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<img src="images/large/4.jpg" alt="image04-large" />
+							<div class="title">
+								<h4>Ero Senin</h4>
+								by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a>
+							</div>
+							<span class="icon-cancel"></span>
+						</div>
+					</div>
+					
+					
 					<!-- / uc-container -->
 
 				</div>
