@@ -24,7 +24,7 @@
 .icon-cancel:before { content: '\2715'; } /* '✕' */
 .icon-plus-circle:before { content: '\50'; } /* 'P' */
 .icon-forward:before { content: '\47'; } /* 'G' */
-.icon-eye:before { content: 'Overview'; } /* 'V' */
+
 .icon-search:before { content: '\5a'; } /* 'Z' */
 .icon-link:before { content: '\4c'; } /* 'L' */
 
@@ -53,6 +53,7 @@ top: 57px;
 left: 70px;
 
 }
+
 .demo-2 .icon-eye {
     position: absolute;
     top: 0;
@@ -79,8 +80,11 @@ left: 70px;
     transition: all 0.3s linear;
 }
 
-.no-touch .demo-2 .uc-initial-content:hover .icon-eye  {
+.uc-initial-content:hover{
     background: red;
+}
+.no-touch .demo-2 .uc-initial-content:hover p  {
+    color: white;
 }
 
 
