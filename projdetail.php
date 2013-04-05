@@ -151,13 +151,10 @@
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
-							<img src="images/large/1.jpg" alt="image01-large" />
-							<div class="title">
-								<h4>The Professor</h4>
-								by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a>
-							</div>
 							<span class="icon-cancel"></span>
+							<div class="contant">
 						</div>
+					</div>
 					</div>
 					<!-- / uc-container -->
 
@@ -167,13 +164,10 @@
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
-							<img src="images/large/2.jpg" alt="image02-large" />
-							<div class="title">
-								<h4>Planet</h4>
-								by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a>
-							</div>
 							<span class="icon-cancel"></span>
+							<div class="contant">
 						</div>
+					</div>
 					</div>
 					<!-- / uc-container -->
 
@@ -183,44 +177,41 @@
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
-							<img src="images/large/4.jpg" alt="image04-large" />
-							<div class="title">
-								<h4>Ero Senin</h4>
-								by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a>
-							</div>
 							<span class="icon-cancel"></span>
+							<div class="contant">
 						</div>
 					</div>
+					</div>
+					
+					
 					<div class="uc-container">
 						<div class="uc-initial-content">
 							<p>Specifications</p>
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
-							<img src="images/large/4.jpg" alt="image04-large" />
-							<div class="title">
-								<h4>Ero Senin</h4>
-								by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a>
-							</div>
 							<span class="icon-cancel"></span>
+							<div class="contant">
 						</div>
 					</div>
+					</div>
+					
+					
+					
 					<div class="uc-container">
 						<div class="uc-initial-content">
 							<p>Floor Plans</p>
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
-							<img src="images/large/4.jpg" alt="image04-large" />
-							<div class="title">
-								<h4>Ero Senin</h4>
-								by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a>
-							</div>
 							<span class="icon-cancel"></span>
+							<div class="contant">
 						</div>
 					</div>
 
-
+					</div>
+					
+	
 					<!-- / uc-container -->
 
 				</div>
