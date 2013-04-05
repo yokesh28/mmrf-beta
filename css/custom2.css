@@ -24,7 +24,7 @@
 .icon-cancel:before { content: '\2715'; } /* '✕' */
 .icon-plus-circle:before { content: '\50'; } /* 'P' */
 .icon-forward:before { content: '\47'; } /* 'G' */
-.icon-eye:before { content: '\56'; } /* 'V' */
+.icon-eye:before { content: 'Overview'; } /* 'V' */
 .icon-search:before { content: '\5a'; } /* 'Z' */
 .icon-link:before { content: '\4c'; } /* 'L' */
 
@@ -44,9 +44,15 @@
 .demo-2 .uc-initial-content,
 .demo-2 .uc-back,
 .demo-2 .uc-front {
-    background: #29a6aa url(../images/noise.png) repeat top left;
+    background: white;
 }
+.uc-initial-content p{
+color: red;
+position: absolute;
+top: 57px;
+left: 70px;
 
+}
 .demo-2 .icon-eye {
     position: absolute;
     top: 0;
@@ -73,10 +79,10 @@
     transition: all 0.3s linear;
 }
 
-.no-touch .demo-2 .uc-initial-content:hover .icon-eye {
-    color: rgba(255,255,255,0.8);
-    background: rgba(41,166,170,0.7);
+.no-touch .demo-2 .uc-initial-content:hover .icon-eye  {
+    background: red;
 }
+
 
 .demo-2 .uc-initial-content img {
     display: block;

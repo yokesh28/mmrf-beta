@@ -36,6 +36,10 @@
 
 			<div class="middle">
 
+<<<<<<< HEAD
+					<!-- Codrops top bar -->
+              
+=======
 
 				<!-- Codrops top bar -->
 
@@ -45,10 +49,12 @@
 
 				<div id="grid" class="grid clearfix">
 
+
 					<div class="uc-container">
 						<div class="uc-initial-content">
 							<img src="images/thumbs/3.jpg" alt="image03" /> <span
 								class="icon-eye"></span>
+
 						</div>
 						<div class="uc-final-content">
 							<img src="images/large/3.jpg" alt="image03-large" />
@@ -117,10 +123,8 @@
 
 			<div class="position"> 
 			<img src="images/l-slide.png">
+
 			<div class="ongoing"></div>
-			
-			</div>
-			
 
 		</div>
 
