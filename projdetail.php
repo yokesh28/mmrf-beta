@@ -49,8 +49,8 @@
 
 					<div class="uc-container">
 						<div class="uc-initial-content">
-							<img src="images/thumbs/3.jpg" alt="image03" /> <span
-								class="icon-eye"></span>
+							<p>Overview</p> 
+							<span class="icon-eye">Overview</span>
 
 						</div>
 						<div class="uc-final-content">
