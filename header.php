@@ -4,17 +4,19 @@
 
 <header>
 	<div class="navbar navbar-inverse navbar-fixed-top">
-<div class="">
+		<div class="">
 			<div class="container">
 
 				<div class="row-fluid">
-					<a class="span2 logo" href="#"><img src="images/logo.png" height="84px"> </a>
+					<a class="span2 logo" href="#"><img src="images/logo.png"
+						height="84px"> </a>
 					<div class="nav-collapse collapse span10 ">
 
 
 						<ul class="nav row-fluid menu" id="menu">
 
-							<li class="span2 "><a href="index.php">Home</a>
+							<li class="span2 "><a href="index.php">Home</a> <img
+								src="img/home.jpg" width="150px" style="display: none">
 							</li>
 							<li class="span2"><a href="project.html">Projects</a>
 							</li>
@@ -41,7 +43,32 @@
 	<script>
 	$(document).ready(function(){
 		$('#menu').mobileMenu({switchWidth :979,prependTo:'.dropmenu',topOptionText :'-MAIN MENU'});
+
+
+
+
+
+			
 });
+	
+
+	$("#menu li").mouseover(
+			  function () {
+				  $(this).find("a").css('display','none');
+				  $(this).find("img").css('display','block');
+				  $(this).animate({"height":"258px",opacity:1},500);
+			  }
+			
+			).mouseleave(function () {
+				  $(this).animate({"height":"84px",opacity:1},500);
+				  $(this).find("a").css('display','block');
+				  $(this).find("img").css('display','none');
+			  });
+	
+
+	
+	
+	
 	</script>
 </header>
 

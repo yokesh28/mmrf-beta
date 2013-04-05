@@ -98,6 +98,7 @@ position: absolute;
 	height: 42px;
 	width: 80%;
 	cursor: pointer;
+	
 }
 
 .upcoming {
@@ -120,7 +121,15 @@ position: absolute;
 	padding-right: 8px;
 	font-style: italic;
 }
-
+#menu li{
+	cursor: pointer;
+}
+#menu a{
+	cursor: pointer;
+}
+#menu img{
+	cursor: pointer;
+}
 .upcoming p {
 	font-family: chaparral Pro;
 	text-align: right;
@@ -151,7 +160,7 @@ margin: 45px 20px;}
 
 .position>img {
 	position: absolute;
-	z-index: 999;
+
 	height: 100%;
 	width: 420px;
 }
@@ -166,7 +175,7 @@ margin: 45px 20px;}
 }
 
 .navbar .nav {
-	background: rgba(250, 247, 247, 0.52);
+	
 }
 
 .navbar .container {
@@ -175,6 +184,7 @@ margin: 45px 20px;}
 
 .navbar .container li {
 	margin-left: 0px !important;
+	background: rgba(250, 247, 247, 0.52);
 }
 
 .navbar .container li:hover {
@@ -243,9 +253,29 @@ margin: 45px 20px;}
 }
 
 .contant {
-	overflow: scroll;
+	overflow-y: scroll;
 	margin: 28px;
-	height: 245px;
+	
+	text-align: justify;
+	right: -28px;
+
+height: 245px;
+position: absolute;
+	
+	
+	
+}
+
+.contant h2
+{
+font-size: 17.5px;
+padding-right: 10px;
+}
+
+.contant p
+{
+padding-right: 10px;
+
 }
 
 .alert1 {
@@ -274,18 +304,18 @@ margin: 45px 20px;}
 	width: 15px;
 } /* this targets the default scrollbar (compulsory) */
 ::-webkit-scrollbar-track {
-	background-color: white;
+	background-color: black;
 }
 /* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {
 	background: white;
 } /* this will style the thumb, ignoring the track */
 ::-webkit-scrollbar-button {
-	background-color: white;
+	background-color: black;
 }
 /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
 ::-webkit-scrollbar-corner {
-	background-color: white;
+	background-color: black;
 }
 
 /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
