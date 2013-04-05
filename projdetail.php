@@ -33,8 +33,8 @@
 
 		<div class="im">
 
-		
-		<div class="middle1" style="right:-50%;">
+
+			<div class="middle1" style="right: -50%;" id="ongoing">
 
 				<div class="position1">
 					<div class="building">
@@ -51,8 +51,23 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="middle" style="right:-50%">
+
+			<div class="middle1" id="upcoming"  style="right: -50%;">
+
+				<div class="position1">
+					<div class="building2">
+						<img src="images/images/up.jpg">
+					</div>
+					<div class="building1 "></div>
+					<div class="textright bottom">
+						<p>Ottiyambakkam, Chennai</p>
+					</div>
+					<div class="textleft">
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<div class="middle" style="right: -50%">
 				<section class="main demo-2">
 
 				<div id="grid" class="grid clearfix">
@@ -243,15 +258,32 @@
 			<script type="text/javascript">
 			$(function() {
 
-				  $('.middle1').animate({"right":"12%",opacity:1},500);
+				  $('#ongoing').animate({"right":"12%",opacity:1},500);
 
+				  $(".ongoing").click(function() {
+					  $('.middle1').animate({"right":"-50%",opacity:1},500);
+					  $('.middle').animate({"right":"-50%",opacity:1},500);
+					  $('#upcoming').animate({"right":"-50%",opacity:1},500);
+					  $('#ongoing').animate({"right":"12%",opacity:1},500);
+					});
+				  $(".upcoming").click(function() {
+					  $('.middle1').animate({"right":"-50%",opacity:1},500);
+					  $('.middle').animate({"right":"-50%",opacity:1},500);
+					  $('#ongoing').animate({"right":"-50%",opacity:1},500);
+					  $('#upcoming').animate({"right":"12%",opacity:1},500);
+					});
+					
 
 				  $(".enclave").click(function() {
-					  $('.middle1').animate({"right":"152%",opacity:1},500);
+					  $('.middle1').animate({"right":"-50%",opacity:1},500);
+					  $('#upcoming').animate({"right":"-50%",opacity:1},500);
+					  $('#ongoing').animate({"right":"-50%",opacity:1},500);
 					  $('.middle').animate({"right":"12%",opacity:1},500);
 					});
 				  $(".padur").click(function() {
-					  $('.middle1').animate({"right":"152%",opacity:1},500);
+					  $('.middle').animate({"right":"-50%",opacity:1},500);
+					  $('#upcoming').animate({"right":"-50%",opacity:1},500);
+					  $('#ongoing').animate({"right":"-50%",opacity:1},500);
 					  $('.middle').animate({"right":"12%",opacity:1},500);
 					});
 				

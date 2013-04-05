@@ -15,10 +15,11 @@
 
 						<ul class="nav row-fluid menu" id="menu">
 
-							<li class="span2 "><a href="index.php">Home</a> <img
+							<li class="span2" onclick="location.href='index.php'"><a href="index.php">Home</a> 
+							<img
 								src="img/home.jpg"  style="display: none" width=150px>
 							</li>
-							<li class="span2"><a href="project.html">Projects</a>
+							<li class="span2" onclick="location.href='projdetail.php'"><a href="project.html">Projects</a>
 							<img
 								src="images/1-1.png"  style="display: none">
 							</li>
@@ -60,7 +61,7 @@
 
 			
 });
-	
+
 
 	$("#menu li").mouseover(
 			  function () {
