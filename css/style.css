@@ -28,6 +28,14 @@ body {
 	width: 100%;
 	height: 100%;
 }
+.ongoing{background: white;
+position: absolute;
+top: 43%;
+
+left: 32%;
+height: 35px;
+width: 159px;
+}
 
 .im {
 	background: url(../images/new.png) 0 0 no-repeat;
@@ -38,16 +46,9 @@ body {
 }
 
 
-.ongoing{background: white;
-position: absolute;
-top: 43%;
-left: 44%;
-height: 35px;
-width: 159px;
-}
 
 
-
+.ongoing p{text-align:center;}
 
 .position {
 	position: relative;
