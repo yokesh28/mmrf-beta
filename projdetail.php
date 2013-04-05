@@ -36,11 +36,6 @@
 
 			<div class="middle">
 
-<<<<<<< HEAD
-					<!-- Codrops top bar -->
-              
-=======
-
 				<!-- Codrops top bar -->
 
 
