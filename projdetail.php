@@ -27,7 +27,6 @@
 
 </head>
 <body>
-
 	<div class="slide1">
 
 
@@ -116,26 +115,15 @@
 			</div>
 
 
-
-			
-			
-			<div class="position">
-			<img src="images/l-slide.png">
-			<div class="ongoing">nfhgfhgfhgfhgfhg</div>
-			</div>
-			
-
+			<div class="position"></div>
+			<div class="ongoing"></div>
 
 		</div>
-		
 
-	</div>
-
-
-	<script type="text/javascript"
-		src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.pfold.js"></script>
-	<script type="text/javascript">
+		<script type="text/javascript"
+			src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.pfold.js"></script>
+		<script type="text/javascript">
 			$(function() {
 
 				// say we want to have only one item opened at one moment

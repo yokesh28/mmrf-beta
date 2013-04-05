@@ -7,7 +7,7 @@ html {
 html {
 	overflow-y: hidden;
 	overflow-x: hidden;
-}
+	}
 
 body {
 	font-family: Malgun Gothic;
@@ -38,6 +38,7 @@ width: 159px;
 }
 
 .im {
+	background: url(../images/new.png) 0 0 no-repeat;
 	position: absolute;
 	top: 0px;
 	height: 100%;
@@ -45,31 +46,16 @@ width: 159px;
 }
 
 
-.ongoing {
-	background: white;
-	position: absolute;
-	top: 20%;
-	height: 35px;
-	width: 159px;
-	left: 43px;
-	opacity: 0.6;
-}
 
 
-
-
+.ongoing p{text-align:center;}
 
 .position {
-	position: absolute;
+	position: relative;
 	top: 25px;
 	height: 60px;
-	height: 100%;
-}
-
-.position>img {
-	z-index: 9999;
-	position: absolute;
-	height: 100%;
+	width: 160px;
+	height: 600px;
 }
 
 .navbar  .navbar-inner {
@@ -174,6 +160,8 @@ width: 159px;
 	background-color: black;
 }
 
+
+
 #slidemenu {
 	position: fixed;
 	bottom: 0%;
@@ -186,16 +174,30 @@ width: 159px;
 ::-webkit-scrollbar-track {
 	background-color: white;
 }
-/* the new scrollbar will have a flat appearance with the set background color */
+	/* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {
 	background: white;
 } /* this will style the thumb, ignoring the track */
 ::-webkit-scrollbar-button {
 	background-color: white;
 }
-/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+	/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
 ::-webkit-scrollbar-corner {
 	background-color: white;
 }
-/* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
-
+	/* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+>>>>>>>
+branch
+ 
+'
+master
+'
+ 
+of
+ 
+https
+:
+//github
+.com
+/yokesh28/mmrf-beta
+.git
