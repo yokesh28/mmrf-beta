@@ -39,7 +39,7 @@
 				
 
 					<!-- Codrops top bar -->
-
+              
 
 
 					<section class="main demo-2">
@@ -48,8 +48,8 @@
 
 						<div class="uc-container">
 							<div class="uc-initial-content">
-								<img src="images/thumbs/3.jpg" alt="image03" /> <span
-									class="icon-eye"></span>
+							<p >Overview</p>
+								 <span	class="icon-eye"></span>
 							</div>
 							<div class="uc-final-content">
 								<img src="images/large/3.jpg" alt="image03-large" />
