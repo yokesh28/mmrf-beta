@@ -36,8 +36,12 @@
 .uc-final,
 .uc-final-content {
 	display: none;
+	overflow-y: scroll;
 }
-
+.uc-final-content1 {
+	display: none;
+	overflow-y: scroll;
+}
 .uc-initial-content {
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
