@@ -22,6 +22,55 @@ body {
 	width: 780px;
 }
 
+.middle1{
+	background: url(../images/images/project.png) 0 0 no-repeat;
+	position: fixed;
+	right: 12%;
+	top: 22%;
+	width: 780px;
+	height:600px;
+}
+
+.building{
+	position: absolute;
+top: 2%;
+left: 2%;
+background: white;
+padding: 0px;
+margin: 0px;
+width: 324px;
+height: 200px;
+}
+
+.building1{
+	position: absolute;
+background: white;
+bottom: 30%;
+left: 52%;
+height: 202px;
+width: 320px;
+}
+
+
+.textright{background: white;
+top: 2%;
+left: 52%;
+width: 317px;
+height: 166px;
+position: absolute;}
+
+
+.textleft{background: white;
+bottom: 31%;
+left: 2%;
+width: 317px;
+height: 166px;
+position: absolute;
+}
+
+
+
+
 .slide1 {
 	position: relative;
 	background: url(../images/3.jpg) 0 0 no-repeat;
@@ -82,6 +131,11 @@ body {
 	width: 267px;
 	height: 100%;
 }
+
+.position1 {position: relative;
+width: 100%;
+height: 100%;
+margin: 45px 20px;}
 
 .position>img {
 	position: absolute;
@@ -216,29 +270,4 @@ body {
 	background-color: white;
 }
 /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
->>>>>>>
-branch
 
- 
-
-'
-master
-
-
-'
-of
-
- 
-
-https
-
-
-:
-//github
-
-
-.com
-/yokesh28/mmrf-beta
-
-
-.git
