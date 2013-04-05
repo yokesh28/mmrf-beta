@@ -15,6 +15,7 @@ body {
 }
 
 .middle {
+	background: url(../images/images/projectdetail.png) 0 0 no-repeat;
 	position: fixed;
 	right: 9%;
 	top: 22%;
@@ -46,14 +47,7 @@ width: 159px;
 }
 
 
-.middle {
-	background: url(../images/images/projectdetail.png) 0 0 no-repeat;
-	position: absolute;
-	right: 10%;
-	bottom: 10%;
-	width: 789px;
-	height: 550px;
-}
+
 
 .position {
 	position: relative;
