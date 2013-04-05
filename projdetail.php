@@ -4,23 +4,24 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        
-        <meta name="description" content="PFold: Paper-Like Unfolding Effect" />
-        <meta name="keywords" content="css3, experiment, 3d, unfolding, fold, paper, component, element, web design, jquery, plugin, perspective" />
-        <meta name="author" content="Codrops" />
-        
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/pfold.css" />
-        <link rel="stylesheet" type="text/css" href="css/custom2.css" />
-		
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="PFold: Paper-Like Unfolding Effect" />
+<meta name="keywords"
+	content="css3, experiment, 3d, unfolding, fold, paper, component, element, web design, jquery, plugin, perspective" />
+<meta name="author" content="Codrops" />
+
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/pfold.css" />
+<link rel="stylesheet" type="text/css" href="css/custom2.css" />
+
 <link href="css/res.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 <script
 	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
 
@@ -30,83 +31,102 @@
 
 
 		<?php include 'header.php';?>
-		<div class="im"><div class="ongoing"><p>ongoing</p></div>
-		<div class="middle">
-<div class="container">
-		
-			<!-- Codrops top bar -->
-            
-			
-			
-			<section class="main demo-2">
-				
-				<div id="grid" class="grid clearfix">
-				
-					<div class="uc-container">
-						<div class="uc-initial-content">
-							<img src="images/thumbs/3.jpg" alt="image03" />
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content">
-							<img src="images/large/3.jpg" alt="image03-large" />
-							<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
-							<span class="icon-cancel"></span>
-						</div>
-					</div><!-- / uc-container -->
-
-					<div class="uc-container">
-						<div class="uc-initial-content">
-							<img src="images/thumbs/1.jpg" alt="image01" />
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content">
-							<img src="images/large/1.jpg" alt="image01-large" />
-							<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-							<span class="icon-cancel"></span>
-						</div>
-					</div><!-- / uc-container -->
-
-					<div class="uc-container">
-						<div class="uc-initial-content">
-							<img src="images/thumbs/2.jpg" alt="image02" />
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content">
-							<img src="images/large/2.jpg" alt="image02-large" />
-							<div class="title"><h4>Planet</h4> by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a></div>
-							<span class="icon-cancel"></span>
-						</div>
-					</div><!-- / uc-container -->
-
-					<div class="uc-container">
-						<div class="uc-initial-content">
-							<img src="images/thumbs/4.jpg" alt="image04" />
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content">
-							<img src="images/large/4.jpg" alt="image04-large" />
-							<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-							<span class="icon-cancel"></span>
-						</div>
-					</div><!-- / uc-container -->
-
-				</div><!-- / grid -->
-				
-			</section>
-
-		</div>
-		
-
-			<div class="position">
-
-				<div class="ongoing"></div>
-
+		<div class="im">
+			<div class="ongoing">
+				<p>ongoing</p>
 			</div>
+			<div class="middle">
+				
+
+					<!-- Codrops top bar -->
+
+
+
+					<section class="main demo-2">
+
+					<div id="grid" class="grid clearfix">
+
+						<div class="uc-container">
+							<div class="uc-initial-content">
+								<img src="images/thumbs/3.jpg" alt="image03" /> <span
+									class="icon-eye"></span>
+							</div>
+							<div class="uc-final-content">
+								<img src="images/large/3.jpg" alt="image03-large" />
+								<div class="title">
+									<h4>Angry Nerd Blofeld</h4>
+									by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a>
+								</div>
+								<span class="icon-cancel"></span>
+							</div>
+						</div>
+						<!-- / uc-container -->
+
+						<div class="uc-container">
+							<div class="uc-initial-content">
+								<img src="images/thumbs/1.jpg" alt="image01" /> <span
+									class="icon-eye"></span>
+							</div>
+							<div class="uc-final-content">
+								<img src="images/large/1.jpg" alt="image01-large" />
+								<div class="title">
+									<h4>The Professor</h4>
+									by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a>
+								</div>
+								<span class="icon-cancel"></span>
+							</div>
+						</div>
+						<!-- / uc-container -->
+
+						<div class="uc-container">
+							<div class="uc-initial-content">
+								<img src="images/thumbs/2.jpg" alt="image02" /> <span
+									class="icon-eye"></span>
+							</div>
+							<div class="uc-final-content">
+								<img src="images/large/2.jpg" alt="image02-large" />
+								<div class="title">
+									<h4>Planet</h4>
+									by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a>
+								</div>
+								<span class="icon-cancel"></span>
+							</div>
+						</div>
+						<!-- / uc-container -->
+
+						<div class="uc-container">
+							<div class="uc-initial-content">
+								<img src="images/thumbs/4.jpg" alt="image04" /> <span
+									class="icon-eye"></span>
+							</div>
+							<div class="uc-final-content">
+								<img src="images/large/4.jpg" alt="image04-large" />
+								<div class="title">
+									<h4>Ero Senin</h4>
+									by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a>
+								</div>
+								<span class="icon-cancel"></span>
+							</div>
+						</div>
+						<!-- / uc-container -->
+
+					</div>
+					<!-- / grid --> </section>
+
+				</div>
+
+
+				<div class="position">
+
+					<div class="ongoing"></div>
+
+				
+			</div>
+
 		</div>
 
-	</div>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript"
+			src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.pfold.js"></script>
 		<script type="text/javascript">
 			$(function() {
@@ -150,5 +170,6 @@
 				
 			});
 		</script>
+
 </body>
 </html>
