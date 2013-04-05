@@ -53,6 +53,18 @@ width: 320px;
 
 .building img{width:100%;height:100%;}
 .building1 img{width:100%;}
+.building2 img{width: 353px;
+height: 220px;
+margin: 0px;
+padding: 10px;}
+
+.bottom p{text-align: center;
+top: 39%;
+position: absolute;
+left: 24%;}
+
+
+
 .textright{background: white;
 top: 2%;
 left: 52%;
@@ -63,12 +75,12 @@ position: absolute;}
 .textright p{text-align: center;
 top: 39%;
 position: absolute;
-left: 38%;}
+left: 32%;}
 
 .textleft p{text-align: center;
 bottom: 39%;
 position: absolute;
-left: 38%;}
+left: 32%;}
 
 .textleft{background: white;
 bottom: 31%;
