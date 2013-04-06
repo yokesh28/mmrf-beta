@@ -78,7 +78,7 @@
 
 
 
-	<div class="slide1">
+	<div >
 
 		<img src="images/5.jpg" width="100%" height="100%">
 		<?php include 'header.php';?>
