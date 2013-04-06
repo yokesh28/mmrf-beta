@@ -438,7 +438,7 @@ margin-top: 100px;
 }
 /* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {
-	background: white;
+	background: black;
 } /* this will style the thumb, ignoring the track */
 ::-webkit-scrollbar-button {
 	background-color: black;
