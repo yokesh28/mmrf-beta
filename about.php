@@ -33,14 +33,23 @@
 <!--STYLESHEETS-->
 <link href="css/style2.css" rel="stylesheet">
 <!--END OF STYLESHEETS-->
-
+<link href="css/res.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 <!--SCRIPTS-->
 <script type="text/javascript"
 	src="http://fresh-development.com/jsc/jquery.js"></script>
 </head>
 <body>
+<div>
+<?php include 'header.php';?>
 	<a id='totop' href='#'></a>
 	<div style='padding-bottom: 0;' class='main_pan '>
+	
+	
+	
 		<!-- HEADER -->
 
 
@@ -115,7 +124,7 @@
 									the company has today grown to become a leading developer of
 									gated communities, independent villas and townships.</p>
 								<p>The company has completed over 8 commercial projects
-									measuring over 250,000 sq. ft and 18 residential projects ‚Äì
+									measuring over 250,000 sq. ft and 18 residential projects ñ
 									apartment complexes and independent villas measuring an
 									estimated 1,200,000 sq. ft.</p>
 
@@ -134,12 +143,12 @@
 
 
 								<h2>
-									Mr. V. Subramanian (‚ÄúMani‚Äù) <br> <span><h6>(Managing Director of<a
+									Mr. V. Subramanian (ìManiî) <br> <span><h6>(Managing Director of<a
 										href="http://www.ramanirealtors.com//" target="_blank"> Ramani
 											Realtors Pvt. Limited</a>)</h6>
 									</span>
 								</h2>
-								<p>Ramani Realtors Pvt. Limited ‚Äì RRPL, an ISO 9001:2008
+								<p>Ramani Realtors Pvt. Limited ñ RRPL, an ISO 9001:2008
 									certified Company is professionally managed by its Chairman
 									Shri V S Venkatraman</p>
 								<p>Founded as Rajmani Builders, VSV Builders & Balaji
@@ -436,7 +445,7 @@
 			</div>
 		</div>
 	</div>
-
+</div>
 	<script type="text/javascript"
 		src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	<script type="text/javascript" src="js/script.js"></script>
@@ -469,5 +478,13 @@
 			s.parentNode.insertBefore(ga, s);
 		})();
 	</script>
+	
+	
+	<script src="js/bootstrap.min.js"></script>
+
+
+			<script src="js/jquery.mobilemenu.js"></script>
+	
 </body>
 </html>
+
