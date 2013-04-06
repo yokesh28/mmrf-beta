@@ -59,28 +59,48 @@ margin: 0px;
 padding: 10px;}
 
 .bottom p{text-align: center;
-top: 39%;
+font-style: italic;
+font-family: chaparral Pro;
+font-size: 23px;margin:60px;}
+
+
+
+.bottom{background: white;
+top: 1%;
+left: 51%;
+width: 317px;
+height: 172px;
 position: absolute;
-left: 24%;}
-
-
+font-family: chaparral Pro;
+font-size: 30px;}
 
 .textright{background: white;
-top: 2%;
+top: 1%;
 left: 52%;
 width: 317px;
-height: 166px;
-position: absolute;}
+height: 172px;
+position: absolute;
+font-family: chaparral Pro;
+font-size: 30px;
+}
+
+.textright a:hover {
+  color: black ;
+  background-color: red ;
+}
+
+
 
 .textright p{text-align: center;
-top: 39%;
+top: 39%;font-style: italic;
 position: absolute;
-left: 32%;}
+left:29%;}
 
 .textleft p{text-align: center;
 bottom: 39%;
 position: absolute;
-left: 32%;}
+left: 19%;font-style: italic;
+}
 
 .textleft{background: white;
 bottom: 31%;
@@ -88,10 +108,13 @@ left: 2%;
 width: 317px;
 height: 166px;
 position: absolute;
+font-family: chaparral Pro;
+font-size: 30px;
 }
 
-
-
+.textleft:hover{background:red;cursor:pointer;}
+.textright:hover{background:red;}
+.bottom:hover{background:red;cursor:pointer;}
 
 .slide1 {
 	position: relative;
