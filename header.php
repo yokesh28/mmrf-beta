@@ -63,19 +63,21 @@
 });
 
 
-	$("#menu li").mouseover(
-			  function () {
-				  $(this).find("a").css('display','none');
-				  $(this).find("img").css('display','block');
-				  $(this).animate({"height":"258px",opacity:1},500);
-			  }
+
+	$("#menu li").hover( function () {
+		  $(this).live();
+		  $(this).find("a").css('display','none');
+		  $(this).find("img").css('display','block');
+		  $(this).animate({"height":"258px",opacity:1});
+	  }, function () {
 			
-			).mouseleave(function () {
-				  $(this).animate({"height":"84px",opacity:1},500);
-				  $(this).find("a").css('display','block');
-				  $(this).find("img").css('display','none');
-			  });
-	
+		  $(this).animate({"height":"84px",opacity:1});
+		  $(this).find("a").css('display','block');
+		  $(this).find("img").css('display','none');
+		  return true;
+	  });
+
+
 
 	
 	
