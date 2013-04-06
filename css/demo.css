@@ -11,18 +11,7 @@
     box-sizing: border-box; 
 }
 
-html { height: 100%; }
 
-body {
-    font-family: 'Open Sans Condensed','Arial Narrow', serif;
-    background: #DDD;
-    font-weight: 400;
-    font-size: 15px;
-    color: #333;
-    -webkit-font-smoothing: antialiased;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
 
 a {
     color: #555;

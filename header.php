@@ -62,15 +62,14 @@
 			
 });
 
-
+	
 
 	$("#menu li").hover( function () {
-		  $(this).live();
 		  $(this).find("a").css('display','none');
 		  $(this).find("img").css('display','block');
 		  $(this).animate({"height":"258px",opacity:1});
 	  }, function () {
-			
+		  $(this).clearQueue();
 		  $(this).animate({"height":"84px",opacity:1});
 		  $(this).find("a").css('display','block');
 		  $(this).find("img").css('display','none');

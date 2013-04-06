@@ -13,9 +13,10 @@
 <meta name="author" content="Codrops" />
 
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
-<link rel="stylesheet" type="text/css" href="css/pfold.css" />
-<link rel="stylesheet" type="text/css" href="css/custom2.css" />
-
+        <link rel="stylesheet" type="text/css" href="css/pfold.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom2.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		
 <link href="css/res.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
@@ -23,7 +24,7 @@
 <link href="css/style.css" rel="stylesheet">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
 </head>
 <body>
 	<div class="slide1">
@@ -172,6 +173,11 @@
 					</div>
 					<!-- / uc-container -->
 
+					
+					
+					
+					
+					
 					<div class="uc-container">
 						<div class="uc-initial-content">
 							<p>Location</p>
@@ -254,11 +260,13 @@
 			</div>
 
 
-			<script type="text/javascript" src="js/jquery.pfold.js"></script>
-			<script type="text/javascript">
+			
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.pfold.js"></script>
+		<script type="text/javascript">
 			$(function() {
 
-				  $('#ongoing').animate({"right":"12%",opacity:1},500);
+				$('#ongoing').animate({"right":"12%",opacity:1},500);
 
 				  $(".ongoing").click(function() {
 					  $('.middle1').animate({"right":"-100%",opacity:1},500);
@@ -287,7 +295,9 @@
 					  $('.middle').animate({"right":"12%",opacity:1},500);
 					});
 				
-				  
+
+
+				
 
 				// say we want to have only one item opened at one moment
 				var opened = false;
@@ -299,15 +309,16 @@
 					switch( i ) {
 						case 0 : direction = ['right','bottom']; break;
 						case 1 : direction = ['left','bottom']; break;
-						case 2 : direction = ['right','top']; break;
-						case 3 : direction = ['left','top']; break;
+						case 2 : direction = ['left','bottom']; break;
+						case 3 : direction = ['right','top']; break;
+						case 4 : direction = ['left' ,'top'];break;
+						case 5 : direction = ['left' ,'top'];break;
 					}
 					
 					var pfold = $item.pfold( {
 						folddirection : direction,
 						speed : 300,
 						onEndFolding : function() { opened = false; },
-						centered : true
 					} );
 
 					$item.find( 'span.icon-eye' ).on( 'click', function() {
@@ -328,6 +339,13 @@
 				
 			});
 		</script>
+		
+		
+		
+		
+		
+		
+		
 
 
 			<script src="js/bootstrap.min.js"></script>
