@@ -74,13 +74,13 @@
 				<div id="grid" class="grid clearfix">
 
 
-					<div class="uc-container">
+					<div class="uc-container box1">
 						<div class="uc-initial-content">
 							<p>Overview</p>
 							<span class="icon-eye">Overview</span>
 
 						</div>
-						<div class="uc-final-content">
+						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
@@ -178,31 +178,31 @@
 					
 					
 					
-					<div class="uc-container">
+					<div class="uc-container box2">
 						<div class="uc-initial-content">
 							<p>Location</p>
 							<span class="icon-eye"></span>
 						</div>
-						<div class="uc-final-content">
+						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant"></div>
 						</div>
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container">
+					<div class="uc-container box3">
 						<div class="uc-initial-content">
 							<p>KeyPLan</p>
 							<span class="icon-eye"></span>
 						</div>
-						<div class="uc-final-content">
+						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant"></div>
 						</div>
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container">
+					<div class="uc-container box4">
 						<div class="uc-initial-content">
 							<p>Amenities</p>
 							<span class="icon-eye"></span>
@@ -224,7 +224,7 @@
 					</div>
 
 
-					<div class="uc-container">
+					<div class="uc-container box5">
 						<div class="uc-initial-content">
 							<p>Specifications</p>
 							<span class="icon-eye"></span>
@@ -237,7 +237,7 @@
 
 
 
-					<div class="uc-container">
+					<div class="uc-container box6">
 						<div class="uc-initial-content">
 							<p>Floor Plans</p>
 							<span class="icon-eye"></span>

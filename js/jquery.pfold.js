@@ -22,6 +22,7 @@
 	* Copyright 2011 @louis_remi
 	* Licensed under the MIT license.
 	*/
+	
 	var $event = $.event,
 	$special,
 	resizeTimeout;
@@ -96,6 +97,7 @@
 		onEndFolding : function() { return false; },
 		onEndUnfolding : function() { return false; }
 	};
+
 
 	$.PFold.prototype = {
 
