@@ -34,7 +34,7 @@
 		<div class="im">
 
 
-			<div class="middle1" style="right: -50%;" id="ongoing">
+			<div class="middle1" style="right: -100%;" id="ongoing">
 
 				<div class="position1">
 					<div class="building">
@@ -52,7 +52,7 @@
 				</div>
 			</div>
 
-			<div class="middle1" id="upcoming"  style="right: -50%;">
+			<div class="middle1" id="upcoming"  style="right: -100%;">
 
 				<div class="position1">
 					<div class="building2">
@@ -67,7 +67,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="middle" style="right: -50%">
+			<div class="middle" style="right: -100%">
 				<section class="main demo-2">
 
 				<div id="grid" class="grid clearfix">
@@ -261,29 +261,29 @@
 				  $('#ongoing').animate({"right":"12%",opacity:1},500);
 
 				  $(".ongoing").click(function() {
-					  $('.middle1').animate({"right":"-50%",opacity:1},500);
-					  $('.middle').animate({"right":"-50%",opacity:1},500);
-					  $('#upcoming').animate({"right":"-50%",opacity:1},500);
+					  $('.middle1').animate({"right":"-100%",opacity:1},500);
+					  $('.middle').animate({"right":"-100%",opacity:1},500);
+					  $('#upcoming').animate({"right":"-100%",opacity:1},500);
 					  $('#ongoing').animate({"right":"12%",opacity:1},500);
 					});
 				  $(".upcoming").click(function() {
-					  $('.middle1').animate({"right":"-50%",opacity:1},500);
-					  $('.middle').animate({"right":"-50%",opacity:1},500);
-					  $('#ongoing').animate({"right":"-50%",opacity:1},500);
+					  $('.middle1').animate({"right":"-100%",opacity:1},500);
+					  $('.middle').animate({"right":"-100%",opacity:1},500);
+					  $('#ongoing').animate({"right":"-100%",opacity:1},500);
 					  $('#upcoming').animate({"right":"12%",opacity:1},500);
 					});
 					
 
 				  $(".enclave").click(function() {
-					  $('.middle1').animate({"right":"-50%",opacity:1},500);
-					  $('#upcoming').animate({"right":"-50%",opacity:1},500);
-					  $('#ongoing').animate({"right":"-50%",opacity:1},500);
+					  $('.middle1').animate({"right":"-100%",opacity:1},500);
+					  $('#upcoming').animate({"right":"-100%",opacity:1},500);
+					  $('#ongoing').animate({"right":"-100%",opacity:1},500);
 					  $('.middle').animate({"right":"12%",opacity:1},500);
 					});
 				  $(".padur").click(function() {
-					  $('.middle').animate({"right":"-50%",opacity:1},500);
-					  $('#upcoming').animate({"right":"-50%",opacity:1},500);
-					  $('#ongoing').animate({"right":"-50%",opacity:1},500);
+					  $('.middle').animate({"right":"-100%",opacity:1},500);
+					  $('#upcoming').animate({"right":"-100%",opacity:1},500);
+					  $('#ongoing').animate({"right":"-100%",opacity:1},500);
 					  $('.middle').animate({"right":"12%",opacity:1},500);
 					});
 				
