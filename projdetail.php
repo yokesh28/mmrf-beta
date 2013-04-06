@@ -59,7 +59,7 @@
 						<img src="images/images/up.jpg">
 					</div>
 					<div class="building1 "></div>
-					<div class="textright bottom">
+					<div class="bottom">
 						<p>Ottiyambakkam, Chennai</p>
 					</div>
 					<div class="textleft">
