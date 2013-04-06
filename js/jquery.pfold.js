@@ -67,6 +67,7 @@
 
 	// the options
 	$.PFold.defaults = {
+			i:10,
 		// perspective value
 		perspective : 1200,
 		// each folding step's speed
@@ -169,8 +170,8 @@
 			var $initialContentEl = this.$el.children( 'div.uc-initial-content' ),
 				finalDim = this._getFinalDim(),
 				$finalContentEl = this.$el.children( 'div.uc-final-content' ).css( {
-					width : finalDim.width,
-					height : finalDim.height
+					width :'auto',
+					height : 'auto'
 				} );
 
 			$initialContentEl.wrap( '<div class="uc-initial"></div>' );
@@ -396,8 +397,10 @@
 
 			step |= 0;
 			
+			
 			var self = this,
 				styleCSS = ( action === 'fold' ) ? {
+				
 					width : this.lastStyle.width,
 					height : this.lastStyle.height,
 					left : this.lastStyle.left,
@@ -854,3 +857,4 @@
 	};
 	
 } )( jQuery, window );
+

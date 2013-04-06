@@ -209,7 +209,17 @@
 						</div>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
-							<div class="contant"></div>
+							<div class="contant">
+							<table class="table">
+                             
+
+							</table>
+							
+							
+							
+							
+							
+							</div>
 						</div>
 					</div>
 
@@ -319,6 +329,7 @@
 						folddirection : direction,
 						speed : 300,
 						onEndFolding : function() { opened = false; },
+						i:i,
 					} );
 
 					$item.find( 'span.icon-eye' ).on( 'click', function() {
