@@ -59,7 +59,7 @@
 <script
 	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
 
-	
+
 </head>
 
 <body>

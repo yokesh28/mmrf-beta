@@ -4,20 +4,12 @@ html {
 	height: 100%;
 }
 
-
-
 body {
 	font-family: Malgun Gothic;
 	height: 100%;
-
-overflow-x: hidden;
-overflow-y: hidden;
-
-
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
-
-
-
 
 .middle {
 	background: url(../images/images/projectdetail.png) 0 0 no-repeat;
@@ -172,7 +164,7 @@ overflow-y: hidden;
 	text-align: center;
 	bottom: 39%;
 	position: absolute;
-	left:21%;
+	left: 21%;
 }
 
 .textleft {
@@ -382,10 +374,19 @@ overflow-y: hidden;
 	position: absolute;
 }
 
+.uc-final {
+	width: 660px;
+	height: 400px;
+}
+
 .contant h2 {
 	font-size: 17.5px;
 	padding-right: 10px;
 }
+
+
+
+
 
 .contant p {
 	padding-right: 10px;
