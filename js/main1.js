@@ -153,7 +153,7 @@ function resizeElements(){
 	
 		/*DRAWING STATS*/
 	if(!$("body").hasClass("narrow")){
-		$(".main_stats").css({"height": whgt});
+		$(".main_stats").css({"height":'0'});
 	}
 	
 	stat_hgt = $(".main_stats").height()-200;
