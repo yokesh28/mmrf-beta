@@ -329,6 +329,7 @@
 						folddirection : direction,
 						speed : 300,
 						onEndFolding : function() { opened = false; },
+						i:i,
 					} );
 
 					$item.find( 'span.icon-eye' ).on( 'click', function() {

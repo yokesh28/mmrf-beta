@@ -67,6 +67,7 @@
 
 	// the options
 	$.PFold.defaults = {
+			i:10,
 		// perspective value
 		perspective : 1200,
 		// each folding step's speed
