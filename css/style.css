@@ -384,10 +384,6 @@ body {
 	padding-right: 10px;
 }
 
-
-
-
-
 .contant p {
 	padding-right: 10px;
 }
@@ -403,6 +399,23 @@ body {
 	border-radius: 4px;
 }
 
+.box3 .uc-final {
+	left: -260px !important;
+}
+
+.box4 .uc-final {
+	top: -30px !important;
+}
+
+.box5 .uc-final {
+	top: -30px !important;
+	left: -30px !important;
+}
+
+.box6 .uc-final {
+	left: -260px !important;
+	top: -30px !important;
+}
 
 .closebutton {
 	background-color: black;
