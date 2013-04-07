@@ -62,25 +62,20 @@
 
 </head>
 
-<body>
-
-
-
+<body class="homepage">
 	<!--  <div class="alert alert-block ">
 		<button type="button" class="close closebutton" data-dismiss="alert">&times;</button>
 		<h4>MMRF!</h4>
 		Check it
-
-
 	</div>-->
 
 
 
 
 
-	<div >
+	<div>
 
-		<img src="images/2.jpg" width="100%" height="100%">
+		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed">
 		<?php include 'header.php';?>
 		<div id="slidemenu" class="visible-desktop">
 
@@ -97,7 +92,7 @@
 
 	</div>
 
-	
+
 
 
 

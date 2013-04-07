@@ -237,7 +237,12 @@
 
 
 
+                     
+				
+
+
 					<div class="uc-container box6">
+
 						<div class="uc-initial-content">
 							<p>Floor Plans</p>
 							<span class="icon-eye"></span>

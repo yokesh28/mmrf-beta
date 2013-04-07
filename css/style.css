@@ -7,9 +7,12 @@ html {
 body {
 	font-family: Malgun Gothic;
 	height: 100%;
-	overflow-y:hidden; 
+
 }
 
+.homepage{
+	height: 1500px !important;
+}
 .middle {
 	background: url(../images/images/projectdetail.png) 0 0 no-repeat;
 	position: fixed;
@@ -385,6 +388,15 @@ body {
 
 .contant p {
 	padding-right: 10px;
+}
+
+.about_sm a{color:red;}
+.about_sm p1{font-size:12px;}
+
+.center h3{margin: 48px;
+font-size: 29px;
+width: 140px;
+color: white;
 }
 
 .alert1 {
