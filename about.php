@@ -324,8 +324,10 @@
 
 								<div class='o-lay_block one_tech_block' style='background: #f;'
 									data-offset="0">
-									<img
-										src='http://fresh-development.com/upload/tech/icon/pic_5.png' />
+									<!-- <img
+										src='http://fresh-development.com/upload/tech/icon/pic_5.png' /> -->
+									<p class="center1"> Ottiyambakkam, Chennai</p>
+									
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/objective-c'>
 										<strong class='tit'>Objective C</strong> Objective C is a
