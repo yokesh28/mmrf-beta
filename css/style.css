@@ -442,17 +442,7 @@ color: white;
 margin-top: 100px;
 }
 
-#contactus_page {
-	background: white;
-	position: absolute;
-	top: 12%;
-	right: 0%; padding : 20px;
-	color: white;
-	width: 980px;
-	padding: 20px;
-	opacity:0.9;
-	color: black;
-}
+
 #contactus_page  h1,h2,h3,h4,h5,h6{
 	
 	color: black;
@@ -591,12 +581,12 @@ margin-top: 100px;
 /*contact Page */
 #contactus_page {
 	background: white;
-	position: absolute;
-	top: 21%;
-right: 10%; padding : 20px;
+
+margin-top: 120px;
 	color: white;
-	width: 980px;
-	padding: 20px;
+	padding: 30px;
+
+	
 }
 
 #contactus_page .adress {
