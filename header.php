@@ -35,7 +35,7 @@
 							<img
 								src="images/4-4.png"  style="display: none">
 							</li>
-							<li class="span2"><a href="contact.html">Contact Us</a>
+							<li class="span2" onclick="location.href='contact.php'"><a href="contact.php">Contact Us</a>
 							<img
 								src="images/5-5.png"  style="display: none">
 							</li>
