@@ -443,13 +443,27 @@ margin-top: 100px;
 }
 
 #contactus_page {
-	background: #383838;
+	background: white;
 	position: absolute;
 	top: 12%;
 	right: 0%; padding : 20px;
 	color: white;
 	width: 980px;
 	padding: 20px;
+	opacity:0.9;
+	color: black;
+}
+#contactus_page  h1,h2,h3,h4,h5,h6{
+	
+	color: black;
+	
+	
+}
+#contactus_page nput[type="text"], input[type="password"], input[type="email"] {
+	
+	border: 1px solid #D40E1E;
+	
+	
 }
 
 #contactus_page .adress {
@@ -463,10 +477,12 @@ margin-top: 100px;
 	padding: 30px 10px;
 	line-height: 22px;
 	font-size: 14px;
+	color: black;
 }
 
 #contactus_page .adress h2 {
 	font-weight: bolder;
+	color: black;
 }
 
 #contactus_page .enquiry {
@@ -482,6 +498,7 @@ margin-top: 100px;
 	width: 90px;
 	display: inline-block;
 	margin: 0px 5px;
+	color: black;
 }
 
 .enquiry label span {
@@ -573,7 +590,7 @@ margin-top: 100px;
 }
 /*contact Page */
 #contactus_page {
-	background: #383838;
+	background: white;
 	position: absolute;
 	top: 21%;
 right: 10%; padding : 20px;
