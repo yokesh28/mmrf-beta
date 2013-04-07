@@ -97,7 +97,7 @@
 								About us<span style="font-size: 10px;">&nbsp;</span>
 							</h2>
 							<h3>Overview</h3>
-								<p>The top-notch names of the Real Estate sector have joined
+								<p>The top&#45;notch names of the Real Estate sector have joined
 									hands to create and bestow an exceptional projects with
 									unparalleled quality. MMRF is a collaboraive endeavor of four
 									leading Real Estate Developers; Mayflower Enterprises Private
@@ -109,7 +109,7 @@
 									strategically chosen locations. this extraordinary amalgamatin
 									of dedicated and esteemed Real Estate Developers ensures of a
 									larger than life dwelling in each of their project which will
-									surpass the expectaions of a high-end living.</p>
+									surpass the expectaions of a high-end living.</p><br>
 								<h3>Our Board Of Directors</h3>
 								<h4>
 									Mr. V. Mohan <p1>(Managing Director of<a
@@ -124,9 +124,9 @@
 									the company has today grown to become a leading developer of
 									gated communities, independent villas and townships.
 								The company has completed over 8 commercial projects
-									measuring over 250,000 sq. ft and 18 residential projects –
+									measuring over 250,000 sq. ft and 18 residential projects&#45;
 									apartment complexes and independent villas measuring an
-									estimated 1,200,000 sq.ft.</p>
+									estimated 1,200,000 sq.ft.</p><br>
 
 								<h4>
 									Mr. Ramesh Bafna <p1>(Managing Director of<a
@@ -139,28 +139,28 @@
 									commercial buildings.
 							       The company has executed over 500,000 sq. ft of constructions
 									across 7 projects and has an estimated 325,000 sq. ft of
-									construction currently underway.</p>
+									construction currently underway.</p><br>
 
 
 								<h4>
-									Mr. V. Subramanian (“Mani”) <p1>(Managing Director of<a
+									Mr. V. Subramanian (&ldquo;Mani&rdquo;) <p1>(Managing Director of<a
 										href="http://www.ramanirealtors.com//" target="_blank"> Ramani
 											Realtors Pvt. Limited</a>)</p1>
 								
 								</h4>
-								<p>Ramani Realtors Pvt. Limited – RRPL, an ISO 9001:2008
+								<p>Ramani Realtors Pvt. Limited&#45;RRPL, an ISO 9001:2008
 									certified Company is professionally managed by its Chairman
 									Shri V S Venkatraman
 								Founded as Rajmani Builders, VSV Builders & Balaji
 									Constructions by its Chairman, the Company has projects across
-									Chennai and Coimbatore</p>
-								<p>Mr V Subramanian joined his Father Shri V S Venkatraman in
+									Chennai and Coimbatore.
+								Mr V Subramanian joined his Father Shri V S Venkatraman in
 									1981 and established Ramani Realtors in the year 1987. He is
 									the Managing Director of the Company and keeps himself abreast
 									of the latest developments in the construction industry and
 									implements them in his projects. He is ably supported by its
-									Executive Director Mrs Dharma Subramanian.</p>
-								<p>RRPL is one of the volume leaders for budget homes in Chennai
+									Executive Director Mrs Dharma Subramanian.
+								RRPL is one of the volume leaders for budget homes in Chennai
 									& Coimbatore with over 4000 satisfied Customer families and
 									over 4 million sq ft of completed constructions.</p><br>
 
@@ -194,11 +194,11 @@
 						<div class='center_inf'>
 							<div class='cent_block o-lay_block'>
 								<div class='cont'>
-									<h2>Back-End</h2>
-									<p>The secret ingredients to our websites</p>
+									<h2>On&#45;going Projects</h2>
+									
 								</div>
 								<div class='overlay'>
-									<p>Back-end technologies are the heart of our services. We
+									<p>Back&#45;end technologies are the heart of our services. We
 										structure our websites rigorously by selecting and creating
 										the perfect mix of back-end technology fine-tuned to your
 										needs. This drastically increases the performance of the site
@@ -211,10 +211,12 @@
 							</div>
 							<div class='blocks_cont lft'>
 
-								<div class='o-lay_block one_tech_block' style='background: #1;'
+								<div class='o-lay_block one_tech_block center' style='background: #1;'
 									data-offset="0">
-									<img
-										src='http://fresh-development.com/upload/tech/icon/pic_6.png' />
+									<!-- <img
+										src='http://fresh-development.com/upload/tech/icon/pic_6.png' />-->
+										
+									<h3>Sai Enclave</h3>	
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/php'>
 										<strong class='tit'>PHP</strong> PHP is used for the
@@ -257,11 +259,12 @@
 									</a>
 								</div>
 							</div>
-							<div class='blocks_cont rgt'>
+							<div class='blocks_cont rgt center'>
 								<div class='o-lay_block one_tech_block' style='background: #5;'
 									data-offset="4">
-									<img
-										src='http://fresh-development.com/upload/tech/icon/pic_30.png' />
+									<!--  <img
+										src='http://fresh-development.com/upload/tech/icon/pic_30.png' />-->
+										<h3>Padur Residence</h3>
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/mongodb'>
 										<strong class='tit'>MongoDB</strong> MongoDB is a scalable,
@@ -272,7 +275,7 @@
 								<div class='o-lay_block one_tech_block' style='background: #6;'
 									data-offset="5">
 									<img
-										src='http://fresh-development.com/upload/tech/icon/pic_31.png' />
+										src='http://fresh-development.com/upload/tech/icon/pic_24.png' />
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/mysql'>
 										<strong class='tit'>MySQL</strong> MySQL is a high performance
@@ -301,9 +304,8 @@
 						<div class='center_inf'>
 							<div class='cent_block o-lay_block'>
 								<div class='cont'>
-									<h2>Front-End</h2>
-									<p>Technologies&nbsp;used to develop a more interactive,
-										user-friendly site</p>
+									<h2>Up-coming Projects</h2>
+								
 								</div>
 								<div class='overlay'>
 									<p>Our front-end technologies are responsible for an
