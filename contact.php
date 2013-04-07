@@ -22,18 +22,6 @@
 <!-- / Yoast WordPress SEO plugin. -->
 
 
-<script type="text/javascript">
-		var _gaq = _gaq || [];
-	 	_gaq.push(['_setAccount', 'UA-33459997-1']);
-	 	_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	 	})();
-	</script>
-
 
 
 
@@ -78,122 +66,127 @@
 
 
 
-	<div >
+	<div>
 
-		<img src="images/4.jpg" width="100%" height="100%">
+
 		<?php include 'header.php';?>
-		
+
 	</div>
-<div id="contactus_page" class="">
-<h1 class="title-header"> Contact Us </h1>
+	<div id="contactus_page" class="container">
+		<h1 class="title-header">Contact Us</h1>
 
-<div class="span12">
-     <div class="google-map">
-        <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+NY,+USA&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=47.704107,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.949919&amp;spn=0.01628,0.028238&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" width="100%" height="300" marginwidth="0" marginheight="0" scrolling="no">
-        </iframe>
-     </div>
-</div>
-
-			<div class=" adress">
-				<h2>Contact Info</h2>
-				<address>
-					<h3>MMRF Realty and Infrastructure Pvt. Ltd.</h3>
-					New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
-					Chennai - 600020.<br> <br> <br> Phone : + 91 44
-					43551600<br> + 91 44 24400523 <br> <br> Mail :
-					info@mmrf.in<br> Website : www.mmrf.in
-				</address>
+		<div class="">
+			<div class="google-map">
+				<iframe
+					src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+NY,+USA&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=47.704107,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.949919&amp;spn=0.01628,0.028238&amp;z=14&amp;iwloc=A&amp;output=embed"
+					frameborder="0" width="100%" height="300" marginwidth="0"
+					marginheight="0" scrolling="no"> </iframe>
 			</div>
-			<div class=" enquiry">
+		</div>
+
+		<div class=" adress">
+			<h2>Contact Info</h2>
+			<address>
+				<h3>MMRF Realty and Infrastructure Pvt. Ltd.</h3>
+				New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
+				Chennai - 600020.<br> <br> <br> Phone : + 91 44 43551600<br> + 91 44
+				24400523 <br> <br> Mail : info@mmrf.in<br> Website : www.mmrf.in
+			</address>
+		</div>
+		<div class=" enquiry">
 			<h2>Contact Form</h2>
-				<form name="contactus" id="contactus_form"   onSubmit="return submitContact();">
-					<ul>
-						<li><label>Name<span>*</span></label><input type="text"
-							name="name" style="width: 180px;"></li>
+			<form name="contactus" id="contactus_form"
+				onSubmit="return submitContact();">
+				<ul>
+					<li><label>Name<span>*</span>
+					</label><input type="text" name="name" style="width: 180px;"></li>
 
-						<li style="margin-top: -10px;">
-							<ul class="add-sub">
-								<li><label>Address<span>*</span></label> <textArea
-										name="address" style="width: 180px; height: 72px;"></textArea>
-								</li>
-								<li><label class="city">City</label><input type="text"
-									name="city" style="width: 140px"> <br> <br> <label>Pincode</label><input
-									type="text" name="pincode" style="width: 112px;"></li>
+					<li style="margin-top: -10px;">
+						<ul class="add-sub">
+							<li><label>Address<span>*</span>
+							</label> <textArea name="address"
+									style="width: 180px; height: 72px;"></textArea>
+							</li>
+							<li><label class="city">City</label><input type="text"
+								name="city" style="width: 140px"> <br> <br> <label>Pincode</label><input
+								type="text" name="pincode" style="width: 112px;"></li>
 
-							</ul>
-						</li>
+						</ul>
+					</li>
 
-						<li style="display: inline-block;margin-top: 16px;"><label>Email <span>*</span></label><input
-							type="email" name="email" style="width: 180px;"></li>
-						<li style="margin-top: 0px"><label>Mobie No<span>*</span></label><input type="text"
-							name="mobile" style="width: 154px;"><label
-							style="width: 99px;">Phone No </label><input type="text"
-							name="pho_ex" style="width: 42px"><input type="text"
-							name="phone" style="width: 66px"></li>
+					<li style="display: inline-block; margin-top: 16px;"><label>Email <span>*</span>
+					</label><input type="email" name="email" style="width: 180px;"></li>
+					<li style="margin-top: 0px"><label>Mobie No<span>*</span>
+					</label><input type="text" name="mobile" style="width: 154px;"><label
+						style="width: 99px;">Phone No </label><input type="text"
+						name="pho_ex" style="width: 42px"><input type="text" name="phone"
+						style="width: 66px"></li>
 
-						<li><label>Location<span>*</span></label><input type="text"
-							name="location" style="width: 180px;"></li>
-						<li><label>BuildUp Area<span>*</span></label>
-							<div class="select" style="width: 200px;">
-								<select style="width: 200px;" name="build_area"><option value="">--Select--</option>
-
-
-
-									<option value="Less than 1,000">Less than 1,000</option>
-									<option value="1,000 to 1,200">1,000 to 1,200</option>
-									<option value="1,201 to 1,500">1,201 to 1,500</option>
-									<option value="1,501 to 2,000">1,501 to 2,000</option>
-									<option value="2,001 to 2,500">2,001 to 2,500</option>
-									<option value="2,501 to 3,500">2,501 to 3,500</option>
-									<option value="3,501 to 4,500">3,501 to 4,500</option>
-									<option value="4,501 to 6,000">4,501 to 6,000</option>
-									<option value="6,001 to 10,000">6,001 to 10,000</option>
-									<option value="Above 10,000">Above 10,000</option>
-
-
-								</select>
+					<li><label>Location<span>*</span>
+					</label><input type="text" name="location" style="width: 180px;"></li>
+					<li><label>BuildUp Area<span>*</span>
+					</label>
+						<div class="select" style="width: 200px;">
+							<select style="width: 200px;" name="build_area"><option value="">--Select--</option>
 
 
 
+								<option value="Less than 1,000">Less than 1,000</option>
+								<option value="1,000 to 1,200">1,000 to 1,200</option>
+								<option value="1,201 to 1,500">1,201 to 1,500</option>
+								<option value="1,501 to 2,000">1,501 to 2,000</option>
+								<option value="2,001 to 2,500">2,001 to 2,500</option>
+								<option value="2,501 to 3,500">2,501 to 3,500</option>
+								<option value="3,501 to 4,500">3,501 to 4,500</option>
+								<option value="4,501 to 6,000">4,501 to 6,000</option>
+								<option value="6,001 to 10,000">6,001 to 10,000</option>
+								<option value="Above 10,000">Above 10,000</option>
 
 
-							</div> <label style="width: 76px">Budget<span>*</span></label>
-							<div class="select" style="width: 128px">
-								<select style="width: 128px" name="budget"><option value="">--Select--</option>
-
-
-									<option value="Less than 60,00,000">Less than
-										60,00,000</option>
-									<option value="60,00,000 to 1,00,00,000">60,00,000 to
-										1,00,00,000</option>
-									<option value="1,00,00,000 to 1,50,00,000">1,00,00,000
-										to 1,50,00,000</option>
-									<option value="1,50,00,000 to 2,00,00,000">1,50,00,000
-										to 2,00,00,000</option>
-									<option value="2,00,00,000 to 2,50,00,000">2,00,00,000
-										to 2,50,00,000</option>
-									<option value="Above 2,50,00,000">Above 2,50,00,000</option>
+							</select>
 
 
 
 
 
+						</div> <label style="width: 76px">Budget<span>*</span>
+					</label>
+						<div class="select" style="width: 128px">
+							<select style="width: 128px" name="budget"><option value="">--Select--</option>
 
-								</select>
-							</div></li>
-						<li><label style="width: auto">Post Your Enquiry</label><br
-							clear="all"> <textarea class="enquiry_text" name="enquiry"></textarea></li>
-						<li class="button"><input type="submit" name="submit"
-							 value="Sent Enquiry"><input
-							type="button" name="reset" value="Reset"></li>
-					</ul>
-				</form>
-			
-			</div>
-			
-		</div>	
-		
-	
+
+								<option value="Less than 60,00,000">Less than 60,00,000</option>
+								<option value="60,00,000 to 1,00,00,000">60,00,000 to
+									1,00,00,000</option>
+								<option value="1,00,00,000 to 1,50,00,000">1,00,00,000 to
+									1,50,00,000</option>
+								<option value="1,50,00,000 to 2,00,00,000">1,50,00,000 to
+									2,00,00,000</option>
+								<option value="2,00,00,000 to 2,50,00,000">2,00,00,000 to
+									2,50,00,000</option>
+								<option value="Above 2,50,00,000">Above 2,50,00,000</option>
+
+
+
+
+
+
+							</select>
+						</div></li>
+					<li><label style="width: auto">Post Your Enquiry</label><br
+						clear="all"> <textarea class="enquiry_text" name="enquiry"></textarea>
+					</li>
+					<li class="button"><input type="submit" name="submit"
+						value="Sent Enquiry"><input type="button" name="reset"
+						value="Reset"></li>
+				</ul>
+			</form>
+
+		</div>
+
+	</div>
+
+
 
 
 
@@ -202,7 +195,7 @@
 
 	<script src="js/jquery.mobilemenu.js"></script>
 
-	
+
 
 
 	<script type="text/javascript">

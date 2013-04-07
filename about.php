@@ -43,26 +43,26 @@
 	src="http://fresh-development.com/jsc/jquery.js"></script>
 </head>
 <body>
-<div>
-<?php include 'header.php';?>
-	<a id='totop' href='#'></a>
-	<div style='padding-bottom: 0;' class='main_pan '>
-	
-	
-	
-		<!-- HEADER -->
+	<div>
+		<?php include 'header.php';?>
+		<a id='totop' href='#'></a>
+		<div style='padding-bottom: 0;' class='main_pan '>
 
 
 
-		<div id='pageholder' style='width: 100%;'>
-			<div id='pagescroller'>
-				<a id='awwwards' target='_blank'
-					href='http://www.awwwards.com/best-websites/fresh-development'></a>
+			<!-- HEADER -->
 
 
-				<div class='wrap frame inview main_works'>
-					<div class='row double'>
-						<!--  <div class='block_1'>
+
+			<div id='pageholder' style='width: 100%;'>
+				<div id='pagescroller'>
+					<a id='awwwards' target='_blank'
+						href='http://www.awwwards.com/best-websites/fresh-development'></a>
+
+
+					<div class='wrap frame inview main_works'>
+						<div class='row double'>
+							<!--  <div class='block_1'>
 							<h2>Some of our projects</h2>
 							<div class='last_projects'>
 								<a href="http://fresh-development.com/projects/greenday"
@@ -97,90 +97,91 @@
 								About us<span style="font-size: 10px;">&nbsp;</span>
 							</h2>
 							<h3>Overview</h3>
-								<p>The top&#45;notch names of the Real Estate sector have joined
-									hands to create and bestow an exceptional projects with
-									unparalleled quality. MMRF is a collaboraive endeavor of four
-									leading Real Estate Developers; Mayflower Enterprises Private
-									Limited, Mount Housing & Infrastructure Limited, Ramani
-									Realtors Private Limited & Fairyland Foundations Private
-									Limited.</p>
-								<p>MMRF with its team of experts further aims to develop
-									ambience based Residential Flats, and commercial units at
-									strategically chosen locations. this extraordinary amalgamatin
-									of dedicated and esteemed Real Estate Developers ensures of a
-									larger than life dwelling in each of their project which will
-									surpass the expectaions of a high-end living.</p><br>
-								<h3>Our Board Of Directors</h3>
-								<h4>
-									Mr. V. Mohan <p1>(Managing Director of<a
-										href="http://www.mayflowerenterprises.com/" target="_blank">
-											Mayflower Enterprises Pvt.Ltd</a>)</p1>
-								
-								</h4>
-								<p>Mayflower was established in 1985 as property developers in
-									Coimbatore by Mr. A.N. Venkatachalam, one of the key members of
-									the Chettinad business empire for over 5 decades.
-								Under the leadership of Mr. V Mohan, the Managing Director,
-									the company has today grown to become a leading developer of
-									gated communities, independent villas and townships.
-								The company has completed over 8 commercial projects
-									measuring over 250,000 sq. ft and 18 residential projects&#45;
-									apartment complexes and independent villas measuring an
-									estimated 1,200,000 sq.ft.</p><br>
+							<p>The top&#45;notch names of the Real Estate sector have joined
+								hands to create and bestow an exceptional projects with
+								unparalleled quality. MMRF is a collaboraive endeavor of four
+								leading Real Estate Developers; Mayflower Enterprises Private
+								Limited, Mount Housing & Infrastructure Limited, Ramani Realtors
+								Private Limited & Fairyland Foundations Private Limited.</p>
+							<p>MMRF with its team of experts further aims to develop ambience
+								based Residential Flats, and commercial units at strategically
+								chosen locations. this extraordinary amalgamatin of dedicated
+								and esteemed Real Estate Developers ensures of a larger than
+								life dwelling in each of their project which will surpass the
+								expectaions of a high-end living.</p>
+							<br>
+							<h3>Our Board Of Directors</h3>
+							<h4>
+								Mr. V. Mohan
+								<p1>(Managing Director of<a
+									href="http://www.mayflowerenterprises.com/" target="_blank">
+									Mayflower Enterprises Pvt.Ltd</a>)</p1>
 
-								<h4>
-									Mr. Ramesh Bafna <p1>(Managing Director of<a
-										href="http://www.mounthousing.com" target="_blank"> Mount
-											Housing & Infrastructure Limited</a>)</p1>
-									
-								</h4>
-								<p>Mount Housing & Infrastructure Limited is one of the leading
-									developers in Coimbatore in the areas of residential flats and
-									commercial buildings.
-							       The company has executed over 500,000 sq. ft of constructions
-									across 7 projects and has an estimated 325,000 sq. ft of
-									construction currently underway.</p><br>
+							</h4>
+							<p>Mayflower was established in 1985 as property developers in
+								Coimbatore by Mr. A.N. Venkatachalam, one of the key members of
+								the Chettinad business empire for over 5 decades. Under the
+								leadership of Mr. V Mohan, the Managing Director, the company
+								has today grown to become a leading developer of gated
+								communities, independent villas and townships. The company has
+								completed over 8 commercial projects measuring over 250,000 sq.
+								ft and 18 residential projects&#45; apartment complexes and
+								independent villas measuring an estimated 1,200,000 sq.ft.</p>
+							<br>
+
+							<h4>
+								Mr. Ramesh Bafna
+								<p1>(Managing Director of<a href="http://www.mounthousing.com"
+									target="_blank"> Mount Housing & Infrastructure Limited</a>)</p1>
+
+							</h4>
+							<p>Mount Housing & Infrastructure Limited is one of the leading
+								developers in Coimbatore in the areas of residential flats and
+								commercial buildings. The company has executed over 500,000 sq.
+								ft of constructions across 7 projects and has an estimated
+								325,000 sq. ft of construction currently underway.</p>
+							<br>
 
 
-								<h4>
-									Mr. V. Subramanian (&ldquo;Mani&rdquo;) <p1>(Managing Director of<a
-										href="http://www.ramanirealtors.com//" target="_blank"> Ramani
-											Realtors Pvt. Limited</a>)</p1>
-								
-								</h4>
-								<p>Ramani Realtors Pvt. Limited&#45;RRPL, an ISO 9001:2008
-									certified Company is professionally managed by its Chairman
-									Shri V S Venkatraman
-								Founded as Rajmani Builders, VSV Builders & Balaji
-									Constructions by its Chairman, the Company has projects across
-									Chennai and Coimbatore.
-								Mr V Subramanian joined his Father Shri V S Venkatraman in
-									1981 and established Ramani Realtors in the year 1987. He is
-									the Managing Director of the Company and keeps himself abreast
-									of the latest developments in the construction industry and
-									implements them in his projects. He is ably supported by its
-									Executive Director Mrs Dharma Subramanian.
-								RRPL is one of the volume leaders for budget homes in Chennai
-									& Coimbatore with over 4000 satisfied Customer families and
-									over 4 million sq ft of completed constructions.</p><br>
+							<h4>
+								Mr. V. Subramanian (&ldquo;Mani&rdquo;)
+								<p1>(Managing Director of<a
+									href="http://www.ramanirealtors.com//" target="_blank"> Ramani
+									Realtors Pvt. Limited</a>)</p1>
 
-								<h4>
-									Mr. Saravanan <p1>(Managing Director of<a
-										href="http://www.fairylandfoundations.com/" target="_blank">
-											Fairyland Foundations Pvt. Ltd</a>)</p1>
-								
-								</h4>
-								<p>Established in 2000, Fairyland Foundations Pvt. Ltd. is a one
-									of the leading builders in Chennai and is engaged in the
-									construction of residential flats and individual homes in
-									Chennai.
-								Spurred by its remarkable success in Chennai, the Company has
-									now spread its wings to Hosur and Coimbatore which have been
-									witnessing rapid and consistent growth in recent years.
-								The company has completed over 14 residential projects
-									comprising of 500 flats and 40 individual & duplex units
-									spanning across 650,000sq. ft.</p>
-							
+							</h4>
+							<p>Ramani Realtors Pvt. Limited&#45;RRPL, an ISO 9001:2008
+								certified Company is professionally managed by its Chairman Shri
+								V S Venkatraman Founded as Rajmani Builders, VSV Builders &
+								Balaji Constructions by its Chairman, the Company has projects
+								across Chennai and Coimbatore. Mr V Subramanian joined his
+								Father Shri V S Venkatraman in 1981 and established Ramani
+								Realtors in the year 1987. He is the Managing Director of the
+								Company and keeps himself abreast of the latest developments in
+								the construction industry and implements them in his projects.
+								He is ably supported by its Executive Director Mrs Dharma
+								Subramanian. RRPL is one of the volume leaders for budget homes
+								in Chennai & Coimbatore with over 4000 satisfied Customer
+								families and over 4 million sq ft of completed constructions.</p>
+							<br>
+
+							<h4>
+								Mr. Saravanan
+								<p1>(Managing Director of<a
+									href="http://www.fairylandfoundations.com/" target="_blank">
+									Fairyland Foundations Pvt. Ltd</a>)</p1>
+
+							</h4>
+							<p>Established in 2000, Fairyland Foundations Pvt. Ltd. is a one
+								of the leading builders in Chennai and is engaged in the
+								construction of residential flats and individual homes in
+								Chennai. Spurred by its remarkable success in Chennai, the
+								Company has now spread its wings to Hosur and Coimbatore which
+								have been witnessing rapid and consistent growth in recent
+								years. The company has completed over 14 residential projects
+								comprising of 500 flats and 40 individual & duplex units
+								spanning across 650,000sq. ft.</p>
+
 						</div>
 					</div>
 				</div>
@@ -195,7 +196,7 @@
 							<div class='cent_block o-lay_block'>
 								<div class='cont'>
 									<h2>On&#45;going Projects</h2>
-									
+
 								</div>
 								<div class='overlay'>
 									<p>Back&#45;end technologies are the heart of our services. We
@@ -211,17 +212,17 @@
 							</div>
 							<div class='blocks_cont lft'>
 
-								<div class='o-lay_block one_tech_block center' style='background: #1;'
-									data-offset="0">
+								<div class='o-lay_block one_tech_block center'
+									style='background: #1;' data-offset="0">
 									<!-- <img
 										src='http://fresh-development.com/upload/tech/icon/pic_6.png' />-->
-										
-									<h3>Sai Enclave</h3>	
+
+									<h3>Sai Enclave</h3>
 									<a class='overlay'
-										href='http://fresh-development.com/about/technologies/php'>
-										<strong class='tit'>PHP</strong> PHP is used for the
-										server-side development of web apps, making it easy to
-										administrate your website right from your own browser.
+										href='http://fresh-development.com/about/technologies/php'> <strong
+										class='tit'>PHP</strong> PHP is used for the server-side
+										development of web apps, making it easy to administrate your
+										website right from your own browser.
 									</a>
 								</div>
 
@@ -264,7 +265,7 @@
 									data-offset="4">
 									<!--  <img
 										src='http://fresh-development.com/upload/tech/icon/pic_30.png' />-->
-										<h3>Padur Residence</h3>
+									<h3>Padur Residence</h3>
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/mongodb'>
 										<strong class='tit'>MongoDB</strong> MongoDB is a scalable,
@@ -305,7 +306,7 @@
 							<div class='cent_block o-lay_block'>
 								<div class='cont'>
 									<h2>Up-coming Projects</h2>
-								
+
 								</div>
 								<div class='overlay'>
 									<p>Our front-end technologies are responsible for an
@@ -339,10 +340,10 @@
 									<img
 										src='http://fresh-development.com/upload/tech/icon/pic_26.png' />
 									<a class='overlay'
-										href='http://fresh-development.com/about/technologies/css3'>
-										<strong class='tit'>CSS 3</strong> CSS3 is used to control the
-										style and layout of a webpage, making it easier to customize
-										your pages in the future&nbsp;
+										href='http://fresh-development.com/about/technologies/css3'> <strong
+										class='tit'>CSS 3</strong> CSS3 is used to control the style
+										and layout of a webpage, making it easier to customize your
+										pages in the future&nbsp;
 									</a>
 								</div>
 							</div>
@@ -382,14 +383,13 @@
 									<p>Tools we use to organize the development process</p>
 								</div>
 								<div class='overlay'>
-									<p>Our diligent use of modern tools and a robust
-										organizational workflow allows us to guarantee the timing and
-										quality of every project we do. The tools we use allow us to
-										store multiple copies of the project to make sure your project
-										is safe during the development process, and for your
-										convenience, we allow customers to track the current status of
-										the project and to understand exactly where we are in the
-										process.</p>
+									<p>Our diligent use of modern tools and a robust organizational
+										workflow allows us to guarantee the timing and quality of
+										every project we do. The tools we use allow us to store
+										multiple copies of the project to make sure your project is
+										safe during the development process, and for your convenience,
+										we allow customers to track the current status of the project
+										and to understand exactly where we are in the process.</p>
 								</div>
 							</div>
 							<div class='blocks_cont lft'>
@@ -429,7 +429,7 @@
 				<!--END OF TECH BLOCK-->
 
 				<!--STATS BLOCK-->
-				<div class='main_stats frame' id='frame3' style="height:0px;"></div>
+				<div class='main_stats frame' id='frame3' style="height: 0px;"></div>
 				<!--END OF STATS BLOCK-->
 
 				<div class='main_news frame' id='frame4'>
@@ -447,7 +447,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+	</div>
 	<script type="text/javascript"
 		src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	<script type="text/javascript" src="js/script.js"></script>
@@ -464,29 +464,14 @@
 		var pic_url = 'http://fresh-development.com/';
 	</script>
 	<!--END OF SCRIPTS-->
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push([ '_setAccount', 'UA-6578661-52' ]);
-		_gaq.push([ '_trackPageview' ]);
 
-		(function() {
-			var ga = document.createElement('script');
-			ga.type = 'text/javascript';
-			ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl'
-					: 'http://www')
-					+ '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-	
-	
+
+
 	<script src="js/bootstrap.min.js"></script>
 
 
-			<script src="js/jquery.mobilemenu.js"></script>
-	
+	<script src="js/jquery.mobilemenu.js"></script>
+
 </body>
 </html>
 
