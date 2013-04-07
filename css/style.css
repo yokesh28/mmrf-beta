@@ -393,7 +393,11 @@ body {
 .about_sm a{color:red;}
 .about_sm p1{font-size:12px;}
 
-
+.center h3{margin: 48px;
+font-size: 29px;
+width: 140px;
+color: white;
+}
 
 .alert1 {
 	padding: 8px 35px 8px 14px;

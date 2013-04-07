@@ -14,7 +14,7 @@ a:hover {text-decoration: underline; cursor: pointer; color: #000;}
 h1{font-size: 22px; color: #255686; font-weight: normal;  }
 h2{font-size: 16px; color: #000; font-weight:normal; }
 h3{font-size: 16px; color: #5d844e; font-weight:normal;  }
-p {color: #313131; font-size: 14px; font-family: Open sans, Helvetica, Arial;   }
+p {color: #313131; font-size: 14px;}
 input {font-size: 1em; font-family:  Arial, Helvetica, Sans-serif ;}
 
 .clear {clear: both;}
@@ -143,7 +143,7 @@ textarea.inp_1 { height: auto; padding: 5px; resize: none; }
 	
 .main_technologies .cent_block {width: 100%;  height: 350px; }
 .main_technologies .cent_block .cont {padding-top: 130px; text-align: center; max-width: 360px; margin: 0 auto;  }
-.main_technologies .cent_block .cont h2  {color: #fff; border-bottom: 1px solid #fff; font-size: 38px; }
+.main_technologies .cent_block .cont h2  {color: #fff; border-bottom: 1px solid #fff; font-size: 34px; }
 .main_technologies .cent_block .cont p  { color: rgba(0,0,0,0.5); font-size: 20px; margin-top: 5px; }
 .main_technologies .cent_block .overlay p  { text-align: justify; }
 	
