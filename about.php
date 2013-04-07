@@ -435,7 +435,7 @@
 				<!--END OF STATS BLOCK-->
 
 				<div class='main_news frame' id='frame4'>
-					<div class='wrap'></div>
+					
 				</div>
 
 				<div class='team frame' id='frame5'></div>
