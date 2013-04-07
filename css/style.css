@@ -689,6 +689,10 @@ margin-top: 120px;
 	margin-left: 104px;
 }
 
+.contact{
+	background: url("../images/4.jpg");
+}
+
 .button {
 	float: right;
 	margin-top: 70px !important;
