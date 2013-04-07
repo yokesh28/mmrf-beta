@@ -448,6 +448,299 @@ color: white;
 margin-top: 100px;
 }
 
+
+#contactus_page  h1,h2,h3,h4,h5,h6{
+	
+	color: black;
+	
+	
+}
+#contactus_page nput[type="text"], input[type="password"], input[type="email"] {
+	
+	border: 1px solid #D40E1E;
+	
+	
+}
+
+#contactus_page .adress {
+	background: url("../images/contact_us_back1.gif") repeat;
+	padding: 60px 30px;
+	float: left;
+}
+
+#contactus_page .adress address {
+	width: 285px;
+	padding: 30px 10px;
+	line-height: 22px;
+	font-size: 14px;
+	color: black;
+}
+
+#contactus_page .adress h2 {
+	font-weight: bolder;
+	color: black;
+}
+
+#contactus_page .enquiry {
+	background: url("../images/contact_us_back1.gif") repeat;
+	padding: 10px 30px;
+	margin: 0px 0px 0px 20px;
+	display: inline-block;
+	height: 490px;
+}
+
+.enquiry label {
+	text-align: right;
+	width: 90px;
+	display: inline-block;
+	margin: 0px 5px;
+	color: black;
+}
+
+.enquiry label span {
+	color: red;
+}
+
+.enquiry .select {
+	background: url(../images/drop_arrow.gif) no-repeat right #252525;
+	display: inline-block;
+	background-size: 30px;
+}
+
+.enquiry select {
+	border: 2px solid #1e1e1e;
+	-webkit-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	-moz-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	padding: 4px;
+	-webkit-appearance: none;
+
+	background: transparent;
+}
+
+.enquiry input {
+	border: 2px solid #1e1e1e;
+	-webkit-box-shadow: inset 0 0 8px red, 0 0 16px red;
+	-moz-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	box-shadow: inset 0 0 8px red, 0 0 16px red;
+	padding: 4px;
+	background: #252525;
+	margin: 1px 3px;
+	color: white;
+}
+
+.enquiry textarea {
+	border: 2px solid #1e1e1e;
+	-webkit-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	-moz-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	padding: 4px;
+	background: #252525;
+	margin: 0 0 -75px 0;
+	color: white;
+}
+
+.enquiry li {
+	margin: 10px 0px;
+}
+
+.add-sub label {
+	
+}
+
+.add-sub li {
+	float: left;
+}
+
+.enquiry label.city {
+	width: 28px;
+	text-align: left;
+	margin-left: 38px;
+}
+
+.enquiry textarea.enquiry_text {
+	width: 408px;
+	height: 72px;
+	margin-left: 104px;
+}
+
+.button {
+	float: right;
+	margin-top: 70px !important;
+}
+
+.button input {
+	background: #701400;
+	border: none;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+	border-bottom-color: #333;
+	border: 1px solid #872500;
+	border-radius: 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 3px;
+	color: white;
+	text-shadow: #333 1px 0;
+	cursor: pointer;
+}
+/*contact Page */
+#contactus_page {
+	background: white;
+
+margin-top: 120px;
+	color: white;
+	padding: 30px;
+
+	
+}
+
+#contactus_page .adress {
+	background: url("../images/contact_us_back1.gif") repeat;
+	padding: 44px 30px;
+	float: left;
+	width: 200px;
+}
+
+#contactus_page .adress address {
+	width: 285px;
+	padding: 30px 10px;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+#contactus_page .adress h2 {
+	font-weight: bolder;
+}
+
+#contactus_page .enquiry {
+	background: url("../images/contact_us_back1.gif") repeat;
+	padding: 10px 30px;
+	margin: 28px 0px 0px 113px;
+	display: inline-block;
+	height: 550px;
+}
+
+.enquiry label {
+	text-align: right;
+	width: 90px;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.enquiry label span {
+	color: red;
+}
+
+.enquiry .select {
+	background: url(../images/drop_arrow.gif) no-repeat right #252525;
+	display: inline-block;
+	background-size: 30px;
+}
+
+.enquiry select {
+	border: 2px solid #1e1e1e;
+	-webkit-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	-moz-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	padding: 4px;
+	-webkit-appearance: none;
+
+	background: transparent;
+}
+
+.enquiry input {
+	border: 2px solid #1e1e1e;
+	-webkit-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	-moz-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	padding: 4px;
+	background: #252525;
+	margin: 1px 3px;
+	color: white;
+}
+
+.enquiry textarea {
+	border: 2px solid #1e1e1e;
+	-webkit-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	-moz-box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	box-shadow: inset 0 0 8px #252525, 0 0 16px #252525;
+	padding: 4px;
+	background: #252525;
+	margin: 0 0 -75px 0;
+	color: white;
+}
+
+.enquiry li {
+	margin: 10px 0px;
+}
+
+.add-sub label {
+	
+}
+
+.add-sub li {
+	float: left;
+}
+
+.enquiry label.city {
+	width: 28px;
+	text-align: left;
+	margin-left: 38px;
+}
+
+.enquiry textarea.enquiry_text {
+	width: 408px;
+	height: 72px;
+	margin-left: 104px;
+}
+
+.contact{
+	background: url("../images/4.jpg");
+}
+
+.button {
+	float: right;
+	margin-top: 70px !important;
+}
+
+.button input {
+	background: #701400;
+	border: none;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+	border-bottom-color: #333;
+	border: 1px solid #872500;
+	border-radius: 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 3px;
+	color: white;
+	text-shadow: #333 1px 0;
+	cursor: pointer;
+}
+#contactus_page form {
+	display: inline-block;
+}
+
+/*contact page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ::-webkit-scrollbar {
 	width: 15px;
 } /* this targets the default scrollbar (compulsory) */
