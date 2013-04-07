@@ -42,7 +42,7 @@
 <script type="text/javascript"
 	src="http://fresh-development.com/jsc/jquery.js"></script>
 </head>
-<body>
+<body class="about">
 	<div>
 		<?php include 'header.php';?>
 		<a id='totop' href='#'></a>

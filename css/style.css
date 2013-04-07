@@ -717,8 +717,12 @@ margin-top: 120px;
 	display: inline-block;
 }
 
-/*contact page */
 
+/*contact page */
+.about{
+	background: url("../images/3.jpg");
+	
+} 
 
 
 
