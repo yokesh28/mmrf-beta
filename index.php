@@ -66,21 +66,21 @@
 
 
 
-	<div class="alert alert-block ">
+	<!--  <div class="alert alert-block ">
 		<button type="button" class="close closebutton" data-dismiss="alert">&times;</button>
 		<h4>MMRF!</h4>
 		Check it
 
 
-	</div>
+	</div>-->
 
 
 
 
 
-	<div class="slide1">
+	<div >
 
-		<img src="images/2.jpg" width="100%" height="100%">
+		<img src="images/5.jpg" width="100%" height="100%">
 		<?php include 'header.php';?>
 		<div id="slidemenu" class="visible-desktop">
 
@@ -97,13 +97,7 @@
 
 	</div>
 
-	<div class="slide2">
-
-
-		<img src="images/4.jpg" width="100%" height="100%">
-
-	</div>
-
+	
 
 
 

@@ -7,8 +7,7 @@ html {
 body {
 	font-family: Malgun Gothic;
 	height: 100%;
-	overflow-x: hidden;
-	overflow-y: hidden;
+	
 }
 
 .middle {
@@ -384,10 +383,6 @@ body {
 	padding-right: 10px;
 }
 
-
-
-
-
 .contant p {
 	padding-right: 10px;
 }
@@ -403,6 +398,23 @@ body {
 	border-radius: 4px;
 }
 
+.box3 .uc-final {
+	left: -260px !important;
+}
+
+.box4 .uc-final {
+	top: -30px !important;
+}
+
+.box5 .uc-final {
+	top: -30px !important;
+	left: -30px !important;
+}
+
+.box6 .uc-final {
+	left: -260px !important;
+	top: -30px !important;
+}
 
 .closebutton {
 	background-color: black;
@@ -413,6 +425,10 @@ body {
 	bottom: 0%;
 	left: -338px;
 }
+#pagescroller
+{
+margin-top: 100px;
+}
 
 ::-webkit-scrollbar {
 	width: 15px;
@@ -422,7 +438,7 @@ body {
 }
 /* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {
-	background: white;
+	background: black;
 } /* this will style the thumb, ignoring the track */
 ::-webkit-scrollbar-button {
 	background-color: black;

@@ -23,7 +23,7 @@
 							<img
 								src="images/1-1.png"  style="display: none">
 							</li>
-							<li class="span2"><a href="about.html">About Us</a>
+							<li class="span2" onclick="location.href='about.php'"><a href="about.php">About Us</a>
 							<img
 								src="images/2-2.png"  style="display: none">
 							</li>
