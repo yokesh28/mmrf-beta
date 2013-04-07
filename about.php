@@ -62,7 +62,7 @@
 
 				<div class='wrap frame inview main_works'>
 					<div class='row double'>
-						<div class='block_1'>
+						<!--  <div class='block_1'>
 							<h2>Some of our projects</h2>
 							<div class='last_projects'>
 								<a href="http://fresh-development.com/projects/greenday"
@@ -90,13 +90,13 @@
 										NAPoker is a social network for poker lovers with a multitude
 										of built-in instruments and features
 								</span></a>
-							</div>
+							</div>-->
 						</div>
-						<div class='block_1 about_sm'>
+						<div class='block_1 about_sm '>
 							<h2>
 								About us<span style="font-size: 10px;">&nbsp;</span>
 							</h2>
-							<h2>Overview</h2>
+							<h3>Overview</h3>
 								<p>The top-notch names of the Real Estate sector have joined
 									hands to create and bestow an exceptional projects with
 									unparalleled quality. MMRF is a collaboraive endeavor of four
@@ -110,13 +110,13 @@
 									of dedicated and esteemed Real Estate Developers ensures of a
 									larger than life dwelling in each of their project which will
 									surpass the expectaions of a high-end living.</p>
-								<h2>Our Board Of Directors</h2>
-								<h2>
-									Mr. V. Mohan <br> <span><h6>(Managing Director of<a
+								<h3>Our Board Of Directors</h3>
+								<h4>
+									Mr. V. Mohan <p1>(Managing Director of<a
 										href="http://www.mayflowerenterprises.com/" target="_blank">
-											Mayflower Enterprises Pvt.Ltd</a>)</h6>
-									</span>
-								</h2>
+											Mayflower Enterprises Pvt.Ltd</a>)</p1>
+								
+								</h4>
 								<p>Mayflower was established in 1985 as property developers in
 									Coimbatore by Mr. A.N. Venkatachalam, one of the key members of
 									the Chettinad business empire for over 5 decades.</p>
@@ -128,12 +128,12 @@
 									apartment complexes and independent villas measuring an
 									estimated 1,200,000 sq. ft.</p>
 
-								<h2>
-									Mr. Ramesh Bafna <br> <span><h6>(Managing Director of<a
+								<h4>
+									Mr. Ramesh Bafna <p1>(Managing Director of<a
 										href="http://www.mounthousing.com" target="_blank"> Mount
-											Housing & Infrastructure Limited</a>)</h6>
-									</span>
-								</h2>
+											Housing & Infrastructure Limited</a>)</p1>
+									
+								</h4>
 								<p>Mount Housing & Infrastructure Limited is one of the leading
 									developers in Coimbatore in the areas of residential flats and
 									commercial buildings.</p>
@@ -142,12 +142,12 @@
 									construction currently underway.</p>
 
 
-								<h2>
-									Mr. V. Subramanian (“Mani”) <br> <span><h6>(Managing Director of<a
+								<h4>
+									Mr. V. Subramanian (“Mani”) <p1>(Managing Director of<a
 										href="http://www.ramanirealtors.com//" target="_blank"> Ramani
-											Realtors Pvt. Limited</a>)</h6>
-									</span>
-								</h2>
+											Realtors Pvt. Limited</a>)</p1>
+								
+								</h4>
 								<p>Ramani Realtors Pvt. Limited – RRPL, an ISO 9001:2008
 									certified Company is professionally managed by its Chairman
 									Shri V S Venkatraman</p>
@@ -164,12 +164,12 @@
 									& Coimbatore with over 4000 satisfied Customer families and
 									over 4 million sq ft of completed constructions.</p>
 
-								<h2>
-									Mr. Saravanan <br> <span><h6>(Managing Director of<a
+								<h4>
+									Mr. Saravanan <p1>(Managing Director of<a
 										href="http://www.fairylandfoundations.com/" target="_blank">
-											Fairyland Foundations Pvt. Ltd</a>)</h6>
-									</span>
-								</h2>
+											Fairyland Foundations Pvt. Ltd</a>)</p1>
+								
+								</h4>
 								<p>Established in 2000, Fairyland Foundations Pvt. Ltd. is a one
 									of the leading builders in Chennai and is engaged in the
 									construction of residential flats and individual homes in

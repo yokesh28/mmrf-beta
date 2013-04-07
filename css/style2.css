@@ -30,9 +30,9 @@ input {font-size: 1em; font-family:  Arial, Helvetica, Sans-serif ;}
 
 
 .block_1 {display: inline-block; width: 100%; }
-.block_1 h2 {color: #00A1CB; border-bottom: 1px solid #00A1CB; font-size: 27px;  }
+.block_1 h2 {color: red; font-size: 27px;  }
 
-.double  .block_1  {float: left; width: 48%; }
+.double  .block_1  {float: left; width: 100%; }
 .double  .block_1:last-child {float: right; }
 
 

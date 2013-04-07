@@ -390,6 +390,11 @@ body {
 	padding-right: 10px;
 }
 
+.about_sm a{color:red;}
+.about_sm p1{font-size:12px;}
+
+
+
 .alert1 {
 	padding: 8px 35px 8px 14px;
 	margin-bottom: 20px;
