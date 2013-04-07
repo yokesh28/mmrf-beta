@@ -141,10 +141,16 @@ body {
 
 .bottom p {
 	text-align: center;
-	top: 39%;
+	top: 0%;
 	position: absolute;
-	left: 24%;
+	left: 5%;
 }
+
+
+.center1{margin: 63px -4px;
+font-size: 27px;
+color: white;}
+
 
 .textright {
 	background: white;
