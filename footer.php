@@ -1,12 +1,5 @@
 
-
-
-
-
-
-     
-
-<footer class="footer span12" style="bottom:-420px;" >
+<footer class="footer span12 visible-desktop" style="bottom:-420px;" >
 	
 
 	<nav class="footnav ">
