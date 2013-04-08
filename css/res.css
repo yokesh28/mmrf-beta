@@ -4,6 +4,8 @@
 	.vission {
 		margin-top: 53px;
 		margin-left: 106px;
+		display: inline-block;
+margin-bottom: 50px;
 	}
 }
 
@@ -50,7 +52,8 @@
 	}
 	.vission {
 		margin-top: 53px;
-		margin-left: 106px;
+		margin-left: 106px;display: inline-block;
+margin-bottom: 50px;
 	}
 }
 
@@ -67,7 +70,8 @@
 	}
 	
 	.vission{margin-left:99px;
-margin-top: 100px;
+margin-top: 100px;display: inline-block;
+margin-bottom: 50px;
 	}
 	
 	.logo {
