@@ -12,6 +12,10 @@
 	content="css3, experiment, 3d, unfolding, fold, paper, component, element, web design, jquery, plugin, perspective" />
 <meta name="author" content="Codrops" />
 
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+
 <link href="css/style.css" rel="stylesheet">
 
 <link href="css/res.css" rel="stylesheet">
@@ -22,16 +26,18 @@
 <link
 	href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-<script
-	type="text/javascript"
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
-	<?php include 'header.php';?>
+<script src="js/jquery.mobilemenu.js"></script>
+
+
+
+
+<?php include 'header.php';?>
 
 <div class="row-fluid">
-
+<div class="vission">
 	<div class="span3">
-		<ul class="unstyled menu">
+		<ul class="unstyled menu1">
 			<li class="color">About Us</li>
 			<li>Management</li>
 			<li>Values</li>
@@ -41,10 +47,10 @@
 		</ul>
 	</div>
 	<div class="span8 main">
-		<h4>Overview</h4> 
-		<p>The top-notch names of the Real Estate sector have joined
-			hands to create and bestow an exceptional projects with unparalleled
-			quality. MMRF is a collaboraive endeavor of four leading Real Estate
+		<h4>Overview</h4>
+		<p>The top-notch names of the Real Estate sector have joined hands to
+			create and bestow an exceptional projects with unparalleled quality.
+			MMRF is a collaboraive endeavor of four leading Real Estate
 			Developers; Mayflower Enterprises Private Limited, Mount Housing &
 			Infrastructure Limited, Ramani Realtors Private Limited & Fairyland
 			Foundations Private Limited. MMRF with its team of experts further
@@ -54,4 +60,6 @@
 			of a larger than life dwelling in each of their project which will
 			surpass the expectaions of a high-end living.</p>
 
+	</div>
+	</div>
 	</div>

@@ -23,7 +23,7 @@ body {
 }
 
 .main {
-	padding: 13px 0px;
+	margin: 76px 0px;
 }
 
 .main p {
@@ -449,7 +449,7 @@ body {
 }
 
 .content {
-	margin: 18px 0px;
+	margin: 28px 0px !important;
 }
 
 .content img {
@@ -460,7 +460,7 @@ body {
 }
 
 .content p {
-	text-align: justify;
+	text-align: justify;margin: -23px 0px;
 }
 
 .content h4 {
