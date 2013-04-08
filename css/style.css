@@ -9,8 +9,41 @@ body {
 	height: 100%;
 }
 
+
+.align {
+	margin: 54px 0px;
+}
+
+.align .span8 {
+	margin-left: 0px;
+}
+
+.align p {
+	margin: 23px 36px;
+	text-align: justify;
+}
+
+.main {
+	margin: 76px 0px;
+}
+
+.main p {
+	text-align: justify;
+}
+
+
 .homepage {
 	height: 1500px !important;
+}
+
+
+.con {
+	margin: 49px 96px;
+}
+
+.con p {
+	margin: 25px 0px;
+	text-align: justify;
 }
 
 .middle {
@@ -389,6 +422,58 @@ body {
 	color: white;
 }
 
+
+.content {
+	margin: 43px -4px !important;
+}
+
+.content img {
+	float: left;
+	position: relative;
+	width: 305px;
+	height: 68px;
+}
+
+.content p {
+	text-align: justify;
+	margin: -23px 0px;
+}
+
+.content h4 {
+	position: absolute;
+	margin: 2px 15px;
+	color: white;
+}
+
+.content h5 {
+	position: absolute;
+	margin: 2px 14px;
+}
+
+.content a {
+	color: #5C2424;
+}
+
+.menu1 {
+	padding: 64px 62px;
+}
+
+.menu1 li {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.menu1 p {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu1 img {
+	margin-left: 6px;
+}
+
+
 .alert1 {
 	padding: 8px 35px 8px 14px;
 	margin-bottom: 20px;
@@ -705,6 +790,7 @@ body {
 	background: url("../images/3.jpg");
 }
 
+
 /*footer page*/
 .footer {
 	background-color: rgba(30, 3, 3, 0.9);
@@ -798,6 +884,7 @@ footer .footer-content .titlefooter .extramobile {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
 
 .extramobile {
 	display: none;
@@ -1006,10 +1093,13 @@ footer .footer-content .titlefooter .extramobile {
 .footrow .footcolumn {
 	width: 100%;
 	float: left;
-<<<<<<< HEAD
+
+
 }
 
-}	
+
+}
+
 
 footer nav .row {
 	
@@ -1024,7 +1114,13 @@ font-weight: bold;
 text-align: center;
 	
 }
+
+
+
+
+
 /*footer page*/
+
 
 
 
