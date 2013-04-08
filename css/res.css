@@ -6,12 +6,13 @@
 	}
 }
 
+
 /* Portrait tablet to landscape and desktop */
 @media ( min-width : 768px) and (max-width: 979px) {
 	body {
 		padding: 0px !important;
 		margin: 0px !important;
-		overflow:scroll;
+		overflow-y:scroll;
 		height: 600px; 
 	}
 	header {
@@ -51,11 +52,13 @@
 	}
 	.middle1 {
 		background: none !important;
+		position: relative !important;
 	}
 	.textright {
 		margin: 15px !important;
 	}
 }
+
 
 /* Landscape phone to portrait tablet */
 @media ( max-width : 767px) {
@@ -100,6 +103,7 @@
 	}
 	.middle1 {
 		background: none !important;
+		position: relative !important;
 	}
 }
 
@@ -107,5 +111,6 @@
 @media ( max-width : 480px) {
 	.middle1 {
 		background: none !important;
+		position: relative !important;
 	}
 }

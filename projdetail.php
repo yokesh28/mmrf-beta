@@ -35,7 +35,7 @@
 		<div class="im">
 
 
-			<div class="middle1 span6" style="right: -100%;" id="ongoing">
+			<div class="middle1 span12" style="right: -100%;" id="ongoing">
 
 				<div class="position1 span12">
 					<div class="building pull-left ">
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 
-			<div class="middle1 span6" id="upcoming" style="right: -100%;">
+			<div class="middle1 span12" id="upcoming" style="right: -100%;">
 
 				<div class="position1 span12">
 					<div class="building pull-left">
@@ -282,7 +282,7 @@
 		</div>
 	</div>
 
-	<?php include 'footer.php';?>
+	<?php //include 'footer.php';?>
 
 
 

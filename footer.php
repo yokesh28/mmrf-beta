@@ -1,4 +1,4 @@
-<footer class="footer" style="bottom: -420px;">
+<footer class="footer hidden-phone" style="bottom: -420px;">
 	<nav class="footnav ">
 
 		<div class="row">
