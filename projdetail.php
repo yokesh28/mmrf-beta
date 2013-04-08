@@ -36,9 +36,9 @@
 
 
 			<div class="middle1 span12" style="right: -100%;" id="ongoing">
-
+				<div class="hidden-desktop">On going</div>
 				<div class="position1 span12">
-					<div class="building pull-left ">
+					<div class="building pull-left visible-desktop ">
 						<img src="images/images/build.gif" class="img-polaroid">
 					</div>
 
@@ -49,10 +49,10 @@
 
 				</div>
 				<div class="position1 span12">
-					<div class="textleft padur pull-left" style="cursor: pointer;">
+					<div class="textleft padur pull-left " style="cursor: pointer;">
 						<p>Padur Residence</p>
 					</div>
-					<div class="building pull-left"
+					<div class="building pull-left visible-desktop"
 						style="margin: 0px; margin-left: 53px; margin-top: -30px;">
 						<img src="images/images/on2.gif" class="img-polaroid">
 					</div>
@@ -62,11 +62,11 @@
 			<div class="middle1 span12" id="upcoming" style="right: -100%;">
 
 				<div class="position1 span12">
-					<div class="building pull-left">
+					<div class="building pull-left visible-desktop">
 						<img src="images/images/up.jpg" class="img-polaroid">
 					</div>
 
-					<div class="textright pull-left">
+					<div class="textright pull-left ">
 						<p>Ottiyambakkam, Chennai</p>
 					</div>
 
