@@ -75,7 +75,7 @@
 
 	<div>
 
-		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed">
+		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
 		<?php include 'header.php';?>
 		<div id="slidemenu" class="visible-desktop">
 
