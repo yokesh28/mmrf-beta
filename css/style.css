@@ -616,7 +616,7 @@ margin-top: 120px;
 #contactus_page .enquiry {
 	background: url("../images/contact_us_back1.gif") repeat;
 	padding: 10px 30px;
-	margin: 28px 0px 0px 50px;
+	margin: 39px 0px 0px 81px;
 	display: inline-block;
 	height: 550px;
 }
@@ -730,10 +730,372 @@ margin-top: 120px;
 	
 } 
 
+/*footer page*/
+.footer{
+	
+	background-color: rgba(30,3,3,0.9);
+opacity: 1;
+	
+	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+filter: alpha(opacity=100);
+}
+
+footer:hover{
+	
+	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+filter: alpha(opacity=100);
+
+	
+	
+}
+footer .open{
+	
+	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+filter: alpha(opacity=100);
+opacity: 1;
+	
+}
+.footer-content{
+	
+	padding:0 20px;
+	
+}
+
+
+.skrollable{
+	
+	position: fixed;
+z-index: 100;
+-webkit-transition: all .3s;
+-ms-transition: all .3s;
+-moz-transition: all .3s;
+-webkit-transition: all .3s;
+	
+	
+	
+}
 
 
 
+.footer{
+bottom:0px;
+height:450px;
+z-index: 9999! important;
+position: fixed;
+right:13px;
+left:13px;
+overflow: hidden;
+moz-box-shadow: 0 0 8px rgba(0,0,0,0.75);
+box-shadow: 0 0 8px rgba(0,0,0,0.75);
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+filter: alpha(opacity=85);
+opacity: 0.8;
+}
+footer nav.footnav{
+	background: #B0232A;
+	cursor: pointer;
+	
+	
+}
 
+.footrow{
+	width:100%;
+	max-width:1140px;
+	min-width:755px;
+	margin:0 auto;
+	overflow:hidden;
+	
+	
+}
+footer nav.footnav .footheader {
+	
+	font-size:16px;
+	font-weight:bold;
+	line-height: 30px;
+	color:#fff;
+	text-align: center;
+	
+}
+.footnav .fcontent{
+	
+	width: 21.05%;
+	
+}
+.last{
+	
+	margin-right:0px;
+	
+}
+
+.fcontent{
+	
+	margin-left: 3.8%;
+	float:left;
+	min-height:1px;
+	
+	
+}
+
+#fcontentbloc {
+	
+	padding:30px 0px 0px 0px;
+}
+
+footer .footer-content .titlefooter .extramobile{
+	
+	 font: 20px 'FrutigerLTStd47LightCnBold';
+font-weight: bold;
+line-height: 30px;
+color: #B0232A;
+text-align: center;
+padding-bottom: 20px;
+ 
+}
+.extramobile{
+	
+	display: none;
+	
+}
+
+
+#fcontentbloc  p{
+	
+	padding-top: 5px;
+	color: #a9a9a9;
+	
+}
+
+#fcontentbloc  p+p{
+	
+	padding-top: 5px;
+}
+#fcontentbloc ul{
+	
+	padding-top: 1em;
+}
+#fcontentbloc ul li{
+	
+	padding-bottom: 25px;
+}
+#fcontentbloc ul li h1
+{
+font-size: 13px;
+color: #D87344;
+padding-left: 20px;
+background: url("http://www.parc-amazonien-guyane.fr/css/../img/icone-footer-marchespublics.png") left center no-repeat;
+
+}
+#fcontentbloc .type
+{
+font-size: 11px;
+font-weight: normal;
+padding: 10px 0px 0px 0px;
+color: white
+
+}
+
+#fcontentbloc ul li h1 a
+{
+	color: #DBDBDB;
+line-height: 1.7em;
+
+	}
+
+#fcontentbloc .date
+{
+font-size: 11px;
+font-weight: normal;
+padding: 3px 0px 0px 0px;
+color: white;
+
+}	
+	
+	#fcontentbloc1{
+	
+	padding:30px 0px 0px 0px;
+	
+	}
+	
+#fcontentbloc1  p{
+	
+	padding-top: 5px;
+	color: #a9a9a9;
+	
+}
+
+#fcontentbloc1  p+p{
+	
+	padding-top: 5px;
+}
+#fcontentbloc1 ul{
+	
+	padding-top: 1em;
+}
+#fcontentbloc1 ul li{
+	
+	padding-bottom: 25px;
+}
+#fcontentbloc1 ul li h1
+{
+font-size: 13px;
+color: #D87344;
+padding-left: 20px;
+background: url("http://www.parc-amazonien-guyane.fr/css/../img/icone-footer-marchespublics.png") left center no-repeat;
+
+}
+#fcontentbloc1 .type
+{
+font-size: 11px;
+font-weight: normal;
+padding: 10px 0px 0px 0px;
+color: white
+
+}
+
+#fcontentbloc1 ul li h1 a
+{
+	color: #DBDBDB;
+line-height: 1.7em;
+
+	}
+
+#fcontentbloc1 .date
+{
+font-size: 11px;
+font-weight: normal;
+padding: 3px 0px 0px 0px;
+color: white;
+
+}	
+		
+#fcontentbloc2{
+	
+	padding:30px 0px 0px 0px;
+}	
+	#fcontentbloc2  p{
+	
+	padding-top: 5px;
+	color: #a9a9a9;
+	
+}
+
+#fcontentbloc2  p+p{
+	
+	padding-top: 5px;
+}
+#fcontentbloc2 ul{
+	
+	padding-top: 1em;
+}
+#fcontentbloc2 ul li{
+	
+	padding-bottom: 25px;
+}
+#fcontentbloc2 ul li h1
+{
+font-size: 13px;
+color: #D87344;
+padding-left: 20px;
+background: url("http://www.parc-amazonien-guyane.fr/css/../img/icone-footer-marchespublics.png") left center no-repeat;
+
+}
+#fcontentbloc2 .type
+{
+font-size: 11px;
+font-weight: normal;
+padding: 10px 0px 0px 0px;
+color: white
+
+}
+
+#fcontentbloc2 ul li h1 a
+{
+	color: #DBDBDB;
+line-height: 1.7em;
+
+	}
+
+#fcontentbloc2 .date
+{
+font-size: 11px;
+font-weight: normal;
+padding: 3px 0px 0px 0px;
+color: white;
+
+}	
+		
+#fcontentbloc3{
+	
+	padding:30px 0px 0px 0px;
+}	
+	#fcontentbloc3  p{
+	
+	padding-top: 5px;
+	color: #a9a9a9;
+	
+}
+
+#fcontentbloc3  p+p{
+	
+	padding-top: 5px;
+}
+#fcontentbloc3 ul{
+	
+	padding-top: 1em;
+}
+#fcontentbloc3 ul li{
+	
+	padding-bottom: 25px;
+}
+#fcontentbloc3 ul li h1
+{
+font-size: 13px;
+color: #D87344;
+padding-left: 20px;
+background: url("http://www.parc-amazonien-guyane.fr/css/../img/icone-footer-marchespublics.png") left center no-repeat;
+
+}
+#fcontentbloc3 .type
+{
+font-size: 11px;
+font-weight: normal;
+padding: 10px 0px 0px 0px;
+color: white
+
+}
+
+#fcontentbloc3 ul li h1 a
+{
+	color: #DBDBDB;
+line-height: 1.7em;
+
+	}
+
+#fcontentbloc3 .date
+{
+font-size: 11px;
+font-weight: normal;
+padding: 3px 0px 0px 0px;
+color: white;
+
+}	
+			
+.signature{
+	color: #fff;
+text-align: center;
+padding-top: 10px;
+border-top: 1px solid #0A3233;
+margin-top: 36px;
+	
+	
+}	
+.footrow .footcolumn{
+	
+	width: 100%;
+	float: left;
+}	
+	
+/*footer page*/
 
 
 

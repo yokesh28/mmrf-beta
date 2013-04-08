@@ -273,14 +273,20 @@
 					<p>Upcoming</p>
 				</div>
 			</div>
-
-
+			
+<?php include 'footer.php';?>
+			
+		
+			
+			
 			
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.pfold.js"></script>
 		<script type="text/javascript">
 			$(function() {
+				
 
+               
 				$('#ongoing').animate({"right":"12%",opacity:1},500);
 
 				  $(".ongoing").click(function() {
