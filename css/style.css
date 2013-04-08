@@ -780,7 +780,7 @@ height:450px;
 z-index: 9999! important;
 position: fixed;
 right:13px;
-left:13px;
+left: 143px;
 overflow: hidden;
 moz-box-shadow: 0 0 8px rgba(0,0,0,0.75);
 box-shadow: 0 0 8px rgba(0,0,0,0.75);
@@ -1098,7 +1098,19 @@ margin-top: 36px;
 	width: 100%;
 	float: left;
 }	
+footer nav .row {
 	
+	height: 30px;
+	
+}
+footer nav  .header{
+	
+	font-size: 18px;
+color: white;
+font-weight: bold;
+text-align: center;
+	
+}
 /*footer page*/
 
 

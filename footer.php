@@ -1,11 +1,19 @@
-<footer class="footer" style="bottom:-420px;" >
+
+
+
+
+     
+
+<footer class="footer span12" style="bottom:-420px;" >
+	
+	
 	<nav class="footnav ">
 			
-		<div class="row">
-			<div class=" span4">
-			Reaches
+		<div class="row header">
+			<div class=" span6 ">
+			Reach Us
 			</div>
-			<div class="span3 offset2">
+			<div class="span6">
 			Loan Tools
 			</div>
 			
@@ -144,6 +152,7 @@
 			
 			
 			</footer>
+			 
 		<script type="text/javascript">
 			$(function() {
 				 var bottom = 0;
