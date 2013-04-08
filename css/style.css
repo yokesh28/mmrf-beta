@@ -147,7 +147,7 @@ body {
 }
 
 
-.center1{margin: 63px -4px;
+.center1{margin: 0px;
 font-size: 27px;
 color: white;}
 
@@ -404,6 +404,14 @@ font-size: 29px;
 width: 140px;
 color: white;
 }
+
+.center1 h3{margin: 33px 20px;
+font-size: 29px;
+width: 140px;
+color: white;
+}
+
+
 
 .alert1 {
 	padding: 8px 35px 8px 14px;

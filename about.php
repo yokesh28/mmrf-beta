@@ -195,19 +195,22 @@
 						<div class='center_inf'>
 							<div class='cent_block o-lay_block'>
 								<div class='cont'>
-									<h2>On&#45;going Projects</h2>
+									<h2>Overview</h2>
 
 								</div>
 								<div class='overlay'>
-									<p>Back&#45;end technologies are the heart of our services. We
-										structure our websites rigorously by selecting and creating
-										the perfect mix of back-end technology fine-tuned to your
-										needs. This drastically increases the performance of the site
-										whether it is being used internally or by potential clients.
-										In addition to higher performance, our back-end technology
-										makes sure the valuable data being collected is properly
-										stored and processed so that it can be used faster and more
-										efficiently.</p>
+									<p>The top&#45;notch names of the Real Estate sector have joined
+								hands to create and bestow an exceptional projects with
+								unparalleled quality. MMRF is a collaboraive endeavor of four
+								leading Real Estate Developers; Mayflower Enterprises Private
+								Limited, Mount Housing & Infrastructure Limited, Ramani Realtors
+								Private Limited & Fairyland Foundations Private Limited.</p>
+							<p>MMRF with its team of experts further aims to develop ambience
+								based Residential Flats, and commercial units at strategically
+								chosen locations. this extraordinary amalgamatin of dedicated
+								and esteemed Real Estate Developers ensures of a larger than
+								life dwelling in each of their project which will surpass the
+								expectaions of a high-end living.</p>
 								</div>
 							</div>
 							<div class='blocks_cont lft'>
@@ -219,10 +222,11 @@
 
 									<h3>Sai Enclave</h3>
 									<a class='overlay'
-										href='http://fresh-development.com/about/technologies/php'> <strong
-										class='tit'>PHP</strong> PHP is used for the server-side
-										development of web apps, making it easy to administrate your
-										website right from your own browser.
+										href='http://fresh-development.com/about/technologies/php'> <h4><strong class='tit'>
+								Mr. Ramesh Bafna</strong></h4>
+								<p1>(Managing Director of
+									 Mount Housing & Infrastructure Limited)</p1>
+										
 									</a>
 								</div>
 
@@ -232,9 +236,12 @@
 										src='http://fresh-development.com/upload/tech/icon/pic_24.png' />
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/codeigniter'>
-										<strong class='tit'>Codeigniter</strong> Codeigniter is a php
-										framework that makes the development of websites easier and
-										faster&nbsp;
+										<h4><strong class='tit'>
+								Mr. Saravanan</strong></h4>
+								<p1>(Managing Director of
+									Fairyland Foundations Pvt. Ltd)</p1>
+
+						
 									</a>
 								</div>
 
@@ -244,8 +251,11 @@
 										src='http://fresh-development.com/upload/tech/icon/pic_25.png' />
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/sphinx'>
-										<strong class='tit'>Sphinx</strong> Spinx is a powerful search
-										server that helps you to extend functions of your website
+										<h4><strong class='tit'>
+								Mr. V. Mohan</strong></h4>
+								<p1>(Managing Director of
+									Mayflower Enterprises Pvt.Ltd)</p1>
+										
 									</a>
 								</div>
 
@@ -255,8 +265,11 @@
 										src='http://fresh-development.com/upload/tech/icon/pic_29.png' />
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/nginx'>
-										<strong class='tit'>NGINX</strong> NGINX is a scalable web
-										server that allows growth of your website
+										<h4><strong class='tit'>
+								Mr. V. Mohan</strong></h4>
+								<p1>(Managing Director of
+									Mayflower Enterprises Pvt.Ltd)</p1>
+										
 									</a>
 								</div>
 							</div>
@@ -268,8 +281,12 @@
 									<h3>Padur Residence</h3>
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/mongodb'>
-										<strong class='tit'>MongoDB</strong> MongoDB is a scalable,
-										high-performance, open source NoSQL database
+										<h4><strong class='tit'>
+								Mr. V. Subramanian </strong></h4>
+								<p1>(Managing Director of
+									Ramani
+									Realtors Pvt. Limited)</p1>
+										
 									</a>
 								</div>
 
@@ -279,9 +296,11 @@
 										src='http://fresh-development.com/upload/tech/icon/pic_24.png' />
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/mysql'>
-										<strong class='tit'>MySQL</strong> MySQL is a high performance
-										scalable database to safely and securely store your
-										site&rsquo;s data
+										<h4><strong class='tit'>
+								Mr. V. Mohan</strong></h4>
+								<p1>(Managing Director of
+									Mayflower Enterprises Pvt.Ltd)</p1>
+										
 									</a>
 								</div>
 
@@ -291,9 +310,11 @@
 										src='http://fresh-development.com/upload/tech/icon/pic_33.png' />
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/postgresql'>
-										<strong class='tit'>PostgreSQL</strong> An enterprise class
-										database, PostgreSQL boasts lots of modern features, that
-										makes organization of data of your website more advanced
+										<h4><strong class='tit'>
+								Mr. V. Mohan</strong></h4>
+								<p1>(Managing Director of
+									Mayflower Enterprises Pvt.Ltd)</p1>
+										
 									</a>
 								</div>
 
@@ -305,7 +326,7 @@
 						<div class='center_inf'>
 							<div class='cent_block o-lay_block'>
 								<div class='cont'>
-									<h2>Up-coming Projects</h2>
+									<h2>On&#45;going Projects</h2>
 
 								</div>
 								<div class='overlay'>
@@ -321,19 +342,16 @@
 										reach your audience more effectively.</p>
 								</div>
 							</div>
-							<div class='blocks_cont lft'>
+							<div class='blocks_cont lft center'>
 
 								<div class='o-lay_block one_tech_block' style='background: #f;'
 									data-offset="0">
-									<!-- <img
-										src='http://fresh-development.com/upload/tech/icon/pic_5.png' /> -->
-									<p class="center1"> Ottiyambakkam, Chennai</p>
+									<img
+										src='http://fresh-development.com/upload/tech/icon/pic_5.png' />
 									
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/objective-c'>
-										<strong class='tit'>Objective C</strong> Objective C is a
-										coding language used for the development of mobile apps for
-										Apple products, such as iPhone or iPad&nbsp;
+										<h3>Sai Enclave</h3>
 									</a>
 								</div>
 
@@ -349,16 +367,14 @@
 									</a>
 								</div>
 							</div>
-							<div class='blocks_cont rgt'>
+							<div class='blocks_cont rgt center'>
 								<div class='o-lay_block one_tech_block' style='background: #f;'
 									data-offset="2">
 									<img
 										src='http://fresh-development.com/upload/tech/icon/pic_9.png' />
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/jquery'>
-										<strong class='tit'>jQuery</strong> jQuery is a framework for
-										javascript, which allows developers to create stunning effects
-										and features more quickly
+										<h3>Padur Residence</h3>
 									</a>
 								</div>
 
@@ -381,8 +397,8 @@
 						<div class='center_inf'>
 							<div class='cent_block o-lay_block'>
 								<div class='cont'>
-									<h2>Organization</h2>
-									<p>Tools we use to organize the development process</p>
+									<h2>Up-coming Projects</h2>
+									
 								</div>
 								<div class='overlay'>
 									<p>Our diligent use of modern tools and a robust organizational
@@ -394,7 +410,7 @@
 										and to understand exactly where we are in the process.</p>
 								</div>
 							</div>
-							<div class='blocks_cont lft'>
+							<div class='blocks_cont lft center1'>
 
 								<div class='o-lay_block one_tech_block' style='background: #7;'
 									data-offset="0">
@@ -402,10 +418,7 @@
 										src='http://fresh-development.com/upload/tech/icon/pic_11.png' />
 									<a class='overlay'
 										href='http://fresh-development.com/about/technologies/github'>
-										<strong class='tit'>Github</strong> Github is a powerful
-										service for the collaborative development of apps, allowing
-										the developers to comment, review changes and report issues on
-										the project
+										<h3> Ottiyambakkam, Chennai</h3>
 									</a>
 								</div>
 							</div>
@@ -435,7 +448,7 @@
 				<!--END OF STATS BLOCK-->
 
 				<div class='main_news frame' id='frame4'>
-					<div class='wrap'></div>
+					
 				</div>
 
 				<div class='team frame' id='frame5'></div>
