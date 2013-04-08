@@ -748,11 +748,12 @@ opacity: 1;
 footer nav.footnav {
 	background: #B0232A;
 	cursor: pointer;
+	height: 30px;
 }
 
-footer nav .container {
-	background: #B0232A;
-	cursor: pointer;
+footer nav  .row .span6{
+	
+	padding: 8px 0px;
 }
 
 .footrow {
