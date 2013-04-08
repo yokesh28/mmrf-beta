@@ -7,12 +7,12 @@ html {
 body {
 	font-family: Malgun Gothic;
 	height: 100%;
-
 }
 
-.homepage{
+.homepage {
 	height: 1500px !important;
 }
+
 .middle {
 	background: url(../images/images/projectdetail.png) 0 0 no-repeat;
 	position: fixed;
@@ -26,26 +26,20 @@ body {
 	position: fixed;
 	right: 12%;
 	top: 22%;
-	width: 780px;
+	
 	height: 600px;
 }
 
 .building {
-	position: absolute;
-	top: 2%;
-	left: 2%;
 	background: white;
 	padding: 0px;
-	margin: 0px;
+	margin: 15px;
 	width: 324px;
 	height: 200px;
+	margin-top: 26px;
 }
 
 .building1 {
-	position: absolute;
-	background: white;
-	bottom: 30%;
-	left: 52%;
 	height: 202px;
 	width: 320px;
 }
@@ -87,11 +81,8 @@ body {
 
 .textright {
 	background: white;
-	top: 1%;
-	left: 52%;
 	width: 317px;
 	height: 172px;
-	position: absolute;
 	font-family: chaparral Pro;
 	font-size: 30px;
 }
@@ -103,27 +94,18 @@ body {
 
 .textright p {
 	text-align: center;
-	top: 39%;
 	font-style: italic;
-	position: absolute;
-	left: 29%;
+	margin: 73px;
 }
 
-.textleft p {
-	text-align: center;
-	bottom: 39%;
-	position: absolute;
-	left: 19%;
-	font-style: italic;
-}
+
 
 .textleft {
 	background: white;
-	bottom: 31%;
-	left: 2%;
+
 	width: 317px;
 	height: 166px;
-	position: absolute;
+
 	font-family: chaparral Pro;
 	font-size: 30px;
 }
@@ -146,42 +128,44 @@ body {
 	left: 5%;
 }
 
+<<<<<<< HEAD
+.center1 {
+	margin: 63px -4px;
+	font-size: 27px;
+	color: white;
+}
+=======
 
 .center1{margin: 0px;
 font-size: 27px;
 color: white;}
 
+>>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
 
 .textright {
 	background: white;
-	top: 2%;
-	left: 52%;
 	width: 317px;
 	height: 166px;
-	position: absolute;
+	margin-top: 26PX;
+	margin-bottom: 15PX;
+	margin-left: 56PX;
 }
 
-.textright p {
-	text-align: center;
-	top: 39%;
-	position: absolute;
-	left: 32%;
-}
+
 
 .textleft p {
 	text-align: center;
-	bottom: 39%;
-	position: absolute;
-	left: 21%;
+	margin: 73px;
+	
+
 }
 
 .textleft {
 	background: white;
-	bottom: 31%;
-	left: 2%;
+	
 	width: 317px;
 	height: 166px;
-	position: absolute;
+	margin-left: 15px;
 }
 
 .textleft:hover {
@@ -267,17 +251,18 @@ color: white;}
 }
 
 .position {
-	position: relative;
+	position: fixed;
 	top: 25px;
 	width: 267px;
 	height: 100%;
 }
 
 .position1 {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	margin: 45px 20px;
+	
+	display: inline-block;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 30px;
 }
 
 .position>img {
@@ -396,13 +381,19 @@ color: white;}
 	padding-right: 10px;
 }
 
-.about_sm a{color:red;}
-.about_sm p1{font-size:12px;}
+.about_sm a {
+	color: red;
+}
 
-.center h3{margin: 48px;
-font-size: 29px;
-width: 140px;
-color: white;
+.about_sm p1 {
+	font-size: 12px;
+}
+
+.center h3 {
+	margin: 48px;
+	font-size: 29px;
+	width: 140px;
+	color: white;
 }
 
 .center1 h3{margin: 33px 20px;
@@ -451,23 +442,18 @@ color: white;
 	bottom: 0%;
 	left: -338px;
 }
-#pagescroller
-{
-margin-top: 100px;
+
+#pagescroller {
+	margin-top: 100px;
 }
 
-
-#contactus_page  h1,h2,h3,h4,h5,h6{
-	
+#contactus_page  h1,h2,h3,h4,h5,h6 {
 	color: black;
-	
-	
 }
-#contactus_page nput[type="text"], input[type="password"], input[type="email"] {
-	
+
+#contactus_page nput[type="text"],input[type="password"],input[type="email"]
+	{
 	border: 1px solid #D40E1E;
-	
-	
 }
 
 #contactus_page .adress {
@@ -595,12 +581,9 @@ margin-top: 100px;
 /*contact Page */
 #contactus_page {
 	background: white;
-
-margin-top: 120px;
+	margin-top: 120px;
 	color: white;
 	padding: 30px;
-
-	
 }
 
 #contactus_page .adress {
@@ -703,7 +686,7 @@ margin-top: 120px;
 	margin-left: 104px;
 }
 
-.contact{
+.contact {
 	background: url("../images/4.jpg");
 }
 
@@ -727,16 +710,15 @@ margin-top: 120px;
 	text-shadow: #333 1px 0;
 	cursor: pointer;
 }
+
 #contactus_page form {
 	display: inline-block;
 }
 
-
 /*contact page */
-.about{
+.about {
 	background: url("../images/3.jpg");
-	
-} 
+}
 
 /*footer page*/
 .footer{
@@ -1098,11 +1080,6 @@ margin-top: 36px;
 	width: 100%;
 	float: left;
 }	
-	
-/*footer page*/
-
-
-
 
 
 
