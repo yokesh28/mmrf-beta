@@ -7,12 +7,42 @@ html {
 body {
 	font-family: Malgun Gothic;
 	height: 100%;
-
 }
 
-.homepage{
+.align {
+	margin: 54px 0px;
+}
+
+.align .span8 {
+	margin-left: 0px;
+}
+
+.align p {
+	margin: 23px 36px;
+	text-align: justify;
+}
+
+.main {
+	padding: 13px 0px;
+}
+
+.main p {
+	text-align: justify;
+}
+
+.homepage {
 	height: 1500px !important;
 }
+
+.con {
+	margin: 49px 96px;
+}
+
+.con p {
+	margin: 25px 0px;
+	text-align: justify;
+}
+
 .middle {
 	background: url(../images/images/projectdetail.png) 0 0 no-repeat;
 	position: fixed;
@@ -146,11 +176,11 @@ body {
 	left: 5%;
 }
 
-
-.center1{margin: 0px;
-font-size: 27px;
-color: white;}
-
+.center1 {
+	margin: 0px; font-size : 27px;
+	color: white;
+	font-size: 27px;
+}
 
 .textright {
 	background: white;
@@ -396,22 +426,74 @@ color: white;}
 	padding-right: 10px;
 }
 
-.about_sm a{color:red;}
-.about_sm p1{font-size:12px;}
-
-.center h3{margin: 48px;
-font-size: 29px;
-width: 140px;
-color: white;
+.about_sm a {
+	color: red;
 }
 
-.center1 h3{margin: 33px 20px;
-font-size: 29px;
-width: 140px;
-color: white;
+.about_sm p1 {
+	font-size: 12px;
+}
+
+.center h3 {
+	margin: 48px;
+	font-size: 29px;
+	width: 140px;
+	color: white;
+}
+
+.center1 h3 {
+	margin: 33px 20px;
+	font-size: 29px;
+	width: 140px;
+	color: white;
+}
+
+.content {
+	margin: 18px 0px;
+}
+
+.content img {
+	float: left;
+	position: relative;
+	width: 305px;
+	height: 68px;
+}
+
+.content p {
+	text-align: justify;
+}
+
+.content h4 {
+	position: absolute;
+	margin: 2px 15px;
+	color: white;
+}
+
+.content h5 {
+	position: absolute;
+	margin: 2px 14px;
+}
+
+.content a {
+	color: #5C2424;
+}
+
+.menu1 {
+	padding: 64px 62px;
+}
+
+.menu1 li {
+	padding: 10px;
+	cursor: pointer;
+	margin: 10px 0px;
+	background: red;
+	color: white;
 }
 
 
+.menu1 li:hover {
+	background: #5C2424;
+}
 
 .alert1 {
 	padding: 8px 35px 8px 14px;
@@ -451,23 +533,18 @@ color: white;
 	bottom: 0%;
 	left: -338px;
 }
-#pagescroller
-{
-margin-top: 100px;
+
+#pagescroller {
+	margin-top: 100px;
 }
 
-
-#contactus_page  h1,h2,h3,h4,h5,h6{
-	
+#contactus_page  h1,h2,h3,h4,h5,h6 {
 	color: black;
-	
-	
 }
-#contactus_page nput[type="text"], input[type="password"], input[type="email"] {
-	
+
+#contactus_page nput[type="text"],input[type="password"],input[type="email"]
+	{
 	border: 1px solid #D40E1E;
-	
-	
 }
 
 #contactus_page .adress {
@@ -595,12 +672,9 @@ margin-top: 100px;
 /*contact Page */
 #contactus_page {
 	background: white;
-
-margin-top: 120px;
+	margin-top: 120px;
 	color: white;
 	padding: 30px;
-
-	
 }
 
 #contactus_page .adress {
@@ -703,7 +777,7 @@ margin-top: 120px;
 	margin-left: 104px;
 }
 
-.contact{
+.contact {
 	background: url("../images/4.jpg");
 }
 
@@ -727,31 +801,15 @@ margin-top: 120px;
 	text-shadow: #333 1px 0;
 	cursor: pointer;
 }
+
 #contactus_page form {
 	display: inline-block;
 }
 
-
 /*contact page */
-.about{
+.about {
 	background: url("../images/3.jpg");
-	
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 ::-webkit-scrollbar {
 	width: 15px;

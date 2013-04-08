@@ -1,20 +1,21 @@
 @CHARSET "ISO-8859-1";
 /* Large desktop */
 @media ( min-width : 1200px) {
-	...
+	.vission {
+		margin-top: 53px;
+		margin-left: 106px;
+	}
 }
 
 /* Portrait tablet to landscape and desktop */
 @media ( min-width : 768px) and (max-width: 979px) {
-	body{
-	
-	padding:0px !important;
-	margin: 0px !important; 
+	body {
+		padding: 0px !important;
+		margin: 0px !important;
 	}
 	header {
 		position: absolute;
 		top: 0px;
-		
 		width: 100%;
 	}
 	.logo {
@@ -22,9 +23,8 @@
 		width: 190px !important;
 	}
 	.dropmenu {
-		margin: 10px 250px 0px  !important;
+		margin: 10px 250px 0px !important;
 		width: 60% !important;
-		
 	}
 	.dropmenu select {
 		display: block;
@@ -48,21 +48,27 @@
 	.nav-collapse {
 		height: auto !important;
 	}
+	.vission {
+		margin-top: 53px;
+		margin-left: 106px;
+	}
 }
 
 /* Landscape phone to portrait tablet */
 @media ( max-width : 767px) {
-	body{
-	
-	padding:0px !important;
-	margin: 0px !important; 
+	body {
+		padding: 0px !important;
+		margin: 0px !important;
 	}
 	header {
 		position: absolute;
 		top: 0px;
-		
 		width: 100%;
 	}
+	
+	.vission{margin-top: 75px;
+margin-left: 37px;}
+	
 	.logo {
 		margin: 0 auto !important;
 		width: 190px !important;
