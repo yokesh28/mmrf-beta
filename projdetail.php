@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta charset="UTF-8" />
+>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,10 +13,10 @@
 <meta name="author" content="Codrops" />
 
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/pfold.css" />
-        <link rel="stylesheet" type="text/css" href="css/custom2.css" />
-		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
-		
+<link rel="stylesheet" type="text/css" href="css/pfold.css" />
+<link rel="stylesheet" type="text/css" href="css/custom2.css" />
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
 <link href="css/res.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
@@ -27,7 +27,7 @@
 
 </head>
 <body>
-	<div class="slide1">
+	<div class="slide1 row-fluid">
 
 
 		<?php include 'header.php';?>
@@ -35,37 +35,41 @@
 		<div class="im">
 
 
-			<div class="middle1" style="right: -100%;" id="ongoing">
+			<div class="middle1 span6" style="right: -100%;" id="ongoing">
 
-				<div class="position1">
-					<div class="building">
-						<img src="images/images/build.gif">
+				<div class="position1 span12">
+					<div class="building pull-left ">
+						<img src="images/images/build.gif" class="img-polaroid">
 					</div>
-					<div class="building1">
-						<img src="images/images/on2.gif">
-					</div>
-					<div class="textright enclave" style="cursor: pointer;">
+
+					<div class="textright enclave pull-left" style="cursor: pointer;">
 						<p>Sai Enclave</p>
 					</div>
-					<div class="textleft padur" style="cursor: pointer;">
+
+
+				</div>
+				<div class="position1 span12">
+					<div class="textleft padur pull-left" style="cursor: pointer;">
 						<p>Padur Residence</p>
+					</div>
+					<div class="building pull-left"
+						style="margin: 0px; margin-left: 53px; margin-top: -30px;">
+						<img src="images/images/on2.gif" class="img-polaroid">
 					</div>
 				</div>
 			</div>
 
-			<div class="middle1" id="upcoming"  style="right: -100%;">
+			<div class="middle1 span6" id="upcoming" style="right: -100%;">
 
-				<div class="position1">
-					<div class="building2">
-						<img src="images/images/up.jpg">
+				<div class="position1 span12">
+					<div class="building pull-left">
+						<img src="images/images/up.jpg" class="img-polaroid">
 					</div>
-					<div class="building1 "></div>
-					<div class="bottom">
+
+					<div class="textright pull-left">
 						<p>Ottiyambakkam, Chennai</p>
 					</div>
-					<div class="textleft">
-						<p></p>
-					</div>
+
 				</div>
 			</div>
 			<div class="middle" style="right: -100%">
@@ -173,11 +177,11 @@
 					</div>
 					<!-- / uc-container -->
 
-					
-					
-					
-					
-					
+
+
+
+
+
 					<div class="uc-container box2">
 						<div class="uc-initial-content">
 							<p>Location</p>
@@ -210,15 +214,15 @@
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-							<table class="table">
-                             
+								<table class="table">
 
-							</table>
-							
-							
-							
-							
-							
+
+								</table>
+
+
+
+
+
 							</div>
 						</div>
 					</div>
@@ -237,8 +241,8 @@
 
 
 
-                     
-				
+
+
 
 
 					<div class="uc-container box6">
@@ -261,28 +265,35 @@
 				<!-- / grid --> </section>
 
 			</div>
+		</div>
+	</div>
 
 
-			<div class="position">
-				<img src="images/l-slide.png">
+	<div class="position visible-desktop">
+		<img src="images/l-slide.png">
 
-				<div class="ongoing">
-					<p>Ongoing</p>
-				</div>
-				<div class="upcoming">
-					<p>Upcoming</p>
-				</div>
-			</div>
-			
-<?php include 'footer.php';?>
-			
-		
-			
-			
-			
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.pfold.js"></script>
-		<script type="text/javascript">
+		<div class="ongoing">
+			<p>Ongoing</p>
+		</div>
+		<div class="upcoming">
+			<p>Upcoming</p>
+		</div>
+	</div>
+
+	<?php include 'footer.php';?>
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.pfold.js"></script>
+	<script type="text/javascript">
 			$(function() {
 				
 
@@ -361,19 +372,19 @@
 				
 			});
 		</script>
-		
-		
-		
-		
-		
-		
-		
 
 
-			<script src="js/bootstrap.min.js"></script>
 
 
-			<script src="js/jquery.mobilemenu.js"></script>
+
+
+
+
+
+	<script src="js/bootstrap.min.js"></script>
+
+
+	<script src="js/jquery.mobilemenu.js"></script>
 
 </body>
 </html>

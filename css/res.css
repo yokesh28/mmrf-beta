@@ -1,20 +1,22 @@
 @CHARSET "ISO-8859-1";
 /* Large desktop */
 @media ( min-width : 1200px) {
-	...
+	.middle1 {
+		width: 780px !importaNT;
+	}
 }
 
 /* Portrait tablet to landscape and desktop */
 @media ( min-width : 768px) and (max-width: 979px) {
-	body{
-	
-	padding:0px !important;
-	margin: 0px !important; 
+	body {
+		padding: 0px !important;
+		margin: 0px !important;
+		overflow:scroll;
+		height: 600px; 
 	}
 	header {
 		position: absolute;
 		top: 0px;
-		
 		width: 100%;
 	}
 	.logo {
@@ -22,9 +24,8 @@
 		width: 190px !important;
 	}
 	.dropmenu {
-		margin: 10px 250px 0px  !important;
+		margin: 10px 250px 0px !important;
 		width: 60% !important;
-		
 	}
 	.dropmenu select {
 		display: block;
@@ -48,19 +49,23 @@
 	.nav-collapse {
 		height: auto !important;
 	}
+	.middle1 {
+		background: none !important;
+	}
+	.textright {
+		margin: 15px !important;
+	}
 }
 
 /* Landscape phone to portrait tablet */
 @media ( max-width : 767px) {
-	body{
-	
-	padding:0px !important;
-	margin: 0px !important; 
+	body {
+		padding: 0px !important;
+		margin: 0px !important;
 	}
 	header {
 		position: absolute;
 		top: 0px;
-		
 		width: 100%;
 	}
 	.logo {
@@ -93,9 +98,14 @@
 	.nav-collapse {
 		height: auto !important;
 	}
+	.middle1 {
+		background: none !important;
+	}
 }
 
 /* Landscape phones and down */
 @media ( max-width : 480px) {
-	...
+	.middle1 {
+		background: none !important;
+	}
 }
