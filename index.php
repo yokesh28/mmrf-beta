@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html lang="en">
 <head>
 <title>mmrf</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
