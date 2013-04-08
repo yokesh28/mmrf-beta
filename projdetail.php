@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta charset="UTF-8" />
+>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -280,6 +280,14 @@
 		</div>
 	</div>
 
+	<?php include 'footer.php';?>
+
+
+
+
+
+
+
 
 
 	<script type="text/javascript"
@@ -287,7 +295,9 @@
 	<script type="text/javascript" src="js/jquery.pfold.js"></script>
 	<script type="text/javascript">
 			$(function() {
+				
 
+               
 				$('#ongoing').animate({"right":"12%",opacity:1},500);
 
 				  $(".ongoing").click(function() {
