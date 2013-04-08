@@ -1,11 +1,27 @@
-<footer class="footer hidden-phone" style="bottom: -420px;">
+
+
+
+
+
+
+     
+
+<footer class="footer span12" style="bottom:-420px;" >
+	
+
 	<nav class="footnav ">
 
-		<div class="row">
-			<div class=" span4">Reaches</div>
-			<div class="span3 offset2">Loan Tools</div>
-
-
+			
+		<div class="row header">
+			<div class=" span6 ">
+			Reach Us
+			</div>
+			<div class="span6">
+			Loan Tools
+			</div>
+			
+			
+			
 
 		</div>
 
@@ -185,8 +201,12 @@
 		</div>
 	</div>
 
-</footer>
-<script type="text/javascript">
+			
+			
+			</footer>
+			 
+		<script type="text/javascript">
+
 			$(function() {
 				 var bottom = 0;
              $(".footer").click(function(){

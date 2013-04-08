@@ -125,23 +125,14 @@ body {
 	left: 5%;
 }
 
-<<<<<<<
-HEAD
-.center1 {
-	margin: 63px -4px;
-	font-size: 27px;
-	color: white;
-}
 
-=======
+
 .center1 {
 	margin: 0px;
 	font-size: 27px;
 	color: white;
 }
 
->>>>>>>
-branch 'master ' of https: //github.com /yokesh28/mmrf-beta.git
 
 .textright {
 	background: white;
@@ -738,18 +729,20 @@ footer .open {
 }
 
 .footer {
-	bottom: 0px;
-	height: 450px;
-	z-index: 9999 ! important;
-	position: fixed;
-	right: 13px;
-	left: 13px;
-	overflow: hidden;
-	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity = 85);
-	opacity: 1;
+
+bottom:0px;
+height:450px;
+z-index: 9999! important;
+position: fixed;
+right:13px;
+left: 143px;
+overflow: hidden;
+moz-box-shadow: 0 0 8px rgba(0,0,0,0.75);
+box-shadow: 0 0 8px rgba(0,0,0,0.75);
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+filter: alpha(opacity=85);
+opacity: 1;
+
 }
 
 footer nav.footnav {
@@ -1012,7 +1005,32 @@ footer .footer-content .titlefooter .extramobile {
 .footrow .footcolumn {
 	width: 100%;
 	float: left;
+<<<<<<< HEAD
 }
+
+}	
+
+footer nav .row {
+	
+	height: 30px;
+	
+}
+footer nav  .header{
+	
+	font-size: 18px;
+color: white;
+font-weight: bold;
+text-align: center;
+	
+}
+/*footer page*/
+
+
+
+
+
+
+
 
 ::-webkit-scrollbar {
 	width: 15px;
