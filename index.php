@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html lang="en">
 <head>
 <title>mmrf</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,7 +75,7 @@
 
 	<div>
 
-		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed">
+		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
 		<?php include 'header.php';?>
 		<div id="slidemenu" class="visible-desktop">
 
@@ -92,7 +92,7 @@
 
 	</div>
 
-
+<?php include 'footer.php';?>
 
 
 
