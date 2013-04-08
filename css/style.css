@@ -768,24 +768,13 @@ opacity: 1;
 	padding:0 20px;
 	
 }
-
-
-.skrollable{
-	
-	position: fixed;
-z-index: 100;
--webkit-transition: all .3s;
--ms-transition: all .3s;
--moz-transition: all .3s;
--webkit-transition: all .3s;
-	
-	
-	
-}
+   
 
 
 
-.footer{
+
+
+.footer {
 bottom:0px;
 height:450px;
 z-index: 9999! important;
@@ -797,9 +786,16 @@ moz-box-shadow: 0 0 8px rgba(0,0,0,0.75);
 box-shadow: 0 0 8px rgba(0,0,0,0.75);
 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 filter: alpha(opacity=85);
-opacity: 0.8;
+opacity: 1;
 }
-footer nav.footnav{
+footer nav.footnav {
+	background: #B0232A;
+	cursor: pointer;
+	
+	
+}
+footer nav .container{
+	
 	background: #B0232A;
 	cursor: pointer;
 	

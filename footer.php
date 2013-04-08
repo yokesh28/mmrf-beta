@@ -1,27 +1,21 @@
 <footer class="footer" style="bottom:-420px;" >
-	<nav class="footnav">
+	<nav class="footnav ">
 			
-		<div class="footrow">
-			<div class="fcontent footheader">
-			Recueil des Actes Administratifs
+		<div class="row">
+			<div class=" span4">
+			Reaches
 			</div>
-			<div class="fcontent footheader">
-			Marches Publics
+			<div class="span3 offset2">
+			Loan Tools
 			</div>
 			
-			<div class="fcontent footheader">
-			Recrutement
 			
-			</div>
-			<div class="fcontent footheader last">
-			Contact le Parc national
-			</div>
 			
 		</div>
 			
 	</nav>
 	
-<div class="footrow">
+<div class="row">
 	 <div class="footer-content">
 	   <div id="fcontentbloc" class="fcontent">
 	     <div class="titlefooter extramobile">
