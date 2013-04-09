@@ -83,7 +83,7 @@
 			<div class=" adress">
 				<h2>Contact Info</h2>
 				<address>
-					<h3>MMRF Realty and Infrastructure Pvt. Ltd.</h3>
+					<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
 					New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
 					Chennai - 600020.<br> <br> <br> Phone : + 91 44 43551600<br> + 91
 					44 24400523 <br> <br> Mail : info@mmrf.in<br> Website : www.mmrf.in
@@ -105,7 +105,7 @@
 								</li>
 								<li><label class="city">City</label><input type="text"
 									name="city" style="width: 140px"> <br> <br> <label>Pincode</label><input
-									type="text" name="pincode" style="width: 112px;"></li>
+									type="text" name="pincode" style="width: 139px;"></li>
 
 							</ul>
 						</li>
@@ -114,10 +114,12 @@
 								<span>*</span>
 						</label><input type="email" name="email" style="width: 180px;"></li>
 						<li style="margin-top: 0px"><label>Mobie No<span>*</span>
-						</label><input type="text" name="mobile" style="width: 154px;"><label
-							style="width: 99px;">Phone No </label><input type="text"
-							name="pho_ex" style="width: 42px"><input type="text" name="phone"
-							style="width: 66px"></li>
+						</label><input type="text" name="mobile" style="width:180px;"><label
+							style="width:83px;">Phone No </label><input type="text"
+							name="pho_ex" style="width: 42px"> <input type="text"
+								name="phone" style="width: 66px">
+						
+						</li>
 
 						<li><label>Location<span>*</span>
 						</label><input type="text" name="location" style="width: 180px;">
@@ -149,8 +151,8 @@
 
 							</div> <label style="width: 76px">Budget<span>*</span>
 						</label>
-							<div class="select" style="width: 128px">
-								<select style="width: 128px" name="budget"><option value="">--Select--</option>
+							<div class="select" style="width: 153px">
+								<select style="width: 154px" name="budget"><option value="">--Select--</option>
 
 
 									<option value="Less than 60,00,000">Less than 60,00,000</option>
