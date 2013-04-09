@@ -494,9 +494,6 @@ display: inline-block;}
 	color: red;
 }
 
-.menu1 img {
-	margin-left: 6px;
-}
 
 .alert1 {
 	padding: 8px 35px 8px 14px;
@@ -849,8 +846,7 @@ footer .open {
 	height: 450px;
 	z-index: 9999 ! important;
 	position: fixed;
-	right: 13px;
-	left: 143px;
+left: 11%;
 	overflow: hidden;
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
