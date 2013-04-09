@@ -229,7 +229,7 @@ display: inline-block;}
 
 .slide1 {
 	position: relative;
-	background: url(../images/3.jpg) 0 0 no-repeat;
+	background: url(../images/2.jpg) 0 0 no-repeat;
 	width: 100%;
 	height: 100%;
 }
@@ -465,13 +465,13 @@ display: inline-block;}
 .content h4 {
 	position: absolute;
 	left: 0px;
-	margin: 0px 12px !important;
+	margin: 8px 12px !important;
 	color: white;
 }
 
 .content h5 {
 	position: absolute;
-	margin: 2px 14px;
+	margin: 10px 14px;
 }
 
 .content a {
@@ -494,9 +494,6 @@ display: inline-block;}
 	color: red;
 }
 
-.menu1 img {
-	margin-left: 6px;
-}
 
 .alert1 {
 	padding: 8px 35px 8px 14px;
@@ -816,8 +813,7 @@ footer .open {
 	height: 450px;
 	z-index: 9999 ! important;
 	position: fixed;
-	right: 13px;
-	left: 143px;
+left: 11%;
 	overflow: hidden;
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
@@ -1157,8 +1153,14 @@ footer nav  .header {
 }
 
 
+
 address h5{color:black;}
 
+
+
+blockquote{
+	border-left:none !important; 
+}
 
 /*#overlay_form{
 position: absolute;
@@ -1204,7 +1206,9 @@ left: 77px;
 }
 }
 */
-
+.tab-content{
+	margin-top: 70px;
+}
 
 .tab-content .tab-pane {
 
