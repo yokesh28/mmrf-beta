@@ -11,13 +11,15 @@ body {
 
 
 
-.as{
-margin: 88px 0px;
-}
+.background{background:url(../images/2.jpg) 0 0 no-repeat;}
+
+
+
+
 
 .as h4{color:black;margin-top: 78px;
 display: inline-block;}
-.as p{margin:9px 42px;}
+.as p{margin:9px 42px;text-align:justify;}
 .tab-content{display:inline;}
 
 

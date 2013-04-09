@@ -1,3 +1,5 @@
+<html>
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta charset="UTF-8" />
 
@@ -23,9 +25,9 @@
 
 
 <script src="js/jquery.mobilemenu.js"></script>
+</head>
 
-
-
+<body class="background">
 <?php include 'header.php';?>
 <div class="container">
 	<div class="row-fluid ">
@@ -52,7 +54,7 @@
 			<div class="tab-content">
 				<div class="tab-pane active as" id="about">
 					<h4>Overview</h4>
-					<p>The top-notch names of the Real Estate sector have joined hands
+					<p class="span7">The top-notch names of the Real Estate sector have joined hands
 						to create and bestow an exceptional projects with unparalleled
 						quality. MMRF is a collaboraive endeavor of four leading Real
 						Estate Developers; Mayflower Enterprises Private Limited, Mount
@@ -273,7 +275,7 @@
 		</div>
 	</div>
 </div>
-
+</body>
 <script>
   $(function () {
     $('#myTab a:first').tab('show');
@@ -285,3 +287,4 @@
 })
 </script>
 <script src="js/bootstrap-tab.js"></script>
+</html>
