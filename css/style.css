@@ -1189,7 +1189,9 @@ footer nav  .header {
 	height: 100%;
 }
 
-
+blockquote{
+	border-left:none !important; 
+}
 /*#overlay_form{
 position: absolute;
 
