@@ -9,20 +9,24 @@ body {
 	height: 100%;
 }
 
+.background {
+	background: url(../images/2.jpg) 0 0 no-repeat;
+}
 
+.as h4 {
+	color: black;
+	margin: 120px 0px;
+	display: inline-block;
+}
 
-.background{background:url(../images/2.jpg) 0 0 no-repeat;}
+.as p {
+	margin: 112px 0px;
+	text-align: justify;
+}
 
-
-
-
-
-.as h4{color:black;margin:120px 0px;
-display: inline-block;}
-.as p{margin: 112px 0px;text-align:justify;}
-.tab-content{display:inline;}
-
-
+.tab-content {
+	display: inline;
+}
 
 .align {
 	margin: 54px 0px;
@@ -45,11 +49,9 @@ display: inline-block;}
 	text-align: justify;
 }
 
-
 .homepage {
 	height: 1500px !important;
 }
-
 
 .con {
 	margin: 49px 96px;
@@ -172,14 +174,11 @@ display: inline-block;}
 	left: 5%;
 }
 
-
-
 .center1 {
 	margin: 0px;
 	font-size: 27px;
 	color: white;
 }
-
 
 .textright {
 	background: white;
@@ -262,6 +261,7 @@ display: inline-block;}
 
 #menu a {
 	cursor: pointer;
+	color: black;
 }
 
 #menu img {
@@ -436,7 +436,6 @@ display: inline-block;}
 	color: white;
 }
 
-
 .content {
 	margin: 43px -4px !important;
 }
@@ -445,7 +444,7 @@ display: inline-block;}
 	float: left;
 	position: relative;
 	width: 305px;
-	height:76px;
+	height: 76px;
 }
 
 .content p {
@@ -455,7 +454,8 @@ display: inline-block;}
 
 .content h4 {
 	position: absolute;
-	left:0px;margin: 0px 12px!important;
+	left: 0px;
+	margin: 0px 12px !important;
 	color: white;
 }
 
@@ -480,13 +480,13 @@ display: inline-block;}
 .menu1 p {
 	text-align: center;
 	margin: 0px;
-	padding: 0px;color:red;
+	padding: 0px;
+	color: red;
 }
 
 .menu1 img {
 	margin-left: 6px;
 }
-
 
 .alert1 {
 	padding: 8px 35px 8px 14px;
@@ -804,23 +804,22 @@ display: inline-block;}
 	background: url("../images/3.jpg");
 }
 
-
 /*footer page*/
 .footer {
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity = 100);
+	filter: alpha(opacity =   100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity = 100);
+	filter: alpha(opacity =   100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity = 100);
+	filter: alpha(opacity =   100);
 	opacity: 1;
 }
 
@@ -829,20 +828,18 @@ footer .open {
 }
 
 .footer {
-
-bottom:0px;
-height:450px;
-z-index: 9999! important;
-position: fixed;
-right:13px;
-left: 143px;
-overflow: hidden;
-moz-box-shadow: 0 0 8px rgba(0,0,0,0.75);
-box-shadow: 0 0 8px rgba(0,0,0,0.75);
--ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-filter: alpha(opacity=85);
-opacity: 1;
-
+	bottom: 0px;
+	height: 450px;
+	z-index: 9999 ! important;
+	position: fixed;
+	right: 13px;
+	left: 143px;
+	overflow: hidden;
+	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+	filter: alpha(opacity =  85);
+	opacity: 1;
 }
 
 footer nav.footnav {
@@ -851,8 +848,7 @@ footer nav.footnav {
 	height: 30px;
 }
 
-footer nav  .row .span6{
-	
+footer nav  .row .span6 {
 	padding: 8px 0px;
 }
 
@@ -898,14 +894,15 @@ footer .footer-content .titlefooter .extramobile {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
 .fcontent {
-	
 	color: white;
 }
-#fcontentbloc h1,h2,h3,h4,h5,h6{
-	
-	color:white;
+
+#fcontentbloc h1,h2,h3,h4,h5,h6 {
+	color: white;
 }
+
 .extramobile {
 	display: none;
 }
@@ -1113,42 +1110,43 @@ footer .footer-content .titlefooter .extramobile {
 .footrow .footcolumn {
 	width: 100%;
 	float: left;
-
-
 }
 
-
 }
-
-
 footer nav .row {
-	
 	height: 30px;
-	
 }
-footer nav  .header{
-	
+
+footer nav  .header {
 	font-size: 18px;
-color: white;
-font-weight: bold;
-text-align: center;
-	
+	color: white;
+	font-weight: bold;
+	text-align: center;
 }
 
+.vission {
+	margin-top: 85px;
+	height: 100%;
+}
 
+.tab-content {
+	margin: 70px 0px;
+	overflow: hidden;
+}
 
+.tab-content .tab-pane {
 
+	background: rgba(250, 247, 247, 0.78);
+	overflow: hidden;
+}
 
+#about {
+	padding: 30px 30px;
+}
+#about p{
+	text-align: justify;
+}
 /*footer page*/
-
-
-
-
-
-
-
-
-
 ::-webkit-scrollbar {
 	width: 15px;
 } /* this targets the default scrollbar (compulsory) */
