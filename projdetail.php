@@ -23,6 +23,7 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/res.css" rel="stylesheet">
+<link href="css/style1.css" rel="stylesheet">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
@@ -282,10 +283,9 @@
 			<p>Upcoming</p>
 		</div>
 	</div>
-<div class="foot">
+
 	<?php include 'footer.php';?>
 
-</div>
 
 
 

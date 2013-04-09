@@ -8,14 +8,15 @@
 
 
 
-<link href="css/style.css" rel="stylesheet">
+
 <link href="css/res.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
 
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
-
+<link href="css/style.css" rel="stylesheet">
+<link href="css/style1.css" rel="stylesheet">
 <script src="js/bootstrap.min.js"></script>
 
 
