@@ -884,8 +884,14 @@ footer .footer-content .titlefooter .extramobile {
 	text-align: center;
 	padding-bottom: 20px;
 }
-
-
+.fcontent {
+	
+	color: white;
+}
+#fcontentbloc h1,h2,h3,h4,h5,h6{
+	
+	color:white;
+}
 .extramobile {
 	display: none;
 }
