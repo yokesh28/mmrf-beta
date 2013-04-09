@@ -33,7 +33,7 @@
 							</li>
 							<li class="span2"><a href="media.html">Media Center</a>
 							<img
-								src="images/4-4.png"  style="display: none" width=150px>
+								src="img/4-4.png"  style="display: none" width=150px>
 							</li>
 							<li class="span2" onclick="location.href='contact.php'"><a href="contact.php">Contact Us</a>
 							<img
