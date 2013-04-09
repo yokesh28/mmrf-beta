@@ -68,7 +68,7 @@
 						<img src="images/images/up.jpg" class="img-polaroid">
 					</div>
 
-					<div class="textright pull-left ">
+					<div class="textright pull-left " style="cursor: pointer;">
 						<p>Ottiyambakkam, Chennai</p>
 					</div>
 
