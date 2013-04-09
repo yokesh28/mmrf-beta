@@ -191,7 +191,16 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant"></div>
+							<div class="contant">
+								<p>Sai Enclave at ArasanKazhani near OMR offers unparalleled
+									lifestyle privileges of an urban and fast-paced living.
+									Splendidly designed by renowned Architects,Sai Enclave
+									furnishes around 44units consisting of 2BHK & 3BHK Apartments
+									crafted for an elegant living.Meticulous construction paired
+									with Upscale Amenities such as Play area,Fitness center,Lush
+									garden etc,Sai Enclave is fused with every bit of a desirable
+									living that will satiate your comfort craving.</p>
+							</div>
 						</div>
 					</div>
 					<!-- / uc-container -->
@@ -237,7 +246,46 @@
 						</div>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
-							<div class="contant"></div>
+							<div class="contant">
+								<p><b>Structure:</b>Isolated frame structure with Solid Block Wall</p>
+								<p><b>Flooring :</b>2'X2'Branded Vitrified Tiles</p>
+								<p>
+									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br>
+									InternalDoor:Flush doors with Wooden Frame<br>ToiletDoor:Water
+									Proof Flush Door
+								</p>
+								<p><b>Windows:</b>Heavy UPVC frames with Glass Shutters &MS Grill for
+									all windows</p>
+								<p><b>Ventilators:</b>Heavy UPVC frames with glass or louvered & a
+									provision for Exhaust Fan</p>
+								<p><b>Electrical:</b>Three Phase service with Modular
+									Switches,Electrical outlets for A/c in all Bedrooms,Geyzer
+									Points in all Toilet,Washing Machine,Fridge,Mixie,Grinder and
+									Oven Points,Necessary Light,Fan Plug Points will be
+									Provided,along with 500W power for each Flat from Common
+									Genset.Outlet for TV & Telephone in Living Hall and Master
+									Bedroom</p>
+								<p><b>Kitchen:</b>Counter top in high quality polished Black Granite
+									with nozing.Stainless Steel Single Bowl with Drain Top.Water
+									outlet provision for Water Purifer.Tiles up to 2 feet height
+									above the kitchen Cooking platform</p>
+
+								<p><b>Utility:</b>Water Outlet/inlet Provision for Washing Machine</p>
+								<p><b>Toilet:</b>Standard EWC/Washbasin(Parryware/Hindware)White Closet
+									with Health Faucet using Standard CP fittings,Wall Mixer in all
+									Toilets.Dadoing with Glazed Braded Tiles upto 7 feet height
+									Anti skid Ceramic tile Flooring will be provided.</p>
+								<p><b>Intra-Communication System & Internet:</b>Intra-Communication
+									systems for security to each Apartment with Internet
+									Connections.</p>
+								<p><b>Painting:</b>Painting with Acrylic emulsion,smoothly finished
+									with wall putty &main door polished & other Doors polished with
+									Arcrylic Enamel Paint with full putty.</p>
+
+
+
+
+							</div>
 						</div>
 					</div>
 
@@ -282,10 +330,10 @@
 			<p>Upcoming</p>
 		</div>
 	</div>
-<div class="foot">
-	<?php include 'footer.php';?>
+	<div class="foot">
+		<?php include 'footer.php';?>
 
-</div>
+	</div>
 
 
 
