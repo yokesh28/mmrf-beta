@@ -1236,7 +1236,9 @@ left: 77px;
 }
 }
 */
-
+.tab-content{
+	margin-top: 70px;
+}
 
 .tab-content .tab-pane {
 
