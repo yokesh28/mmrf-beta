@@ -134,3 +134,7 @@
 		</div>
 	</div>
 </div>
+<script>$('#aboutus a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})</script>
