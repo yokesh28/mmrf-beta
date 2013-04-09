@@ -23,6 +23,7 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/res.css" rel="stylesheet">
+<link href="css/style1.css" rel="stylesheet">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
@@ -68,7 +69,7 @@
 						<img src="images/images/up.jpg" class="img-polaroid">
 					</div>
 
-					<div class="textright pull-left ">
+					<div class="textright pull-left " style="cursor: pointer;">
 						<p>Ottiyambakkam, Chennai</p>
 					</div>
 
@@ -330,12 +331,11 @@
 			<p>Upcoming</p>
 		</div>
 	</div>
+
 	<div class="foot">
-		<?php include 'footer.php';?>
-
-	</div>
 
 
+	<?php include 'footer.php';?>
 
 
 
