@@ -98,7 +98,6 @@
 						<div class="content span12">
 							<img src="img/about.png">
 							<h4>Mr. Ramesh Bafna</h4>
-							<br>
 							<h5>
 								<span>(Managing Director of<a
 									href="http://www.mayflowerenterprises.com/" target="_blank"><br>
@@ -116,7 +115,6 @@
 						<div class="content span12">
 							<img src="img/about.png">
 							<h4>Mr. V. Subramanian</h4>
-							<br>
 							<h5>
 								<span>(Managing Director of<a
 									href="http://www.mayflowerenterprises.com/" target="_blank"><br>
@@ -142,7 +140,6 @@
 						<div class="content span12">
 							<img src="img/about.png">
 							<h4>Mr. Saravanan</h4>
-							<br>
 							<h5>
 								<span>(Managing Director of<a
 									href="http://www.mayflowerenterprises.com/" target="_blank"><br>
