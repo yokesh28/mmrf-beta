@@ -354,7 +354,7 @@
 						speed : 300,
 						onEndFolding : function() { opened = false; },
 						i:i,
-						folds :2,
+						
 					} );
 
 					$item.find( 'span.icon-eye' ).on( 'click', function() {
