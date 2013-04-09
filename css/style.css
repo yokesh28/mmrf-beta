@@ -448,9 +448,7 @@ display: inline-block;}
 	color: white;
 }
 
-.content {
-	margin: 43px -4px !important;
-}
+
 
 .content img {
 	float: left;
@@ -676,17 +674,24 @@ display: inline-block;}
 }
 /*contact Page */
 #contactus_page {
-	background: white;
+
 	margin-top: 120px;
 	color: white;
 	padding: 30px;
 }
 
+#contactus_page .back{
+	background: rgba(250, 247, 247, 0.76);
+	padding: 30px 40px;
+}
 #contactus_page .adress {
 	background: url("../images/contact_us_back1.gif") repeat;
 	padding: 44px 30px;
 	float: left;
 	width: 200px;
+}
+#contactus_page .contact{
+	margin: 30px 0px;
 }
 
 #contactus_page .adress address {
@@ -1229,7 +1234,9 @@ left: 77px;
 }
 }
 */
-
+.tab-content{
+	margin-top: 70px;
+}
 
 .tab-content .tab-pane {
 
