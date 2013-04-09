@@ -66,8 +66,7 @@
 
 					<div class="tab-pane" id="management">
 
-						<div class="span9">
-							<div class="span12"></div>
+						
 							<div class="content span12">
 								<img src="img/about.png">
 								<h4>Mr.V.Mohan</h4>
@@ -160,13 +159,13 @@
 
 							</div>
 
-						</div>
+						
 					</div>
 
 
 
 
-					<div class="tab-pane as" id="app">
+					<div class="tab-pane" id="app">
 
 
 						<div class="bd" id="content">
