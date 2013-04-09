@@ -17,11 +17,12 @@
 <link rel="stylesheet" type="text/css" href="css/custom2.css" />
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 
-<link href="css/res.css" rel="stylesheet">
+
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link href="css/res.css" rel="stylesheet">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
@@ -33,11 +34,12 @@
 		<?php include 'header.php';?>
 
 		<div class="im">
-
-
+			<div class="hidden-desktop tab-menu">
+				<span class="active up">Up Coming</span> <span class="on">On Going</span>
+			</div>
 			<div class="middle1 span12" style="right: -100%;" id="ongoing">
-				<div class="hidden-desktop">On going</div>
-				<div class="position1 span12">
+
+				<div class="position1 ">
 					<div class="building pull-left visible-desktop ">
 						<img src="images/images/build.gif" class="img-polaroid">
 					</div>
@@ -48,7 +50,7 @@
 
 
 				</div>
-				<div class="position1 span12">
+				<div class="position1 ">
 					<div class="textleft padur pull-left " style="cursor: pointer;">
 						<p>Padur Residence</p>
 					</div>
@@ -262,9 +264,8 @@
 					<!-- / uc-container -->
 
 				</div>
-				
-				<!-- / grid -->
-				 </section>
+
+				<!-- / grid --> </section>
 
 			</div>
 		</div>
@@ -373,6 +374,22 @@
 
 				} );
 				
+			});
+
+			$('.tab-menu span').click(function(){
+				var current=this;
+				$('.tab-menu').find('span').each(function(){
+					$(this).removeClass('active');
+				});
+				$(current).addClass('active');
+			});
+
+
+			$('.on').click(function(){
+				 $('#ongoing').animate({"right":"-250%",opacity:1},500);
+				 $('#upcoming').animate({"right":"12%",opacity:1},500);
+				 
+			
 			});
 		</script>
 
