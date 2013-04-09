@@ -20,17 +20,17 @@
 
 	</nav>
 
-	<div class="row">
+	<div class="row-fluid marketing">
 		<div class="footer-content ">
 			<div id="fcontentbloc" class="fcontent span6">
 				
 				
 			<h2>Contact Info</h2>
 			<address>
-				<h3>MMRF Realty and Infrastructure Pvt. Ltd.</h3>
+				<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
 				New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
-				Chennai - 600020.<br> <br> <br> Phone : + 91 44 43551600<br> + 91 44
-				24400523 <br> <br> Mail : info@mmrf.in<br> Website : www.mmrf.in
+				Chennai - 600020.<br> <h6> Phone :</h6><p> + 91 44 43551600<br> + 91 44
+				24400523 </p> <h6> Mail :</h6> <p class="mail">info@mmrf.in</p> <h6>Website :</h6><p class="web"> www.mmrf.in</p>
 			</address>
 		
 
@@ -39,8 +39,128 @@
 			</div>
 
 			<div id="fcontentbloc1" class="fcontent span6">
-				
+			<p><a href="#myModal"  data-toggle="modal"><h4><img src="images/cal.png">&nbsp; Loan Eligiblity Calculator</h4></a></p>
+				<p><a href="#emi"  data-toggle="modal" ><h4 ><img src="images/cal.png">&nbsp; EMI Calculator</h4></a></p>
+			
 			</div>
+
+			
+		<!-- LOAN ELIGIBLITY -->	
+			
+			
+			<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+    <h3 id="myModalLabel">Loan Eligiblity Calculator</h3>
+  </div>
+  <form class="form-horizontal ">
+   
+   
+   <div class="control-group ">
+    <label class="control-label" for="inputtext">Gross Monthly Income(Rs)</label>
+    <div class="controls">
+      <input type="text" class="con_label">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="Text input">Rate of Interest (%)</label>
+    <div class="controls" >
+      <input type="text" >
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="Text input">Terms Of the Loan(in years)</label>
+    <div class="controls">
+      <input type="text" class="con3_label" >
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="Text input">Other Loan Commitments :</label>
+    <div class="controls">
+      <input type="text" >
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="Text input">Loan Eligible for (Rs)</label>
+    <div class="controls">
+      <input type="text" >
+    </div>
+  </div>
+ 
+  <div class="modal-footer">
+  <button class="btn btn-primary">Calculate</button>
+    <button type="button" class="btn" data-complete-text="finished!" >Clear</button>
+    
+  </div>
+  </form>
+</div>
+
+
+<!--  EMI CALCULATOR   -->
+
+<div id="emi" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="emiLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+    <h3 id="myModalLabel">EMI Calculator</h3>
+  </div>
+  <form class="form-horizontal">
+   
+   
+   <div class="control-group">
+    <label class="control-label" for="inputtext">Interest Rate :</label>
+    <div class="controls">
+      <input type="text" class="con_label">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="Text input">Amount of loan required :</label>
+    <div class="controls">
+      <input type="text" >
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="Text input">Tenure (in years) :)</label>
+    <div class="controls">
+      <input type="text" >
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="Text input">Reducing balance based on :</label>
+    <div class="controls">
+      <input type="text" >
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="Text input">Result EMI for month :</label>
+    <div class="controls">
+      <input type="text" >
+    </div>
+  </div>
+ 
+  <div class="modal-footer">
+   <button class="btn btn-primary">Calculate</button>
+    
+   <button type="button" class="btn" data-complete-text="finished!" >Clear</button>
+
+  </div>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 			
@@ -50,12 +170,17 @@
 			
 			
 			</footer>
+			
+			<script>
+  $('.btn').button('complete')
+</script>
+			
 			 
 		<script type="text/javascript">
 
 			$(function() {
 				 var bottom = 0;
-             $(".footer").click(function(){
+             $(".footnav ").click(function(){
                 
                  if(bottom == 0){
                  
