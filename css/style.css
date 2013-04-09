@@ -846,13 +846,16 @@ footer .open {
 	height: 450px;
 	z-index: 9999 ! important;
 	position: fixed;
-left: 11%;
+
 	overflow: hidden;
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	filter: alpha(opacity =  85);
 	opacity: 1;
+	max-width: 1200px;
+	min-width: 700px;
+	margin: 0 auto;
 }
 
 footer nav.footnav {

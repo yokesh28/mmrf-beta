@@ -282,10 +282,10 @@
 			<p>Upcoming</p>
 		</div>
 	</div>
-
+<div class="foot">
 	<?php include 'footer.php';?>
 
-
+</div>
 
 
 
