@@ -411,9 +411,9 @@
 				<div id="grid" class="grid clearfix span12">
 
 
-					<div class="uc-container box1 span4">
+					<div class="uc-container box1 span4 overview">
 						<div class="uc-initial-content">
-							<p>Overview</p>
+							
 							<span class="icon-eye">Overview</span>
 
 						</div>
@@ -445,9 +445,9 @@
 
 
 
-					<div class="uc-container box2 span4">
+					<div class="uc-container box2 span4 location">
 						<div class="uc-initial-content">
-							<p>Location</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -457,9 +457,9 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box3 span4">
+					<div class="uc-container box3 span4 amenities">
 						<div class="uc-initial-content">
-							<p>Amenties</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -537,9 +537,9 @@
 				<div id="grid" class="grid clearfix span12">
 
 
-					<div class="uc-container box1 span4">
+					<div class="uc-container box1 span4 overview">
 						<div class="uc-initial-content">
-							<p>Overview</p>
+							
 							<span class="icon-eye">Overview</span>
 
 						</div>
@@ -566,9 +566,9 @@
 
 
 
-					<div class="uc-container box2 span4">
+					<div class="uc-container box2 span4 location">
 						<div class="uc-initial-content">
-							<p>Location</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -578,9 +578,9 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box3 span4">
+					<div class="uc-container box3 span4 amenities">
 						<div class="uc-initial-content">
-							<p>Amenties</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">

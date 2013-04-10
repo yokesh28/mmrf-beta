@@ -1281,8 +1281,6 @@ left: 77px;
 	position: absolute;
 	top: 111px;
 }
-<<<<<<< HEAD
-=======
 
 
 /*upcoming project*/
@@ -1293,7 +1291,7 @@ position: absolute;
 top: 111px;
 }
 
->>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
+
 
 /*media*/
 
@@ -1312,6 +1310,11 @@ top: 111px;
 	padding-left: 26px;
 	color: red;
 }
+
+
+.uc-final-wrapper{background:none;}
+
+
 
 #about p {
 	text-align: justify;
