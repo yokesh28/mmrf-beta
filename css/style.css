@@ -161,7 +161,11 @@ margin: 61px 0px;
 font-size: 37px;
 line-height: 35px;
 }
-
+.textright p:hover{
+	
+	color:white;
+	
+}
 .textleft {
 	background: white;
 	width: 317px;
