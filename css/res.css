@@ -93,7 +93,8 @@
 	#upcoming {
 		
 		top: -29%;
-		right: -250% !important;
+		right: 12% !important;
+		opacity:0;
 	}
 }
 
