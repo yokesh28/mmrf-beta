@@ -31,12 +31,13 @@
 <body>
 	<div class="slide1 row-fluid">
 
-	<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
+		<img src="images/2.jpg" width="100%" height="100%"
+			style="position: fixed; height: 100%">
 		<?php include 'header.php';?>
 
 		<div class="im">
 			<div class="hidden-desktop tab-menu">
-				<span class="active up">Up Coming</span> <span class="on">On Going</span>
+				<span class="active on">On Going</span> <span class="up">Up Coming</span>
 			</div>
 			<div class="middle1 span12" style="right: -100%;" id="ongoing">
 
@@ -60,14 +61,6 @@
 						<img src="images/images/on2.gif" class="img-polaroid">
 					</div>
 				</div>
-
-
-
-
-
-
-
-
 			</div>
 
 			<div class="middle1 span12" id="upcoming" style="right: -100%;">
@@ -83,14 +76,15 @@
 
 				</div>
 			</div>
-			
+
+
 			<div class="middle" style="right: -100%" id="enclave">
-				<section class="main demo-2">
+				<section class="main demo-2 row-fluid">
 
-				<div id="grid" class="grid clearfix">
+				<div id="grid" class="grid clearfix span12">
 
 
-					<div class="uc-container box1">
+					<div class="uc-container box1 span4">
 						<div class="uc-initial-content">
 							<p>Overview</p>
 							<span class="icon-eye">Overview</span>
@@ -206,7 +200,7 @@
 
 
 
-					<div class="uc-container box2">
+					<div class="uc-container box2 span4">
 						<div class="uc-initial-content">
 							<p>Location</p>
 							<span class="icon-eye"></span>
@@ -227,7 +221,7 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box3">
+					<div class="uc-container box3 span4">
 						<div class="uc-initial-content">
 							<p>Elevation</p>
 							<span class="icon-eye"></span>
@@ -239,7 +233,7 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box4">
+					<div class="uc-container box4 span4">
 						<div class="uc-initial-content">
 							<p>Amenities</p>
 							<span class="icon-eye"></span>
@@ -273,7 +267,7 @@
 					</div>
 
 
-					<div class="uc-container box5">
+					<div class="uc-container box5 span4">
 						<div class="uc-initial-content">
 							<p>Specifications</p>
 							<span class="icon-eye"></span>
@@ -290,9 +284,15 @@
 								</p>
 								<br>
 								<p>
+<<<<<<< HEAD
+									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
+									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
+									Door
+=======
 									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br><br>
 									<b>InternalDoor:</b>Flush doors with Wooden Frame<br><br><b>ToiletDoor:</b>Water
 									Proof Flush Door
+>>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
 								</p>
 								<br>
 								<p>
@@ -360,7 +360,7 @@
 
 
 
-					<div class="uc-container box6">
+					<div class="uc-container box6 span4">
 
 						<div class="uc-initial-content">
 							<p>Floor Plans</p>
@@ -371,8 +371,8 @@
 							<div class="contant"></div>
 							<div class="floorplan">
 
-								<a href="images/floorplan.jpg" target="_blank"><img src="images/floorplan.jpg">
-								</a>
+								<a href="images/floorplan.jpg" target="_blank"><img
+									src="images/floorplan.jpg"> </a>
 							</div>
 
 						</div>
@@ -387,10 +387,10 @@
 				</section>
 
 			</div>
-			
-		<!-- padur -->	
-		
-						<div class="middle" style="right: -100%" id="padur">
+
+			<!-- padur -->
+
+			<div class="middle" style="right: -100%" id="padur">
 				<section class="main demo-2">
 
 				<div id="grid" class="grid clearfix">
@@ -406,18 +406,18 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>When you live in an environment of peace and quietude.away from the clamor.the uproar
-								and the grime and dust of city life.
-								it sure can soothe your soul and transport you to a world your own-exclusive,private and spacious.
-								But when you have it right with in city limits.its joy compounded.
-								Padur has got it all and more.
-								sheer elegance matched by functional aesthetics that not only makes you feel good but look good. 
-								
-								</p> 
+								<p>When you live in an environment of peace and quietude.away
+									from the clamor.the uproar and the grime and dust of city life.
+									it sure can soothe your soul and transport you to a world your
+									own-exclusive,private and spacious. But when you have it right
+									with in city limits.its joy compounded. Padur has got it all
+									and more. sheer elegance matched by functional aesthetics that
+									not only makes you feel good but look good.</p>
 								<br>
-								
-								<h5>SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN LIFE.IT SAYS THAT YOU HAVE ARRIVED.</h5>
-								
+
+								<h5>SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN
+									LIFE.IT SAYS THAT YOU HAVE ARRIVED.</h5>
+
 								<br>
 							</div>
 
@@ -438,14 +438,7 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-								<p>Sai Enclave at ArasanKazhani near OMR offers unparalleled
-									lifestyle privileges of an urban and fast-paced living.
-									Splendidly designed by renowned Architects,Sai Enclave
-									furnishes around 44units consisting of 2BHK & 3BHK Apartments
-									crafted for an elegant living.Meticulous construction paired
-									with Upscale Amenities such as Play area,Fitness center,Lush
-									garden etc,Sai Enclave is fused with every bit of a desirable
-									living that will satiate your comfort craving.</p>
+								
 							</div>
 						</div>
 					</div>
@@ -458,6 +451,7 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
+
 							<div class="contant amen">
 							
 						<h2>INDOOR AMENTIES:</h2><br>
@@ -494,59 +488,15 @@
 						
 						
 						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-								
+
 							</div>
 						</div>
 					</div>
 					<!-- / uc-container -->
-
-					
-
-
-					
-
-
-
-
-
-
-
-					
-
-					<!-- / grid -->
 				
 				</section>
 
 			</div>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 		</div>
 	</div>
 
@@ -562,19 +512,19 @@
 		</div>
 	</div>
 
-	<div class="foot">
-
-
-		<?php include 'footer.php';?>
 
 
 
+	<?php include 'footer.php';?>
 
 
-		<script type="text/javascript"
-			src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.pfold.js"></script>
-		<script type="text/javascript">
+
+
+
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.pfold.js"></script>
+	<script type="text/javascript">
 			$(function() {
 				
 
@@ -582,32 +532,37 @@
 				$('#ongoing').animate({"right":"12%",opacity:1},500);
 
 				  $(".ongoing").click(function() {
-					  $('.middle1').animate({"right":"-100%",opacity:1},500);
-					  $('#enclave').animate({"right":"-100%",opacity:1},500);
-					  $('#padur').animate({"right":"-100%",opacity:1},500);
-					  $('#upcoming').animate({"right":"-100%",opacity:1},500);
+					  $('.middle1').animate({"right":"-100%",opacity:0},500);
+					  $('#enclave').animate({"right":"-100%",opacity:0},500);
+					  $('#padur').animate({"right":"-100%",opacity:0},500);
+					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
 					  $('#ongoing').animate({"right":"12%",opacity:1},500);
 					});
 				  $(".upcoming").click(function() {
-					  $('.middle1').animate({"right":"-100%",opacity:1},500);
-					  $('#enclave').animate({"right":"-100%",opacity:1},500);
-					  $('#ongoing').animate({"right":"-100%",opacity:1},500);
-					  $('#padur').animate({"right":"-100%",opacity:1},500);
+					  $('.middle1').animate({"right":"-100%",opacity:0},500);
+					  $('#enclave').animate({"right":"-100%",opacity:0},500);
+					  $('#ongoing').animate({"right":"-100%",opacity:0},500);
+					  $('#padur').animate({"right":"-100%",opacity:0},500);
 					  $('#upcoming').animate({"right":"12%",opacity:1},500);
 					});
 					
 
 				  $(".enclave").click(function() {
-					  $('.middle1').animate({"right":"-100%",opacity:1},500);
-					  $('#upcoming').animate({"right":"-100%",opacity:1},500);
-					  $('#ongoing').animate({"right":"-100%",opacity:1},500);
-					  $('#padur').animate({"right":"-100%",opacity:1},500);
-					  $('#enclave').animate({"right":"12%",opacity:1},500);
+							
+					
+							 $('.middle1').animate({"right":"-100%",opacity:0},500);
+							  $('#upcoming').animate({"right":"-100%",opacity:0},500);
+							  $('#ongoing').animate({"right":"-100%",opacity:0},500);
+							  $('#padur').animate({"right":"-100%",opacity:0},500);
+							  $('#enclave').animate({"right":"12%",opacity:1},500);
+							
+					 
 					});
 				  $(".padur").click(function() {
-					  $('#enclave').animate({"right":"-100%",opacity:1},500);
-					  $('#upcoming').animate({"right":"-100%",opacity:1},500);
-					  $('#ongoing').animate({"right":"-100%",opacity:1},500);
+					  $('.middle1').animate({"right":"-100%",opacity:0},500);
+					  $('#enclave').animate({"right":"-100%",opacity:0},500);
+					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
+					  $('#ongoing').animate({"right":"-100%",opacity:0},500);
 					  $('#padur').animate({"right":"12%",opacity:1},500);
 					});
 				
@@ -666,20 +621,17 @@
 			});
 
 
-			$('.on').click(function(){
-				 $('#ongoing').animate({opacity:0},500);
-				 $('#upcoming').animate({opacity:1},500);
+			$('.up').click(function(){
+				 $('#ongoing').animate({"z-index": "114",opacity:0},500);
+				 $('#upcoming').animate({"z-index": "115",opacity:1},500);
 				 
 			
 			});
-			$('.up').click(function(){
-				 $('#upcoming').animate({opacity:0},500);
-				 $('#ongoing').animate({opacity:1},500);
-				 
-			
+			$('.on').click(function(){
+				 $('#upcoming').animate({"z-index": "114",opacity:0},500);
+				 $('#ongoing').animate({"z-index": "115",opacity:1},500);
 			});
 		</script>
-		
 
 
 
@@ -687,10 +639,11 @@
 
 
 
-		<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
 
 
-		<script src="js/jquery.mobilemenu.js"></script>
+	<script src="js/jquery.mobilemenu.js"></script>
 
 </body>
 </html>
