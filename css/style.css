@@ -465,6 +465,19 @@ body {
 	position: absolute;
 }
 
+.aimages p{width: 178px;}
+
+.aimages li{width: 206px;
+float: left;}
+
+.aimages{
+overflow-y: scroll;
+margin: 20px 25px;
+text-align: justify;
+height: 245px;
+position: absolute;
+width: 96%;}
+
 .uc-final {
 	width: 660px;
 	height: 400px;

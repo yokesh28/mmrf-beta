@@ -256,16 +256,22 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><p>Landscaped Garden</p> <img src="images/management.png">
+									<li><p>Landscaped Garden</p> 
+									<img src="img/images/1.jpg" style="width:155px">
 									</li>
 
-									<li>Children's Indoor & Outdoor Play court</li>
-									<li>Fitness Arena</li>
-									<li>24*7 Security &Surveillance camera</li>
-									<li>Fire Protection System</li>
-									<li>Treated water for all Apartments</li>
-									<li>power Backup(For Common Area)and 500 Watts back up for each
-										flat</li>
+									<li><p>Children's Indoor & Outdoor Play court</p>
+									<img src="img/images/2.jpg" style="width:155px"></li>
+									<li><p>Fitness Arena</p>
+									<img src="img/images/3.png" style="width:155px"></li>
+									<li><p>24*7 Security &Surveillance camera</p>
+									<img src="img/images/4.png" style="width:155px"></li>
+									<li><p>Fire Protection System</p>
+									<img src="img/images/5.png" style="width:155px"></li>
+									<li><p>Treated water for all Apartments</p>
+									<img src="img/images/6.png" style="width:155px"></li>
+									<li><p>power Backup(For Common Area)and 500 Watts back up for each
+										flat</p> <img src="img/images/7.png" style="width:155px"></li>
 								</ul>
 
 								<table class="table">
