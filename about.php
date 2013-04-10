@@ -178,7 +178,7 @@
 									<li>
 										<div class="photo">
 											<img
-												src="https://4804c8f6fdfb80c8ab58-798c09c5467be5a91934f19f2aaddb9e.ssl.cf1.rackcdn.com/e231476f-7132-4992-a6c6-723e21066278_face-craig.jpg"
+												src="img/boy.png"
 												alt="Craig Bryant" width="115" height="115">
 										</div>
 										<p>
@@ -192,7 +192,7 @@
 									<li>
 										<div class="photo">
 											<img
-												src="https://4804c8f6fdfb80c8ab58-798c09c5467be5a91934f19f2aaddb9e.ssl.cf1.rackcdn.com/686642aa-07aa-42be-934d-b0494ee42aca_face-kc.jpg"
+												src="img/girl.png"
 												alt="Ka Wai Cheung" width="115" height="115">
 										</div>
 										<p>
@@ -204,7 +204,7 @@
 									<li>
 										<div class="photo">
 											<img
-												src="https://ff7c8e30a5a6adb80c5e-380464e75b3cc7267c303aee203032e0.ssl.cf1.rackcdn.com/4c0483bb-1960-4e3f-ac1d-0ef3139eb40b_face_michael.jpg"
+												src="img/girl.png"
 												alt="Michael Sanders" width="115" height="115">
 										</div>
 										<p>
@@ -217,7 +217,7 @@
 									<li>
 										<div class="photo">
 											<img
-												src="https://4804c8f6fdfb80c8ab58-798c09c5467be5a91934f19f2aaddb9e.ssl.cf1.rackcdn.com/3d8c4791-36ac-4e53-b14f-e392cea47e81_face-tom.jpg"
+												src="img/girl.png"
 												alt="Tom Stanley" width="115" height="115">
 										</div>
 										<p>
