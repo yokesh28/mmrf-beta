@@ -314,6 +314,15 @@ font-style: italic;
 	padding-right: 18px;
 	padding-top: 30px;
 }
+.position2 {
+	display: inline-block;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 30px;
+}
+
+
+
 
 .position>img {
 	position: absolute;
@@ -432,6 +441,11 @@ display: inline-block;}
 .contant h2 {
 	font-size: 17.5px;
 	padding-right: 10px;
+	color: black;
+}
+.contant h5{
+	
+	color: black;
 }
 
 .contant p {
@@ -1252,6 +1266,33 @@ left: 77px;
 }
 }
 */
+
+/*padur css*/
+#padur .grid
+{
+position: absolute;
+top: 111px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tab-content{
 	margin-top: 70px;
 }
