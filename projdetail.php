@@ -27,6 +27,28 @@
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
+
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css"
+	href="source/jquery.fancybox.css?v=2.1.4" media="screen" />
+
+<!-- Add Button helper (this is optional) -->
+<link rel="stylesheet" type="text/css"
+	href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+<script type="text/javascript"
+	src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+<!-- Add Thumbnail helper (this is optional) -->
+<link rel="stylesheet" type="text/css"
+	href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+<script type="text/javascript"
+	src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<!-- Add Media helper (this is optional) -->
+<script type="text/javascript"
+	src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+
 </head>
 <body>
 	<div class="slide1 row-fluid">
@@ -86,7 +108,7 @@
 
 					<div class="uc-container box1 span4 overview">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye">Overview</span>
 
 						</div>
@@ -207,7 +229,7 @@
 
 					<div class="uc-container box2 span4 location">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -228,7 +250,7 @@
 
 					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -240,7 +262,7 @@
 
 					<div class="uc-container box4 span4 amenities">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
@@ -275,7 +297,7 @@
 
 					<div class="uc-container box5 span4 specification">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
@@ -294,14 +316,9 @@
 
 									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
 									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
-									Door
-
-									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br><br>
-									<b>InternalDoor:</b>Flush doors with Wooden Frame<br><br><b>ToiletDoor:</b>Water
-									Proof Flush Door
-
-
-									 <b>Doors:</b>MainDoor:Flush doors with Wooden
+									Door <b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <br>
+									<b>InternalDoor:</b>Flush doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water
+									Proof Flush Door <b>Doors:</b>MainDoor:Flush doors with Wooden
 									Frame<br> <b>InternalDoor:</b>Flush doors with Wooden Frame<br>
 									<b>ToiletDoor:</b>Water Proof Flush Door ======= <b>Doors:</b>MainDoor:Flush
 									doors with Wooden Frame<br> <br> <b>InternalDoor:</b>Flush
@@ -378,7 +395,7 @@
 					<div class="uc-container box6 span4 floorplan">
 
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
@@ -396,10 +413,11 @@
 						<!-- / uc-container -->
 
 					</div>
-
-					<!-- / grid -->
-				
-				</section>
+				</div>
+				<div>
+					<a href="" class="bowcher">Download Bowcher</a>
+				</div>
+				<!-- / grid --> </section>
 
 			</div>
 
@@ -413,7 +431,7 @@
 
 					<div class="uc-container box1 span4 overview">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye">Overview</span>
 
 						</div>
@@ -447,7 +465,7 @@
 
 					<div class="uc-container box2 span4 location">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -459,7 +477,7 @@
 
 					<div class="uc-container box3 span4 amenities">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -527,11 +545,14 @@
 						</div>
 					</div>
 					<!-- / uc-container -->
-				
+				</div>
+				<div>
+					<a href="" class="bowcher">Download Bowcher</a>
+				</div>
 				</section>
 
 			</div>
-						<div class="middle" style="right: -100%" id="ottiyam">
+			<div class="middle" style="right: -100%" id="ottiyam">
 				<section class="main demo-2 row-fluid">
 
 				<div id="grid" class="grid clearfix span12">
@@ -539,7 +560,7 @@
 
 					<div class="uc-container box1 span4 overview">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye">Overview</span>
 
 						</div>
@@ -547,12 +568,16 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>The next project of MMRF is to launch 448 apartments in Ottiyambakkam, OMR containing 1/2/3 BHK ranging from Sq ft 575 to 1350. The total area of development is 6.8 acres and the total construction area is 5,40,000 sq feet  This project is conceptually designed to depict the Mediterranean architecture which will be one of its kinds in Chennai. 
-
-</p>
+								<p>The next project of MMRF is to launch 448 apartments in
+									Ottiyambakkam, OMR containing 1/2/3 BHK ranging from Sq ft 575
+									to 1350. The total area of development is 6.8 acres and the
+									total construction area is 5,40,000 sq feet This project is
+									conceptually designed to depict the Mediterranean architecture
+									which will be one of its kinds in Chennai.</p>
 								<br>
 
-								<h5>Further, MMRF is  considering a township in the same locality.</h5>
+								<h5>Further, MMRF is considering a township in the same
+									locality.</h5>
 
 								<br>
 							</div>
@@ -568,7 +593,7 @@
 
 					<div class="uc-container box2 span4 location">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -580,7 +605,7 @@
 
 					<div class="uc-container box3 span4 amenities">
 						<div class="uc-initial-content">
-							
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -648,7 +673,10 @@
 						</div>
 					</div>
 					<!-- / uc-container -->
-				
+				</div>
+				<div>
+					<a href="" class="bowcher">Download Bowcher</a>
+				</div>
 				</section>
 
 			</div>
@@ -802,7 +830,21 @@
 
 
 
+	<style type="text/css">
+.fancybox-custom .fancybox-skin {
+	box-shadow: 0 0 50px #222;
+}
+</style>
 
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+		});
+		</script>
 
 	<script src="js/bootstrap.min.js"></script>
 

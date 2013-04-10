@@ -981,6 +981,12 @@ footer .footer-content .titlefooter .extramobile {
 	width: 58px;
 float: left;
 }
+.bowcher{
+	  color: red;
+    font-size: 17px;
+    background: white;
+    padding: 6px 10px;
+}
 #fcontentbloc  p.mail {
 	position: absolute;
 	top: 138px;
