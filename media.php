@@ -1,114 +1,79 @@
-<!DOCTYPE html >
-<html lang="en">
+<html>
 <head>
-<title>mmrf</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta charset="UTF-8" />
 
-
-
-<meta charset="utf-8">
-<title>Parc Amazonien de Guyane</title>
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-<link rel='shortcut icon' href='/img/favicon.png'>
-
-<!-- This site is optimized with the Yoast WordPress SEO plugin v1.3.4.4 - http://yoast.com/wordpress/seo/ -->
-<link rel="canonical" href="http://www.parc-amazonien-guyane.fr/" />
-<meta property='og:locale' content='fr_FR' />
-<meta property='og:title' content='Parc Amazonien de Guyane' />
-<meta property='og:url' content='http://www.parc-amazonien-guyane.fr/' />
-<meta property='og:site_name' content='Parc Amazonien de Guyane' />
-<meta property='og:type' content='article' />
-<!-- / Yoast WordPress SEO plugin. -->
-
-
-<script type="text/javascript">
-		var _gaq = _gaq || [];
-	 	_gaq.push(['_setAccount', 'UA-33459997-1']);
-	 	_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	 	})();
-	</script>
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
 
 
 
-
-
-
-
-<!-- Bootstrap -->
 <link href="css/res.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
+
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
-<link rel="stylesheet" href="css/easy-fancybox.css">
-
-<link rel="alternate" type="application/rss+xml"
-	title="Parc Amazonien de Guyane Feed"
-	href="http://www.parc-amazonien-guyane.fr/feed/">
+<script src="js/bootstrap.min.js"></script>
 
 
-
-<script
-	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
-
-
-</head>
-
-<body class="homepage">
-	<!--  <div class="alert alert-block ">
-		<button type="button" class="close closebutton" data-dismiss="alert">&times;</button>
-		<h4>MMRF!</h4>
-		Check it
-	</div>-->
-
-
-
-
-
-	<div>
-
-		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
-		<?php include 'header.php';?>
-		
-
-	</div>
-
-<?php include 'footer.php';?>
-
-
-
-	<script src="js/bootstrap.min.js"></script>
-
-
-	<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
 
 	
 
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.4" media="screen" />
 
-	<script type="text/javascript">
-/* <![CDATA[ */
-jQuery(document).ready(function($){
-var fb_timeout = null;
-var fb_opts = { 'overlayShow' : true, 'centerOnScroll' : true, 'showCloseButton' : true, 'showNavArrows' : true, 'onCleanup' : function() { if(fb_timeout) { window.clearTimeout(fb_timeout); fb_timeout = null; } } };
-/* IMG */
-var fb_IMG_select = 'a[href$=".jpg"]:not(.nofancybox),a[href$=".JPG"]:not(.nofancybox),a[href$=".gif"]:not(.nofancybox),a[href$=".GIF"]:not(.nofancybox),a[href$=".png"]:not(.nofancybox),a[href$=".PNG"]:not(.nofancybox)';
-$(fb_IMG_select).addClass('fancybox').attr('rel', 'gallery');
-$('a.fancybox, area.fancybox').fancybox( $.extend({}, fb_opts, { 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true }) );
-/* Auto-click */ 
-$('#fancybox-auto').trigger('click');
-});
-/* ]]> */
-</script>
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+</head>
+
+<body class="background">
+	<?php include 'header.php';?>
+	<div class="container">
+		<div class="row-fluid ">
+			<div class="media_info">
+
+				<h2></h2>
+				<div class=" span12">
+					<ul>
+						<li class="span3"><a class="fancybox" href="media.pdf" target="_blank">Updated media (10/4/2013)</a></li>
+						<li></li>
+
+					</ul>
+				</div>
 
 
+			</div>
+		</div>
+	</div>
+	<?php include 'footer.php';?>
 </body>
-</html>
+<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+<script src="js/bootstrap-tab.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
 
+			$('.fancybox').fancybox();
+		});
+		</script>
+</html>

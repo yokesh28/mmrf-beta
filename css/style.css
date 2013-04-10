@@ -1234,13 +1234,12 @@ footer nav  .header {
 
 
 
-blockquote{
-	border-left:none !important; 
+.media_info {
+	margin-top: 120px;
 }
 
-=======
-blockquote {
-	border-left: none !important;
+blockquote{
+	border-left:none !important; 
 }
 
 
