@@ -84,9 +84,9 @@
 				<div id="grid" class="grid clearfix span12">
 
 
-					<div class="uc-container box1 span4">
+					<div class="uc-container box1 span4 overview">
 						<div class="uc-initial-content">
-							<p>Overview</p>
+							
 							<span class="icon-eye">Overview</span>
 
 						</div>
@@ -205,9 +205,9 @@
 
 
 
-					<div class="uc-container box2 span4">
+					<div class="uc-container box2 span4 location">
 						<div class="uc-initial-content">
-							<p>Location</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -226,9 +226,9 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box3 span4">
+					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
-							<p>Elevation</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -238,9 +238,9 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box4 span4">
+					<div class="uc-container box4 span4 amenities">
 						<div class="uc-initial-content">
-							<p>Amenities</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
@@ -273,9 +273,9 @@
 					</div>
 
 
-					<div class="uc-container box5 span4">
+					<div class="uc-container box5 span4 specification">
 						<div class="uc-initial-content">
-							<p>Specifications</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
@@ -290,12 +290,24 @@
 								</p>
 								<br>
 								<p>
+
+
+									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
+									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
+									Door
+
+									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br><br>
+									<b>InternalDoor:</b>Flush doors with Wooden Frame<br><br><b>ToiletDoor:</b>Water
+									Proof Flush Door
+
+
 									 <b>Doors:</b>MainDoor:Flush doors with Wooden
 									Frame<br> <b>InternalDoor:</b>Flush doors with Wooden Frame<br>
 									<b>ToiletDoor:</b>Water Proof Flush Door ======= <b>Doors:</b>MainDoor:Flush
 									doors with Wooden Frame<br> <br> <b>InternalDoor:</b>Flush
 									doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water Proof
 									Flush Door
+
 								</p>
 								<br>
 								<p>
@@ -363,10 +375,10 @@
 
 
 
-					<div class="uc-container box6 span4">
+					<div class="uc-container box6 span4 floorplan">
 
 						<div class="uc-initial-content">
-							<p>Floor Plans</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
