@@ -408,6 +408,13 @@ font-style: italic;
 	overflow-x: hidden;
 }
 
+
+.contant label{width:100px;
+float: left;}
+
+.contant span{width: 155px;
+display: inline-block;}
+
 .contant {
 	overflow-y: scroll;
 	margin: 28px;
