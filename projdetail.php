@@ -31,7 +31,8 @@
 <body>
 	<div class="slide1 row-fluid">
 
-	<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
+		<img src="images/2.jpg" width="100%" height="100%"
+			style="position: fixed; height: 100%">
 		<?php include 'header.php';?>
 
 		<div class="im">
@@ -60,14 +61,6 @@
 						<img src="images/images/on2.gif" class="img-polaroid">
 					</div>
 				</div>
-
-
-
-
-
-
-
-
 			</div>
 
 			<div class="middle1 span12" id="upcoming" style="right: -100%;">
@@ -83,7 +76,7 @@
 
 				</div>
 			</div>
-			<div class="middle" style="right: -100%">
+			<div class="middle " style="right: -100%">
 				<section class="main demo-2">
 
 				<div id="grid" class="grid clearfix">
@@ -288,9 +281,9 @@
 								</p>
 								<br>
 								<p>
-									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br>
-									<b>InternalDoor:</b>Flush doors with Wooden Frame<br><b>ToiletDoor:</b>Water
-									Proof Flush Door
+									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
+									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
+									Door
 								</p>
 								<br>
 								<p>
@@ -369,8 +362,8 @@
 							<div class="contant"></div>
 							<div class="floorplan">
 
-								<a href="images/floorplan.jpg" target="_blank"><img src="images/floorplan.jpg">
-								</a>
+								<a href="images/floorplan.jpg" target="_blank"><img
+									src="images/floorplan.jpg"> </a>
 							</div>
 
 						</div>
@@ -434,10 +427,20 @@
 					
 
 				  $(".enclave").click(function() {
-					  $('.middle1').animate({"right":"-100%",opacity:1},500);
-					  $('#upcoming').animate({"right":"-100%",opacity:1},500);
-					  $('#ongoing').animate({"right":"-100%",opacity:1},500);
-					  $('.middle').animate({"right":"12%",opacity:1},500);
+							
+						var widthWindow=$(window).width();
+
+						if(widthWindow<=480)
+						{
+							alert("dd");
+						}
+						else
+							{
+							  $('.middle1').animate({"right":"-100%",opacity:1},500);
+							  $('#upcoming').animate({"right":"-100%",opacity:1},500);
+							  $('#ongoing').animate({"right":"-100%",opacity:1},500);
+							  $('.middle').animate({"right":"12%",opacity:1},500);
+							}
 					});
 				  $(".padur").click(function() {
 					  $('.middle').animate({"right":"-100%",opacity:1},500);

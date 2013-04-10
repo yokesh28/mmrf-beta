@@ -171,16 +171,17 @@
 		background: none !important;
 		position: relative !important;
 	}
-	
 	#ongoing {
-		opacity: 0 !important;
+		width: 100% !important;
+		top: 30%;
+		z-index: 102;
 	}
-	.middle {
-		opacity: 0 !important;
+	.textleft {
+		margin-left: 50px;
 	}
 	.tab-menu {
 		position: fixed;
-		top: 200px;
+		top: 175px;
 		right: 12%;
 		width: 216px;
 		margin: 0 auto;
