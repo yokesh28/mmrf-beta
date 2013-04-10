@@ -78,7 +78,7 @@ display: inline-block;}
 	background: url(../images/images/projectdetail.png) 0 0 no-repeat;
 	position: fixed;
 	right: 9%;
-	top: 22%;
+	top: 19%;
 	width: 780px;
 }
 
@@ -86,7 +86,7 @@ display: inline-block;}
 	background: url(../images/images/project.png) 0 0 no-repeat;
 	position: fixed;
 	right: 12%;
-	top: 22%;
+	top: 18%;
 	height: 600px;
 }
 
@@ -407,6 +407,13 @@ font-style: italic;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
+
+
+.contant label{width:100px;
+float: left;}
+
+.contant span{width: 155px;
+display: inline-block;}
 
 .contant {
 	overflow-y: scroll;
