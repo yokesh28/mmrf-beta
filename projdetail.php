@@ -79,12 +79,12 @@
 
 
 			<div class="middle" style="right: -100%" id="enclave">
-				<section class="main demo-2">
+				<section class="main demo-2 row-fluid">
 
-				<div id="grid" class="grid clearfix">
+				<div id="grid" class="grid clearfix span12">
 
 
-					<div class="uc-container box1">
+					<div class="uc-container box1 span4">
 						<div class="uc-initial-content">
 							<p>Overview</p>
 							<span class="icon-eye">Overview</span>
@@ -199,7 +199,7 @@
 
 
 
-					<div class="uc-container box2">
+					<div class="uc-container box2 span4">
 						<div class="uc-initial-content">
 							<p>Location</p>
 							<span class="icon-eye"></span>
@@ -220,7 +220,7 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box3">
+					<div class="uc-container box3 span4">
 						<div class="uc-initial-content">
 							<p>Elevation</p>
 							<span class="icon-eye"></span>
@@ -232,7 +232,7 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box4">
+					<div class="uc-container box4 span4">
 						<div class="uc-initial-content">
 							<p>Amenities</p>
 							<span class="icon-eye"></span>
@@ -266,7 +266,7 @@
 					</div>
 
 
-					<div class="uc-container box5">
+					<div class="uc-container box5 span4">
 						<div class="uc-initial-content">
 							<p>Specifications</p>
 							<span class="icon-eye"></span>
@@ -353,7 +353,7 @@
 
 
 
-					<div class="uc-container box6">
+					<div class="uc-container box6 span4">
 
 						<div class="uc-initial-content">
 							<p>Floor Plans</p>
