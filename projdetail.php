@@ -438,14 +438,7 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-								<p>Sai Enclave at ArasanKazhani near OMR offers unparalleled
-									lifestyle privileges of an urban and fast-paced living.
-									Splendidly designed by renowned Architects,Sai Enclave
-									furnishes around 44units consisting of 2BHK & 3BHK Apartments
-									crafted for an elegant living.Meticulous construction paired
-									with Upscale Amenities such as Play area,Fitness center,Lush
-									garden etc,Sai Enclave is fused with every bit of a desirable
-									living that will satiate your comfort craving.</p>
+								
 							</div>
 						</div>
 					</div>
