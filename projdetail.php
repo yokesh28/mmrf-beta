@@ -458,7 +458,7 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant ">
+							<div class="contant amen">
 							
 						<h2>INDOOR AMENTIES:</h2><br>
 						

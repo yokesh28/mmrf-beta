@@ -535,6 +535,11 @@ margin: 1px 0px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 }
+.amen h2
+{
+width: 187px;
+float: left;
+}
 
 .box3 .uc-final {
 	left: -260px !important;
