@@ -255,13 +255,13 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant">
-							<a href="" target="blank"><img src="img/images/1.jpg" style="width:178px"></a>
-							<a href="" target="blank"><img src="img/images/2.jpg" style="width:178px"></a>
-							<a href="" target="blank"><img src="img/images/3.png" style="width:178px"></a>
-							<a href="" target="blank"><img src="img/images/4.png" style="width:178px"></a>
-							<a href="" target="blank"><img src="img/images/5.png" style="width:178px"></a>
-							<a href="" target="blank"><img src="img/images/7.png" style="width:178px"></a>
+							<div class="contant elivation">
+							<a href="img/images/1.jpg" class="fancybox"><img src="img/images/1.jpg" style="width:178px"></a>
+							<a href="img/images/2.jpg" class="fancybox" > <img src="img/images/2.jpg" style="width:178px"></a>
+							<a href="img/images/3.jpg" class="fancybox"><img src="img/images/3.png" style="width:178px"></a>
+							<a href="img/images/4.jpg" class="fancybox"><img src="img/images/4.png" style="width:178px"></a>
+							<a href="img/images/5.jpg" class="fancybox"><img src="img/images/5.png" style="width:178px"></a>
+							<a href=img/images/7.jpg"" class="fancybox"><img src="img/images/7.png" style="width:178px"></a>
 							
 							
 							</div>
@@ -713,8 +713,6 @@
 
 
 
-	<script type="text/javascript"
-		src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.pfold.js"></script>
 	<script type="text/javascript">
 			$(function() {
@@ -847,9 +845,7 @@
 
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-			 *  Simple image gallery. Uses default settings
-			 */
+		
 
 			$('.fancybox').fancybox();
 		});

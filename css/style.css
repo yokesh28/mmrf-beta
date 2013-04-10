@@ -458,11 +458,14 @@ body {
 
 .contant {
 	overflow-y: scroll;
-	margin: 22px 66px;
+margin: 20px 40px;
 	text-align: justify;
 	right: -28px;
-	height: 245px;
 	position: absolute;
+	height: 340px;
+}
+.elivation img{
+	margin: 10px 8px;
 }
 
 .uc-final {
