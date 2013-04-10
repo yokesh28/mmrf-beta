@@ -49,8 +49,8 @@
 
 				<div class=" span12">
 					<ul>
-						<li><a class="fancybox" href="images/2.jpg"><img src="images/2.jpg" width="300" height="300" class="img-polaroid"></a></li>
-						<li></li>
+						<li class="span3"><a class="fancybox" href="images/ga1.jpg"><img src="images/ga1.jpg" width="300" height="300" class="img-polaroid"></a></li>
+						<li class="span3"><a class="fancybox" href="images/ga2.jpg"><img src="images/ga2.jpg" width="300" height="300" class="img-polaroid"></a></li>
 						<li></li>
 
 					</ul>
