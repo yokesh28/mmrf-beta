@@ -1241,8 +1241,17 @@ footer nav  .header {
 blockquote{
 	border-left:none !important; 
 }
+.span12 a{
+	
+	text-decoration: none;
+}
 
-
+.fancybox img{
+	
+	
+	width: 50px;
+float: left;
+}
 /*#overlay_form{
 position: absolute;
 
