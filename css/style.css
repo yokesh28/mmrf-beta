@@ -1227,9 +1227,17 @@ footer nav  .header {
 	background: rgba(250, 247, 247, 0.78);margin-top:127px;
 }
 
-blockquote {
-	border-left: none !important;
+
+.gallery {
+	margin-top: 120px;
 }
+
+
+
+blockquote{
+	border-left:none !important; 
+}
+
 
 /*#overlay_form{
 position: absolute;
@@ -1290,7 +1298,6 @@ left: 77px;
 position: absolute;
 top: 111px;
 }
-
 
 
 /*media*/

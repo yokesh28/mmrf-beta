@@ -31,7 +31,7 @@
 							<img
 								src="img/4.jpg"  style="display: none" width=150px> 
 							</li>
-							<li class="span2" onclick="location.href='media.pdf'"><a href="media.pdf">Media Center</a>
+							<li class="span2" onclick="location.href='media.php'"><a href="media.php">Media Center</a>
 							<img
 								src="img/5.jpg"  style="display: none" width=150px>
 							</li>
