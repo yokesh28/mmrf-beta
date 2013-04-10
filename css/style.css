@@ -975,11 +975,12 @@ footer .footer-content .titlefooter .extramobile {
 #fcontentbloc  p {
 	padding-top: 5px;
 	color: #a9a9a9;
-	position: absolute;
-	top: 102px;
-	left: 273px;
+	
 }
-
+.ph label{
+	width: 58px;
+float: left;
+}
 #fcontentbloc  p.mail {
 	position: absolute;
 	top: 138px;
