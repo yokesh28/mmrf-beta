@@ -1,5 +1,5 @@
 
-<footer class="footer span12 visible-desktop" style="bottom:-420px;" >
+<footer class="footer span12 visible-desktop" style="bottom:-240px;" >
 	
 
 	<nav class="footnav ">
@@ -22,15 +22,15 @@
 
 	<div class="row-fluid marketing">
 		<div class="footer-content ">
-			<div id="fcontentbloc" class="fcontent span6">
+			<div id="fcontentbloc" class="fcontent span7">
 				
 				
-			<h2>Contact Info</h2>
+			<h4>Contact Info</h4>
 			<address>
 				<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
-				New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
-				Chennai - 600020.<br> <h6> Phone :</h6><p> + 91 44 43551600<br> + 91 44
-				24400523 </p> <h6> Mail :</h6> <p class="mail">info@mmrf.in</p> <h6>Website :</h6><p class="web"> www.mmrf.in</p>
+				<div class="span3">New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
+				Chennai - 600020.</div> <div class="span3 ph"><h6> Phone :</h6><p> + 91 44 43551600<br> + 91 44
+				24400523 </p> <h6> Mail :</h6> <p class="mail">info@mmrf.in</p> <h6>Website :</h6><p class="web"> www.mmrf.in</p></div>
 			</address>
 		
 
@@ -38,7 +38,7 @@
 
 			</div>
 
-			<div id="fcontentbloc1" class="fcontent span6">
+			<div id="fcontentbloc1" class="fcontent span5">
 			<p><a href="#myModal"  data-toggle="modal"><h4><img src="images/cal.png">&nbsp; Loan Eligiblity Calculator</h4></a></p>
 				<p><a href="#emi"  data-toggle="modal" ><h4 ><img src="images/cal.png">&nbsp; EMI Calculator</h4></a></p>
 			
@@ -188,7 +188,7 @@
                  bottom = 1;
                }
                  else {
-                $('.footer').stop(true).animate({"bottom":"-420",opacity:1},{queue: false, duration: 500});
+                $('.footer').stop(true).animate({"bottom":"-240",opacity:1},{queue: false, duration: 500});
                 bottom = 0;
                 }
                  return false;

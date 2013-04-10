@@ -78,7 +78,7 @@ display: inline-block;}
 	background: url(../images/images/projectdetail.png) 0 0 no-repeat;
 	position: fixed;
 	right: 9%;
-	top: 22%;
+	top: 19%;
 	width: 780px;
 }
 
@@ -86,7 +86,7 @@ display: inline-block;}
 	background: url(../images/images/project.png) 0 0 no-repeat;
 	position: fixed;
 	right: 12%;
-	top: 22%;
+	top: 18%;
 	height: 600px;
 }
 
@@ -408,6 +408,13 @@ font-style: italic;
 	overflow-x: hidden;
 }
 
+
+.contant label{width:100px;
+float: left;}
+
+.contant span{width: 155px;
+display: inline-block;}
+
 .contant {
 	overflow-y: scroll;
 	margin: 28px;
@@ -546,7 +553,7 @@ text-align: justify;
 }
 
 #contactus_page  h1,h2,h3,h4,h5,h6 {
-	color: black;
+	color: white;
 }
 
 #contactus_page input[type="text"],input[type="password"],input[type="email"]
@@ -817,7 +824,7 @@ footer .open {
 
 .footer {
 	bottom: 0px;
-	height: 450px;
+	height: 270px;
 	z-index: 9999 ! important;
 	position: fixed;
 
@@ -873,8 +880,9 @@ footer nav.footnav .footheader {
 }
 
 #fcontentbloc {
-	padding: 52px 0px 0px 120px;
+	padding: 0px 0px 0px 34px;
 }
+
 
 footer .footer-content .titlefooter .extramobile {
 	font: 20px 'FrutigerLTStd47LightCnBold';
@@ -888,7 +896,21 @@ footer .footer-content .titlefooter .extramobile {
 .fcontent {
 	color: white;
 }
-
+#fcontentbloc address
+{
+line-height: 21px;
+}
+#fcontentbloc h6{
+	margin-top: 13px;
+	
+}
+#fcontentbloc h5{
+	margin-left: 10px;
+}
+#fcontentbloc h4
+{
+margin-left: 9px;
+}
 #fcontentbloc  h1,h2,h3,h4,h5,h6 {
 	color: white;
 }
@@ -901,23 +923,35 @@ footer .footer-content .titlefooter .extramobile {
 	padding-top: 5px;
 	color: #a9a9a9;
 	position: absolute;
-top: 245px;
-left: 200px;
+top: 102px;
+left: 273px;
 	
 }
 #fcontentbloc  p.mail
 {
 position: absolute;
-top: 276px;
-left: 200px;
+top: 138px;
+left: 287px;
 }
 
 #fcontentbloc  p.web
 {
 position: absolute;
-top: 305px;
-left: 200px;
+top: 169px;
+left: 289px;
 }
+
+#fcontentbloc div.ph
+{
+margin: -12px 0px 0px 32px;
+
+}
+
+#fcontentbloc .span3{
+	
+	width: 24.404255%;
+}
+
 
 
 #fcontentbloc  p+p {
@@ -961,7 +995,7 @@ left: 200px;
 }
 
 #fcontentbloc1 {
-	padding: 57px 0px 0px 35px;
+	padding: 0px 0px 0px 0px;
 }
 #fcontentbloc1 h4
 {
