@@ -164,7 +164,11 @@ body {
 	font-size: 37px;
 	line-height: 35px;
 }
-
+.textright p:hover{
+	
+	color:white;
+	
+}
 .textleft {
 	background: white;
 	width: 317px;
@@ -1277,6 +1281,19 @@ left: 77px;
 	position: absolute;
 	top: 111px;
 }
+<<<<<<< HEAD
+=======
+
+
+/*upcoming project*/
+
+#ottiyam .grid
+{
+position: absolute;
+top: 111px;
+}
+
+>>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
 
 /*media*/
 

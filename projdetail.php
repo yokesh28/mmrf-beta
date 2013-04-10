@@ -70,7 +70,7 @@
 						<img src="images/images/up.jpg" class="img-polaroid">
 					</div>
 
-					<div class="textright pull-left " style="cursor: pointer;">
+					<div class="textright ottiyam pull-left " style="cursor: pointer;">
 						<p>Ottiyambakkam, Chennai</p>
 					</div>
 
@@ -109,48 +109,52 @@
 									larger than life dwelling in each of their project which will
 									surpass the expectaions of a high-end living.</p>
 								<br>
-								<h2>Our Board Of Directors</h2><br>
-								<p><b>
-									Mr. V. Mohan</b>(Managing Director of<a
+								<h2>Our Board Of Directors</h2>
+								<br>
+								<p>
+									<b> Mr. V. Mohan</b>(Managing Director of<a
 										href="http://www.mayflowerenterprises.com/" target="_blank">
-											Mayflower Enterprises Pvt.Ltd</a>)
-								
-								</p><br>
-								<p>Mayflower was established in 1985 as property developers in
-									Coimbatore by Mr. A.N. Venkatachalam, one of the key members of
-									the Chettinad business empire for over 5 decades.
-								<br>
-								<br>
-								Under the leadership of Mr. V Mohan, the Managing Director,
-									the company has today grown to become a leading developer of
-									gated communities, independent villas and townships.
-								<br><br>
-								The company has completed over 8 commercial projects
-									measuring over 250,000 sq. ft and 18 residential projects –
-									apartment complexes and independent villas measuring an
-									estimated 1,200,000 sq. ft.</p>
-								<br><br>
+										Mayflower Enterprises Pvt.Ltd</a>)
 
-								<p><b>
-									Mr. Ramesh Bafna</b>(Managing Director of<a
+								</p>
+								<br>
+								<p>
+									Mayflower was established in 1985 as property developers in
+									Coimbatore by Mr. A.N. Venkatachalam, one of the key members of
+									the Chettinad business empire for over 5 decades. <br> <br>
+									Under the leadership of Mr. V Mohan, the Managing Director, the
+									company has today grown to become a leading developer of gated
+									communities, independent villas and townships. <br> <br> The
+									company has completed over 8 commercial projects measuring over
+									250,000 sq. ft and 18 residential projects – apartment
+									complexes and independent villas measuring an estimated
+									1,200,000 sq. ft.
+								</p>
+								<br> <br>
+
+								<p>
+									<b> Mr. Ramesh Bafna</b>(Managing Director of<a
 										href="http://www.mounthousing.com" target="_blank"> Mount
-											Housing & Infrastructure Limited</a>)
-								
-								</p><br>
+										Housing & Infrastructure Limited</a>)
+
+								</p>
+								<br>
 								<p>Mount Housing & Infrastructure Limited is one of the leading
 									developers in Coimbatore in the areas of residential flats and
 									commercial buildings.</p>
 								<p>The company has executed over 500,000 sq. ft of constructions
 									across 7 projects and has an estimated 325,000 sq. ft of
-									construction currently underway.</p><br><br>
+									construction currently underway.</p>
+								<br> <br>
 
 
-								<p><b>
-									Mr. V. Subramanian (“Mani”)</b>(Managing Director of<a
+								<p>
+									<b> Mr. V. Subramanian (“Mani”)</b>(Managing Director of<a
 										href="http://www.ramanirealtors.com//" target="_blank"> Ramani
-											Realtors Pvt. Limited</a>)
-									
-								</p><br>
+										Realtors Pvt. Limited</a>)
+
+								</p>
+								<br>
 								<p>Ramani Realtors Pvt. Limited – RRPL, an ISO 9001:2008
 									certified Company is professionally managed by its Chairman
 									Shri V S Venkatraman</p>
@@ -171,12 +175,13 @@
 									over 4 million sq ft of completed constructions.</p>
 								<br>
 
-								<p><b>
-									Mr. Saravanan</b>(Managing Director of<a
+								<p>
+									<b> Mr. Saravanan</b>(Managing Director of<a
 										href="http://www.fairylandfoundations.com/" target="_blank">
-											Fairyland Foundations Pvt. Ltd</a>)
-								
-								</p><br>
+										Fairyland Foundations Pvt. Ltd</a>)
+
+								</p>
+								<br>
 								<p>Established in 2000, Fairyland Foundations Pvt. Ltd. is a one
 									of the leading builders in Chennai and is engaged in the
 									construction of residential flats and individual homes in
@@ -242,7 +247,8 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><p>Landscaped Garden</p><img src="images/management.png"></li>
+									<li><p>Landscaped Garden</p> <img src="images/management.png">
+									</li>
 
 									<li>Children's Indoor & Outdoor Play court</li>
 									<li>Fitness Arena</li>
@@ -285,6 +291,7 @@
 								<br>
 								<p>
 
+
 									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
 									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
 									Door
@@ -292,6 +299,14 @@
 									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br><br>
 									<b>InternalDoor:</b>Flush doors with Wooden Frame<br><br><b>ToiletDoor:</b>Water
 									Proof Flush Door
+
+
+									 <b>Doors:</b>MainDoor:Flush doors with Wooden
+									Frame<br> <b>InternalDoor:</b>Flush doors with Wooden Frame<br>
+									<b>ToiletDoor:</b>Water Proof Flush Door ======= <b>Doors:</b>MainDoor:Flush
+									doors with Wooden Frame<br> <br> <b>InternalDoor:</b>Flush
+									doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water Proof
+									Flush Door
 
 								</p>
 								<br>
@@ -391,12 +406,12 @@
 			<!-- padur -->
 
 			<div class="middle" style="right: -100%" id="padur">
-				<section class="main demo-2">
+				<section class="main demo-2 row-fluid">
 
-				<div id="grid" class="grid clearfix">
+				<div id="grid" class="grid clearfix span12">
 
 
-					<div class="uc-container box1">
+					<div class="uc-container box1 span4">
 						<div class="uc-initial-content">
 							<p>Overview</p>
 							<span class="icon-eye">Overview</span>
@@ -430,21 +445,19 @@
 
 
 
-					<div class="uc-container box2">
+					<div class="uc-container box2 span4">
 						<div class="uc-initial-content">
 							<p>Location</p>
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant">
-								
-							</div>
+							<div class="contant"></div>
 						</div>
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box3">
+					<div class="uc-container box3 span4">
 						<div class="uc-initial-content">
 							<p>Amenties</p>
 							<span class="icon-eye"></span>
@@ -453,41 +466,183 @@
 							<span class="icon-cancel"></span>
 
 							<div class="contant amen">
-							
-						<h2>INDOOR AMENTIES:</h2><br>
-						
-						<p>Healthclub/Gymnasium.</p><br>
-						<p>Table Tennis.</p><br>
-						<p>Tv Room/Minitheatre/Multipurpose hall.</p><br>
-						<p>Chess/Carom and other indoor Games .</p><br>
-							
-							<h2>OUTDOOR AMENTIES:</h2><br>
-						
-						<p>Swimming Pool.</p><br>
-						<p>Land scapes.</p><br>
-						<p>Servant Toilet.</p><br>
-						<p>Out door party area .</p><br>
-						
-						<p>Children's Play Area .</p><br>		
-							
-						<p>Payed garden walk .</p><br>
-						
-						<h2>OTHER AMENTIES:</h2><br>
-						
-						<p>Intercom facility.</p><br>
-						<p>Backup generator for common areas.</p><br>
-						<p>Security personnel.</p><br>
-						<p>CCTV camera.</p><br>
-						
-						<p>Water Treatment plant(RO water for kitchen) .</p><br>		
-							
-						<p>Rain water Harvesting .</p><br>	
-						<p>Sewage water Harvesting .</p><br>	
-						<p>UPS provision for Vilas.</p><br>	
-						
-						
-						
-						
+
+								<h2>INDOOR AMENTIES:</h2>
+								<br>
+
+								<p>Healthclub/Gymnasium.</p>
+								<br>
+								<p>Table Tennis.</p>
+								<br>
+								<p>Tv Room/Minitheatre/Multipurpose hall.</p>
+								<br>
+								<p>Chess/Carom and other indoor Games .</p>
+								<br>
+
+								<h2>OUTDOOR AMENTIES:</h2>
+								<br>
+
+								<p>Swimming Pool.</p>
+								<br>
+								<p>Land scapes.</p>
+								<br>
+								<p>Servant Toilet.</p>
+								<br>
+								<p>Out door party area .</p>
+								<br>
+
+								<p>Children's Play Area .</p>
+								<br>
+
+								<p>Payed garden walk .</p>
+								<br>
+
+								<h2>OTHER AMENTIES:</h2>
+								<br>
+
+								<p>Intercom facility.</p>
+								<br>
+								<p>Backup generator for common areas.</p>
+								<br>
+								<p>Security personnel.</p>
+								<br>
+								<p>CCTV camera.</p>
+								<br>
+
+								<p>Water Treatment plant(RO water for kitchen) .</p>
+								<br>
+
+								<p>Rain water Harvesting .</p>
+								<br>
+								<p>Sewage water Harvesting .</p>
+								<br>
+								<p>UPS provision for Vilas.</p>
+								<br>
+
+
+
+
+
+							</div>
+						</div>
+					</div>
+					<!-- / uc-container -->
+				
+				</section>
+
+			</div>
+						<div class="middle" style="right: -100%" id="ottiyam">
+				<section class="main demo-2 row-fluid">
+
+				<div id="grid" class="grid clearfix span12">
+
+
+					<div class="uc-container box1 span4">
+						<div class="uc-initial-content">
+							<p>Overview</p>
+							<span class="icon-eye">Overview</span>
+
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant">
+								<h2>Overview</h2>
+								<p>The next project of MMRF is to launch 448 apartments in Ottiyambakkam, OMR containing 1/2/3 BHK ranging from Sq ft 575 to 1350. The total area of development is 6.8 acres and the total construction area is 5,40,000 sq feet  This project is conceptually designed to depict the Mediterranean architecture which will be one of its kinds in Chennai. 
+
+</p>
+								<br>
+
+								<h5>Further, MMRF is  considering a township in the same locality.</h5>
+
+								<br>
+							</div>
+
+						</div>
+					</div>
+					<!-- / uc-container -->
+
+
+
+
+
+
+					<div class="uc-container box2 span4">
+						<div class="uc-initial-content">
+							<p>Location</p>
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant"></div>
+						</div>
+					</div>
+					<!-- / uc-container -->
+
+					<div class="uc-container box3 span4">
+						<div class="uc-initial-content">
+							<p>Amenties</p>
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+
+							<div class="contant amen">
+
+								<h2>INDOOR AMENTIES:</h2>
+								<br>
+
+								<p>Healthclub/Gymnasium.</p>
+								<br>
+								<p>Table Tennis.</p>
+								<br>
+								<p>Tv Room/Minitheatre/Multipurpose hall.</p>
+								<br>
+								<p>Chess/Carom and other indoor Games .</p>
+								<br>
+
+								<h2>OUTDOOR AMENTIES:</h2>
+								<br>
+
+								<p>Swimming Pool.</p>
+								<br>
+								<p>Land scapes.</p>
+								<br>
+								<p>Servant Toilet.</p>
+								<br>
+								<p>Out door party area .</p>
+								<br>
+
+								<p>Children's Play Area .</p>
+								<br>
+
+								<p>Payed garden walk .</p>
+								<br>
+
+								<h2>OTHER AMENTIES:</h2>
+								<br>
+
+								<p>Intercom facility.</p>
+								<br>
+								<p>Backup generator for common areas.</p>
+								<br>
+								<p>Security personnel.</p>
+								<br>
+								<p>CCTV camera.</p>
+								<br>
+
+								<p>Water Treatment plant(RO water for kitchen) .</p>
+								<br>
+
+								<p>Rain water Harvesting .</p>
+								<br>
+								<p>Sewage water Harvesting .</p>
+								<br>
+								<p>UPS provision for Vilas.</p>
+								<br>
+
+
+
+
 
 							</div>
 						</div>
@@ -536,6 +691,7 @@
 					  $('#enclave').animate({"right":"-100%",opacity:0},500);
 					  $('#padur').animate({"right":"-100%",opacity:0},500);
 					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
+					  $('#ottiyam').animate({"right":"-100%",opacity:0},500);
 					  $('#ongoing').animate({"right":"12%",opacity:1},500);
 					});
 				  $(".upcoming").click(function() {
@@ -543,27 +699,35 @@
 					  $('#enclave').animate({"right":"-100%",opacity:0},500);
 					  $('#ongoing').animate({"right":"-100%",opacity:0},500);
 					  $('#padur').animate({"right":"-100%",opacity:0},500);
+					  $('#ottiyam').animate({"right":"-100%",opacity:0},500);
 					  $('#upcoming').animate({"right":"12%",opacity:1},500);
 					});
 					
 
 				  $(".enclave").click(function() {
-							
-					
-							 $('.middle1').animate({"right":"-100%",opacity:0},500);
-							  $('#upcoming').animate({"right":"-100%",opacity:0},500);
-							  $('#ongoing').animate({"right":"-100%",opacity:0},500);
-							  $('#padur').animate({"right":"-100%",opacity:0},500);
-							  $('#enclave').animate({"right":"12%",opacity:1},500);
-							
-					 
+					 $('.middle1').animate({"right":"-100%",opacity:0},500);
+					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
+					  $('#ongoing').animate({"right":"-100%",opacity:0},500);
+					  $('#padur').animate({"right":"-100%",opacity:0},500);
+					  $('#ottiyam').animate({"right":"-100%",opacity:0},500);
+					  $('#enclave').animate({"right":"12%",opacity:1},500);
 					});
 				  $(".padur").click(function() {
 					  $('.middle1').animate({"right":"-100%",opacity:0},500);
 					  $('#enclave').animate({"right":"-100%",opacity:0},500);
 					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
 					  $('#ongoing').animate({"right":"-100%",opacity:0},500);
+					  $('#ottiyam').animate({"right":"-100%",opacity:0},500);
 					  $('#padur').animate({"right":"12%",opacity:1},500);
+					});
+				   
+				  $(".ottiyam").click(function() {
+					  $('.middle1').animate({"right":"-100%",opacity:0},500);
+					  $('#enclave').animate({"right":"-100%",opacity:0},500);
+					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
+					  $('#ongoing').animate({"right":"-100%",opacity:0},500);
+					  $('#padur').animate({"right":"-100%",opacity:0},500);
+					  $('#ottiyam').animate({"right":"12%",opacity:1},500);
 					});
 				
 
