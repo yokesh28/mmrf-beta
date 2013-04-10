@@ -145,6 +145,27 @@
 		position: relative !important;
 		width: 780px !importaNT;
 	}
+	.middle{
+	opacity:0;
+	}
+	.tab-menu {
+		position: absolute;
+		top: 200px;
+	}
+	.tab-menu  span {
+		background: white;
+		padding: 10px 50px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	.tab-menu span:hover {
+		background: red;
+		color: white;
+	}
+	.tab-menu span.active {
+		background: red;
+		color: white;
+	}
 }
 
 /* Landscape phones and down */
@@ -152,5 +173,27 @@
 	.middle1 {
 		background: none !important;
 		position: relative !important;
+	}
+	.middle{
+	opacity:0;
+	}
+	.tab-menu {
+		position: absolute;
+		top: 200px;
+	}
+	.tab-menu  span {
+		background: white;
+		padding: 10px 50px;
+		font-weight: bold;
+		cursor: pointer;
+		display: inline-block;
+	}
+	.tab-menu span:hover {
+		background: red;
+		color: white;
+	}
+	.tab-menu span.active {
+		background: red;
+		color: white;
 	}
 }
