@@ -49,7 +49,7 @@
 				<h2></h2>
 				<div class=" span12">
 					<ul>
-						<li class="span3"><a class="fancybox" href="media.pdf" target="_blank">Updated media (10/4/2013)</a></li>
+						<li class="span12"><a class="fancybox" href="media.pdf" target="_blank"><img src="images/arrow.png"><h2>Updated media (10/4/2013)<h2></a></li>
 						<li></li>
 
 					</ul>

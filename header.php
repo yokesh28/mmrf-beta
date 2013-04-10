@@ -27,7 +27,9 @@
 							<img
 								src="img/3.jpg"  style="display: none" width=150px>
 							</li>
-							<li class="span2"><a href="gallery.html">Gallery</a>
+
+							<li class="span2" onclick="location.href='gallery.php'"><a href="gallery.php">Gallery</a>
+
 							<img
 								src="img/4.jpg"  style="display: none" width=150px> 
 							</li>

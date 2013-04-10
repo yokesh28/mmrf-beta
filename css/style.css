@@ -458,11 +458,14 @@ body {
 
 .contant {
 	overflow-y: scroll;
-	margin: 22px 66px;
+margin: 20px 40px;
 	text-align: justify;
 	right: -28px;
-	height: 245px;
 	position: absolute;
+	height: 340px;
+}
+.elivation img{
+	margin: 10px 8px;
 }
 
 .aimages p{width: 178px;}
@@ -994,6 +997,12 @@ footer .footer-content .titlefooter .extramobile {
 	width: 58px;
 float: left;
 }
+.bowcher{
+	  color: red;
+    font-size: 17px;
+    background: white;
+    padding: 6px 10px;
+}
 #fcontentbloc  p.mail {
 	position: absolute;
 	top: 138px;
@@ -1255,8 +1264,17 @@ footer nav  .header {
 blockquote{
 	border-left:none !important; 
 }
+.span12 a{
+	
+	text-decoration: none;
+}
 
-
+.fancybox img{
+	
+	
+	width: 50px;
+float: left;
+}
 /*#overlay_form{
 position: absolute;
 
