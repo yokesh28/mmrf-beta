@@ -156,8 +156,10 @@ display: inline-block;}
 
 .textright p {
 	text-align: center;
-	font-style: italic;
-	margin: 73px;
+font-style: italic;
+margin: 61px 0px;
+font-size: 37px;
+line-height: 35px;
 }
 
 .textleft {
@@ -165,8 +167,33 @@ display: inline-block;}
 	width: 317px;
 	height: 166px;
 	font-family: chaparral Pro;
-	font-size: 30px;
+	font-size: 30px;margin-left: 15px;
 }
+
+
+
+
+
+
+.textleft p {
+	text-align: center;
+margin:61px 0px;
+font-size: 38px;
+line-height: 33px;
+font-style: italic;
+}
+
+
+
+.textleft:hover {
+	background: red;
+	cursor: pointer;
+}
+
+.textright:hover {
+	background: red;
+}
+
 
 .building1 img {
 	width: 100%;
@@ -192,40 +219,18 @@ display: inline-block;}
 	color: white;
 }
 
-.textright {
-	background: white;
-	width: 317px;
-	height: 166px;
-	margin-top: 26PX;
-	margin-bottom: 15PX;
-	margin-left: 56PX;
-}
-
-.textleft p {
-	text-align: center;
-	margin: 73px;
-}
-
-.textleft {
-	background: white;
-	width: 317px;
-	height: 166px;
-	margin-left: 15px;
-}
-
-.textleft:hover {
-	background: red;
-	cursor: pointer;
-}
-
-.textright:hover {
-	background: red;
-}
 
 .bottom:hover {
 	background: red;
 	cursor: pointer;
 }
+
+.floorplan{margin: 0px 37px;}
+
+
+
+
+#dwn_btn img{margin:0px 25px 0px 63px;}
 
 .slide1 {
 	position: relative;
@@ -423,7 +428,9 @@ display: inline-block;}
 }
 
 .contant p {
-	padding-right: 10px;
+	padding-right: 22px;
+font-size: 15px;
+text-align: justify;
 }
 
 .about_sm a {
