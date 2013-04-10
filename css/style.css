@@ -314,6 +314,15 @@ font-style: italic;
 	padding-right: 18px;
 	padding-top: 30px;
 }
+.position2 {
+	display: inline-block;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 30px;
+}
+
+
+
 
 .position>img {
 	position: absolute;
@@ -432,6 +441,11 @@ display: inline-block;}
 .contant h2 {
 	font-size: 17.5px;
 	padding-right: 10px;
+	color: black;
+}
+.contant h5{
+	
+	color: black;
 }
 
 .contant p {
@@ -466,15 +480,17 @@ text-align: justify;
 
 .content img {
 	float: left;
-	position: relative;
-	width: 305px;
-	height: 76px;
+position: relative;
+width: 280px;
+height: 69px;
 }
 
 .content p {
 	text-align: justify;
-	margin: -23px 0px;
+padding-right: 33px;
+margin: 1px 0px;
 }
+
 
 .content h4 {
 	position: absolute;
@@ -1196,7 +1212,7 @@ footer nav  .header {
 	height: 100%;
 }
 
-
+#mytab{background: rgba(250, 247, 247, 0.78);}
 
 
 
@@ -1250,21 +1266,47 @@ left: 77px;
 }
 }
 */
+
+/*padur css*/
+#padur .grid
+{
+position: absolute;
+top: 111px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tab-content{
 	margin-top: 70px;
 }
 
 .tab-content .tab-pane {
-
+     width: 700px;
 	background: rgba(250, 247, 247, 0.78);
 	overflow: hidden;
 }
 
-#about {
-	padding: 30px 30px;
-}
+#about h4{padding-left:26px;}
 #about p{
 	text-align: justify;
+	padding:16px 34px;
 }
 /*footer page*/
 ::-webkit-scrollbar {

@@ -37,7 +37,7 @@
 
 		<div class="im">
 			<div class="hidden-desktop tab-menu">
-				<span class="active up">Up Coming</span> <span class="on">On Going</span>
+				<span class="active on">On Going</span> <span class="up">Up Coming</span>
 			</div>
 			<div class="middle1 span12" style="right: -100%;" id="ongoing">
 
@@ -52,7 +52,7 @@
 
 
 				</div>
-				<div class="position1 ">
+				<div class="position2 ">
 					<div class="textleft padur pull-left " style="cursor: pointer;">
 						<p>Padur Residence</p>
 					</div>
@@ -76,7 +76,9 @@
 
 				</div>
 			</div>
-			<div class="middle " style="right: -100%">
+
+
+			<div class="middle" style="right: -100%" id="enclave">
 				<section class="main demo-2">
 
 				<div id="grid" class="grid clearfix">
@@ -220,7 +222,7 @@
 
 					<div class="uc-container box3">
 						<div class="uc-initial-content">
-							<p>KeyPLan</p>
+							<p>Elevation</p>
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -378,6 +380,139 @@
 				</section>
 
 			</div>
+
+			<!-- padur -->
+
+			<div class="middle" style="right: -100%" id="padur">
+				<section class="main demo-2">
+
+				<div id="grid" class="grid clearfix">
+
+
+					<div class="uc-container box1">
+						<div class="uc-initial-content">
+							<p>Overview</p>
+							<span class="icon-eye">Overview</span>
+
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant">
+								<h2>Overview</h2>
+								<p>When you live in an environment of peace and quietude.away
+									from the clamor.the uproar and the grime and dust of city life.
+									it sure can soothe your soul and transport you to a world your
+									own-exclusive,private and spacious. But when you have it right
+									with in city limits.its joy compounded. Padur has got it all
+									and more. sheer elegance matched by functional aesthetics that
+									not only makes you feel good but look good.</p>
+								<br>
+
+								<h5>SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN
+									LIFE.IT SAYS THAT YOU HAVE ARRIVED.</h5>
+
+								<br>
+							</div>
+
+						</div>
+					</div>
+					<!-- / uc-container -->
+
+
+
+
+
+
+					<div class="uc-container box2">
+						<div class="uc-initial-content">
+							<p>Location</p>
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant">
+								<p>Sai Enclave at ArasanKazhani near OMR offers unparalleled
+									lifestyle privileges of an urban and fast-paced living.
+									Splendidly designed by renowned Architects,Sai Enclave
+									furnishes around 44units consisting of 2BHK & 3BHK Apartments
+									crafted for an elegant living.Meticulous construction paired
+									with Upscale Amenities such as Play area,Fitness center,Lush
+									garden etc,Sai Enclave is fused with every bit of a desirable
+									living that will satiate your comfort craving.</p>
+							</div>
+						</div>
+					</div>
+					<!-- / uc-container -->
+
+					<div class="uc-container box3">
+						<div class="uc-initial-content">
+							<p>Amenties</p>
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant ">
+
+								<h2>INDOOR AMENTIES:</h2>
+								<br>
+
+								<p>Healthclub/Gymnasium.</p>
+								<br>
+								<p>Table Tennis.</p>
+								<br>
+								<p>Tv Room/Minitheatre/Multipurpose hall.</p>
+								<br>
+								<p>Chess/Carom and other indoor Games .</p>
+								<br>
+
+								<h2>OUTDOOR AMENTIES:</h2>
+								<br>
+
+								<p>Swimming Pool.</p>
+								<br>
+								<p>Land scapes.</p>
+								<br>
+								<p>Servant Toilet.</p>
+								<br>
+								<p>Out door party area .</p>
+								<br>
+
+								<p>Children's Play Area .</p>
+								<br>
+
+								<p>Payed garden walk .</p>
+								<br>
+
+								<h2>OTHER AMENTIES:</h2>
+								<br>
+
+								<p>Intercom facility.</p>
+								<br>
+								<p>Backup generator for common areas.</p>
+								<br>
+								<p>Security personnel.</p>
+								<br>
+								<p>CCTV camera.</p>
+								<br>
+
+								<p>Water Treatment plant(RO water for kitchen) .</p>
+								<br>
+
+								<p>Rain water Harvesting .</p>
+								<br>
+								<p>Sewage water Harvesting .</p>
+								<br>
+								<p>UPS provision for Vilas.</p>
+								<br>
+
+							</div>
+						</div>
+					</div>
+					<!-- / uc-container -->
+				
+				</section>
+
+			</div>
 		</div>
 	</div>
 
@@ -393,19 +528,19 @@
 		</div>
 	</div>
 
-	<div class="foot">
-
-
-		<?php include 'footer.php';?>
 
 
 
+	<?php include 'footer.php';?>
 
 
-		<script type="text/javascript"
-			src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.pfold.js"></script>
-		<script type="text/javascript">
+
+
+
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.pfold.js"></script>
+	<script type="text/javascript">
 			$(function() {
 				
 
@@ -413,40 +548,38 @@
 				$('#ongoing').animate({"right":"12%",opacity:1},500);
 
 				  $(".ongoing").click(function() {
-					  $('.middle1').animate({"right":"-100%",opacity:1},500);
-					  $('.middle').animate({"right":"-100%",opacity:1},500);
-					  $('#upcoming').animate({"right":"-100%",opacity:1},500);
+					  $('.middle1').animate({"right":"-100%",opacity:0},500);
+					  $('#enclave').animate({"right":"-100%",opacity:0},500);
+					  $('#padur').animate({"right":"-100%",opacity:0},500);
+					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
 					  $('#ongoing').animate({"right":"12%",opacity:1},500);
 					});
 				  $(".upcoming").click(function() {
-					  $('.middle1').animate({"right":"-100%",opacity:1},500);
-					  $('.middle').animate({"right":"-100%",opacity:1},500);
-					  $('#ongoing').animate({"right":"-100%",opacity:1},500);
+					  $('.middle1').animate({"right":"-100%",opacity:0},500);
+					  $('#enclave').animate({"right":"-100%",opacity:0},500);
+					  $('#ongoing').animate({"right":"-100%",opacity:0},500);
+					  $('#padur').animate({"right":"-100%",opacity:0},500);
 					  $('#upcoming').animate({"right":"12%",opacity:1},500);
 					});
 					
 
 				  $(".enclave").click(function() {
 							
-						var widthWindow=$(window).width();
-
-						if(widthWindow<=480)
-						{
-							alert("dd");
-						}
-						else
-							{
-							  $('.middle1').animate({"right":"-100%",opacity:1},500);
-							  $('#upcoming').animate({"right":"-100%",opacity:1},500);
-							  $('#ongoing').animate({"right":"-100%",opacity:1},500);
-							  $('.middle').animate({"right":"12%",opacity:1},500);
-							}
+					
+							 $('.middle1').animate({"right":"-100%",opacity:0},500);
+							  $('#upcoming').animate({"right":"-100%",opacity:0},500);
+							  $('#ongoing').animate({"right":"-100%",opacity:0},500);
+							  $('#padur').animate({"right":"-100%",opacity:0},500);
+							  $('#enclave').animate({"right":"12%",opacity:1},500);
+							
+					 
 					});
 				  $(".padur").click(function() {
-					  $('.middle').animate({"right":"-100%",opacity:1},500);
-					  $('#upcoming').animate({"right":"-100%",opacity:1},500);
-					  $('#ongoing').animate({"right":"-100%",opacity:1},500);
-					  $('.middle').animate({"right":"12%",opacity:1},500);
+					  $('.middle1').animate({"right":"-100%",opacity:0},500);
+					  $('#enclave').animate({"right":"-100%",opacity:0},500);
+					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
+					  $('#ongoing').animate({"right":"-100%",opacity:0},500);
+					  $('#padur').animate({"right":"12%",opacity:1},500);
 					});
 				
 
@@ -504,17 +637,15 @@
 			});
 
 
-			$('.on').click(function(){
-				 $('#ongoing').animate({opacity:0},500);
-				 $('#upcoming').animate({opacity:1},500);
+			$('.up').click(function(){
+				 $('#ongoing').animate({"z-index": "114",opacity:0},500);
+				 $('#upcoming').animate({"z-index": "115",opacity:1},500);
 				 
 			
 			});
-			$('.up').click(function(){
-				 $('#upcoming').animate({opacity:0},500);
-				 $('#ongoing').animate({opacity:1},500);
-				 
-			
+			$('.on').click(function(){
+				 $('#upcoming').animate({"z-index": "114",opacity:0},500);
+				 $('#ongoing').animate({"z-index": "115",opacity:1},500);
 			});
 		</script>
 
@@ -525,11 +656,10 @@
 
 
 
+	<script src="js/bootstrap.min.js"></script>
 
-		<script src="js/bootstrap.min.js"></script>
 
-
-		<script src="js/jquery.mobilemenu.js"></script>
+	<script src="js/jquery.mobilemenu.js"></script>
 
 </body>
 </html>
