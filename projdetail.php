@@ -63,11 +63,6 @@
 
 
 
-				<div id="dwn_btn">
-					<a href="Sai.pdf" target="blank"><img src="images/dwnbtn.png"
-						width="197" height="57"> </a>
-				</div>
-
 
 
 
@@ -233,7 +228,7 @@
 
 					<div class="uc-container box3">
 						<div class="uc-initial-content">
-							<p>KeyPLan</p>
+							<p>Elevation</p>
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -671,8 +666,14 @@
 
 
 			$('.on').click(function(){
-				 $('#ongoing').animate({"right":"-250%",opacity:1},500);
-				 $('#upcoming').animate({"right":"12%",opacity:1},500);
+				 $('#ongoing').animate({opacity:0},500);
+				 $('#upcoming').animate({opacity:1},500);
+				 
+			
+			});
+			$('.up').click(function(){
+				 $('#upcoming').animate({opacity:0},500);
+				 $('#ongoing').animate({opacity:1},500);
 				 
 			
 			});

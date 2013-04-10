@@ -1,7 +1,6 @@
 @CHARSET "ISO-8859-1";
 /* Large desktop */
 @media ( min-width : 1200px) {
-	
 	.middle1 {
 		width: 780px !importaNT;
 	}
@@ -91,10 +90,9 @@
 		position: relative !important;
 	}
 	#upcoming {
-		
 		top: -29%;
 		right: 12% !important;
-		opacity:0;
+		opacity: 0;
 	}
 }
 
@@ -109,7 +107,6 @@
 		top: 0px;
 		width: 100%;
 	}
-	
 	.logo {
 		margin: 0 auto !important;
 		width: 190px !important;
@@ -145,8 +142,8 @@
 		position: relative !important;
 		width: 780px !importaNT;
 	}
-	.middle{
-	opacity:0;
+	.middle {
+		opacity: 0;
 	}
 	.tab-menu {
 		position: absolute;
@@ -174,19 +171,30 @@
 		background: none !important;
 		position: relative !important;
 	}
-	.middle{
-	opacity:0;
+	
+	#ongoing {
+		opacity: 0 !important;
+	}
+	.middle {
+		opacity: 0 !important;
 	}
 	.tab-menu {
-		position: absolute;
+		position: fixed;
 		top: 200px;
+		right: 12%;
+		width: 216px;
+		margin: 0 auto;
+		left: 10%;
+		z-index: 100;
 	}
 	.tab-menu  span {
 		background: white;
-		padding: 10px 50px;
+		padding: 10px 0px;
 		font-weight: bold;
 		cursor: pointer;
 		display: inline-block;
+		width: 100px;
+		text-align: center;
 	}
 	.tab-menu span:hover {
 		background: red;
