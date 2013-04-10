@@ -535,17 +535,12 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>When you live in an environment of peace and quietude.away
-									from the clamor.the uproar and the grime and dust of city life.
-									it sure can soothe your soul and transport you to a world your
-									own-exclusive,private and spacious. But when you have it right
-									with in city limits.its joy compounded. Padur has got it all
-									and more. sheer elegance matched by functional aesthetics that
-									not only makes you feel good but look good.</p>
+								<p>The next project of MMRF is to launch 448 apartments in Ottiyambakkam, OMR containing 1/2/3 BHK ranging from Sq ft 575 to 1350. The total area of development is 6.8 acres and the total construction area is 5,40,000 sq feet  This project is conceptually designed to depict the Mediterranean architecture which will be one of its kinds in Chennai. 
+
+</p>
 								<br>
 
-								<h5>SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN
-									LIFE.IT SAYS THAT YOU HAVE ARRIVED.</h5>
+								<h5>Further, MMRF is  considering a township in the same locality.</h5>
 
 								<br>
 							</div>
