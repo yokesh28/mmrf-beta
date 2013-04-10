@@ -1305,10 +1305,10 @@ top: 111px;
 .tab-content .tab-pane {
      width: 700px;
 	background: rgba(250, 247, 247, 0.78);
-	overflow: hidden;
+	overflow: hidden;margin-top: 59px;
 }
 
-#about h4{padding-left:26px;}
+#about h4{padding-left:26px;color:red;}
 #about p{
 	text-align: justify;
 	padding:16px 34px;
