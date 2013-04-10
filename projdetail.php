@@ -84,9 +84,9 @@
 				<div id="grid" class="grid clearfix span12">
 
 
-					<div class="uc-container box1 span4">
+					<div class="uc-container box1 span4 overview">
 						<div class="uc-initial-content">
-							<p>Overview</p>
+							
 							<span class="icon-eye">Overview</span>
 
 						</div>
@@ -205,9 +205,9 @@
 
 
 
-					<div class="uc-container box2 span4">
+					<div class="uc-container box2 span4 location">
 						<div class="uc-initial-content">
-							<p>Location</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -226,9 +226,9 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box3 span4">
+					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
-							<p>Elevation</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -238,9 +238,9 @@
 					</div>
 					<!-- / uc-container -->
 
-					<div class="uc-container box4 span4">
+					<div class="uc-container box4 span4 amenities">
 						<div class="uc-initial-content">
-							<p>Amenities</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
@@ -273,9 +273,9 @@
 					</div>
 
 
-					<div class="uc-container box5 span4">
+					<div class="uc-container box5 span4 specification">
 						<div class="uc-initial-content">
-							<p>Specifications</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
@@ -290,12 +290,24 @@
 								</p>
 								<br>
 								<p>
+
+
+									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
+									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
+									Door
+
+									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br><br>
+									<b>InternalDoor:</b>Flush doors with Wooden Frame<br><br><b>ToiletDoor:</b>Water
+									Proof Flush Door
+
+
 									 <b>Doors:</b>MainDoor:Flush doors with Wooden
 									Frame<br> <b>InternalDoor:</b>Flush doors with Wooden Frame<br>
 									<b>ToiletDoor:</b>Water Proof Flush Door ======= <b>Doors:</b>MainDoor:Flush
 									doors with Wooden Frame<br> <br> <b>InternalDoor:</b>Flush
 									doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water Proof
 									Flush Door
+
 								</p>
 								<br>
 								<p>
@@ -363,10 +375,10 @@
 
 
 
-					<div class="uc-container box6 span4">
+					<div class="uc-container box6 span4 floorplan">
 
 						<div class="uc-initial-content">
-							<p>Floor Plans</p>
+							
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
@@ -535,17 +547,12 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>When you live in an environment of peace and quietude.away
-									from the clamor.the uproar and the grime and dust of city life.
-									it sure can soothe your soul and transport you to a world your
-									own-exclusive,private and spacious. But when you have it right
-									with in city limits.its joy compounded. Padur has got it all
-									and more. sheer elegance matched by functional aesthetics that
-									not only makes you feel good but look good.</p>
+								<p>The next project of MMRF is to launch 448 apartments in Ottiyambakkam, OMR containing 1/2/3 BHK ranging from Sq ft 575 to 1350. The total area of development is 6.8 acres and the total construction area is 5,40,000 sq feet  This project is conceptually designed to depict the Mediterranean architecture which will be one of its kinds in Chennai. 
+
+</p>
 								<br>
 
-								<h5>SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN
-									LIFE.IT SAYS THAT YOU HAVE ARRIVED.</h5>
+								<h5>Further, MMRF is  considering a township in the same locality.</h5>
 
 								<br>
 							</div>

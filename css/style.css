@@ -28,17 +28,20 @@ body {
 	display: inline;
 }
 
+.as h4 {
+	color: black;
+	margin: 120px 0px;
+	display: inline-block;
+}
 
+.as p {
+	margin: 112px 0px;
+	text-align: justify;
+}
 
-
-
-.as h4{color:black;margin:120px 0px;
-display: inline-block;}
-.as p{margin: 112px 0px;text-align:justify;}
-.tab-content{display:inline;}
-
-
-
+.tab-content {
+	display: inline;
+}
 
 .align {
 	margin: 54px 0px;
@@ -156,10 +159,10 @@ display: inline-block;}
 
 .textright p {
 	text-align: center;
-font-style: italic;
-margin: 61px 0px;
-font-size: 37px;
-line-height: 35px;
+	font-style: italic;
+	margin: 61px 0px;
+	font-size: 37px;
+	line-height: 35px;
 }
 .textright p:hover{
 	
@@ -171,23 +174,17 @@ line-height: 35px;
 	width: 317px;
 	height: 166px;
 	font-family: chaparral Pro;
-	font-size: 30px;margin-left: 15px;
+	font-size: 30px;
+	margin-left: 15px;
 }
-
-
-
-
-
 
 .textleft p {
 	text-align: center;
-margin:61px 0px;
-font-size: 38px;
-line-height: 33px;
-font-style: italic;
+	margin: 61px 0px;
+	font-size: 38px;
+	line-height: 33px;
+	font-style: italic;
 }
-
-
 
 .textleft:hover {
 	background: red;
@@ -197,7 +194,6 @@ font-style: italic;
 .textright:hover {
 	background: red;
 }
-
 
 .building1 img {
 	width: 100%;
@@ -223,22 +219,21 @@ font-style: italic;
 	color: white;
 }
 
-
 .bottom:hover {
 	background: red;
 	cursor: pointer;
 }
 
-.floorplan{margin: 0px 37px;}
+.floorplan {
+	margin: 0px 37px;
+}
 
-
-
-
-#dwn_btn img{margin:0px 25px 0px 63px;}
+#dwn_btn img {
+	margin: 0px 25px 0px 63px;
+}
 
 .slide1 {
 	position: relative;
-
 	width: 100%;
 	height: 100%;
 }
@@ -318,15 +313,13 @@ font-style: italic;
 	padding-right: 18px;
 	padding-top: 30px;
 }
+
 .position2 {
 	display: inline-block;
 	padding-left: 18px;
 	padding-right: 18px;
 	padding-top: 30px;
 }
-
-
-
 
 .position>img {
 	position: absolute;
@@ -387,6 +380,38 @@ font-style: italic;
 	margin-left: 0px !important;
 }
 
+
+
+.overview .uc-initial-content{
+	background: url("../img/images/ove.jpg") no-repeat;
+}
+.location .uc-initial-content{
+	background: url("../img/images/loc.jpg") no-repeat;
+}
+
+.elevation .uc-initial-content{
+	background: url("../img/images/ele.jpg") no-repeat;
+}
+
+.amenities .uc-initial-content{
+	background: url("../img/images/ame.jpg") no-repeat;
+}
+
+.specification .uc-initial-content{
+	background: url("../img/images/spe.jpg") no-repeat;
+}
+
+.floorplan .uc-initial-content{
+	background: url("../img/images/flo.jpg") no-repeat;
+}
+
+
+
+
+
+
+
+
 .alert h4 {
 	color: black;
 }
@@ -421,12 +446,15 @@ font-style: italic;
 	overflow-x: hidden;
 }
 
+.contant label {
+	width: 100px;
+	float: left;
+}
 
-.contant label{width:100px;
-float: left;}
-
-.contant span{width: 155px;
-display: inline-block;}
+.contant span {
+	width: 155px;
+	display: inline-block;
+}
 
 .contant {
 	overflow-y: scroll;
@@ -447,15 +475,15 @@ display: inline-block;}
 	padding-right: 10px;
 	color: black;
 }
-.contant h5{
-	
+
+.contant h5 {
 	color: black;
 }
 
 .contant p {
 	padding-right: 22px;
-font-size: 15px;
-text-align: justify;
+	font-size: 15px;
+	text-align: justify;
 }
 
 .about_sm a {
@@ -480,21 +508,18 @@ text-align: justify;
 	color: white;
 }
 
-
-
 .content img {
 	float: left;
-position: relative;
-width: 280px;
-height: 69px;
+	position: relative;
+	width: 280px;
+	height: 69px;
 }
 
 .content p {
 	text-align: justify;
-padding-right: 33px;
-margin: 1px 0px;
+	padding-right: 33px;
+	margin: 1px 0px;
 }
-
 
 .content h4 {
 	position: absolute;
@@ -528,7 +553,6 @@ margin: 1px 0px;
 	color: red;
 }
 
-
 .alert1 {
 	padding: 8px 35px 8px 14px;
 	margin-bottom: 20px;
@@ -540,18 +564,19 @@ margin: 1px 0px;
 	border-radius: 4px;
 }
 
-#grid .uc-container{
-margin-top: 10px;
-margin-bottom: 10px;
+#grid .uc-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right:0px;
 }
-.box4{
+
+.box4 {
 	margin-left: 0px !important;
 }
-.amen h2
-{
-width: 187px;
-float: left;
 
+.amen h2 {
+	width: 187px;
+	float: left;
 }
 
 .box3 .uc-final {
@@ -593,6 +618,7 @@ float: left;
 #contactus_page input[type="text"],input[type="password"],input[type="email"]
 	{
 	/*border: 1px solid #D40E1E;*/
+	
 }
 
 #contactus_page .adress {
@@ -640,23 +666,21 @@ float: left;
 	background-size: 30px;
 }
 
-
-
 .enquiry input {
-	
 	padding: 4px;
 	background: #252525;
 	margin: 1px 3px;
 	color: white;
 }
 
-
-
 .enquiry li {
 	margin: 10px 0px;
 }
 
-.enquiry h2{color:black;}
+.enquiry h2 {
+	color: black;
+}
+
 .add-sub label {
 	
 }
@@ -699,23 +723,24 @@ float: left;
 }
 /*contact Page */
 #contactus_page {
-
 	margin-top: 120px;
 	color: white;
 	padding: 30px;
 }
 
-#contactus_page .back{
+#contactus_page .back {
 	background: rgba(250, 247, 247, 0.76);
 	padding: 30px 40px;
 }
+
 #contactus_page .adress {
 	background: url("../images/contact_us_back1.gif") repeat;
 	padding: 44px 30px;
 	float: left;
 	width: 200px;
 }
-#contactus_page .contact{
+
+#contactus_page .contact {
 	margin: 30px 0px;
 }
 
@@ -756,19 +781,13 @@ float: left;
 }
 
 .enquiry select {
-	
 	padding: 0px 7px;
 	-webkit-appearance: none;
 
 	/*background: transparent;*/
 }
 
-
-
 .enquiry textarea {
-	
-	
-	
 	padding: 4px;
 	background: white;
 	margin: 0 0 -75px 0;
@@ -838,17 +857,17 @@ float: left;
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =   100);
+	filter: alpha(opacity =     100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =   100);
+	filter: alpha(opacity =     100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =   100);
+	filter: alpha(opacity =     100);
 	opacity: 1;
 }
 
@@ -861,12 +880,11 @@ footer .open {
 	height: 270px;
 	z-index: 9999 ! important;
 	position: fixed;
-
 	overflow: hidden;
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =  85);
+	filter: alpha(opacity =    85);
 	opacity: 1;
 	max-width: 1200px;
 	min-width: 700px;
@@ -917,7 +935,6 @@ footer nav.footnav .footheader {
 	padding: 0px 0px 0px 34px;
 }
 
-
 footer .footer-content .titlefooter .extramobile {
 	font: 20px 'FrutigerLTStd47LightCnBold';
 	font-weight: bold;
@@ -930,21 +947,23 @@ footer .footer-content .titlefooter .extramobile {
 .fcontent {
 	color: white;
 }
-#fcontentbloc address
-{
-line-height: 21px;
+
+#fcontentbloc address {
+	line-height: 21px;
 }
-#fcontentbloc h6{
+
+#fcontentbloc h6 {
 	margin-top: 13px;
-	
 }
-#fcontentbloc h5{
+
+#fcontentbloc h5 {
 	margin-left: 10px;
 }
-#fcontentbloc h4
-{
-margin-left: 9px;
+
+#fcontentbloc h4 {
+	margin-left: 9px;
 }
+
 #fcontentbloc  h1,h2,h3,h4,h5,h6 {
 	color: white;
 }
@@ -957,36 +976,29 @@ margin-left: 9px;
 	padding-top: 5px;
 	color: #a9a9a9;
 	position: absolute;
-top: 102px;
-left: 273px;
-	
-}
-#fcontentbloc  p.mail
-{
-position: absolute;
-top: 138px;
-left: 287px;
+	top: 102px;
+	left: 273px;
 }
 
-#fcontentbloc  p.web
-{
-position: absolute;
-top: 169px;
-left: 289px;
+#fcontentbloc  p.mail {
+	position: absolute;
+	top: 138px;
+	left: 287px;
 }
 
-#fcontentbloc div.ph
-{
-margin: -12px 0px 0px 32px;
-
+#fcontentbloc  p.web {
+	position: absolute;
+	top: 169px;
+	left: 289px;
 }
 
-#fcontentbloc .span3{
-	
+#fcontentbloc div.ph {
+	margin: -12px 0px 0px 32px;
+}
+
+#fcontentbloc .span3 {
 	width: 24.404255%;
 }
-
-
 
 #fcontentbloc  p+p {
 	padding-top: 5px;
@@ -1031,26 +1043,22 @@ margin: -12px 0px 0px 32px;
 #fcontentbloc1 {
 	padding: 0px 0px 0px 0px;
 }
-#fcontentbloc1 h4
-{
-margin-left: 90px;
+
+#fcontentbloc1 h4 {
+	margin-left: 90px;
 }
 
-#fcontentbloc1 a:Hover
-{
-text-decoration: none;
-}
-#fcontentbloc1 img
-{
-background-color: white;
-
+#fcontentbloc1 a:Hover {
+	text-decoration: none;
 }
 
-#fcontentbloc1 a
-{
-text-decoration: none;
-color: white;
+#fcontentbloc1 img {
+	background-color: white;
+}
 
+#fcontentbloc1 a {
+	text-decoration: none;
+	color: white;
 }
 
 #fcontentbloc1  p {
@@ -1078,57 +1086,44 @@ color: white;
 		url("http://www.parc-amazonien-guyane.fr/css/../img/icone-footer-marchespublics.png")
 		left center no-repeat;
 }
- #myModal  h3{
-	
-	color:black;
-	
+
+#myModal  h3 {
+	color: black;
 }
 
-#myModal  {
-	
-	top:25%;
+#myModal {
+	top: 25%;
 	width: 462px;
-	
 }
 
-#myModal .con_label{
-	
+#myModal .con_label {
 	position: absolute;
-top: 57px;
+	top: 57px;
 }
 
-#myModal .con3_label
-{
-position: absolute;
-top: 178px;
+#myModal .con3_label {
+	position: absolute;
+	top: 178px;
 }
 
-#emi  h3{
-	
-	color:black;
-	
+#emi  h3 {
+	color: black;
 }
 
-#emi  {
-	
-	top:25%;
+#emi {
+	top: 25%;
 	width: 462px;
-	
 }
 
-
-#emi .con_label{
-	
+#emi .con_label {
 	position: absolute;
-top: 57px;
+	top: 57px;
 }
 
-#emi .con3_label
-{
-position: absolute;
-top: 178px;
+#emi .con3_label {
+	position: absolute;
+	top: 178px;
 }
-
 
 #fcontentbloc1 .type {
 	font-size: 11px;
@@ -1198,8 +1193,6 @@ top: 178px;
 	color: white;
 }
 
-
-
 .signature {
 	color: #fff;
 	text-align: center;
@@ -1230,7 +1223,10 @@ footer nav  .header {
 	height: 100%;
 }
 
-#mytab{background: rgba(250, 247, 247, 0.78);}
+#mytab {
+	background: rgba(250, 247, 247, 0.78);margin-top:127px;
+}
+
 
 .gallery {
 	margin-top: 120px;
@@ -1241,6 +1237,12 @@ footer nav  .header {
 blockquote{
 	border-left:none !important; 
 }
+
+=======
+blockquote {
+	border-left: none !important;
+}
+
 
 /*#overlay_form{
 position: absolute;
@@ -1288,40 +1290,43 @@ left: 77px;
 */
 
 /*padur css*/
-#padur .grid
+#padur .grid {
+	position: absolute;
+	top: 111px;
+}
+
+
+
+/*upcoming project*/
+
+#ottiyam .grid
 {
 position: absolute;
 top: 111px;
 }
-}
 
 
 /*media*/
- 
 
-
-
-
-
-
-
-
-
-
-.tab-content{
+.tab-content {
 	margin-top: 70px;
 }
 
 .tab-content .tab-pane {
-     width: 700px;
+	width: 700px;
 	background: rgba(250, 247, 247, 0.78);
-	overflow: hidden;margin-top: 59px;
+	overflow: hidden;
+	margin-top: 59px;
 }
 
-#about h4{padding-left:26px;color:red;}
-#about p{
+#about h4 {
+	padding-left: 26px;
+	color: red;
+}
+
+#about p {
 	text-align: justify;
-	padding:16px 34px;
+	padding: 16px 34px;
 }
 /*footer page*/
 ::-webkit-scrollbar {
