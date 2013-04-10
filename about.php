@@ -182,12 +182,13 @@
 												alt="Craig Bryant" width="115" height="115">
 										</div>
 										<p>
-											<span class="fn">Craig Bryant</span><span class="title">Partner,
-												product designer</span><span class="divider">/</span><span
-												class="year">2006</span>
+											<span class="fn">Mr.Shakthi V</span>
+											<span class="title">CEO-From</span>
+											<span class="divider">/</span><span
+												class="year">2012</span>
 										</p>
 									</li>
-									<li><em>Flash Application Design</em> (Friends of Ed, 2006)</li>
+									
 									<li>
 										<div class="photo">
 											<img
@@ -195,9 +196,9 @@
 												alt="Ka Wai Cheung" width="115" height="115">
 										</div>
 										<p>
-											<span class="fn">Ka Wai Cheung</span><span class="title">Partner,
-												director of software</span><span class="divider">/</span><span
-												class="year">2006</span>
+											<span class="fn">Ms.Divya S</span><span class="title">VP-From
+											</span><span class="divider">/</span><span
+												class="year">2012</span>
 										</p>
 									</li>
 									<li>
@@ -207,12 +208,12 @@
 												alt="Michael Sanders" width="115" height="115">
 										</div>
 										<p>
-											<span class="fn">Michael Sanders</span><span class="title">Partner,
-												project manager</span><span class="divider">/</span><span
-												class="year">2006</span>
+											<span class="fn">Ms.Nandhini M</span><span class="title">VP-From
+										</span><span class="divider">/</span><span
+												class="year">2012</span>
 										</p>
 									</li>
-									<li>Clients: United Airlines, Ford, GM</li>
+									
 									<li>
 										<div class="photo">
 											<img
@@ -220,9 +221,8 @@
 												alt="Tom Stanley" width="115" height="115">
 										</div>
 										<p>
-											<span class="fn">Tom Stanley</span><span class="title">Software
-												developer</span><span class="divider">/</span><span
-												class="year">2008</span>
+											<span class="fn move">Ms.Chitra V</span><span class="title">General Manager-From</span><span class="divider">/</span><span
+												class="year">2012</span>
 										</p>
 									</li>
 

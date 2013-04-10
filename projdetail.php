@@ -232,7 +232,7 @@
 
 					<div class="uc-container box3">
 						<div class="uc-initial-content">
-							<p>KeyPLan</p>
+							<p>Elevation</p>
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">

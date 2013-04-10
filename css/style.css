@@ -466,15 +466,17 @@ text-align: justify;
 
 .content img {
 	float: left;
-	position: relative;
-	width: 305px;
-	height: 76px;
+position: relative;
+width: 280px;
+height: 69px;
 }
 
 .content p {
 	text-align: justify;
-	margin: -23px 0px;
+padding-right: 33px;
+margin: 1px 0px;
 }
+
 
 .content h4 {
 	position: absolute;
@@ -1196,7 +1198,7 @@ footer nav  .header {
 	height: 100%;
 }
 
-
+#mytab{background: rgba(250, 247, 247, 0.78);}
 
 
 
@@ -1255,16 +1257,15 @@ left: 77px;
 }
 
 .tab-content .tab-pane {
-
+     width: 700px;
 	background: rgba(250, 247, 247, 0.78);
 	overflow: hidden;
 }
 
-#about {
-	padding: 30px 30px;
-}
+#about h4{padding-left:26px;}
 #about p{
 	text-align: justify;
+	padding:16px 34px;
 }
 /*footer page*/
 ::-webkit-scrollbar {
