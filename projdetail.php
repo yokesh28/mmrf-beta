@@ -31,7 +31,7 @@
 <body>
 	<div class="slide1 row-fluid">
 
-
+	<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
 		<?php include 'header.php';?>
 
 		<div class="im">
