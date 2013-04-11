@@ -226,37 +226,37 @@
 							<div class="contant aimages">
 
 
-
+                                                                img/ame/landbig.jpg
 								<ul>
-									<li><a class="fancybox" href="img/ame/small/land.jpg"> <img
-											src="img/ame/landbig.jpg" width="155px" class="img-polaroid"><span>Landscaped
+									<li><a class="fancybox" href="img/ame/landbig.jpg"> <img
+											src="img/ame/small/land.jpg" width="155px" class="img-polaroid"><span>Landscaped
 												Garden</span>
 									</a></li>
 
 
 
-									<li><a class="fancybox" href="img/ame/small/child.jpg"> <img
-											src="img/ame/childbig.jpg" width="155px" class="img-polaroid"><span>Children's
+									<li><a class="fancybox" href="img/ame/childbig.jpg"> <img
+											src="img/ame/small/child.jpg" width="155px" class="img-polaroid"><span>Children's
 												Indoor & Outdoor Play court</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/small/fit.jpg"> <img
-											src="img/ame/fitbig.jpg" width="155px" class="img-polaroid"><span>Fitness
+									<li><a class="fancybox" href="img/ame/fitbig.jpg"> <img
+											src="img/ame/small/fit.jpg" width="155px" class="img-polaroid"><span>Fitness
 												Arena</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/small/security.jpg"> <img
-											src="img/ame/securitybig.jpg" width="155px" class="img-polaroid"><span>24*7
+									<li><a class="fancybox" href="img/ame/securitybig.jpg"> <img
+											src="img/ame/small/security.jpg" width="155px" class="img-polaroid"><span>24*7
 												Security &Surveillance camera</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/small/fire.jpg"> <img
-											src="img/ame/firebig.jpg" width="155px" class="img-polaroid"><span>Fire
+									<li><a class="fancybox" href="img/ame/firebig.jpg"> <img
+											src="img/ame/small/fire.jpg" width="155px" class="img-polaroid"><span>Fire
 												Protection System</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/small/power.jpg"> <img
-											src="img/ame/powerbig.jpg" width="155px" class="img-polaroid"><span>Power
+									<li><a class="fancybox" href="img/ame/powerbig.jpg"> <img
+											src="img/ame/small/power.jpg" width="155px" class="img-polaroid"><span>Power
 												Backup(For Common Area)and 500 Watts back up for each flat</span>
 									</a></li>
 
@@ -414,12 +414,19 @@
 					</div>
 					<div class="uc-final-content">
 						<span class="icon-cancel"></span>
-						<div class="contant"></div>
-						<div class="floorplan">
+						<div class="contant aimages">
+								<ul>
 
-							<a href="images/floorplan.jpg" target="_blank"><img
-								src="images/floorplan.jpg"> </a>
-						</div>
+									<li><a class="fancybox" href="img/floorsmall.jpg"> <img
+											src="img/floorbig.jpg" width="155px" class="img-polaroid">
+									</a></li>
+
+									
+
+								</ul>
+
+
+							</div>
 
 					</div>
 
@@ -511,31 +518,23 @@
 						<span class="icon-cancel"></span>
 						<div class="contant aimages">
 							<ul>
-								<li><a class="fancybox" href="img/landbig.jpg"><img
-										class="img-polaroid" src="img/land.jpg" style="width: 155px">
+								<li><a class="fancybox" href="img/1big.jpg"><img
+										class="img-polaroid" src="img/1small.jpg" style="width: 155px">
 								</a>
 								</li>
 
-								<li><a class="fancybox" href="img/childbig.jpg"><img
-										class="img-polaroid" src="img/child.jpg" style="width: 155px">
+								<li><a class="fancybox" href="img/2big.jpg"><img
+										class="img-polaroid" src="img/2small.jpg" style="width: 155px">
 								</a>
 								</li>
-								<li><a class="fancybox" href="img/fitbig.jpg"><img
-										class="img-polaroid" src="img/fit.jpg" style="width: 155px"> </a>
+								<li><a class="fancybox" href="img/3big.jpg"><img
+										class="img-polaroid" src="img/3small.jpg" style="width: 155px"> </a>
 								</li>
-								<li><a class="fancybox" href="img/securitybig.jpg"><img
-										class="img-polaroid" src="img/security.jpg"
+								<li><a class="fancybox" href="img/4big.jpg"><img
+										class="img-polaroid" src="img/4small.jpg"
 										style="width: 155px"> </a>
 								</li>
-								<li><a class="fancybox" href="img/firebig.jpg"><img
-										class="img-polaroid" src="img/fire.jpg" style="width: 155px">
-								</a>
-								</li>
-
-								<li><a class="fancybox" href="img/powerbig.jpg"><img
-										class="img-polaroid" src="img/power.jpg" style="width: 155px">
-								</a>
-								</li>
+								
 							</ul>
 						</div>
 					</div>
@@ -795,7 +794,7 @@
 								which will be one of its kinds in Chennai.</p>
 							<br>
 
-							<h5>Further, MMRF is considering a township in the same locality.</h5>
+							
 
 							<br>
 						</div>
@@ -891,6 +890,54 @@
 					</div>
 				</div>
 				<!-- / uc-container -->
+				
+				<div class="uc-container box4  elevation">
+					<div class="uc-initial-content">
+
+						<span class="icon-eye"></span>
+					</div>
+					<div class="uc-final-content ">
+						<span class="icon-cancel"></span>
+						<div class="contant aimages">
+							<ul>
+								<li><a class="fancybox" href="img/ooti/1-big.jpg"><img
+										class="img-polaroid" src="img/ooti/1-small.jpg" style="width: 155px">
+								</a>
+								</li>
+
+								<li><a class="fancybox" href="img/ooti/2-big.jpg"><img
+										class="img-polaroid" src="img/ooti/2-small.jpg" style="width: 155px">
+								</a>
+								</li>
+								<li><a class="fancybox" href="img/ooti/3-big.jpg"><img
+										class="img-polaroid" src="img/ooti/3-small.jpg" style="width: 155px"> </a>
+								</li>
+								
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 			</div>
 			<div>
 				<a href="#" class="bowcher" target="_blank"><img
