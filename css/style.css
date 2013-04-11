@@ -164,11 +164,11 @@ body {
 	font-size: 37px;
 	line-height: 35px;
 }
-.textright p:hover{
-	
-	color:white;
-	
+
+.textright p:hover {
+	color: white;
 }
+
 .textleft {
 	background: white;
 	width: 317px;
@@ -189,10 +189,12 @@ body {
 .textleft:hover {
 	background: red;
 	cursor: pointer;
+	color: white;
 }
 
 .textright:hover {
 	background: red;
+	color: white;
 }
 
 .building1 img {
@@ -380,37 +382,29 @@ body {
 	margin-left: 0px !important;
 }
 
-
-
-.overview .uc-initial-content{
+.overview .uc-initial-content {
 	background: url("../img/images/ove.jpg") no-repeat;
 }
-.location .uc-initial-content{
+
+.location .uc-initial-content {
 	background: url("../img/images/loc.jpg") no-repeat;
 }
 
-.elevation .uc-initial-content{
+.elevation .uc-initial-content {
 	background: url("../img/images/ele.jpg") no-repeat;
 }
 
-.amenities .uc-initial-content{
+.amenities .uc-initial-content {
 	background: url("../img/images/ame.jpg") no-repeat;
 }
 
-.specification .uc-initial-content{
+.specification .uc-initial-content {
 	background: url("../img/images/spe.jpg") no-repeat;
 }
 
-.floorplan .uc-initial-content{
+.floorplan .uc-initial-content {
 	background: url("../img/images/flo.jpg") no-repeat;
 }
-
-
-
-
-
-
-
 
 .alert h4 {
 	color: black;
@@ -458,28 +452,34 @@ body {
 
 .contant {
 	overflow-y: scroll;
-margin: 20px 40px;
+	margin: 20px 40px;
 	text-align: justify;
 	right: -28px;
 	position: absolute;
 	height: 340px;
 }
-.elivation img{
+
+.elivation img {
 	margin: 10px 8px;
 }
 
-.aimages p{width: 178px;}
+.aimages p {
+	width: 178px;
+}
 
-.aimages li{width: 206px;
-float: left;}
+.aimages li {
+	width: 206px;
+	float: left;
+}
 
-.aimages{
-overflow-y: scroll;
-margin: 20px 25px;
-text-align: justify;
-height: 245px;
-position: absolute;
-width: 96%;}
+.aimages {
+	overflow-y: scroll;
+	margin: 20px 25px;
+	text-align: justify;
+	height: 245px;
+	position: absolute;
+	width: 96%;
+}
 
 .uc-final {
 	width: 660px;
@@ -583,7 +583,7 @@ width: 96%;}
 #grid .uc-container {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-right:0px;
+	margin-right: 0px;
 }
 
 .box4 {
@@ -873,17 +873,17 @@ width: 96%;}
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =     100);
+	filter: alpha(opacity =      100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =     100);
+	filter: alpha(opacity =      100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =     100);
+	filter: alpha(opacity =      100);
 	opacity: 1;
 }
 
@@ -900,7 +900,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =    85);
+	filter: alpha(opacity =     85);
 	opacity: 1;
 	max-width: 1200px;
 	min-width: 700px;
@@ -991,18 +991,20 @@ footer .footer-content .titlefooter .extramobile {
 #fcontentbloc  p {
 	padding-top: 5px;
 	color: #a9a9a9;
-	
 }
-.ph label{
+
+.ph label {
 	width: 58px;
-float: left;
+	float: left;
 }
-.bowcher{
-	  color: red;
-    font-size: 17px;
-    background: white;
-    padding: 6px 10px;
+
+.bowcher {
+	color: red;
+	font-size: 17px;
+	background: white;
+	padding: 6px 10px;
 }
+
 #fcontentbloc  p.mail {
 	position: absolute;
 	top: 138px;
@@ -1247,33 +1249,29 @@ footer nav  .header {
 }
 
 #mytab {
-	background: rgba(250, 247, 247, 0.78);margin-top:127px;
+	background: rgba(250, 247, 247, 0.78);
+	margin-top: 127px;
 }
-
 
 .gallery {
 	margin-top: 120px;
 }
 
-
-
 .media_info {
 	margin-top: 120px;
 }
 
-blockquote{
-	border-left:none !important; 
+blockquote {
+	border-left: none !important;
 }
-.span12 a{
-	
+
+.span12 a {
 	text-decoration: none;
 }
 
-.fancybox img{
-	
-	
+.fancybox img {
 	width: 50px;
-float: left;
+	float: left;
 }
 /*#overlay_form{
 position: absolute;
@@ -1326,18 +1324,13 @@ left: 77px;
 	top: 111px;
 }
 
-
 /*upcoming project*/
-
-#ottiyam .grid
-{
-position: absolute;
-top: 111px;
+#ottiyam .grid {
+	position: absolute;
+	top: 111px;
 }
 
-
 /*media*/
-
 .tab-content {
 	margin-top: 70px;
 }
@@ -1354,10 +1347,9 @@ top: 111px;
 	color: red;
 }
 
-
-.uc-final-wrapper{background:none;}
-
-
+.uc-final-wrapper {
+	background: none;
+}
 
 #about p {
 	text-align: justify;
