@@ -469,10 +469,17 @@ width: 630px;
 right: 0px;
 margin-right: 0px;
 }
+
+.amen h2{width:275px;
+float: left;}
+
+
 .elivation img {
 	margin: 10px 8px;
 }
 
+.paragraph{margin:20px 277px;
+width: 339px;font-size:15px;}
 
 .aimages p {
 	width: 178px;
