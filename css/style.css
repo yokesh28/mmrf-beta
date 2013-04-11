@@ -1331,33 +1331,19 @@ blockquote {
 }
 
 .media {
-	background: rgba(250, 247, 247, 0.78);
-	padding: 20px;
+	
+	
 	position: relative;
 	z-index: 5;
 }
 
-.media h2 {
-	color: red;
-}
 
-.media li a {
-	color: black;
-}
 
-.media li a:HOVER {
-	text-decoration: underline;
-	font-weight: bolder;
-}
 
-.media li a img {
-	padding: 0px 5px 0px 5px;
-}
 
-.unstyled p {
-	padding: 0px !important;
-	text-align: center !important;
-}
+
+
+
 
 .backimage {
 	position: fixed;
