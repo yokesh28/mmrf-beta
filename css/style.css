@@ -1429,7 +1429,7 @@ left: 77px;
 	margin-top: 59px;
 }
 
-#about h4 {
+.overview h4 {
 	padding-left: 26px;
 	color: red;
 }
@@ -1438,7 +1438,7 @@ left: 77px;
 	background: none;
 }
 
-#about p {
+.overview p {
 	text-align: justify;
 	padding: 16px 34px;
 }

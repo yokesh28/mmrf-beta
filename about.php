@@ -46,7 +46,7 @@
 				</div>
 
 				<div class="tab-content span9">
-					<div class="tab-pane active " id="about">
+					<div class="tab-pane active overview" id="about">
 						<h4>Overview</h4>
 						<p class="">The top-notch names of the Real Estate sector have
 							joined hands to create and bestow an exceptional projects with
