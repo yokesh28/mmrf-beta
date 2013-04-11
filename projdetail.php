@@ -459,29 +459,29 @@ impart peace and happiness making them an ideal investment.</p>
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><a class="fancybox" href="images/ga1.jpg"><img
+									<li><a class="fancybox" href="img/landbig.jpg"><img
 											class="img-polaroid" src="img/land.jpg" style="width: 155px">
 									</a>
 									</li>
 
-									<li><a class="fancybox" href="images/ ga1.jpg"><img
+									<li><a class="fancybox" href="img/childbig.jpg"><img
 											class="img-polaroid" src="img/child.jpg" style="width: 155px">
 									</a>
 									</li>
-									<li><a class="fancybox" href="images/ga1.jpg"><img
+									<li><a class="fancybox" href="img/fitbig.jpg"><img
 											class="img-polaroid" src="img/fit.jpg" style="width: 155px">
 									</a>
 									</li>
-									<li><a class="fancybox" href="images/ga1.jpg"><img
+									<li><a class="fancybox" href="img/securitybig.jpg"><img
 											class="img-polaroid" src="img/security.jpg"
 											style="width: 155px"> </a>
 									</li>
-									<li><a class="fancybox" href="images/ga1.jpg"><img
+									<li><a class="fancybox" href="img/firebig.jpg"><img
 											class="img-polaroid" src="img/fire.jpg" style="width: 155px">
 									</a>
 									</li>
 
-									<li><a class="fancybox" href="images/ga1.jpg"><img
+									<li><a class="fancybox" href="img/powerbig.jpg"><img
 											class="img-polaroid" src="img/power.jpg" style="width: 155px">
 									</a>
 									</li>
