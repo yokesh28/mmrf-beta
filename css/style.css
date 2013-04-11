@@ -534,11 +534,15 @@ body {
 	margin-right: 0px;
 }
 
-.amen h2 {
-	width: 275px;
-	float: left;
-}
 
+
+.list li{list-style-type: square;
+margin: 10px 198px;
+width: 353px;
+font-size: 14px;
+font-style: italic;
+
+}
 .elivation img {
 	margin: 10px 8px;
 }
@@ -555,14 +559,24 @@ body {
 }
 
 .heading1 h2 {
-	width: 203px;
-	float: left;
+	
+width: 353px;
 }
+
+
+.paragraph1 p{font-size: 14px!important;
+font-style: italic;}
+
+.paragraph1{margin: 12px 48px;
+width: 572px;}
+
+
 
 .paragraph1 {
 	margin: 12px 48px;
 	width: 572px;
 }
+
 
 .aimages li {
 	float: left;
@@ -1489,8 +1503,8 @@ left: 77px;
 }
 
 .overview p {
-	text-align: justify;
-	padding: 16px 34px;
+	font-size: 14px;
+font-style: italic;
 }
 /*footer page*/
 ::-webkit-scrollbar {
