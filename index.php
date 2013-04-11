@@ -88,9 +88,11 @@
 
 </div>
 
-<div class="container">
+
+
    <h2>WELCOME TO MMRF</h2>
-  </div>
+   
+ 
 
 
 		
