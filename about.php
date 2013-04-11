@@ -32,7 +32,7 @@
 				<div class="span3">
 
 					<ul class="unstyled menu1 span10" id="myTab">
-						<li class="active"><a href="#about1"><img src="images/group.png"
+						<li class="active"><a href="#about"><img src="images/group.png"
 								class="img-rounded">
 								<p>About Us</p> </a></li>
 						<li><a href="#management"> <img src="images/management.png"
@@ -46,7 +46,7 @@
 				</div>
 
 				<div class="tab-content span9">
-					<div class="tab-pane active overview" id="about1">
+					<div class="tab-pane active overview" id="about">
 						<h4>Overview</h4>
 						<p class="">The top-notch names of the Real Estate sector have
 							joined hands to create and bestow an exceptional projects with
@@ -179,7 +179,7 @@
 												height="115">
 										</div>
 										<p>
-											<span class="fn">Mr.Shakthi V</span> <span class="title">CEO-From </span>
+											<span class="fn">Mr.Shakthi V</span> <span class="title">CEO-From</span>
 											<span class="divider">/</span><span class="year">2012</span>
 										</p>
 									</li>
