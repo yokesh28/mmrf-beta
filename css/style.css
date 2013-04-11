@@ -12,7 +12,7 @@ body {
 .background {
 	background: url(../images/2.jpg) 0 0 no-repeat;
 }
- 
+
 .as h4 {
 	color: black;
 	margin: 120px 0px;
@@ -447,11 +447,11 @@ body {
 
 .contant span {
 	color: black;
-    display: inline-block;
-    font-size: 11px;
-    font-weight: bolder;
-    text-align: center;
-    width: 155px;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bolder;
+	text-align: center;
+	width: 155px;
 }
 
 .contant {
@@ -464,15 +464,18 @@ body {
 	width:637px;overflow-x: hidden;
 }
 
+
 .amen{
 	height: 340px;
-width: 630px;
-right: 0px;
-margin-right: 0px;
+	width: 630px;
+	right: 0px;
+	margin-right: 0px;
 }
+
 
 .amen h2{width:275px;
 float: left;}
+
 
 
 .elivation img {
@@ -506,7 +509,6 @@ float: left;}
 	overflow-y: scroll;
 	margin: 20px 30px;
 	text-align: justify;
-	
 	position: absolute;
 	width: 96%;
 }
@@ -615,6 +617,7 @@ float: left;}
 	margin-bottom: 10px;
 	margin-right: 0px;
 }
+
 #gridpadur .uc-container {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -912,17 +915,17 @@ float: left;}
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =       100);
+	filter: alpha(opacity =        100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =       100);
+	filter: alpha(opacity =        100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =       100);
+	filter: alpha(opacity =        100);
 	opacity: 1;
 }
 
@@ -939,7 +942,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =      85);
+	filter: alpha(opacity =       85);
 	opacity: 1;
 	max-width: 1200px;
 	min-width: 700px;
@@ -1040,7 +1043,7 @@ footer .footer-content .titlefooter .extramobile {
 .bowcher {
 	color: red;
 	font-size: 17px;
-	background: white;
+	
 	padding: 6px 10px;
 }
 
@@ -1315,8 +1318,39 @@ blockquote {
 }
 
 .fancybox img {
-	
 	float: left;
+}
+
+#about .container {
+	position: relative;
+	
+}
+.media {
+background: rgba(250, 247, 247, 0.78);
+padding:20px;
+position: relative;
+z-index: 5;
+}
+.media h2{
+	color: red;
+}
+
+.media li a{
+	color: black;
+	
+}
+.media li a:HOVER{
+	text-decoration: underline;
+	font-weight: bolder;
+}
+.media li a img{
+	padding:0px 5px 0px 5px;
+	
+}
+
+.unstyled p {
+	padding: 0px !important;
+	text-align: center !important;
 }
 /*#overlay_form{
 position: absolute;
@@ -1367,8 +1401,7 @@ left: 77px;
 
 /*upcoming project*/
 #ottiyam .grid {
-	position: absolute;
-	top: 111px;
+
 }
 
 /*media*/

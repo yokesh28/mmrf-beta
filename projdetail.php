@@ -116,106 +116,15 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>The top-notch names of the Real Estate sector have joined
-									hands to create and bestow an exceptional projects with
-									unparalleled quality. MMRF is a collaboraive endeavor of four
-									leading Real Estate Developers; Mayflower Enterprises Private
-									Limited, Mount Housing & Infrastructure Limited, Ramani
-									Realtors Private Limited & Fairyland Foundations Private
-									Limited.</p>
+								<p>Introducing Sai Enclave by MMRF, 44 spectacular abodes built 
+amidst the sprawling locale of Arasankazhani near Sithalapakkam, 
+off the OMR in Chennai. Sai Enclave features 1, 2 & 3 BHK homes 
+featuring world-class construction standards, the choicest
+amenities and are surrounded by India’s finest BPO and IT/ITES 
+companies. The abodes at Sai Enclave are built to continually 
+impart peace and happiness making them an ideal investment.</p>
 								<br>
-								<p>MMRF with its team of experts further aims to develop
-									ambience based Residential Flats, and commercial units at
-									strategically chosen locations. this extraordinary amalgamatin
-									of dedicated and esteemed Real Estate Developers ensures of a
-									larger than life dwelling in each of their project which will
-									surpass the expectaions of a high-end living.</p>
-								<br>
-								<h2>Our Board Of Directors</h2>
-								<br>
-								<p>
-									<b> Mr. V. Mohan</b>(Managing Director of<a
-										href="http://www.mayflowerenterprises.com/" target="_blank">
-										Mayflower Enterprises Pvt.Ltd</a>)
-
-								</p>
-								<br>
-								<p>
-									Mayflower was established in 1985 as property developers in
-									Coimbatore by Mr. A.N. Venkatachalam, one of the key members of
-									the Chettinad business empire for over 5 decades. <br> <br>
-									Under the leadership of Mr. V Mohan, the Managing Director, the
-									company has today grown to become a leading developer of gated
-									communities, independent villas and townships. <br> <br> The
-									company has completed over 8 commercial projects measuring over
-									250,000 sq. ft and 18 residential projects – apartment
-									complexes and independent villas measuring an estimated
-									1,200,000 sq. ft.
-								</p>
-								<br> <br>
-
-								<p>
-									<b> Mr. Ramesh Bafna</b>(Managing Director of<a
-										href="http://www.mounthousing.com" target="_blank"> Mount
-										Housing & Infrastructure Limited</a>)
-
-								</p>
-								<br>
-								<p>Mount Housing & Infrastructure Limited is one of the leading
-									developers in Coimbatore in the areas of residential flats and
-									commercial buildings.</p>
-								<p>The company has executed over 500,000 sq. ft of constructions
-									across 7 projects and has an estimated 325,000 sq. ft of
-									construction currently underway.</p>
-								<br> <br>
-
-
-								<p>
-									<b> Mr. V. Subramanian (“Mani”)</b>(Managing Director of<a
-										href="http://www.ramanirealtors.com//" target="_blank"> Ramani
-										Realtors Pvt. Limited</a>)
-
-								</p>
-								<br>
-								<p>Ramani Realtors Pvt. Limited – RRPL, an ISO 9001:2008
-									certified Company is professionally managed by its Chairman
-									Shri V S Venkatraman</p>
-								<br>
-								<p>Founded as Rajmani Builders, VSV Builders & Balaji
-									Constructions by its Chairman, the Company has projects across
-									Chennai and Coimbatore</p>
-								<br>
-								<p>Mr V Subramanian joined his Father Shri V S Venkatraman in
-									1981 and established Ramani Realtors in the year 1987. He is
-									the Managing Director of the Company and keeps himself abreast
-									of the latest developments in the construction industry and
-									implements them in his projects. He is ably supported by its
-									Executive Director Mrs Dharma Subramanian.</p>
-								<br>
-								<p>RRPL is one of the volume leaders for budget homes in Chennai
-									& Coimbatore with over 4000 satisfied Customer families and
-									over 4 million sq ft of completed constructions.</p>
-								<br>
-
-								<p>
-									<b> Mr. Saravanan</b>(Managing Director of<a
-										href="http://www.fairylandfoundations.com/" target="_blank">
-										Fairyland Foundations Pvt. Ltd</a>)
-
-								</p>
-								<br>
-								<p>Established in 2000, Fairyland Foundations Pvt. Ltd. is a one
-									of the leading builders in Chennai and is engaged in the
-									construction of residential flats and individual homes in
-									Chennai.</p>
-								<br>
-								<p>Spurred by its remarkable success in Chennai, the Company has
-									now spread its wings to Hosur and Coimbatore which have been
-									witnessing rapid and consistent growth in recent years.</p>
-								<p>The company has completed over 14 residential projects
-									comprising of 500 flats and 40 individual & duplex units
-									spanning across 650,000sq. ft.</p>
-								<br>
+								
 							</div>
 
 						</div>
@@ -235,14 +144,29 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-								<p>Sai Enclave at ArasanKazhani near OMR offers unparalleled
-									lifestyle privileges of an urban and fast-paced living.
-									Splendidly designed by renowned Architects,Sai Enclave
-									furnishes around 44units consisting of 2BHK & 3BHK Apartments
-									crafted for an elegant living.Meticulous construction paired
-									with Upscale Amenities such as Play area,Fitness center,Lush
-									garden etc,Sai Enclave is fused with every bit of a desirable
-									living that will satiate your comfort craving.</p>
+
+
+
+
+
+								<iframe width="600" height="300"
+									src="http://regiohelden.de/google-maps/map_en.php?width=600&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"
+									frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+
+
+
+
+
+
+								</iframe>
+
+
+
+
+
+
+
 							</div>
 						</div>
 					</div>
@@ -257,22 +181,26 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><img class="img-polaroid" src="img/land.jpg"
-										style="width: 155px">
-									</li>
 
-									<li><img class="img-polaroid" src="img/child.jpg"
-										style="width: 155px"></li>
-									<li><img class="img-polaroid" src="img/fit.jpg"
-										style="width: 155px"></li>
-									<li><img class="img-polaroid" src="img/security.jpg"
-										style="width: 155px"></li>
-									<li><img class="img-polaroid" src="img/fire.jpg"
-										style="width: 155px"></li>
+									<li><a class="fancybox" href="img/land.jpg">
+						<img src="img/landbig.jpg" width="155px"  class="img-polaroid"></a></li>
 
-									<li><img class="img-polaroid" src="img/power.jpg"
-										style="width: 155px">
-									</li>
+									<li><a class="fancybox" href="img/child.jpg">
+						<img src="img/childbig.jpg" width="155px"  class="img-polaroid"></a></li>
+									
+									<li><a class="fancybox" href="img/fit.jpg">
+						<img src="img/fitbig.jpg" width="155px"  class="img-polaroid"></a></li>
+						
+						<li><a class="fancybox" href="img/security.jpg">
+						<img src="img/securitybig.jpg" width="155px"  class="img-polaroid"></a></li>
+						
+						<li><a class="fancybox" href="img/fire.jpg">
+						<img src="img/firebig.jpg" width="155px"  class="img-polaroid"></a></li>
+						
+						<li><a class="fancybox" href="img/power.jpg">
+						<img src="img/powerbig.jpg" width="155px"  class="img-polaroid"></a></li>
+						
+
 								</ul>
 
 
@@ -289,27 +217,38 @@
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
-								<ul>
-									<li><img class="img-polaroid" src="img/land.jpg"
-										style="width: 155px"><span>Landscaped Garden</span>
-									</li>
 
-									<li><img class="img-polaroid" src="img/child.jpg"
-										style="width: 155px"><span>Children's Indoor & Outdoor Play
-											court</span></li>
-									<li><img class="img-polaroid" src="img/fit.jpg"
-										style="width: 155px"><span>Fitness Arena</span></li>
-									<li><img class="img-polaroid" src="img/security.jpg"
-										style="width: 155px"><span>24*7 Security &Surveillance camera</span>
-									</li>
-									<li><img class="img-polaroid" src="img/fire.jpg"
-										style="width: 155px"><span>Fire Protection System</span></li>
+							
+							
+							<ul>
+									<li><a class="fancybox" href="img/land.jpg">
+						<img src="img/landbig.jpg" width="155px"  class="img-polaroid"><span>Landscaped
+											Garden</span></a></li>
 
-									<li><img class="img-polaroid" src="img/power.jpg"
-										style="width: 155px"> <span>Power Backup(For Common Area)and
-											500 Watts back up for each flat</span>
-									</li>
+
+
+									<li><a class="fancybox" href="img/child.jpg">
+						<img src="img/childbig.jpg" width="155px"  class="img-polaroid"><span>Children's
+											Indoor & Outdoor Play court</span></a></li>
+									
+									<li><a class="fancybox" href="img/fit.jpg">
+						<img src="img/fitbig.jpg" width="155px"  class="img-polaroid"><span>Fitness
+											Arena</span></a></li>
+						
+						<li><a class="fancybox" href="img/security.jpg">
+						<img src="img/securitybig.jpg" width="155px"  class="img-polaroid"><span>24*7
+											Security &Surveillance camera</span></a></li>
+						
+						<li><a class="fancybox" href="img/fire.jpg">
+						<img src="img/firebig.jpg" width="155px"  class="img-polaroid"><span>Fire
+											Protection System</span></a></li>
+						
+						<li><a class="fancybox" href="img/power.jpg">
+						<img src="img/powerbig.jpg" width="155px"  class="img-polaroid"><span>Power
+											Backup(For Common Area)and 500 Watts back up for each flat</span></a></li>
+
 								</ul>
+								
 
 								<table class="table">
 
@@ -445,7 +384,7 @@
 					</div>
 				</div>
 				<div>
-					<a href="media.pdf" class="bowcher">Download Brochure</a>
+					<a href="media.pdf" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
 				</div>
 				<!-- / grid --> </section>
 
@@ -485,7 +424,7 @@
 								<br>
 
 								<h5>SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN
-									LIFE.IT SAYS THAT YOU HAVE ARRIVED.</h5>
+									LIFE.<br> IT SAYS THAT YOU HAVE ARRIVED.</h5>
 
 								<br>
 							</div>
@@ -524,24 +463,30 @@
 								<ul>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/land.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 
 									<li><a class="fancybox" href="images/ ga1.jpg"><img
 											class="img-polaroid" src="img/child.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/fit.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/security.jpg"
-											style="width: 155px"> </a></li>
+											style="width: 155px"> </a>
+									</li>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/fire.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/power.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -769,8 +714,7 @@
 
 				
 				<div>
-					<a href="Vista Oceana Brochure.pdf" class="bowcher">Download
-						Brochure</a>
+					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
 				</div>
 </div>
 				</section>
@@ -779,7 +723,7 @@
 			<div class="middle" style="right: -100%" id="ottiyam">
 				<section class="main demo-2 row-fluid">
 
-				<div id="grid" class="grid clearfix span12">
+				<div id="gridottiyam" class="grid clearfix span12">
 
 
 					<div class="uc-container box1 span4 overview">
@@ -900,7 +844,7 @@
 					<!-- / uc-container -->
 				</div>
 				<div>
-					<a href="#" class="bowcher">Download Brochure</a>
+					<a href="#" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
 				</div>
 				</section>
 
@@ -1067,6 +1011,48 @@
 					} );
 
 				} );
+
+
+
+				// say we want to have only one item opened at one moment
+				var opened = false;
+
+				$( '#gridottiyam > div.uc-container' ).each( function( i ) {
+
+					var $item = $( this ), direction;
+
+					switch( i ) {
+						case 0 : direction = ['right','bottom']; break;
+						case 1 : direction = ['left','bottom']; break;
+						case 2 : direction = ['left','bottom']; break;
+				
+					}
+					
+					var pfold = $item.pfold( {
+						folddirection : direction,
+						speed : 300,
+						onEndFolding : function() { opened = false; },
+						i:i,
+						
+					} );
+
+					$item.find( 'span.icon-eye' ).on( 'click', function() {
+
+						if( !opened ) {
+							opened = true;
+							pfold.unfold();
+						}
+
+
+					} ).end().find( 'span.icon-cancel' ).on( 'click', function() {
+
+						pfold.fold();
+
+					} );
+
+				} );
+
+				
 				
 			});
 
@@ -1099,7 +1085,7 @@
 
 
 
-	<style type="text/css">
+<style type="text/css">
 .fancybox-custom .fancybox-skin {
 	box-shadow: 0 0 50px #222;
 }

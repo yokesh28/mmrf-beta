@@ -22,34 +22,43 @@
 
 <script src="js/jquery.mobilemenu.js"></script>
 
-	
 
-	<!-- Add fancyBox main JS and CSS files -->
-	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
-	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.4" media="screen" />
 
-	<!-- Add Button helper (this is optional) -->
-	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
-	<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css"
+	href="source/jquery.fancybox.css?v=2.1.4" media="screen" />
 
-	<!-- Add Thumbnail helper (this is optional) -->
-	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
-	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<!-- Add Button helper (this is optional) -->
+<link rel="stylesheet" type="text/css"
+	href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+<script type="text/javascript"
+	src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
 
-	<!-- Add Media helper (this is optional) -->
-	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+<!-- Add Thumbnail helper (this is optional) -->
+<link rel="stylesheet" type="text/css"
+	href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+<script type="text/javascript"
+	src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<!-- Add Media helper (this is optional) -->
+<script type="text/javascript"
+	src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
 </head>
 
-<body class="background">
+<body >
+<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
 	<?php include 'header.php';?>
 	<div class="container">
 		<div class="row-fluid ">
 			<div class="media_info">
-
-				<h2></h2>
-				<div class=" span12">
+				<div class="media span10">
+					<h2>Media Center</h2>
 					<ul>
-						<li class="span12"><a class="fancybox" href="media.pdf" target="_blank"><img src="images/arrow.png"><h2>Updated media (10/4/2013)<h2></a></li>
+						<li class="span12"><a class="fancybox" href="media.pdf"
+							target="_blank"><img src="images/arrow.png" width="20px"> Updated
+								media (10/4/2013) </a>
+						</li>
 						<li></li>
 
 					</ul>
@@ -62,12 +71,12 @@
 	<?php include 'footer.php';?>
 </body>
 <style type="text/css">
-		.fancybox-custom .fancybox-skin {
-			box-shadow: 0 0 50px #222;
-		}
-	</style>
+.fancybox-custom .fancybox-skin {
+	box-shadow: 0 0 50px #222;
+}
+</style>
 <script src="js/bootstrap-tab.js"></script>
-	<script type="text/javascript">
+<script type="text/javascript">
 		$(document).ready(function() {
 			/*
 			 *  Simple image gallery. Uses default settings
