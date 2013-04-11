@@ -24,7 +24,7 @@
 </head>
 
 <body id="about">
-<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
+<img src="images/2.jpg" width="100%" height="100%"  class="backimage">
 	<?php include 'header.php';?>
 	<div class="container">
 		<div class="row-fluid ">
@@ -46,7 +46,7 @@
 				</div>
 
 				<div class="tab-content span9">
-					<div class="tab-pane active " id="about">
+					<div class="tab-pane active overview" id="about">
 						<h4>Overview</h4>
 						<p class="">The top-notch names of the Real Estate sector have
 							joined hands to create and bestow an exceptional projects with

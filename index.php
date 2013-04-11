@@ -81,16 +81,23 @@
 
 			<img src="images/slide_menu.png">
 
+			
+			
+			</div>
+
+
+</div>
 
 
 
+   <h2>WELCOME TO MMRF</h2>
+   
+ 
 
 
+		
 
-
-		</div>
-
-	</div>
+	
 
 <?php include 'footer.php';?>
 
