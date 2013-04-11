@@ -12,7 +12,7 @@ body {
 .background {
 	background: url(../images/2.jpg) 0 0 no-repeat;
 }
- 
+
 .as h4 {
 	color: black;
 	margin: 120px 0px;
@@ -447,11 +447,11 @@ body {
 
 .contant span {
 	color: black;
-    display: inline-block;
-    font-size: 11px;
-    font-weight: bolder;
-    text-align: center;
-    width: 155px;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bolder;
+	text-align: center;
+	width: 155px;
 }
 
 .contant {
@@ -462,12 +462,14 @@ body {
 	position: absolute;
 	height: 340px;
 }
-.amen{
+
+.amen {
 	height: 340px;
-width: 630px;
-right: 0px;
-margin-right: 0px;
+	width: 630px;
+	right: 0px;
+	margin-right: 0px;
 }
+
 .elivation img {
 	margin: 10px 8px;
 }
@@ -488,7 +490,6 @@ margin-right: 0px;
 	overflow-y: scroll;
 	margin: 20px 30px;
 	text-align: justify;
-	
 	position: absolute;
 	width: 96%;
 }
@@ -597,6 +598,7 @@ margin-right: 0px;
 	margin-bottom: 10px;
 	margin-right: 0px;
 }
+
 #gridpadur .uc-container {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -890,17 +892,17 @@ margin-right: 0px;
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =       100);
+	filter: alpha(opacity =        100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =       100);
+	filter: alpha(opacity =        100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =       100);
+	filter: alpha(opacity =        100);
 	opacity: 1;
 }
 
@@ -917,7 +919,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =      85);
+	filter: alpha(opacity =       85);
 	opacity: 1;
 	max-width: 1200px;
 	min-width: 700px;
@@ -1287,8 +1289,17 @@ blockquote {
 }
 
 .fancybox img {
-	
 	float: left;
+}
+
+#about .container {
+	position: relative;
+	
+}
+
+.unstyled p {
+	padding: 0px !important;
+	text-align: center !important;
 }
 /*#overlay_form{
 position: absolute;
@@ -1339,8 +1350,7 @@ left: 77px;
 
 /*upcoming project*/
 #ottiyam .grid {
-	position: absolute;
-	top: 111px;
+
 }
 
 /*media*/

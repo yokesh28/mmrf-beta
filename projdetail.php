@@ -693,7 +693,7 @@
 			<div class="middle" style="right: -100%" id="ottiyam">
 				<section class="main demo-2 row-fluid">
 
-				<div id="grid" class="grid clearfix span12">
+				<div id="gridottiyam" class="grid clearfix span12">
 
 
 					<div class="uc-container box1 span4 overview">
@@ -980,6 +980,48 @@
 					} );
 
 				} );
+
+
+
+				// say we want to have only one item opened at one moment
+				var opened = false;
+
+				$( '#gridottiyam > div.uc-container' ).each( function( i ) {
+
+					var $item = $( this ), direction;
+
+					switch( i ) {
+						case 0 : direction = ['right','bottom']; break;
+						case 1 : direction = ['left','bottom']; break;
+						case 2 : direction = ['left','bottom']; break;
+				
+					}
+					
+					var pfold = $item.pfold( {
+						folddirection : direction,
+						speed : 300,
+						onEndFolding : function() { opened = false; },
+						i:i,
+						
+					} );
+
+					$item.find( 'span.icon-eye' ).on( 'click', function() {
+
+						if( !opened ) {
+							opened = true;
+							pfold.unfold();
+						}
+
+
+					} ).end().find( 'span.icon-cancel' ).on( 'click', function() {
+
+						pfold.fold();
+
+					} );
+
+				} );
+
+				
 				
 			});
 
