@@ -144,7 +144,29 @@ impart peace and happiness making them an ideal investment.</p>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-								
+
+
+
+
+
+								<iframe width="600" height="300"
+									src="http://regiohelden.de/google-maps/map_en.php?width=600&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"
+									frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+
+
+
+
+
+
+								</iframe>
+
+
+
+
+
+
+
 							</div>
 						</div>
 					</div>
@@ -178,10 +200,7 @@ impart peace and happiness making them an ideal investment.</p>
 						<li><a class="fancybox" href="img/power.jpg">
 						<img src="img/powerbig.jpg" width="155px"  class="img-polaroid"></a></li>
 						
-						
-									
 
-									
 								</ul>
 
 
@@ -227,10 +246,6 @@ impart peace and happiness making them an ideal investment.</p>
 						<li><a class="fancybox" href="img/power.jpg">
 						<img src="img/powerbig.jpg" width="155px"  class="img-polaroid"><span>Power
 											Backup(For Common Area)and 500 Watts back up for each flat</span></a></li>
-						
-						
-									
-									
 
 								</ul>
 								
@@ -446,24 +461,30 @@ impart peace and happiness making them an ideal investment.</p>
 								<ul>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/land.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 
 									<li><a class="fancybox" href="images/ ga1.jpg"><img
 											class="img-polaroid" src="img/child.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/fit.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/security.jpg"
-											style="width: 155px"> </a></li>
+											style="width: 155px"> </a>
+									</li>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/fire.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/power.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -1023,7 +1044,7 @@ impart peace and happiness making them an ideal investment.</p>
 
 
 
-	<style type="text/css">
+<style type="text/css">
 .fancybox-custom .fancybox-skin {
 	box-shadow: 0 0 50px #222;
 }
