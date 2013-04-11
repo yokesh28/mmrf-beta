@@ -26,7 +26,7 @@
 <link href="css/style1.css" rel="stylesheet">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
- 
+
 
 <!-- Add fancyBox main JS and CSS files -->
 <script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
@@ -285,7 +285,6 @@
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-<<<<<<< HEAD
 								<div class="heading1">
 									<h2>Structure:</h2>
 								</div>
@@ -346,12 +345,6 @@
 							
 							<div class="heading1">
 								<h2>Ventilators:</h2>
-=======
-								<h2>Structure:</h2>
-								Isolated frame structure with Solid Block Wall
-						    <div class="heading1">
-							<h2>Structure:</h2>
->>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
 							</div>
 							<div class="paragraph1">
 								<p>Heavy UPVC frames with glass or louvered & a provision for
@@ -430,373 +423,19 @@
 
 					</div>
 
-					<div class="uc-container box6 span4 floorplan">
 
-						<div class="uc-initial-content">
+					<!-- / uc-container -->
 
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content">
-							<span class="icon-cancel"></span>
-							<div class="contant"></div>
-							<div class="floorplan">
-
-								<a href="images/floorplan.jpg" target="_blank"><img
-									src="images/floorplan.jpg"> </a>
-							</div>
-
-						</div>
-						<!-- / uc-container -->
-
-					</div>
-
+				</div>
 			
 			
 			<div>
 				<a href="media.pdf" class="bowcher" target="_blank"><img
 					src="img/brochure1.png"> </a>
-
-				<div>
-
-					<a href="media.pdf" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
-
-				</div>
-				<!-- / grid --> </section>
-
-
-
-
-
-
-
-
-			<!-- padur -->
-
-			<div class="middle" style="right: -100%" id="padur">
-				<section class="main demo-2 row-fluid">
-
-				<div id="gridpadur" class="grid clearfix span12">
-
-
-					<div class="uc-container box1 span4 overview">
-						<div class="uc-initial-content">
-
-							<span class="icon-eye">Overview</span>
-
-						</div>
-						<div class="uc-final-content ">
-							<span class="icon-cancel"></span>
-							<div class="contant">
-								<h2>Overview</h2>
-								<p>When you live in an environment of peace and quietude.away
-									from the clamor.the uproar and the grime and dust of city life.
-									it sure can soothe your soul and transport you to a world your
-									own-exclusive,private and spacious. But when you have it right
-									with in city limits.its joy compounded. Padur has got it all
-									and more. sheer elegance matched by functional aesthetics that
-									not only makes you feel good but look good.</p>
-								<br>
-
-								<h5>
-									SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN LIFE.<br>
-									IT SAYS THAT YOU HAVE ARRIVED.
-								</h5>
-
-
-								
-							</div>
-
-						</div>
-					</div>
-					<!-- / uc-container -->
-
-
-
-
-
-
-					<div class="uc-container box2 span4 location">
-						<div class="uc-initial-content">
-
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content ">
-							<span class="icon-cancel"></span>
-							<div class="contant"></div>
-						</div>
-					</div>
-					<!-- / uc-container -->
-
-
-
-					<div class="uc-container box3 span4 elevation">
-						<div class="uc-initial-content">
-
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content ">
-							<span class="icon-cancel"></span>
-							<div class="contant aimages">
-								<ul>
-									<li><a class="fancybox" href="img/landbig.jpg"><img
-											class="img-polaroid" src="img/land.jpg" style="width: 155px">
-									</a>
-									</li>
-
-									<li><a class="fancybox" href="img/childbig.jpg"><img
-											class="img-polaroid" src="img/child.jpg" style="width: 155px">
-									</a>
-									</li>
-									<li><a class="fancybox" href="img/fitbig.jpg"><img
-											class="img-polaroid" src="img/fit.jpg" style="width: 155px">
-									</a>
-									</li>
-									<li><a class="fancybox" href="img/securitybig.jpg"><img
-											class="img-polaroid" src="img/security.jpg"
-											style="width: 155px"> </a>
-									</li>
-									<li><a class="fancybox" href="img/firebig.jpg"><img
-											class="img-polaroid" src="img/fire.jpg" style="width: 155px">
-									</a>
-									</li>
-
-									<li><a class="fancybox" href="img/powerbig.jpg"><img
-											class="img-polaroid" src="img/power.jpg" style="width: 155px">
-									</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-
-
-					<div class="uc-container box4 span4 amenities">
-						<div class="uc-initial-content">
-
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content ">
-							<span class="icon-cancel"></span>
-
-							<div class="contant amen">
-
-								<div class="heading">
-									<h2>INDOOR AMENTIES:</h2>
-								</div>
-								<div class="paragraph">
-									<p>Healthclub/Gymnasium.</p>
-
-									<p>Table Tennis.</p>
-
-									<p>Tv Room/Minitheatre/Multipurpose hall.</p>
-
-									<p>Chess/Carom and other indoor Games .</p>
-								</div>
-
-								<div class="heading">
-									<h2>OUTDOOR AMENTIES:</h2>
-								</div>
-								<div class="paragraph">
-									<p>Swimming Pool.</p>
-
-									<p>Land scapes.</p>
-
-									<p>Servant Toilet.</p>
-
-									<p>Out door party area .</p>
-
-
-									<p>Children's Play Area .</p>
-
-
-									<p>Payed garden walk .</p>
-								</div>
-
-
-								<div class="heading">
-									<h2>OTHER AMENTIES:</h2>
-								</div>
-								<div class="paragraph">
-
-									<p>Intercom facility.</p>
-
-									<p>Backup generator for common areas.</p>
-
-									<p>Security personnel.</p>
-
-									<p>CCTV camera.</p>
-
-
-									<p>Water Treatment plant(RO water for kitchen) .</p>
-
-
-									<p>Rain water Harvesting .</p>
-
-									<p>Sewage water Harvesting .</p>
-
-									<p>UPS provision for Vilas.</p>
-
-								</div>
-
-
-
-
-							</div>
-						</div>
-					</div>
-
-
-
-					<div class="uc-container box5 span4 specification">
-						<div class="uc-initial-content">
-
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content">
-							<span class="icon-cancel"></span>
-							<div class="contant">
-
-								<div class="heading1">
-									<h2>STRUCTURE:</h2>
-								</div>
-								<div class="paragraph1">
-									<p>RCC framed structure with 9" thick bricks for outer walls
-										and 4.5" thick bricks for internal partition walls.</p>
-								</div>
-								<div class="heading1">
-
-
-									<h2>WALL FINISHES:</h2>
-								</div>
-								<div class="paragraph1">
-									<p>
-										All external walls cement plastered and painted with exterior
-										wall care point with a texture finish.<br> ceiling will be
-										cement plastered.finished with puty one coat of emulsion.<br>internal
-										walls finished with putty and emulsion paint.
-									</p>
-								</div>
-
-
-
-
-								<div class="heading1">
-									<h2>FLOORING:</h2>
-								</div>
-								<div class="paragraph1">
-									<p>
-										imported full body vitrified tiles 900*600 in living anddining<br>(Marble
-										series VCitrified Tiles)Kitchen to have anti-skid virtified
-										tiles 6oo*600.<br>Bedroom to have laminated wooden flooring.<br>internal
-										steps in natural stone-Green marble/Granite with a basic cost
-										of Rs 100 perSqft.<br>Sit outs and balconies-basant betton or
-										equivalent blocks.
-									</p>
-								</div>
-
-								<div class="heading1">
-									<h2>KITCHEN:</h2>
-								</div>
-								<div class="paragraph1">
-									<p>
-										Polished black granite working platform not exceeding 15ft in
-										length<br> Glazed tile dado for 24" height from granite
-										platform.Single bowl stainless steel sink with drain board in
-										kitchen and a single bowl stainless steel sink without drain
-										in utlity.
-									</p>
-								</div>
-
-
-
-
-
-								<div class="heading1">
-									<h2>TOILETS:</h2>
-								</div>
-								<div class="paragraph1">
-									<p>
-										Glazed tile dado up to ceiling height-size300*600.<br>Roca or
-										Kholer make Good quality Cp fittings.Grohe/Kholer or
-										equivalent pressurized water.
-									</p>
-								</div>
-
-								<div class="heading1">
-									<h2>ELECTRICAL:</h2>
-								</div>
-
-								<div class="paragraph1">
-									<p>ConcelaedInsulated copper multi-strand wiring with modular
-										type switches-Anchor/MK Distribution board with MCB's in each
-										apartment.4lights,2fans and 2plug points (5amps)in the
-										living/dining area. 2lights,1fan and 1plug point(5amps) in
-										each bedroom. 2lights 1fan point.and 3plug points(2nos 5Amps +
-										1 No 5/15 amp)in the kitchen.2lights pints.1fan point and
-										1NO.15Amps power points for in all bathrooms.Power
-										Backup-Generator for common area lighting and pumps.UPS
-										provision for all individual villas.</p>
-								</div>
-
-								<div class="heading1">
-									<h2>SECURITY SYSTEMS(options):</h2>
-								</div>
-
-								<div class="paragraph1">
-									<p>1.CC TV at the entrance gate. 2.LAN telephone lines
-										connecting all houses which can be used as an intercorn with
-										the securityt at the gate. 3.video calling doorbell.</p>
-								</div>
-
-
-
-
-
-
-
-							</div>
-						</div>
-					</div>
-
-
-
-					<!-- / uc-container -->
-
-
-
-
-					<div class="uc-container box6 span4 floorplan">
-
-						<div class="uc-initial-content">
-
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content">
-							<span class="icon-cancel"></span>
-							<div class="contant"></div>
-							<div class="floorplan">
-
-								<a href="images/floorplan.jpg" target="_blank"><img
-									src="img/floor.jpg"> </a>
-							</div>
-
-						</div>
-
-
-
-						<!-- / uc-container -->
-
-					</div>
-
-				
-				<div>
-					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
-
-				</div>
-				</section>
-
-
+			</div>
+			<!-- / grid -->
+			
+			
 			</div>
 			</section>
 
@@ -978,17 +617,6 @@
 						</div>
 					</div>
 				</div>
-
-				<div>
-
-					<a href="#" class="bowcher" target="_blank"><img
-						src="img/brochure1.png"> </a>
-
-					<a href="#" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
-
-				</div>
-				</section>
-
 
 
 
@@ -1452,7 +1080,7 @@
 					
 					var pfold = $item.pfold( {
 						folddirection : direction,
-						speed : 300,
+			 			speed : 300,
 						onEndFolding : function() { opened = false; },
 						i:i,
 						
