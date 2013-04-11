@@ -424,10 +424,9 @@ impart peace and happiness making them an ideal investment.</p>
 									not only makes you feel good but look good.</p>
 								<br>
 
-								<h5>SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN
-									LIFE.<br> IT SAYS THAT YOU HAVE ARRIVED.</h5>
+								
 
-								<br>
+								
 							</div>
 
 						</div>
