@@ -257,16 +257,27 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><img class="img-polaroid" src="img/land.jpg" style="width: 155px">
-									</li>
+									<li><a class="fancybox" href="img/land.jpg">
+						<img src="img/landbig.jpg" width="155px"  class="img-polaroid"></a></li>
 
-									<li><img class="img-polaroid" src="img/child.jpg" style="width: 155px"></li>
-									<li><img  class="img-polaroid"src="img/fit.jpg" style="width: 155px"></li>
-									<li><img  class="img-polaroid" src="img/security.jpg" style="width: 155px"></li>
-									<li><img  class="img-polaroid" src="img/fire.jpg" style="width: 155px"></li>
-
-									<li><img class="img-polaroid" src="img/power.jpg" style="width: 155px">
-									</li>
+									<li><a class="fancybox" href="img/child.jpg">
+						<img src="img/childbig.jpg" width="155px"  class="img-polaroid"></a></li>
+									
+									<li><a class="fancybox" href="img/fit.jpg">
+						<img src="img/fitbig.jpg" width="155px"  class="img-polaroid"></a></li>
+						
+						<li><a class="fancybox" href="img/security.jpg">
+						<img src="img/securitybig.jpg" width="155px"  class="img-polaroid"></a></li>
+						
+						<li><a class="fancybox" href="img/fire.jpg">
+						<img src="img/firebig.jpg" width="155px"  class="img-polaroid"></a></li>
+						
+						<li><a class="fancybox" href="img/power.jpg">
+						<img src="img/powerbig.jpg" width="155px"  class="img-polaroid"></a></li>
+						
+						
+									
+									
 								</ul>
 							
 
@@ -283,24 +294,38 @@
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
-								<ul>
-									<li><img class="img-polaroid" src="img/land.jpg" style="width: 155px"><span>Landscaped
-											Garden</span>
-									</li>
+							
+							
+							<ul>
+									<li><a class="fancybox" href="img/land.jpg">
+						<img src="img/landbig.jpg" width="155px"  class="img-polaroid"><span>Landscaped
+											Garden</span></a></li>
 
-									<li><img class="img-polaroid" src="img/child.jpg" style="width: 155px"><span>Children's
-											Indoor & Outdoor Play court</span></li>
-									<li><img  class="img-polaroid"src="img/fit.jpg" style="width: 155px"><span>Fitness
-											Arena</span></li>
-									<li><img  class="img-polaroid" src="img/security.jpg" style="width: 155px"><span>24*7
-											Security &Surveillance camera</span></li>
-									<li><img  class="img-polaroid" src="img/fire.jpg" style="width: 155px"><span>Fire
-											Protection System</span></li>
-
-									<li><img class="img-polaroid" src="img/power.jpg" style="width: 155px"> <span>Power
-											Backup(For Common Area)and 500 Watts back up for each flat</span>
-									</li>
+									<li><a class="fancybox" href="img/child.jpg">
+						<img src="img/childbig.jpg" width="155px"  class="img-polaroid"><span>Children's
+											Indoor & Outdoor Play court</span></a></li>
+									
+									<li><a class="fancybox" href="img/fit.jpg">
+						<img src="img/fitbig.jpg" width="155px"  class="img-polaroid"><span>Fitness
+											Arena</span></a></li>
+						
+						<li><a class="fancybox" href="img/security.jpg">
+						<img src="img/securitybig.jpg" width="155px"  class="img-polaroid"><span>24*7
+											Security &Surveillance camera</span></a></li>
+						
+						<li><a class="fancybox" href="img/fire.jpg">
+						<img src="img/firebig.jpg" width="155px"  class="img-polaroid"><span>Fire
+											Protection System</span></a></li>
+						
+						<li><a class="fancybox" href="img/power.jpg">
+						<img src="img/powerbig.jpg" width="155px"  class="img-polaroid"><span>Power
+											Backup(For Common Area)and 500 Watts back up for each flat</span></a></li>
+						
+						
+									
+									
 								</ul>
+								
 
 								<table class="table">
 
