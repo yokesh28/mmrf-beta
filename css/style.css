@@ -10,45 +10,8 @@ body {
 }
 
 
-#welcomemmrf{
-	
-	z-index: 9999999;
-position: relative;
-z-index: 9999999;
-position: relative;
-opacity: 0.8;
-top: 136px;
-left: 260px;
-background-color: white;
-	
-}
-
-#welcomemmrf .mmrfwelcome h2
-{
-color: black;
-font-style: italic;
-margin-left: 107px;
-}
-#welcomemmrf .mmrfwelcome p
-{
-margin: 0;
-font-size: 14px;
-width: 580px;
-
-line-height: 32px;
-margin-left: 27px;
-text-align: justify;
 
 
-}
-
-
-.mmrfspace
-
-{
-width: 600px;
-height: 400px;
-}
 
 
 
@@ -1365,19 +1328,33 @@ blockquote {
 }
 
 .media {
-	
-	
+	background: rgba(250, 247, 247, 0.78);
+	padding: 20px;
 	position: relative;
 	z-index: 5;
 }
 
+.media h2 {
+	color: red;
+}
 
+.media li a {
+	color: black;
+}
 
+.media li a:HOVER {
+	text-decoration: underline;
+	font-weight: bolder;
+}
 
+.media li a img {
+	padding: 0px 5px 0px 5px;
+}
 
-
-
-
+.unstyled p {
+	padding: 0px !important;
+	text-align: center !important;
+}
 
 .backimage {
 	position: fixed;
