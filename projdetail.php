@@ -441,7 +441,7 @@
 					</div>
 				</div>
 				<div>
-					<a href="" class="bowcher">Download Bowcher</a>
+					<a href="" class="bowcher">Download Brochure</a>
 				</div>
 				<!-- / grid --> </section>
 
@@ -701,7 +701,7 @@
 					<!-- / uc-container -->
 				</div>
 				<div>
-					<a href="" class="bowcher">Download Bowcher</a>
+					<a href="" class="bowcher">Download Brochure</a>
 				</div>
 				</section>
 
