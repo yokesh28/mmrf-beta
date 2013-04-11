@@ -385,7 +385,7 @@ impart peace and happiness making them an ideal investment.</p>
 					</div>
 				</div>
 				<div>
-					<a href="media.pdf" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
+					<a href="media.pdf" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
 				</div>
 				<!-- / grid --> </section>
 
@@ -714,7 +714,7 @@ impart peace and happiness making them an ideal investment.</p>
 
 				
 				<div>
-					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
+					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
 				</div>
 </div>
 				</section>
@@ -844,7 +844,7 @@ impart peace and happiness making them an ideal investment.</p>
 					<!-- / uc-container -->
 				</div>
 				<div>
-					<a href="#" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
+					<a href="#" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
 				</div>
 				</section>
 
