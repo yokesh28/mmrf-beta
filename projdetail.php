@@ -257,18 +257,24 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><img class="img-polaroid" src="img/land.jpg" style="width: 155px">
+									<li><img class="img-polaroid" src="img/land.jpg"
+										style="width: 155px">
 									</li>
 
-									<li><img class="img-polaroid" src="img/child.jpg" style="width: 155px"></li>
-									<li><img  class="img-polaroid"src="img/fit.jpg" style="width: 155px"></li>
-									<li><img  class="img-polaroid" src="img/security.jpg" style="width: 155px"></li>
-									<li><img  class="img-polaroid" src="img/fire.jpg" style="width: 155px"></li>
+									<li><img class="img-polaroid" src="img/child.jpg"
+										style="width: 155px"></li>
+									<li><img class="img-polaroid" src="img/fit.jpg"
+										style="width: 155px"></li>
+									<li><img class="img-polaroid" src="img/security.jpg"
+										style="width: 155px"></li>
+									<li><img class="img-polaroid" src="img/fire.jpg"
+										style="width: 155px"></li>
 
-									<li><img class="img-polaroid" src="img/power.jpg" style="width: 155px">
+									<li><img class="img-polaroid" src="img/power.jpg"
+										style="width: 155px">
 									</li>
 								</ul>
-							
+
 
 							</div>
 						</div>
@@ -284,21 +290,24 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><img class="img-polaroid" src="img/land.jpg" style="width: 155px"><span>Landscaped
-											Garden</span>
+									<li><img class="img-polaroid" src="img/land.jpg"
+										style="width: 155px"><span>Landscaped Garden</span>
 									</li>
 
-									<li><img class="img-polaroid" src="img/child.jpg" style="width: 155px"><span>Children's
-											Indoor & Outdoor Play court</span></li>
-									<li><img  class="img-polaroid"src="img/fit.jpg" style="width: 155px"><span>Fitness
-											Arena</span></li>
-									<li><img  class="img-polaroid" src="img/security.jpg" style="width: 155px"><span>24*7
-											Security &Surveillance camera</span></li>
-									<li><img  class="img-polaroid" src="img/fire.jpg" style="width: 155px"><span>Fire
-											Protection System</span></li>
+									<li><img class="img-polaroid" src="img/child.jpg"
+										style="width: 155px"><span>Children's Indoor & Outdoor Play
+											court</span></li>
+									<li><img class="img-polaroid" src="img/fit.jpg"
+										style="width: 155px"><span>Fitness Arena</span></li>
+									<li><img class="img-polaroid" src="img/security.jpg"
+										style="width: 155px"><span>24*7 Security &Surveillance camera</span>
+									</li>
+									<li><img class="img-polaroid" src="img/fire.jpg"
+										style="width: 155px"><span>Fire Protection System</span></li>
 
-									<li><img class="img-polaroid" src="img/power.jpg" style="width: 155px"> <span>Power
-											Backup(For Common Area)and 500 Watts back up for each flat</span>
+									<li><img class="img-polaroid" src="img/power.jpg"
+										style="width: 155px"> <span>Power Backup(For Common Area)and
+											500 Watts back up for each flat</span>
 									</li>
 								</ul>
 
@@ -442,12 +451,12 @@
 
 			</div>
 
-			
-			
-			
-			
-			
-			
+
+
+
+
+
+
 			<!-- padur -->
 
 			<div class="middle" style="right: -100%" id="padur">
@@ -511,15 +520,25 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><a class="fancybox" href="images/ga1.jpg"><img class="img-polaroid" src="img/land.jpg" style="width: 155px">
+									<li><a class="fancybox" href="images/ga1.jpg"><img
+											class="img-polaroid" src="img/land.jpg" style="width: 155px">
 									</a></li>
 
-									<li><a class="fancybox" href="images/ ga1.jpg"><img class="img-polaroid" src="img/child.jpg" style="width: 155px"></a></li>
-									<li><a class="fancybox" href="images/ga1.jpg"><img  class="img-polaroid"src="img/fit.jpg" style="width: 155px"></a></li>
-									<li><a class="fancybox" href="images/ga1.jpg"><img  class="img-polaroid" src="img/security.jpg" style="width: 155px"></a></li>
-									<li><a class="fancybox" href="images/ga1.jpg"><img  class="img-polaroid" src="img/fire.jpg" style="width: 155px"></a></li>
+									<li><a class="fancybox" href="images/ ga1.jpg"><img
+											class="img-polaroid" src="img/child.jpg" style="width: 155px">
+									</a></li>
+									<li><a class="fancybox" href="images/ga1.jpg"><img
+											class="img-polaroid" src="img/fit.jpg" style="width: 155px">
+									</a></li>
+									<li><a class="fancybox" href="images/ga1.jpg"><img
+											class="img-polaroid" src="img/security.jpg"
+											style="width: 155px"> </a></li>
+									<li><a class="fancybox" href="images/ga1.jpg"><img
+											class="img-polaroid" src="img/fire.jpg" style="width: 155px">
+									</a></li>
 
-									<li><a class="fancybox" href="images/ga1.jpg"><img class="img-polaroid" src="img/power.jpg" style="width: 155px">
+									<li><a class="fancybox" href="images/ga1.jpg"><img
+											class="img-polaroid" src="img/power.jpg" style="width: 155px">
 									</a></li>
 								</ul>
 							</div>
@@ -536,58 +555,63 @@
 
 							<div class="contant amen">
 
-								<h2>INDOOR AMENTIES:</h2>
-								<br>
+								<div class="heading">
+									<h2>INDOOR AMENTIES:</h2>
+								</div>
+								<div class="paragraph">
+									<p>Healthclub/Gymnasium.</p>
 
-								<p>Healthclub/Gymnasium.</p>
-								<br>
-								<p>Table Tennis.</p>
-								<br>
-								<p>Tv Room/Minitheatre/Multipurpose hall.</p>
-								<br>
-								<p>Chess/Carom and other indoor Games .</p>
-								<br>
+									<p>Table Tennis.</p>
 
-								<h2>OUTDOOR AMENTIES:</h2>
-								<br>
+									<p>Tv Room/Minitheatre/Multipurpose hall.</p>
 
-								<p>Swimming Pool.</p>
-								<br>
-								<p>Land scapes.</p>
-								<br>
-								<p>Servant Toilet.</p>
-								<br>
-								<p>Out door party area .</p>
-								<br>
+									<p>Chess/Carom and other indoor Games .</p>
+								</div>
 
-								<p>Children's Play Area .</p>
-								<br>
+								<div class="heading">
+									<h2>OUTDOOR AMENTIES:</h2>
+								</div>
+								<div class="paragraph">
+									<p>Swimming Pool.</p>
 
-								<p>Payed garden walk .</p>
-								<br>
+									<p>Land scapes.</p>
 
-								<h2>OTHER AMENTIES:</h2>
-								<br>
+									<p>Servant Toilet.</p>
 
-								<p>Intercom facility.</p>
-								<br>
-								<p>Backup generator for common areas.</p>
-								<br>
-								<p>Security personnel.</p>
-								<br>
-								<p>CCTV camera.</p>
-								<br>
+									<p>Out door party area .</p>
 
-								<p>Water Treatment plant(RO water for kitchen) .</p>
-								<br>
 
-								<p>Rain water Harvesting .</p>
-								<br>
-								<p>Sewage water Harvesting .</p>
-								<br>
-								<p>UPS provision for Vilas.</p>
-								<br>
+									<p>Children's Play Area .</p>
 
+
+									<p>Payed garden walk .</p>
+								</div>
+
+
+								<div class="heading">
+									<h2>OTHER AMENTIES:</h2>
+								</div>
+								<div class="paragraph">
+
+									<p>Intercom facility.</p>
+
+									<p>Backup generator for common areas.</p>
+
+									<p>Security personnel.</p>
+
+									<p>CCTV camera.</p>
+
+
+									<p>Water Treatment plant(RO water for kitchen) .</p>
+
+
+									<p>Rain water Harvesting .</p>
+
+									<p>Sewage water Harvesting .</p>
+
+									<p>UPS provision for Vilas.</p>
+
+								</div>
 
 
 
@@ -606,43 +630,65 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<p>
-									<b>STRUCTURE:</b>RCC framed structure with 9" thick bricks for outer walls and 4.5" thick bricks for internal partition walls.
+									<b>STRUCTURE:</b>RCC framed structure with 9" thick bricks for
+									outer walls and 4.5" thick bricks for internal partition walls.
 								</p>
 								<br>
 								<p>
-									<b>WALL FINISHES:</b>All external walls cement plastered and painted with exterior wall care point with a texture finish.<br> ceiling will be cement plastered.finished with puty one coat of emulsion.<br>internal walls finished with putty and emulsion paint.
+									<b>WALL FINISHES:</b>All external walls cement plastered and
+									painted with exterior wall care point with a texture finish.<br>
+									ceiling will be cement plastered.finished with puty one coat of
+									emulsion.<br>internal walls finished with putty and emulsion
+									paint.
 								</p>
 								<br>
 								<p>
 
 
-									<b>FLOORING:</b>imported full body vitrified tiles 900*600 in living anddining<br>(Marble series VCitrified Tiles)Kitchen to have anti-skid virtified tiles 6oo*600.<br>Bedroom to have laminated wooden flooring.<br>internal steps in natural stone-Green marble/Granite with a basic cost of Rs 100 perSqft.<br>Sit outs and balconies-basant betton or equivalent blocks.
+									<b>FLOORING:</b>imported full body vitrified tiles 900*600 in
+									living anddining<br>(Marble series VCitrified Tiles)Kitchen to
+									have anti-skid virtified tiles 6oo*600.<br>Bedroom to have
+									laminated wooden flooring.<br>internal steps in natural
+									stone-Green marble/Granite with a basic cost of Rs 100 perSqft.<br>Sit
+									outs and balconies-basant betton or equivalent blocks.
 								</p>
 								<br>
 								<p>
-									<b>KITCHEN:</b>Polished black granite working platform not exceeding 15ft in length<br> Glazed tile dado for 24" height from granite platform.Single bowl stainless steel sink with drain board in kitchen and a single bowl stainless steel sink without drain in utlity.
+									<b>KITCHEN:</b>Polished black granite working platform not
+									exceeding 15ft in length<br> Glazed tile dado for 24" height
+									from granite platform.Single bowl stainless steel sink with
+									drain board in kitchen and a single bowl stainless steel sink
+									without drain in utlity.
 								</p>
 								<br>
 								<p>
-									<b>TOILETS:</b>Glazed tile dado up to ceiling height-size300*600.<br>Roca or Kholer make Good quality Cp fittings.Grohe/Kholer or equivalent pressurized water.
+									<b>TOILETS:</b>Glazed tile dado up to ceiling
+									height-size300*600.<br>Roca or Kholer make Good quality Cp
+									fittings.Grohe/Kholer or equivalent pressurized water.
 								</p>
 								<br>
 								<p>
-									<b>ELECTRICAL:</b>ConcelaedInsulated copper multi-strand wiring with modular type switches-Anchor/MK Distribution board with MCB's in each apartment.4lights,2fans and 2plug points (5amps)in the living/dining area.
-									2lights,1fan and 1plug point(5amps) in each bedroom.
-									2lights 1fan point.and 3plug points(2nos 5Amps + 1 No 5/15 amp)in the kitchen.2lights pints.1fan point and 1NO.15Amps power points
-									for in all bathrooms.Power Backup-Generator for common area lighting and pumps.UPS provision for all individual villas.
+									<b>ELECTRICAL:</b>ConcelaedInsulated copper multi-strand wiring
+									with modular type switches-Anchor/MK Distribution board with
+									MCB's in each apartment.4lights,2fans and 2plug points
+									(5amps)in the living/dining area. 2lights,1fan and 1plug
+									point(5amps) in each bedroom. 2lights 1fan point.and 3plug
+									points(2nos 5Amps + 1 No 5/15 amp)in the kitchen.2lights
+									pints.1fan point and 1NO.15Amps power points for in all
+									bathrooms.Power Backup-Generator for common area lighting and
+									pumps.UPS provision for all individual villas.
 								</p>
 								<br>
 								<p>
 									<b>SECURITY SYSTEMS(options):</b>1.CC TV at the entrance gate.
-									2.LAN telephone lines connecting all houses which can be used as an intercorn with the securityt at the gate.
-									3.video calling doorbell.
+									2.LAN telephone lines connecting all houses which can be used
+									as an intercorn with the securityt at the gate. 3.video calling
+									doorbell.
 								</p>
 								<br>
 
-								
-								
+
+
 
 
 
@@ -655,35 +701,36 @@
 
 					<!-- / uc-container -->
 
-				
 
 
-				<div class="uc-container box6 span4 floorplan">
 
-					<div class="uc-initial-content">
+					<div class="uc-container box6 span4 floorplan">
 
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content">
-						<span class="icon-cancel"></span>
-						<div class="contant"></div>
-						<div class="floorplan">
+						<div class="uc-initial-content">
 
-							<a href="images/floorplan.jpg" target="_blank"><img
-								src="images/floorplan.jpg"> </a>
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<span class="icon-cancel"></span>
+							<div class="contant"></div>
+							<div class="floorplan">
+
+								<a href="images/floorplan.jpg" target="_blank"><img
+									src="images/floorplan.jpg"> </a>
+							</div>
+
 						</div>
 
+
+
+						<!-- / uc-container -->
+
 					</div>
-	
-
-
-					<!-- / uc-container -->
-
 				</div>
-</div>
 
 				<div>
-					<a href="Vista Oceana Brochure.pdf" class="bowcher">Download Brochure</a>
+					<a href="Vista Oceana Brochure.pdf" class="bowcher">Download
+						Brochure</a>
 				</div>
 				</section>
 
