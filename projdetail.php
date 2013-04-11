@@ -272,15 +272,18 @@ impart peace and happiness making them an ideal investment.</p>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-						
+						    <heading1>
 							<h2>Structure:</h2>
+							</heading1>
+							<div class="paragraph1">
 							<p>Isolated frame structure with Solid Block Wall
 								</p>
+								</div>
 								
-								<p>
-									<b>Flooring :</b>2'X2'Branded Vitrified Tiles
+									<h2>Flooring :</h2>
+									<p>2'X2'Branded Vitrified Tiles
 								</p>
-								<br>
+								
 								<p>
 
 
