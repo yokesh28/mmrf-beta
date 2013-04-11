@@ -290,21 +290,21 @@
 							<div class="contant aimages">
 								<ul>
 									<li>
-									<img src="img/images/1.jpg" style="width:155px"><p>Landscaped Garden</p> 
+									<img src="img/images/1.jpg" style="width:155px"><span>Landscaped Garden</span> 
 									</li>
 
 									<li>
-									<img src="img/images/2.jpg" style="width:155px"><p>Children's Indoor & Outdoor Play court</p></li>
+									<img src="img/images/2.jpg" style="width:155px"><span>Children's Indoor & Outdoor Play court</span></li>
 									<li>
-									<img src="img/images/3.png" style="width:155px"><p>Fitness Arena</p></li>
+									<img src="img/images/3.png" style="width:155px"><span>Fitness Arena</span></li>
 									<li>
-									<img src="img/images/4.png" style="width:155px"><p>24*7 Security &Surveillance camera</p></li>
+									<img src="img/images/4.png" style="width:155px"><span>24*7 Security &Surveillance camera</span></li>
 									<li>
-									<img src="img/images/5.png" style="width:155px"><p>Fire Protection System</p></li>
+									<img src="img/images/5.png" style="width:155px"><span>Fire Protection System</span></li>
 									
 									<li> <img src="img/images/7.png" style="width:155px">
-									<p>power Backup(For Common Area)and 500 Watts back up for each
-										flat</p></li>
+									<span>power Backup(For Common Area)and 500 Watts back up for each
+										flat</span></li>
 								</ul>
 
 								<table class="table">
@@ -500,8 +500,28 @@
 						</div>
 					</div>
 					<!-- / uc-container -->
+					
+					<div class="uc-container box3 span4 elevation">
+						<div class="uc-initial-content">
 
-					<div class="uc-container box3 span4 amenities">
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant elivation">
+							<a href="img/images/1.jpg" class="fancybox"><img src="img/images/1.jpg" style="width:178px"></a>
+							<a href="img/images/2.jpg" class="fancybox" > <img src="img/images/2.jpg" style="width:178px"></a>
+							<a href="img/images/3.jpg" class="fancybox"><img src="img/images/3.png" style="width:178px"></a>
+							<a href="img/images/4.jpg" class="fancybox"><img src="img/images/4.png" style="width:178px"></a>
+							<a href="img/images/5.jpg" class="fancybox"><img src="img/images/5.png" style="width:178px"></a>
+							<a href=img/images/7.jpg"" class="fancybox"><img src="img/images/7.png" style="width:178px"></a>
+							
+							
+							</div>
+						</div>
+					</div>
+					
+					<div class="uc-container box4 span4 amenities">
 						<div class="uc-initial-content">
 
 							<span class="icon-eye"></span>
@@ -570,8 +590,127 @@
 							</div>
 						</div>
 					</div>
+					
+					
+					<div class="uc-container box5 span4 specification">
+						<div class="uc-initial-content">
+
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<span class="icon-cancel"></span>
+							<div class="contant">
+								<p>
+									<b>Structure:</b>Isolated frame structure with Solid Block Wall
+								</p>
+								<br>
+								<p>
+									<b>Flooring :</b>2'X2'Branded Vitrified Tiles
+								</p>
+								<br>
+								<p>
+
+
+									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
+									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
+									Door <b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <br>
+									<b>InternalDoor:</b>Flush doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water
+									Proof Flush Door <b>Doors:</b>MainDoor:Flush doors with Wooden
+									Frame<br> <b>InternalDoor:</b>Flush doors with Wooden Frame<br>
+									<b>ToiletDoor:</b>Water Proof Flush Door ======= <b>Doors:</b>MainDoor:Flush
+									doors with Wooden Frame<br> <br> <b>InternalDoor:</b>Flush
+									doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water Proof
+									Flush Door
+
+								</p>
+								<br>
+								<p>
+									<b>Windows:</b>Heavy UPVC frames with Glass Shutters &MS Grill
+									for all windows
+								</p>
+								<br>
+								<p>
+									<b>Ventilators:</b>Heavy UPVC frames with glass or louvered & a
+									provision for Exhaust Fan
+								</p>
+								<br>
+								<p>
+									<b>Electrical:</b>Three Phase service with Modular
+									Switches,Electrical outlets for A/c in all Bedrooms,Geyzer
+									Points in all Toilet,Washing Machine,Fridge,Mixie,Grinder and
+									Oven Points,Necessary Light,Fan Plug Points will be
+									Provided,along with 500W power for each Flat from Common
+									Genset.Outlet for TV & Telephone in Living Hall and Master
+									Bedroom
+								</p>
+								<br>
+								<p>
+									<b>Kitchen:</b>Counter top in high quality polished Black
+									Granite with nozing.Stainless Steel Single Bowl with Drain
+									Top.Water outlet provision for Water Purifer.Tiles up to 2 feet
+									height above the kitchen Cooking platform
+								</p>
+								<br>
+
+								<p>
+									<b>Utility:</b>Water Outlet/inlet Provision for Washing Machine
+								</p>
+								</br>
+								<p>
+									<b>Toilet:</b>Standard EWC/Washbasin(Parryware/Hindware)White
+									Closet with Health Faucet using Standard CP fittings,Wall Mixer
+									in all Toilets.Dadoing with Glazed Braded Tiles upto 7 feet
+									height Anti skid Ceramic tile Flooring will be provided.
+								</p>
+								<br>
+								<p>
+									<b>Intra-Communication System & Internet:</b>Intra-Communication
+									systems for security to each Apartment with Internet
+									Connections.
+								</p>
+								<br>
+								<p>
+									<b>Painting:</b>Painting with Acrylic emulsion,smoothly
+									finished with wall putty &main door polished & other Doors
+									polished with Arcrylic Enamel Paint with full putty.
+								</p>
+								<br>
+
+
+
+
+							</div>
+						</div>
+					</div>
+
+
+					
 					<!-- / uc-container -->
 				</div>
+				
+				<div class="uc-container box6 span4 floorplan">
+
+						<div class="uc-initial-content">
+
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<span class="icon-cancel"></span>
+							<div class="contant"></div>
+							<div class="floorplan">
+
+								<a href="images/floorplan.jpg" target="_blank"><img
+									src="images/floorplan.jpg"> </a>
+							</div>
+
+						</div>
+
+
+						<!-- / uc-container -->
+
+					</div>
+				
+				
 				<div>
 					<a href="" class="bowcher">Download Bowcher</a>
 				</div>
