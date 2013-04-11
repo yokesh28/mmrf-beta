@@ -7,7 +7,7 @@
 
 
 <meta charset="utf-8">
-<title>Parc Amazonien de Guyane</title>
+<title>mmrf</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 <link rel='shortcut icon' href='/img/favicon.png'>
@@ -22,17 +22,6 @@
 <!-- / Yoast WordPress SEO plugin. -->
 
 
-<script type="text/javascript">
-		var _gaq = _gaq || [];
-	 	_gaq.push(['_setAccount', 'UA-33459997-1']);
-	 	_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	 	})();
-	</script>
 
 
 
@@ -75,51 +64,33 @@
 
 	<div>
 
-		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
+		<img src="images/2.jpg" width="100%" height="100%"
+			style="position: fixed; height: 100%">
 		<?php include 'header.php';?>
 		<div id="slidemenu" class="visible-desktop">
 
 			<img src="images/slide_menu.png">
 
-			
-			
-			</div>
 
 
-</div>
+		</div>
 
-<div class="container mmrfspace" id="welcomemmrf">
 
-<div class="row">
-<div class="mmrfwelcome ">
-   <h2>WELCOME TO MMRF</h2>
-   <p>Welcome to MMRF. A real estate conglomerate created 
-by the coming together of 
-4 of Coimbatore's most renowned
-construction giants. MMRF is a seamless blend of 
-several decades of profound expertise and valuable 
-experience in the construction and real estate
-domain. MMRF aims to create world-class spaces 
-that continually set new benchmarks and exceed 
-expectations in every way. What will elevate
-the goodwill of MMRF is its strong value system, 
-unparalleled quality standards and the keen attention 
-to finer details that will ensure every project stands out 
-and adds greater value to life in so many ways.
-Mayflower Enterprises, Mount 
-Housing & Infrastructure, Ramani Realtors & Fairyland 
-Foundations</p>
- </div>
- 
- </div>
- 
-</div>
+	</div>
 
-		
 
-	
 
-<?php include 'footer.php';?>
+	<div class="container" id="welcomemmrf">
+
+		dfgdgfdgfdgfdg
+
+	</div>
+
+
+
+
+
+	<?php include 'footer.php';?>
 
 
 

@@ -48,7 +48,7 @@
 
 
 	<?php include 'header.php';?>
-	<div class="container media">
+	<div class="container">
 		<div class="row-fluid ">
 			<div class="gallery">
 
@@ -78,5 +78,13 @@
 		}
 	</style>
 <script src="js/bootstrap-tab.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
 
+			$('.fancybox').fancybox();
+		});
+		</script>
 </html>
