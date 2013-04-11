@@ -552,62 +552,63 @@
 
 						<div class="contant amen">
 
-							<div class="heading">
-								<h2>Indoor Amenities:</h2>
+							 <div class="heading">
+							<h2>INDOOR AMENTIES:</h2>
 							</div>
-							<div class="paragraph">
-								<p>Healthclub/Gymnasium.</p>
-
-								<p>Table Tennis.</p>
-
-								<p>Tv Room/Minitheatre/Multipurpose hall.</p>
-
-								<p>Chess/Carom and other indoor Games .</p>
-							</div>
-
-							<div class="heading">
-								<h2>OUTDOOR AMENTIES:</h2>
-							</div>
-							<div class="paragraph">
-								<p>Swimming Pool.</p>
-
-								<p>Land scapes.</p>
-
-								<p>Servant Toilet.</p>
-
-								<p>Out door party area .</p>
-
-
-								<p>Children's Play Area .</p>
-
-
-								<p>Payed garden walk .</p>
+							
+                             <ul class="list">
+                             
+							<li>Healthclub/Gymnasium.</li>
+							
+							<li>Table Tennis.</li>
+							
+							<li>Tv Room/Minitheatre/Multipurpose hall.</li>
+							
+							<li>Chess/Carom and other indoor Games.</li>
+							
+                            <div class="heading">
+							<h2>OUTDOOR AMENTIES:</h2>
 							</div>
 
+							<li>Swimming Pool.</li>
+							
+							<li>Land scapes.</li>
+							
+							<li>Servant Toilet.</li>
+							
+							<li>Out door party area .</li>
+							
 
-							<div class="heading">
-								<h2>Other Amenities:</h2>
+							<li>Children's Play Area .</li>
+							
+
+							<li>Payed garden walk .</li>
+							
+<div class="heading">
+							<h2>OTHER AMENTIES:</h2>
 							</div>
-							<div class="paragraph">
 
-								<p>Intercom facility.</p>
+							<li>Intercom facility.</li>
+							
+							<li>Backup generator for common areas.</li>
+							
+							<li>Security personnel.</li>
+							
+							<li>CCTV camera.</li>
+							
 
-								<p>Backup generator for common areas.</p>
+							<li>Water Treatment plant(RO water for kitchen) .</li>							
 
-								<p>Security personnel.</p>
+							<li>Rain water Harvesting .</li>
+							
+							<li>Sewage water Harvesting .</li>
+							
+							<li>UPS provision for Vilas.</li>
+							
 
-								<p>CCTV camera.</p>
+</ul>
 
-
-								<p>Water Treatment plant(RO water for kitchen) .</p>
-
-
-								<p>Rain water Harvesting .</p>
-
-								<p>Sewage water Harvesting .</p>
-
-								<p>UPS provision for Vilas.</p>
-
+						
 							</div>
 
 
@@ -615,8 +616,7 @@
 
 						</div>
 					</div>
-				</div>
-
+				
 
 
 				<div class="uc-container box5 span4 specification">
@@ -766,6 +766,7 @@
 						src="img/brochure.png"> </a>
 				</div>
 			</div>
+			
 			</section>
 
 		</div>
@@ -865,60 +866,61 @@
 						<span class="icon-cancel"></span>
 
 						<div class="contant amen">
-
+                                <div class="heading">
 							<h2>INDOOR AMENTIES:</h2>
-							<br>
-
-							<p>Healthclub/Gymnasium.</p>
-							<br>
-							<p>Table Tennis.</p>
-							<br>
-							<p>Tv Room/Minitheatre/Multipurpose hall.</p>
-							<br>
-							<p>Chess/Carom and other indoor Games .</p>
-							<br>
-
+							</div>
+							
+                             <ul class="list">
+                             
+							<li>Healthclub/Gymnasium.</li>
+							
+							<li>Table Tennis.</li>
+							
+							<li>Tv Room/Minitheatre/Multipurpose hall.</li>
+							
+							<li>Chess/Carom and other indoor Games .</li>
+							
+                            <div class="heading">
 							<h2>OUTDOOR AMENTIES:</h2>
-							<br>
+							</div>
 
-							<p>Swimming Pool.</p>
-							<br>
-							<p>Land scapes.</p>
-							<br>
-							<p>Servant Toilet.</p>
-							<br>
-							<p>Out door party area .</p>
-							<br>
+							<li>Swimming Pool.</li>
+							
+							<li>Land scapes.</li>
+							
+							<li>Servant Toilet.</li>
+							
+							<li>Out door party area .</li>
+							
 
-							<p>Children's Play Area .</p>
-							<br>
+							<li>Children's Play Area .</li>
+							
 
-							<p>Payed garden walk .</p>
-							<br>
-
+							<li>Payed garden walk .</li>
+							
+<div class="heading">
 							<h2>OTHER AMENTIES:</h2>
-							<br>
+							</div>
 
-							<p>Intercom facility.</p>
-							<br>
-							<p>Backup generator for common areas.</p>
-							<br>
-							<p>Security personnel.</p>
-							<br>
-							<p>CCTV camera.</p>
-							<br>
+							<li>Intercom facility.</li>
+							
+							<li>Backup generator for common areas.</li>
+							
+							<li>Security personnel.</li>
+							
+							<li>CCTV camera.</li>
+							
 
-							<p>Water Treatment plant(RO water for kitchen) .</p>
-							<br>
+							<li>Water Treatment plant(RO water for kitchen) .</li>							
 
-							<p>Rain water Harvesting .</p>
-							<br>
-							<p>Sewage water Harvesting .</p>
-							<br>
-							<p>UPS provision for Vilas.</p>
-							<br>
+							<li>Rain water Harvesting .</li>
+							
+							<li>Sewage water Harvesting .</li>
+							
+							<li>UPS provision for Vilas.</li>
+							
 
-
+</ul>
 
 
 
