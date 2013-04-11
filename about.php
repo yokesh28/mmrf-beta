@@ -179,7 +179,7 @@
 												height="115">
 										</div>
 										<p>
-											<span class="fn">Mr.Shakthi V</span> <span class="title">CEO-From</span>
+											<span class="fn">Mr.Shakthi V</span> <span class="title">CEO-From </span>
 											<span class="divider">/</span><span class="year">2012</span>
 										</p>
 									</li>
