@@ -436,12 +436,18 @@
 					</div>
 				</div>
 				<div>
-					<a href="" class="bowcher">Download Brochure</a>
+					<a href="media.pdf" class="bowcher">Download Brochure</a>
 				</div>
 				<!-- / grid --> </section>
 
 			</div>
 
+			
+			
+			
+			
+			
+			
 			<!-- padur -->
 
 			<div class="middle" style="right: -100%" id="padur">
@@ -677,7 +683,7 @@
 </div>
 
 				<div>
-					<a href="" class="bowcher">Download Bowcher</a>
+					<a href="Vista Oceana Brochure.pdf" class="bowcher">Download Brochure</a>
 				</div>
 				</section>
 
