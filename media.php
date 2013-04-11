@@ -40,9 +40,15 @@
 	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
 </head>
 
-<body class="background">
+
+<body >
+	<img src="images/2.jpg" width="100%" height="100%"
+			class="backimage">
+
+
+
 	<?php include 'header.php';?>
-	<div class="container">
+	<div class="container media">
 		<div class="row-fluid ">
 			<div class="gallery">
 
@@ -72,13 +78,5 @@
 		}
 	</style>
 <script src="js/bootstrap-tab.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-			 *  Simple image gallery. Uses default settings
-			 */
 
-			$('.fancybox').fancybox();
-		});
-		</script>
 </html>
