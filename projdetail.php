@@ -255,14 +255,25 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant elivation">
-							<a href="img/images/1.jpg" class="fancybox"><img src="img/images/1.jpg" style="width:178px"></a>
-							<a href="img/images/2.jpg" class="fancybox" > <img src="img/images/2.jpg" style="width:178px"></a>
-							<a href="img/images/3.jpg" class="fancybox"><img src="img/images/3.png" style="width:178px"></a>
-							<a href="img/images/4.jpg" class="fancybox"><img src="img/images/4.png" style="width:178px"></a>
-							<a href="img/images/5.jpg" class="fancybox"><img src="img/images/5.png" style="width:178px"></a>
-							<a href=img/images/7.jpg"" class="fancybox"><img src="img/images/7.png" style="width:178px"></a>
-							
+							<div class="contant aimages">
+							<ul>
+									<li>
+									<img src="img/images/1.jpg" style="width:155px"><p>Landscaped Garden</p> 
+									</li>
+
+									<li>
+									<img src="img/images/2.jpg" style="width:155px"><p>Children's Indoor & Outdoor Play court</p></li>
+									<li>
+									<img src="img/images/3.png" style="width:155px"><p>Fitness Arena</p></li>
+									<li>
+									<img src="img/images/4.png" style="width:155px"><p>24*7 Security &Surveillance camera</p></li>
+									<li>
+									<img src="img/images/5.png" style="width:155px"><p>Fire Protection System</p></li>
+									
+									<li> <img src="img/images/7.png" style="width:155px">
+									<p>power Backup(For Common Area)and 500 Watts back up for each
+										flat</p></li>
+								</ul>
 							
 							</div>
 						</div>
