@@ -1338,6 +1338,7 @@ blockquote {
 	color: red;
 }
 
+
 .media li a {
 	color: black;
 }
@@ -1345,6 +1346,7 @@ blockquote {
 .media li a:HOVER {
 	text-decoration: underline;
 	font-weight: bolder;
+
 }
 
 .media li a img {

@@ -346,7 +346,7 @@
 							
 							<div class="heading1">
 								<h2>Ventilators:</h2>
-								</div>
+			</div>
 <div class="heading1">
 								<h2>Structure:</h2>
 								</div>
@@ -355,6 +355,8 @@
 								</div>
 						    <div class="heading1">
 							<h2>Structure:</h2>
+
+
 
 							</div>
 							<div class="paragraph1">
@@ -434,29 +436,14 @@
 
 					</div>
 
-					<div class="uc-container box6 span4 floorplan">
 
-						<div class="uc-initial-content">
+					<!-- / uc-container -->
 
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content">
-							<span class="icon-cancel"></span>
-							<div class="contant"></div>
-							<div class="floorplan">
-
-								<a href="images/floorplan.jpg" target="_blank"><img
-									src="images/floorplan.jpg"> </a>
-							</div>
-
-						</div>
-						<!-- / uc-container -->
-
-					</div>
-
+				</div>
 			
 			
 			<div>
+
 				
 				<div>
 
@@ -796,8 +783,16 @@
 					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
 
 				</div>
-				</section>
+				
 
+
+<div>
+				<a href="media.pdf" class="bowcher" target="_blank"><img
+					src="img/brochure1.png"> </a>
+			</div>
+			<!-- / grid -->
+			
+			
 
 			</div>
 			</section>
@@ -980,17 +975,6 @@
 						</div>
 					</div>
 				</div>
-
-				<div>
-
-					<a href="#" class="bowcher" target="_blank"><img
-						src="img/brochure1.png"> </a>
-
-					<a href="#" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
-
-				</div>
-				</section>
-
 
 
 
@@ -1454,7 +1438,7 @@
 					
 					var pfold = $item.pfold( {
 						folddirection : direction,
-						speed : 300,
+			 			speed : 300,
 						onEndFolding : function() { opened = false; },
 						i:i,
 						

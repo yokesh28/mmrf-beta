@@ -75,31 +75,33 @@
 
 	<div>
 
-		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
+		<img src="images/2.jpg" width="100%" height="100%"
+			style="position: fixed; height: 100%">
 		<?php include 'header.php';?>
 		<div id="slidemenu" class="visible-desktop">
 
 			<img src="images/slide_menu.png">
 
-			
-			
-			</div>
 
 
-</div>
+		</div>
+
+
+	</div>
 
 
 
-   <h2>WELCOME TO MMRF</h2>
-   
- 
+	<div class="container" id="welcomemmrf">
+
+		dfgdgfdgfdgfdg
+
+	</div>
 
 
-		
 
-	
 
-<?php include 'footer.php';?>
+
+	<?php include 'footer.php';?>
 
 
 
