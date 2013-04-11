@@ -686,7 +686,7 @@
 
 					
 					<!-- / uc-container -->
-				</div>
+				
 				
 				<div class="uc-container box6 span4 floorplan">
 
@@ -710,7 +710,7 @@
 
 					</div>
 				
-				
+				</div>
 				<div>
 					<a href="" class="bowcher">Download Bowcher</a>
 				</div>
