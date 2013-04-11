@@ -463,9 +463,7 @@ body {
 	height: 340px;
 }
 
-.elivation img {
-	margin: 10px 8px;
-}
+
 
 .aimages p {
 	width: 178px;
@@ -597,10 +595,7 @@ body {
 	margin-left: 0px !important;
 }
 
-.amen h2 {
-	width: 187px;
-	float: left;
-}
+
 
 .box3 .uc-final {
 	left: -260px !important;
@@ -744,6 +739,15 @@ body {
 	text-shadow: #333 1px 0;
 	cursor: pointer;
 }
+
+
+.amenities{
+	
+}
+
+
+
+
 /*contact Page */
 #contactus_page {
 	margin-top: 120px;

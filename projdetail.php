@@ -89,7 +89,7 @@
 
 				<div class="position1 span12">
 					<div class="building pull-left visible-desktop">
-						<img src="images/images/up.jpg" class="img-polaroid">
+						<img src="img/padur.jpg" class="img-polaroid">
 					</div>
 
 					<div class="textright ottiyam pull-left " style="cursor: pointer;">
@@ -503,21 +503,19 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant elivation">
-								<a href="img/images/1.jpg" class="fancybox"><img
-									src="img/images/1.jpg" style="width: 178px"> </a> <a
-									href="img/images/2.jpg" class="fancybox"> <img
-									src="img/images/2.jpg" style="width: 178px">
-								</a> <a href="img/images/3.jpg" class="fancybox"><img
-									src="img/images/3.png" style="width: 178px"> </a> <a
-									href="img/images/4.jpg" class="fancybox"><img
-									src="img/images/4.png" style="width: 178px"> </a> <a
-									href="img/images/5.jpg" class="fancybox"><img
-									src="img/images/5.png" style="width: 178px"> </a> <a
-									href=img/images/7.jpg "" class="fancybox"><img
-									src="img/images/7.png" style="width: 178px"> </a>
+							<div class="contant aimages">
+								<ul>
+									<li><a class="fancybox" href="images/ga1.jpg"><img class="img-polaroid" src="img/land.jpg" style="width: 155px">
+									</a></li>
 
+									<li><a class="fancybox" href="images/ ga1.jpg"><img class="img-polaroid" src="img/child.jpg" style="width: 155px"></a></li>
+									<li><a class="fancybox" href="images/ga1.jpg"><img  class="img-polaroid"src="img/fit.jpg" style="width: 155px"></a></li>
+									<li><a class="fancybox" href="images/ga1.jpg"><img  class="img-polaroid" src="img/security.jpg" style="width: 155px"></a></li>
+									<li><a class="fancybox" href="images/ga1.jpg"><img  class="img-polaroid" src="img/fire.jpg" style="width: 155px"></a></li>
 
+									<li><a class="fancybox" href="images/ga1.jpg"><img class="img-polaroid" src="img/power.jpg" style="width: 155px">
+									</a></li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -530,7 +528,7 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 
-							<div class="contant amen">
+							<div class="contant">
 
 								<h2>INDOOR AMENTIES:</h2>
 								<br>
