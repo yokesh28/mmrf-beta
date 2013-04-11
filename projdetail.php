@@ -285,7 +285,7 @@
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-<<<<<<< HEAD
+
 								<div class="heading1">
 									<h2>Structure:</h2>
 								</div>
@@ -346,12 +346,16 @@
 							
 							<div class="heading1">
 								<h2>Ventilators:</h2>
-=======
+								</div>
+<div class="heading1">
 								<h2>Structure:</h2>
-								Isolated frame structure with Solid Block Wall
+								</div>
+								<div class="paragraph1">
+								<p>Isolated frame structure with Solid Block Wall</p>
+								</div>
 						    <div class="heading1">
 							<h2>Structure:</h2>
->>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
+
 							</div>
 							<div class="paragraph1">
 								<p>Heavy UPVC frames with glass or louvered & a provision for
@@ -453,9 +457,7 @@
 			
 			
 			<div>
-				<a href="media.pdf" class="bowcher" target="_blank"><img
-					src="img/brochure1.png"> </a>
-
+				
 				<div>
 
 					<a href="media.pdf" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
