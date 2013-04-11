@@ -272,8 +272,9 @@ impart peace and happiness making them an ideal investment.</p>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-								<p>
-									<b>Structure:</b>Isolated frame structure with Solid Block Wall
+						
+							<h2>Structure:</h2>
+							Isolated frame structure with Solid Block Wall
 								</p>
 								<br>
 								<p>
