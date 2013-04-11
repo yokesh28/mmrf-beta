@@ -48,7 +48,7 @@
 
 
 	<?php include 'header.php';?>
-	<div class="container">
+	<div class="container mediapage">
 		<div class="row-fluid ">
 			<div class="gallery">
 
@@ -58,9 +58,9 @@
 						<li class="span3"><a class="fancybox" href="media.pdf" target="_blank">
 						<img src="images/ga1.jpg" width="300" height="300" class="img-polaroid"><span><h5>Updated
 								media (10/4/2013)</h5></span></a></li>
-						<li class="span3"><a class="fancybox" href="images/ga2.jpg">
+						<li class="span3"><a class="fancybox" href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWT_MDe9CpU ">
 						<img src="images/ga2.jpg" width="300" height="300" class="img-polaroid"><span><h5>Updated
-								media (10/4/2013)</h5></span></a></li>
+								media (11/4/2013)</h5></span></a></li>
 						<li></li>
 
 					</ul>

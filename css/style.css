@@ -19,6 +19,7 @@ body {
 	display: inline-block;
 }
 
+
 #welcomemmrf {
 	background: white;
 	width: 500px;
@@ -1359,6 +1360,8 @@ footer nav  .header {
 
 .gallery {
 	margin-top: 120px;
+	background: rgba(250, 247, 247, 0.52);
+	position: relative;
 }
 
 .media_info {
@@ -1380,12 +1383,8 @@ blockquote {
 #about .container {
 	position: relative;
 }
-
-.media {
-	background: rgba(250, 247, 247, 0.78);
-	padding: 20px;
-	position: relative;
-	z-index: 5;
+.mediapage{
+	
 }
 
 .media h2 {
