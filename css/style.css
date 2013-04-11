@@ -463,16 +463,26 @@ body {
 	height: 340px;
 }
 
-.amen {
+
+.amen{
 	height: 340px;
 	width: 630px;
 	right: 0px;
 	margin-right: 0px;
 }
 
+
+.amen h2{width:275px;
+float: left;}
+
+
+
 .elivation img {
 	margin: 10px 8px;
 }
+
+.paragraph{margin:20px 277px;
+width: 339px;font-size:15px;}
 
 .aimages p {
 	width: 178px;
@@ -609,10 +619,7 @@ body {
 	margin-left: 0px !important;
 }
 
-.amen h2 {
-	width: 187px;
-	float: left;
-}
+
 
 .box3 .uc-final {
 	left: -260px !important;
@@ -756,6 +763,13 @@ body {
 	text-shadow: #333 1px 0;
 	cursor: pointer;
 }
+
+
+
+
+
+
+
 /*contact Page */
 #contactus_page {
 	margin-top: 120px;
@@ -1022,6 +1036,12 @@ footer .footer-content .titlefooter .extramobile {
 	font-size: 17px;
 	background: white;
 	padding: 6px 10px;
+}
+
+#ottiyam a:link{
+	
+	position: absolute;
+bottom: 185px;
 }
 
 #fcontentbloc  p.mail {
