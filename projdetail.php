@@ -255,14 +255,25 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant elivation">
-							<a href="img/images/1.jpg" class="fancybox"><img src="img/images/1.jpg" style="width:178px"></a>
-							<a href="img/images/2.jpg" class="fancybox" > <img src="img/images/2.jpg" style="width:178px"></a>
-							<a href="img/images/3.jpg" class="fancybox"><img src="img/images/3.png" style="width:178px"></a>
-							<a href="img/images/4.jpg" class="fancybox"><img src="img/images/4.png" style="width:178px"></a>
-							<a href="img/images/5.jpg" class="fancybox"><img src="img/images/5.png" style="width:178px"></a>
-							<a href=img/images/7.jpg"" class="fancybox"><img src="img/images/7.png" style="width:178px"></a>
-							
+							<div class="contant aimages">
+							<ul>
+									<li>
+									<img src="img/images/1.jpg" style="width:155px"><p>Landscaped Garden</p> 
+									</li>
+
+									<li>
+									<img src="img/images/2.jpg" style="width:155px"><p>Children's Indoor & Outdoor Play court</p></li>
+									<li>
+									<img src="img/images/3.png" style="width:155px"><p>Fitness Arena</p></li>
+									<li>
+									<img src="img/images/4.png" style="width:155px"><p>24*7 Security &Surveillance camera</p></li>
+									<li>
+									<img src="img/images/5.png" style="width:155px"><p>Fire Protection System</p></li>
+									
+									<li> <img src="img/images/7.png" style="width:155px">
+									<p>power Backup(For Common Area)and 500 Watts back up for each
+										flat</p></li>
+								</ul>
 							
 							</div>
 						</div>
@@ -278,16 +289,22 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><p>Landscaped Garden</p> <img src="images/management.png">
+									<li>
+									<img src="img/images/1.jpg" style="width:155px"><span>Landscaped Garden</span> 
 									</li>
 
-									<li>Children's Indoor & Outdoor Play court</li>
-									<li>Fitness Arena</li>
-									<li>24*7 Security &Surveillance camera</li>
-									<li>Fire Protection System</li>
-									<li>Treated water for all Apartments</li>
-									<li>power Backup(For Common Area)and 500 Watts back up for each
-										flat</li>
+									<li>
+									<img src="img/images/2.jpg" style="width:155px"><span>Children's Indoor & Outdoor Play court</span></li>
+									<li>
+									<img src="img/images/3.png" style="width:155px"><span>Fitness Arena</span></li>
+									<li>
+									<img src="img/images/4.png" style="width:155px"><span>24*7 Security &Surveillance camera</span></li>
+									<li>
+									<img src="img/images/5.png" style="width:155px"><span>Fire Protection System</span></li>
+									
+									<li> <img src="img/images/7.png" style="width:155px">
+									<span>power Backup(For Common Area)and 500 Watts back up for each
+										flat</span></li>
 								</ul>
 
 								<table class="table">
@@ -424,7 +441,7 @@
 					</div>
 				</div>
 				<div>
-					<a href="" class="bowcher">Download Bowcher</a>
+					<a href="" class="bowcher">Download Brochure</a>
 				</div>
 				<!-- / grid --> </section>
 
@@ -823,7 +840,7 @@
 					<!-- / uc-container -->
 				</div>
 				<div>
-					<a href="" class="bowcher">Download Bowcher</a>
+					<a href="" class="bowcher">Download Brochure</a>
 				</div>
 				</section>
 
