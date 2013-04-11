@@ -43,6 +43,7 @@ body {
 	display: inline;
 }
 
+
 .align {
 	margin: 54px 0px;
 }
@@ -452,7 +453,7 @@ body {
 
 .contant {
 	overflow-y: scroll;
-	margin: 20px 40px;
+	margin: 20px 30px;
 	text-align: justify;
 	right: -28px;
 	position: absolute;
@@ -474,7 +475,7 @@ body {
 
 .aimages {
 	overflow-y: scroll;
-	margin: 20px 25px;
+	margin: 20px 30px;
 	text-align: justify;
 	height: 245px;
 	position: absolute;
@@ -498,7 +499,7 @@ body {
 
 .contant p {
 	padding-right: 22px;
-	font-size: 15px;
+	font-size: 12px;
 	text-align: justify;
 }
 
