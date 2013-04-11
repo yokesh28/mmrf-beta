@@ -47,7 +47,8 @@
 </head>
 
 <body >
-<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
+	<img src="images/2.jpg" width="100%" height="100%"
+			class="backimage">
 	<?php include 'header.php';?>
 	<div class="container">
 		<div class="row-fluid ">

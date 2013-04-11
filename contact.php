@@ -50,13 +50,14 @@
 
 </head>
 
-<body class="contact">
+<body >
 
 
 
 
 
-
+<img src="images/2.jpg" width="100%" height="100%"
+			class="backimage">
 
 
 	<div>

@@ -54,7 +54,7 @@
 	<div class="slide1 row-fluid">
 
 		<img src="images/2.jpg" width="100%" height="100%"
-			style="position: fixed; height: 100%">
+			class="backimage">
 		<?php include 'header.php';?>
 
 		<div class="im">
@@ -116,15 +116,16 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>Introducing Sai Enclave by MMRF, 44 spectacular abodes built 
-amidst the sprawling locale of Arasankazhani near Sithalapakkam, 
-off the OMR in Chennai. Sai Enclave features 1, 2 & 3 BHK homes 
-featuring world-class construction standards, the choicest
-amenities and are surrounded by India’s finest BPO and IT/ITES 
-companies. The abodes at Sai Enclave are built to continually 
-impart peace and happiness making them an ideal investment.</p>
+								<p>Introducing Sai Enclave by MMRF, 44 spectacular abodes built
+									amidst the sprawling locale of Arasankazhani near
+									Sithalapakkam, off the OMR in Chennai. Sai Enclave features 1,
+									2 & 3 BHK homes featuring world-class construction standards,
+									the choicest amenities and are surrounded by India’s finest BPO
+									and IT/ITES companies. The abodes at Sai Enclave are built to
+									continually impart peace and happiness making them an ideal
+									investment.</p>
 								<br>
-								
+
 							</div>
 
 						</div>
@@ -182,24 +183,30 @@ impart peace and happiness making them an ideal investment.</p>
 							<div class="contant aimages">
 								<ul>
 
-									<li><a class="fancybox" href="img/land.jpg">
-						<img src="img/landbig.jpg" width="155px"  class="img-polaroid"></a></li>
+									<li><a class="fancybox" href="img/land.jpg"> <img
+											src="img/landbig.jpg" width="155px" class="img-polaroid">
+									</a></li>
 
-									<li><a class="fancybox" href="img/child.jpg">
-						<img src="img/childbig.jpg" width="155px"  class="img-polaroid"></a></li>
-									
-									<li><a class="fancybox" href="img/fit.jpg">
-						<img src="img/fitbig.jpg" width="155px"  class="img-polaroid"></a></li>
-						
-						<li><a class="fancybox" href="img/security.jpg">
-						<img src="img/securitybig.jpg" width="155px"  class="img-polaroid"></a></li>
-						
-						<li><a class="fancybox" href="img/fire.jpg">
-						<img src="img/firebig.jpg" width="155px"  class="img-polaroid"></a></li>
-						
-						<li><a class="fancybox" href="img/power.jpg">
-						<img src="img/powerbig.jpg" width="155px"  class="img-polaroid"></a></li>
-						
+									<li><a class="fancybox" href="img/child.jpg"> <img
+											src="img/childbig.jpg" width="155px" class="img-polaroid">
+									</a></li>
+
+									<li><a class="fancybox" href="img/fit.jpg"> <img
+											src="img/fitbig.jpg" width="155px" class="img-polaroid">
+									</a></li>
+
+									<li><a class="fancybox" href="img/security.jpg"> <img
+											src="img/securitybig.jpg" width="155px" class="img-polaroid">
+									</a></li>
+
+									<li><a class="fancybox" href="img/fire.jpg"> <img
+											src="img/firebig.jpg" width="155px" class="img-polaroid">
+									</a></li>
+
+									<li><a class="fancybox" href="img/power.jpg"> <img
+											src="img/powerbig.jpg" width="155px" class="img-polaroid">
+									</a></li>
+
 
 								</ul>
 
@@ -218,37 +225,43 @@ impart peace and happiness making them an ideal investment.</p>
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 
-							
-							
-							<ul>
-									<li><a class="fancybox" href="img/land.jpg">
-						<img src="img/landbig.jpg" width="155px"  class="img-polaroid"><span>Landscaped
-											Garden</span></a></li>
+
+
+								<ul>
+									<li><a class="fancybox" href="img/land.jpg"> <img
+											src="img/landbig.jpg" width="155px" class="img-polaroid"><span>Landscaped
+												Garden</span>
+									</a></li>
 
 
 
-									<li><a class="fancybox" href="img/child.jpg">
-						<img src="img/childbig.jpg" width="155px"  class="img-polaroid"><span>Children's
-											Indoor & Outdoor Play court</span></a></li>
-									
-									<li><a class="fancybox" href="img/fit.jpg">
-						<img src="img/fitbig.jpg" width="155px"  class="img-polaroid"><span>Fitness
-											Arena</span></a></li>
-						
-						<li><a class="fancybox" href="img/security.jpg">
-						<img src="img/securitybig.jpg" width="155px"  class="img-polaroid"><span>24*7
-											Security &Surveillance camera</span></a></li>
-						
-						<li><a class="fancybox" href="img/fire.jpg">
-						<img src="img/firebig.jpg" width="155px"  class="img-polaroid"><span>Fire
-											Protection System</span></a></li>
-						
-						<li><a class="fancybox" href="img/power.jpg">
-						<img src="img/powerbig.jpg" width="155px"  class="img-polaroid"><span>Power
-											Backup(For Common Area)and 500 Watts back up for each flat</span></a></li>
+									<li><a class="fancybox" href="img/child.jpg"> <img
+											src="img/childbig.jpg" width="155px" class="img-polaroid"><span>Children's
+												Indoor & Outdoor Play court</span>
+									</a></li>
+
+									<li><a class="fancybox" href="img/fit.jpg"> <img
+											src="img/fitbig.jpg" width="155px" class="img-polaroid"><span>Fitness
+												Arena</span>
+									</a></li>
+
+									<li><a class="fancybox" href="img/security.jpg"> <img
+											src="img/securitybig.jpg" width="155px" class="img-polaroid"><span>24*7
+												Security &Surveillance camera</span>
+									</a></li>
+
+									<li><a class="fancybox" href="img/fire.jpg"> <img
+											src="img/firebig.jpg" width="155px" class="img-polaroid"><span>Fire
+												Protection System</span>
+									</a></li>
+
+									<li><a class="fancybox" href="img/power.jpg"> <img
+											src="img/powerbig.jpg" width="155px" class="img-polaroid"><span>Power
+												Backup(For Common Area)and 500 Watts back up for each flat</span>
+									</a></li>
 
 								</ul>
-								
+
 
 								<table class="table">
 
@@ -272,9 +285,9 @@ impart peace and happiness making them an ideal investment.</p>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-						
-							<h2>Structure:</h2>
-							Isolated frame structure with Solid Block Wall
+
+								<h2>Structure:</h2>
+								Isolated frame structure with Solid Block Wall
 								</p>
 								<br>
 								<p>
@@ -355,13 +368,6 @@ impart peace and happiness making them an ideal investment.</p>
 							</div>
 						</div>
 					</div>
-
-
-
-
-
-
-
 					<div class="uc-container box6 span4 floorplan">
 
 						<div class="uc-initial-content">
@@ -378,14 +384,13 @@ impart peace and happiness making them an ideal investment.</p>
 							</div>
 
 						</div>
-
-
 						<!-- / uc-container -->
 
 					</div>
 				</div>
 				<div>
-					<a href="media.pdf" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
+					<a href="media.pdf" class="bowcher" target="_blank"><img
+						src="img/brochure1.png"> </a>
 				</div>
 				<!-- / grid --> </section>
 
@@ -424,8 +429,10 @@ impart peace and happiness making them an ideal investment.</p>
 									not only makes you feel good but look good.</p>
 								<br>
 
-								<h5>SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN
-									LIFE.<br> IT SAYS THAT YOU HAVE ARRIVED.</h5>
+								<h5>
+									SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN LIFE.<br>
+									IT SAYS THAT YOU HAVE ARRIVED.
+								</h5>
 
 								<br>
 							</div>
@@ -450,8 +457,8 @@ impart peace and happiness making them an ideal investment.</p>
 						</div>
 					</div>
 					<!-- / uc-container -->
-					
-					
+
+
 
 					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
@@ -493,8 +500,8 @@ impart peace and happiness making them an ideal investment.</p>
 						</div>
 					</div>
 
-					
-					
+
+
 					<div class="uc-container box4 span4 amenities">
 						<div class="uc-initial-content">
 
@@ -571,7 +578,7 @@ impart peace and happiness making them an ideal investment.</p>
 					</div>
 
 
-					
+
 					<div class="uc-container box5 span4 specification">
 						<div class="uc-initial-content">
 
@@ -713,11 +720,12 @@ impart peace and happiness making them an ideal investment.</p>
 
 					</div>
 
-				
-				<div>
-					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
+
+					<div>
+						<a href="Vista Oceana Brochure.pdf" class="bowcher"
+							target="_blank"><img src="img/brochure1.png"> </a>
+					</div>
 				</div>
-</div>
 				</section>
 
 			</div>
@@ -845,7 +853,8 @@ impart peace and happiness making them an ideal investment.</p>
 					<!-- / uc-container -->
 				</div>
 				<div>
-					<a href="#" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
+					<a href="#" class="bowcher" target="_blank"><img
+						src="img/brochure1.png"> </a>
 				</div>
 				</section>
 
@@ -1086,7 +1095,7 @@ impart peace and happiness making them an ideal investment.</p>
 
 
 
-<style type="text/css">
+	<style type="text/css">
 .fancybox-custom .fancybox-skin {
 	box-shadow: 0 0 50px #222;
 }
