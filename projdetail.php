@@ -272,22 +272,25 @@ impart peace and happiness making them an ideal investment.</p>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-						    <heading1>
+						    <div class="heading1">
 							<h2>Structure:</h2>
-							</heading1>
+							</div>
 							<div class="paragraph1">
 							<p>Isolated frame structure with Solid Block Wall
 								</p>
 								</div>
 								
-									<h2>Flooring :</h2>
+							 <div class="heading1">
+							 <h2>Flooring :</h2>
+							 </div>
 									<p>2'X2'Branded Vitrified Tiles
 								</p>
 								
-								<p>
+								
 
 
-									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
+								<div class="heading1">Doors:<br>MainDoor:</div>
+								<div class="paragraph1"><p>Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
 									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
 									Door <b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <br>
 									<b>InternalDoor:</b>Flush doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water
@@ -296,20 +299,28 @@ impart peace and happiness making them an ideal investment.</p>
 									<b>ToiletDoor:</b>Water Proof Flush Door ======= <b>Doors:</b>MainDoor:Flush
 									doors with Wooden Frame<br> <br> <b>InternalDoor:</b>Flush
 									doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water Proof
-									Flush Door
+									Flush Door</p>
 
-								</p>
-								<br>
-								<p>
-									<b>Windows:</b>Heavy UPVC frames with Glass Shutters &MS Grill
-									for all windows
-								</p>
-								<br>
-								<p>
-									<b>Ventilators:</b>Heavy UPVC frames with glass or louvered & a
+								</div>
+								
+								<div class="heading1">
+									<h2>Windows:</h2>
+									</div>
+									
+									<div class="paragraph1">
+									<p>Heavy UPVC frames with Glass Shutters &MS Grill
+									for all windows</p>
+								</div>
+								
+								
+								<div class="heading1">
+								<h2>Ventilators:</h2>
+								</div>
+								<div class="paragraph1">
+								<p>Heavy UPVC frames with glass or louvered & a
 									provision for Exhaust Fan
 								</p>
-								<br>
+								</div>
 								<p>
 									<b>Electrical:</b>Three Phase service with Modular
 									Switches,Electrical outlets for A/c in all Bedrooms,Geyzer
