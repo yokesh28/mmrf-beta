@@ -23,7 +23,8 @@
 <script src="js/jquery.mobilemenu.js"></script>
 </head>
 
-<body class="background">
+<body id="about">
+<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;height: 100%">
 	<?php include 'header.php';?>
 	<div class="container">
 		<div class="row-fluid ">
@@ -33,16 +34,13 @@
 					<ul class="unstyled menu1 span10" id="myTab">
 						<li class="active"><a href="#about"><img src="images/group.png"
 								class="img-rounded">
-								<p>About Us</p> </a>
-						</li>
+								<p>About Us</p> </a></li>
 						<li><a href="#management"> <img src="images/management.png"
 								class="img-rounded">
 								<p>Management</p>
-						</a>
-						</li>
+						</a></li>
 						<li><a href="#app"><img src="images/team.png" class="img-rounded">
-								<p>Team</p> </a>
-						</li>
+								<p>Team</p> </a></li>
 					</ul>
 
 				</div>
@@ -177,51 +175,44 @@
 								<ol class="hcard clearfix">
 									<li>
 										<div class="photo">
-											<img
-												src="img/boy.png"
-												alt="Craig Bryant" width="115" height="115">
+											<img src="img/boy.png" alt="Craig Bryant" width="115"
+												height="115">
 										</div>
 										<p>
-											<span class="fn">Mr.Shakthi V</span>
-											<span class="title">CEO-From</span>
-											<span class="divider">/</span><span
-												class="year">2012</span>
+											<span class="fn">Mr.Shakthi V</span> <span class="title">CEO-From</span>
+											<span class="divider">/</span><span class="year">2012</span>
 										</p>
 									</li>
-									
+
 									<li>
 										<div class="photo">
-											<img
-												src="img/girl.png"
-												alt="Ka Wai Cheung" width="115" height="115">
+											<img src="img/girl.png" alt="Ka Wai Cheung" width="115"
+												height="115">
 										</div>
 										<p>
 											<span class="fn">Ms.Divya S</span><span class="title">VP-From
-											</span><span class="divider">/</span><span
-												class="year">2012</span>
+											</span><span class="divider">/</span><span class="year">2012</span>
 										</p>
 									</li>
 									<li>
 										<div class="photo">
-											<img
-												src="img/girl.png"
-												alt="Michael Sanders" width="115" height="115">
+											<img src="img/girl.png" alt="Michael Sanders" width="115"
+												height="115">
 										</div>
 										<p>
 											<span class="fn">Ms.Nandhini M</span><span class="title">VP-From
-										</span><span class="divider">/</span><span
-												class="year">2012</span>
+											</span><span class="divider">/</span><span class="year">2012</span>
 										</p>
 									</li>
-									
+
 									<li>
 										<div class="photo">
-											<img
-												src="img/girl.png"
-												alt="Tom Stanley" width="115" height="115">
+											<img src="img/girl.png" alt="Tom Stanley" width="115"
+												height="115">
 										</div>
 										<p>
-											<span class="fn move">Ms.Chitra V</span><span class="title">General Manager-From</span><span class="divider">/</span><span
+											<span class="fn move">Ms.Chitra V</span><span class="title">General
+												Manager-From</span><span class="divider">/</span><span
 												class="year">2012</span>
 										</p>
 									</li>
@@ -247,9 +238,7 @@
 	<?php include 'footer.php';?>
 </body>
 <script>
-  $(function () {
-    $('#myTab a:first').tab('show');
-  })
+
   
   $('#myTab a').click(function (e) {
   e.preventDefault();
