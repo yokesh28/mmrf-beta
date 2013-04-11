@@ -88,12 +88,32 @@
 
 </div>
 
+<div class="container mmrfspace" id="welcomemmrf">
 
-
+<div class="row">
+<div class="mmrfwelcome ">
    <h2>WELCOME TO MMRF</h2>
-   
+   <p>Welcome to MMRF. A real estate conglomerate created 
+by the coming together of 
+4 of Coimbatore's most renowned
+construction giants. MMRF is a seamless blend of 
+several decades of profound expertise and valuable 
+experience in the construction and real estate
+domain. MMRF aims to create world-class spaces 
+that continually set new benchmarks and exceed 
+expectations in every way. What will elevate
+the goodwill of MMRF is its strong value system, 
+unparalleled quality standards and the keen attention 
+to finer details that will ensure every project stands out 
+and adds greater value to life in so many ways.
+Mayflower Enterprises, Mount 
+Housing & Infrastructure, Ramani Realtors & Fairyland 
+Foundations</p>
+ </div>
  
-
+ </div>
+ 
+</div>
 
 		
 
