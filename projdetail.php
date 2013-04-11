@@ -226,7 +226,7 @@
 							<div class="contant aimages">
 
 
-                                                                img/ame/landbig.jpg
+                                                                
 								<ul>
 									<li><a class="fancybox" href="img/ame/landbig.jpg"> <img
 											src="img/ame/small/land.jpg" width="155px" class="img-polaroid"><span>Landscaped
