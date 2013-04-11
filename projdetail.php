@@ -285,19 +285,27 @@
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-
 								<h2>Structure:</h2>
 								Isolated frame structure with Solid Block Wall
+						    <div class="heading1">
+							<h2>Structure:</h2>
+							</div>
+							<div class="paragraph1">
+							<p>Isolated frame structure with Solid Block Wall
 								</p>
-								<br>
-								<p>
-									<b>Flooring :</b>2'X2'Branded Vitrified Tiles
+								</div>
+								
+							 <div class="heading1">
+							 <h2>Flooring :</h2>
+							 </div>
+									<p>2'X2'Branded Vitrified Tiles
 								</p>
-								<br>
-								<p>
+								
+								
 
 
-									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
+								<div class="heading1">Doors:<br>MainDoor:</div>
+								<div class="paragraph1"><p>Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
 									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
 									Door <b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <br>
 									<b>InternalDoor:</b>Flush doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water
@@ -306,20 +314,28 @@
 									<b>ToiletDoor:</b>Water Proof Flush Door ======= <b>Doors:</b>MainDoor:Flush
 									doors with Wooden Frame<br> <br> <b>InternalDoor:</b>Flush
 									doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water Proof
-									Flush Door
+									Flush Door</p>
 
-								</p>
-								<br>
-								<p>
-									<b>Windows:</b>Heavy UPVC frames with Glass Shutters &MS Grill
-									for all windows
-								</p>
-								<br>
-								<p>
-									<b>Ventilators:</b>Heavy UPVC frames with glass or louvered & a
+								</div>
+								
+								<div class="heading1">
+									<h2>Windows:</h2>
+									</div>
+									
+									<div class="paragraph1">
+									<p>Heavy UPVC frames with Glass Shutters &MS Grill
+									for all windows</p>
+								</div>
+								
+								
+								<div class="heading1">
+								<h2>Ventilators:</h2>
+								</div>
+								<div class="paragraph1">
+								<p>Heavy UPVC frames with glass or louvered & a
 									provision for Exhaust Fan
 								</p>
-								<br>
+								</div>
 								<p>
 									<b>Electrical:</b>Three Phase service with Modular
 									Switches,Electrical outlets for A/c in all Bedrooms,Geyzer
@@ -389,8 +405,9 @@
 					</div>
 				</div>
 				<div>
-					<a href="media.pdf" class="bowcher" target="_blank"><img
-						src="img/brochure1.png"> </a>
+
+					<a href="media.pdf" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
+
 				</div>
 				<!-- / grid --> </section>
 
@@ -434,7 +451,8 @@
 									IT SAYS THAT YOU HAVE ARRIVED.
 								</h5>
 
-								<br>
+
+								
 							</div>
 
 						</div>
@@ -720,11 +738,10 @@
 
 					</div>
 
+				
+				<div>
+					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
 
-					<div>
-						<a href="Vista Oceana Brochure.pdf" class="bowcher"
-							target="_blank"><img src="img/brochure1.png"> </a>
-					</div>
 				</div>
 				</section>
 
@@ -853,8 +870,12 @@
 					<!-- / uc-container -->
 				</div>
 				<div>
+<<<<<<< HEAD
 					<a href="#" class="bowcher" target="_blank"><img
 						src="img/brochure1.png"> </a>
+=======
+					<a href="#" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
+>>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
 				</div>
 				</section>
 

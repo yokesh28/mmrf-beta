@@ -490,7 +490,7 @@ body {
 .aimages p {
 	width: 178px;
 	height: 40px;
-	s
+	
 }
 
 .heading1 h2 {
@@ -498,9 +498,15 @@ body {
 	float: left;
 }
 
-.paragraph1 {
-	
+
+.heading1 h2{width:300px;
 }
+
+
+.paragraph1{margin: 12px 48px;
+width: 572px;}
+
+
 
 .aimages li {
 	float: left;
