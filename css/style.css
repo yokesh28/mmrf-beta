@@ -1035,6 +1035,12 @@ footer .footer-content .titlefooter .extramobile {
 	padding: 6px 10px;
 }
 
+#ottiyam a:link{
+	
+	position: absolute;
+bottom: 185px;
+}
+
 #fcontentbloc  p.mail {
 	position: absolute;
 	top: 138px;
