@@ -274,9 +274,9 @@ impart peace and happiness making them an ideal investment.</p>
 							<div class="contant">
 						
 							<h2>Structure:</h2>
-							Isolated frame structure with Solid Block Wall
+							<p>Isolated frame structure with Solid Block Wall
 								</p>
-								<br>
+								
 								<p>
 									<b>Flooring :</b>2'X2'Branded Vitrified Tiles
 								</p>
