@@ -383,27 +383,27 @@ body {
 }
 
 .overview .uc-initial-content {
-	background: url("../img/images/ove.jpg") no-repeat;
+	background: url("../img/pad4.jpg") no-repeat;
 }
 
 .location .uc-initial-content {
-	background: url("../img/images/loc.jpg") no-repeat;
+	background: url("../img/pad2.jpg") no-repeat;
 }
 
 .elevation .uc-initial-content {
-	background: url("../img/images/ele.jpg") no-repeat;
+	background: url("../img/pad3.jpg") no-repeat;
 }
 
 .amenities .uc-initial-content {
-	background: url("../img/images/ame.jpg") no-repeat;
+	background: url("../img/pad1.jpg") no-repeat;
 }
 
 .specification .uc-initial-content {
-	background: url("../img/images/spe.jpg") no-repeat;
+	background: url("../img/pad5.jpg") no-repeat;
 }
 
 .floorplan .uc-initial-content {
-	background: url("../img/images/flo.jpg") no-repeat;
+	background: url("../img/pad6.jpg") no-repeat;
 }
 
 .alert h4 {
