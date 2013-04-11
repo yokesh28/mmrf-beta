@@ -462,7 +462,12 @@ body {
 	position: absolute;
 	height: 340px;
 }
-
+.amen{
+	height: 340px;
+width: 630px;
+right: 0px;
+margin-right: 0px;
+}
 .elivation img {
 	margin: 10px 8px;
 }
@@ -588,6 +593,11 @@ body {
 }
 
 #grid .uc-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+}
+#gridpadur .uc-container {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-right: 0px;
