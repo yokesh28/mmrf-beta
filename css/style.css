@@ -19,28 +19,26 @@ body {
 	display: inline-block;
 }
 
-
 #welcomemmrf {
 	background: white;
 	width: 500px;
-	position: absolute;
+	position: fixed;
 	right: 12%;
 	top: 26%;
-padding: 12px 40px;
+	padding: 12px 40px;
 }
 
-#welcomemmrf h2{
+#welcomemmrf h2 {
 	color: black;
-font-style: italic;
-font-size: 26px;
+	font-style: italic;
+	font-size: 26px;
 }
-#welcomemmrf p{
+
+#welcomemmrf p {
 	text-align: justify;
-word-spacing: 2px;
-font-size: 12px;
+	word-spacing: 2px;
+	font-size: 12px;
 }
-
-
 
 .effect1 {
 	-moz-box-shadow: 0px 0px 8px 3px rgba(184, 184, 184, 0.94);
@@ -988,17 +986,17 @@ width: 572px;}
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =          100);
+	filter: alpha(opacity =           100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =          100);
+	filter: alpha(opacity =           100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =          100);
+	filter: alpha(opacity =           100);
 	opacity: 1;
 }
 
@@ -1015,7 +1013,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =         85);
+	filter: alpha(opacity =          85);
 	opacity: 1;
 	max-width: 1200px;
 	min-width: 700px;
@@ -1398,7 +1396,8 @@ blockquote {
 #about .container {
 	position: relative;
 }
-.mediapage{
+
+.mediapage {
 	
 }
 
