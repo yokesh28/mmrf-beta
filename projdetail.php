@@ -449,6 +449,8 @@ impart peace and happiness making them an ideal investment.</p>
 						</div>
 					</div>
 					<!-- / uc-container -->
+					
+					
 
 					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
@@ -490,6 +492,8 @@ impart peace and happiness making them an ideal investment.</p>
 						</div>
 					</div>
 
+					
+					
 					<div class="uc-container box4 span4 amenities">
 						<div class="uc-initial-content">
 
@@ -566,6 +570,7 @@ impart peace and happiness making them an ideal investment.</p>
 					</div>
 
 
+					
 					<div class="uc-container box5 span4 specification">
 						<div class="uc-initial-content">
 
@@ -574,63 +579,98 @@ impart peace and happiness making them an ideal investment.</p>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-								<p>
-									<b>STRUCTURE:</b>RCC framed structure with 9" thick bricks for
-									outer walls and 4.5" thick bricks for internal partition walls.
-								</p>
-								<br>
-								<p>
-									<b>WALL FINISHES:</b>All external walls cement plastered and
-									painted with exterior wall care point with a texture finish.<br>
-									ceiling will be cement plastered.finished with puty one coat of
-									emulsion.<br>internal walls finished with putty and emulsion
-									paint.
-								</p>
-								<br>
-								<p>
+
+								<div class="heading1">
+									<h2>STRUCTURE:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>RCC framed structure with 9" thick bricks for outer walls
+										and 4.5" thick bricks for internal partition walls.</p>
+								</div>
+								<div class="heading1">
 
 
-									<b>FLOORING:</b>imported full body vitrified tiles 900*600 in
-									living anddining<br>(Marble series VCitrified Tiles)Kitchen to
-									have anti-skid virtified tiles 6oo*600.<br>Bedroom to have
-									laminated wooden flooring.<br>internal steps in natural
-									stone-Green marble/Granite with a basic cost of Rs 100 perSqft.<br>Sit
-									outs and balconies-basant betton or equivalent blocks.
-								</p>
-								<br>
-								<p>
-									<b>KITCHEN:</b>Polished black granite working platform not
-									exceeding 15ft in length<br> Glazed tile dado for 24" height
-									from granite platform.Single bowl stainless steel sink with
-									drain board in kitchen and a single bowl stainless steel sink
-									without drain in utlity.
-								</p>
-								<br>
-								<p>
-									<b>TOILETS:</b>Glazed tile dado up to ceiling
-									height-size300*600.<br>Roca or Kholer make Good quality Cp
-									fittings.Grohe/Kholer or equivalent pressurized water.
-								</p>
-								<br>
-								<p>
-									<b>ELECTRICAL:</b>ConcelaedInsulated copper multi-strand wiring
-									with modular type switches-Anchor/MK Distribution board with
-									MCB's in each apartment.4lights,2fans and 2plug points
-									(5amps)in the living/dining area. 2lights,1fan and 1plug
-									point(5amps) in each bedroom. 2lights 1fan point.and 3plug
-									points(2nos 5Amps + 1 No 5/15 amp)in the kitchen.2lights
-									pints.1fan point and 1NO.15Amps power points for in all
-									bathrooms.Power Backup-Generator for common area lighting and
-									pumps.UPS provision for all individual villas.
-								</p>
-								<br>
-								<p>
-									<b>SECURITY SYSTEMS(options):</b>1.CC TV at the entrance gate.
-									2.LAN telephone lines connecting all houses which can be used
-									as an intercorn with the securityt at the gate. 3.video calling
-									doorbell.
-								</p>
-								<br>
+									<h2>WALL FINISHES:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>
+										All external walls cement plastered and painted with exterior
+										wall care point with a texture finish.<br> ceiling will be
+										cement plastered.finished with puty one coat of emulsion.<br>internal
+										walls finished with putty and emulsion paint.
+									</p>
+								</div>
+
+
+
+
+								<div class="heading1">
+									<h2>FLOORING:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>
+										imported full body vitrified tiles 900*600 in living anddining<br>(Marble
+										series VCitrified Tiles)Kitchen to have anti-skid virtified
+										tiles 6oo*600.<br>Bedroom to have laminated wooden flooring.<br>internal
+										steps in natural stone-Green marble/Granite with a basic cost
+										of Rs 100 perSqft.<br>Sit outs and balconies-basant betton or
+										equivalent blocks.
+									</p>
+								</div>
+
+								<div class="heading1">
+									<h2>KITCHEN:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>
+										Polished black granite working platform not exceeding 15ft in
+										length<br> Glazed tile dado for 24" height from granite
+										platform.Single bowl stainless steel sink with drain board in
+										kitchen and a single bowl stainless steel sink without drain
+										in utlity.
+									</p>
+								</div>
+
+
+
+
+
+								<div class="heading1">
+									<h2>TOILETS:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>
+										Glazed tile dado up to ceiling height-size300*600.<br>Roca or
+										Kholer make Good quality Cp fittings.Grohe/Kholer or
+										equivalent pressurized water.
+									</p>
+								</div>
+
+								<div class="heading1">
+									<h2>ELECTRICAL:</h2>
+								</div>
+
+								<div class="paragraph1">
+									<p>ConcelaedInsulated copper multi-strand wiring with modular
+										type switches-Anchor/MK Distribution board with MCB's in each
+										apartment.4lights,2fans and 2plug points (5amps)in the
+										living/dining area. 2lights,1fan and 1plug point(5amps) in
+										each bedroom. 2lights 1fan point.and 3plug points(2nos 5Amps +
+										1 No 5/15 amp)in the kitchen.2lights pints.1fan point and
+										1NO.15Amps power points for in all bathrooms.Power
+										Backup-Generator for common area lighting and pumps.UPS
+										provision for all individual villas.</p>
+								</div>
+
+								<div class="heading1">
+									<h2>SECURITY SYSTEMS(options):</h2>
+								</div>
+
+								<div class="paragraph1">
+									<p>1.CC TV at the entrance gate. 2.LAN telephone lines
+										connecting all houses which can be used as an intercorn with
+										the securityt at the gate. 3.video calling doorbell.</p>
+								</div>
 
 
 
@@ -661,7 +701,7 @@ impart peace and happiness making them an ideal investment.</p>
 							<div class="floorplan">
 
 								<a href="images/floorplan.jpg" target="_blank"><img
-									src="images/floorplan.jpg"> </a>
+									src="img/floor.jpg"> </a>
 							</div>
 
 						</div>
@@ -671,11 +711,12 @@ impart peace and happiness making them an ideal investment.</p>
 						<!-- / uc-container -->
 
 					</div>
-				</div>
 
+				
 				<div>
 					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img src="img/brochure1.png"></a>
 				</div>
+</div>
 				</section>
 
 			</div>
@@ -694,6 +735,7 @@ impart peace and happiness making them an ideal investment.</p>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
+
 								<h2>Overview</h2>
 								<p>The next project of MMRF is to launch 448 apartments in
 									Ottiyambakkam, OMR containing 1/2/3 BHK ranging from Sq ft 575

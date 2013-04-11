@@ -461,6 +461,7 @@ body {
 	right: -28px;
 	position: absolute;
 	height: 340px;
+	width:637px;overflow-x: hidden;
 }
 
 
@@ -489,6 +490,14 @@ width: 339px;font-size:15px;}
 	height: 40px;
 	s
 }
+
+
+.heading1 h2{width: 203px;
+float: left;}
+
+
+.paragraph1{}
+
 
 .aimages li {
 	float: left;
