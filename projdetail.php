@@ -290,21 +290,21 @@
 							<div class="contant aimages">
 								<ul>
 									<li>
-									<img src="img/images/1.jpg" style="width:155px"><p>Landscaped Garden</p> 
+									<img src="img/images/1.jpg" style="width:155px"><span>Landscaped Garden</span> 
 									</li>
 
 									<li>
-									<img src="img/images/2.jpg" style="width:155px"><p>Children's Indoor & Outdoor Play court</p></li>
+									<img src="img/images/2.jpg" style="width:155px"><span>Children's Indoor & Outdoor Play court</span></li>
 									<li>
-									<img src="img/images/3.png" style="width:155px"><p>Fitness Arena</p></li>
+									<img src="img/images/3.png" style="width:155px"><span>Fitness Arena</span></li>
 									<li>
-									<img src="img/images/4.png" style="width:155px"><p>24*7 Security &Surveillance camera</p></li>
+									<img src="img/images/4.png" style="width:155px"><span>24*7 Security &Surveillance camera</span></li>
 									<li>
-									<img src="img/images/5.png" style="width:155px"><p>Fire Protection System</p></li>
+									<img src="img/images/5.png" style="width:155px"><span>Fire Protection System</span></li>
 									
 									<li> <img src="img/images/7.png" style="width:155px">
-									<p>power Backup(For Common Area)and 500 Watts back up for each
-										flat</p></li>
+									<span>power Backup(For Common Area)and 500 Watts back up for each
+										flat</span></li>
 								</ul>
 
 								<table class="table">
