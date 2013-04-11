@@ -31,7 +31,7 @@
 			<div class="vission">
 				<div class="span3">
 
-					<ul class="unstyled menu1 span10" id="myTab">
+					<ul class="unstyled menu1 span10 effect1" id="myTab">
 						<li class="active"><a href="#about"><img src="images/group.png"
 								class="img-rounded">
 								<p>About Us</p> </a></li>
@@ -46,7 +46,7 @@
 				</div>
 
 				<div class="tab-content span9">
-					<div class="tab-pane active overview" id="about">
+					<div class="tab-pane active overview effect1" id="about">
 						<h4>Overview</h4>
 						<p class="">The top-notch names of the Real Estate sector have
 							joined hands to create and bestow an exceptional projects with
@@ -66,7 +66,7 @@
 
 
 
-					<div class="tab-pane" id="management">
+					<div class="tab-pane effect1" id="management">
 
 						<div class="span12"></div>
 						<div class="content span12">
@@ -163,7 +163,7 @@
 
 
 
-					<div class="tab-pane" id="app">
+					<div class="tab-pane effect1" id="app">
 
 
 						<div class="bd" id="content">

@@ -9,12 +9,6 @@ body {
 	height: 100%;
 }
 
-
-
-
-
-
-
 .background {
 	background: url(../images/2.jpg) 0 0 no-repeat;
 }
@@ -23,6 +17,70 @@ body {
 	color: black;
 	margin: 120px 0px;
 	display: inline-block;
+}
+
+
+#welcomemmrf {
+	background: white;
+	width: 500px;
+	position: absolute;
+	right: 12%;
+	top: 26%;
+padding: 12px 40px;
+}
+
+#welcomemmrf h2{
+	color: black;
+font-style: italic;
+font-size: 26px;
+}
+#welcomemmrf p{
+	text-align: justify;
+word-spacing: 2px;
+font-size: 12px;
+}
+
+
+
+.effect1 {
+	-moz-box-shadow: 0px 0px 8px 3px rgba(184, 184, 184, 0.94);
+	-webkit-box-shadow: 0px 0px 8px 3px rgba(184, 184, 184, 0.94);
+	box-shadow: 0px 0px 8px 3px rgba(184, 184, 184, 0.94);
+	border: 1px solid black;
+}
+
+.effect2 {
+	position: relative;
+}
+
+.effect2:before,.effect2:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width: 300px;
+	background: #777;
+	-webkit-box-shadow: 0 15px 10px #777;
+	-moz-box-shadow: 0 15px 10px #777;
+	box-shadow: 0 15px 10px #777;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+
+.effect2:after {
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	transform: rotate(3deg);
+	right: 10px;
+	left: auto;
 }
 
 .as p {
@@ -500,7 +558,6 @@ font-style: italic;
 .aimages p {
 	width: 178px;
 	height: 40px;
-	
 }
 
 .heading1 h2 {
@@ -515,6 +572,12 @@ font-style: italic;}
 .paragraph1{margin: 12px 48px;
 width: 572px;}
 
+
+
+.paragraph1 {
+	margin: 12px 48px;
+	width: 572px;
+}
 
 
 .aimages li {
@@ -925,17 +988,17 @@ width: 572px;}
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =         100);
+	filter: alpha(opacity =          100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =         100);
+	filter: alpha(opacity =          100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =         100);
+	filter: alpha(opacity =          100);
 	opacity: 1;
 }
 
@@ -952,7 +1015,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =        85);
+	filter: alpha(opacity =         85);
 	opacity: 1;
 	max-width: 1200px;
 	min-width: 700px;
@@ -1059,6 +1122,7 @@ footer .footer-content .titlefooter .extramobile {
 #ottiyam a:link {
 	position: absolute;
 	bottom: 185px;
+	left: 10px;
 }
 
 #fcontentbloc  p.mail {
@@ -1311,6 +1375,8 @@ footer nav  .header {
 
 .gallery {
 	margin-top: 120px;
+	background: rgba(250, 247, 247, 0.52);
+	position: relative;
 }
 
 .media_info {
@@ -1332,18 +1398,13 @@ blockquote {
 #about .container {
 	position: relative;
 }
-
-.media {
-	background: rgba(250, 247, 247, 0.78);
-	padding: 20px;
-	position: relative;
-	z-index: 5;
+.mediapage{
+	
 }
 
 .media h2 {
 	color: red;
 }
-
 
 .media li a {
 	color: black;
@@ -1352,7 +1413,6 @@ blockquote {
 .media li a:HOVER {
 	text-decoration: underline;
 	font-weight: bolder;
-
 }
 
 .media li a img {
