@@ -12,7 +12,7 @@ body {
 .background {
 	background: url(../images/2.jpg) 0 0 no-repeat;
 }
-
+ 
 .as h4 {
 	color: black;
 	margin: 120px 0px;
@@ -462,6 +462,7 @@ body {
 	position: absolute;
 	height: 340px;
 }
+
 .amen{
 	height: 340px;
 width: 630px;
@@ -471,6 +472,7 @@ margin-right: 0px;
 .elivation img {
 	margin: 10px 8px;
 }
+
 
 .aimages p {
 	width: 178px;
@@ -607,10 +609,7 @@ margin-right: 0px;
 	margin-left: 0px !important;
 }
 
-.amen h2 {
-	width: 187px;
-	float: left;
-}
+
 
 .box3 .uc-final {
 	left: -260px !important;
@@ -754,6 +753,13 @@ margin-right: 0px;
 	text-shadow: #333 1px 0;
 	cursor: pointer;
 }
+
+
+
+
+
+
+
 /*contact Page */
 #contactus_page {
 	margin-top: 120px;
