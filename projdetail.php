@@ -602,80 +602,43 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<p>
-									<b>Structure:</b>Isolated frame structure with Solid Block Wall
+									<b>STRUCTURE:</b>RCC framed structure with 9" thick bricks for outer walls and 4.5" thick bricks for internal partition walls.
 								</p>
 								<br>
 								<p>
-									<b>Flooring :</b>2'X2'Branded Vitrified Tiles
+									<b>WALL FINISHES:</b>All external walls cement plastered and painted with exterior wall care point with a texture finish.<br> ceiling will be cement plastered.finished with puty one coat of emulsion.<br>internal walls finished with putty and emulsion paint.
 								</p>
 								<br>
 								<p>
 
 
-									<b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <b>InternalDoor:</b>Flush
-									doors with Wooden Frame<br> <b>ToiletDoor:</b>Water Proof Flush
-									Door <b>Doors:</b>MainDoor:Flush doors with Wooden Frame<br> <br>
-									<b>InternalDoor:</b>Flush doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water
-									Proof Flush Door <b>Doors:</b>MainDoor:Flush doors with Wooden
-									Frame<br> <b>InternalDoor:</b>Flush doors with Wooden Frame<br>
-									<b>ToiletDoor:</b>Water Proof Flush Door ======= <b>Doors:</b>MainDoor:Flush
-									doors with Wooden Frame<br> <br> <b>InternalDoor:</b>Flush
-									doors with Wooden Frame<br> <br> <b>ToiletDoor:</b>Water Proof
-									Flush Door
-
+									<b>FLOORING:</b>imported full body vitrified tiles 900*600 in living anddining<br>(Marble series VCitrified Tiles)Kitchen to have anti-skid virtified tiles 6oo*600.<br>Bedroom to have laminated wooden flooring.<br>internal steps in natural stone-Green marble/Granite with a basic cost of Rs 100 perSqft.<br>Sit outs and balconies-basant betton or equivalent blocks.
 								</p>
 								<br>
 								<p>
-									<b>Windows:</b>Heavy UPVC frames with Glass Shutters &MS Grill
-									for all windows
+									<b>KITCHEN:</b>Polished black granite working platform not exceeding 15ft in length<br> Glazed tile dado for 24" height from granite platform.Single bowl stainless steel sink with drain board in kitchen and a single bowl stainless steel sink without drain in utlity.
 								</p>
 								<br>
 								<p>
-									<b>Ventilators:</b>Heavy UPVC frames with glass or louvered & a
-									provision for Exhaust Fan
+									<b>TOILETS:</b>Glazed tile dado up to ceiling height-size300*600.<br>Roca or Kholer make Good quality Cp fittings.Grohe/Kholer or equivalent pressurized water.
 								</p>
 								<br>
 								<p>
-									<b>Electrical:</b>Three Phase service with Modular
-									Switches,Electrical outlets for A/c in all Bedrooms,Geyzer
-									Points in all Toilet,Washing Machine,Fridge,Mixie,Grinder and
-									Oven Points,Necessary Light,Fan Plug Points will be
-									Provided,along with 500W power for each Flat from Common
-									Genset.Outlet for TV & Telephone in Living Hall and Master
-									Bedroom
+									<b>ELECTRICAL:</b>ConcelaedInsulated copper multi-strand wiring with modular type switches-Anchor/MK Distribution board with MCB's in each apartment.4lights,2fans and 2plug points (5amps)in the living/dining area.
+									2lights,1fan and 1plug point(5amps) in each bedroom.
+									2lights 1fan point.and 3plug points(2nos 5Amps + 1 No 5/15 amp)in the kitchen.2lights pints.1fan point and 1NO.15Amps power points
+									for in all bathrooms.Power Backup-Generator for common area lighting and pumps.UPS provision for all individual villas.
 								</p>
 								<br>
 								<p>
-									<b>Kitchen:</b>Counter top in high quality polished Black
-									Granite with nozing.Stainless Steel Single Bowl with Drain
-									Top.Water outlet provision for Water Purifer.Tiles up to 2 feet
-									height above the kitchen Cooking platform
+									<b>SECURITY SYSTEMS(options):</b>1.CC TV at the entrance gate.
+									2.LAN telephone lines connecting all houses which can be used as an intercorn with the securityt at the gate.
+									3.video calling doorbell.
 								</p>
 								<br>
 
-								<p>
-									<b>Utility:</b>Water Outlet/inlet Provision for Washing Machine
-								</p>
-								</br>
-								<p>
-									<b>Toilet:</b>Standard EWC/Washbasin(Parryware/Hindware)White
-									Closet with Health Faucet using Standard CP fittings,Wall Mixer
-									in all Toilets.Dadoing with Glazed Braded Tiles upto 7 feet
-									height Anti skid Ceramic tile Flooring will be provided.
-								</p>
-								<br>
-								<p>
-									<b>Intra-Communication System & Internet:</b>Intra-Communication
-									systems for security to each Apartment with Internet
-									Connections.
-								</p>
-								<br>
-								<p>
-									<b>Painting:</b>Painting with Acrylic emulsion,smoothly
-									finished with wall putty &main door polished & other Doors
-									polished with Arcrylic Enamel Paint with full putty.
-								</p>
-								<br>
+								
+								
 
 
 
