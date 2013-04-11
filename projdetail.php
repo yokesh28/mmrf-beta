@@ -228,35 +228,35 @@
 
 
 								<ul>
-									<li><a class="fancybox" href="img/land.jpg"> <img
-											src="img/landbig.jpg" width="155px" class="img-polaroid"><span>Landscaped
+									<li><a class="fancybox" href="img/ame/small/land.jpg"> <img
+											src="img/ame/landbig.jpg" width="155px" class="img-polaroid"><span>Landscaped
 												Garden</span>
 									</a></li>
 
 
 
-									<li><a class="fancybox" href="img/child.jpg"> <img
-											src="img/childbig.jpg" width="155px" class="img-polaroid"><span>Children's
+									<li><a class="fancybox" href="img/ame/small/child.jpg"> <img
+											src="img/ame/childbig.jpg" width="155px" class="img-polaroid"><span>Children's
 												Indoor & Outdoor Play court</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/fit.jpg"> <img
-											src="img/fitbig.jpg" width="155px" class="img-polaroid"><span>Fitness
+									<li><a class="fancybox" href="img/ame/small/fit.jpg"> <img
+											src="img/ame/fitbig.jpg" width="155px" class="img-polaroid"><span>Fitness
 												Arena</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/security.jpg"> <img
-											src="img/securitybig.jpg" width="155px" class="img-polaroid"><span>24*7
+									<li><a class="fancybox" href="img/ame/small/security.jpg"> <img
+											src="img/ame/securitybig.jpg" width="155px" class="img-polaroid"><span>24*7
 												Security &Surveillance camera</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/fire.jpg"> <img
-											src="img/firebig.jpg" width="155px" class="img-polaroid"><span>Fire
+									<li><a class="fancybox" href="img/ame/small/fire.jpg"> <img
+											src="img/ame/firebig.jpg" width="155px" class="img-polaroid"><span>Fire
 												Protection System</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/power.jpg"> <img
-											src="img/powerbig.jpg" width="155px" class="img-polaroid"><span>Power
+									<li><a class="fancybox" href="img/ame/small/power.jpg"> <img
+											src="img/ame/powerbig.jpg" width="155px" class="img-polaroid"><span>Power
 												Backup(For Common Area)and 500 Watts back up for each flat</span>
 									</a></li>
 
@@ -431,7 +431,7 @@
 			
 			<div>
 				<a href="media.pdf" class="bowcher" target="_blank"><img
-					src="img/brochure1.png"> </a>
+					src="img/brochure.png"> </a>
 			</div>
 			<!-- / grid -->
 			
@@ -764,7 +764,7 @@
 
 				<div>
 					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img
-						src="img/brochure1.png"> </a>
+						src="img/brochure.png"> </a>
 				</div>
 			</div>
 			</section>
@@ -894,7 +894,7 @@
 			</div>
 			<div>
 				<a href="#" class="bowcher" target="_blank"><img
-					src="img/brochure1.png"> </a>
+					src="img/brochure.png"> </a>
 			</div>
 			</section>
 
