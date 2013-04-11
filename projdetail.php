@@ -235,14 +235,29 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-								<p>Sai Enclave at ArasanKazhani near OMR offers unparalleled
-									lifestyle privileges of an urban and fast-paced living.
-									Splendidly designed by renowned Architects,Sai Enclave
-									furnishes around 44units consisting of 2BHK & 3BHK Apartments
-									crafted for an elegant living.Meticulous construction paired
-									with Upscale Amenities such as Play area,Fitness center,Lush
-									garden etc,Sai Enclave is fused with every bit of a desirable
-									living that will satiate your comfort craving.</p>
+
+
+
+
+
+
+								<iframe width="600" height="300"
+									src="http://regiohelden.de/google-maps/map_en.php?width=600&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"
+									frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+
+
+
+
+
+
+								</iframe>
+
+
+
+
+
+
 							</div>
 						</div>
 					</div>
@@ -262,13 +277,17 @@
 									</li>
 
 									<li><img class="img-polaroid" src="img/child.jpg"
-										style="width: 155px"></li>
+										style="width: 155px">
+									</li>
 									<li><img class="img-polaroid" src="img/fit.jpg"
-										style="width: 155px"></li>
+										style="width: 155px">
+									</li>
 									<li><img class="img-polaroid" src="img/security.jpg"
-										style="width: 155px"></li>
+										style="width: 155px">
+									</li>
 									<li><img class="img-polaroid" src="img/fire.jpg"
-										style="width: 155px"></li>
+										style="width: 155px">
+									</li>
 
 									<li><img class="img-polaroid" src="img/power.jpg"
 										style="width: 155px">
@@ -296,14 +315,17 @@
 
 									<li><img class="img-polaroid" src="img/child.jpg"
 										style="width: 155px"><span>Children's Indoor & Outdoor Play
-											court</span></li>
+											court</span>
+									</li>
 									<li><img class="img-polaroid" src="img/fit.jpg"
-										style="width: 155px"><span>Fitness Arena</span></li>
+										style="width: 155px"><span>Fitness Arena</span>
+									</li>
 									<li><img class="img-polaroid" src="img/security.jpg"
 										style="width: 155px"><span>24*7 Security &Surveillance camera</span>
 									</li>
 									<li><img class="img-polaroid" src="img/fire.jpg"
-										style="width: 155px"><span>Fire Protection System</span></li>
+										style="width: 155px"><span>Fire Protection System</span>
+									</li>
 
 									<li><img class="img-polaroid" src="img/power.jpg"
 										style="width: 155px"> <span>Power Backup(For Common Area)and
@@ -522,24 +544,30 @@
 								<ul>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/land.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 
 									<li><a class="fancybox" href="images/ ga1.jpg"><img
 											class="img-polaroid" src="img/child.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/fit.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/security.jpg"
-											style="width: 155px"> </a></li>
+											style="width: 155px"> </a>
+									</li>
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/fire.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 
 									<li><a class="fancybox" href="images/ga1.jpg"><img
 											class="img-polaroid" src="img/power.jpg" style="width: 155px">
-									</a></li>
+									</a>
+									</li>
 								</ul>
 							</div>
 						</div>
