@@ -116,106 +116,15 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>The top-notch names of the Real Estate sector have joined
-									hands to create and bestow an exceptional projects with
-									unparalleled quality. MMRF is a collaboraive endeavor of four
-									leading Real Estate Developers; Mayflower Enterprises Private
-									Limited, Mount Housing & Infrastructure Limited, Ramani
-									Realtors Private Limited & Fairyland Foundations Private
-									Limited.</p>
+								<p>Introducing Sai Enclave by MMRF, 44 spectacular abodes built 
+amidst the sprawling locale of Arasankazhani near Sithalapakkam, 
+off the OMR in Chennai. Sai Enclave features 1, 2 & 3 BHK homes 
+featuring world-class construction standards, the choicest
+amenities and are surrounded by India’s finest BPO and IT/ITES 
+companies. The abodes at Sai Enclave are built to continually 
+impart peace and happiness making them an ideal investment.</p>
 								<br>
-								<p>MMRF with its team of experts further aims to develop
-									ambience based Residential Flats, and commercial units at
-									strategically chosen locations. this extraordinary amalgamatin
-									of dedicated and esteemed Real Estate Developers ensures of a
-									larger than life dwelling in each of their project which will
-									surpass the expectaions of a high-end living.</p>
-								<br>
-								<h2>Our Board Of Directors</h2>
-								<br>
-								<p>
-									<b> Mr. V. Mohan</b>(Managing Director of<a
-										href="http://www.mayflowerenterprises.com/" target="_blank">
-										Mayflower Enterprises Pvt.Ltd</a>)
-
-								</p>
-								<br>
-								<p>
-									Mayflower was established in 1985 as property developers in
-									Coimbatore by Mr. A.N. Venkatachalam, one of the key members of
-									the Chettinad business empire for over 5 decades. <br> <br>
-									Under the leadership of Mr. V Mohan, the Managing Director, the
-									company has today grown to become a leading developer of gated
-									communities, independent villas and townships. <br> <br> The
-									company has completed over 8 commercial projects measuring over
-									250,000 sq. ft and 18 residential projects – apartment
-									complexes and independent villas measuring an estimated
-									1,200,000 sq. ft.
-								</p>
-								<br> <br>
-
-								<p>
-									<b> Mr. Ramesh Bafna</b>(Managing Director of<a
-										href="http://www.mounthousing.com" target="_blank"> Mount
-										Housing & Infrastructure Limited</a>)
-
-								</p>
-								<br>
-								<p>Mount Housing & Infrastructure Limited is one of the leading
-									developers in Coimbatore in the areas of residential flats and
-									commercial buildings.</p>
-								<p>The company has executed over 500,000 sq. ft of constructions
-									across 7 projects and has an estimated 325,000 sq. ft of
-									construction currently underway.</p>
-								<br> <br>
-
-
-								<p>
-									<b> Mr. V. Subramanian (“Mani”)</b>(Managing Director of<a
-										href="http://www.ramanirealtors.com//" target="_blank"> Ramani
-										Realtors Pvt. Limited</a>)
-
-								</p>
-								<br>
-								<p>Ramani Realtors Pvt. Limited – RRPL, an ISO 9001:2008
-									certified Company is professionally managed by its Chairman
-									Shri V S Venkatraman</p>
-								<br>
-								<p>Founded as Rajmani Builders, VSV Builders & Balaji
-									Constructions by its Chairman, the Company has projects across
-									Chennai and Coimbatore</p>
-								<br>
-								<p>Mr V Subramanian joined his Father Shri V S Venkatraman in
-									1981 and established Ramani Realtors in the year 1987. He is
-									the Managing Director of the Company and keeps himself abreast
-									of the latest developments in the construction industry and
-									implements them in his projects. He is ably supported by its
-									Executive Director Mrs Dharma Subramanian.</p>
-								<br>
-								<p>RRPL is one of the volume leaders for budget homes in Chennai
-									& Coimbatore with over 4000 satisfied Customer families and
-									over 4 million sq ft of completed constructions.</p>
-								<br>
-
-								<p>
-									<b> Mr. Saravanan</b>(Managing Director of<a
-										href="http://www.fairylandfoundations.com/" target="_blank">
-										Fairyland Foundations Pvt. Ltd</a>)
-
-								</p>
-								<br>
-								<p>Established in 2000, Fairyland Foundations Pvt. Ltd. is a one
-									of the leading builders in Chennai and is engaged in the
-									construction of residential flats and individual homes in
-									Chennai.</p>
-								<br>
-								<p>Spurred by its remarkable success in Chennai, the Company has
-									now spread its wings to Hosur and Coimbatore which have been
-									witnessing rapid and consistent growth in recent years.</p>
-								<p>The company has completed over 14 residential projects
-									comprising of 500 flats and 40 individual & duplex units
-									spanning across 650,000sq. ft.</p>
-								<br>
+								
 							</div>
 
 						</div>
@@ -235,14 +144,7 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-								<p>Sai Enclave at ArasanKazhani near OMR offers unparalleled
-									lifestyle privileges of an urban and fast-paced living.
-									Splendidly designed by renowned Architects,Sai Enclave
-									furnishes around 44units consisting of 2BHK & 3BHK Apartments
-									crafted for an elegant living.Meticulous construction paired
-									with Upscale Amenities such as Play area,Fitness center,Lush
-									garden etc,Sai Enclave is fused with every bit of a desirable
-									living that will satiate your comfort craving.</p>
+								
 							</div>
 						</div>
 					</div>
@@ -467,7 +369,7 @@
 					</div>
 				</div>
 				<div>
-					<a href="media.pdf" class="bowcher">Download Brochure</a>
+					<a href="media.pdf" class="bowcher" target="_blank"><img src="img/brochure.png"></a>
 				</div>
 				<!-- / grid --> </section>
 
@@ -507,7 +409,7 @@
 								<br>
 
 								<h5>SO WHEN YOU MOVE INTO PADUR,REMEMBER YOU ARE MOVING UP IN
-									LIFE.IT SAYS THAT YOU HAVE ARRIVED.</h5>
+									LIFE.<br> IT SAYS THAT YOU HAVE ARRIVED.</h5>
 
 								<br>
 							</div>
@@ -751,7 +653,7 @@
 				</div>
 
 				<div>
-					<a href="Vista Oceana Brochure.pdf" class="bowcher">Download
+					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank">Download
 						Brochure</a>
 				</div>
 				</section>
