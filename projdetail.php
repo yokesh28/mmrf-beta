@@ -152,10 +152,11 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-
+                         <ul>
                  <li class="size"><a class="fancybox" href="img/locbig.jpg"> <img
 											src="img/locsmall.jpg"  class="img-polaroid">
 									</a></li>
+									</ul>
                         </div>
 						</div>
 					</div>
@@ -167,10 +168,23 @@
 
 					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
-                         <a class="fancybox" href="img/sai big.jpg">
-							<span class="icon-eye"></span></a>
+						
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<span class="icon-cancel"></span>
+							<div class="contant">
+							<ul>
+									<li><a  href="#"> <img
+											src="img/elevation.png"
+											class="img-polaroid">
+									</a></li>
+						
+                         </ul>
+							
 						</div>
 						
+					</div>
 					</div>
 					<!-- / uc-container -->
 
@@ -840,12 +854,10 @@
 
 
 									<li><a class="fancybox" href="img/ooti/2-big.jpg"><img
-											class="img-polaroid" src="img/ooti/2-small.jpg"
-											style="width: 155px"> </a>
+											class="img-polaroid" src="img/ooti/2-small.jpg"> </a>
 									</li>
 									<li><a class="fancybox" href="img/ooti/3-big.jpg"><img
-											class="img-polaroid" src="img/ooti/3-small.jpg"
-											style="width: 155px"> </a>
+											class="img-polaroid" src="img/ooti/3-small.jpg"> </a>
 									</li>
 
 
