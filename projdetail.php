@@ -511,7 +511,7 @@
 								<ul>
 
 									<li><a class="fancybox" href="img/locbig.jpg"> <img
-											src="img/locsmall.jpg" width="650px"  class="img-polaroid">
+											src="img/locsmall.jpg"  class="img-polaroid">
 									</a></li>
 
 									
@@ -860,8 +860,7 @@
 							<div class="contant aimages">
 								<ul>
 									<li><a class="fancybox" href="img/ooti/1-big.jpg"><img
-											class="img-polaroid" src="img/ooti/1-small.jpg"
-											style="width: 155px"> </a>
+											class="img-polaroid" src="img/ooti/1-small.jpg"> </a>
 									</li>
 
 
