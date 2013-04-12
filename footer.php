@@ -55,7 +55,11 @@
 							<img src="images/cal.png">&nbsp; EMI Calculator
 						</h4> </a>
 				</p>
-
+<p>
+					<h4><a href="http://s-creative.me" target="_blank" class="desined">
+					Designed by S-Creative
+						 </a></h4>
+				</p>
 			</div>
 
 
