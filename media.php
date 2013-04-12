@@ -73,8 +73,8 @@
 							<li class="span3"><a class="fancybox" href="http://www.chennaipatrika.com/post/2013/04/10/MMRF-launches-two-prestigious-residential-projects.aspx"  target="_blank">
 						<img src="img/pdf5.png" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
 								media (12/4/2013)</h5></span></a></li>		
-								
-								
+							
+										
 								
 				   </ul>		
 								
@@ -86,11 +86,30 @@
 								<li class="span3"><a class="fancybox" href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWUbkqJHLe4"  target="_blank">
 						<img src="img/pdf6.png" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
 								media (12/4/2013)</h5></span></a></li>		
-						<li></li>
+							
+							<li class="span3"><a class="fancybox" href="img/images/deccan.jpg"  >
+						<img src="img/images/deccan.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
+								media (12/4/2013)</h5></span></a></li>
+								
+							<li class="span3"><a class="fancybox" href="img/images/makkal.jpg"  >
+						<img src="img/images/makkal.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
+								media (12/4/2013)</h5></span></a></li>	
+								<li class="span3"><a class="fancybox" href="img/images/kathir.jpg"  >
+						<img src="img/images/kathir.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
+								media (12/4/2013)</h5></span></a></li>	
 
 					</ul>
 				</div>
-
+                 <div class="span12">
+                 <ul>
+                 
+                 <li class="span3"><a class="fancybox" href="img/images/trinity.jpg"  >
+						<img src="img/images/trinity.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
+								media (12/4/2013)</h5></span></a></li>	
+                 </ul>
+                 
+                 
+                 </div>
 
 			</div>
 		</div>
