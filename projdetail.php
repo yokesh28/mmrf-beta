@@ -186,29 +186,11 @@
 							<div class="contant aimages">
 								<ul>
 
-									<li><a class="fancybox" href="img/land.jpg"> <img
-											src="img/landbig.jpg" width="155px" class="img-polaroid">
+									<li><a class="fancybox" href="img/saibig.jpg"> <img
+											src="img/saismall.jpg" width="155px" class="img-polaroid">
 									</a></li>
 
-									<li><a class="fancybox" href="img/child.jpg"> <img
-											src="img/childbig.jpg" width="155px" class="img-polaroid">
-									</a></li>
-
-									<li><a class="fancybox" href="img/fit.jpg"> <img
-											src="img/fitbig.jpg" width="155px" class="img-polaroid">
-									</a></li>
-
-									<li><a class="fancybox" href="img/security.jpg"> <img
-											src="img/securitybig.jpg" width="155px" class="img-polaroid">
-									</a></li>
-
-									<li><a class="fancybox" href="img/fire.jpg"> <img
-											src="img/firebig.jpg" width="155px" class="img-polaroid">
-									</a></li>
-
-									<li><a class="fancybox" href="img/power.jpg"> <img
-											src="img/powerbig.jpg" width="155px" class="img-polaroid">
-									</a></li>
+									
 
 
 								</ul>
@@ -420,11 +402,17 @@
 						<div class="contant aimages">
 								<ul>
 
-									<li><a class="fancybox" href="img/floorsmall.jpg"> <img
-											src="img/floorbig.jpg" width="155px" class="img-polaroid">
+									<li><a class="fancybox" href="img/1floor.jpg"> <img
+											src="img/f1.jpg" width="155px" class="img-polaroid">
 									</a></li>
 
+									<li><a class="fancybox" href="img/2floor.jpg"> <img
+											src="img/f2.jpg" width="155px" class="img-polaroid">
+									</a></li>
 									
+									<li><a class="fancybox" href="img/3floor.jpg"> <img
+											src="img/f3.jpg" width="155px" class="img-polaroid">
+									</a></li>
 
 								</ul>
 
