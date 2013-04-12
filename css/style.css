@@ -207,7 +207,7 @@ font-size: 12px;
 }
 
 .textright {
-	background: white;
+	
 	width: 317px;
 	height: 172px;
 	font-family: chaparral Pro;
@@ -229,12 +229,10 @@ font-size: 12px;
 	line-height: 35px;
 }
 
-.textright p:hover {
-	color: white;
-}
+
 
 .textleft {
-	background: white;
+	
 	width: 317px;
 	height: 166px;
 	font-family: chaparral Pro;
@@ -250,16 +248,7 @@ font-size: 12px;
 	font-style: italic;
 }
 
-.textleft:hover {
-	background: red;
-	cursor: pointer;
-	color: white;
-}
 
-.textright:hover {
-	background: red;
-	color: white;
-}
 
 .building1 img {
 	width: 100%;
@@ -1398,6 +1387,15 @@ blockquote {
 #about .container {
 	position: relative;
 }
+
+
+
+#about p{padding: 14px;
+font-size: 13px;
+font-style: normal;}
+
+
+
 .mediapage{
 	
 }
