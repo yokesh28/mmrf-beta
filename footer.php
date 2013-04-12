@@ -30,7 +30,7 @@
 					</div>
 					<div class="span4 ph">
 						<ul>
-							<li><label>Phone :</label> + 91 44 43551600<br> + 91 44 24400523</li>
+							<li><label>Phone :</label> +91 98400 09118, 20</li>
 
 							<li><label>Mail :</label> info@mmrf.in</li>
 							<li><label>Website:</label>  www.mmrf.in</li>
