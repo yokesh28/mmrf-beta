@@ -88,14 +88,14 @@
 								media (12/4/2013)</h5></span></a></li>		
 							
 							<li class="span3"><a class="fancybox" href="img/images/deccan.jpg"  >
-						<img src="img/images/deccan.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
+						<img src="img/images/1.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
 								media (12/4/2013)</h5></span></a></li>
 								
 							<li class="span3"><a class="fancybox" href="img/images/makkal.jpg"  >
-						<img src="img/images/makkal.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
+						<img src="img/images/6.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
 								media (12/4/2013)</h5></span></a></li>	
 								<li class="span3"><a class="fancybox" href="img/images/kathir.jpg"  >
-						<img src="img/images/kathir.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
+						<img src="img/images/3.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
 								media (12/4/2013)</h5></span></a></li>	
 
 					</ul>
@@ -104,7 +104,7 @@
                  <ul>
                  
                  <li class="span3"><a class="fancybox" href="img/images/trinity.jpg"  >
-						<img src="img/images/trinity.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
+						<img src="img/images/4.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
 								media (12/4/2013)</h5></span></a></li>	
                  </ul>
                  
