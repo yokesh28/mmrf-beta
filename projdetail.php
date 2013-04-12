@@ -844,19 +844,10 @@
 
 
 
-					<div class="uc-container box2 span4 location">
-						<div class="uc-initial-content">
-
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content ">
-							<span class="icon-cancel"></span>
-							<div class="contant"></div>
-						</div>
-					</div>
+					
 					<!-- / uc-container -->
 
-					<div class="uc-container box3 span4  elevation">
+					<div class="uc-container box2 span4  elevation">
 						<div class="uc-initial-content">
 
 							<span class="icon-eye"></span>
@@ -987,6 +978,18 @@
 
 
 				</div>
+				<br clear="both">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				
 				<div>
 					<a href="#" class="bowcher" target="_blank"><img
 						src="img/brochure.png"> </a>
