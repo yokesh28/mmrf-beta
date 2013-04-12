@@ -176,7 +176,7 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 							<ul>
-									<li><a  href="#"> <img
+									<li><a  href="img/elevbig.png" id="elevsigle" class="fancybox"> <img
 											src="img/elevation.png"
 											class="img-polaroid">
 									</a></li>
@@ -1223,6 +1223,8 @@
 				 $('#upcoming').animate({"z-index": "114",opacity:0},500);
 				 $('#ongoing').animate({"z-index": "115",opacity:1},500);
 			});
+
+			
 		</script>
 
 
