@@ -24,9 +24,6 @@
 <link href="css/style1.css" rel="stylesheet">
 <link rel="stylesheet" href="css/easy-fancybox.css">
 
-<link rel="alternate" type="application/rss+xml"
-	title="Parc Amazonien de Guyane Feed"
-	href="http://www.parc-amazonien-guyane.fr/feed/">
 
 
 
@@ -34,13 +31,10 @@
 	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
 
 <script
-	src="http://gayadesign.com/scripts/queryLoader2/js/lib/jquery.queryloader2.js"></script>
+	src="js/jquery.queryloader2.js"></script>
 
-</head>
-<script type="text/javascript">
-$(document).ready(function () {
-    $("body").queryLoader2();
-});</script>
+<script
+	src="js/jsscript.js"></script>
 <body class="homepage">
 	<!--  <div class="alert alert-block ">
 		<button type="button" class="close closebutton" data-dismiss="alert">&times;</button>

@@ -8,6 +8,7 @@ html {
 body {
 	font-family: Nilland-Black-bold;
 	height: 100%;
+	visibility: hidden;
 }
 
 .background {
