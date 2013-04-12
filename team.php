@@ -10,8 +10,12 @@
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="//use.typekit.net/oxe2gpf.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	
+
+	<script
+	src="js/jquery.queryloader2.js"></script>
+
+<script
+	src="js/jsscript.js"></script>
  <?php include 'header.php';?>
  
 <body class="page page-id-1805 page-template page-template-template-about-php">

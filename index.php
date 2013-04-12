@@ -12,21 +12,6 @@
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 <link rel='shortcut icon' href='/img/favicon.png'>
 
-<!-- This site is optimized with the Yoast WordPress SEO plugin v1.3.4.4 - http://yoast.com/wordpress/seo/ -->
-<link rel="canonical" href="http://www.parc-amazonien-guyane.fr/" />
-<meta property='og:locale' content='fr_FR' />
-<meta property='og:title' content='Parc Amazonien de Guyane' />
-<meta property='og:url' content='http://www.parc-amazonien-guyane.fr/' />
-<meta property='og:site_name' content='Parc Amazonien de Guyane' />
-<meta property='og:type' content='article' />
-<!-- / Yoast WordPress SEO plugin. -->
-
-
-
-
-
-
-
 
 
 
@@ -39,18 +24,17 @@
 <link href="css/style1.css" rel="stylesheet">
 <link rel="stylesheet" href="css/easy-fancybox.css">
 
-<link rel="alternate" type="application/rss+xml"
-	title="Parc Amazonien de Guyane Feed"
-	href="http://www.parc-amazonien-guyane.fr/feed/">
 
 
 
 <script
 	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
 
+<script
+	src="js/jquery.queryloader2.js"></script>
 
-</head>
-
+<script
+	src="js/jsscript.js"></script>
 <body class="homepage">
 	<!--  <div class="alert alert-block ">
 		<button type="button" class="close closebutton" data-dismiss="alert">&times;</button>
@@ -79,26 +63,20 @@
 	</div>
 
 
-	<div  id="welcomemmrf" class="effect1 span6">
+	<div id="welcomemmrf" class=" span6">
 
 		<h2>Welcome to MMRF</h2>
-			<p> A real estate conglomerate created
-by the coming together of
-4 of Coimbatore's most renowned
-construction giants. MMRF is a seamless blend of
-several decades of profound expertise and valuable
-experience in the construction and real estate
-domain. MMRF aims to create world-class spaces
-that continually set new benchmarks and exceed
-expectations in every way. What will elevate
-the goodwill of MMRF is its strong value system,
-unparalleled quality standards and the keen attention
-to finer details that will ensure every project stands out
-and adds greater value to life in so many ways.
-Mayflower Enterprises, Mount
-Housing & Infrastructure, Ramani Realtors & Fairyland
-Foundations
-			</p>
+		<p>A real estate conglomerate created by the coming together of 4 of
+			Coimbatore's most renowned construction giants. MMRF is a seamless
+			blend of several decades of profound expertise and valuable
+			experience in the construction and real estate domain. MMRF aims to
+			create world-class spaces that continually set new benchmarks and
+			exceed expectations in every way. What will elevate the goodwill of
+			MMRF is its strong value system, unparalleled quality standards and
+			the keen attention to finer details that will ensure every project
+			stands out and adds greater value to life in so many ways. Mayflower
+			Enterprises, Mount Housing & Infrastructure, Ramani Realtors &
+			Fairyland Foundations</p>
 	</div>
 
 

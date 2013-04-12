@@ -18,8 +18,11 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
 <script src="js/bootstrap.min.js"></script>
+<script
+	src="js/jquery.queryloader2.js"></script>
 
-
+<script
+	src="js/jsscript.js"></script>
 <script src="js/jquery.mobilemenu.js"></script>
 
 	
@@ -56,10 +59,10 @@
 				<div class=" span12">
 					<ul>
 						<li class="span3"><a class="fancybox" href="media.pdf" target="_blank">
-						<img src="images/ga1.jpg" width="300" height="300" class="img-polaroid"><span><h5>Updated
+						<img src="img/pdf1.png" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
 								media (10/4/2013)</h5></span></a></li>
-						<li class="span3"><a class="fancybox" href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWT_MDe9CpU ">
-						<img src="images/ga2.jpg" width="300" height="300" class="img-polaroid"><span><h5>Updated
+						<li class="span3"><a class="fancybox" href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWT_MDe9CpU "  target="_blank">
+						<img src="img/pdf2.png" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
 								media (11/4/2013)</h5></span></a></li>
 						<li></li>
 
