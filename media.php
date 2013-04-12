@@ -18,11 +18,13 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
 <script src="js/bootstrap.min.js"></script>
+
 <script
 	src="js/jquery.queryloader2.js"></script>
 
 <script
 	src="js/jsscript.js"></script>
+	
 <script src="js/jquery.mobilemenu.js"></script>
 
 	

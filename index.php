@@ -10,10 +10,13 @@
 <title>mmrf</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-<link rel='shortcut icon' href='/img/favicon.png'>
+<link rel='shortcut icon' href='img/favicon.png'>
 
 
 
+
+<script
+	src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
 <!-- Bootstrap -->
 <link href="css/res.css" rel="stylesheet">
@@ -26,9 +29,6 @@
 
 
 
-
-<script
-	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
 
 <script
 	src="js/jquery.queryloader2.js"></script>
@@ -113,20 +113,7 @@
 </script>
 
 
-	<script type="text/javascript">
-/* <![CDATA[ */
-jQuery(document).ready(function($){
-var fb_timeout = null;
-var fb_opts = { 'overlayShow' : true, 'centerOnScroll' : true, 'showCloseButton' : true, 'showNavArrows' : true, 'onCleanup' : function() { if(fb_timeout) { window.clearTimeout(fb_timeout); fb_timeout = null; } } };
-/* IMG */
-var fb_IMG_select = 'a[href$=".jpg"]:not(.nofancybox),a[href$=".JPG"]:not(.nofancybox),a[href$=".gif"]:not(.nofancybox),a[href$=".GIF"]:not(.nofancybox),a[href$=".png"]:not(.nofancybox),a[href$=".PNG"]:not(.nofancybox)';
-$(fb_IMG_select).addClass('fancybox').attr('rel', 'gallery');
-$('a.fancybox, area.fancybox').fancybox( $.extend({}, fb_opts, { 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true }) );
-/* Auto-click */ 
-$('#fancybox-auto').trigger('click');
-});
-/* ]]> */
-</script>
+
 
 
 </body>
