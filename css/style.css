@@ -205,7 +205,7 @@ body {
 }
 
 .textright {
-	background: white;
+	
 	width: 317px;
 	height: 172px;
 	font-family: chaparral Pro;
@@ -227,12 +227,10 @@ body {
 	line-height: 35px;
 }
 
-.textright p:hover {
-	color: white;
-}
+
 
 .textleft {
-	background: white;
+	
 	width: 317px;
 	height: 166px;
 	font-family: chaparral Pro;
@@ -248,16 +246,7 @@ body {
 	font-style: italic;
 }
 
-.textleft:hover {
-	background: red;
-	cursor: pointer;
-	color: white;
-}
 
-.textright:hover {
-	background: red;
-	color: white;
-}
 
 .building1 img {
 	width: 100%;
@@ -1397,8 +1386,18 @@ blockquote {
 	position: relative;
 }
 
-.mediapage {
-	
+
+
+
+#about p{padding: 14px;
+font-size: 13px;
+font-style: normal;}
+
+
+
+.mediapage{
+
+
 }
 
 .media h2 {

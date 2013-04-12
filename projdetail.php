@@ -69,14 +69,16 @@
 					</div>
 
 					<div class="textright enclave pull-left" style="cursor: pointer;">
-						<p>Sai Enclave</p>
+						<img src="images/sai1.jpg" class="img-polaroid">
+						
 					</div>
 
 
 				</div>
 				<div class="position2 ">
 					<div class="textleft padur pull-left " style="cursor: pointer;">
-						<p>Padur Residence</p>
+						<img src="images/pud1.jpg" class="img-polaroid">
+						
 					</div>
 					<div class="building pull-left visible-desktop"
 						style="margin: 0px; margin-left: 53px; margin-top: -30px;">
@@ -93,7 +95,8 @@
 					</div>
 
 					<div class="textright ottiyam pull-left " style="cursor: pointer;">
-						<p>Ottiyambakkam, Chennai</p>
+						<img src="images/otti.jpg" class="img-polaroid">
+						
 					</div>
 
 				</div>
@@ -226,7 +229,7 @@
 							<div class="contant aimages">
 
 
-                                                                img/ame/landbig.jpg
+                                                                
 								<ul>
 									<li><a class="fancybox" href="img/ame/landbig.jpg"> <img
 											src="img/ame/small/land.jpg" width="155px" class="img-polaroid"><span>Landscaped
