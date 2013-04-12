@@ -506,7 +506,22 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant"></div>
+
+							<div class="contant aimages">
+								<ul>
+
+									<li><a class="fancybox" href="img/locbig.jpg"> <img
+											src="img/locsmall.jpg" width="650px"  class="img-polaroid">
+									</a></li>
+
+									
+
+								</ul>
+
+
+							</div>
+							
+
 						</div>
 					</div>
 					<!-- / uc-container -->
