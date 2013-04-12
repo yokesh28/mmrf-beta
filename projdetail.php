@@ -151,31 +151,23 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant">
+							
+
+                 <li class="size"><a class="fancybox" href="img/locbig.jpg"> <img
+											src="img/locsmall.jpg"  class="img-polaroid">
+									</a></li>
+                 
 
 
 
-
-
-								<iframe width="600" height="300"
-									src="http://regiohelden.de/google-maps/map_en.php?width=600&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"
-									frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-
-
-
-
-
-
-
-								</iframe>
+							
 
 
 
 
 
 
-
-							</div>
+						
 						</div>
 					</div>
 					<!-- / uc-container -->
@@ -188,16 +180,15 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
-								<ul>
+								
 
-									<li><a class="fancybox" href="img/saibig.jpg"> <img
-											src="img/saismall.jpg" width="155px" class="img-polaroid">
-									</a></li>
-
+									<a class="fancybox" href="img/sai big.jpg"> 
+									</a>
 
 
 
-								</ul>
+
+								
 
 
 							</div>
@@ -423,15 +414,15 @@
 							<div class="contant aimages">
 								<ul>
 
-									<li><a class="fancybox" href="img/1floor.jpg"> <img
+									<li><a class="fancybox" href="img/sai floor1.jpg"> <img
 											src="img/f1.jpg" width="155px" class="img-polaroid">
 									</a></li>
 
-									<li><a class="fancybox" href="img/2floor.jpg"> <img
+									<li><a class="fancybox" href="img/sai floor2.jpg"> <img
 											src="img/f2.jpg" width="155px" class="img-polaroid">
 									</a></li>
 
-									<li><a class="fancybox" href="img/3floor.jpg"> <img
+									<li><a class="fancybox" href="img/sai floor3.jpg"> <img
 											src="img/f3.jpg" width="155px" class="img-polaroid">
 									</a></li>
 
@@ -514,6 +505,7 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
+
 							<div class="contant aimages">
 								<ul>
 
@@ -528,6 +520,7 @@
 
 							</div>
 							
+
 						</div>
 					</div>
 					<!-- / uc-container -->
@@ -773,16 +766,16 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><a class="fancybox" href="img/pudfloor3.jpg"><img
+									<li><a class="fancybox" href="img/1big-floor.jpg"><img
 											class="img-polaroid" src="img/1small-floor.jpg"
 											style="width: 155px"> </a>
 									</li>
 
-									<li><a class="fancybox" href="img/pudfloor1.jpg"><img
+									<li><a class="fancybox" href="img/2big-floor.jpg"><img
 											class="img-polaroid" src="img/2small-floor.jpg"
 											style="width: 155px"> </a>
 									</li>
-									<li><a class="fancybox" href="img/pudfloor2.jpg"><img
+									<li><a class="fancybox" href="img/3big-floor.jpg"><img
 											class="img-polaroid" src="img/3small-floor.jpg"
 											style="width: 155px"> </a>
 									</li>
