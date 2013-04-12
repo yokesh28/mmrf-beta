@@ -86,14 +86,13 @@
 				<address>
 					<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
 					New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
-					Chennai - 600020.<br> <br> <br> Phone : + 91 44 43551600<br> + 91
-					44 24400523 <br> <br> Mail : info@mmrf.in<br> Website : www.mmrf.in
+					Chennai - 600020.<br> <br> <br> Phone : +91 98400 09118, 20 <br>  <br> Mail : info@mmrf.in<br> Website : www.mmrf.in
 				</address>
 			</div>
 			<div class=" enquiry">
 				<h2>Contact Form</h2>
 				<form name="contactus" id="contactus_form"
-					onSubmit="return submitContact();">
+					onSubmit="return validateForm();">
 					<ul>
 						<li><label>Name<span>*</span>
 						</label><input type="text" name="name" style="width: 180px;"></li>
@@ -128,7 +127,7 @@
 						<li><label>BuildUp Area<span>*</span>
 						</label>
 							<div class="select" style="width: 200px;">
-								<select style="width: 200px;" name="build_area"><option value="">--Select--</option>
+								<select style="width: 200px;" name="build_area" id="bulid"><option value="">--Select--</option>
 
 
 
@@ -153,7 +152,7 @@
 							</div> <label style="width: 76px">Budget<span>*</span>
 						</label>
 							<div class="select" style="width: 153px">
-								<select style="width: 154px" name="budget"><option value="">--Select--</option>
+								<select style="width: 154px" name="budget" id="bud"><option value="">--Select--</option>
 
 
 									<option value="Less than 60,00,000">Less than 60,00,000</option>
@@ -178,8 +177,10 @@
 							clear="all"> <textarea class="enquiry_text" name="enquiry"></textarea>
 						</li>
 						<li class="button"><input type="submit" name="submit"
-							value="Sent Enquiry"><input type="button" name="reset"
-							value="Reset"></li>
+							value="Send Enquiry"><input type="button" name="reset"
+							value="Reset">
+							<span
+							id="response" style="color:black"></span></li>
 					</ul>
 				</form>
 
@@ -195,7 +196,108 @@
 
 
 	<script src="js/jquery.mobilemenu.js"></script>
+<script type="text/javascript">
+function validateForm()
+{
 
+var contactname=document.forms["contactus"]["name"].value;
+
+var contactaddress=document.forms["contactus"]["address"].value;
+
+var contactbudget=document.forms["contactus"]["budget"].value;
+
+var contactbulid_area=document.forms["contactus"]["build_area"].value;
+
+var contactmobile=document.forms["contactus"]["mobile"].value;
+
+var contactlocation=document.forms["contactus"]["location"].value;
+
+var contactemail=document.forms["contactus"]["email"].value;
+var atpos=contactemail.indexOf("@");
+var dotpos=contactemail.lastIndexOf(".");
+
+if (contactname==null || contactname=="")
+  {
+  alert(" Name must be filled out");
+  return false;
+  }
+
+else if (contactaddress==null || contactaddress=="")
+{
+alert(" Address must be filled out");
+return false;
+}
+
+else if (atpos<1 || dotpos<atpos+2 || dotpos+2>=contactemail.length)
+{
+	  alert("Not a valid e-mail address");
+	  return false;
+	  }
+
+  
+else if (contactmobile==null || contactmobile=="")
+ {
+	 alert("MobileNo must be filled out");
+	 return false;
+ }       
+
+else if(isNaN(contactmobile)|| contactmobile.indexOf(" ")!=-1)
+{
+         			alert("Enter numeric value");
+		return false;
+           }
+else if (contactmobile.length > 10 || contactmobile.length < 10 )
+		{
+           			alert("enter 10 characters"); 
+			return false;
+     			 }
+
+
+else if (contactlocation==null || contactlocation=="")
+{
+alert(" Location must be filled out");
+return false;
+}
+else if (
+		  (bulid.selectedIndex == 0)  
+		  
+		  
+		) 
+	{  
+		  alert('Bulid_area to select at least one');
+		  return false;
+		}
+else if (
+		  
+		  (bud.selectedIndex == 0) 
+		  
+		) 
+	{  
+		  alert('Budget to select at least one');
+		  return false;
+		}
+
+
+
+	  
+  
+$.ajax({
+	type : "post",
+	url : "mail.php",
+	cache : false,
+	data : $('#contactus_form').serialize(),
+	success : function(json) {
+			$('#response').html(json);
+		
+
+	
+	},
+	
+});
+
+return false;
+}
+</script>
 
 
 
