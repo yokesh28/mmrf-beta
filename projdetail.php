@@ -514,7 +514,20 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant"></div>
+							<div class="contant aimages">
+								<ul>
+
+									<li><a class="fancybox" href="img/locbig.jpg"> <img
+											src="img/locsmall.jpg" width="650px"  height ="300px" class="img-polaroid">
+									</a></li>
+
+									
+
+								</ul>
+
+
+							</div>
+							
 						</div>
 					</div>
 					<!-- / uc-container -->
@@ -760,16 +773,16 @@
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
-									<li><a class="fancybox" href="img/1big-floor.jpg"><img
+									<li><a class="fancybox" href="img/pudfloor3.jpg"><img
 											class="img-polaroid" src="img/1small-floor.jpg"
 											style="width: 155px"> </a>
 									</li>
 
-									<li><a class="fancybox" href="img/2big-floor.jpg"><img
+									<li><a class="fancybox" href="img/pudfloor1.jpg"><img
 											class="img-polaroid" src="img/2small-floor.jpg"
 											style="width: 155px"> </a>
 									</li>
-									<li><a class="fancybox" href="img/3big-floor.jpg"><img
+									<li><a class="fancybox" href="img/pudfloor2.jpg"><img
 											class="img-polaroid" src="img/3small-floor.jpg"
 											style="width: 155px"> </a>
 									</li>
