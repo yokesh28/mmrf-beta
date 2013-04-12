@@ -486,6 +486,11 @@ body {
 .map>h1{
 	color: black !important;
 }
+
+#management{
+	height: 500px;
+overflow-y: scroll;
+}
 .alert-block {
 	position: absolute;
 	top: 60%;
