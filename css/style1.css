@@ -29,29 +29,7 @@
 
     /* Fonts */
 
-    @font-face {
-        font-family: 'FrutigerLTStd57CnRegular';
-        font-style: normal;
-        font-weight: normal;
-        src: url('/fonts/frutiger-condensed57/frutigerltstd-cn-webfont.eot');
-        src: url('/fonts/frutiger-condensed57/frutigerltstd-cn-webfont.eot?#iefix') format('embedded-opentype'),url('/fonts/frutiger-condensed57/frutigerltstd-cn-webfont.woff') format('woff'),url('/fonts/frutiger-condensed57/frutigerltstd-cn-webfont.ttf') format('truetype'),url('/fonts/frutiger-condensed57/frutigerltstd-cn-webfont.svg#FrutigerLTStd57CnRegular') format('svg');
-    }
 
-    @font-face {
-        font-family: 'FrutigerLTStd47LightCnBold';
-        font-style: normal;
-        font-weight: normal;
-        src: url('/fonts/frutiger-bold67/frutigerltstd-boldcn-webfont.eot');
-        src: url('/fonts/frutiger-bold67/frutigerltstd-boldcn-webfont.eot?#iefix') format('embedded-opentype'),url('/fonts/frutiger-bold67/frutigerltstd-boldcn-webfont.woff') format('woff'),url('/fonts/frutiger-bold67/frutigerltstd-boldcn-webfont.ttf') format('truetype'),url('/fonts/frutiger-bold67/frutigerltstd-boldcn-webfont.svg#FrutigerLTStd47LightCnBold') format('svg');
-    }
-
-    @font-face {
-        font-family: 'MankSans-MediumRegular';
-        font-style: normal;
-        font-weight: normal;
-        src: url('/fonts/manksans-medium/manksans-medium-webfont.eot');
-        src: url('/fonts/manksans-medium/manksans-medium-webfont.eot?#iefix') format('embedded-opentype'),url('/fonts/manksans-medium/manksans-medium-webfont.woff') format('woff'),url('/fonts/manksans-medium/manksans-medium-webfont.ttf') format('truetype'),url('/fonts/manksans-medium/manksans-medium-webfont.svg#MankSans-MediumRegular') format('svg');
-    }
 
     /* default links */
 

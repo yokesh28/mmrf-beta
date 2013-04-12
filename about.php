@@ -36,7 +36,7 @@
 				<div class="span3">
 
 					<ul class="unstyled menu1 span10 effect1" id="myTab">
-						<li class="active"><a href="#about"><img src="images/group.png"
+						<li class="active"><a href="#aboutcontent"><img src="images/group.png"
 								class="img-rounded">
 								<p>About Us</p> </a></li>
 						<li><a href="#management"> <img src="images/management.png"
@@ -50,7 +50,7 @@
 				</div>
 
 				<div class="tab-content span9">
-					<div class="tab-pane active overview effect1" id="about">
+					<div class="tab-pane active overview effect1" id="aboutcontent">
 						<h4>Overview</h4>
 						<p class="">The top-notch names of the Real Estate sector have
 							joined hands to create and bestow an exceptional projects with
