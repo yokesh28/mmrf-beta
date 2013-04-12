@@ -123,7 +123,7 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>Introducing Sai Enclave by MMRF, 44 spectacular abodes built
+								<p>Introducing  Sai  Enclave by MMRF, 44 spectacular abodes built
 									amidst the sprawling locale of Arasankazhani near
 									Sithalapakkam, off the OMR in Chennai. Sai Enclave features 1,
 									2 & 3 BHK homes featuring world-class construction standards,
@@ -151,7 +151,7 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							
+							<div class="contant">
 
                  <li class="size"><a class="fancybox" href="img/locbig.jpg"> <img
 											src="img/locsmall.jpg"  class="img-polaroid">
@@ -167,7 +167,7 @@
 
 
 
-						
+							</div>
 						</div>
 					</div>
 					<!-- / uc-container -->
@@ -180,15 +180,16 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
-								
+								<ul>
 
-									<a class="fancybox" href="img/sai big.jpg"> 
-									</a>
+									<li><a class="fancybox" href="img/sai big.jpg"> <img
+											src="img/sai small.jpg" width="155px" class="img-polaroid">
+									</a></li>
 
 
 
 
-								
+								</ul>
 
 
 							</div>
@@ -208,36 +209,36 @@
 
 
 								<ul>
-									<li><a class="fancybox" href="img/ame/landbig.jpg"> <img
-											src="img/ame/small/land.jpg" width="155px"
+									<li><a class="fancybox" href="img/landbig.jpg"> <img
+											src="img/land.jpg" width="155px"
 											class="img-polaroid"><span>Landscaped Garden</span>
 									</a></li>
 
 
 
-									<li><a class="fancybox" href="img/ame/childbig.jpg"> <img
-											src="img/ame/small/child.jpg" width="155px"
+									<li><a class="fancybox" href="img/childbig.jpg"> <img
+											src="img/child.jpg" width="155px"
 											class="img-polaroid"><span>Children's Indoor & Outdoor Play
 												court</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/fitbig.jpg"> <img
-											src="img/ame/small/fit.jpg" width="155px"
+									<li><a class="fancybox" href="img/fitbig.jpg"> <img
+											src="img/fit.jpg" width="155px"
 											class="img-polaroid"><span>Fitness Arena</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/securitybig.jpg"> <img
-											src="img/ame/small/security.jpg" width="155px"
+									<li><a class="fancybox" href="img/securitybig.jpg"> <img
+											src="img/security.jpg" width="155px"
 											class="img-polaroid"><span>24*7 Security &Surveillance camera</span>
 									</a></li>
 
 									<li><a class="fancybox" href="img/ame/firebig.jpg"> <img
-											src="img/ame/small/fire.jpg" width="155px"
+											src="img/fire.jpg" width="155px"
 											class="img-polaroid"><span>Fire Protection System</span>
 									</a></li>
 
 									<li><a class="fancybox" href="img/ame/powerbig.jpg"> <img
-											src="img/ame/small/power.jpg" width="155px"
+											src="img/power.jpg" width="155px"
 											class="img-polaroid"><span>Power Backup(For Common Area)and
 												500 Watts back up for each flat</span>
 									</a></li>
