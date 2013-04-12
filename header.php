@@ -20,7 +20,7 @@
 								style="display: none" width=150px>
 							</li>
 							<li class="span2" onclick="location.href='projdetail.php'"><a
-								href="project.html">Projects</a> <img src="img/2.jpg"
+								href="projdetail.php">Projects</a> <img src="img/2.jpg"
 								style="display: none" width=150px>
 							</li>
 							<li class="span2" onclick="location.href='about.php'"><a
