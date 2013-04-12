@@ -176,7 +176,7 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 							<ul>
-									<li><a  href="img/elevbig.png" id="elevsigle" class="fancybox"> <img
+									<li><a  href="img/elevbig.jpg" id="elevsigle" class="fancybox"> <img
 											src="img/elevation.png"
 											class="img-polaroid">
 									</a></li>
