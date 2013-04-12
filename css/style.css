@@ -41,6 +41,7 @@ body {
 	text-align: justify;
 	word-spacing: 2px;
 	font-size: 12px;
+	line-height: 32px;
 }
 
 .effect1 {
@@ -1395,7 +1396,9 @@ blockquote {
 
 #about p{padding: 14px;
 font-size: 13px;
-font-style: normal;}
+font-style: normal;
+line-height: 32px;
+}
 
 
 

@@ -518,7 +518,7 @@
 								<ul>
 
 									<li><a class="fancybox" href="img/locbig.jpg"> <img
-											src="img/locsmall.jpg" width="650px"  height ="300px" class="img-polaroid">
+											src="img/locsmall.jpg" width="650px"  class="img-polaroid">
 									</a></li>
 
 									
