@@ -79,7 +79,7 @@
 	</div>
 
 
-	<div  id="welcomemmrf" class="effect1">
+	<div  id="welcomemmrf" class="effect1 span6">
 
 		<h2>Welcome to MMRF</h2>
 			<p> A real estate conglomerate created
