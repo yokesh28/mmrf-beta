@@ -168,16 +168,16 @@
 					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
 						
-                         <a class="fancybox" href="img/sai big.jpg">
-							<span class="icon-eye"></span></a>
+                        
+							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
 								<ul>
 
-									<li><a class="fancybox" href="img/sai big.jpg"> <img
-											src="img/sai small.jpg" width="155px" class="img-polaroid">
+									<li><a class="fancybox" href="img/saibig.jpg"> <img
+											src="img/saismall.jpg" width="155px" class="img-polaroid">
 									</a></li>
 
 
