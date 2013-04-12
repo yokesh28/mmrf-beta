@@ -196,14 +196,15 @@
 
 </footer>
 
-<script>
-  $('.btn').button('complete')
-</script>
+
 
 
 <script type="text/javascript">
 
 			$(function() {
+				 $('.btn').button('complete');
+
+				 
 				 var bottom = 0;
              $(".footnav ").click(function(){
                 

@@ -18,7 +18,7 @@ html {
 body {
 	font-family: Nilland-Black-bold !important;
 	height: 100%;
-	visibility: hidden;
+	
 }
 
 .background {
@@ -1393,8 +1393,11 @@ blockquote {
 	padding: 14px;
 	font-size: 13px;
 	font-style: normal;
+	margin-left: 0;
 }
-
+#management{
+	padding-bottom: 50px;
+}
 .mediapage {
 	
 }
