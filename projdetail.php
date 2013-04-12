@@ -76,7 +76,7 @@
 
 				</div>
 				<div class="position2 ">
-					<div class="textleft padur pull-left " style="cursor: pointer;">
+					<div class="textleft padur pull-left" style="cursor: pointer;">
 						<img src="images/pud1.jpg" class="img-polaroid">
 						
 					</div>

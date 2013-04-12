@@ -22,14 +22,6 @@
 <!-- / Yoast WordPress SEO plugin. -->
 
 
-
-
-
-
-
-
-
-
 <!-- Bootstrap -->
 <link href="css/res.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
