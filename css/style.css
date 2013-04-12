@@ -39,7 +39,10 @@ body {
 	top: 26%;
 	padding: 12px 40px;
 }
-
+#ottiyam .box4 .uc-final{
+	left: -240px !important;
+	top: 0px !important;
+}
 #welcomemmrf h2 {
 	color: white;
 	font-style: italic;
