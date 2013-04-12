@@ -18,7 +18,6 @@ html {
 body {
 	font-family: Nilland-Black-bold !important;
 	height: 100%;
-	
 }
 
 .background {
@@ -235,12 +234,10 @@ body {
 	line-height: 35px;
 }
 
-
 .size a {
 	height: 250px !important;
 	width: 900px;
 }
-
 
 .textleft {
 	width: 317px;
@@ -448,8 +445,16 @@ body {
 	background: url("../img/pad2.jpg") no-repeat;
 }
 
-.elevation .uc-initial-content {
+#enclave .elevation .uc-initial-content {
 	background: url("../img/elesmall.jpg") no-repeat;
+}
+
+#pudur .elevation .uc-initial-content {
+	background: url("../img/pad3.jpg") no-repeat;
+}
+
+#ottiyam .elevation .uc-initial-content {
+	background: url("../img/pad3.jpg") no-repeat;
 }
 
 .amenities .uc-initial-content {
@@ -532,9 +537,9 @@ body {
 
 .list li {
 	list-style-type: square;
-margin: 10px 198px;
-width: 353px;
-font-size: 15px;
+	margin: 10px 198px;
+	width: 353px;
+	font-size: 15px;
 }
 
 .elivation img {
@@ -558,10 +563,10 @@ font-size: 15px;
 
 .paragraph1 p {
 	font-size: 15px !important;
-line-height: 2;
-}
+	line-height: 2;
 }
 
+}
 .paragraph1 {
 	margin: 12px 48px;
 	width: 572px;
@@ -980,17 +985,17 @@ line-height: 2;
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =             100);
+	filter: alpha(opacity =              100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =             100);
+	filter: alpha(opacity =              100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =             100);
+	filter: alpha(opacity =              100);
 	opacity: 1;
 }
 
@@ -1008,7 +1013,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =            85);
+	filter: alpha(opacity =             85);
 	opacity: 1;
 	min-width: 700px;
 	margin: 0 auto;
@@ -1397,27 +1402,16 @@ blockquote {
 	margin-left: 0;
 }
 
-#management{
+#management {
 	padding-bottom: 50px;
 }
 
-	
-
-
-
-
-#about p{padding: 14px;
-font-size: 13px;
-font-style: normal;
-line-height: 32px;
+#about p {
+	padding: 14px;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 32px;
 }
-
-
-
-
-
-
-
 
 .media h2 {
 	color: red;
@@ -1522,7 +1516,7 @@ left: 77px;
 
 .overview p {
 	font-size: 15px;
-	line-height:2; 
+	line-height: 2;
 }
 /*footer page*/
 ::-webkit-scrollbar {
