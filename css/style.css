@@ -21,10 +21,8 @@ body {
 }
 
 #welcomemmrf {
-	background: white;
+	background: url("../images/text_bg.png");
 
-	opacity:0.8;
-	width: 500px;
 
 	position: fixed;
 	right: 12%;
@@ -1112,7 +1110,7 @@ footer .footer-content .titlefooter .extramobile {
 }
 
 #ottiyam a:link {
-	position: absolute;
+	
 	bottom: 185px;
 	left: 10px;
 }
