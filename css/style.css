@@ -1218,6 +1218,7 @@ footer .footer-content .titlefooter .extramobile {
 #fcontentbloc1 a {
 	text-decoration: none;
 	color: white;
+	font-size: 14px;
 }
 
 #fcontentbloc1  p {
@@ -1515,7 +1516,10 @@ left: 77px;
 .tab-content {
 	margin-top: 70px;
 }
-
+.desined:HOVER{
+	text-decoration: underline !important;
+	
+}
 .tab-content .tab-pane {
 	width: 700px;
 	background: rgba(250, 247, 247, 0.78);
