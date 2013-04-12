@@ -156,44 +156,21 @@
                  <li class="size"><a class="fancybox" href="img/locbig.jpg"> <img
 											src="img/locsmall.jpg"  class="img-polaroid">
 									</a></li>
-                 
-
-
-
-							
-
-
-
-
-
-
-							</div>
+                        </div>
 						</div>
 					</div>
+					
+					
+					
+					
 					<!-- / uc-container -->
 
 					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
-
-							<span class="icon-eye"></span>
+                         <a class="fancybox" href="img/sai big.jpg">
+							<span class="icon-eye"></span></a>
 						</div>
-						<div class="uc-final-content ">
-							<span class="icon-cancel"></span>
-							<div class="contant aimages">
-								<ul>
-
-									<li><a class="fancybox" href="img/sai big.jpg"> <img
-											src="img/sai small.jpg" width="155px" class="img-polaroid">
-									</a></li>
-
-
-
-
-								</ul>
-
-
-							</div>
-						</div>
+						
 					</div>
 					<!-- / uc-container -->
 
@@ -209,35 +186,35 @@
 
 
 								<ul>
-									<li><a class="fancybox" href="img/landbig.jpg"> <img
+									<li><a  href="#"> <img
 											src="img/land.jpg" width="155px"
 											class="img-polaroid"><span>Landscaped Garden</span>
 									</a></li>
 
 
 
-									<li><a class="fancybox" href="img/childbig.jpg"> <img
+									<li><a  href="#"><img
 											src="img/child.jpg" width="155px"
 											class="img-polaroid"><span>Children's Indoor & Outdoor Play
 												court</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/fitbig.jpg"> <img
+									<li><a  href="#"> <img
 											src="img/fit.jpg" width="155px"
 											class="img-polaroid"><span>Fitness Arena</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/securitybig.jpg"> <img
+									<li><a  href="#"> <img
 											src="img/security.jpg" width="155px"
 											class="img-polaroid"><span>24*7 Security &Surveillance camera</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/firebig.jpg"> <img
+									<li><a  href="#"> <img
 											src="img/fire.jpg" width="155px"
 											class="img-polaroid"><span>Fire Protection System</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/powerbig.jpg"> <img
+									<li><a  href="#"> <img
 											src="img/power.jpg" width="155px"
 											class="img-polaroid"><span>Power Backup(For Common Area)and
 												500 Watts back up for each flat</span>
@@ -507,19 +484,12 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 
-							<div class="contant aimages">
-								<ul>
+							<div class="contant">
 
-									<li><a class="fancybox" href="img/locbig.jpg"> <img
-											src="img/locsmall.jpg" width="650px"  class="img-polaroid">
+                 <li class="size"><a class="fancybox" href="img/locbig1.jpg"> <img
+											src="img/locsmall1.jpg"  class="img-polaroid">
 									</a></li>
-
-									
-
-								</ul>
-
-
-							</div>
+                        </div>
 							
 
 						</div>
