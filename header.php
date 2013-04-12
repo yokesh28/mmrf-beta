@@ -8,7 +8,7 @@
 			<div class="container">
 
 				<div class="row-fluid">
-					<a class="span2 logo" href="#"><img src="images/logo.png"
+					<a class="span2 logo" href="index.php"><img src="images/logo.png"
 						height="84px"> </a>
 					<div class="nav-collapse collapse span10 ">
 

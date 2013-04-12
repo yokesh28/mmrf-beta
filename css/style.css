@@ -23,7 +23,9 @@ body {
 .background {
 	background: url(../images/2.jpg) 0 0 no-repeat;
 }
-
+.gallery li{
+	margin:0 20px 0 0 !important;
+}
 .as h4 {
 	color: black;
 	margin: 120px 0px;
