@@ -23,33 +23,35 @@
 <script src="js/jquery.mobilemenu.js"></script>
 
 <script
-	src="http://gayadesign.com/scripts/queryLoader2/js/lib/jquery.queryloader2.js"></script>
+	src="js/jquery.queryloader2.js"></script>
 
+<script
+	src="js/jsscript.js"></script>
 
-<script type="text/javascript">
-$(document).ready(function () {
-    $("body").queryLoader2();
-});</script>	
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css"
+	href="source/jquery.fancybox.css?v=2.1.4" media="screen" />
 
-	<!-- Add fancyBox main JS and CSS files -->
-	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
-	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.4" media="screen" />
+<!-- Add Button helper (this is optional) -->
+<link rel="stylesheet" type="text/css"
+	href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+<script type="text/javascript"
+	src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
 
-	<!-- Add Button helper (this is optional) -->
-	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
-	<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<!-- Add Thumbnail helper (this is optional) -->
+<link rel="stylesheet" type="text/css"
+	href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+<script type="text/javascript"
+	src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
-	<!-- Add Thumbnail helper (this is optional) -->
-	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
-	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
-	<!-- Add Media helper (this is optional) -->
-	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+<!-- Add Media helper (this is optional) -->
+<script type="text/javascript"
+	src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
 </head>
 
-<body >
-	<img src="images/2.jpg" width="100%" height="100%"
-			class="backimage">
+<body>
+	<img src="images/2.jpg" width="100%" height="100%" class="backimage">
 	<?php include 'header.php';?>
 	<div class="container" style="position: relative;">
 		<div class="row-fluid ">
@@ -58,10 +60,16 @@ $(document).ready(function () {
 
 				<div class=" span12">
 					<ul>
-						<li class="span3"><a class="fancybox" href="images/ga1.jpg">
-						<img src="images/ga1.jpg" width="300" height="300" class="img-polaroid"></a></li>
-						<li class="span3"><a class="fancybox" href="images/ga2.jpg">
-						<img src="images/ga2.jpg" width="300" height="300" class="img-polaroid"></a></li>
+						<li class="span3"><a class="fancybox" href="images/ga1.jpg"> <img
+								src="images/ga1.jpg" width="300" height="300"
+								class="img-polaroid">
+						</a>
+						</li>
+						<li class="span3"><a class="fancybox" href="images/ga2.jpg"> <img
+								src="images/ga2.jpg" width="300" height="300"
+								class="img-polaroid">
+						</a>
+						</li>
 						<li></li>
 
 					</ul>
@@ -74,12 +82,12 @@ $(document).ready(function () {
 	<?php include 'footer.php';?>
 </body>
 <style type="text/css">
-		.fancybox-custom .fancybox-skin {
-			box-shadow: 0 0 50px #222;
-		}
-	</style>
+.fancybox-custom .fancybox-skin {
+	box-shadow: 0 0 50px #222;
+}
+</style>
 <script src="js/bootstrap-tab.js"></script>
-	<script type="text/javascript">
+<script type="text/javascript">
 		$(document).ready(function() {
 			/*
 			 *  Simple image gallery. Uses default settings
