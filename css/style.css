@@ -49,6 +49,7 @@ body {
 	text-align: justify;
 	word-spacing: 2px;
 	font-size: 12px;
+	line-height: 32px;
 }
 
 .effect1 {
@@ -531,10 +532,9 @@ body {
 
 .list li {
 	list-style-type: square;
-	margin: 10px 198px;
-	width: 353px;
-	font-size: 14px;
-	font-style: italic;
+margin: 10px 198px;
+width: 353px;
+font-size: 15px;
 }
 
 .elivation img {
@@ -557,8 +557,9 @@ body {
 }
 
 .paragraph1 p {
-	font-size: 14px !important;
-	font-style: italic;
+	font-size: 15px !important;
+line-height: 2;
+}
 }
 
 .paragraph1 {
@@ -1395,12 +1396,28 @@ blockquote {
 	font-style: normal;
 	margin-left: 0;
 }
+
 #management{
 	padding-bottom: 50px;
 }
-.mediapage {
+
 	
+
+
+
+
+#about p{padding: 14px;
+font-size: 13px;
+font-style: normal;
+line-height: 32px;
 }
+
+
+
+
+
+
+
 
 .media h2 {
 	color: red;
@@ -1504,8 +1521,8 @@ left: 77px;
 }
 
 .overview p {
-	font-size: 14px;
-	font-style: italic;
+	font-size: 15px;
+	line-height:2; 
 }
 /*footer page*/
 ::-webkit-scrollbar {

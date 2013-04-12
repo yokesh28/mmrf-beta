@@ -123,7 +123,7 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>Introducing Sai Enclave by MMRF, 44 spectacular abodes built
+								<p>Introducing  Sai  Enclave by MMRF, 44 spectacular abodes built
 									amidst the sprawling locale of Arasankazhani near
 									Sithalapakkam, off the OMR in Chennai. Sai Enclave features 1,
 									2 & 3 BHK homes featuring world-class construction standards,
@@ -151,44 +151,39 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							
+							<div class="contant">
 
                  <li class="size"><a class="fancybox" href="img/locbig.jpg"> <img
 											src="img/locsmall.jpg"  class="img-polaroid">
 									</a></li>
-                 
-
-
-
-							
-
-
-
-
-
-
-						
+                        </div>
 						</div>
 					</div>
+					
+					
+					
+					
 					<!-- / uc-container -->
 
 					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
-
+						
+                        
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant aimages">
-								
+								<ul>
 
-									<a class="fancybox" href="img/sai big.jpg"> 
-									</a>
+									<li><a class="fancybox" href="img/saibig.jpg"> <img
+											src="img/saismall.jpg" width="155px" class="img-polaroid">
+									</a></li>
 
 
 
 
-								
+								</ul>
 
 
 							</div>
@@ -208,36 +203,36 @@
 
 
 								<ul>
-									<li><a class="fancybox" href="img/ame/landbig.jpg"> <img
-											src="img/ame/small/land.jpg" width="155px"
+									<li><a  href="#"> <img
+											src="img/land.jpg" width="155px"
 											class="img-polaroid"><span>Landscaped Garden</span>
 									</a></li>
 
 
 
-									<li><a class="fancybox" href="img/ame/childbig.jpg"> <img
-											src="img/ame/small/child.jpg" width="155px"
+									<li><a  href="#"><img
+											src="img/child.jpg" width="155px"
 											class="img-polaroid"><span>Children's Indoor & Outdoor Play
 												court</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/fitbig.jpg"> <img
-											src="img/ame/small/fit.jpg" width="155px"
+									<li><a  href="#"> <img
+											src="img/fit.jpg" width="155px"
 											class="img-polaroid"><span>Fitness Arena</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/securitybig.jpg"> <img
-											src="img/ame/small/security.jpg" width="155px"
+									<li><a  href="#"> <img
+											src="img/security.jpg" width="155px"
 											class="img-polaroid"><span>24*7 Security &Surveillance camera</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/firebig.jpg"> <img
-											src="img/ame/small/fire.jpg" width="155px"
+									<li><a  href="#"> <img
+											src="img/fire.jpg" width="155px"
 											class="img-polaroid"><span>Fire Protection System</span>
 									</a></li>
 
-									<li><a class="fancybox" href="img/ame/powerbig.jpg"> <img
-											src="img/ame/small/power.jpg" width="155px"
+									<li><a  href="#"> <img
+											src="img/power.jpg" width="155px"
 											class="img-polaroid"><span>Power Backup(For Common Area)and
 												500 Watts back up for each flat</span>
 									</a></li>
@@ -505,7 +500,17 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant"></div>
+
+							<div class="contant">
+
+
+                 <li class="size"><a class="fancybox" href="img/locbig1.jpg"> <img
+											src="img/locsmall1.jpg"  class="img-polaroid">
+
+									</a></li>
+                        </div>
+							
+
 						</div>
 					</div>
 					<!-- / uc-container -->
@@ -844,8 +849,7 @@
 							<div class="contant aimages">
 								<ul>
 									<li><a class="fancybox" href="img/ooti/1-big.jpg"><img
-											class="img-polaroid" src="img/ooti/1-small.jpg"
-											style="width: 155px"> </a>
+											class="img-polaroid" src="img/ooti/1-small.jpg"> </a>
 									</li>
 
 
