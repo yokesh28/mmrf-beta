@@ -736,11 +736,23 @@
 					</div>
 					<div class="uc-final-content">
 						<span class="icon-cancel"></span>
-						<div class="contant"></div>
-						<div class="floorplan">
+						<div class="contant aimages">
+							<ul>
+								<li><a class="fancybox" href="img/1big-floor.jpg"><img
+										class="img-polaroid" src="img/1small-floor.jpg" style="width: 155px">
+								</a>
+								</li>
 
-							<a href="images/floorplan.jpg" target="_blank"><img
-								src="img/floor.jpg"> </a>
+								<li><a class="fancybox" href="img/2big-floor.jpg"><img
+										class="img-polaroid" src="img/2small-floor.jpg" style="width: 155px">
+								</a>
+								</li>
+								<li><a class="fancybox" href="img/3big-floor.jpg"><img
+										class="img-polaroid" src="img/3small-floor.jpg" style="width: 155px"> </a>
+								</li>
+								
+								
+							</ul>
 						</div>
 
 					</div>
