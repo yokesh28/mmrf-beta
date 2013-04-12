@@ -168,6 +168,7 @@
 
 					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
+
 						
 							<span class="icon-eye"></span>
 						</div>
@@ -183,8 +184,27 @@
                          </ul>
 							
 						</div>
-						
-					</div>
+          
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant aimages">
+								<ul>
+
+									<li><a class="fancybox" href="img/saibig.jpg"> <img
+											src="img/saismall.jpg" width="155px" class="img-polaroid">
+									</a></li>
+
+
+
+
+								</ul>
+
+
+							</div>
+						</div>
+
 					</div>
 					<!-- / uc-container -->
 
