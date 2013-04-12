@@ -12,14 +12,7 @@
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 <link rel='shortcut icon' href='/img/favicon.png'>
 
-<!-- This site is optimized with the Yoast WordPress SEO plugin v1.3.4.4 - http://yoast.com/wordpress/seo/ -->
-<link rel="canonical" href="http://www.parc-amazonien-guyane.fr/" />
-<meta property='og:locale' content='fr_FR' />
-<meta property='og:title' content='Parc Amazonien de Guyane' />
-<meta property='og:url' content='http://www.parc-amazonien-guyane.fr/' />
-<meta property='og:site_name' content='Parc Amazonien de Guyane' />
-<meta property='og:type' content='article' />
-<!-- / Yoast WordPress SEO plugin. -->
+
 
 
 
@@ -38,26 +31,31 @@
 <link href="css/style1.css" rel="stylesheet">
 <link rel="stylesheet" href="css/easy-fancybox.css">
 
-<link rel="alternate" type="application/rss+xml"
-	title="Parc Amazonien de Guyane Feed"
-	href="http://www.parc-amazonien-guyane.fr/feed/">
+
 
 
 
 <script
 	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
+<script
+	src="http://gayadesign.com/scripts/queryLoader2/js/lib/jquery.queryloader2.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $("body").queryLoader2();
+});</script>
 
 
 </head>
 
-<body >
+<body>
 
 
 
 
 
-<img src="images/2.jpg" width="100%" height="100%"
-			class="backimage">
+	<img src="images/2.jpg" width="100%" height="100%" class="backimage">
 
 
 	<div>
@@ -115,11 +113,10 @@
 								<span>*</span>
 						</label><input type="email" name="email" style="width: 180px;"></li>
 						<li style="margin-top: 0px"><label>Mobie No<span>*</span>
-						</label><input type="text" name="mobile" style="width:180px;"><label
-							style="width:83px;">Phone No </label><input type="text"
+						</label><input type="text" name="mobile" style="width: 180px;"><label
+							style="width: 83px;">Phone No </label><input type="text"
 							name="pho_ex" style="width: 42px"> <input type="text"
-								name="phone" style="width: 66px">
-						
+							name="phone" style="width: 66px">
 						</li>
 
 						<li><label>Location<span>*</span>

@@ -26,8 +26,15 @@
 <link href="css/style1.css" rel="stylesheet">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
- 
 
+<script
+	src="http://gayadesign.com/scripts/queryLoader2/js/lib/jquery.queryloader2.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $("body").queryLoader2();
+});</script>
 <!-- Add fancyBox main JS and CSS files -->
 <script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
 <link rel="stylesheet" type="text/css"
@@ -53,8 +60,7 @@
 <body>
 	<div class="slide1 row-fluid">
 
-		<img src="images/2.jpg" width="100%" height="100%"
-			class="backimage">
+		<img src="images/2.jpg" width="100%" height="100%" class="backimage">
 		<?php include 'header.php';?>
 
 		<div class="im">
@@ -70,7 +76,7 @@
 
 					<div class="textright enclave pull-left" style="cursor: pointer;">
 						<img src="images/sai1.jpg" class="img-polaroid">
-						
+
 					</div>
 
 
@@ -78,7 +84,7 @@
 				<div class="position2 ">
 					<div class="textleft padur pull-left " style="cursor: pointer;">
 						<img src="images/pud1.jpg" class="img-polaroid">
-						
+
 					</div>
 					<div class="building pull-left visible-desktop"
 						style="margin: 0px; margin-left: 53px; margin-top: -30px;">
@@ -96,7 +102,7 @@
 
 					<div class="textright ottiyam pull-left " style="cursor: pointer;">
 						<img src="images/otti.jpg" class="img-polaroid">
-						
+
 					</div>
 
 				</div>
@@ -190,7 +196,7 @@
 											src="img/saismall.jpg" width="155px" class="img-polaroid">
 									</a></li>
 
-									
+
 
 
 								</ul>
@@ -211,38 +217,40 @@
 							<div class="contant aimages">
 
 
-                                                                
+
 								<ul>
 									<li><a class="fancybox" href="img/ame/landbig.jpg"> <img
-											src="img/ame/small/land.jpg" width="155px" class="img-polaroid"><span>Landscaped
-												Garden</span>
+											src="img/ame/small/land.jpg" width="155px"
+											class="img-polaroid"><span>Landscaped Garden</span>
 									</a></li>
 
 
 
 									<li><a class="fancybox" href="img/ame/childbig.jpg"> <img
-											src="img/ame/small/child.jpg" width="155px" class="img-polaroid"><span>Children's
-												Indoor & Outdoor Play court</span>
+											src="img/ame/small/child.jpg" width="155px"
+											class="img-polaroid"><span>Children's Indoor & Outdoor Play
+												court</span>
 									</a></li>
 
 									<li><a class="fancybox" href="img/ame/fitbig.jpg"> <img
-											src="img/ame/small/fit.jpg" width="155px" class="img-polaroid"><span>Fitness
-												Arena</span>
+											src="img/ame/small/fit.jpg" width="155px"
+											class="img-polaroid"><span>Fitness Arena</span>
 									</a></li>
 
 									<li><a class="fancybox" href="img/ame/securitybig.jpg"> <img
-											src="img/ame/small/security.jpg" width="155px" class="img-polaroid"><span>24*7
-												Security &Surveillance camera</span>
+											src="img/ame/small/security.jpg" width="155px"
+											class="img-polaroid"><span>24*7 Security &Surveillance camera</span>
 									</a></li>
 
 									<li><a class="fancybox" href="img/ame/firebig.jpg"> <img
-											src="img/ame/small/fire.jpg" width="155px" class="img-polaroid"><span>Fire
-												Protection System</span>
+											src="img/ame/small/fire.jpg" width="155px"
+											class="img-polaroid"><span>Fire Protection System</span>
 									</a></li>
 
 									<li><a class="fancybox" href="img/ame/powerbig.jpg"> <img
-											src="img/ame/small/power.jpg" width="155px" class="img-polaroid"><span>Power
-												Backup(For Common Area)and 500 Watts back up for each flat</span>
+											src="img/ame/small/power.jpg" width="155px"
+											class="img-polaroid"><span>Power Backup(For Common Area)and
+												500 Watts back up for each flat</span>
 									</a></li>
 
 								</ul>
@@ -308,82 +316,97 @@
 								<div class="paragraph1">
 									<p>Water Proof Flush Door</p>
 								</div>
+
+
+
+
+
+
+								<div class="heading1">
+									<h2>Windows:</h2>
+								</div>
+
+								<div class="paragraph1">
+									<p>Heavy UPVC frames with Glass Shutters &MS Grill for all
+										windows</p>
+								</div>
+
+
+
+
+
+
+								<div class="heading1">
+									<h2>Ventilators:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>Heavy UPVC frames with glass or louvered & a provision for
+										Exhaust Fan</p>
+								</div>
+								<div class="heading1">
+									<h2>Electrical:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>Three Phase service with Modular Switches,Electrical outlets
+										for A/c in all Bedrooms,Geyzer Points in all Toilet,Washing
+										Machine,Fridge,Mixie,Grinder and Oven Points,Necessary
+										Light,Fan Plug Points will be Provided,along with 500W power
+										for each Flat from Common Genset.Outlet for TV & Telephone in
+										Living Hall and Master Bedroom</p>
+								</div>
+
+								<div class="heading1">
+									<h2>Kitchen:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>Counter top in high quality polished Black Granite with
+										nozing.Stainless Steel Single Bowl with Drain Top.Water outlet
+										provision for Water Purifer.Tiles up to 2 feet height above
+										the kitchen Cooking platform</p>
+								</div>
+
+
+
+								<div class="heading1">
+									<h2>Utility:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>Water Outlet/inlet Provision for Washing Machine</p>
+								</div>
+								</br>
+								<div class="heading1">
+									<h2>Toilet:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>Standard EWC/Washbasin(Parryware/Hindware)White Closet with
+										Health Faucet using Standard CP fittings,Wall Mixer in all
+										Toilets.Dadoing with Glazed Braded Tiles upto 7 feet height
+										Anti skid Ceramic tile Flooring will be provided.</p>
+								</div>
+								<div class="heading1">
+									<h2>Intra-Communication System & Internet:
 								
-								
-								
+								</div>
+								<div class="paragraph1">
+									<p>Intra-Communication systems for security to each Apartment
+										with Internet Connections.</p>
+								</div>
 
-							
+								<div class="heading1">
+									<h2>Painting:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>Painting with Acrylic emulsion,smoothly finished with wall
+										putty &main door polished & other Doors polished with Arcrylic
+										Enamel Paint with full putty.</p>
+								</div>
 
-							<div class="heading1">
-								<h2>Windows:</h2>
+
+
+
 							</div>
-
-							<div class="paragraph1">
-								<p>Heavy UPVC frames with Glass Shutters &MS Grill for all
-									windows</p>
-							</div>
-
-
-							
-							
-							
-							
-							<div class="heading1">
-								<h2>Ventilators:</h2>
-							</div>
-							<div class="paragraph1">
-								<p>Heavy UPVC frames with glass or louvered & a provision for
-									Exhaust Fan</p>
-							</div>
-							<div class="heading1"><h2>Electrical:</h2></div>
-							<div class="paragraph1"><p>Three Phase service with Modular
-								Switches,Electrical outlets for A/c in all Bedrooms,Geyzer
-								Points in all Toilet,Washing Machine,Fridge,Mixie,Grinder and
-								Oven Points,Necessary Light,Fan Plug Points will be
-								Provided,along with 500W power for each Flat from Common
-								Genset.Outlet for TV & Telephone in Living Hall and Master
-								Bedroom</p></div>
-
-							<div class="heading1"><h2>Kitchen:</h2></div>
-							<div class="paragraph1"><p>Counter top in high quality polished
-								Black Granite with nozing.Stainless Steel Single Bowl with Drain
-								Top.Water outlet provision for Water Purifer.Tiles up to 2 feet
-								height above the kitchen Cooking platform</p></div>
-
-
-
-							<div class="heading1"><h2>Utility:</h2></div>
-							<div class="paragraph1"><p>Water Outlet/inlet Provision for Washing
-								Machine</p></div>
-							</br>
-							<div class="heading1"><h2>Toilet:</h2></div>
-							<div class="paragraph1"><p>Standard
-								EWC/Washbasin(Parryware/Hindware)White Closet with Health Faucet
-								using Standard CP fittings,Wall Mixer in all Toilets.Dadoing
-								with Glazed Braded Tiles upto 7 feet height Anti skid Ceramic
-								tile Flooring will be provided.</p></div>
-							<div class="heading1">
-								<h2>Intra-Communication System & Internet:
-							
-							</div>
-							<div class="paragraph1"><p>Intra-Communication systems for security
-								to each Apartment with Internet Connections.</p></div>
-
-							<div class="heading1">
-								<h2>Painting:</h2>
-							</div>
-							<div class="paragraph1">
-								<p>Painting with Acrylic emulsion,smoothly finished with wall
-									putty &main door polished & other Doors polished with Arcrylic
-									Enamel Paint with full putty.</p>
-							</div>
-
-
-
-
 						</div>
 					</div>
-				</div>
 
 
 
@@ -391,15 +414,15 @@
 
 
 
-				<div class="uc-container box6 span4 floorplan">
+					<div class="uc-container box6 span4 floorplan">
 
-					<div class="uc-initial-content">
+						<div class="uc-initial-content">
 
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content">
-						<span class="icon-cancel"></span>
-						<div class="contant aimages">
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<span class="icon-cancel"></span>
+							<div class="contant aimages">
 								<ul>
 
 									<li><a class="fancybox" href="img/1floor.jpg"> <img
@@ -409,7 +432,7 @@
 									<li><a class="fancybox" href="img/2floor.jpg"> <img
 											src="img/f2.jpg" width="155px" class="img-polaroid">
 									</a></li>
-									
+
 									<li><a class="fancybox" href="img/3floor.jpg"> <img
 											src="img/f3.jpg" width="155px" class="img-polaroid">
 									</a></li>
@@ -419,187 +442,188 @@
 
 							</div>
 
+						</div>
+
+
+						<!-- / uc-container -->
+
 					</div>
 
 
+					<div>
+						<a href="media.pdf" class="bowcher" target="_blank"><img
+							src="img/brochure.png"> </a>
+					</div>
+					<!-- / grid -->
+
+
+				</div>
+				</section>
+
+			</div>
+
+
+
+
+
+
+
+			<!-- padur -->
+
+			<div class="middle" style="right: -100%" id="padur">
+				<section class="main demo-2 row-fluid">
+
+				<div id="gridpadur" class="grid clearfix span12">
+
+
+					<div class="uc-container box1 span4 overview">
+						<div class="uc-initial-content">
+
+							<span class="icon-eye">Overview</span>
+
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant">
+								<h2>Overview</h2>
+								<p>When you live in an environment of peace and quietude.away
+									from the clamor.the uproar and the grime and dust of city life.
+									it sure can soothe your soul and transport you to a world your
+									own-exclusive,private and spacious. But when you have it right
+									with in city limits.its joy compounded. Padur has got it all
+									and more. sheer elegance matched by functional aesthetics that
+									not only makes you feel good but look good.</p>
+								<br>
+
+
+
+
+							</div>
+
+						</div>
+					</div>
 					<!-- / uc-container -->
 
-				</div>
-			
-			
-			<div>
-				<a href="media.pdf" class="bowcher" target="_blank"><img
-					src="img/brochure.png"> </a>
-			</div>
-			<!-- / grid -->
-			
-			
-			</div>
-			</section>
-
-		</div>
 
 
 
 
 
+					<div class="uc-container box2 span4 location">
+						<div class="uc-initial-content">
 
-
-		<!-- padur -->
-
-		<div class="middle" style="right: -100%" id="padur">
-			<section class="main demo-2 row-fluid">
-
-			<div id="gridpadur" class="grid clearfix span12">
-
-
-				<div class="uc-container box1 span4 overview">
-					<div class="uc-initial-content">
-
-						<span class="icon-eye">Overview</span>
-
-					</div>
-					<div class="uc-final-content ">
-						<span class="icon-cancel"></span>
-						<div class="contant">
-							<h2>Overview</h2>
-							<p>When you live in an environment of peace and quietude.away
-								from the clamor.the uproar and the grime and dust of city life.
-								it sure can soothe your soul and transport you to a world your
-								own-exclusive,private and spacious. But when you have it right
-								with in city limits.its joy compounded. Padur has got it all and
-								more. sheer elegance matched by functional aesthetics that not
-								only makes you feel good but look good.</p>
-							<br>
-
-
-
-
+							<span class="icon-eye"></span>
 						</div>
-
-					</div>
-				</div>
-				<!-- / uc-container -->
-
-
-
-
-
-
-				<div class="uc-container box2 span4 location">
-					<div class="uc-initial-content">
-
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content ">
-						<span class="icon-cancel"></span>
-						<div class="contant"></div>
-					</div>
-				</div>
-				<!-- / uc-container -->
-
-
-
-				<div class="uc-container box3 span4 elevation">
-					<div class="uc-initial-content">
-
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content ">
-						<span class="icon-cancel"></span>
-						<div class="contant aimages">
-							<ul>
-								<li><a class="fancybox" href="img/1big.jpg"><img
-										class="img-polaroid" src="img/1small.jpg" style="width: 155px">
-								</a>
-								</li>
-
-								<li><a class="fancybox" href="img/2big.jpg"><img
-										class="img-polaroid" src="img/2small.jpg" style="width: 155px">
-								</a>
-								</li>
-								<li><a class="fancybox" href="img/3big.jpg"><img
-										class="img-polaroid" src="img/3small.jpg" style="width: 155px"> </a>
-								</li>
-								<li><a class="fancybox" href="img/4big.jpg"><img
-										class="img-polaroid" src="img/4small.jpg"
-										style="width: 155px"> </a>
-								</li>
-								
-							</ul>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant"></div>
 						</div>
 					</div>
-				</div>
+					<!-- / uc-container -->
 
 
 
-				<div class="uc-container box4 span4 amenities">
-					<div class="uc-initial-content">
+					<div class="uc-container box3 span4 elevation">
+						<div class="uc-initial-content">
 
-						<span class="icon-eye"></span>
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant aimages">
+								<ul>
+									<li><a class="fancybox" href="img/1big.jpg"><img
+											class="img-polaroid" src="img/1small.jpg"
+											style="width: 155px"> </a>
+									</li>
+
+									<li><a class="fancybox" href="img/2big.jpg"><img
+											class="img-polaroid" src="img/2small.jpg"
+											style="width: 155px"> </a>
+									</li>
+									<li><a class="fancybox" href="img/3big.jpg"><img
+											class="img-polaroid" src="img/3small.jpg"
+											style="width: 155px"> </a>
+									</li>
+									<li><a class="fancybox" href="img/4big.jpg"><img
+											class="img-polaroid" src="img/4small.jpg"
+											style="width: 155px"> </a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
 					</div>
-					<div class="uc-final-content ">
-						<span class="icon-cancel"></span>
 
-						<div class="contant amen">
 
-							 <div class="heading">
-							<h2>INDOOR AMENTIES:</h2>
-							</div>
-							
-                             <ul class="list">
-                             
-							<li>Healthclub/Gymnasium.</li>
-							
-							<li>Table Tennis.</li>
-							
-							<li>Tv Room/Minitheatre/Multipurpose hall.</li>
-							
-							<li>Chess/Carom and other indoor Games.</li>
-							
-                            <div class="heading">
-							<h2>OUTDOOR AMENTIES:</h2>
-							</div>
 
-							<li>Swimming Pool.</li>
-							
-							<li>Land scapes.</li>
-							
-							<li>Servant Toilet.</li>
-							
-							<li>Out door party area .</li>
-							
+					<div class="uc-container box4 span4 amenities">
+						<div class="uc-initial-content">
 
-							<li>Children's Play Area .</li>
-							
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
 
-							<li>Payed garden walk .</li>
-							
-<div class="heading">
-							<h2>OTHER AMENTIES:</h2>
-							</div>
+							<div class="contant amen">
 
-							<li>Intercom facility.</li>
-							
-							<li>Backup generator for common areas.</li>
-							
-							<li>Security personnel.</li>
-							
-							<li>CCTV camera.</li>
-							
+								<div class="heading">
+									<h2>INDOOR AMENTIES:</h2>
+								</div>
 
-							<li>Water Treatment plant(RO water for kitchen) .</li>							
+								<ul class="list">
 
-							<li>Rain water Harvesting .</li>
-							
-							<li>Sewage water Harvesting .</li>
-							
-							<li>UPS provision for Vilas.</li>
-							
+									<li>Healthclub/Gymnasium.</li>
 
-</ul>
+									<li>Table Tennis.</li>
 
-						
+									<li>Tv Room/Minitheatre/Multipurpose hall.</li>
+
+									<li>Chess/Carom and other indoor Games.</li>
+
+									<div class="heading">
+										<h2>OUTDOOR AMENTIES:</h2>
+									</div>
+
+									<li>Swimming Pool.</li>
+
+									<li>Land scapes.</li>
+
+									<li>Servant Toilet.</li>
+
+									<li>Out door party area .</li>
+
+
+									<li>Children's Play Area .</li>
+
+
+									<li>Payed garden walk .</li>
+
+									<div class="heading">
+										<h2>OTHER AMENTIES:</h2>
+									</div>
+
+									<li>Intercom facility.</li>
+
+									<li>Backup generator for common areas.</li>
+
+									<li>Security personnel.</li>
+
+									<li>CCTV camera.</li>
+
+
+									<li>Water Treatment plant(RO water for kitchen) .</li>
+
+									<li>Rain water Harvesting .</li>
+
+									<li>Sewage water Harvesting .</li>
+
+									<li>UPS provision for Vilas.</li>
+
+
+								</ul>
+
+
 							</div>
 
 
@@ -607,364 +631,362 @@
 
 						</div>
 					</div>
-				
-
-
-				<div class="uc-container box5 span4 specification">
-					<div class="uc-initial-content">
-
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content">
-						<span class="icon-cancel"></span>
-						<div class="contant">
-
-							<div class="heading1">
-								<h2>Structure:</h2>
-							</div>
-							<div class="paragraph1">
-								<p>RCC framed structure with 9" thick bricks for outer walls and
-									4.5" thick bricks for internal partition walls.</p>
-							</div>
-							<div class="heading1">
-
-
-								<h2>Wall Finishes:</h2>
-							</div>
-							<div class="paragraph1">
-								<p>
-									All external walls cement plastered and painted with exterior
-									wall care point with a texture finish.<br> ceiling will be
-									cement plastered.finished with puty one coat of emulsion.<br>internal
-									walls finished with putty and emulsion paint.
-								</p>
-							</div>
 
 
 
+					<div class="uc-container box5 span4 specification">
+						<div class="uc-initial-content">
 
-							<div class="heading1">
-								<h2>Flooring:</h2>
-							</div>
-							<div class="paragraph1">
-								<p>
-									imported full body vitrified tiles 900*600 in living anddining<br>(Marble
-									series VCitrified Tiles)Kitchen to have anti-skid virtified
-									tiles 6oo*600.<br>Bedroom to have laminated wooden flooring.<br>internal
-									steps in natural stone-Green marble/Granite with a basic cost
-									of Rs 100 perSqft.<br>Sit outs and balconies-basant betton or
-									equivalent blocks.
-								</p>
-							</div>
-
-							<div class="heading1">
-								<h2>Kitchen:</h2>
-							</div>
-							<div class="paragraph1">
-								<p>
-									Polished black granite working platform not exceeding 15ft in
-									length<br> Glazed tile dado for 24" height from granite
-									platform.Single bowl stainless steel sink with drain board in
-									kitchen and a single bowl stainless steel sink without drain in
-									utlity.
-								</p>
-							</div>
-
-
-
-
-
-							<div class="heading1">
-								<h2>Toilets:</h2>
-							</div>
-							<div class="paragraph1">
-								<p>
-									Glazed tile dado up to ceiling height-size300*600.<br>Roca or
-									Kholer make Good quality Cp fittings.Grohe/Kholer or equivalent
-									pressurized water.
-								</p>
-							</div>
-
-							<div class="heading1">
-								<h2>Electrical:</h2>
-							</div>
-
-							<div class="paragraph1">
-								<p>ConcelaedInsulated copper multi-strand wiring with modular
-									type switches-Anchor/MK Distribution board with MCB's in each
-									apartment.4lights,2fans and 2plug points (5amps)in the
-									living/dining area. 2lights,1fan and 1plug point(5amps) in each
-									bedroom. 2lights 1fan point.and 3plug points(2nos 5Amps + 1 No
-									5/15 amp)in the kitchen.2lights pints.1fan point and 1NO.15Amps
-									power points for in all bathrooms.Power Backup-Generator for
-									common area lighting and pumps.UPS provision for all individual
-									villas.</p>
-							</div>
-
-							<div class="heading1">
-								<h2>Security Systems(options):</h2>
-							</div>
-
-							<div class="paragraph1">
-								<p>1.CC TV at the entrance gate. 2.LAN telephone lines
-									connecting all houses which can be used as an intercorn with
-									the securityt at the gate. 3.video calling doorbell.</p>
-							</div>
-
-
-
-
-
-
-
+							<span class="icon-eye"></span>
 						</div>
-					</div>
-				</div>
+						<div class="uc-final-content">
+							<span class="icon-cancel"></span>
+							<div class="contant">
+
+								<div class="heading1">
+									<h2>Structure:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>RCC framed structure with 9" thick bricks for outer walls
+										and 4.5" thick bricks for internal partition walls.</p>
+								</div>
+								<div class="heading1">
+
+
+									<h2>Wall Finishes:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>
+										All external walls cement plastered and painted with exterior
+										wall care point with a texture finish.<br> ceiling will be
+										cement plastered.finished with puty one coat of emulsion.<br>internal
+										walls finished with putty and emulsion paint.
+									</p>
+								</div>
 
 
 
-				<!-- / uc-container -->
+
+								<div class="heading1">
+									<h2>Flooring:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>
+										imported full body vitrified tiles 900*600 in living anddining<br>(Marble
+										series VCitrified Tiles)Kitchen to have anti-skid virtified
+										tiles 6oo*600.<br>Bedroom to have laminated wooden flooring.<br>internal
+										steps in natural stone-Green marble/Granite with a basic cost
+										of Rs 100 perSqft.<br>Sit outs and balconies-basant betton or
+										equivalent blocks.
+									</p>
+								</div>
+
+								<div class="heading1">
+									<h2>Kitchen:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>
+										Polished black granite working platform not exceeding 15ft in
+										length<br> Glazed tile dado for 24" height from granite
+										platform.Single bowl stainless steel sink with drain board in
+										kitchen and a single bowl stainless steel sink without drain
+										in utlity.
+									</p>
+								</div>
 
 
 
 
-				<div class="uc-container box6 span4 floorplan">
 
-					<div class="uc-initial-content">
+								<div class="heading1">
+									<h2>Toilets:</h2>
+								</div>
+								<div class="paragraph1">
+									<p>
+										Glazed tile dado up to ceiling height-size300*600.<br>Roca or
+										Kholer make Good quality Cp fittings.Grohe/Kholer or
+										equivalent pressurized water.
+									</p>
+								</div>
 
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content">
-						<span class="icon-cancel"></span>
-						<div class="contant aimages">
-							<ul>
-								<li><a class="fancybox" href="img/1big-floor.jpg"><img
-										class="img-polaroid" src="img/1small-floor.jpg" style="width: 155px">
-								</a>
-								</li>
+								<div class="heading1">
+									<h2>Electrical:</h2>
+								</div>
 
-								<li><a class="fancybox" href="img/2big-floor.jpg"><img
-										class="img-polaroid" src="img/2small-floor.jpg" style="width: 155px">
-								</a>
-								</li>
-								<li><a class="fancybox" href="img/3big-floor.jpg"><img
-										class="img-polaroid" src="img/3small-floor.jpg" style="width: 155px"> </a>
-								</li>
-								
-								
-							</ul>
+								<div class="paragraph1">
+									<p>ConcelaedInsulated copper multi-strand wiring with modular
+										type switches-Anchor/MK Distribution board with MCB's in each
+										apartment.4lights,2fans and 2plug points (5amps)in the
+										living/dining area. 2lights,1fan and 1plug point(5amps) in
+										each bedroom. 2lights 1fan point.and 3plug points(2nos 5Amps +
+										1 No 5/15 amp)in the kitchen.2lights pints.1fan point and
+										1NO.15Amps power points for in all bathrooms.Power
+										Backup-Generator for common area lighting and pumps.UPS
+										provision for all individual villas.</p>
+								</div>
+
+								<div class="heading1">
+									<h2>Security Systems(options):</h2>
+								</div>
+
+								<div class="paragraph1">
+									<p>1.CC TV at the entrance gate. 2.LAN telephone lines
+										connecting all houses which can be used as an intercorn with
+										the securityt at the gate. 3.video calling doorbell.</p>
+								</div>
+
+
+
+
+
+
+
+							</div>
 						</div>
-
 					</div>
 
 
 
 					<!-- / uc-container -->
 
+
+
+
+					<div class="uc-container box6 span4 floorplan">
+
+						<div class="uc-initial-content">
+
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<span class="icon-cancel"></span>
+							<div class="contant aimages">
+								<ul>
+									<li><a class="fancybox" href="img/1big-floor.jpg"><img
+											class="img-polaroid" src="img/1small-floor.jpg"
+											style="width: 155px"> </a>
+									</li>
+
+									<li><a class="fancybox" href="img/2big-floor.jpg"><img
+											class="img-polaroid" src="img/2small-floor.jpg"
+											style="width: 155px"> </a>
+									</li>
+									<li><a class="fancybox" href="img/3big-floor.jpg"><img
+											class="img-polaroid" src="img/3small-floor.jpg"
+											style="width: 155px"> </a>
+									</li>
+
+
+								</ul>
+							</div>
+
+						</div>
+
+
+
+						<!-- / uc-container -->
+
+					</div>
+
+
+					<div>
+						<a href="Vista Oceana Brochure.pdf" class="bowcher"
+							target="_blank"><img src="img/brochure.png"> </a>
+					</div>
 				</div>
 
+				</section>
 
+			</div>
+			<div class="middle" style="right: -100%" id="ottiyam">
+				<section class="main demo-2 row-fluid">
+
+				<div id="gridottiyam" class="grid clearfix span12">
+
+
+					<div class="uc-container box1 span4 overview">
+						<div class="uc-initial-content">
+
+							<span class="icon-eye">Overview</span>
+
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant">
+
+								<h2>Overview</h2>
+								<p>The next project of MMRF is to launch 448 apartments in
+									Ottiyambakkam, OMR containing 1/2/3 BHK ranging from Sq ft 575
+									to 1350. The total area of development is 6.8 acres and the
+									total construction area is 5,40,000 sq feet This project is
+									conceptually designed to depict the Mediterranean architecture
+									which will be one of its kinds in Chennai.</p>
+								<br> <br>
+							</div>
+
+						</div>
+					</div>
+					<!-- / uc-container -->
+
+
+
+
+
+
+					<div class="uc-container box2 span4 location">
+						<div class="uc-initial-content">
+
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant"></div>
+						</div>
+					</div>
+					<!-- / uc-container -->
+
+					<div class="uc-container box3 span4  elevation">
+						<div class="uc-initial-content">
+
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+							<div class="contant aimages">
+								<ul>
+									<li><a class="fancybox" href="img/ooti/1-big.jpg"><img
+											class="img-polaroid" src="img/ooti/1-small.jpg"
+											style="width: 155px"> </a>
+									</li>
+
+
+
+
+
+									<li><a class="fancybox" href="img/ooti/2-big.jpg"><img
+											class="img-polaroid" src="img/ooti/2-small.jpg"
+											style="width: 155px"> </a>
+									</li>
+									<li><a class="fancybox" href="img/ooti/3-big.jpg"><img
+											class="img-polaroid" src="img/ooti/3-small.jpg"
+											style="width: 155px"> </a>
+									</li>
+
+
+								</ul>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+					<div class="uc-container box4 span4 amenities">
+						<div class="uc-initial-content">
+
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content ">
+							<span class="icon-cancel"></span>
+
+							<div class="contant amen">
+								<div class="heading">
+									<h2>INDOOR AMENTIES:</h2>
+								</div>
+
+								<ul class="list">
+
+									<li>Healthclub/Gymnasium.</li>
+
+									<li>Table Tennis.</li>
+
+									<li>Tv Room/Minitheatre/Multipurpose hall.</li>
+
+									<li>Chess/Carom and other indoor Games .</li>
+
+									<div class="heading">
+										<h2>OUTDOOR AMENTIES:</h2>
+									</div>
+
+									<li>Swimming Pool.</li>
+
+									<li>Land scapes.</li>
+
+									<li>Servant Toilet.</li>
+
+									<li>Out door party area .</li>
+
+
+									<li>Children's Play Area .</li>
+
+
+									<li>Payed garden walk .</li>
+
+									<div class="heading">
+										<h2>OTHER AMENTIES:</h2>
+									</div>
+
+									<li>Intercom facility.</li>
+
+									<li>Backup generator for common areas.</li>
+
+									<li>Security personnel.</li>
+
+									<li>CCTV camera.</li>
+
+
+									<li>Water Treatment plant(RO water for kitchen) .</li>
+
+									<li>Rain water Harvesting .</li>
+
+									<li>Sewage water Harvesting .</li>
+
+									<li>UPS provision for Vilas.</li>
+
+
+								</ul>
+
+
+
+							</div>
+						</div>
+					</div>
+					<!-- / uc-container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				</div>
 				<div>
-					<a href="Vista Oceana Brochure.pdf" class="bowcher" target="_blank"><img
+					<a href="#" class="bowcher" target="_blank"><img
 						src="img/brochure.png"> </a>
 				</div>
-			</div>
-			
-			</section>
+				</section>
 
+			</div>
 		</div>
-		<div class="middle" style="right: -100%" id="ottiyam">
-			<section class="main demo-2 row-fluid">
-
-			<div id="gridottiyam" class="grid clearfix span12">
-
-
-				<div class="uc-container box1 span4 overview">
-					<div class="uc-initial-content">
-
-						<span class="icon-eye">Overview</span>
-
-					</div>
-					<div class="uc-final-content ">
-						<span class="icon-cancel"></span>
-						<div class="contant">
-
-							<h2>Overview</h2>
-							<p>The next project of MMRF is to launch 448 apartments in
-								Ottiyambakkam, OMR containing 1/2/3 BHK ranging from Sq ft 575
-								to 1350. The total area of development is 6.8 acres and the
-								total construction area is 5,40,000 sq feet This project is
-								conceptually designed to depict the Mediterranean architecture
-								which will be one of its kinds in Chennai.</p>
-							<br>
-
-							
-
-							<br>
-						</div>
-
-					</div>
-				</div>
-				<!-- / uc-container -->
-
-
-
-
-
-
-				<div class="uc-container box2 span4 location">
-					<div class="uc-initial-content">
-
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content ">
-						<span class="icon-cancel"></span>
-						<div class="contant"></div>
-					</div>
-				</div>
-				<!-- / uc-container -->
-				
-				<div class="uc-container box3 span4  elevation">
-					<div class="uc-initial-content">
-
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content ">
-						<span class="icon-cancel"></span>
-						<div class="contant aimages">
-							<ul>
-								<li><a class="fancybox" href="img/ooti/1-big.jpg"><img
-										class="img-polaroid" src="img/ooti/1-small.jpg" style="width: 155px">
-								</a>
-								</li>
-
-								
-								
-								
-								
-								<li><a class="fancybox" href="img/ooti/2-big.jpg"><img
-										class="img-polaroid" src="img/ooti/2-small.jpg" style="width: 155px">
-								</a>
-								</li>
-								<li><a class="fancybox" href="img/ooti/3-big.jpg"><img
-										class="img-polaroid" src="img/ooti/3-small.jpg" style="width: 155px"> </a>
-								</li>
-								
-								
-							</ul>
-						</div>
-					</div>
-				</div>
-				
-				
-				
-				
-				
-				
-				
-				
-
-				<div class="uc-container box4 span4 amenities">
-					<div class="uc-initial-content">
-
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content ">
-						<span class="icon-cancel"></span>
-
-						<div class="contant amen">
-                                <div class="heading">
-							<h2>INDOOR AMENTIES:</h2>
-							</div>
-							
-                             <ul class="list">
-                             
-							<li>Healthclub/Gymnasium.</li>
-							
-							<li>Table Tennis.</li>
-							
-							<li>Tv Room/Minitheatre/Multipurpose hall.</li>
-							
-							<li>Chess/Carom and other indoor Games .</li>
-							
-                            <div class="heading">
-							<h2>OUTDOOR AMENTIES:</h2>
-							</div>
-
-							<li>Swimming Pool.</li>
-							
-							<li>Land scapes.</li>
-							
-							<li>Servant Toilet.</li>
-							
-							<li>Out door party area .</li>
-							
-
-							<li>Children's Play Area .</li>
-							
-
-							<li>Payed garden walk .</li>
-							
-<div class="heading">
-							<h2>OTHER AMENTIES:</h2>
-							</div>
-
-							<li>Intercom facility.</li>
-							
-							<li>Backup generator for common areas.</li>
-							
-							<li>Security personnel.</li>
-							
-							<li>CCTV camera.</li>
-							
-
-							<li>Water Treatment plant(RO water for kitchen) .</li>							
-
-							<li>Rain water Harvesting .</li>
-							
-							<li>Sewage water Harvesting .</li>
-							
-							<li>UPS provision for Vilas.</li>
-							
-
-</ul>
-
-
-
-						</div>
-					</div>
-				</div>
-				<!-- / uc-container -->
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-			</div>
-			<div>
-				<a href="#" class="bowcher" target="_blank"><img
-					src="img/brochure.png"> </a>
-			</div>
-			</section>
-
-		</div>
-	</div>
 	</div>
 
 

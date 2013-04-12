@@ -22,7 +22,14 @@
 
 <script src="js/jquery.mobilemenu.js"></script>
 
-	
+<script
+	src="http://gayadesign.com/scripts/queryLoader2/js/lib/jquery.queryloader2.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $("body").queryLoader2();
+});</script>	
 
 	<!-- Add fancyBox main JS and CSS files -->
 	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
