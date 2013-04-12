@@ -68,10 +68,12 @@
 
 			<div class="">
 				<div class="google-map">
-					<iframe
-						src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+NY,+USA&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=47.704107,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.949919&amp;spn=0.01628,0.028238&amp;z=14&amp;iwloc=A&amp;output=embed"
-						frameborder="0" width="100%" height="300" marginwidth="0"
-						marginheight="0" scrolling="no"> </iframe>
+
+					<iframe width="1100" height="300"
+						src="http://regiohelden.de/google-maps/map_en.php?width=1100&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"
+						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"> </iframe>
+
+
 				</div>
 			</div>
 		</div>

@@ -6,8 +6,8 @@
 
 
 		<div class="row header">
-			<div class=" span6 ">Reach Us</div>
-			<div class="span6">Loan Tools</div>
+			<div class=" span6 offset1 ">Reach Us</div>
+			<div class="span6 offset1">Loan Tools</div>
 
 
 

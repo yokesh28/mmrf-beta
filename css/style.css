@@ -1,11 +1,12 @@
 @CHARSET "ISO-8859-1";
-
+@font-face { font-family:Nilland-Black; src: url('Nilland-Black.ttf'); } 
+ @font-face { font-family:Nilland-Black-bold; font-weight: bold; src: url('Nilland-Bold.ttf');}
 html {
 	height: 100%;
 }
 
 body {
-	font-family: Malgun Gothic;
+	font-family: Nilland-Black-bold;
 	height: 100%;
 	visibility: hidden;
 }
@@ -190,7 +191,7 @@ body {
 .bottom p {
 	text-align: center;
 	font-style: italic;
-	font-family: chaparral Pro;
+	
 	font-size: 23px;
 	margin: 60px;
 }
@@ -202,7 +203,7 @@ body {
 	width: 317px;
 	height: 172px;
 	position: absolute;
-	font-family: chaparral Pro;
+	
 	font-size: 30px;
 }
 
@@ -210,7 +211,7 @@ body {
 	
 	width: 317px;
 	height: 172px;
-	font-family: chaparral Pro;
+
 	font-size: 30px;
 	margin-left: 50px;
 	margin-top: 26px;
@@ -235,7 +236,7 @@ body {
 	
 	width: 317px;
 	height: 166px;
-	font-family: chaparral Pro;
+	
 	font-size: 30px;
 	margin-left: 15px;
 }
@@ -318,7 +319,7 @@ body {
 }
 
 .ongoing p {
-	font-family: chaparral Pro;
+	
 	text-align: right;
 	font-size: 30px;
 	padding-top: 11px;
@@ -340,7 +341,7 @@ body {
 }
 
 .upcoming p {
-	font-family: chaparral Pro;
+	
 	text-align: right;
 	font-size: 30px;
 	padding-top: 11px;
@@ -1000,13 +1001,14 @@ footer .open {
 	height: 270px;
 	z-index: 9999 ! important;
 	position: fixed;
+	width: 100%;
 	overflow: hidden;
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	filter: alpha(opacity =          85);
 	opacity: 1;
-	max-width: 1200px;
+	
 	min-width: 700px;
 	margin: 0 auto;
 }
