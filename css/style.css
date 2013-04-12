@@ -21,8 +21,10 @@ body {
 
 #welcomemmrf {
 	background: white;
+
 	opacity:0.8;
 	width: 500px;
+
 	position: fixed;
 	right: 12%;
 	top: 26%;
