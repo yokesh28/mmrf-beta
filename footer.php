@@ -33,7 +33,7 @@
 							<li><label>Phone :</label> +91 98400 09118, 20</li>
 
 							<li><label>Mail :</label> info@mmrf.in</li>
-							<li><label>Website:</label>  www.mmrf.in</li>
+							<li><label>Website:</label> www.mmrf.in</li>
 						</ul>
 
 					</div>
