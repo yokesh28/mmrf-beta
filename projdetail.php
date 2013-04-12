@@ -229,7 +229,7 @@
 							<div class="contant aimages">
 
 
-                                                                img/ame/landbig.jpg
+                                                                
 								<ul>
 									<li><a class="fancybox" href="img/ame/landbig.jpg"> <img
 											src="img/ame/small/land.jpg" width="155px" class="img-polaroid"><span>Landscaped
@@ -823,8 +823,44 @@
 					</div>
 				</div>
 				<!-- / uc-container -->
+				
+				<div class="uc-container box3 span4  elevation">
+					<div class="uc-initial-content">
 
-				<div class="uc-container box3 span4 amenities">
+						<span class="icon-eye"></span>
+					</div>
+					<div class="uc-final-content ">
+						<span class="icon-cancel"></span>
+						<div class="contant aimages">
+							<ul>
+								<li><a class="fancybox" href="img/ooti/1-big.jpg"><img
+										class="img-polaroid" src="img/ooti/1-small.jpg" style="width: 155px">
+								</a>
+								</li>
+
+								<li><a class="fancybox" href="img/ooti/2-big.jpg"><img
+										class="img-polaroid" src="img/ooti/2-small.jpg" style="width: 155px">
+								</a>
+								</li>
+								<li><a class="fancybox" href="img/ooti/3-big.jpg"><img
+										class="img-polaroid" src="img/ooti/3-small.jpg" style="width: 155px"> </a>
+								</li>
+								
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+
+				<div class="uc-container box4 span4 amenities">
 					<div class="uc-initial-content">
 
 						<span class="icon-eye"></span>
@@ -896,33 +932,6 @@
 				</div>
 				<!-- / uc-container -->
 				
-				<div class="uc-container box4  elevation">
-					<div class="uc-initial-content">
-
-						<span class="icon-eye"></span>
-					</div>
-					<div class="uc-final-content ">
-						<span class="icon-cancel"></span>
-						<div class="contant aimages">
-							<ul>
-								<li><a class="fancybox" href="img/ooti/1-big.jpg"><img
-										class="img-polaroid" src="img/ooti/1-small.jpg" style="width: 155px">
-								</a>
-								</li>
-
-								<li><a class="fancybox" href="img/ooti/2-big.jpg"><img
-										class="img-polaroid" src="img/ooti/2-small.jpg" style="width: 155px">
-								</a>
-								</li>
-								<li><a class="fancybox" href="img/ooti/3-big.jpg"><img
-										class="img-polaroid" src="img/ooti/3-small.jpg" style="width: 155px"> </a>
-								</li>
-								
-								
-							</ul>
-						</div>
-					</div>
-				</div>
 				
 				
 				
