@@ -39,7 +39,7 @@ body {
 }
 
 #welcomemmrf h2 {
-	color: black;
+	color: white;
 	font-style: italic;
 	font-size: 26px;
 }
@@ -47,8 +47,9 @@ body {
 #welcomemmrf p {
 	text-align: justify;
 	word-spacing: 2px;
-	font-size: 12px;
-	line-height: 32px;
+	font-size: 14px;
+	line-height: 22px;
+	color: white;
 }
 
 .effect1 {
@@ -445,18 +446,16 @@ body {
 	background: url("../img/pad2.jpg") no-repeat;
 }
 
-
 #enclave .elevation .uc-initial-content {
 	background: url("../img/elesmall.jpg") no-repeat;
 }
 
-#pudur .elevation .uc-initial-content {
+#padur .elevation .uc-initial-content {
 	background: url("../img/pad3.jpg") no-repeat;
 }
 
 #ottiyam .elevation .uc-initial-content {
 	background: url("../img/pad3.jpg") no-repeat;
-
 }
 
 .amenities .uc-initial-content {
@@ -987,17 +986,17 @@ body {
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =              100);
+	filter: alpha(opacity =               100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =              100);
+	filter: alpha(opacity =               100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =              100);
+	filter: alpha(opacity =               100);
 	opacity: 1;
 }
 
@@ -1015,7 +1014,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =             85);
+	filter: alpha(opacity =              85);
 	opacity: 1;
 	min-width: 700px;
 	margin: 0 auto;
