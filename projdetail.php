@@ -151,7 +151,7 @@
 						</div>
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
-							<div class="contant">
+							
 
                  <li class="size"><a class="fancybox" href="img/locbig.jpg"> <img
 											src="img/locsmall.jpg"  class="img-polaroid">
@@ -167,7 +167,7 @@
 
 
 
-							</div>
+						
 						</div>
 					</div>
 					<!-- / uc-container -->
