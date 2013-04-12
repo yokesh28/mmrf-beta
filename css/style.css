@@ -16,7 +16,7 @@ html {
 }
 
 body {
-	font-family: Nilland-Black-bold;
+	font-family: Nilland-Black-bold !important;
 	height: 100%;
 	visibility: hidden;
 }
@@ -234,10 +234,12 @@ body {
 	line-height: 35px;
 }
 
+
 .size a {
 	height: 250px !important;
 	width: 900px;
 }
+
 
 .textleft {
 	width: 317px;
