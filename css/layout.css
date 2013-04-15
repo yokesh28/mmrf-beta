@@ -961,7 +961,9 @@ margin: 42px 44px;}
 }
 
 .hcard p {
-	margin: 0
+	margin: 0px;
+	padding:0px !important;
+	line-height: 20px !important;
 }
 
 .hcard li {

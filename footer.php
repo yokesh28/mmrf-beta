@@ -7,7 +7,7 @@
 
 		<div class="row header">
 			<div class=" span6 offset1 ">Reach Us</div>
-			<div class="span6 offset1">Loan Tools</div>
+			<div class="span6">Loan Tools</div>
 
 
 
@@ -33,7 +33,7 @@
 							<li><label>Phone :</label> + 91 44 43551600<br> + 91 44 24400523</li>
 
 							<li><label>Mail :</label> info@mmrf.in</li>
-							<li><label>Website:</label>  www.mmrf.in</li>
+							<li><label>Website:</label> www.mmrf.in</li>
 						</ul>
 
 					</div>
@@ -55,7 +55,11 @@
 							<img src="images/cal.png">&nbsp; EMI Calculator
 						</h4> </a>
 				</p>
-
+<p>
+					<h4><a href="http://s-creative.me" target="_blank" class="desined">
+					Designed by S-Creative
+						 </a></h4>
+				</p>
 			</div>
 
 

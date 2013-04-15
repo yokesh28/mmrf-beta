@@ -24,7 +24,9 @@ body {
 .background {
 	background: url(../images/2.jpg) 0 0 no-repeat;
 }
-
+.gallery li{
+	margin:0 20px 0 0 !important;
+}
 .as h4 {
 	color: black;
 	margin: 120px 0px;
@@ -38,7 +40,10 @@ body {
 	top: 26%;
 	padding: 12px 40px;
 }
-
+#ottiyam .box4 .uc-final{
+	left: -240px !important;
+	top: 0px !important;
+}
 #welcomemmrf h2 {
 	color: black;
 	font-style: italic;
@@ -219,7 +224,7 @@ body {
 	height: 172px;
 	font-size: 30px;
 	margin-left: 50px;
-	margin-top: 26px;
+	margin-top: 20px;
 }
 
 .textright a:hover {
@@ -378,7 +383,7 @@ body {
 	display: inline-block;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 .position>img {
@@ -439,17 +444,33 @@ body {
 	display: inline-block;
 	margin-left: 0px !important;
 }
-
-.overview .uc-initial-content {
-	background: url("../img/pad4.jpg") no-repeat;
+#enclave .overview .uc-initial-content {
+	background: url("../images/sai-over.jpg") no-repeat;
+}
+#padur .overview .uc-initial-content {
+	background: url("../images/padur-ver.jpg") no-repeat;
+}
+#ottiyam .overview .uc-initial-content {
+	background: url("../images/oti-over.jpg") no-repeat;
 }
 
 .location .uc-initial-content {
 	background: url("../img/pad2.jpg") no-repeat;
 }
 
+
 .elevation .uc-initial-content {
 	background: url("../img/padele.jpg") no-repeat;
+
+}
+
+#padur .elevation .uc-initial-content {
+	background: url("../img/pad3.jpg") no-repeat;
+}
+
+#ottiyam .elevation .uc-initial-content {
+	background: url("../img/otti.jpg") no-repeat;
+
 }
 
 .amenities .uc-initial-content {
@@ -464,10 +485,20 @@ body {
 	background: url("../img/pad6.jpg") no-repeat;
 }
 
+.adress address h5{
+	color:black;
+}
 .alert h4 {
 	color: black;
 }
+.map>h1{
+	color: black !important;
+}
 
+#management{
+	height: 500px;
+overflow-y: scroll;
+}
 .alert-block {
 	position: absolute;
 	top: 60%;
@@ -560,7 +591,7 @@ font-size: 15px;
 	font-size: 15px !important;
 line-height: 2;
 }
-}
+
 
 .paragraph1 {
 	margin: 12px 48px;
@@ -1145,7 +1176,7 @@ footer .footer-content .titlefooter .extramobile {
 }
 
 #fcontentbloc ul li {
-	padding-bottom: 25px;
+	padding-bottom: 12px;
 }
 
 #fcontentbloc ul li h1 {
@@ -1195,6 +1226,7 @@ footer .footer-content .titlefooter .extramobile {
 #fcontentbloc1 a {
 	text-decoration: none;
 	color: white;
+	font-size: 14px;
 }
 
 #fcontentbloc1  p {
@@ -1503,7 +1535,10 @@ left: 77px;
 .tab-content {
 	margin-top: 70px;
 }
-
+.desined:HOVER{
+	text-decoration: underline !important;
+	
+}
 .tab-content .tab-pane {
 	width: 700px;
 	background: rgba(250, 247, 247, 0.78);
@@ -1529,7 +1564,7 @@ left: 77px;
 	width: 15px;
 } /* this targets the default scrollbar (compulsory) */
 ::-webkit-scrollbar-track {
-	background-color: black;
+	
 }
 /* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {

@@ -78,7 +78,7 @@
 			</div>
 		</div>
 		<div class="contact back">
-			<div class=" adress">
+			<div class="adress">
 				<h2>Contact Info</h2>
 				<address>
 					<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
@@ -86,7 +86,7 @@
 					Chennai - 600020.<br> <br> <br> Phone : +91 98400 09118, 20 <br>  <br> Mail : info@mmrf.in<br> Website : www.mmrf.in
 				</address>
 			</div>
-			<div class=" enquiry">
+			<div class="enquiry">
 				<h2>Contact Form</h2>
 				<form name="contactus" id="contactus_form"
 					onSubmit="return validateForm();">

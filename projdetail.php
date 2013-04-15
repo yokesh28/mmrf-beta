@@ -176,7 +176,7 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 							<ul>
-									<li><a  href="#"> <img
+									<li><a  href="img/elevbig.jpg" id="elevsigle" class="fancybox"> <img
 											src="img/elevation.png"
 											class="img-polaroid">
 									</a></li>
@@ -844,19 +844,10 @@
 
 
 
-					<div class="uc-container box2 span4 location">
-						<div class="uc-initial-content">
-
-							<span class="icon-eye"></span>
-						</div>
-						<div class="uc-final-content ">
-							<span class="icon-cancel"></span>
-							<div class="contant"></div>
-						</div>
-					</div>
+					
 					<!-- / uc-container -->
 
-					<div class="uc-container box3 span4  elevation">
+					<div class="uc-container box2 span4  elevation">
 						<div class="uc-initial-content">
 
 							<span class="icon-eye"></span>
@@ -987,6 +978,18 @@
 
 
 				</div>
+				<br clear="both">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				
 				<div>
 					<a href="#" class="bowcher" target="_blank"><img
 						src="img/brochure.png"> </a>
@@ -1223,6 +1226,8 @@
 				 $('#upcoming').animate({"z-index": "114",opacity:0},500);
 				 $('#ongoing').animate({"z-index": "115",opacity:1},500);
 			});
+
+			
 		</script>
 
 
