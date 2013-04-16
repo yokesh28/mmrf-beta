@@ -48,7 +48,7 @@ $(window).load(function() {
 	
 	$("#logo_h2").delay(1500).animate({opacity:0});
 	$("#side_bar").delay(1500).animate({"width":"8%"},700);
-	$("#logo_h").delay(1500).animate({"right":"90px","top":"40px"});
+	$("#logo_h").delay(1500).animate({"left":"38px","top":"40px"});
 	$("#call").delay(1500).animate({opacity:0});
 	
 	$("#menu_t").delay(1500).animate({opacity:0},700);
@@ -73,7 +73,7 @@ $("#side_bar").mouseenter(function(){
 
 	$("#side_bar").stop().animate({"right":"0px"},700);
 	$("#logo_h2").stop().animate({opacity:1});
-	$("#logo_h").stop().animate({"right":"33px","top":"40px"});
+	$("#logo_h").stop().animate({"left":"74px","top":"40px"});
 	m_over().stop();
 	})
 			
@@ -83,7 +83,7 @@ $("#side_bar").mouseleave(function() {
     $(this).stop().animate({opacity:0});
 	$("#logo_h2").stop().animate({opacity:0});
 	$("#side_bar").stop().animate({"right":"0px"},700);
-	$("#logo_h").stop().animate({"right":"90px","top":"40px"});
+	$("#logo_h").stop().animate({"left":"40px","top":"40px"});
 	$("#side_bar_d").fadeIn(50).delay(1000).fadeOut(500);
 	m_out().stop();
 	
@@ -123,6 +123,7 @@ $("#side_bar").mouseleave(function() {
 // BG Change on mouse click
 
 $("#abt_t,").click(function(){
+	return false;
 	$("#bg_img1").delay(1000).fadeIn(1000);
 	$("#bg_img2").delay(1000).fadeOut(1000);
 	$("#bg_img3").delay(1000).fadeOut(1000);
@@ -148,6 +149,7 @@ $("#down_t").click(function(){
 	
 	
 $("#loc_t").click(function(){
+	return false;
 	$("#bg_img3").delay(1000).fadeIn(1000);
 	$("#bg_img1").delay(1000).fadeOut(1000);
 	$("#bg_img2").delay(1000).fadeOut(1000);
@@ -165,6 +167,7 @@ $("#loc_t").click(function(){
 
 	
 $("#amen_t,#cnt_t").click(function(){
+	return false;
 	$("#bg_img2").delay(1000).fadeIn(1000);
 	//$("#pattern").delay(1000).fadeIn(1000);
 
@@ -178,6 +181,7 @@ $("#amen_t,#cnt_t").click(function(){
 	})
 	
 $("#spe_t").click(function(){
+	return false;
 	$("#bg_img4").delay(1000).fadeIn(1000);
 	//$("#pattern").delay(1000).fadeIn(1000);
 
@@ -190,11 +194,13 @@ $("#spe_t").click(function(){
 	
 	
 $("#abt_t,#amen_t,#down_t,#spe_t,#cnt_t,#gal_t").click(function(){
+	return false;
 	$("#sub_bar").delay(300).animate({"right":"0px"},1000,"easeOutCubic");
 	$("#goo_map").animate({"right":"-200px"},700,"easeInCubic")
 	})
 
 $("#cls,#cnt_cls").click(function(){
+	return false;
 	$("#sub_bar").animate({"right":"-500px"},1000,"easeInExpo")
 	})
 
@@ -202,30 +208,35 @@ $("#cls,#cnt_cls").click(function(){
 //MENU
 
 $("#abt_t").click(function(){
+	return false;
 	$("#down_txt,#loc_txt,#amen_txt,#cnt_txt,#spe_txt").css({"z-index":90});
 	$("#adv_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
 	$("#cnt_txt,#spe_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 
 $("#cnt_t").click(function(){
+	return false;
 	$("#down_txt,#loc_txt,#amen_txt,#adv_txt,#spe_txt").css({"z-index":90});
 	$("#cnt_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#spe_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 
 $("#spe_t").click(function(){
+	return false;
 	$("#down_txt,#cnt_txt,#loc_txt,#amen_txt,#adv_txt").css({"z-index":90});
 	$("#spe_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#cnt_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 	
 $("#amen_t").click(function(){
+	return false;
 	$("#down_txt,#loc_txt,#adv_txt,#cnt_txt,#spe_txt").css({"z-index":90});
 	$("#amen_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#cnt_txt,#spe_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 
 $("#gal_t").click(function(){
+	return false;
 	$("#spe_txt, #down_txt,#cnt_txt,#adv_txt,#amen_txt").css({"z-index":90});
 	$("#loc_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#cnt_txt,#spe_txt,#amen_txt,#down_txt").animate({opacity:0},300);
@@ -233,6 +244,7 @@ $("#gal_t").click(function(){
 
 
 $("#down_t").click(function(){
+	return false;
 	$("#spe_txt,#loc_txt,#cnt_txt,#adv_txt,#amen_txt").css({"z-index":90});
 	$("#down_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#cnt_txt,#spe_txt,#amen_txt,#loc_txt").animate({opacity:0},300);
