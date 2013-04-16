@@ -1,0 +1,115 @@
+body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+	margin-top:20px;
+	color:#4e4e4e;
+	font-size:13px;
+	background-color:#f1f0ef;
+	background-image: url(../../gal_bg.png);
+	background-repeat: repeat-x;
+}
+
+#logo{
+	position:absolute;
+	top:35px;}
+
+.clear{
+	clear:both;
+}
+
+a, a:visited {
+	color:#4e4e4e;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#container{
+	width:890px;
+	margin:20px auto;
+}
+
+#footer{
+	border:0px solid #bcbcbc;
+	border-bottom-width:1px;
+	height:20px;
+	padding:6px 0 25px 15px;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+
+
+#heading{
+	border:0px solid #bcbcbc;
+	height:20px;
+	padding:10px 0 10px 5px;
+	margin:150px 0 25px 0;
+	overflow:hidden;
+	border-bottom-width: 1px;
+}
+
+
+
+#footer{
+	height:10px;
+	margin:20px 0 20px 0;
+	padding:6px 0 11px 5px;
+}
+
+div.nomargin{
+	margin-right:0px;
+}
+
+.pic{
+	float:left;
+	margin:0 15px 15px 0;
+	border:5px solid white;
+	width:200px;
+	height:200px;
+	-webkit-box-shadow:  -2px 2px 7px 3px rgba(216, 216, 215, 1);
+     box-shadow:  -2px 2px 7px 3px rgba(216, 216, 215, 1);
+	 position:relative	
+
+}
+
+.pic_h{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:100;}
+
+.pic a{
+	width:200px;
+	height:200px;
+	text-indent:-99999px;
+	display:block;
+	z-index:5
+}
+
+.pic:hover{
+-webkit-box-shadow:  -2px 2px 6px 3px rgba(188, 188, 188, .8);
+ box-shadow:  -2px 2px 6px 3px rgba(188, 188, 188, .8);		
+		}
+
+h1{
+	font-size:19px;
+	font-weight:normal;
+	font-family: 'Armata', sans-serif;
+	color: #4e4e4e;
+	padding:0;
+	margin:0px;
+}
+
+h2{
+	font-weight:normal;
+	font-size:12px;
+	color:#4e4e4e;
+	padding:0px;
+}
