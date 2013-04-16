@@ -15,8 +15,7 @@
 
 
 
-<script
-	src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
 <!-- Bootstrap -->
 <link href="css/res.css" rel="stylesheet">
@@ -30,11 +29,16 @@
 
 
 
-<script
-	src="js/jquery.queryloader2.js"></script>
+<script src="js/jquery.queryloader2.js"></script>
 
-<script
-	src="js/jsscript.js"></script>
+<script src="js/jsscript.js"></script>
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 8]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
 <body class="homepage">
 	<!--  <div class="alert alert-block ">
 		<button type="button" class="close closebutton" data-dismiss="alert">&times;</button>
@@ -48,8 +52,8 @@
 
 	<div>
 
-		<img src="images/2.jpg" width="100%" height="100%"
-			style="position: fixed; height: 100%">
+		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;"
+			class="back">
 		<?php include 'header.php';?>
 		<div id="slidemenu" class="visible-desktop">
 
