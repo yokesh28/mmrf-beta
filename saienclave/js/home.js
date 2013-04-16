@@ -67,7 +67,7 @@ $(window).load(function() {
 	
 	
 $("#side_bar").mouseenter(function(){
-	$(this).css({"width":"90%"})
+	$(this).css({"width":"20%"})
 	$("#side_bar").stop().animate({"right":"0px"},700);
 	$("#logo_h2").stop().animate({opacity:1});
 	$("#logo_h").stop().animate({"left":"33px","top":"40px"});
