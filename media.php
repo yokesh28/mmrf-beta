@@ -17,6 +17,8 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 <script
@@ -43,12 +45,16 @@
 
 	<!-- Add Media helper (this is optional) -->
 	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 
 
 <body >
 	<img src="images/2.jpg" width="100%" height="100%"
-			class="backimage">
+			class="backimage back">
 
 
 

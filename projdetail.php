@@ -53,12 +53,15 @@
 <!-- Add Media helper (this is optional) -->
 <script type="text/javascript"
 	src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
-
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 <body>
 	<div class="slide1 row-fluid">
 
-		<img src="images/2.jpg" width="100%" height="100%" class="backimage">
+		<img src="images/2.jpg" width="100%" height="100%" class="backimage back">
 		<?php include 'header.php';?>
 
 		<div class="im">

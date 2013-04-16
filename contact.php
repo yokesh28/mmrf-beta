@@ -35,24 +35,26 @@
 
 
 
-<script
-	src="http://www.parc-amazonien-guyane.fr/js/libs/jquery-1.8.2.min.js"></script>
+
 <script
 	src="js/jquery.queryloader2.js"></script>
 
 <script
 	src="js/jsscript.js"></script>
-
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
 </head>
 
 <body>
+<div class=" row-fluid">
 
 
 
 
-
-	<img src="images/2.jpg" width="100%" height="100%" class="backimage">
+	<img src="images/2.jpg" width="100%" height="100%" class="backimage back">
 
 
 	<div>
@@ -311,7 +313,7 @@ $('#fancybox-auto').trigger('click');
 });
 /* ]]> */
 </script>
-
+</div>
 
 </body>
 </html>

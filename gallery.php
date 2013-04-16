@@ -48,6 +48,10 @@
 <!-- Add Media helper (this is optional) -->
 <script type="text/javascript"
 	src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 
 <body>
