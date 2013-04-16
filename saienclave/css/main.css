@@ -57,14 +57,16 @@ a img{ border:none;}
 #side_bar{
 	width:249px;
 	height:100%;
-	background-image:url(../images/left_bar_ptn.png);
+	
 	background-repeat:repeat-y;
 	position:absolute;
 	top:0px;
-	left:900 px;
+	right:0px;
 	z-index:100
 }
-
+#side_bar .logo_head{
+	background: #4e4832;
+}
 #side_bar_d{
 	width:249px;
 	height:100%;
