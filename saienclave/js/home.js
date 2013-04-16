@@ -42,12 +42,12 @@ function m_out(){
 
 $(window).load(function() {
 	
-	return;
+
 	$("#yout, .overlay").fadeOut(10);
 	$('#yout').vh_center();
 	
 	$("#logo_h2").delay(1500).animate({opacity:0});
-	$("#side_bar").delay(1500).animate({"right":"0px"},700);
+	$("#side_bar").delay(1500).animate({"right":"-100px"},700);
 	$("#logo_h").delay(1500).animate({"right":"90px","top":"40px"});
 	$("#call").delay(1500).animate({opacity:0});
 	
