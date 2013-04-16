@@ -48,7 +48,7 @@ $(window).load(function() {
 	
 	$("#logo_h2").delay(1500).animate({opacity:0});
 	$("#side_bar").delay(1500).animate({"width":"8%"},700);
-	$("#logo_h").delay(1500).animate({"right":"90px","top":"40px"});
+	$("#logo_h").delay(1500).animate({"left":"38px","top":"40px"});
 	$("#call").delay(1500).animate({opacity:0});
 	
 	$("#menu_t").delay(1500).animate({opacity:0},700);
