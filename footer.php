@@ -136,31 +136,24 @@
 
 
 					<div class="control-group">
-						<label class="control-label" for="inputtext">Interest Rate :</label>
+						<label class="control-label" for="inputtext">Loan Amount:</label>
 						<div class="controls">
-							<input type="text" class="con_label">
+							<input type="text" class="con_label" id="loan_amount">
 						</div>
 					</div>
-					<div class="control-group">
-						<label class="control-label" for="Text input">Amount of loan
-							required :</label>
-						<div class="controls">
-							<input type="text">
-						</div>
-					</div>
+				
 
 					<div class="control-group">
 						<label class="control-label" for="Text input">Tenure (in years) :)</label>
 						<div class="controls">
-							<input type="text">
+							<input type="text" id="tenure">
 						</div>
 					</div>
 
 					<div class="control-group">
-						<label class="control-label" for="Text input">Reducing balance
-							based on :</label>
+						<label class="control-label" for="Text input">Rate of interest(%):</label>
 						<div class="controls">
-							<input type="text">
+							<input type="text" id="rateofinterest">
 						</div>
 					</div>
 
@@ -168,12 +161,12 @@
 						<label class="control-label" for="Text input">Result EMI for month
 							:</label>
 						<div class="controls">
-							<input type="text">
+							<input type="text" id="result">
 						</div>
 					</div>
 
 					<div class="modal-footer">
-						<button class="btn btn-primary">Calculate</button>
+						<button class="btn btn-primary" onclick="return emical();">Calculate</button>
 
 						<button type="button" class="btn" data-complete-text="finished!">Clear</button>
 
@@ -224,4 +217,34 @@
                  return false;
              });
 			});
+
+
+			function emical()
+			{
+			
+
+				var $amount=document.getElementById('loan_amount').value;
+				var $years=document.getElementById('tenure').value;
+				var $rate=document.getElementById('rateofinterest').value;
+				if($amount=='' || $years=='' || $rate=='')
+				{
+					
+				}
+				var $year=$years*12;	
+				var $rat=$rate/12/100;
+				var $emi=0;
+				var $i=0;
+				var $cal = 1;
+				for($i=0;$i<$year;$i++){
+					$cal = $cal*(1+$rat); 
+				}
+				$emi = ($amount*$rat)*($cal/($cal-1));
+				/*(L*I)*{(1+I)^N / [(1+I)^N]-1}*/
+				
+				var $total=document.getElementById('result');
+				$total.value=Math.ceil($emi);
+				
+				
+				return false;
+			}
 			</script>
