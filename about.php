@@ -33,7 +33,7 @@
 </head>
 
 <body id="about">
-<img src="images/2.jpg" width="100%" height="100%"  class="backimage">
+<img src="images/2.jpg" width="100%" height="100%"  class="backimage back">
 	<?php include 'header.php';?>
 	<div class="container">
 		<div class="row-fluid ">

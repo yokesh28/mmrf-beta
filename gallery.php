@@ -1,3 +1,4 @@
+<!DOCTYPE html >
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -55,7 +56,7 @@
 </head>
 
 <body>
-	<img src="images/2.jpg" width="100%" height="100%" class="backimage">
+	<img src="images/2.jpg" width="100%" height="100%" class="backimage back">
 	<?php include 'header.php';?>
 	<div class="container" style="position: relative;">
 		<div class="row-fluid ">
