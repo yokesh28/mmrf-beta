@@ -56,7 +56,11 @@
 
 		<img src="images/2.jpg" width="100%" height="100%" style="position: fixed;"
 			class="back">
+			
+			
 		<?php include 'header.php';?>
+		
+		
 		<div id="slidemenu" class="visible-desktop">
 
 			<img src="images/slide_menu.png">
