@@ -121,6 +121,7 @@ a img {
 	position: absolute;
 	top: 85px;
 	left: 33px;
+	margin-left: -24px;
 }
 
 .ad_menu {
