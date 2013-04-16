@@ -46,7 +46,7 @@
 	<div class="container">
 		<div class="row-fluid ">
 			<div class="vission">
-				<div class="span3">
+				<div class="span3 down">
 
 					<ul class="unstyled menu1 span10 effect1" id="myTab">
 						<li class="active"><a href="#aboutcontent"><img
