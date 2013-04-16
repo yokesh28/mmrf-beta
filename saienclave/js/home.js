@@ -8,13 +8,13 @@ function m_over (){
 	$("#menu_t").stop().delay(800).animate({opacity:1},800);
 	$("#call").stop().delay(700).animate({opacity:1},800);
 	
-	$("#abt").stop().delay(100).animate({left: '25px'},500);
-	$("#amen").stop().delay(200).animate({left: '23px'},500);
-	$("#loc").stop().delay(300).animate({left: '30px'},500);
-	$("#spe").stop().delay(400).animate({left: '24px'},500);
-	$("#gal").stop().delay(500).animate({left: '20px'},500);
-	$("#down").stop().delay(600).animate({left: '24px'},500);
-	$("#cnt").stop().delay(700).animate({left: '28px'},500);
+	$("#abt").stop().delay(100).animate({right: '25px'},500);
+	$("#amen").stop().delay(200).animate({right: '23px'},500);
+	$("#loc").stop().delay(300).animate({right: '30px'},500);
+	$("#spe").stop().delay(400).animate({right: '24px'},500);
+	$("#gal").stop().delay(500).animate({right: '20px'},500);
+	$("#down").stop().delay(600).animate({right: '24px'},500);
+	$("#cnt").stop().delay(700).animate({right: '28px'},500);
 
 	
 	};
@@ -27,13 +27,13 @@ function m_out(){
 	$("#menu_t").stop().animate({opacity:0},100);
 	$("#call").stop().animate({opacity:0});
 		
-	$("#abt").stop().delay(100).animate({left: '135px'},500);
-	$("#amen").stop().delay(200).animate({left: '133px'},500);
-	$("#loc").stop().delay(300).animate({left: '140px'},500);
-	$("#spe").stop().delay(400).animate({left: '134px'},500);
-	$("#gal").stop().delay(500).animate({left: '130px'},500);
-	$("#down").stop().delay(600).animate({left: '134px'},500);
-	$("#cnt").stop().delay(700).animate({left: '138px'},500);
+	$("#abt").stop().delay(100).animate({right: '135px'},500);
+	$("#amen").stop().delay(200).animate({right: '133px'},500);
+	$("#loc").stop().delay(300).animate({right: '140px'},500);
+	$("#spe").stop().delay(400).animate({right: '134px'},500);
+	$("#gal").stop().delay(500).animate({right: '130px'},500);
+	$("#down").stop().delay(600).animate({right: '134px'},500);
+	$("#cnt").stop().delay(700).animate({right: '138px'},500);
 
 	};
 	
@@ -42,23 +42,24 @@ function m_out(){
 
 $(window).load(function() {
 	
+	return;
 	$("#yout, .overlay").fadeOut(10);
 	$('#yout').vh_center();
 	
 	$("#logo_h2").delay(1500).animate({opacity:0});
 	$("#side_bar").delay(1500).animate({"right":"0px"},700);
-	$("#logo_h").delay(1500).animate({"left":"90px","top":"40px"});
+	$("#logo_h").delay(1500).animate({"right":"90px","top":"40px"});
 	$("#call").delay(1500).animate({opacity:0});
 	
 	$("#menu_t").delay(1500).animate({opacity:0},700);
 	
-	$("#abt").delay(1900).animate({left: '135px'},500);
-	$("#amen").delay(2000).animate({left: '133px'},500);
-	$("#loc").delay(2100).animate({left: '140px'},500);
-	$("#spe").delay(2200).animate({left: '134px'},500);
-	$("#gal").delay(2300).animate({left: '130px'},500);
-	$("#down").delay(2400).animate({left: '134px'},500);
-	$("#cnt").delay(2500).animate({left: '138px'},500);
+	$("#abt").delay(1900).animate({right: '135px'},500);
+	$("#amen").delay(2000).animate({right: '133px'},500);
+	$("#loc").delay(2100).animate({right: '140px'},500);
+	$("#spe").delay(2200).animate({right: '134px'},500);
+	$("#gal").delay(2300).animate({right: '130px'},500);
+	$("#down").delay(2400).animate({right: '134px'},500);
+	$("#cnt").delay(2500).animate({right: '138px'},500);
 
 
 	$("#side_bar_d").delay(2600).fadeOut(100);
@@ -72,7 +73,7 @@ $("#side_bar").mouseenter(function(){
 
 	$("#side_bar").stop().animate({"right":"0px"},700);
 	$("#logo_h2").stop().animate({opacity:1});
-	$("#logo_h").stop().animate({"left":"33px","top":"40px"});
+	$("#logo_h").stop().animate({"right":"33px","top":"40px"});
 	m_over().stop();
 	})
 			
@@ -81,7 +82,7 @@ $("#side_bar").mouseleave(function() {
     $(this).css({"width":"249px"});
 	$("#logo_h2").stop().animate({opacity:0})
 	$("#side_bar").stop().animate({"right":"0px"},700);
-	$("#logo_h").stop().animate({"left":"90px","top":"40px"});
+	$("#logo_h").stop().animate({"right":"90px","top":"40px"});
 	$("#side_bar_d").fadeIn(50).delay(1000).fadeOut(500);
 	m_out().stop();
 	

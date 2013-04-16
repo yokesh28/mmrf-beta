@@ -61,7 +61,7 @@ a img{ border:none;}
 	background-repeat:repeat-y;
 	position:absolute;
 	top:0px;
-	left:900 px;
+	right:0px;
 	z-index:100
 }
 
