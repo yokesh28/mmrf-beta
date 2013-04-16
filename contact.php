@@ -96,37 +96,41 @@
 						<li><label>Name<span>*</span>
 						</label><input type="text" name="name" style="width: 180px;"></li>
 
-						<li style="margin-top: -10px;">
-							<ul class="add-sub">
-								<li><label>Address<span>*</span>
-								</label> <textArea name="address"
-										style="width: 180px; height: 72px;"></textArea>
+							<li style="margin-top: -10px;">
+								<ul class="add-sub">
+									<li><label>Address<span>*</span>
+									</label>
+									<textArea name="address" style="width: 180px; height: 72px;"></textArea>
 								</li>
-								</ul>
+									</ul>
+							
+							</li>
+							
+								
 								</li>
 								
 								<li><label class="city">City</label><input type="text"
 									name="city" style="width: 140px"></li>
-								<li>	 <label>Pincode</label><input
-									type="text" name="pincode" style="width: 139px;"></li>
+								<li><label class="city" >Pincode</label><input
+									type="text" name="pincode" style="width: 138px"></li>
 
 							
 					
 
-						<li>
+						<li style="margin:30px 0px">
 						<label>Email
 								<span>*</span>
 						</label>
-						<input type="email" name="email" style="width: 180px;"></li>
+						<input type="email" name="email" style="width: 180px;">
+						</li>
 						
 						<li>
 						<label>Mobie No<span>*</span>
 						</label><input type="text" name="mobile" style="width: 180px;">
 						</li>
 						
-						<li style="margin-top: 0px">
-						<label
-							style="width: 83px;">Phone No </label><input type="text"
+						<li >
+						<label>Phone No </label><input type="text"
 							name="pho_ex" style="width: 42px"> <input type="text"
 							name="phone" style="width: 66px">
 						</li>
@@ -134,10 +138,10 @@
 						<li><label>Location<span>*</span>
 						</label><input type="text" name="location" style="width: 180px;">
 						</li>
-						<li style="margin-top: 0px">
+						<li>
 						<label>BuildUp Area<span>*</span>
-						</label></li>
-						<li style="margin-top: 0px">
+						</label>
+						
 							<div class="select" style="width: 200px;">
 								<select style="width: 200px;" name="build_area" id="bulid">
 								<option value="">--Select--</option>
@@ -157,18 +161,13 @@
 
 
 								</select>
-
-
-
-
-
-							</div>
+                                 </div>
 							</li>
-							<li style="margin-top: 0px">
-							 <label style="width: 76px">Budget<span>*</span>
+							<li >
+							 <label>Budget<span>*</span>
 						</label>
-						</li>
-						<li style="margin-top: 0px">
+						
+						
 							<div class="select" style="width: 153px">
 								<select style="width: 154px" name="budget" id="bud">
 								<option value="">--Select--</option>
@@ -193,7 +192,7 @@
 								</select>
 							</div>
 							</li>
-						<li style="margin-top: 0px">
+						<li >
 						<label style="width: auto">Post Your Enquiry</label>
                         <textarea class="enquiry_text" name="enquiry"></textarea>
 						</li>
