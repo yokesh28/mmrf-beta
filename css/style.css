@@ -945,6 +945,9 @@ body {
 	background-size: 30px;
 }
 
+
+.cimages img{width:250px; height:227px;}
+
 .enquiry select {
 	padding: 0px 7px;
 	-webkit-appearance: none;
