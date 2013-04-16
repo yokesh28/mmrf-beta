@@ -1,0 +1,201 @@
+	
+/* Hides the whole contact form until needed */	
+#contactForm {
+	height:430px;
+	width:370px;
+	float: left;
+	}   
+#contactForm p {
+	padding-bottom:5px;
+}
+
+
+/* Hides the confirmation message until needed */	
+#messageSent {display:none;}
+
+#bar1{
+	display:none;
+	background:url(../images/ajax-loader.gif) no-repeat center;
+	margin-top:150px;
+	height:40px;
+	width:auto;
+	}
+
+
+/* This hides the form validation alert messages until needed */
+#contactForm span {
+	display:none;
+	font-size:9px;
+	color:#FF0000;
+	font-family: Verdana, Geneva, sans-serif;
+	}
+	
+#contactForm .alert{
+	width:auto;
+	height:13px;
+	padding-bottom:4px;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+	
+/* Form styling from here on out. There is nothing in here that you HAVE to use to get this to work */	
+#contactForm textarea, #contactForm input {
+	width:180px;
+	color:#514c4b;
+	border:none;
+	height:15px;
+	font-size:11px;
+	background-color: transparent;
+	outline:none;
+	}
+#contactForm input{
+	width:265px;
+	height:35px;
+	margin:4px 0px 0px 35px;
+	padding-left:39px;
+}
+#contactForm textarea {
+	height:75px;
+	font-family:Verdana, Geneva, sans-serif;
+	width: 290px;
+	margin: 33px 0px 0px 35px;
+	padding-left:10px;
+}
+#contactForm .submit {
+	cursor:pointer;
+	float:left;
+	margin-top:20px;
+	width:70px;
+	height:25px;
+	border:0px;
+	}
+#inp_box{
+	width:355px;
+	height:45px;
+	background-image:url(../images/form_txt.png);
+	background-repeat:no-repeat;}
+	
+#msg_box{
+	width:356px;
+	height:121px;
+	background-image:url(../images/form_msg.png);
+	background-repeat:no-repeat;}
+	
+.titles1{
+	color:#514c4b;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	position:absolute;
+	cursor: default;
+}
+
+
+
+
+
+
+/* second contact form*/
+
+
+
+
+
+/* Hides the whole contact form until needed */	
+#contactForm2 {
+	height:280px;
+	width:350px;
+	float: left;
+	position: absolute;
+	top: 55px;
+	}   
+#contactForm2 p {
+	padding-bottom:5px;
+}
+
+
+/* Hides the confirmation message until needed */	
+#messageSent {display:none;}
+
+#bar2{
+	display:none;
+	background:url(../images/ajax-loader.gif) no-repeat center;
+	margin-top:150px;
+	height:40px;
+	width:auto;
+	}
+
+
+/* This hides the form validation alert messages until needed */
+#contactForm2 span {
+	display:none;
+	font-size:9px;
+	color:#FF0000;
+	font-family: Verdana, Geneva, sans-serif;
+	}
+	
+#contactForm2 .alert{
+	width:auto;
+	height:13px;
+	padding-bottom:4px;
+	padding-top: 6px;
+	padding-right: 44px;
+	padding-left: 5px;
+}
+	
+/* Form styling from here on out. There is nothing in here that you HAVE to use to get this to work */	
+#contactForm2 textarea, #contactForm2 input {
+	width:180px;
+	color:#666666;
+	height:15px;
+	font-size:11px;
+	background-color: transparent;
+	outline:none;
+	border: 1px solid #3d4921;
+	}
+#contactForm2 input{
+	width:228px;
+	height:28px;
+	margin:4px 0px 0px 5px;
+	padding-left:42px;
+}
+#contactForm2 .submit {
+	cursor:pointer;
+	float:left;
+	margin-top:20px;
+	margin-left:30px;
+	width:70px;
+	height:25px;
+	border:0px;
+	}
+
+.inp_box2{
+	width:355px;
+	height:30px;
+	background-repeat:no-repeat;}
+	
+.titles{
+	color:#666666;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	position:absolute;
+	cursor: default;
+}
+	
+#bro_alert{
+	width:350px;
+	height:auto;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#743f16;
+	position:absolute;
+	top:-10px;
+	padding-left:3px;
+}

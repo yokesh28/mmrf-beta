@@ -1,0 +1,130 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {color:#333; text-decoration:none}
+
+.clear {
+	clear: both;
+}
+li {
+	list-style-type: none;
+}
+
+#popupContact_download{
+	position:absolute;
+	z-index:9999;
+	font-size:13px;
+	width: 430px;
+	height:460px;
+	overflow:hidden;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #FFFFFF;
+	display:none;
+}
+
+#tab_1{
+	display:block}
+	
+#tab_2{
+	display:none}
+
+#tab_3{
+	display:none}
+	
+#tab_4{
+	display:none}
+
+
+.download_head {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #231f20;
+	display: block;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #231f20;
+	font-weight: normal;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+	position: relative;
+}
+#downloadfloor_container {
+	width: 385px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #f9f9f9;
+	border: 1px solid #b1b1b1;
+	padding-left: 1px;
+	margin-bottom: 20px;
+	padding-bottom: 1px;
+}
+.download_gradientboxes {
+	display: block;
+	height: 23px;
+	width: 76px;
+	background-image: url(../images/download_gradiendbg.png);
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #b1b1b1;
+	border-left-color: #b1b1b1;
+	text-align: center;
+	padding-top: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #6d6e71;
+	float: left;
+}
+.tabs_download li a {
+	display: block;
+	height: 22px;
+	width: 91px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #6d6e71;
+	background-image: url(../images/download_bg.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 5px;
+	float: left;
+	margin-right: 10px;
+}
+#downloadfloor_toppart {
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #666;
+}
+.fourthfloor_head {
+	display: block;
+	height: 27px;
+	width: 96px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #6d6e71;
+	text-align: center;
+	padding-top: 8px;
+	margin-left: 21px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #b1b1b1;
+	border-right-color: #b1b1b1;
+	border-left-color: #b1b1b1;
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+}
