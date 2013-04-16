@@ -159,7 +159,7 @@
 						<label class="control-label" for="Text input">Result EMI for month
 							:</label>
 						<div class="controls">
-							<input type="text" id="result">
+							<input type="text" id="result" class="uneditable-input">
 						</div>
 					</div>
 
