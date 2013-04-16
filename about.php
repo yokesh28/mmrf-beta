@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 <meta charset="UTF-8" />
 
 <script type="text/javascript"
@@ -18,13 +21,15 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
+
+
+
+
 <script src="js/bootstrap.min.js"></script>
 
-<script
-	src="js/jquery.queryloader2.js"></script>
+<script src="js/jquery.queryloader2.js"></script>
 
-<script
-	src="js/jsscript.js"></script>
+<script src="js/jsscript.js"></script>
 <script src="js/jquery.mobilemenu.js"></script>
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -33,7 +38,9 @@
 </head>
 
 <body id="about">
+
 <img src="images/2.jpg" width="100%" height="100%"  class="backimage back">
+
 	<?php include 'header.php';?>
 	<div class="container">
 		<div class="row-fluid ">
@@ -41,15 +48,18 @@
 				<div class="span3">
 
 					<ul class="unstyled menu1 span10 effect1" id="myTab">
-						<li class="active"><a href="#aboutcontent"><img src="images/group.png"
-								class="img-rounded">
-								<p>About Us</p> </a></li>
+						<li class="active"><a href="#aboutcontent"><img
+								src="images/group.png" class="img-rounded">
+								<p>About Us</p> </a>
+						</li>
 						<li><a href="#management"> <img src="images/management.png"
 								class="img-rounded">
 								<p>Management</p>
-						</a></li>
+						</a>
+						</li>
 						<li><a href="#app"><img src="images/team.png" class="img-rounded">
-								<p>Team</p> </a></li>
+								<p>Team</p> </a>
+						</li>
 					</ul>
 
 				</div>
