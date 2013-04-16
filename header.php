@@ -17,28 +17,28 @@
 
 							<li class="span2" onclick="location.href='index.php'"><a
 								href="index.php">Home</a> <img src="img/1.jpg"
-								style="display: none" width=150px>
+								style="display: none" class="back" >
 							</li>
 							<li class="span2" onclick="location.href='projdetail.php'"><a
 								href="projdetail.php">Projects</a> <img src="img/2.jpg"
-								style="display: none" width=150px>
+								style="display: none" class="back">
 							</li>
 							<li class="span2" onclick="location.href='about.php'"><a
 								href="about.php">About Us</a> <img src="img/3.jpg"
-								style="display: none" width=150px>
+								style="display: none" class="back">
 							</li>
 
 							<li class="span2" onclick="location.href='gallery.php'"><a
 								href="gallery.php">Gallery</a> <img src="img/4.jpg"
-								style="display: none" width=150px>
+								style="display: none" class="back">
 							</li>
 							<li class="span2" onclick="location.href='media.php'"><a
 								href="media.php">Media Center</a> <img src="img/5.jpg"
-								style="display: none" width=150px>
+								style="display: none" class="back">
 							</li>
 							<li class="span2" onclick="location.href='contact.php'"><a
 								href="contact.php">Contact Us</a> <img src="img/6.jpg"
-								style="display: none" width=150px>
+								style="display: none" class="back">
 							</li>
 
 						</ul>

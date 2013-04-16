@@ -7,14 +7,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="PFold: Paper-Like Unfolding Effect" />
+
 <meta name="keywords"
-	content="css3, experiment, 3d, unfolding, fold, paper, component, element, web design, jquery, plugin, perspective" />
-<meta name="author" content="Codrops" />
+	content="" />
+
 
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
 <link rel="stylesheet" type="text/css" href="css/pfold.css" />
 <link rel="stylesheet" type="text/css" href="css/custom2.css" />
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 
 
@@ -24,8 +26,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/res.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
-<script type="text/javascript"
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
 
 <script
 	src="js/jquery.queryloader2.js"></script>

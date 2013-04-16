@@ -1,22 +1,7 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,.module,summary,time,mark,audio,video
-	{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline
-}
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,.module
-	{
-	display: block
-}
 
-body {
-	line-height: 1
-}
+
+
 
 ol,ul {
 	list-style: none
@@ -333,9 +318,7 @@ blockquote {
 hr,blockquote:before,blockquote {
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-image:
-		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAABCAYAAAAmaMpmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpFMjI4NEQxQkI3MjA2ODExODA4M0IxMjNDMzM3QTkxOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0OTZCMzc1Q0Q5RUYxMUUxQkZEN0MxRjJBNDNEQTg0NCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0OTZCMzc1QkQ5RUYxMUUxQkZEN0MxRjJBNDNEQTg0NCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Mjk1M0MwNUEyRTIwNjgxMTgyMkE5OTk0MDZEN0IxQ0MiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RTIyODREMUJCNzIwNjgxMTgwODNCMTIzQzMzN0E5MTkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5aM6AgAAAAlElEQVR42uxW2xHAIAgz09qR6rTpBGoCfNg7+fKAPKC2V5BsN/4X7xgwIZic3Z5ZDYX1XT8CvI6mm3fPMH0oM0b2n/GJ4HNyNR3saieRvTt3oZl6Fe+IqhvhPCko5tz+XU7BUMSqNZVz5S3jyfXicrLIP5P7YkGPi62cP3MXVR+upsKtcigzqN+D9vR+f3QPjE+AAQBBiFL/J7+KRQAAAABJRU5ErkJggg==)
-}
+
 
 .ie7 hr,.ie7 blockquote:before,.ie7 blockquote {
 	background-image: url(../images/fallback/hr.png)
@@ -360,20 +343,7 @@ blockquote {
 	margin-bottom: 36px
 }
 
-header {
-	height: 83px;
-	width: 96%;
-	
-	
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',
-		endColorstr='#fafafa', GradientType=0);
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	padding: 0 2%;
-	margin: 0 0 -71px
-}
+
 
 .menu-main-navigation-container {
 	overflow: hidden
@@ -385,8 +355,7 @@ header {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image:
-		url(https://4804c8f6fdfb80c8ab58-798c09c5467be5a91934f19f2aaddb9e.ssl.cf1.rackcdn.com/f5dcf8cc-a665-4f81-8e76-e51e538b8266_logo-wam-retina.png);
+
 	height: 40px;
 	width: 190px;
 	margin: 16px 5px 15px;
@@ -396,164 +365,13 @@ header {
 	position: absolute
 }
 
-.oldie .brand {
-	background: url(../images/fallback/logo-wearemammoth.png) no-repeat top
-		center;
-	width: 192px
-}
 
-header nav {
-	padding: 19px 0 15px
-}
 
-header nav {
-	line-height: 35px;
-	font-size: 14px
-}
+
 
 .divider {
 	color: #dadada;
 	margin: 0 5px
-}
-
-header nav a,footer.main ul a {
-	color: #777;
-	text-transform: capitalize;
-	text-decoration: none;
-	padding: 0 5px;
-	transition: all .3s linear;
-	-o-transition: all .3s linear;
-	-moz-transition: all .3s linear;
-	-webkit-transition: all .3s linear
-}
-
-header nav a {
-	display: block;
-	float: left
-}
-
-header nav .divider {
-	display: block;
-	float: left;
-	line-height: 35px
-}
-
-header nav a:hover,footer.main ul a:hover {
-	color: #f77900;
-	text-decoration: none;
-	transition: all .3s linear;
-	-o-transition: all .3s linear;
-	-moz-transition: all .3s linear;
-	-webkit-transition: all .3s linear
-}
-
-header nav li.active>a,header nav li.active>a:hover,header nav li.current-menu-item>a,header nav li.current-menu-item>a:hover,header nav li.active>a:hover,header nav li.current_page_parent>a,header nav li.current_page_parent>a:hover
-	{
-	text-shadow: none;
-	color: #000
-}
-
-header nav ul,footer.main ul {
-	margin: 0;
-	list-style: none;
-	float: right;
-	font-size: 1rem
-}
-
-footer.main ul {
-	float: left
-}
-
-header nav ul li,footer.main ul li {
-	float: left
-}
-
-header nav ul li:last-child .divider,footer.main ul li:last-child .divider
-	{
-	display: none
-}
-
-footer.main {
-	min-height: 56px;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	background: #fff;
-	background: -moz-linear-gradient(top, #fff 0, #fafafa 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff),
-		color-stop(100%, #fafafa));
-	background: -webkit-linear-gradient(top, #fff 0, #fafafa 100%);
-	background: -o-linear-gradient(top, #fff 0, #fafafa 100%);
-	background: -ms-linear-gradient(top, #fff 0, #fafafa 100%);
-	background: linear-gradient(to bottom, #fff 0, #fafafa 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',
-		endColorstr='#fafafa', GradientType=0);
-	z-index: 100
-}
-
-footer.main .wrap {
-	padding: 0 2%;
-	color: #bbb;
-	line-height: 16px;
-	font-size: 13px
-}
-
-footer.main .byline {
-	float: left;
-	margin: 0 25px 0 5px
-}
-
-footer.main .byline,footer.main ul {
-	margin-top: 20px;
-	margin-bottom: 20px
-}
-
-.nav-next {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	line-height: 56px;
-	min-width: 220px;
-	font-size: 1.25rem;
-	color: #777;
-	-moz-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-	z-index: 20;
-	background: #fff
-}
-
-.nav-next a {
-	display: block;
-	padding: 0 18px;
-	transition: all .1s linear;
-	-o-transition: all .1s linear;
-	-moz-transition: all .1s linear;
-	-webkit-transition: all .1s linear;
-	background-repeat: no-repeat;
-	background-position: 175px 9px;
-	background-image:
-		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpFMjI4NEQxQkI3MjA2ODExODA4M0IxMjNDMzM3QTkxOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowOUIzNjZERERCMzExMUUxOTYxNkVFQzYxMUVDQjVBOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowOUIzNjZEQ0RCMzExMUUxOTYxNkVFQzYxMUVDQjVBOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkY3N0YxMTc0MDcyMDY4MTFCODIzQzRBN0Y3NTFBNDMzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUyMjg0RDFCQjcyMDY4MTE4MDgzQjEyM0MzMzdBOTE5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+mWUrZQAAARxJREFUeNrs2LEOgyAQBmA8sbVtopOv466OPqcPiAIWOtWmC3B3MS0mxjiAnz+HosW+7+LMW5GBGZiBiMBlWS7uYN2uQy80z3MUEEJwWmtljNncqeRKEAISWKWUtbVWcCIhcJhUVVW1LwsuJETUkuJMEiLbsSUJCW1ZkoTE9uRJAkIfPskrFRKQ+lmpkIB4syRIQC4ZdCQQTDzUNw4FEHV2UwFfSZZl6YGi67o6thOqN4Bfxlm3+hFN0zz6vjdnSvAdd5+maXNLNXUW4AE3jqNxuC2lQ0mBa9v2NgxDMg4zQRIcFvAwrJg4DCB6zWHW4CdOY+NSEiRPLjpBB2FJLirBLzhDiYtJ8ELxKEH/LubC/d7PowzMwH8EPgUYAGsbMSzTssoIAAAAAElFTkSuQmCC)
-}
-
-.ie7 .nav-next a {
-	background-image: url(../images/fallback/btn-page-next.png)
-}
-
-.nav-next a:hover {
-	text-decoration: none;
-	background-position: 180px 9px;
-	color: #f77900;
-	transition: all .3s linear;
-	-o-transition: all .3s linear;
-	-moz-transition: all .3s linear;
-	-webkit-transition: all .3s linear
-}
-
-.bd .holler {
-	text-align: center;
-	padding: 0 10px 10px 10px;
-	line-height: 1.65em
 }
 
 .group:before,.group:after {
