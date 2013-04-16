@@ -46,10 +46,10 @@
 
 			<div id="fcontentbloc1" class="fcontent span5">
 				
-					<a href="#myModal" data-toggle="modal"><h4>
+			<!--		<a href="#myModal" data-toggle="modal"><h4>
 							<img src="images/cal.png">&nbsp; Loan Eligiblity Calculator
 						</h4> </a>
-			
+			 -->
 					<a href="#emi" data-toggle="modal"><h4>
 							<img src="images/cal.png">&nbsp; EMI Calculator
 						</h4> </a>
@@ -62,7 +62,7 @@
 
 
 			<!-- LOAN ELIGIBLITY -->
-
+<!-- 
 
 			<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog"
 				aria-labelledby="myModalLabel" aria-hidden="true">
@@ -119,7 +119,7 @@
 					</div>
 				</form>
 			</div>
-
+-->
 
 			<!--  EMI CALCULATOR   -->
 
