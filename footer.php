@@ -45,21 +45,19 @@
 			</div>
 
 			<div id="fcontentbloc1" class="fcontent span5">
-				<p>
+				
 					<a href="#myModal" data-toggle="modal"><h4>
 							<img src="images/cal.png">&nbsp; Loan Eligiblity Calculator
 						</h4> </a>
-				</p>
-				<p>
+			
 					<a href="#emi" data-toggle="modal"><h4>
 							<img src="images/cal.png">&nbsp; EMI Calculator
 						</h4> </a>
-				</p>
-<p>
+			
 					<h4><a href="http://s-creative.me" target="_blank" class="desined">
 					Designed by S-Creative
 						 </a></h4>
-				</p>
+				
 			</div>
 
 
@@ -226,10 +224,26 @@
 				var $amount=document.getElementById('loan_amount').value;
 				var $years=document.getElementById('tenure').value;
 				var $rate=document.getElementById('rateofinterest').value;
-				if($amount=='' || $years=='' || $rate=='')
+				if($amount=='')
 				{
+					alert("Enter the Amount")
+					document.getElementById('loan_amount').focus();
+					return false;
 					
 				}
+				if($years=='')
+				{
+					alert("Enter the Years")
+					document.getElementById('tenure').focus();
+				
+					return false;
+				}
+				if($rate=='')
+				{
+					alert("Enter the Rate of Interest")
+					document.getElementById('rateofinterest').focus();
+					return false;
+					}
 				var $year=$years*12;	
 				var $rat=$rate/12/100;
 				var $emi=0;

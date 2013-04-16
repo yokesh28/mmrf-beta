@@ -445,40 +445,6 @@ header nav ul li:last-child .divider,footer.main ul li:last-child .divider
 	display: none
 }
 
-footer.main {
-	min-height: 56px;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	background: #fff;
-	background: -moz-linear-gradient(top, #fff 0, #fafafa 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff),
-		color-stop(100%, #fafafa));
-	background: -webkit-linear-gradient(top, #fff 0, #fafafa 100%);
-	background: -o-linear-gradient(top, #fff 0, #fafafa 100%);
-	background: -ms-linear-gradient(top, #fff 0, #fafafa 100%);
-	background: linear-gradient(to bottom, #fff 0, #fafafa 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',
-		endColorstr='#fafafa', GradientType=0);
-	z-index: 100
-}
-
-footer.main .wrap {
-	padding: 0 2%;
-	color: #bbb;
-	line-height: 16px;
-	font-size: 13px
-}
-
-footer.main .byline {
-	float: left;
-	margin: 0 25px 0 5px
-}
-
-footer.main .byline,footer.main ul {
-	margin-top: 20px;
-	margin-bottom: 20px
-}
 
 .nav-next {
 	position: absolute;
