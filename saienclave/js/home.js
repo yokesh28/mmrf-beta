@@ -47,7 +47,7 @@ $(window).load(function() {
 	$('#yout').vh_center();
 	
 	$("#logo_h2").delay(1500).animate({opacity:0});
-	$("#side_bar").delay(1500).animate({"right":"-100px"},700);
+	$("#side_bar").delay(1500).animate({"width":"8%"},700);
 	$("#logo_h").delay(1500).animate({"right":"90px","top":"40px"});
 	$("#call").delay(1500).animate({opacity:0});
 	
@@ -79,8 +79,9 @@ $("#side_bar").mouseenter(function(){
 			
 			
 $("#side_bar").mouseleave(function() {
-    $(this).css({"width":"249px"});
-	$("#logo_h2").stop().animate({opacity:0})
+    $(this).css({"width":"8%"});
+    $(this).stop().animate({opacity:0});
+	$("#logo_h2").stop().animate({opacity:0});
 	$("#side_bar").stop().animate({"right":"0px"},700);
 	$("#logo_h").stop().animate({"right":"90px","top":"40px"});
 	$("#side_bar_d").fadeIn(50).delay(1000).fadeOut(500);
