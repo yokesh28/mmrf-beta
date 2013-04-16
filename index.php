@@ -47,7 +47,7 @@
 
 
 
-
+     <div class="row-fluid">
 	<div>
 
 		<img src="images/2.jpg" width="100%" height="100%"
@@ -90,7 +90,7 @@
 
 
 	<?php include 'footer.php';?>
-
+</div>
 
 
 	<script src="js/bootstrap.min.js"></script>
