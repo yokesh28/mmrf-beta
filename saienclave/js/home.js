@@ -162,7 +162,7 @@ $("#loc_t").click(function(){
 	
 	$("#goo_map").animate({"right":"0px"},700,"easeOutCubic")
 	
-	$("#sub_bar").animate({"right":"-500px"},1000,"easeInExpo")
+	$("#sub_bar").animate({"left":"-500px"},1000,"easeInExpo")
 	})
 
 	
@@ -195,7 +195,7 @@ $("#spe_t").click(function(){
 	
 $("#abt_t,#amen_t,#down_t,#spe_t,#cnt_t,#gal_t").click(function(){
 	
-	$("#sub_bar").delay(300).animate({"right":"0px"},1000,"easeOutCubic");
+	$("#sub_bar").delay(300).animate({"left":"0px"},1000,"easeOutCubic");
 	$("#goo_map").animate({"right":"-200px"},700,"easeInCubic")
 	})
 
