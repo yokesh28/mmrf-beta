@@ -1052,6 +1052,9 @@
 					
 
 				  $(".enclave").click(function() {
+
+					  window.open("saienclave", "blank");
+					  return false;
 					 $('.middle1').animate({"right":"-100%",opacity:0},500);
 					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
 					  $('#ongoing').animate({"right":"-100%",opacity:0},500);
