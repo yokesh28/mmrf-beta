@@ -48,7 +48,7 @@ $(window).load(function() {
 	
 	$("#logo_h2").delay(1500).animate({opacity:0});
 	$("#side_bar").delay(1500).animate({"width":"8%"},700);
-	$("#logo_h").delay(1500).animate({"left":"38px","top":"40px"});
+	$("#logo_h").delay(1500).animate({"left":"44px","top":"40px"});
 	$("#call").delay(1500).animate({opacity:0});
 	
 	$("#menu_t").delay(1500).animate({opacity:0},700);
@@ -73,7 +73,7 @@ $("#side_bar").mouseenter(function(){
 
 	$("#side_bar").stop().animate({"right":"0px"},700);
 	$("#logo_h2").stop().animate({opacity:1});
-	$("#logo_h").stop().animate({"left":"74px","top":"40px"});
+	$("#logo_h").stop().animate({"left":"110px","top":"40px"});
 	m_over().stop();
 	})
 			
