@@ -200,8 +200,8 @@ $("#abt_t,#amen_t,#down_t,#spe_t,#cnt_t,#gal_t").click(function(){
 	})
 
 $("#cls,#cnt_cls").click(function(){
-	
-	$("#sub_bar").animate({"left":"-500px"},1000,"easeInExpo")
+
+	$("#sub_bar").animate({"left":"-500px"},500,"easeInExpo")
 	})
 
 
@@ -210,35 +210,35 @@ $("#cls,#cnt_cls").click(function(){
 $("#abt_t").click(function(){
 	return false;
 	$("#down_txt,#loc_txt,#amen_txt,#cnt_txt,#spe_txt").css({"z-index":90});
-	$("#adv_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
+	$("#adv_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
 	$("#cnt_txt,#spe_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 
 $("#cnt_t").click(function(){
 	return false;
 	$("#down_txt,#loc_txt,#amen_txt,#adv_txt,#spe_txt").css({"z-index":90});
-	$("#cnt_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
+	$("#cnt_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#spe_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 
 $("#spe_t").click(function(){
 	return false;
 	$("#down_txt,#cnt_txt,#loc_txt,#amen_txt,#adv_txt").css({"z-index":90});
-	$("#spe_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
+	$("#spe_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#cnt_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 	
 $("#amen_t").click(function(){
 	return false;
 	$("#down_txt,#loc_txt,#adv_txt,#cnt_txt,#spe_txt").css({"z-index":90});
-	$("#amen_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
+	$("#amen_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#cnt_txt,#spe_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 
 $("#gal_t").click(function(){
 	return false;
 	$("#spe_txt, #down_txt,#cnt_txt,#adv_txt,#amen_txt").css({"z-index":90});
-	$("#loc_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
+	$("#loc_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#cnt_txt,#spe_txt,#amen_txt,#down_txt").animate({opacity:0},300);
 	})
 
@@ -246,7 +246,7 @@ $("#gal_t").click(function(){
 $("#down_t").click(function(){
 	return false;
 	$("#spe_txt,#loc_txt,#cnt_txt,#adv_txt,#amen_txt").css({"z-index":90});
-	$("#down_txt").delay(300).animate({opacity:1},1000).css({"z-index":100});
+	$("#down_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
 	$("#adv_txt,#cnt_txt,#spe_txt,#amen_txt,#loc_txt").animate({opacity:0},300);
 	})
 
