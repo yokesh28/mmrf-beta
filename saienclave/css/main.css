@@ -63,7 +63,7 @@ a img {
 }
 
 #side_bar {
-	width: 12%;
+	width: 16%;
 	height: 100%;
 	background-repeat: repeat-y;
 	position: absolute;
@@ -132,7 +132,7 @@ a img {
 .txt_menu {
 	position: absolute;
 	cursor: pointer;
-	background-image: url(../images/menu/m_bg.png);
+	background-image: url(../images/left.png);
 	background-position: 200px 0px;
 	background-repeat: no-repeat;
 }
