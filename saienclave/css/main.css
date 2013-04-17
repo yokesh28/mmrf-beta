@@ -114,13 +114,13 @@ a img {
 #logo_h {
 	position: absolute;
 	top: 40px;
-	left: 74px;
+	left: 110px;
 }
 
 #logo_h2 {
 	position: absolute;
 	top: 85px;
-	left: 33px;
+	left: 71px;
 
 }
 
@@ -128,7 +128,10 @@ a img {
 	position: absolute;
 	opacity: .9;
 }
-
+#flower{
+left: 26%;
+bottom: 50px;
+}
 .txt_menu {
 	position: absolute;
 	cursor: pointer;
@@ -165,7 +168,7 @@ a img {
 
 #loc {
 	top: 310px;
-	left: 30px;
+	left: 25px;
 }
 
 #loc_t {
@@ -178,7 +181,7 @@ a img {
 
 #spe {
 	top: 365px;
-	left: 24px;
+	left: 25px;
 }
 
 #spe_t {
@@ -217,7 +220,7 @@ a img {
 
 #gal {
 	top: 405px;
-	left: 20px;
+	left: 26px;
 }
 
 #gal_t {
