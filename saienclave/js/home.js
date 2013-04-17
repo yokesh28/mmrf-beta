@@ -239,7 +239,7 @@ $("#gal_t").click(function(){
 	
 	$("#spe_txt, #down_txt,#cnt_txt,#adv_txt,#amen_txt").css({"z-index":90});
 	$("#loc_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
-	$("#adv_txt,#cnt_txt,#spe_txt,#amen_txt,#down_txt").animate({opacity:0},300);
+	$("#adv_txt,#cnt_txt,#spe_txt,#amen_txt,#down_txt").animate({opacity:0},100);
 	})
 
 
@@ -247,7 +247,7 @@ $("#down_t").click(function(){
 	
 	$("#spe_txt,#loc_txt,#cnt_txt,#adv_txt,#amen_txt").css({"z-index":90});
 	$("#down_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
-	$("#adv_txt,#cnt_txt,#spe_txt,#amen_txt,#loc_txt").animate({opacity:0},300);
+	$("#adv_txt,#cnt_txt,#spe_txt,#amen_txt,#loc_txt").animate({opacity:0},100);
 	})
 
 
