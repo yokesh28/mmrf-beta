@@ -200,8 +200,8 @@ $("#abt_t,#amen_t,#down_t,#spe_t,#cnt_t,#gal_t").click(function(){
 	})
 
 $("#cls,#cnt_cls").click(function(){
-	
-	$("#sub_bar").animate({"left":"-500px"},1000,"easeInExpo")
+
+	$("#sub_bar").animate({"left":"-500px"},500,"easeInExpo")
 	})
 
 
