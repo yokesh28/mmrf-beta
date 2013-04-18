@@ -7,8 +7,8 @@ body {
 }
 
 .back {
-
-
+position:fixed;
+height:100%;
 	width:100%;
 }
 
@@ -43,11 +43,10 @@ right: -90%;
 	list-style:none;
     float:left;
     margin: 18px 128px 0px 23px;
-
-	position: absolute;
-	width: 100%;
+     width: 100%;
 	height: 112px;
 	top: 3%;
 	right: -90%;
+	position:absolute;
 
 }
