@@ -24,7 +24,8 @@
 			<img src="header/logo.png" class="logo">
 		</div>
 		<div class="box1">
-			<span class="arrow">fsdgd</span>
+			<span class="arrow"><img src="header/rarrow.png"
+				class="arrowright"></span>
 			<ul>
 				<li><img src="header/1.png"></li>
 				<li><img src="header/2.png"></li>
@@ -37,25 +38,67 @@
 
 
 	<script type="text/javascript">
-		$('.arrow').click(function() {
-			$(".box").stop().delay(100).animate({
-				left : '-75%'
-			}, 500);
-			$(".box1").stop().delay(100).animate({
-				right : '-18%'
-			}, 500);
+	var i=1;
+	$('.logo').click(function(){
+		$(".box").stop().delay(100).animate({
+									left : '0%'
+								}, 500);
+								$(".box1").stop().delay(100).animate({
+									right : '-93%'
+								}, 500);
 
-		});
+								$('.arrow')
+										.html(
+												'<img src="header/rarrow.png" class="arrowright" style="display:none">');
 
-		$('.logo').click(function() {
-			$(".box").stop().delay(100).animate({
-				left : '0%'
-			}, 500);
-			$(".box1").stop().delay(100).animate({
-				right : '-93%'
-			}, 500);
+								
+								$('.arrowleft').fadeOut();
+								$('.arrowright').delay(700).fadeIn();
+								i=1;
+	});
+	
+	
+	
+	
+		$('.arrow')
+				.click(
+						function() {
+							if (i == 1) {
+								$(".box").stop().delay(100).animate({
+									left : '-75%'
+								}, 500);
+								$(".box1").stop().delay(100).animate({
+									right : '-18%'
+								}, 500);
 
-		});
+								$('.arrow').html('<img src="header/larrow.png" class="arrowleft" style="display:none">');
+								
+								$('.arrowright').fadeOut();
+								$('.arrowleft').delay(700).fadeIn();
+								i=0;
+							}
+							else
+								{
+								$(".box").stop().delay(100).animate({
+									left : '0%'
+								}, 500);
+								$(".box1").stop().delay(100).animate({
+									right : '-93%'
+								}, 500);
+
+								$('.arrow')
+										.html(
+												'<img src="header/rarrow.png" class="arrowright" style="display:none">');
+
+								
+								$('.arrowleft').fadeOut();
+								$('.arrowright').delay(700).fadeIn();
+								i=1;
+								}
+
+						});
+
+		
 	</script>
 
 </body>

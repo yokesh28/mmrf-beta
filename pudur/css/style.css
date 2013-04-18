@@ -14,7 +14,7 @@ body {
 
 .logo {
 	float: right;
-	margin-right: 50px;
+	margin-right: 2%;
 	margin-top: 6px;
 	cursor: pointer;
 }
@@ -38,11 +38,12 @@ body {
 
 .box1 span {
 	float: left;
-	padding: 44px 50px;
+	padding: 35px 30px;
 }
 
 .box1 ul {
 	float: right;
+	margin-right: 23%;
 }
 
 .box1 li {
