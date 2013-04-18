@@ -26,12 +26,12 @@
 		<div class="box1">
 			<span class="arrow"><img src="header/rarrow.png"
 				class="arrowright"></span>
-			<ul>
-				<li><img src="header/1.png"></li>
-				<li><img src="header/2.png"></li>
-				<li><img src="header/3.png"></li>
-				<li><img src="header/4.png"></li>
-				<li><img src="header/5.png"></li>
+			<ul id="menu">
+				<li><img src="header/1.png"><span>Overview</span></li>
+				<li><img src="header/2.png"><span>Amenties</span></li>
+				<li><img src="header/3.png"><span>Elevation</span></li>
+				<li><img src="header/4.png"><span>Gallery</span></li>
+				<li><img src="header/5.png"><span>Location</span></li>
 			</ul>
 		</div>
 	</div>
@@ -98,6 +98,20 @@
 
 						});
 
+		
+		
+
+		$("#menu li").hover( function () {
+			$(this).stop().delay(100).animate({
+				width : '150px'
+			}, 500);
+		  }, function () {
+			  $(this).clearQueue();
+			  $(this).stop().delay(100).animate({
+					width : '80px'
+				}, 500);
+			  return true;
+		  });
 		
 	</script>
 
