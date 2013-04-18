@@ -1,42 +1,39 @@
-
 body {
 	margin: 0px;
 	padding: 0px;
 	width:100%;
-	height:100%;
-	overflow:hidden;
+	height: 100%;
+	overflow: hidden;
 }
 
-.background {
-	position: relative;
-	top: 0%;
-	overflow: hidden;
-min-width: 100%;
-min-height: 100%;
+.back {
+
+
+	width:100%;
 }
 
 .logo {
-	position:absolute;
+	position: absolute;
 	top: 4%;
-left: 71%;
-width: 121px;
-float: left;
-z-index: 1;
+	left: 71%;
+	width: 121px;
+	float: left;
+	z-index: 1;
 }
 
-.box{
-background: url("../header/box.png");
-top: 3%;
-position: absolute;
-height: 112px;
-width: 82%;
+.box {
+	background: url("../header/box.png");
+	top: 3%;
+	position: absolute;
+	height: 112px;
+	width: 82%;
 }
 
-.box1{
+.box1 {
 	background: white;
-position: absolute;
-width: 100%;
-height: 112px;
-top: 3%;
-right: -90%;
+	position: absolute;
+	width: 100%;
+	height: 112px;
+	top: 3%;
+	right: -90%;
 }
