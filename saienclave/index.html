@@ -455,18 +455,18 @@ function clearText(field)
         <div class="titles1" style="top:313px; left:20px">Phone:</div>
         <div class="titles1" style="top:385px; left:20px">Message:</div>
 
-       <div class="alert"><span class="name-missing"></span></div>
+       <div class="alert"><span class="name-missing">Name-missing</span></div>
                     <div id="inp_box">
                     <input id="name" type="text" value="" name="name" onblur="clearText(this)" onfocus="clearText(this)"/>
                     </div><!--inp box-->
                  
                   
-                    <div class="alert"><span class="email-missing"></span></div>
+                    <div class="alert"><span class="email-missing">Email-missing</span></div>
                     <div id="inp_box">
                     <input id="e-mail" type="text" value="" name="email" onblur="clearText(this)" onfocus="clearText(this)"/>
                     </div><!--inp box-->
                     
-                   <div class="alert"><span class="phone-missing"></span></div>
+                   <div class="alert"><span class="phone-missing">Phone-missing </span></div>
                    <div id="inp_box"> 
                    <input id="phone" type="text" value="" name="phone" onblur="clearText(this)" onfocus="clearText(this)"/>
                    </div><!--inp box-->
@@ -1021,41 +1021,50 @@ var saicontactname=document.forms["cform"]["name"].value;
 var saicontactemail=document.forms["cform"]["email"].value;
 var atpos=saicontactemail.indexOf("@");
 var dotpos=saicontactemail.lastIndexOf(".");
+var filter2 = /^([0-9])+$/;
 
 var saicontactmobile=document.forms["cform"]["phone"].value;
 
-if (saicontactname==null || saicontactname=="")
-  {
-  alert(" Name must be filled out");
-  return false;
-  }
+
+if (saicontactname==null || saicontactname=="") {
+	$('.name-missing').fadeIn(400);
+} else {
+	$('.name-missing').hide();
+}
 
 
-else if (atpos<1 || dotpos<atpos+2 || dotpos+2>=saicontactemail.length)
+
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=saicontactemail.length) {
+	$('.email-missing').fadeIn(400);
+} else {
+	$('.email-missing').hide();
+}
+
+
+if (!filter2.test(saicontactmobile.value)) {
+	
+	$('.phone-missing').fadeIn(400);
+
+
+} else {
+$('.phone-missing').hide();
+}
+
+
+
+if(isNaN(saicontactmobile)|| saicontactmobile.indexOf(" ")!=-1)
 {
-	  alert("Not a valid e-mail address");
-	  return false;
-	  }
-
-  
-else if (saicontactmobile==null || saicontactmobile=="")
- {
-	 alert("phoneNo must be filled out");
-	 return false;
- }       
-
-else if(isNaN(saicontactmobile)|| saicontactmobile.indexOf(" ")!=-1)
-{
-         			alert("Enter numeric value");
-		return false;
-           }
-else if (saicontactmobile.length > 10 || saicontactmobile.length < 10 )
+	$('.phone-missing').fadeIn(400);
+}else {
+	$('.phone-missing').hide();
+	}
+ if (saicontactmobile.length > 10 || saicontactmobile.length < 10 )
 		{
-           			alert("enter 10 characters"); 
-			return false;
-     			 }
-
-
+	 $('.phone-missing').fadeIn(400);
+		}
+ else {
+		$('.phone-missing').hide();
+		}
 
 
 
