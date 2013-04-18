@@ -124,23 +124,23 @@ $("#side_bar").mouseleave(function() {
 
 $("#abt_t").click(function(){
 	
-	$("#bg_img1").delay(1000).fadeIn(1000);
-	$("#bg_img2").delay(1000).fadeOut(1000);
-	$("#bg_img3").delay(1000).fadeOut(1000);
-	$("#bg_img4").delay(1000).fadeOut(1000);
-	$("#bg_img5").delay(1000).fadeOut(1000);
+	$("#bg_img1").delay(500).fadeIn(500);
+	$("#bg_img2").delay(500).fadeOut(500);
+	$("#bg_img3").delay(500).fadeOut(500);
+	$("#bg_img4").delay(500).fadeOut(500);
+	$("#bg_img5").delay(500).fadeOut(500);
 
-	$("#pattern").delay(1000).fadeOut(1000);
+	$("#bg_img6").delay(500).fadeOut(500);
 
 	});
 	
 $("#down_t").click(function(){
-	$("#bg_img5").delay(1000).fadeIn(1000);
-	$("#bg_img2").delay(1000).fadeOut(1000);
-	$("#bg_img3").delay(1000).fadeOut(1000);
-	$("#bg_img4").delay(1000).fadeOut(1000);
-	$("#bg_img1").delay(1000).fadeOut(1000);
-	$("#pattern").delay(1000).fadeOut(1000);
+	$("#bg_img5").delay(500).fadeIn(500);
+	$("#bg_img2").delay(500).fadeOut(500);
+	$("#bg_img3").delay(500).fadeOut(500);
+	$("#bg_img4").delay(500).fadeOut(500);
+	$("#bg_img1").delay(500).fadeOut(500);
+	$("#bg_img6").delay(500).fadeOut(500);
 
 
 	})
@@ -149,11 +149,11 @@ $("#down_t").click(function(){
 	
 $("#loc_t").click(function(){
 	
-	$("#bg_img3").delay(1000).fadeIn(1000);
-	$("#bg_img1").delay(1000).fadeOut(1000);
-	$("#bg_img2").delay(1000).fadeOut(1000);
-	$("#bg_img4").delay(1000).fadeOut(1000);
-	$("#bg_img5").delay(1000).fadeOut(1000);
+	$("#bg_img3").delay(500).fadeIn(500);
+	$("#bg_img1").delay(500).fadeOut(500);
+	$("#bg_img2").delay(500).fadeOut(500);
+	$("#bg_img4").delay(500).fadeOut(500);
+	$("#bg_img5").delay(500).fadeOut(500);
 
 	//$("#pattern").delay(1000).fadeOut(1000);
 
@@ -168,13 +168,13 @@ $("#loc_t").click(function(){
 $("#amen_t,#cnt_t").click(function(){
 	
 	
-	$("#bg_img2").delay(1000).fadeIn(1000);
+	$("#bg_img2").delay(500).fadeIn(500);
 	//$("#pattern").delay(1000).fadeIn(1000);
 
-	$("#bg_img1").delay(1000).fadeOut(1000);
-	$("#bg_img3").delay(1000).fadeOut(1000);
-	$("#bg_img4").delay(1000).fadeOut(1000);
-	$("#bg_img5").delay(1000).fadeOut(1000);
+	$("#bg_img1").delay(500).fadeOut(500);
+	$("#bg_img3").delay(500).fadeOut(500);
+	$("#bg_img4").delay(500).fadeOut(500);
+	$("#bg_img5").delay(500).fadeOut(500);
 
 
 
@@ -182,13 +182,13 @@ $("#amen_t,#cnt_t").click(function(){
 	
 $("#spe_t").click(function(){
 	
-	$("#bg_img4").delay(1000).fadeIn(1000);
+	$("#bg_img4").delay(1000).fadeIn(500);
 	//$("#pattern").delay(1000).fadeIn(1000);
 
-	$("#bg_img1").delay(1000).fadeOut(1000);
-	$("#bg_img2").delay(1000).fadeOut(1000);
-	$("#bg_img3").delay(1000).fadeOut(1000);
-	$("#bg_img5").delay(1000).fadeOut(1000);
+	$("#bg_img1").delay(500).fadeOut(500);
+	$("#bg_img2").delay(500).fadeOut(500);
+	$("#bg_img3").delay(500).fadeOut(500);
+	$("#bg_img5").delay(500).fadeOut(500);
 
 	})
 	
@@ -196,7 +196,7 @@ $("#spe_t").click(function(){
 $("#abt_t,#amen_t,#down_t,#spe_t,#cnt_t,#gal_t").click(function(){
 	
 	
-	$("#sub_bar").delay(300).animate({"left":"0px"},1000,"easeOutCubic");
+	$("#sub_bar").delay(300).animate({"left":"0px"},500,"easeOutCubic");
 	
 	$("#goo_map").animate({"right":"-200px"},700,"easeInCubic")
 	})
@@ -216,12 +216,15 @@ $("#abt_t").click(function(){
 	$("#cnt_txt,#spe_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 
-$("#cnt_t").click(function(){
+	$("#amen_t").click(function(){
 	
-	$("#down_txt,#loc_txt,#amen_txt,#adv_txt,#spe_txt").css({"z-index":90});
-	$("#cnt_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
-	$("#adv_txt,#spe_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
+	$("#down_txt,#loc_txt,#adv_txt,#cnt_txt,#spe_txt").css({"z-index":90});
+	$("#amen_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
+	$("#adv_txt,#cnt_txt,#spe_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
+
+	
+
 
 $("#spe_t").click(function(){
 	
@@ -230,12 +233,6 @@ $("#spe_t").click(function(){
 	$("#adv_txt,#cnt_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
 	})
 	
-$("#amen_t").click(function(){
-	
-	$("#down_txt,#loc_txt,#adv_txt,#cnt_txt,#spe_txt").css({"z-index":90});
-	$("#amen_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
-	$("#adv_txt,#cnt_txt,#spe_txt,#loc_txt,#down_txt").animate({opacity:0},300);
-	})
 
 $("#gal_t").click(function(){
 	
@@ -253,6 +250,13 @@ $("#down_t").click(function(){
 	
 	})
 
+$("#cnt_t").click(function(){
+	
+	$("#down_txt,#loc_txt,#amen_txt,#adv_txt,#spe_txt").css({"z-index":90});
+	$("#cnt_txt").delay(100).animate({opacity:1},1000).css({"z-index":100});
+	$("#adv_txt,#spe_txt,#amen_txt,#loc_txt,#down_txt").animate({opacity:0},300);
+	})	
+	
 
 // Menu Bg Animation
 

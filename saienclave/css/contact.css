@@ -40,13 +40,20 @@
 	
 /* Form styling from here on out. There is nothing in here that you HAVE to use to get this to work */	
 #contactForm textarea, #contactForm input {
-	width:180px;
+	width:209px;
 	color:#514c4b;
-	border:none;
-	height:15px;
+	border:1px solid grey;
+	padding-left:77px;
+	height:44px;
 	font-size:11px;
 	background-color: transparent;
 	outline:none;
+	
+
+}
+	
+	
+	
 	}
 #contactForm input{
 	width:265px;
@@ -58,7 +65,7 @@
 	height:75px;
 	font-family:Verdana, Geneva, sans-serif;
 	width: 290px;
-	margin: 33px 0px 0px 35px;
+	
 	padding-left:10px;
 }
 #contactForm .submit {
@@ -70,7 +77,7 @@
 	border:0px;
 	}
 #inp_box{
-	width:355px;
+	width:289px;
 	height:45px;
 	background-image:url(../images/form_txt.png);
 	background-repeat:no-repeat;
@@ -78,8 +85,8 @@
 }
 	
 #msg_box{
-	width:356px;
-	height:121px;
+	width:303px;
+	height:78px;
 	background-image:url(../images/form_msg.png);
 	background-repeat:no-repeat;
 	background-color: gainsboro;

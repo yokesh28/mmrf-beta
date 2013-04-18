@@ -220,7 +220,7 @@ function clearText(field)
 				<img id="amen" class="ad_menu"
 				src="images/menu/amen.png" width="35" height="35" />
 				 <img id="loc"
-				class="ad_menu" src="images/menu/sloc.png" width="35" height="35" />
+				class="ad_menu" src="images/menu/sloc.png" width="27" height="32" />
 			<img id="spe" class="ad_menu" src="images/menu/spe.png" width="35"
 				height="35" /> 
 				<img id="down" class="ad_menu"
@@ -435,84 +435,60 @@ function clearText(field)
 				<!--addr-->
 
 
-				<div id="contactForm">
+			
+        <div id="contactForm">
+        
+        
+        
+        
+        	<div class="loader1"></div>
+			<div id="bar1"></div>
+            
+            <form  class="contactForm" name="cform" id="c_form"  onSubmit="return validateForm();">
+                <div class="input_boxes">
+                
+                
+                
+                
+        <div class="titles1" style="top:170px; left:20px">Name:</div>
+        <div class="titles1" style="top:242px; left:20px">Email:</div>
+        <div class="titles1" style="top:313px; left:20px">Phone:</div>
+        <div class="titles1" style="top:385px; left:20px">Message:</div>
 
+       <div class="alert"><span class="name-missing">Name-missing</span></div>
+                    <div id="inp_box">
+                    <input id="name" type="text" value="" name="name" onblur="clearText(this)" onfocus="clearText(this)"/>
+                    </div><!--inp box-->
+                 
+                  
+                    <div class="alert"><span class="email-missing">Email-missing</span></div>
+                    <div id="inp_box">
+                    <input id="e-mail" type="text" value="" name="email" onblur="clearText(this)" onfocus="clearText(this)"/>
+                    </div><!--inp box-->
+                    
+                   <div class="alert"><span class="phone-missing">Phone-missing </span></div>
+                   <div id="inp_box"> 
+                   <input id="phone" type="text" value="" name="phone" onblur="clearText(this)" onfocus="clearText(this)"/>
+                   </div><!--inp box-->
+                    
+                   <div class="alert"><span class="message-missing"></span></div>
+                   <div id="msg_box"> 
+                   <textarea id="message" rows="" cols="" name="message" onblur="clearText(this)" onfocus="clearText(this)"></textarea>
+                   </div><!--msg box-->
+                 
+              </div> <!--input boxes-->
+                   
+                 <input class="submit" type="image" name="submit" value="Submit Form" src="images/submit.png"/>
+                 <img id="cnt_cls" style="margin-top:20px; cursor:pointer; float:left" src="images/cancel.png" width="70" height="25" />
+                 <span id="response" style="color: black"></span>
+         </form>
+      </div><!--contact form-->
+      <div id="spacer" style="height:50px;"></div><!--spacer-->
 
+</div><!--jp contact-->
+</div><!--contact txt-->
 
-
-					<div class="loader1"></div>
-					<div id="bar1"></div>
-
-					<form action="" class="contactForm" name="cform" method="post">
-						<div class="input_boxes">
-
-
-
-
-							<div class="titles1" style="top: 170px; left: 40px">Name</div>
-							<div class="titles1" style="top: 242px; left: 40px">Email</div>
-							<div class="titles1" style="top: 313px; left: 40px">Mobile</div>
-							<div class="titles1" style="top: 385px; left: 40px">Message</div>
-
-
-
-
-
-
-
-							<div class="alert">
-								<span class="name-missing"></span>
-							</div>
-							
-							<div id="inp_box">
-								<input id="name" type="text" value="" name="name"
-									onblur="clearText(this)" onfocus="clearText(this)" />
-							</div>
-							<!--inp box-->
-
-
-							<div class="alert">
-								<span class="email-missing"></span>
-							</div>
-							<div id="inp_box">
-								<input id="e-mail" type="text" value="" name="email"
-									onblur="clearText(this)" onfocus="clearText(this)" />
-							</div>
-							<!--inp box-->
-
-							<div class="alert">
-								<span class="phone-missing"></span>
-							</div>
-							<div id="inp_box">
-								<input id="phone" type="text" value="" name="phone"
-									onblur="clearText(this)" onfocus="clearText(this)" />
-							</div>
-							<!--inp box-->
-
-							<div class="alert">
-								<span class="message-missing"></span>
-							</div>
-							<div id="msg_box">
-								<textarea id="message" rows="3" cols="20" name="message"
-									onblur="clearText(this)" onfocus="clearText(this)"></textarea>
-							</div>
-							<!--msg box-->
-
-						</div>
-						<!--input boxes-->
-
-
-					</form>
-				</div>
-				<!--contact form-->
-				<div id="spacer" style="height: 50px;"></div>
-				<!--spacer-->
-
-			</div>
-			<!--jp contact-->
-		</div>
-		<!--contact txt-->
-
+			
 
 		<!---->
 
@@ -564,63 +540,7 @@ function clearText(field)
 
 
 
-	<div id="contactForm2">
-
-
-
-				<div class="loader2"></div>
-				<div id="bar2"></div>
-
-				<form action="" class="contactForm2" name="cform2" method="post">
-
-					<div class="input_boxes">
-
-						<div id="bro_alert">Please provide us with the below info to
-							Download.</div>
-
-						<div class="titles" style="top: 32px; left: 13px;"></div>
-						<div class="titles" style="top: 85px; left: 13px;"></div>
-						<div class="titles" style="top: 138px; left: 13px;"></div>
-
-
-
-
-						<div class="alert">
-							<span class="name-missing2"></span>
-						</div>
-						<div class="inp_box2">
-							<input id="name2" type="text" value="" name="name2"
-								onblur="clearText(this)" onfocus="clearText(this)" />
-						</div>
-						<!--inp box-->
-
-
-						<div class="alert">
-							<span class="email-missing2"></span>
-						</div>
-						<div class="inp_box2">
-							<input id="e-mail2" type="text" value="" name="email2"
-								onblur="clearText(this)" onfocus="clearText(this)" />
-						</div>
-						<!--inp box-->
-
-						<div class="alert">
-							<span class="phone-missing2"></span>
-						</div>
-						<div class="inp_box2">
-							<input id="phone2" type="text" value="" name="phone2"
-								onblur="clearText(this)" onfocus="clearText(this)" />
-						</div>
-						<!--inp box-->
-
-
-
-					</div>
-					<!--input boxes-->
-
-
-				</form>
-			</div>
+	
 			<!--contact form-->
 
 
@@ -1073,582 +993,7 @@ function clearText(field)
 
 		</div>
 
-		<div class="tabdownload_container">
-
-			<div id="tab_1" class="tabdownload_content">
-
-				<p class="fourthfloor_head"></p>
-
-				<div id="downloadfloor_container">
-
-					<ul>
-
-						<li class="download_gradientboxes"
-							style="border-left: none; background-image: none;">A</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">B</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">C</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">D</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">E</li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A101</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B101</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C101</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D101</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E101</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A102</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B102</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C102</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D102</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E102</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A103</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B103</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C103</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D103</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E103</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A104</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B104</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C104</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D104</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E104</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A105</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B105</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C105</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D105</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E105</a></li>
-
-						<br class="clear" />
-
-						<li><a style="border-left: none;" href="#"
-							class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B106</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C106</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D106</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E106</a></li>
-
-						<br class="clear" />
-
-						<li><a style="border-left: none;" href="#"
-							class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B107</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D107</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E107</a></li>
-
-						<br class="clear" />
-
-						<li><a style="border-left: none;" href="#"
-							class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B108</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<br class="clear" />
-
-					</ul>
-
-				</div>
-
-			</div>
-			<!--TAB 1 ends-->
-
-
-
-
-
-
-
-			<div id="tab_2" class="tabdownload_content">
-
-				<p class="fourthfloor_head">Second Floor</p>
-
-				<div id="downloadfloor_container">
-
-					<ul>
-
-						<li class="download_gradientboxes"
-							style="border-left: none; background-image: none;">A</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">B</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">C</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">D</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">E</li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A201</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B201</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C201</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D201</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E201</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A202</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B202</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C202</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D202</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E202</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A203</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B203</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C203</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D203</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E203</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A204</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B204</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C204</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D204</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E204</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A205</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B205</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C205</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D205</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E205</a></li>
-
-						<br class="clear" />
-
-						<li><a style="border-left: none;" href="#"
-							class="download_gradientboxes">--</a></li>
-
-						<li><a href="downloads/b/b6.pdf" target="_blank"
-							class="download_gradientboxes">B206</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C206</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D206</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E206</a></li>
-
-						<br class="clear" />
-
-						<li><a style="border-left: none;" href="#"
-							class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B207</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D207</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E207</a></li>
-
-						<br class="clear" />
-
-						<li><a style="border-left: none;" href="#"
-							class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B208</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<br class="clear" />
-
-					</ul>
-
-				</div>
-
-			</div>
-			<!--TAB 2 ENDS-->
-
-
-
-
-
-			<div id="tab_3" class="tabdownload_content">
-
-				<p class="fourthfloor_head">Third Floor</p>
-
-				<div id="downloadfloor_container">
-
-					<ul>
-
-						<li class="download_gradientboxes"
-							style="border-left: none; background-image: none;">A</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">B</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">C</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">D</li>
-
-						<li class="download_gradientboxes" style="background-image: none;">E</li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A301</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B301</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C301</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D301</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E301</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A302</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B302</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C302</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D302</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E302</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A303</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B303</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C303</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D303</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E303</a></li>
-
-						<br class="clear" />
-
-						<li><a href="" target="_blank" class="download_gradientboxes"
-							style="border-left: none;">A304</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B304</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">C304</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D304</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E304</a></li>
-
-						<br class="clear" />
-
-						<li><a href="f" target="_blank"
-							class="download_gradientboxes" style="border-left: none;">A305</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B305</a></li>
-
-						<li><a href="d" target="_blank"
-							class="download_gradientboxes">C305</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D305</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E305</a></li>
-
-						<br class="clear" />
-
-						<li><a style="border-left: none;" href="#"
-							class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B306</a></li>
-
-						<li><a href="f" target="_blank"
-							class="download_gradientboxes">C306</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D306</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E306</a></li>
-
-						<br class="clear" />
-
-						<li><a style="border-left: none;" href="#"
-							class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B307</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">D307</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">E307</a></li>
-
-						<br class="clear" />
-
-						<li><a style="border-left: none;" href="#"
-							class="download_gradientboxes">--</a></li>
-
-						<li><a href="" target="_blank" class="download_gradientboxes">B308</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<li><a href="#" class="download_gradientboxes">--</a></li>
-
-						<br class="clear" />
-
-					</ul>
-
-				</div>
-
-			</div>
-
-		</div>
-		<!--TAB 3 ENDS-->
-
-
-
-
-
-
-
-
-
-		<div id="tab_4" class="tabdownload_content">
-
-			<p class="fourthfloor_head">Fourth Floor</p>
-
-			<div id="downloadfloor_container">
-
-				<ul>
-
-					<li class="download_gradientboxes"
-						style="border-left: none; background-image: none;">A</li>
-
-					<li class="download_gradientboxes" style="background-image: none;">B</li>
-
-					<li class="download_gradientboxes" style="background-image: none;">C</li>
-
-					<li class="download_gradientboxes" style="background-image: none;">D</li>
-
-					<li class="download_gradientboxes" style="background-image: none;">E</li>
-
-					<br class="clear" />
-
-					<li><a href="" target="_blank" class="download_gradientboxes"
-						style="border-left: none;">A401</a></li>
-
-					<li><a href="" target="_blank" class="download_gradientboxes">B401</a></li>
-
-					<li><a href="" target="_blank" class="download_gradientboxes">C401</a></li>
-
-					<li><a href="" target="_blank" class="download_gradientboxes">D401</a></li>
-
-					<li><a href="" target="_blank" class="download_gradientboxes">E401</a></li>
-
-					<br class="clear" />
-
-					<li><a href="downloads/a/a2.pdf" target="_blank"
-						class="download_gradientboxes" style="border-left: none;">A402</a></li>
-
-					<li><a href="downloads/b/b2.pdf" target="_blank"
-						class="download_gradientboxes">B402</a></li>
-
-					<li><a href="downloads/c/c2.pdf" target="_blank"
-						class="download_gradientboxes">C402</a></li>
-
-					<li><a href="downloads/d/d2.pdf" target="_blank"
-						class="download_gradientboxes">D402</a></li>
-
-					<li><a href="downloads/e/e2.pdf" target="_blank"
-						class="download_gradientboxes">E402</a></li>
-
-					<br class="clear" />
-
-					<li><a href="downloads/a/a3.pdf" target="_blank"
-						class="download_gradientboxes" style="border-left: none;">A403</a></li>
-
-					<li><a href="downloads/b/b3.pdf" target="_blank"
-						class="download_gradientboxes">B403</a></li>
-
-					<li><a href="downloads/c/c3.pdf" target="_blank"
-						class="download_gradientboxes">C403</a></li>
-
-					<li><a href="downloads/d/d3.pdf" target="_blank"
-						class="download_gradientboxes">D403</a></li>
-
-					<li><a href="downloads/e/e3.pdf" target="_blank"
-						class="download_gradientboxes">E403</a></li>
-
-					<br class="clear" />
-
-					<li><a href="downloads/a/a4.pdf" target="_blank"
-						class="download_gradientboxes" style="border-left: none;">A404</a></li>
-
-					<li><a href="downloads/b/b4.pdf" target="_blank"
-						class="download_gradientboxes">B404</a></li>
-
-					<li><a href="downloads/c/c4.pdf" target="_blank"
-						class="download_gradientboxes">C404</a></li>
-
-					<li><a href="downloads/d/d4.pdf" target="_blank"
-						class="download_gradientboxes">D404</a></li>
-
-					<li><a href="downloads/e/e4.pdf" target="_blank"
-						class="download_gradientboxes">E404</a></li>
-
-					<br class="clear" />
-
-					<li><a href="downloads/a/a5.pdf" target="_blank"
-						class="download_gradientboxes" style="border-left: none;">A405</a></li>
-
-					<li><a href="downloads/b/b5.pdf" target="_blank"
-						class="download_gradientboxes">B405</a></li>
-
-					<li><a href="downloads/c/c5.pdf" target="_blank"
-						class="download_gradientboxes">C405</a></li>
-
-					<li><a href="downloads/d/d5.pdf" target="_blank"
-						class="download_gradientboxes">D405</a></li>
-
-					<li><a href="downloads/e/e5.pdf" target="_blank"
-						class="download_gradientboxes">E405</a></li>
-
-					<br class="clear" />
-
-					<li><a style="border-left: none;" href="#"
-						class="download_gradientboxes">--</a></li>
-
-					<li><a href="downloads/b/b6.pdf" target="_blank"
-						class="download_gradientboxes">B406</a></li>
-
-					<li><a href="downloads/c/c6.pdf" target="_blank"
-						class="download_gradientboxes">C406</a></li>
-
-					<li><a href="downloads/d/d6.pdf" target="_blank"
-						class="download_gradientboxes">D406</a></li>
-
-					<li><a href="downloads/e/e6.pdf" target="_blank"
-						class="download_gradientboxes">E406</a></li>
-
-					<br class="clear" />
-
-					<li><a style="border-left: none;" href="#"
-						class="download_gradientboxes">--</a></li>
-
-					<li><a href="downloads/b/b7.pdf" target="_blank"
-						class="download_gradientboxes">B407</a></li>
-
-					<li><a href="#" class="download_gradientboxes">--</a></li>
-
-					<li><a href="downloads/d/d7.pdf" target="_blank"
-						class="download_gradientboxes">D407</a></li>
-
-					<li><a href="downloads/e/e7.pdf" target="_blank"
-						class="download_gradientboxes">E407</a></li>
-
-					<br class="clear" />
-
-					<li><a style="border-left: none;" href="#"
-						class="download_gradientboxes">--</a></li>
-
-					<li><a href="downloads/b/b8.pdf" target="_blank"
-						class="download_gradientboxes">B408</a></li>
-
-					<li><a href="#" class="download_gradientboxes">--</a></li>
-
-					<li><a href="#" class="download_gradientboxes">--</a></li>
-
-					<li><a href="#" class="download_gradientboxes">--</a></li>
-
-					<br class="clear" />
-
-				</ul>
-
-			</div>
-
-		</div>
-
+		
 	</div>
 
 	<!--popup_Floor Plan->
@@ -1668,6 +1013,80 @@ function clearText(field)
 
 
 </body>
+<script type="text/javascript">
+function validateForm()
+{
 
-<!-- Mirrored from royalsplendour.com/advaya/index.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 16 Apr 2013 10:32:29 GMT -->
+var saicontactname=document.forms["cform"]["name"].value;
+var saicontactemail=document.forms["cform"]["email"].value;
+var atpos=saicontactemail.indexOf("@");
+var dotpos=saicontactemail.lastIndexOf(".");
+var filter2 = /^([0-9])+$/;
+
+var saicontactmobile=document.forms["cform"]["phone"].value;
+
+
+if (saicontactname==null || saicontactname=="") {
+	$('.name-missing').fadeIn(400);
+} else {
+	$('.name-missing').hide();
+}
+
+
+
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=saicontactemail.length) {
+	$('.email-missing').fadeIn(400);
+} else {
+	$('.email-missing').hide();
+}
+
+
+if (!filter2.test(saicontactmobile.value)) {
+	
+	$('.phone-missing').fadeIn(400);
+
+
+} else {
+$('.phone-missing').hide();
+}
+
+
+
+if(isNaN(saicontactmobile)|| saicontactmobile.indexOf(" ")!=-1)
+{
+	$('.phone-missing').fadeIn(400);
+}else {
+	$('.phone-missing').hide();
+	}
+ if (saicontactmobile.length > 10 || saicontactmobile.length < 10 )
+		{
+	 $('.phone-missing').fadeIn(400);
+		}
+ else {
+		$('.phone-missing').hide();
+		}
+
+
+
+
+	  
+  
+$.ajax({
+	type : "post",
+	url : "mail1.php",
+	cache : false,
+	data : $('#c_form').serialize(),
+	success : function(json) {
+			$('#response').html(json);
+		
+
+	
+	},
+	
+});
+
+return false;
+}
+</script>
+
 </html>
