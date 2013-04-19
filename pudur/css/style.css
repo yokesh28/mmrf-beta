@@ -49,13 +49,70 @@ body {
 
 
 
-.leftalign td{
-	padding:5px;
+.table1{
+	position:absolute;
+	top:27%;
+	left:-27%;
+}
+
+.table1 div {
+    padding:5px;
     width:150px;
     height:100px;
     text-align:center;
-    position:absolute;
+    left:-28%;
 }
+
+
+#bouncy1 img{
+	position:absolute;
+	top: 50%;
+left: -40%;
+width: 117px;
+z-index: 3;
+}
+
+#bouncy2 img{
+	position:absolute;
+	top: 38%;
+left: 33%;
+width: 143px;
+z-index: 5;
+}
+#bouncy3 img{
+	position:absolute;
+	top: 41%;
+left: -11%;
+width: 163px;
+z-index: 4;
+}
+
+#bouncy4 img{
+	position:absolute;
+	top: 20%;
+left: -35%;
+width: 135px;
+z-index: 1;
+}
+#bouncy5 img{
+	position:absolute;
+	top: 6%;
+left: 0%;
+width: 178px;
+z-index: 2;
+}
+#bouncy6 img{
+	position:absolute;
+	top: -5%;
+left: -24%;
+width: 127px;
+}
+
+
+
+
+
+
 
 
 
@@ -117,7 +174,7 @@ position: absolute;
 left: 550px;
 }
 
-.align li{list-style-image:url("../menulist/bullet.png")no-repeat;}
+
 
 
 

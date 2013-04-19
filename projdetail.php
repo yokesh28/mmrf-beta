@@ -525,7 +525,8 @@
 							<div class="contant">
 
 
-                 <li class="size"><a class="fancybox" href="img/locbig1.jpg"> <img
+                 <li class="size">
+                 <a class="fancybox" href="img/locbig1.jpg"> <img
 											src="img/locsmall1.jpg"  class="img-polaroid">
 
 									</a></li>
