@@ -42,10 +42,22 @@ body {
 	right: -93%;
 }
 
-.box1>span {
+.box1 span {
 	float: left;
 	padding: 35px 30px;
 }
+
+
+
+.leftalign td{
+	padding:5px;
+    width:150px;
+    height:100px;
+    text-align:center;
+    position:absolute;
+}
+
+
 
 .box1 ul {
 	float: right;
@@ -55,7 +67,7 @@ body {
 .box1 li {
 	list-style: none;
 	float: left;
-	margin: 20px 10px;
+	margin: 20px 18px;
 	width: 80px;
 	overflow: hidden;
 	height: 75px;
@@ -67,3 +79,45 @@ body {
 .arrow {
 	cursor: pointer;
 }
+
+
+.box2{
+	position: absolute;
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png")repeat;
+width: 620px;
+height: 342px;
+overflow-y: scroll;
+}
+
+.box3{
+	position: absolute;
+top: 27%;
+right: -87%;
+
+width: 620px;
+height: 342px;
+
+}
+
+.box4{
+	position: absolute;
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png")repeat;
+width: 620px;
+height: 342px;
+overflow-y: scroll;
+}
+	
+.exit{
+	top: 4%;
+position: absolute;
+left: 550px;
+}
+
+.align li{list-style-image:url("../menulist/bullet.png")no-repeat;}
+
+
+
