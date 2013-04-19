@@ -239,18 +239,23 @@
 		</div>
 
 		<div class="box5">
-			
-
-
-		<div class="box6">
-			
-		</div>
-
+          		
+             <ul>
+                <li class="i1"><img src="gallery/11.png"></li>
+                <li class="i2"><img src="gallery/22.png"></li>
+                <li class="i3"><img src="gallery/33.png"></li>
+                <li class="i4"><img src="gallery/44.png"></li>
+                <li class="i5"><img src="gallery/55.png"></li>
+                </ul>
+		
 
 
 
 
 	</div>
+<div class="box6">
+			
+		</div>
 
 
 	<script type="text/javascript">
@@ -318,7 +323,8 @@
         
         
 			$(".box2").stop().delay(100).animate({
-				right : '12%'
+				right : '4%'
+				
 			}, 500);
 			
 			
@@ -341,7 +347,15 @@
 			$(".box3").stop().delay(100).animate({
 				right : '17%'
 			}, 500);
+			
+			
+
+			$(".table1").stop().delay(100).animate({
+				left : '-38%'
+			}, 500);
 		});
+		
+		
 		
 		
 		$('.specification').click(function() {
@@ -351,6 +365,11 @@
 			$(".box4").stop().delay(100).animate({
 				right : '17%'
 			}, 500);
+			
+			
+			$(".table1").stop().delay(100).animate({
+				left : '-38%'
+			}, 500);
 		});
 		
 		$('.gallery').click(function() {
@@ -358,8 +377,14 @@
 			 $('#bg1').fadeOut();
 		        $('#bg5').fadeIn();
 			$(".box5").stop().delay(100).animate({
-				right : '17%'
+				right : '5%'
 			}, 500);
+			
+			
+			$(".table1").stop().delay(100).animate({
+				left : '-38%'
+			}, 500);
+			
 		});
 		
 		$('.contact').click(function() {
@@ -368,6 +393,10 @@
 		        $('#bg6').fadeIn();
 			$(".box6").stop().delay(100).animate({
 				right : '17%'
+			}, 500);
+			
+			$(".table1").stop().delay(100).animate({
+				left : '-38%'
 			}, 500);
 		});
 		
@@ -418,21 +447,29 @@
 		 
 	    //Add bounce effect on Click of the DIV
 	    $('#bouncy1').click(function () {
-	          $(this).effect("bounce", { times:5 }, 300);
+	          $(this).effect("bounce", { times:5 }, 100);
 	    });
 	 
 	    $('#bouncy2').click(function () {
-	          $(this).effect("bounce", { direction:'left', times:5 }, 300);
+	          $(this).effect("bounce", { direction:'left', times:2 }, 100);
 	    });
 	 
 	    $('#bouncy3').click(function () {
-	          $(this).effect("bounce", { direction:'right', times:5 }, 300);
+	          $(this).effect("bounce", { direction:'right', times:2 }, 100);
 	    });
 	 
 	    $('#bouncy4').click(function () {
-	          $(this).effect("bounce", { direction:'down', times:5 }, 300);
+	          $(this).effect("bounce", { direction:'down', times:3 }, 200);
 	    });
 	 
+	    $('#bouncy5').click(function () {
+	          $(this).effect("bounce", { direction:'down', times:4 }, 200);
+	    });
+	    
+	    $('#bouncy6').click(function () {
+	          $(this).effect("bounce", { direction:'down', times:6 }, 200);
+	    });
+	    
 	    //Bounce all DIVs on click of button
 	    $("#bounceAll").click(function(){
 	    	
