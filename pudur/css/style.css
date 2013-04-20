@@ -206,78 +206,43 @@ padding:15px;
 
 	
 	
-.i1 img{
-	
-top: 34%;
-left: 9%;
-
-
-	top: 27%;
-	right: -87%;
-	background: url("../menulist/color.png") repeat;
-	width: 725px;
-	height: 342px;
-	overflow-y: scroll;
-	padding: 15px;
-
-}
-
 
 .i2 img{
 	
-top: 34%;
-left: 27%;
+top:44px;
+
 }
 
 .i1 img {
-	position: absolute;
-	top: 34%;
-	left: 42%;
+	
+top: 44px;
 	
 	
 }
 	
 	.i3 img{
 	
-top: 34%;
-left: 45%;
+top: 44px;
+
+	}
 
 
 
-.i2 img {
-	position: absolute;
-	top: 50%;
-	left: 55%;
-}
 
 	.i4 img{
 	
-	top:34%;
-left: 64%;
+	top:44px;
 	}
 
-.i3 img {
-	position: absolute;
-	top: 65%;
-	left: 41%;
-	
-	
-}
 
-.i4 img {
-	position: absolute;
-	top: 78%;
-	left: 45%;
-	width: 261px;
-	
-}
+
+
 
 .i5 img {
-	position: absolute;
-	top: 80%;
-	left: 49%;
-	width: 209px;
 	
+	top: 44px;
+	
+
 }
 
 .box5 {
@@ -327,21 +292,6 @@ float: right;
 
 .box4 h5{margin:0px 10px;}
 
-.box6{
-
-	position: absolute;
-
-top: 27%;
-right: -87%;
-background: url("../menulist/color.png")repeat;
-width:445px;
-height: 342px;
-overflow-y: scroll;
-padding:15px;
-
-	left: 414px;
-
-}
 
 .paragraph1 {
 	margin: 0px 20px;
