@@ -1064,6 +1064,11 @@
 					  $('#enclave').animate({"right":"12%",opacity:1},500);
 					});
 				  $(".padur").click(function() {
+
+
+					  window.open("vistaoceana", "blank");
+					  return false;
+					  
 					  $('.middle1').animate({"right":"-100%",opacity:0},500);
 					  $('#enclave').animate({"right":"-100%",opacity:0},500);
 					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
