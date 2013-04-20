@@ -71,6 +71,7 @@ body {
 	position:absolute;
 	top:27%;
 	left:-27%;
+	cursor: pointer;
 }
 
 .table1 div {
@@ -156,6 +157,7 @@ width: 151px;}
 }
 #menu li span{
 	padding-left: 10px;
+	float: none;
 }
 .arrow {
 	cursor: pointer;
