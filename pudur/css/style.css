@@ -10,10 +10,7 @@ body {
 	height: 100%;
 	overflow: hidden;
 	font-family: gisha !important;
-	
 }
-
-
 
 ::-webkit-scrollbar {
 	width: 12px;
@@ -21,15 +18,7 @@ body {
 /* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {
 	background: #5cc7D1;
-	
 } /* this will style the thumb, ignoring the track */
-
-
-
-
-
-
-
 .back {
 	position: fixed;
 	height: 100%;
@@ -51,6 +40,20 @@ body {
 	width: 88%;
 }
 
+#inp_box label {
+	width: 100px;
+	float: left;
+	padding: 18px 0px 18px 15px;
+	margin-right: -110px;
+}
+
+#msg_box label {
+	width: 100px;
+	float: left;
+	padding: 18px 0px 18px 7px;
+	margin-right: -110px;
+}
+
 .box1 {
 	background: white;
 	position: absolute;
@@ -67,79 +70,81 @@ body {
 
 
 
-.table1{
-	position:absolute;
-	top:30%;
-	left:-27%;
+
+.table1 {
+	position: absolute;
+	top: 27%;
+	left: -27%;
+
 	cursor: pointer;
 }
 
 .table1 div {
-    padding:5px;
-    width:150px;
-    height:100px;
-    text-align:center;
-    left:-28%;
+	padding: 5px;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	left: -28%;
 }
 
-
-#bouncy1 img{
-	position:absolute;
+#bouncy1 img {
+	position: absolute;
 	top: 50%;
-left: -40%;
-width: 117px;
-z-index: 3;
+	left: -40%;
+	width: 117px;
+	z-index: 3;
 }
 
-#bouncy2 img{
-	position:absolute;
+#bouncy2 img {
+	position: absolute;
 	top: 38%;
-left: 33%;
-width: 143px;
-z-index: 5;
+	left: 33%;
+	width: 143px;
+	z-index: 5;
 }
-#bouncy3 img{
-	position:absolute;
+
+#bouncy3 img {
+	position: absolute;
 	top: 41%;
-left: -11%;
-width: 163px;
-z-index: 4;
+	left: -11%;
+	width: 163px;
+	z-index: 4;
 }
 
-#bouncy4 img{
-	position:absolute;
+#bouncy4 img {
+	position: absolute;
 	top: 20%;
-left: -35%;
-width: 135px;
-z-index: 1;
+	left: -35%;
+	width: 135px;
+	z-index: 1;
 }
-#bouncy5 img{
-	position:absolute;
+
+#bouncy5 img {
+	position: absolute;
 	top: 6%;
-left: 0%;
-width: 178px;
-z-index: 2;
+	left: 0%;
+	width: 178px;
+	z-index: 2;
 }
-#bouncy6 img{
-	position:absolute;
+
+#bouncy6 img {
+	position: absolute;
 	top: -5%;
-left: -24%;
-width: 127px;
+	left: -24%;
+	width: 127px;
 }
 
+.align h5 {
+	color: #5cc7D1;
+	background: white;
+	width: 151px;
+}
 
-.align h5{
-	color:#5cc7D1;
-background: white;
-width: 151px;}
-
-.box4 h5{
-	color:#5cc7D1;
-background: white;
-width: 151px;}
-
-
-
+.box4 h5 {
+	color: #5cc7D1;
+	background: white;
+	width: 151px;
+}
 
 .box1 ul {
 	float: right;
@@ -155,40 +160,39 @@ width: 151px;}
 	height: 75px;
 	cursor: pointer;
 }
-#menu li span{
+
+#menu li span {
 	padding-left: 10px;
 	float: none;
 }
+
 .arrow {
 	cursor: pointer;
 }
 
-
-.box2{
+.box2 {
 	position: absolute;
-top: 27%;
-right: -87%;
-background: url("../menulist/color.png")repeat;
-width: 725px;
-height: 342px;
-overflow-y: scroll;
-padding:15px;
-overflow-x:hidden;
-
+	top: 27%;
+	right: -87%;
+	background: url("../menulist/color.png") repeat;
+	width: 725px;
+	height: 342px;
+	overflow-y: scroll;
+	padding: 15px;
+	overflow-x: hidden;
 }
 
-.box3{
+.box3 {
 	position: absolute;
-top: 27%;
-right: -87%;
-
-width: 725px;
-height: 342px;
-
+	top: 27%;
+	right: -87%;
+	width: 725px;
+	height: 342px;
 }
 
-.box4{
+.box4 {
 	position: absolute;
+
 top: 27%;
 right: -87%;
 background: url("../menulist/color.png")repeat;
@@ -208,13 +212,29 @@ top: 34%;
 left: 9%;
 
 
+	top: 27%;
+	right: -87%;
+	background: url("../menulist/color.png") repeat;
+	width: 725px;
+	height: 342px;
+	overflow-y: scroll;
+	padding: 15px;
+
 }
+
 
 .i2 img{
 	
 top: 34%;
 left: 27%;
+}
 
+.i1 img {
+	position: absolute;
+	top: 34%;
+	left: 42%;
+	
+	
 }
 	
 	.i3 img{
@@ -222,21 +242,47 @@ left: 27%;
 top: 34%;
 left: 45%;
 
+
+
+.i2 img {
+	position: absolute;
+	top: 50%;
+	left: 55%;
 }
-	
+
 	.i4 img{
 	
 	top:34%;
 left: 64%;
+	}
 
+.i3 img {
+	position: absolute;
+	top: 65%;
+	left: 41%;
+	
+	
 }
 
-	
-	
-
-
-.box5{
+.i4 img {
 	position: absolute;
+	top: 78%;
+	left: 45%;
+	width: 261px;
+	
+}
+
+.i5 img {
+	position: absolute;
+	top: 80%;
+	left: 49%;
+	width: 209px;
+	
+}
+
+.box5 {
+	position: absolute;
+
 top: 27%;
 right: -87%;
 background: url("../menulist/color.png")repeat;
@@ -244,7 +290,9 @@ width:87%;
 height:227px;
 overflow-y: scroll;
 
+
 }
+
 
 .box5 li{
 list-style:none;
@@ -258,8 +306,11 @@ float:left;
 }
 	
 	
-.exit{
+
+.exit {
+
 	top: 2%;
+
 position: absolute;
 left:695px;
 }
@@ -277,7 +328,9 @@ float: right;
 .box4 h5{margin:0px 10px;}
 
 .box6{
+
 	position: absolute;
+
 top: 27%;
 right: -87%;
 background: url("../menulist/color.png")repeat;
@@ -285,29 +338,51 @@ width:445px;
 height: 342px;
 overflow-y: scroll;
 padding:15px;
+
+	left: 414px;
+
 }
 
-
-.box6 li{
-	list-style:none;
+.paragraph1 {
+	margin: 0px 20px;
 }
 
+.box4 h5 {
+	margin: 0px 10px;
+}
 
+.box6 {
+	position: absolute;
+	top: 27%;
+	right: -87%;
+	background: url("../menulist/color.png") repeat;
+	width: 420px;
+	height: 430px;
+	overflow-y: scroll;
+	padding: 15px;
+	overflow-x: hidden;
+}
 
-.titles1{
+.box6 li {
+	list-style: none;
+}
+
+.titles1 {
 	color: #514c4b;
-font-size: 11px;
-font-family: Arial, Helvetica, sans-serif;
--moz-user-select: none;
--khtml-user-select: none;
--webkit-user-select: none;
--o-user-select: none;
-position: absolute;
-cursor: default;
+
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	position: absolute;
+	cursor: default;
 
 }
 
 #contactForm .alert {
+
 width:20%;
 height: 13px;
 padding-bottom: 4px;
@@ -325,48 +400,53 @@ left: 418px;
 
 
 #msg_box {
-width: 303px;
-height: 78px;
-background-image: url(../images/form_msg.png);
-background-repeat: no-repeat;
-
-
+	width: 410px;
+	height: 78px;
+	background-image: url(../images/form_msg.png);
+	background-repeat: no-repeat;
 }
+
+.input_boxes {
+	width: 434px;
+	padding: 10px 50px;
+	display: inline-block;
+}
+
 #contactForm textarea {
-height: 75px;
-font-family: Verdana, Geneva, sans-serif;
-width: 290px;
-padding-left: 10px;
+	height: 75px;
+	font-family: Verdana, Geneva, sans-serif;
+	width: 290px;
+	padding-left: 10px;
 }
 
-#contactForm textarea, #contactForm input {
-width: 209px;
-color: #514c4b;
-margin-bottom:-10px;
-padding-left: 77px;
-height: 44px;
-font-size: 11px;
-background-color: transparent;
-outline: none;
+
+
+#contactForm textarea,#contactForm input {
+	width: 209px;
+	color: #514c4b;
+	padding-left: 77px;
+	height: 44px;
+	font-size: 11px;
+	background-color: transparent;
+	outline: none;
+
 }
 
 #contactForm span {
-display: none;
-font-size: 9px;
-color: #FF0000;
-font-family: Verdana, Geneva, sans-serif;
+	display: none;
+	font-size: 9px;
+	color: #FF0000;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 #contactForm .sendmessage {
-cursor: pointer;
-float: left;
-
-
-border: 0px;
-background:url("../menulist/send.png")no-repeat;
+	cursor: pointer;
+	float: left;
+	border: 0px;
+	background: url("../menulist/send.png") no-repeat;
 }
 
 .sendmessage {
-	width:123px !important;
-	padding-left:0px !important;
+	width: 123px !important;
+	padding-left: 0px !important;
 }
