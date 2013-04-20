@@ -269,27 +269,25 @@
 
 		</div>
 		<div class="box6">
-
+			<h2>Contact</h2>
 			<div id="contactForm">
 				<img class="exit" src="menulist/cls.png">
 				<form class="contactForm" name="cform" id="c_form"
 					onSubmit="return validateForm();">
+
 					<div class="input_boxes">
 
 
 
 
-						<div class="titles1" style="top: 77px; left: 20px">Name:</div>
-						<div class="titles1" style="top: 192px; left: 20px">Email:</div>
-						<div class="titles1" style="top: 303px; left: 20px">Phone:</div>
-						<div class="titles1" style="top: 412px; left: 20px">Message:</div>
+
 
 						<div class="alert">
 							<span class="name-missing">Name-missing</span>
 						</div>
 						<div id="inp_box">
-							<input id="name" type="text" value="" name="name"
-								onblur="clearText(this)" onfocus="clearText(this)" />
+							<label>Name:</label> <input id="name" type="text" value=""
+								name="name" onblur="clearText(this)" onfocus="clearText(this)" />
 						</div>
 						<!--inp box-->
 
@@ -298,8 +296,8 @@
 							<span class="email-missing">Email-missing</span>
 						</div>
 						<div id="inp_box">
-							<input id="e-mail" type="text" value="" name="email"
-								onblur="clearText(this)" onfocus="clearText(this)" />
+							<label>E-Mail:</label> <input id="e-mail" type="text" value=""
+								name="email" onblur="clearText(this)" onfocus="clearText(this)" />
 						</div>
 						<!--inp box-->
 
@@ -307,8 +305,8 @@
 							<span class="phone-missing">Phone-missing </span>
 						</div>
 						<div id="inp_box">
-							<input id="phone" type="text" value="" name="phone"
-								onblur="clearText(this)" onfocus="clearText(this)" />
+							<label>Phone:</label> <input id="phone" type="text" value=""
+								name="phone" onblur="clearText(this)" onfocus="clearText(this)" />
 						</div>
 						<!--inp box-->
 
@@ -316,17 +314,18 @@
 							<span class="message-missing"></span>
 						</div>
 						<div id="msg_box">
+							<label>Message</label>
 							<textarea id="message" rows="" cols="" name="message"
 								onblur="clearText(this)" onfocus="clearText(this)"></textarea>
 						</div>
 						<!--msg box-->
-
+						<input class="sendmessage" type="submit" name="submit"
+							value="Send Messsage"> <span id="response"
+							style="color: black"></span>
 					</div>
 					<!--input boxes-->
 
-					<input class="sendmessage" type="submit" name="submit"
-						value="Send Messsage"> <span id="response"
-						style="color: black"></span>
+
 				</form>
 			</div>
 			<!--contact form-->
