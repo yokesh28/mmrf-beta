@@ -68,10 +68,14 @@ body {
 	padding: 35px 30px;
 }
 
+
+
+
 .table1 {
 	position: absolute;
 	top: 27%;
 	left: -27%;
+
 	cursor: pointer;
 }
 
@@ -188,6 +192,26 @@ body {
 
 .box4 {
 	position: absolute;
+
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png")repeat;
+width:725px;
+height: 342px;
+overflow-y: scroll;
+padding:15px;
+}
+	
+	
+
+	
+	
+.i1 img{
+	
+top: 34%;
+left: 9%;
+
+
 	top: 27%;
 	right: -87%;
 	background: url("../menulist/color.png") repeat;
@@ -195,36 +219,49 @@ body {
 	height: 342px;
 	overflow-y: scroll;
 	padding: 15px;
+
+}
+
+
+.i2 img{
+	
+top: 34%;
+left: 27%;
 }
 
 .i1 img {
 	position: absolute;
 	top: 34%;
 	left: 42%;
-	width: 209px;
-	rotate: 120;
-	-moz-transform: rotate(-20deg);
-	-webkit-transform: rotate(34deg);
+	
+	
 }
+	
+	.i3 img{
+	
+top: 34%;
+left: 45%;
+
+
 
 .i2 img {
 	position: absolute;
 	top: 50%;
 	left: 55%;
-	width: 209px;
-	rotate: 120;
-	-moz-transform: rotate(-20deg);
-	-webkit-transform: rotate(-20deg);
 }
+
+	.i4 img{
+	
+	top:34%;
+left: 64%;
+	}
 
 .i3 img {
 	position: absolute;
 	top: 65%;
 	left: 41%;
-	width: 209px;
-	rotate: 120;
-	-moz-transform: rotate(-20deg);
-	-webkit-transform: rotate(-42deg);
+	
+	
 }
 
 .i4 img {
@@ -232,9 +269,7 @@ body {
 	top: 78%;
 	left: 45%;
 	width: 261px;
-	rotate: 120;
-	-moz-transform: rotate(-20deg);
-	-webkit-transform: rotate(17deg);
+	
 }
 
 .i5 img {
@@ -242,25 +277,70 @@ body {
 	top: 80%;
 	left: 49%;
 	width: 209px;
-	rotate: 120;
-	-moz-transform: rotate(-20deg);
-	-webkit-transform: rotate(-20deg);
+	
 }
 
 .box5 {
 	position: absolute;
-	top: 27%;
-	right: -87%;
-	background: url("../menulist/color.png") repeat;
-	width: 725px;
-	height: 342px;
-	overflow-y: scroll;
+
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png")repeat;
+width:87%;
+height:227px;
+overflow-y: scroll;
+
+
 }
 
+
+.box5 li{
+list-style:none;
+float:left;
+
+}
+
+.box5 li img{
+	padding-left: 57px;
+	margin-top: 48px;
+}
+	
+	
+
 .exit {
+
 	top: 2%;
+
+position: absolute;
+left:695px;
+}
+
+.exit2{
+	margin: 10px;
+float: right;
+}
+
+.paragraph1{
+	margin:0px 20px;
+	
+}
+
+.box4 h5{margin:0px 10px;}
+
+.box6{
+
 	position: absolute;
+
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png")repeat;
+width:445px;
+height: 342px;
+overflow-y: scroll;
+padding:15px;
+
 	left: 414px;
+
 }
 
 .paragraph1 {
@@ -289,6 +369,7 @@ body {
 
 .titles1 {
 	color: #514c4b;
+
 	font-size: 11px;
 	font-family: Arial, Helvetica, sans-serif;
 	-moz-user-select: none;
@@ -297,18 +378,26 @@ body {
 	-o-user-select: none;
 	position: absolute;
 	cursor: default;
+
 }
 
 #contactForm .alert {
-	width: 20%;
-	height: 13px;
 
-	padding-top: 10px;
-	padding-left: 30px;
-	background: none;
-	border: none;
-	color: red;
+width:20%;
+height: 13px;
+padding-bottom: 4px;
+padding-top: 10px;
+padding-left: 30px;
+background:none;
+border:none;
+color:red;
 }
+
+.exit1{
+position: absolute;
+left: 418px;
+}
+
 
 #msg_box {
 	width: 410px;
@@ -330,6 +419,8 @@ body {
 	padding-left: 10px;
 }
 
+
+
 #contactForm textarea,#contactForm input {
 	width: 209px;
 	color: #514c4b;
@@ -338,6 +429,7 @@ body {
 	font-size: 11px;
 	background-color: transparent;
 	outline: none;
+
 }
 
 #contactForm span {
