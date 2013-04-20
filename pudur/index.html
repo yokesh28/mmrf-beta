@@ -257,6 +257,7 @@
 <div class="box6">
 
  <div id="contactForm">
+ <img class="exit" src="menulist/cls.png">
         <form  class="contactForm" name="cform" id="c_form"  onSubmit="return validateForm();">
                 <div class="input_boxes">
                 
@@ -531,11 +532,13 @@
 	<script type="text/javascript">
 function validateForm()
 {
+	
 
 var contactname=document.forms["cform"]["name"].value;
 var contactemail=document.forms["cform"]["email"].value;
-var atpos=saicontactemail.indexOf("@");
-var dotpos=saicontactemail.lastIndexOf(".");
+var atpos=contactemail.indexOf("@");
+
+var dotpos=contactemail.lastIndexOf(".");
 var filter2 = /^([0-9])+$/;
 
 var contactmobile=document.forms["cform"]["phone"].value;
