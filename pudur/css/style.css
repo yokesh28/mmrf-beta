@@ -10,7 +10,25 @@ body {
 	height: 100%;
 	overflow: hidden;
 	font-family: gisha !important;
+	
 }
+
+
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+/* the new scrollbar will have a flat appearance with the set background color */
+::-webkit-scrollbar-thumb {
+	background: #5cc7D1;
+	
+} /* this will style the thumb, ignoring the track */
+
+
+
+
+
+
 
 .back {
 	position: fixed;
@@ -110,9 +128,15 @@ width: 127px;
 }
 
 
+.align h5{
+	color:#5cc7D1;
+background: white;
+width: 151px;}
 
-
-
+.box4 h5{
+	color:#5cc7D1;
+background: white;
+width: 151px;}
 
 
 
@@ -145,9 +169,12 @@ width: 127px;
 top: 27%;
 right: -87%;
 background: url("../menulist/color.png")repeat;
-width: 620px;
+width: 725px;
 height: 342px;
 overflow-y: scroll;
+padding:15px;
+overflow-x:hidden;
+
 }
 
 .box3{
@@ -155,7 +182,7 @@ overflow-y: scroll;
 top: 27%;
 right: -87%;
 
-width: 620px;
+width: 725px;
 height: 342px;
 
 }
@@ -165,16 +192,79 @@ height: 342px;
 top: 27%;
 right: -87%;
 background: url("../menulist/color.png")repeat;
-width: 620px;
+width:725px;
 height: 342px;
 overflow-y: scroll;
+padding:15px;
 }
 	
-.exit{
-	top: 4%;
-position: absolute;
-left: 550px;
+	
+
+	
+	
+/*.i1 img{
+	position: absolute;
+top: 34%;
+left: 42%;
+width: 209px;
+rotate: 120;
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(34deg);
 }
+
+.i2 img{
+	position: absolute;
+top: 50%;
+left: 55%;
+width: 209px;
+rotate: 120;
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+}
+	
+	.i3 img{
+	position: absolute;
+top: 65%;
+left: 41%;
+width: 209px;
+rotate: 120;
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-42deg);
+}
+	
+	.i4 img{
+	position:absolute;
+	top: 78%;
+left: 45%;
+width: 261px;
+rotate: 120;
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(17deg);
+}
+
+	
+	.i5 img{
+	position: absolute;
+top: 80%;
+left: 49%;
+width: 209px;
+rotate: 120;
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+}*/
+	
+.exit{
+	top: 2%;
+position: absolute;
+left:695px;
+}
+
+.paragraph1{
+	margin:0px 20px;
+	
+}
+
+.box4 h5{margin:0px 10px;}
 
 
 
