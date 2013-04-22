@@ -78,6 +78,7 @@
 	.tab-menu {
 		position: absolute;
 		top: 200px;
+		left: 32%;
 	}
 	.tab-menu  span {
 		background: white;
