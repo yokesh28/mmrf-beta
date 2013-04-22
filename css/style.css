@@ -1054,21 +1054,22 @@ body {
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                     100);
+	filter: alpha(opacity =                      100);
 	margin-left: 0 !important;
 }
 
-.header .span4{
-	padding:5px 0px;
+.header .span4 {
+	padding: 5px 0px;
 }
+
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                     100);
+	filter: alpha(opacity =                      100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                     100);
+	filter: alpha(opacity =                      100);
 	opacity: 1;
 }
 
@@ -1086,7 +1087,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =                    85);
+	filter: alpha(opacity =                     85);
 	opacity: 1;
 	min-width: 700px;
 	margin: 0 auto;
@@ -1257,9 +1258,8 @@ footer .footer-content .titlefooter .extramobile {
 	color: white;
 }
 
-#fcontentbloc .addborder
-{
-border-right: 1px solid !important;
+#fcontentbloc .addborder {
+	border-right: 1px solid !important;
 }
 
 #fcontentbloc1 {
@@ -1267,28 +1267,21 @@ border-right: 1px solid !important;
 	width: 29.893617%;
 }
 
-#fcontentbloc1 .emical
-
-{
-margin-top: 50px;
-margin-left: 100px;
+#fcontentbloc1 .emical {
+	margin-top: 50px;
+	margin-left: 100px;
 }
-
-
-
 
 #fcontentbloc3 {
 	padding: 20px 0px 0px 0px;
 	border-right: 1px solid !important;
-padding-bottom: 52px !important;
-padding: 68px 0px 0px 0px;
+	padding-bottom: 52px !important;
+	padding: 68px 0px 0px 0px;
 }
 
-#fcontentbloc3 .mprojects
-{
-margin-left: 67px;
+#fcontentbloc3 .mprojects {
+	margin-left: 67px;
 }
-
 
 #fcontentbloc1 h4 {
 	/*margin-left: 70px;*/
@@ -1297,18 +1290,12 @@ margin-left: 67px;
 
 .emiloan {
 	margin-top: 100px;
-
 	margin-left: 140px;
-	
 }
 
-.emiloan h4{
-	
+.emiloan h4 {
 	font-size: 14.5px;
-	
-
 	margin-left: 0px;
-
 }
 
 #fcontentbloc1  .emiloan img {
@@ -1633,20 +1620,12 @@ left: 77px;
 	line-height: 2;
 }
 
-
-
-
-.copyright{
-	
+.copyright {
 	font-size: 15px;
-color: white;
-position: absolute;
-top: 240px;
-left: 590px;
-
-
-.scrolldown {
-	position:absolute;
+	color: white;
+	position: absolute;
+	top: 240px;
+	left: 590px; . scrolldown { position : absolute;
 	bottom: 200px;
 	left: 50%;
 	width: 45px;

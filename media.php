@@ -73,68 +73,67 @@
 				<div class=" span12">
 					<ul>
 						<li class="span3"><a class="fancybox" href="saienclave.pdf"
-							target="_blank"> <img src="img/pdf1.png" 
-								class="img-polaroid"><span><h5>Updated media (10/4/2013)</h5> </span>
+							target="_blank"> <img src="img/pdf1.png" class="img-polaroid"><span><h5>Updated
+										media (10/4/2013)</h5> </span>
 						</a></li>
 
 						<li class="span3"><a class="fancybox"
 							href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWT_MDe9CpU "
-							target="_blank"> <img src="img/pdf2.png" 
-								height="300px" class="img-polaroid"><span><h5>Updated media
-										(11/4/2013)</h5> </span>
+							target="_blank"> <img src="img/pdf2.png" height="300px"
+								class="img-polaroid"><span><h5>Updated media (11/4/2013)</h5> </span>
 						</a></li>
-						
 
 
 
-				<li class="span3"><a class="fancybox"
-					href="http://property.sulekha.com/mmrf-realty-infrastructure-launches-two-prestigious-residential-projects-in-chennai_601343_blog "
-					target="_blank"> <img src="img/pdf3.png" 
-						class="img-polaroid"><span><h5>Updated media (12/4/2013)</h5> </span>
-				</a></li>
-				<li class="span3"><a class="fancybox"
-					href="http://www.ibiztv.tv/categoryvideo.php?category=Realty"
-					target="_blank"> <img src="img/pdf4.png" 
-						class="img-polaroid"><span><h5>Updated media (12/4/2013)</h5> </span>
-				</a></li>
-				<li class="span3"><a class="fancybox"
-					href="http://www.chennaipatrika.com/post/2013/04/10/MMRF-launches-two-prestigious-residential-projects.aspx"
-					target="_blank"> <img src="img/pdf5.png" 
-						class="img-polaroid"><span><h5>Updated media (12/4/2013)</h5> </span>
-				</a></li>
 
-				<li class="span3"><a class="fancybox"
-					href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWUbkqJHLe4"
-					target="_blank"> <img src="img/pdf6.png" 
-						class="img-polaroid"><span><h5>Updated media (12/4/2013)</h5> </span>
-				</a></li>
+						<li class="span3"><a class="fancybox"
+							href="http://property.sulekha.com/mmrf-realty-infrastructure-launches-two-prestigious-residential-projects-in-chennai_601343_blog "
+							target="_blank"> <img src="img/pdf3.png" class="img-polaroid"><span><h5>Updated
+										media (12/4/2013)</h5> </span>
+						</a></li>
+						<li class="span3"><a class="fancybox"
+							href="http://www.ibiztv.tv/categoryvideo.php?category=Realty"
+							target="_blank"> <img src="img/pdf4.png" class="img-polaroid"><span><h5>Updated
+										media (12/4/2013)</h5> </span>
+						</a></li>
+						<li class="span3"><a class="fancybox"
+							href="http://www.chennaipatrika.com/post/2013/04/10/MMRF-launches-two-prestigious-residential-projects.aspx"
+							target="_blank"> <img src="img/pdf5.png" class="img-polaroid"><span><h5>Updated
+										media (12/4/2013)</h5> </span>
+						</a></li>
 
-				<li class="span3"><a class="fancybox" href="img/images/deccan.jpg">
-						<img src="img/images/1.jpg" width="300px" height="300px" class="img-polaroid"><span><h5>Updated
-								media (12/4/2013)</h5> </span>
-				</a></li>
+						<li class="span3"><a class="fancybox"
+							href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWUbkqJHLe4"
+							target="_blank"> <img src="img/pdf6.png" class="img-polaroid"><span><h5>Updated
+										media (12/4/2013)</h5> </span>
+						</a></li>
 
-				<li class="span3"><a class="fancybox" href="img/images/makkal.jpg">
-						<img src="img/images/6.jpg"  class="img-polaroid"><span><h5>Updated
-								media (12/4/2013)</h5> </span>
-				</a></li>
-				<li class="span3"><a class="fancybox" href="img/images/kathir.jpg">
-						<img src="img/images/3.jpg" class="img-polaroid"><span><h5>Updated
-								media (12/4/2013)</h5> </span>
-				</a></li>
-				<li class="span3"><a class="fancybox" href="img/images/trinity.jpg">
-						<img src="img/images/4.jpg"  class="img-polaroid"><span><h5>Updated
-								media (12/4/2013)</h5> </span>
-				</a></li>
+						<li class="span3"><a class="fancybox" href="img/images/deccan.jpg">
+								<img src="img/images/1.jpg" width="300px" height="300px"
+								class="img-polaroid"><span><h5>Updated media (12/4/2013)</h5> </span>
+						</a></li>
 
-				</ul>
+						<li class="span3"><a class="fancybox" href="img/images/makkal.jpg">
+								<img src="img/images/6.jpg" class="img-polaroid"><span><h5>Updated
+										media (12/4/2013)</h5> </span>
+						</a></li>
+						<li class="span3"><a class="fancybox" href="img/images/kathir.jpg">
+								<img src="img/images/3.jpg" class="img-polaroid"><span><h5>Updated
+										media (12/4/2013)</h5> </span>
+						</a></li>
+						<li class="span3"><a class="fancybox"
+							href="img/images/trinity.jpg"> <img src="img/images/4.jpg"
+								class="img-polaroid"><span><h5>Updated media (12/4/2013)</h5> </span>
+						</a></li>
 
-				
-					
+					</ul>
+
+
+
 				</div>
-				
-				
-				
+
+
+
 			</div>
 
 

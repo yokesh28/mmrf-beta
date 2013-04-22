@@ -94,13 +94,16 @@
 		<?php include 'footer.php';?>
 	</div>
 
-	
+
 	<div class="scrolldown">
-	
-	<div id="scrollTeaser-down1" class="scrollTeaser-fleche" style="display: none;"></div>
-	
-	<div id="scrollTeaser-down2" class="scrollTeaser-fleche" style="display: none;"></div>
-	<div id="scrollTeaser-down3" class="scrollTeaser-fleche" style="display: none;"></div>
+
+		<div id="scrollTeaser-down1" class="scrollTeaser-fleche"
+			style="display: none;"></div>
+
+		<div id="scrollTeaser-down2" class="scrollTeaser-fleche"
+			style="display: none;"></div>
+		<div id="scrollTeaser-down3" class="scrollTeaser-fleche"
+			style="display: none;"></div>
 	</div>
 
 	<script src="js/bootstrap.min.js"></script>

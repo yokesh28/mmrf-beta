@@ -63,13 +63,13 @@
 			class="backimage back">
 		<?php include 'header.php';?>
 
-		
-			<div class="hidden-desktop tab-menu">
-				<span class="active on">On Going</span> <span class="up">Up Coming</span>
-			</div>
-			
+
+		<div class="hidden-desktop tab-menu">
+			<span class="active on">On Going</span> <span class="up">Up Coming</span>
+		</div>
+
 		<div class="im">
-		
+
 			<div class="middle1 span12" style="right: -100%;" id="ongoing">
 
 				<div class="position1 ">

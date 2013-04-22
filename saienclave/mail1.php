@@ -11,7 +11,7 @@ $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 $message = '<html><body>';
-	
+
 $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 $message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($_REQUEST['name']) . "</td></tr>";
 
@@ -26,13 +26,13 @@ $message .= "</body></html>";
 
 
 
-	
 
-	
+
+
 // Enter your email address
 
 $send_contact=mail($to,$subject,$message,$headers);
-	
+
 // Check, if message sent to your email
 // display message "We've recived your information"
 if($send_contact){
@@ -41,8 +41,8 @@ if($send_contact){
 else {
 	echo "ERROR";
 }
-	
-	
-	
+
+
+
 ?>
 
