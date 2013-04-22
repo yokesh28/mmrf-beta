@@ -350,20 +350,17 @@
 
 .fancybox-ie6 #fancybox-bg-w,.fancybox-ie6 #fancybox-bg-e,.fancybox-ie6 #fancybox-left,.fancybox-ie6 #fancybox-right,#fancybox-hide-sel-frame
 	{
-
-	height: expression(this.parentNode.clientHeight +     "px");
+	height: expression(this.parentNode.clientHeight +      "px");
 }
-
-
 
 #fancybox-loading.fancybox-ie6 {
 	position: absolute;
 	margin-top: 0;
-	top: expression(( -20 +  ( document.documentElement.clientHeight ?  
-		document.documentElement.clientHeight/ 2 : document.body.clientHeight/
-		2)+  (  ignoreMe=  document.documentElement.scrollTop?  document.documentElement.scrollTop:document.body.scrollTop))+
-branch 'master' of https://github.com/yokesh28/mmrf-beta.git
-		 'px');
+	top: expression((  -20 +   (  document.documentElement.clientHeight ?   
+		 document.documentElement.clientHeight/ 2 :  
+		document.body.clientHeight/ 2)+   (   ignoreMe=   document.documentElement.scrollTop?
+		  document.documentElement.scrollTop:document.body.scrollTop))+ 
+branch 'master' of https://github.com/yokesh28/mmrf-beta.git 'px');
 }
 
 #fancybox-loading.fancybox-ie6 div {

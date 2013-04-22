@@ -3,40 +3,47 @@
 	padding: 0px;
 }
 
-a {color:#333; text-decoration:none}
+a {
+	color: #333;
+	text-decoration: none
+}
 
 .clear {
 	clear: both;
 }
+
 li {
 	list-style-type: none;
 }
 
-#popupContact_download{
-	position:absolute;
-	z-index:9999;
-	font-size:13px;
+#popupContact_download {
+	position: absolute;
+	z-index: 9999;
+	font-size: 13px;
 	width: 430px;
-	height:460px;
-	overflow:hidden;
+	height: 460px;
+	overflow: hidden;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	background-color: #FFFFFF;
-	display:none;
+	display: none;
 }
 
-#tab_1{
-	display:block}
-	
-#tab_2{
-	display:none}
+#tab_1 {
+	display: block
+}
 
-#tab_3{
-	display:none}
-	
-#tab_4{
-	display:none}
+#tab_2 {
+	display: none
+}
 
+#tab_3 {
+	display: none
+}
+
+#tab_4 {
+	display: none
+}
 
 .download_head {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -53,6 +60,7 @@ li {
 	margin-top: 10px;
 	position: relative;
 }
+
 #downloadfloor_container {
 	width: 385px;
 	margin-right: auto;
@@ -63,6 +71,7 @@ li {
 	margin-bottom: 20px;
 	padding-bottom: 1px;
 }
+
 .download_gradientboxes {
 	display: block;
 	height: 23px;
@@ -82,6 +91,7 @@ li {
 	color: #6d6e71;
 	float: left;
 }
+
 .tabs_download li a {
 	display: block;
 	height: 22px;
@@ -96,6 +106,7 @@ li {
 	float: left;
 	margin-right: 10px;
 }
+
 #downloadfloor_toppart {
 	width: 400px;
 	margin-right: auto;
@@ -106,6 +117,7 @@ li {
 	font-size: 14px;
 	color: #666;
 }
+
 .fourthfloor_head {
 	display: block;
 	height: 27px;

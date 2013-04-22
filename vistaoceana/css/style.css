@@ -34,11 +34,11 @@ body {
 
 .box {
 	background: url("../header/box.jpg");
-top: 3%;
-position: absolute;
-height: 112px;
-width: 100%;
-left: -12%;
+	top: 3%;
+	position: absolute;
+	height: 112px;
+	width: 100%;
+	left: -12%;
 }
 
 #inp_box label {
@@ -69,14 +69,10 @@ left: -12%;
 	padding: 35px 30px;
 }
 
-
-
-
 .table1 {
 	position: absolute;
 	top: 27%;
 	left: -27%;
-
 	cursor: pointer;
 }
 
@@ -165,10 +161,10 @@ left: -12%;
 
 #menu li span {
 	padding-left: 10px;
-float: none;
-padding-bottom: 20px;
-padding: 0;
-border-bottom: 1px solid #5CC7D1;
+	float: none;
+	padding-bottom: 20px;
+	padding: 0;
+	border-bottom: 1px solid #5CC7D1;
 }
 
 .arrow {
@@ -181,7 +177,7 @@ border-bottom: 1px solid #5CC7D1;
 	right: -87%;
 	background: url("../menulist/color.png") repeat;
 	width: 725px;
-	height:400px;
+	height: 400px;
 	overflow-y: scroll;
 	padding: 15px;
 	overflow-x: hidden;
@@ -197,112 +193,73 @@ border-bottom: 1px solid #5CC7D1;
 
 .box4 {
 	position: absolute;
-
-top: 27%;
-right: -87%;
-background: url("../menulist/color.png")repeat;
-width:725px;
-height: 400px;
-overflow-y: scroll;
-padding:25px;
+	top: 27%;
+	right: -87%;
+	background: url("../menulist/color.png") repeat;
+	width: 725px;
+	height: 400px;
+	overflow-y: scroll;
+	padding: 25px;
 }
-	
-	
 
-
-
-
-.i2 img{
-	
-top:44px;
-
+.i2 img {
+	top: 44px;
 }
 
 .i1 img {
-	
-top: 44px;
-	
-	
+	top: 44px;
 }
-	
-	.i3 img{
-	
-top: 44px;
 
-	}
+.i3 img {
+	top: 44px;
+}
 
-
-
-
-	.i4 img{
-	
-	top:44px;
-	}
-
-
-
-
+.i4 img {
+	top: 44px;
+}
 
 .i5 img {
-	
 	top: 44px;
-	
-
 }
 
 .box5 {
 	position: absolute;
-
-top: 27%;
-right: -87%;
-background: url("../menulist/color.png")repeat;
-width:87%;
-height:227px;
-overflow-y: scroll;
-
-
+	top: 27%;
+	right: -87%;
+	background: url("../menulist/color.png") repeat;
+	width: 87%;
+	height: 227px;
+	overflow-y: scroll;
 }
 
-
-.box5 li{
-list-style:none;
-float:left;
-
+.box5 li {
+	list-style: none;
+	float: left;
 }
 
-.box5 li img{
+.box5 li img {
 	padding-left: 57px;
 	margin-top: 48px;
 }
-	
-	
 
 .exit {
-
 	top: 2%;
-
-position: absolute;
-left:709px;
+	position: absolute;
+	left: 709px;
 }
 
-.exit2{
+.exit2 {
 	margin: 10px;
-float: right;
+	float: right;
 }
-
-.paragraph1{
-	margin:0px 20px;
-	
-}
-
-
-
 
 .paragraph1 {
 	margin: 0px 20px;
 }
 
-
+.paragraph1 {
+	margin: 0px 20px;
+}
 
 .box6 {
 	position: absolute;
@@ -320,7 +277,6 @@ float: right;
 	list-style: none;
 }
 
-
 .box7 {
 	position: absolute;
 	top: 27%;
@@ -328,31 +284,26 @@ float: right;
 	background: url("../menulist/color.png") repeat;
 	width: 502px;
 	text-align: justify;
-	height:155px;
-	overflow-y:hidden;
+	height: 155px;
+	overflow-y: hidden;
 	padding: 50px;
 	overflow-x: hidden;
 }
 
-
-
-.box8{
+.box8 {
 	position: absolute;
 	top: 27%;
 	right: -87%;
-	
 	width: 502px;
 	text-align: justify;
-	height:155px;
-	overflow-y:scroll;
+	height: 155px;
+	overflow-y: scroll;
 	padding: 50px;
 	overflow-x: hidden;
-	
 }
 
 .titles1 {
 	color: #514c4b;
-
 	font-size: 11px;
 	font-family: Arial, Helvetica, sans-serif;
 	-moz-user-select: none;
@@ -361,27 +312,24 @@ float: right;
 	-o-user-select: none;
 	position: absolute;
 	cursor: default;
-
 }
 
 #contactForm .alert {
-
-width:20%;
-height: 13px;
-padding-bottom: 4px;
-padding-top: 10px;
-padding-left: 30px;
-background:none;
-border:none;
-color:red;
+	width: 20%;
+	height: 13px;
+	padding-bottom: 4px;
+	padding-top: 10px;
+	padding-left: 30px;
+	background: none;
+	border: none;
+	color: red;
 }
 
-.exit1{
-position: absolute;
-left: 418px;
-top:3%;
+.exit1 {
+	position: absolute;
+	left: 418px;
+	top: 3%;
 }
-
 
 #msg_box {
 	width: 410px;
@@ -403,8 +351,6 @@ top:3%;
 	padding-left: 10px;
 }
 
-
-
 #contactForm textarea,#contactForm input {
 	width: 209px;
 	color: #514c4b;
@@ -413,7 +359,6 @@ top:3%;
 	font-size: 11px;
 	background-color: transparent;
 	outline: none;
-
 }
 
 #contactForm span {
@@ -434,8 +379,3 @@ top:3%;
 	width: 123px !important;
 	padding-left: 0px !important;
 }
-
-
-
-
-

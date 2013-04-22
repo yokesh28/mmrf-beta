@@ -44,42 +44,39 @@
 
 
 			</div>
-			
+
 			<div id="fcontentbloc3" class="fcontent span4">
-				
-			<div class="mprojects">
+
+				<div class="mprojects">
 					<a href="saienclave/" data-toggle="modal" target="_blank"><h5>
 							<img src="images/sailogo.png">&nbsp; MMRF- SAIENCLAVE
-						</h5> </a>
-						
-						<a href="vistaoceana/" data-toggle="modal" target="_blank"><h5>
+						</h5> </a> <a href="vistaoceana/" data-toggle="modal"
+						target="_blank"><h5>
 							<img src="images/vistalogo.png">&nbsp; MMRF- VISTAOCEANA
 						</h5> </a>
-			</div>
+				</div>
 			</div>
 			<div id="fcontentbloc1" class="fcontent span2">
-				
-			<div class="emical">
+
+				<div class="emical">
 					<a href="#emi" data-toggle="modal"><h5>
 							<img src="images/cal.png">&nbsp; EMI Calculator
 						</h5> </a>
-			</div>			
-			<div class="emiloan">
-					<h4 >
-					Designed by:<br><br>
-					
-					<a href="http://s-creative.me" target="_blank" class="desined"><img src="images/slogo.png"><br>
-				<div class="screative">	S-Creative</div>
-						 </a>
+				</div>
+				<div class="emiloan">
+					<h4>
+						Designed by:<br> <br> <a href="http://s-creative.me"
+							target="_blank" class="desined"><img src="images/slogo.png"><br>
+							<div class="screative">S-Creative</div> </a>
 					</h4>
 				</div>
 			</div>
-			
-
-			
 
 
-			
+
+
+
+
 
 			<!--  EMI CALCULATOR   -->
 
@@ -99,7 +96,7 @@
 							<input type="text" class="con_label" id="loan_amount">
 						</div>
 					</div>
-				
+
 
 					<div class="control-group">
 						<label class="control-label" for="Text input">Tenure (in years) :)</label>
@@ -147,8 +144,8 @@
 		</div>
 	</div>
 
-<span class="copyright">Copyright © 2013. S-Creative. All
-				Rights Reserved</span>
+	<span class="copyright">Copyright © 2013. S-Creative. All Rights
+		Reserved</span>
 
 </footer>
 

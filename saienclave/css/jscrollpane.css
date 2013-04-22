@@ -1,28 +1,23 @@
-.jp-container{
-	width:100%;
-	height:90%;
-	position:absolute;
+.jp-container {
+	width: 100%;
+	height: 90%;
+	position: absolute;
 	overflow: hidden;
-	top:62px;
+	top: 62px;
 	left: 1px;
-	outline:none;
+	outline: none;
 }
 
-
-
-.jspContainer
-{
+.jspContainer {
 	overflow: hidden;
 	position: relative;
 }
 
-.jspPane
-{
+.jspPane {
 	position: absolute;
 }
 
-.jspVerticalBar
-{
+.jspVerticalBar {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -30,56 +25,55 @@
 	height: 100%;
 }
 
-
-.jspVerticalBar *,
+.jspVerticalBar
+ 
+*
+,
 {
-	margin: 0;
-	padding: 0;
+margin
+:
+ 
+0;
+padding
+:
+ 
+0;
 }
-
-.jspCap
-{
+.jspCap {
 	display: none;
 }
 
-.jspHorizontalBar .jspCap
-{
+.jspHorizontalBar .jspCap {
 	float: left;
 }
 
-.jspTrack
-{
+.jspTrack {
 	background: #F2F4F8;
 	position: relative;
 }
 
-.jspDrag
-{
+.jspDrag {
 	background-color: #b9b9b9;
 	position: relative;
 	top: 0;
 	left: 0;
 	cursor: pointer;
-	border:1px solid #b9b9b9;
+	border: 1px solid #b9b9b9;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
 
-.jspHorizontalBar .jspTrack,
-.jspHorizontalBar .jspDrag
-{
+.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag {
 	float: left;
 	height: 100%;
-	
 }
 
-
 /* Yuk! CSS Hack for IE6 3 pixel bug :( */
-* html .jspCorner
-{
+* html .jspCorner {
 	margin: 0 -3px 0 0;
 }
 
-.jspHorizontalBar{
-	display:none;}
+.jspHorizontalBar {
+	display: none;
+}
