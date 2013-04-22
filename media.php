@@ -72,7 +72,7 @@
 
 				<div class=" span12">
 					<ul>
-						<li class="span3"><a class="fancybox" href="media.pdf"
+						<li class="span3"><a class="fancybox" href="saienclave.pdf"
 							target="_blank"> <img src="img/pdf1.png" 
 								class="img-polaroid"><span><h5>Updated media (10/4/2013)</h5> </span>
 						</a></li>
