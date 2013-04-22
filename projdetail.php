@@ -1232,6 +1232,7 @@
 				 $('#ongoing').animate({"z-index": "115",opacity:1},500);
 			});
 			$(window).resize(function() {
+			
 				console.log($(window).width());
 			});
 		</script>

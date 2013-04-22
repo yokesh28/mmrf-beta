@@ -6,7 +6,7 @@
 	}
 }
 
-@media ( min-width : 980px) and (max-width: 1119px) {
+@media ( min-width : 980px) and (max-width: 1200px) {
 	.position {
 		display: none !important;
 	}
@@ -78,6 +78,7 @@
 	.tab-menu {
 		position: absolute;
 		top: 200px;
+		left: 32%;
 	}
 	.tab-menu  span {
 		background: white;

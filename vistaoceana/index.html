@@ -40,8 +40,23 @@
 		style="position: fixed; display: none" width=100% height=100%
 		class="back">
 
-
+	<img id="bg7" src="header/bg6.jpg"
+		style="position: fixed; display: none" width=100% height=100%
+		class="back">
+		
+	<img id="bg8" src="header/bg4.jpg"
+		style="position: fixed; display: none" width=100% height=100%
+		class="back">	
+		
+		
+		
+		
 	<div class="row">
+
+
+
+
+
 
 
 		<div class="box">
@@ -51,12 +66,20 @@
 			<span class="arrow"><img src="header/rarrow.png"
 				class="arrowright"></span>
 			<ul id="menu">
-				<li class="amenities"><img src="header/1.png"><span>Amenities</span></li>
-				<li class="location"><img src="header/2.png"><span>Location</span></li>
-				<li class="specification"><img src="header/3.png"><span>Specification</span></li>
-				<li class="gallery"><img src="header/4.png"><span>Gallery</span></li>
-				<li class="contact"><img src="header/5.png"><span>Contact
+				<li class="amenities"><img class="chang" src="header/111.png"><span>Amenities</span></li>
+				<li class="location"><img class="chang" src="header/666.png"><span>Location</span></li>
+
+				<li class="specification"><img class="chang"
+					src="header/222.png"><span>Specification</span></li>
+
+				<li class="gallery"><img class="chang" src="header/555.png"><span>Gallery</span></li>
+
+				<li class="contact"><img class="chang" src="header/333.png"><span>Contact
 						Us</span></li>
+
+				<li class="download"><img class="chang" src="header/444.png"><span>Download</span>
+				</li>
+
 			</ul>
 		</div>
 
@@ -260,6 +283,7 @@
 
 			<img class="exit2" src="menulist/cls.png">
 			<ul>
+
 				<li class="i1"><a href="gallery/11.png"
 					rel="lightbox[roadtrip]"><img src="gallery/1small.jpg"></a></li>
 				<li class="i2"><a href="gallery/22.png"
@@ -341,6 +365,33 @@
 
 		</div>
 
+
+
+		<div class="box7">
+		    <h5>Overview</h5>
+			<p>When you live in an environment of peace and quietude.away
+				from the clamor.the uproar and the grime and dust of city life. it
+				sure can soothe your soul and transport you to a world your
+				own-exclusive,private and spacious. But when you have it right with
+				in city limits.its joy compounded. Padur has got it all and more.
+				sheer elegance matched by functional aesthetics that not only makes
+				you feel good but look good.</p>
+		</div>
+		
+		
+		
+		<div class="box8">
+		<img class="exit" src="menulist/cls.png">
+		
+		
+		
+		
+		</div>
+		
+		
+
+
+
 	</div>
 
 
@@ -351,7 +402,7 @@
 				.click(
 						function() {
 							$(".box").stop().delay(100).animate({
-								left : '0%'
+								left : '-12%'
 							}, 500);
 							$(".box1").stop().delay(100).animate({
 								right : '-93%'
@@ -374,6 +425,15 @@
 							$(".box6").stop().delay(100).animate({
 									right : '-97%'
 								}, 500);
+							$(".box7").stop().delay(100).animate({
+								right : '-97%'
+							}, 500);
+							$(".box8").stop().delay(100).animate({
+								right : '-97%'
+							}, 500);
+							
+							
+							
 							$('#bg1').stop().delay(100).animate({
 								left : '0%'
 							}, 500);
@@ -405,33 +465,77 @@
 				.click(
 						function() {
 							if (i == 1) {
+								
+								
+								
 								$(".box").stop().delay(100).animate({
-									left : '-75%'
+									left : '-86%'
 								}, 500);
 								$(".box1").stop().delay(100).animate({
 									right : '-18%'
 								}, 500);
+								 $(".box7").stop().delay(100).animate({
+										right : '6%'
+									}, 500);
 
+								 
+								 
+								 
+								 
 								$('.arrow')
 										.html(
 												'<img src="header/larrow.png" class="arrowleft" style="display:none">');
 
 								$('.arrowright').fadeOut();
 								$('.arrowleft').delay(700).fadeIn();
+								
+								
+								
+								
 								i = 0;
 								
 								
 							} else {
 								$(".box").stop().delay(100).animate({
-									left : '0%'
+									left : '-12%'
 								}, 500);
 								$(".box1").stop().delay(100).animate({
 									right : '-93%'
 								}, 500);
+								 $(".box2").stop().delay(100).animate({
+										right : '-90%'
+								}, 500);
+								 $(".box3").stop().delay(100).animate({
+										right : '-97%'
+									}, 500);
+								 $(".box4").stop().delay(100).animate({
+										right : '-97%'
+									}, 500);
+								 $(".box5").stop().delay(100).animate({
+										right : '-91%'
+									}, 500);
+								 $(".box6").stop().delay(100).animate({
+										right : '-97%'
+									}, 500);
+								
+								$(".box7").stop().delay(100).animate({
+									right : '-96%'
+								}, 500);
+								 $(".table1").stop().delay(100).animate({
+										left : '-34%'
+									}, 500);
+								 $('#bg1').fadeIn(); 
+								 $('#bg2').fadeOut();
+							        $('#bg3').fadeOut();
+									 $('#bg4').fadeOut();
+									 $('#bg5').fadeOut();
+
+									 $('#bg6').fadeOut();
 								
 								$('.arrow')
 										.html(
 												'<img src="header/rarrow.png" class="arrowright" style="display:none">');
+								
 
 								$('.arrowleft').fadeOut();
 								$('.arrowright').delay(700).fadeIn();
@@ -439,8 +543,19 @@
 							}
 
 						});
+		
+		
+		
+		
+		
+		
+		
+		
 
 		$('.amenities').click(function() {
+			
+			$('.amenities img').attr("src",'header/11.png');
+			
 			
 			
         $('#bg1').fadeOut();
@@ -453,10 +568,11 @@
         
         $('#bg2').fadeIn();
         $(".box2").stop().delay(100).animate({
-				right : '4%'
+				right : '0%'
 		}, 500);
+  
 			
-			
+      
         
         $(".box3").stop().delay(100).animate({
 				right : '-67%'
@@ -473,6 +589,9 @@
 	    $(".box5").stop().delay(100).animate({
 			right : '-95%'
 		}, 500);
+	    $(".box7").stop().delay(100).animate({
+			right : '-97%'
+		}, 500);
 			});
 			
 			
@@ -481,6 +600,8 @@
 
 		
 		$('.location').click(function() {
+			
+			$('.location img').attr("src",'header/22.png');
 			
 			 $('#bg1').fadeOut();
 			 $('#bg2').fadeOut();
@@ -491,7 +612,7 @@
 
 		        $('#bg3').fadeIn();
 			$(".box3").stop().delay(100).animate({
-				right : '17%'
+				right : '0%'
 			}, 500);
 			
 			$(".box2").stop().delay(100).animate({
@@ -511,13 +632,17 @@
 			$(".box6").stop().delay(100).animate({
 				right : '-87%'
 			}, 500);
+			$(".box7").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
 		});
 		
 		
 		
 		
 		$('.specification').click(function() {
-			
+		
+			$('.specification img').attr("src",'header/33.png');
 			 $('#bg1').fadeOut();
 			 $('#bg2').fadeOut();
 			 $('#bg3').fadeOut();
@@ -527,7 +652,7 @@
 
 		        $('#bg4').fadeIn();
 			$(".box4").stop().delay(100).animate({
-				right : '17%'
+				right : '0%'
 			}, 500);
 			
 			
@@ -549,10 +674,14 @@
 			$(".box6").stop().delay(100).animate({
 				right : '-87%'
 			}, 500);
+			$(".box7").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
 		});
 		
 		$('.gallery').click(function() {
 			
+			$('.gallery img').attr("src",'header/44.png');
 			 $('#bg1').fadeOut();
 			 $('#bg2').fadeOut();
 			 $('#bg3').fadeOut();
@@ -563,7 +692,7 @@
 			 
 		        $('#bg5').fadeIn();
 			$(".box5").stop().delay(100).animate({
-				right : '5%'
+				right : '0%'
 			}, 500);
 			
 			
@@ -584,11 +713,15 @@
 			$(".box6").stop().delay(100).animate({
 				right : '-87%'
 			}, 500);
+			$(".box7").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
 			
 		});
 		
 		$('.contact').click(function() {
 			
+			$('.contact img').attr("src",'header/55.png');
 			 $('#bg1').fadeOut();
 			 $('#bg2').fadeOut();
 			 $('#bg3').fadeOut();
@@ -598,7 +731,7 @@
 
 		    $('#bg6').fadeIn();
 			$(".box6").stop().delay(100).animate({
-				right : '17%'
+				right : '0%'
 			}, 500);
 			
 			
@@ -618,10 +751,68 @@
 			$(".table1").stop().delay(100).animate({
 				left : '-88%'
 			}, 500);
+			$(".box7").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
 		});
 		
 		
 		
+$('.box8').click(function() {
+			
+			
+			 $('#bg1').fadeOut();
+			 $('#bg2').fadeOut();
+			 $('#bg3').fadeOut();
+			 $('#bg4').fadeOut();
+             $('#bg5').fadeOut();
+             $('#bg6').fadeOut();
+
+		    $('#bg7').fadeIn();
+			$(".box8").stop().delay(100).animate({
+				right : '0%'
+			}, 500);
+			
+			
+			$(".box2").stop().delay(100).animate({
+				right : '-84%'
+				
+			}, 500);
+			$(".box4").stop().delay(100).animate({
+				right : '-87%'
+			}, 500);
+			$(".box5").stop().delay(100).animate({
+				right : '-95%'
+			}, 500);
+			$(".box3").stop().delay(100).animate({
+				right : '-87%'
+			}, 500);
+			$(".table1").stop().delay(100).animate({
+				left : '-88%'
+			}, 500);
+			$(".box7").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
+		});
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 		
 
 		$('.exit').click(function() {
@@ -639,7 +830,7 @@
 			}, 500);
 			
 			$(".box5").stop().delay(100).animate({
-				right : '-80%'
+				right : '-90%'
 			}, 500);
 			
 			
@@ -666,7 +857,7 @@
 
 		$("#menu li").hover(function() {
 			$(this).stop().delay(100).animate({
-				width : '200px'
+				width : '182px'
 			}, 300);
 		}, function() {
 			$(this).clearQueue();

@@ -34,10 +34,11 @@ body {
 
 .box {
 	background: url("../header/box.jpg");
-	top: 3%;
-	position: absolute;
-	height: 112px;
-	width: 88%;
+top: 3%;
+position: absolute;
+height: 112px;
+width: 100%;
+left: -12%;
 }
 
 #inp_box label {
@@ -144,6 +145,7 @@ body {
 	color: #5cc7D1;
 	background: white;
 	width: 151px;
+	margin: 0px 10px;
 }
 
 .box1 ul {
@@ -157,13 +159,16 @@ body {
 	margin: 20px 18px;
 	width: 80px;
 	overflow: hidden;
-	height: 75px;
+	height: 64px;
 	cursor: pointer;
 }
 
 #menu li span {
 	padding-left: 10px;
-	float: none;
+float: none;
+padding-bottom: 20px;
+padding: 0;
+border-bottom: 1px solid #5CC7D1;
 }
 
 .arrow {
@@ -176,7 +181,7 @@ body {
 	right: -87%;
 	background: url("../menulist/color.png") repeat;
 	width: 725px;
-	height: 342px;
+	height:400px;
 	overflow-y: scroll;
 	padding: 15px;
 	overflow-x: hidden;
@@ -187,7 +192,7 @@ body {
 	top: 27%;
 	right: -87%;
 	width: 725px;
-	height: 342px;
+	height: 400px;
 }
 
 .box4 {
@@ -197,15 +202,15 @@ top: 27%;
 right: -87%;
 background: url("../menulist/color.png")repeat;
 width:725px;
-height: 342px;
+height: 400px;
 overflow-y: scroll;
-padding:15px;
+padding:25px;
 }
 	
 	
 
-	
-	
+
+
 
 .i2 img{
 	
@@ -277,7 +282,7 @@ float:left;
 	top: 2%;
 
 position: absolute;
-left:695px;
+left:709px;
 }
 
 .exit2{
@@ -290,16 +295,14 @@ float: right;
 	
 }
 
-.box4 h5{margin:0px 10px;}
+
 
 
 .paragraph1 {
 	margin: 0px 20px;
 }
 
-.box4 h5 {
-	margin: 0px 10px;
-}
+
 
 .box6 {
 	position: absolute;
@@ -315,6 +318,36 @@ float: right;
 
 .box6 li {
 	list-style: none;
+}
+
+
+.box7 {
+	position: absolute;
+	top: 27%;
+	right: -87%;
+	background: url("../menulist/color.png") repeat;
+	width: 502px;
+	text-align: justify;
+	height:155px;
+	overflow-y:hidden;
+	padding: 50px;
+	overflow-x: hidden;
+}
+
+
+
+.box8{
+	position: absolute;
+	top: 27%;
+	right: -87%;
+	
+	width: 502px;
+	text-align: justify;
+	height:155px;
+	overflow-y:scroll;
+	padding: 50px;
+	overflow-x: hidden;
+	
 }
 
 .titles1 {
@@ -401,3 +434,8 @@ top:3%;
 	width: 123px !important;
 	padding-left: 0px !important;
 }
+
+
+
+
+

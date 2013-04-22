@@ -94,6 +94,14 @@
 		<?php include 'footer.php';?>
 	</div>
 
+	
+	<div class="scrolldown">
+	
+	<div id="scrollTeaser-down1" class="scrollTeaser-fleche" style="display: none;"></div>
+	
+	<div id="scrollTeaser-down2" class="scrollTeaser-fleche" style="display: none;"></div>
+	<div id="scrollTeaser-down3" class="scrollTeaser-fleche" style="display: none;"></div>
+	</div>
 
 	<script src="js/bootstrap.min.js"></script>
 
@@ -105,6 +113,24 @@
 	pos=pos.replace('px','');
 	
 	$(document).scroll(function(e){
+
+	
+
+
+		$(".menu").delay(100).animate(
+		        {"width":"100%"},
+		        { complete:function(){
+		        	$('.menu li a').css('visibility','visible');
+		        	$('.menu').css('height','auto');
+		        	$('.scrolldown').css('display','none');
+		        }}
+		);
+	
+		  
+
+		
+		
+		
 
 		var per=($(window).scrollTop()/1100)*100;
 		var sc=((per/100)*338);
@@ -118,6 +144,18 @@
 		$('#slidemenu').css('left',pos);
 		}
 	});
+
+
+	runPulseScrollTeaser();
+	
+	 function runPulseScrollTeaser() {
+		  
+		    var pulseSpeed = 500;
+		    $('#scrollTeaser-down1').fadeIn(pulseSpeed).delay(0).fadeOut(pulseSpeed);
+		    $('#scrollTeaser-down2').delay(300).fadeIn(pulseSpeed).delay(0).fadeOut(pulseSpeed);
+		    $('#scrollTeaser-down3').delay(500).fadeIn(pulseSpeed).delay(0).fadeOut(pulseSpeed,runPulseScrollTeaser);
+		  }
+	  
 </script>
 
 
