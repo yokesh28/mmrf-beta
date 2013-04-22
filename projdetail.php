@@ -8,8 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<meta name="keywords"
-	content="" />
+<meta name="keywords" content="" />
 
 
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -28,12 +27,10 @@
 <link href="css/style1.css" rel="stylesheet">
 
 
-<script
-	src="js/jquery.queryloader2.js"></script>
+<script src="js/jquery.queryloader2.js"></script>
 
-<script
-	src="js/jsscript.js"></script>
-	
+<script src="js/jsscript.js"></script>
+
 <!-- Add fancyBox main JS and CSS files -->
 <script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
 <link rel="stylesheet" type="text/css"
@@ -62,13 +59,17 @@
 <body>
 	<div class="slide1 row-fluid">
 
-		<img src="images/2.jpg" width="100%" height="100%" class="backimage back">
+		<img src="images/2.jpg" width="100%" height="100%"
+			class="backimage back">
 		<?php include 'header.php';?>
 
-		<div class="im">
+		
 			<div class="hidden-desktop tab-menu">
 				<span class="active on">On Going</span> <span class="up">Up Coming</span>
 			</div>
+			
+		<div class="im">
+		
 			<div class="middle1 span12" style="right: -100%;" id="ongoing">
 
 				<div class="position1 ">
@@ -111,7 +112,7 @@
 			</div>
 
 
-			<div class="middle" style="right: -100%" id="enclave">
+			<div class="middle visible-desktop" style="right: -100%" id="enclave">
 				<section class="main demo-2 row-fluid">
 
 				<div id="grid" class="grid clearfix span12">
@@ -127,7 +128,7 @@
 							<span class="icon-cancel"></span>
 							<div class="contant">
 								<h2>Overview</h2>
-								<p>Introducing  Sai  Enclave by MMRF, 44 spectacular abodes built
+								<p>Introducing Sai Enclave by MMRF, 44 spectacular abodes built
 									amidst the sprawling locale of Arasankazhani near
 									Sithalapakkam, off the OMR in Chennai. Sai Enclave features 1,
 									2 & 3 BHK homes featuring world-class construction standards,
@@ -156,39 +157,38 @@
 						<div class="uc-final-content ">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-                         <ul>
-                 <li class="size"><a class="fancybox" href="img/locbig.jpg"> <img
-											src="img/locsmall.jpg"  class="img-polaroid">
+								<ul>
+									<li class="size"><a class="fancybox" href="img/locbig.jpg"> <img
+											src="img/locsmall.jpg" class="img-polaroid">
 									</a></li>
-									</ul>
-                        </div>
+								</ul>
+							</div>
 						</div>
 					</div>
-					
-					
-					
-					
+
+
+
+
 					<!-- / uc-container -->
 
 					<div class="uc-container box3 span4 elevation">
 						<div class="uc-initial-content">
 
-						
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content">
 							<span class="icon-cancel"></span>
 							<div class="contant">
-							<ul>
-									<li><a  href="img/elevbig.jpg" id="elevsigle" class="fancybox"> <img
-											src="img/elevation.png"
-											class="img-polaroid">
+								<ul>
+									<li><a href="img/elevbig.jpg" id="elevsigle" class="fancybox">
+											<img src="img/elevation.png" class="img-polaroid">
 									</a></li>
-						
-                         </ul>
-							
-						</div>
-          
+
+								</ul>
+
+							</div>
+
 							<span class="icon-eye"></span>
 						</div>
 						<div class="uc-final-content ">
@@ -224,36 +224,29 @@
 
 
 								<ul>
-									<li><a  href="#"> <img
-											src="img/land.jpg" width="155px"
+									<li><a href="#"> <img src="img/land.jpg" width="155px"
 											class="img-polaroid"><span>Landscaped Garden</span>
 									</a></li>
 
 
 
-									<li><a  href="#"><img
-											src="img/child.jpg" width="155px"
+									<li><a href="#"><img src="img/child.jpg" width="155px"
 											class="img-polaroid"><span>Children's Indoor & Outdoor Play
-												court</span>
-									</a></li>
+												court</span> </a></li>
 
-									<li><a  href="#"> <img
-											src="img/fit.jpg" width="155px"
+									<li><a href="#"> <img src="img/fit.jpg" width="155px"
 											class="img-polaroid"><span>Fitness Arena</span>
 									</a></li>
 
-									<li><a  href="#"> <img
-											src="img/security.jpg" width="155px"
+									<li><a href="#"> <img src="img/security.jpg" width="155px"
 											class="img-polaroid"><span>24*7 Security &Surveillance camera</span>
 									</a></li>
 
-									<li><a  href="#"> <img
-											src="img/fire.jpg" width="155px"
+									<li><a href="#"> <img src="img/fire.jpg" width="155px"
 											class="img-polaroid"><span>Fire Protection System</span>
 									</a></li>
 
-									<li><a  href="#"> <img
-											src="img/power.jpg" width="155px"
+									<li><a href="#"> <img src="img/power.jpg" width="155px"
 											class="img-polaroid"><span>Power Backup(For Common Area)and
 												500 Watts back up for each flat</span>
 									</a></li>
@@ -456,7 +449,7 @@
 
 
 					<div>
-						<a href="media.pdf" class="bowcher" target="_blank"><img
+						<a href="saienclave.pdf" class="bowcher" target="_blank"><img
 							src="img/brochure.png"> </a>
 					</div>
 					<!-- / grid -->
@@ -475,7 +468,7 @@
 
 			<!-- padur -->
 
-			<div class="middle" style="right: -100%" id="padur">
+			<div class="middle visible-desktop" style="right: -100%" id="padur">
 				<section class="main demo-2 row-fluid">
 
 				<div id="gridpadur" class="grid clearfix span12">
@@ -525,13 +518,12 @@
 							<div class="contant">
 
 
-                 <li class="size">
-                 <a class="fancybox" href="img/locbig1.jpg"> <img
-											src="img/locsmall1.jpg"  class="img-polaroid">
+								<li class="size"><a class="fancybox" href="img/locbig1.jpg"> <img
+										src="img/locsmall1.jpg" class="img-polaroid">
 
-									</a></li>
-                        </div>
-							
+								</a></li>
+							</div>
+
 
 						</div>
 					</div>
@@ -814,7 +806,7 @@
 				</section>
 
 			</div>
-			<div class="middle" style="right: -100%" id="ottiyam">
+			<div class="middle visible-desktop" style="right: -100%" id="ottiyam">
 				<section class="main demo-2 row-fluid">
 
 				<div id="gridottiyam" class="grid clearfix span12">
@@ -849,7 +841,7 @@
 
 
 
-					
+
 					<!-- / uc-container -->
 
 					<div class="uc-container box2 span4  elevation">
@@ -994,7 +986,7 @@
 				<br>
 				<br>
 				<br>
-				
+
 				<div>
 					<a href="#" class="bowcher" target="_blank"><img
 						src="img/brochure.png"> </a>
@@ -1054,7 +1046,7 @@
 
 				  $(".enclave").click(function() {
 
-					  window.open("saienclave", "blank");
+					  window.open("saienclave", "_blank");
 					  return false;
 					 $('.middle1').animate({"right":"-100%",opacity:0},500);
 					  $('#upcoming').animate({"right":"-100%",opacity:0},500);
@@ -1066,7 +1058,7 @@
 				  $(".padur").click(function() {
 
 
-					  window.open("vistaoceana", "blank");
+					  window.open("vistaoceana", "_blank");
 					  return false;
 					  
 					  $('.middle1').animate({"right":"-100%",opacity:0},500);
@@ -1239,8 +1231,9 @@
 				 $('#upcoming').animate({"z-index": "114",opacity:0},500);
 				 $('#ongoing').animate({"z-index": "115",opacity:1},500);
 			});
-
-			
+			$(window).resize(function() {
+				console.log($(window).width());
+			});
 		</script>
 
 

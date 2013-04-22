@@ -6,6 +6,14 @@
 	}
 }
 
+@media ( min-width : 980px) and (max-width: 1119px) {
+	.position {
+		display: none !important;
+	}
+	.im .middle1 {
+		width: 77% !important;
+	}
+}
 /* Portrait tablet to landscape and desktop */
 @media ( min-width : 768px) and (max-width: 979px) {
 	body {
@@ -143,11 +151,14 @@
 		width: 780px !importaNT;
 	}
 	.middle {
-			background: none !important;
+		background: none !important;
 	}
 	.tab-menu {
 		position: absolute;
-		top: 200px;
+		top: 160px;
+		height: 28px;
+		width: 321px;
+		left: 27%;
 	}
 	.tab-menu  span {
 		background: white;
@@ -169,7 +180,8 @@
 @media ( max-width : 480px) {
 	.im {
 		position: static;
-		width: 100%;
+		margin: 0 auto;
+		width: 310px;
 	}
 	.middle {
 		background: none !important;
@@ -185,7 +197,6 @@
 		position: absolute !important;
 	}
 	#upcoming {
-		
 		top: 154px;
 		z-index: 114;
 		right: -100% !important;
@@ -194,6 +205,14 @@
 	}
 	.textleft {
 		margin-left: 50px;
+	}
+	.middle1 {
+		background: none !important;
+		position: relative !important;
+		width: 780px !importaNT;
+	}
+	.middle {
+		background: none !important;
 	}
 	.tab-menu {
 		position: absolute;
