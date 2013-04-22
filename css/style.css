@@ -1129,7 +1129,9 @@ footer nav.footnav .footheader {
 }
 
 #fcontentbloc {
+	width: 31.93617%;
 	padding: 0px 0px 0px 34px;
+	border-right: 1px solid !important;
 }
 
 footer .footer-content .titlefooter .extramobile {
@@ -1203,11 +1205,12 @@ footer .footer-content .titlefooter .extramobile {
 }
 
 #fcontentbloc div.ph {
-	margin: -12px 0px 0px 32px;
+	width: 146px;
+	margin: -12px 0px 0px 10px;
 }
 
 #fcontentbloc .span3 {
-	width: 24.404255%;
+	width: 39.404255%;
 }
 
 #fcontentbloc  p+p {
@@ -1250,21 +1253,58 @@ footer .footer-content .titlefooter .extramobile {
 	color: white;
 }
 
+#fcontentbloc .addborder
+{
+border-right: 1px solid !important;
+}
+
 #fcontentbloc1 {
 	padding: 0px 0px 0px 0px;
+	width: 31.893617%;
 }
+
+#fcontentbloc1 .emical
+
+{
+margin-top: 50px;
+margin-left: 100px;
+}
+
+
+
 
 #fcontentbloc3 {
 	padding: 20px 0px 0px 0px;
+	border-right: 1px solid !important;
+padding-bottom: 52px !important;
+padding: 68px 0px 0px 0px;
 }
 
+#fcontentbloc3 .mprojects
+{
+margin-left: 67px;
+}
+
+
 #fcontentbloc1 h4 {
-	margin-left: 90px;
+	/*margin-left: 70px;*/
+	margin-top: 55px;
 }
 
 .emiloan {
 	margin-top: 100px;
+
+	margin-left: 140px;
+	
+}
+
+.emiloan h4{
+	
+	font-size: 14.5px;
+	
+
 	margin-left: 0px;
+
 }
 
 #fcontentbloc1  .emiloan img {
@@ -1589,16 +1629,20 @@ left: 77px;
 	line-height: 2;
 }
 
-.copyright {
-	font-size: 14px;
-	color: white;
-	position: absolute;
-	top: 230px;
-	left: 420px;
-}
+
+
+
+.copyright{
+	
+	font-size: 15px;
+color: white;
+position: absolute;
+top: 240px;
+left: 420px;
+
 
 .scrolldown {
-	position: absolute;
+	position:absolute;
 	bottom: 200px;
 	left: 50%;
 	width: 45px;

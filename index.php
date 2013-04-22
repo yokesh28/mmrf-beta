@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <title>mmrf</title>
+<meta name="description" content="Real Estate Site">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

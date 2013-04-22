@@ -25,11 +25,11 @@
 				<h4>Contact Info</h4>
 				<address>
 					<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
-					<div class="span3">
+					<div class="span3 addborder">
 						New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
 						Chennai - 600020.
 					</div>
-					<div class="span4 ph">
+					<div class="span3 ph">
 						<ul>
 							<li><label>Phone :</label> + 91 44 43551600<br> + 91 44 24400523</li>
 
@@ -45,27 +45,25 @@
 
 			</div>
 			
-			<div id="fcontentbloc3" class="fcontent span3">
+			<div id="fcontentbloc3" class="fcontent span4">
 				
-			
-					<a href="saienclave/" data-toggle="modal" target="_blank"><h4>
+			<div class="mprojects">
+					<a href="saienclave/" data-toggle="modal" target="_blank"><h5>
 							<img src="images/sailogo.png">&nbsp; MMRF- SAIENCLAVE
-						</h4> </a>
+						</h5> </a>
 						
-						<a href="vistaoceana/" data-toggle="modal" target="_blank"><h4>
+						<a href="vistaoceana/" data-toggle="modal" target="_blank"><h5>
 							<img src="images/vistalogo.png">&nbsp; MMRF- VISTAOCEANA
-						</h4> </a>
-			
+						</h5> </a>
 			</div>
-			
-			
-
-			<div id="fcontentbloc1" class="fcontent span3">
+			</div>
+			<div id="fcontentbloc1" class="fcontent span2">
 				
-			
-					<a href="#emi" data-toggle="modal"><h4>
+			<div class="emical">
+					<a href="#emi" data-toggle="modal"><h5>
 							<img src="images/cal.png">&nbsp; EMI Calculator
-						</h4> </a>
+						</h5> </a>
+			</div>			
 			<div class="emiloan">
 					<h4 >
 					Designed by:<br><br>
@@ -76,6 +74,9 @@
 					</h4>
 				</div>
 			</div>
+			
+
+			
 
 
 			
