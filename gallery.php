@@ -18,6 +18,7 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
+
 <script src="js/bootstrap.min.js"></script>
 
 
@@ -92,6 +93,7 @@
 }
 </style>
 <script src="js/bootstrap-tab.js"></script>
+
 <script type="text/javascript">
 		$(document).ready(function() {
 			/*
