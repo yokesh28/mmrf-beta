@@ -101,6 +101,10 @@ a img {
 	background-image: url(../images/sub_bg.png);
 }
 
+
+
+
+
 #sub_bar_pay {
 	width: 690px;
 	height: 100%;
@@ -426,11 +430,19 @@ bottom: 50px;
 #gal_list li,#cons_updt li {
 	border: none;
 	float: left;
-	padding: 0px;
-	margin: 10px;
+	padding: 20px;
+	margin: 0px 29px;
 	width: 100px;
 	height: 130px;
-	list-style: none
+	list-style: none;
+	
+}
+
+
+#cons_updt a{
+	width:400px;
+	height:400px;
+	position:absolute;
 }
 
 #gal_list p,#cons_updt p {

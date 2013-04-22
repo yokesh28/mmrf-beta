@@ -326,7 +326,6 @@ $("#refer_us").toggle(function(){
 
 //galler
 
-$("#cons_updt").hide(10);
 
 $("#amen_g").click(function(){
 	$(this).removeClass("gal_btn").addClass("gal_acti");
