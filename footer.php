@@ -6,8 +6,9 @@
 
 
 		<div class="row header">
-			<div class=" span6 ">Reach Us</div>
-			<div class="span6">Loan Tools</div>
+			<div class="span4">Reach Us</div>
+			<div class="span4">Projects</div>
+			<div class="span4">Loan Tools</div>
 
 
 
@@ -18,7 +19,7 @@
 
 	<div class="row-fluid marketing">
 		<div class="footer-content ">
-			<div id="fcontentbloc" class="fcontent span7">
+			<div id="fcontentbloc" class="fcontent span6">
 
 
 				<h4>Contact Info</h4>
@@ -43,83 +44,41 @@
 
 
 			</div>
-
-			<div id="fcontentbloc1" class="fcontent span5">
+			
+			<div id="fcontentbloc3" class="fcontent span3">
 				
-			<!--		<a href="#myModal" data-toggle="modal"><h4>
-							<img src="images/cal.png">&nbsp; Loan Eligiblity Calculator
+			
+					<a href="saienclave/" data-toggle="modal" target="_blank"><h4>
+							<img src="images/sailogo.png">&nbsp; MMRF- SAIENCLAVE
 						</h4> </a>
-			 -->
+						
+						<a href="vistaoceana/" data-toggle="modal" target="_blank"><h4>
+							<img src="images/vistalogo.png">&nbsp; MMRF- VISTAOCEANA
+						</h4> </a>
+			
+			</div>
+			
+			
+
+			<div id="fcontentbloc1" class="fcontent span3">
+				
+			
 					<a href="#emi" data-toggle="modal"><h4>
 							<img src="images/cal.png">&nbsp; EMI Calculator
 						</h4> </a>
-			
-					<h4><a href="http://s-creative.me" target="_blank" class="desined">
-					Designed by S-Creative
-						 </a></h4>
-				
-			</div>
-
-
-			<!-- LOAN ELIGIBLITY -->
-<!-- 
-
-			<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog"
-				aria-labelledby="myModalLabel" aria-hidden="true">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"
-						aria-hidden="true">X</button>
-					<h3 id="myModalLabel">Loan Eligiblity Calculator</h3>
+			<div class="emiloan">
+					<h4 >
+					Designed by:<br><br>
+					
+					<a href="http://s-creative.me" target="_blank" class="desined"><img src="images/slogo.png"><br>
+				<div class="screative">	S-Creative</div>
+						 </a>
+					</h4>
 				</div>
-				<form class="form-horizontal ">
-
-
-					<div class="control-group ">
-						<label class="control-label" for="inputtext">Gross Monthly
-							Income(Rs)</label>
-						<div class="controls">
-							<input type="text" class="con_label">
-						</div>
-					</div>
-					<div class="control-group">
-						<label class="control-label" for="Text input">Rate of Interest (%)</label>
-						<div class="controls">
-							<input type="text">
-						</div>
-					</div>
-
-					<div class="control-group">
-						<label class="control-label" for="Text input">Terms Of the Loan(in
-							years)</label>
-						<div class="controls">
-							<input type="text" class="con3_label">
-						</div>
-					</div>
-
-					<div class="control-group">
-						<label class="control-label" for="Text input">Other Loan
-							Commitments :</label>
-						<div class="controls">
-							<input type="text">
-						</div>
-					</div>
-
-					<div class="control-group">
-						<label class="control-label" for="Text input">Loan Eligible for
-							(Rs)</label>
-						<div class="controls">
-							<input type="text">
-						</div>
-					</div>
-
-					<div class="modal-footer">
-						<button class="btn btn-primary">Calculate</button>
-						<button type="button" class="btn" data-complete-text="finished!">Clear</button>
-
-					</div>
-				</form>
 			</div>
--->
+
+
+			
 
 			<!--  EMI CALCULATOR   -->
 
@@ -187,7 +146,8 @@
 		</div>
 	</div>
 
-
+<span class="copyright">Copyright © 2013. S-Creative. All
+				Rights Reserved</span>
 
 </footer>
 
