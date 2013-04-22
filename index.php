@@ -104,6 +104,16 @@
 	
 	$(document).scroll(function(e){
 
+		$(".menu").stop().delay(100).animate({
+			'width' : '100%'
+		}, 500);
+
+	
+		  
+
+		
+		$('.menu li').delay(6000).css('display','block');
+
 		var per=($(window).scrollTop()/1100)*100;
 		var sc=((per/100)*338);
 		

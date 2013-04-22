@@ -10,6 +10,7 @@
 	font-weight: bold;
 	src: url('Nilland-Bold.ttf');
 }
+
 @font-face {
 	font-family: gisha;
 	src: url('gisha.ttf');
@@ -20,7 +21,7 @@ html {
 }
 
 body {
-	font-family: gisha ;
+	font-family: gisha;
 	height: 100%;
 }
 
@@ -432,7 +433,7 @@ body {
 	padding-top: 10px !important;
 	padding-bottom: 10px !important;
 	text-align: center;
-	font-weight: bold;
+	
 	margin-top: 22px !important;
 	margin-bottom: 22px !important;
 	border-right: 1px solid white;
@@ -1054,17 +1055,17 @@ body {
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                   100);
+	filter: alpha(opacity =                    100);
 }
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                   100);
+	filter: alpha(opacity =                    100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                   100);
+	filter: alpha(opacity =                    100);
 	opacity: 1;
 }
 
@@ -1082,7 +1083,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =                  85);
+	filter: alpha(opacity =                   85);
 	opacity: 1;
 	min-width: 700px;
 	margin: 0 auto;
@@ -1253,31 +1254,31 @@ footer .footer-content .titlefooter .extramobile {
 #fcontentbloc1 {
 	padding: 0px 0px 0px 0px;
 }
+
 #fcontentbloc3 {
 	padding: 20px 0px 0px 0px;
 }
 
-
 #fcontentbloc1 h4 {
 	margin-left: 90px;
 }
- .emiloan{
+
+.emiloan {
 	margin-top: 100px;
 	margin-left: 0px;
-	
 }
-#fcontentbloc1  .emiloan img{
+
+#fcontentbloc1  .emiloan img {
 	margin-top: -78px;
 	margin-left: 115px;
 	background-color: transparent;
 	width: 40px;
-height: 40px;
+	height: 40px;
 }
-.screative{
-	
+
+.screative {
 	margin-left: 95px;
-margin-top: -30px;
-	
+	margin-top: -30px;
 }
 
 #fcontentbloc1 a:Hover {
@@ -1377,7 +1378,6 @@ margin-top: -30px;
 	color: white;
 }
 
-
 .signature {
 	color: #fff;
 	text-align: center;
@@ -1446,8 +1446,6 @@ blockquote {
 	margin-left: 0;
 }
 
-
-
 #about p {
 	padding: 10px 50px;
 	font-size: 14px;
@@ -1456,7 +1454,6 @@ blockquote {
 	text-align: justify;
 	color: black;
 	padding-bottom: 40px;
-	
 }
 
 #management>h4 {
@@ -1496,11 +1493,12 @@ blockquote {
 .media li a img {
 	padding: 0px 5px 0px 5px;
 }
-.txt_under{
-	padding:14px !important;
+
+.txt_under {
+	padding: 14px !important;
 }
+
 .unstyled p {
-	
 	text-align: center !important;
 }
 
@@ -1592,20 +1590,22 @@ left: 77px;
 	line-height: 2;
 }
 
-
-
-.copyright{
-	
+.copyright {
 	font-size: 14px;
-color: white;
-
-position: absolute;
-top: 230px;
-left: 420px;
+	color: white;
+	position: absolute;
+	top: 230px;
+	left: 420px;
 }
 
+.homepage .menu {
 
-
+	overflow: hidden;
+	width: 0% ;
+}
+.homepage .menu li {
+display: none;
+}
 
 /*footer page*/
 ::-webkit-scrollbar {
