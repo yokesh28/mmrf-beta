@@ -927,7 +927,7 @@ margin: 0px 0px 5px 0px;
 }
 
 .hcard .title {
-	
+	padding: 0px 5px;
 	color: #888;
 	text-transform: capitalize
 }
@@ -958,8 +958,10 @@ margin: 0px 0px 5px 0px;
 }
 
 
-.move{padding-left: 0!important;
-padding-right: 90px !important;}
+.move{
+	/*padding-left: 0!important;*/
+padding-right: 90px !important;
+}
 
 .hcard .photo:after {
 	content: "";
