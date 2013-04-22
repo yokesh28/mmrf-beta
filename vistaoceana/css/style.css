@@ -145,6 +145,7 @@ left: -12%;
 	color: #5cc7D1;
 	background: white;
 	width: 151px;
+	margin: 0px 10px;
 }
 
 .box1 ul {
@@ -203,7 +204,7 @@ background: url("../menulist/color.png")repeat;
 width:725px;
 height: 400px;
 overflow-y: scroll;
-padding:15px;
+padding:25px;
 }
 	
 	
@@ -281,7 +282,7 @@ float:left;
 	top: 2%;
 
 position: absolute;
-left:695px;
+left:709px;
 }
 
 .exit2{
@@ -294,16 +295,14 @@ float: right;
 	
 }
 
-.box4 h5{margin:0px 10px;}
+
 
 
 .paragraph1 {
 	margin: 0px 20px;
 }
 
-.box4 h5 {
-	margin: 0px 10px;
-}
+
 
 .box6 {
 	position: absolute;
@@ -319,6 +318,36 @@ float: right;
 
 .box6 li {
 	list-style: none;
+}
+
+
+.box7 {
+	position: absolute;
+	top: 27%;
+	right: -87%;
+	background: url("../menulist/color.png") repeat;
+	width: 502px;
+	text-align: justify;
+	height:155px;
+	overflow-y:hidden;
+	padding: 50px;
+	overflow-x: hidden;
+}
+
+
+
+.box8{
+	position: absolute;
+	top: 27%;
+	right: -87%;
+	
+	width: 502px;
+	text-align: justify;
+	height:155px;
+	overflow-y:scroll;
+	padding: 50px;
+	overflow-x: hidden;
+	
 }
 
 .titles1 {
@@ -405,3 +434,8 @@ top:3%;
 	width: 123px !important;
 	padding-left: 0px !important;
 }
+
+
+
+
+
