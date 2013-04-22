@@ -75,8 +75,8 @@
 
 			<h2>Welcome to MMRF</h2>
 			<p>A real estate conglomerate created by the coming together of 4 of
-				Coimbatore's most renowned construction giants.Mayflower
-				Enterprises, Mount Housing & Infrastructure, Ramani Realtors &
+				Coimbatore's most renowned construction giants.<br>
+				MayflowerEnterprises, Mount Housing & Infrastructure, Ramani Realtors &
 				Fairyland Foundations. MMRF is a seamless blend of several decades
 				of profound expertise and valuable experience in the construction
 				and real estate domain. MMRF aims to create world-class spaces that
