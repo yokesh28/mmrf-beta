@@ -104,15 +104,22 @@
 	
 	$(document).scroll(function(e){
 
-		$(".menu").stop().delay(100).animate({
-			'width' : '100%'
-		}, 500);
+	
 
+
+		$(".menu").delay(100).animate(
+		        {"width":"100%"},
+		        { complete:function(){
+		        	$('.menu li a').css('visibility','visible');
+		        	$('.menu').css('height','auto');
+		        }}
+		);
 	
 		  
 
 		
-		$('.menu li').delay(6000).css('display','block');
+		
+		
 
 		var per=($(window).scrollTop()/1100)*100;
 		var sc=((per/100)*338);

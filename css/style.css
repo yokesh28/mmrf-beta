@@ -1602,9 +1602,10 @@ left: 77px;
 
 	overflow: hidden;
 	width: 0% ;
+	height: 84px;
 }
-.homepage .menu li {
-display: none;
+.homepage .menu li a{
+visibility: hidden;
 }
 
 /*footer page*/
