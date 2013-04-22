@@ -1044,12 +1044,7 @@ a.lien-retourHome {
 	position: absolute;
 }
 
-.scrollTeaser-fleche {
-	width: 45px;
-	height: 45px;
-	background: url("../img/css-sprite-PAG.png") 0 0 no-repeat;
-	background-position: -170px -10px;
-}
+
 
 #scrollTeaser-down1 {
 	top: 0;
