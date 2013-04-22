@@ -148,6 +148,17 @@
 		}
 	});
 
+	$('.scrolldown').click(function(){
+
+		$(".menu").delay(100).animate(
+		        {"width":"100%"},
+		        { complete:function(){
+		        	$('.menu li a').css('visibility','visible');
+		        	$('.menu').css('height','auto');
+		        	$('.scrolldown').css('display','none');
+		        }}
+		);
+	});
 
 	runPulseScrollTeaser();
 	

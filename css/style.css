@@ -1625,9 +1625,7 @@ left: 77px;
 	color: white;
 	position: absolute;
 	top: 240px;
-	left: 590px;
-} 
-.scrolldown { position : absolute;
+	left: 590px; . scrolldown { position : absolute;
 	bottom: 200px;
 	left: 50%;
 	width: 45px;
