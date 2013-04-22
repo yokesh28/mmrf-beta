@@ -1508,7 +1508,7 @@ blockquote {
 	position: fixed;
 	height: 100%;
 	-webkit-filter: blur(1px);
-	opacity: 0.5
+	opacity: 1;
 }
 /*#overlay_form{
 position: absolute;
@@ -1593,6 +1593,7 @@ left: 77px;
 }
 
 
+
 .copyright{
 	
 	font-size: 14px;
@@ -1602,6 +1603,7 @@ position: absolute;
 top: 230px;
 left: 420px;
 }
+
 
 
 
