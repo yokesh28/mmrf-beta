@@ -40,6 +40,13 @@
 	<div class="row">
 
 
+
+        <div class="overview">
+        <p></p>
+        </div>  
+
+
+
 		<div class="box">
 			<img src="header/logo.png" class="logo">
 		</div>
@@ -343,7 +350,7 @@
 				.click(
 						function() {
 							$(".box").stop().delay(100).animate({
-								left : '0%'
+								left : '-12%'
 							}, 500);
 							$(".box1").stop().delay(100).animate({
 								right : '-93%'
@@ -408,11 +415,12 @@
 						function() {
 							if (i == 1) {
 								$(".box").stop().delay(100).animate({
-									left : '-75%'
+									left : '-86%'
 								}, 500);
 								$(".box1").stop().delay(100).animate({
 									right : '-18%'
 								}, 500);
+								
 
 								$('.arrow')
 										.html(
@@ -423,7 +431,7 @@
 								i = 0;
 							} else {
 								$(".box").stop().delay(100).animate({
-									left : '0%'
+									left : '-12%'
 								}, 500);
 								$(".box1").stop().delay(100).animate({
 									right : '-93%'
@@ -432,6 +440,7 @@
 								$('.arrow')
 										.html(
 												'<img src="header/rarrow.png" class="arrowright" style="display:none">');
+								
 
 								$('.arrowleft').fadeOut();
 								$('.arrowright').delay(700).fadeIn();
@@ -456,7 +465,7 @@
 				right : '4%'
 		}, 500);
 			
-			
+      
         
         $(".box3").stop().delay(100).animate({
 				right : '-67%'

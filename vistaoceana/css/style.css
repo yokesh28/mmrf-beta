@@ -34,10 +34,11 @@ body {
 
 .box {
 	background: url("../header/box.jpg");
-	top: 3%;
-	position: absolute;
-	height: 112px;
-	width: 88%;
+top: 3%;
+position: absolute;
+height: 112px;
+width: 100%;
+left: -12%;
 }
 
 #inp_box label {
