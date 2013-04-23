@@ -253,6 +253,12 @@ body {
 	float: right;
 }
 
+.exit3 {
+	left: 709px;
+}
+	
+	
+	
 .paragraph1 {
 	margin: 0px 20px;
 }
@@ -293,13 +299,14 @@ body {
 .box8 {
 	position: absolute;
 	top: 27%;
-	right: -87%;
+	right: -60%;
 	width: 502px;
 	text-align: justify;
 	height: 155px;
 	overflow-y: scroll;
 	padding: 50px;
 	overflow-x: hidden;
+	background: url("../menulist/color.png") repeat;
 }
 
 .titles1 {

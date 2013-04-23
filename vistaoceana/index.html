@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+
+
+
+
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css"
@@ -382,8 +390,10 @@
 
 		<div class="box8">
 			<img class="exit" src="menulist/cls.png">
-
-
+          <p>Download</p>
+          <a href="pdf/vistaoceanabrochure.pdf" target="_blank">
+          <img class="d_btn" src="menulist/broimage.png" width="134" height="30"> </a>
+          
 
 
 		</div>
@@ -443,8 +453,8 @@
 							$('#bg4').fadeOut();
 							$('#bg5').fadeOut();
 							$('#bg6').fadeOut();
-							
-							
+							$('#bg7').fadeOut();
+							$('#bg8').fadeOut();
 							
 							 $(".table1").stop().delay(100).animate({
 									left : '-24%'
@@ -521,6 +531,12 @@
 								$(".box7").stop().delay(100).animate({
 									right : '-96%'
 								}, 500);
+								$(".box8").stop().delay(100).animate({
+									right : '-96%'
+								}, 500);
+								
+								
+								
 								 $(".table1").stop().delay(100).animate({
 										left : '-34%'
 									}, 500);
@@ -529,8 +545,9 @@
 							        $('#bg3').fadeOut();
 									 $('#bg4').fadeOut();
 									 $('#bg5').fadeOut();
-
+									 $('#bg8').fadeOut();
 									 $('#bg6').fadeOut();
+									 $('#bg8').fadeOut();
 								
 								$('.arrow')
 										.html(
@@ -562,7 +579,7 @@
         $('#bg5').fadeOut();
 		 $('#bg3').fadeOut();
 		 $('#bg4').fadeOut();
-
+		 $('#bg8').fadeOut();
 		 $('#bg6').fadeOut();
 
         
@@ -592,6 +609,9 @@
 	    $(".box7").stop().delay(100).animate({
 			right : '-97%'
 		}, 500);
+	    $(".box8").stop().delay(100).animate({
+			right : '-97%'
+		}, 500);
 			});
 			
 			
@@ -607,7 +627,7 @@
 			 $('#bg2').fadeOut();
 			 $('#bg5').fadeOut();
 			 $('#bg4').fadeOut();
-
+			 $('#bg8').fadeOut();
 			 $('#bg6').fadeOut();
 
 		        $('#bg3').fadeIn();
@@ -635,6 +655,9 @@
 			$(".box7").stop().delay(100).animate({
 				right : '-97%'
 			}, 500);
+			$(".box8").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
 		});
 		
 		
@@ -647,7 +670,7 @@
 			 $('#bg2').fadeOut();
 			 $('#bg3').fadeOut();
 			 $('#bg5').fadeOut();
-
+			 $('#bg8').fadeOut();
 			 $('#bg6').fadeOut();
 
 		        $('#bg4').fadeIn();
@@ -677,6 +700,9 @@
 			$(".box7").stop().delay(100).animate({
 				right : '-97%'
 			}, 500);
+			$(".box8").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
 		});
 		
 		$('.gallery').click(function() {
@@ -687,7 +713,7 @@
 			 $('#bg3').fadeOut();
 			 $('#bg4').fadeOut();
 			 $('#bg6').fadeOut();
-
+			 $('#bg8').fadeOut();
 			 
 			 
 		        $('#bg5').fadeIn();
@@ -716,6 +742,9 @@
 			$(".box7").stop().delay(100).animate({
 				right : '-97%'
 			}, 500);
+			$(".box8").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
 			
 		});
 		
@@ -727,6 +756,7 @@
 			 $('#bg3').fadeOut();
 			 $('#bg4').fadeOut();
              $('#bg5').fadeOut();
+             $('#bg8').fadeOut();
 
 
 		    $('#bg6').fadeIn();
@@ -754,13 +784,16 @@
 			$(".box7").stop().delay(100).animate({
 				right : '-97%'
 			}, 500);
+			$(".box8").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
 		});
 		
 		
 		
-$('.box8').click(function() {
+$('.download').click(function() {
 			
-			
+	$('.download img').attr("src",'header/66.png');
 			 $('#bg1').fadeOut();
 			 $('#bg2').fadeOut();
 			 $('#bg3').fadeOut();
@@ -768,9 +801,9 @@ $('.box8').click(function() {
              $('#bg5').fadeOut();
              $('#bg6').fadeOut();
 
-		    $('#bg7').fadeIn();
+		    $('#bg8').fadeIn();
 			$(".box8").stop().delay(100).animate({
-				right : '0%'
+				right : '1%'
 			}, 500);
 			
 			
@@ -793,6 +826,10 @@ $('.box8').click(function() {
 			$(".box7").stop().delay(100).animate({
 				right : '-97%'
 			}, 500);
+			$(".box6").stop().delay(100).animate({
+				right : '-97%'
+			}, 500);
+			
 		});
 		
 		
@@ -835,6 +872,7 @@ $('.box8').click(function() {
 			
 			
 			
+			
 		});
 		
 		
@@ -854,6 +892,12 @@ $('.box8').click(function() {
 		});
 		
 		
+		$('.exit3').click(function() {
+		$(".box8").stop().delay(100).animate({
+			right : '-90%'
+		}, 500);
+		
+		});
 
 		$("#menu li").hover(function() {
 			$(this).stop().delay(100).animate({
