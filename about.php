@@ -54,7 +54,7 @@
 							<img src="images/group.png" class="img-rounded"><span
 								class="txt_under_headin"> OVERVIEW</span>
 						</h4>
-						<p class="">The top-notch names of the Real Estate sector have
+						<p >The top-notch names of the Real Estate sector have
 							joined hands to create and bestow an exceptional projects with
 							unparalleled quality. MMRF is a collaboraive endeavor of four
 							leading Real Estate Developers; Mayflower Enterprises Private
