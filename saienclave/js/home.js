@@ -4,7 +4,7 @@
 // function for mouse hover
 
 function m_over (){
-	
+	$("#bg_img1").delay(500).fadeIn(500);
 	$("#menu_t").stop().delay(800).animate({opacity:1},800);
 	$("#call").stop().delay(700).animate({opacity:1},800);
 	
@@ -23,7 +23,7 @@ function m_over (){
 //function for mouse leave
 
 function m_out(){
-	
+	$("#bg_img1").delay(500).fadeIn(500);
 	$("#menu_t").stop().animate({opacity:0},100);
 	$("#call").stop().animate({opacity:0});
 		
@@ -42,7 +42,7 @@ function m_out(){
 
 $(window).load(function() {
 	
-
+	
 	$("#yout, .overlay").fadeOut(10);
 	$('#yout').vh_center();
 	
