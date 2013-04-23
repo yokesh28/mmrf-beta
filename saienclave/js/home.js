@@ -4,7 +4,7 @@
 // function for mouse hover
 
 function m_over (){
-	$("#bg_img1").delay(500).fadeIn(500);
+	
 	$("#menu_t").stop().delay(800).animate({opacity:1},800);
 	$("#call").stop().delay(700).animate({opacity:1},800);
 	
@@ -23,7 +23,7 @@ function m_over (){
 //function for mouse leave
 
 function m_out(){
-	$("#bg_img1").delay(500).fadeIn(500);
+	
 	$("#menu_t").stop().animate({opacity:0},100);
 	$("#call").stop().animate({opacity:0});
 		
@@ -155,8 +155,8 @@ $("#loc_t").click(function(){
 	$("#bg_img2").delay(500).fadeOut(500);
 	$("#bg_img4").delay(500).fadeOut(500);
 	$("#bg_img5").delay(500).fadeOut(500);
-
-	$("#bg_img6").delay(500).fadeIn(500);
+	$("#bg_img7").delay(500).fadeOut(500);
+	$("#bg_img6").delay(500).fadeOut(500);
 
 
 	//$("#pattern").delay(1000).fadeOut(1000);
@@ -213,11 +213,11 @@ $("#gal_t").click(function(){
 	//$("#pattern").delay(1000).fadeIn(1000);
 
 	$("#bg_img1").delay(500).fadeOut(500);
-	$("#bg_img2").delay(500).fadeIn(500);
+	$("#bg_img2").delay(500).fadeOut(500);
 	$("#bg_img3").delay(500).fadeOut(500);
 	$("#bg_img4").delay(500).fadeOut(500);
 	$("#bg_img5").delay(500).fadeOut(500);
-
+	$("#bg_img7").delay(500).fadeOut(500);
 	})
 	
 	
@@ -241,19 +241,7 @@ $("#spe_t").click(function(){
 
 	
 	
-	$("#gal_t").click(function(){
 	
-	$("#bg_img7").delay(1000).fadeIn(500);
-	//$("#pattern").delay(1000).fadeIn(1000);
-
-	$("#bg_img1").delay(500).fadeOut(500);
-	$("#bg_img2").delay(500).fadeOut(500);
-	$("#bg_img3").delay(500).fadeOut(500);
-	$("#bg_img5").delay(500).fadeOut(500);
-	$("#bg_img6").delay(500).fadeOut(500);	
-	$("#bg_img4").delay(500).fadeOut(500);
-	})
-
 	
 	
 	
