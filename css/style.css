@@ -1151,7 +1151,14 @@ footer nav.footnav .footheader {
 #fcontentbloc {
 	width: 31.93617%;
 	padding: 0px 0px 0px 34px;
+	
+}
+#fcontentbloc .fcontentborder{
+	
 	border-right: 1px solid !important;
+padding-bottom: 100px;
+}
+	
 }
 
 footer .footer-content .titlefooter .extramobile {
@@ -1289,13 +1296,19 @@ footer .footer-content .titlefooter .extramobile {
 
 #fcontentbloc3 {
 	padding: 20px 0px 0px 0px;
+	
+	
+}
+
+#fcontentbloc3 .fcontentborder1{
+	
 	border-right: 1px solid !important;
-	padding-bottom: 52px !important;
-	padding: 68px 0px 0px 0px;
+padding-bottom: 60px;
 }
 
 #fcontentbloc3 .mprojects {
-	margin-left: 67px;
+	margin-left: 70px;
+margin-top: 20px;
 }
 
 #fcontentbloc1 h4 {
@@ -1304,7 +1317,7 @@ footer .footer-content .titlefooter .extramobile {
 }
 
 .emiloan {
-	margin-top: 100px;
+	margin-top: 134px;
 	margin-left: 140px;
 }
 

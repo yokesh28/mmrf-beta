@@ -24,19 +24,21 @@
 
 				<h4>Contact Info</h4>
 				<address>
+				<div class="fcontentborder">
 					<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
 					<div class="span3 addborder">
-						New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
+						New no. 21, Old no.8, 1st Avenue,<br>Indra Nagar, Adyar,<br>
 						Chennai - 600020.
 					</div>
 					<div class="span3 ph">
 						<ul>
 							<li><label>Phone :</label> + 91 44 43551600<br> + 91 44 24400523</li>
 
-							<li><label>Mail :</label> info@mmrf.in</li>
-							<li><label>Website:</label> www.mmrf.in</li>
+							<li><label>Mail :</label><label> info@mmrf.in</label></li>
+							
 						</ul>
 
+					</div>
 					</div>
 				</address>
 
@@ -46,7 +48,7 @@
 			</div>
 
 			<div id="fcontentbloc3" class="fcontent span4">
-
+              <div class="fcontentborder1">
 				<div class="mprojects">
 					<a href="saienclave/" data-toggle="modal" target="_blank"><h5>
 							<img src="images/sailogo.png">&nbsp; MMRF- SAIENCLAVE
@@ -54,6 +56,7 @@
 						target="_blank"><h5>
 							<img src="images/vistalogo.png">&nbsp; MMRF- VISTAOCEANA
 						</h5> </a>
+				</div>
 				</div>
 			</div>
 			<div id="fcontentbloc1" class="fcontent span2">
@@ -64,11 +67,11 @@
 						</h5> </a>
 				</div>
 				<div class="emiloan">
-					<h4>
-						Designed by:<br> <br> <a href="http://s-creative.me"
-							target="_blank" class="desined"><img src="images/slogo.png"><br>
+					<h5>
+						Designed by:</h5> <a href="http://s-creative.me"
+							target="_blank" class="desined">
 							<div class="screative">S-Creative</div> </a>
-					</h4>
+					
 				</div>
 			</div>
 
