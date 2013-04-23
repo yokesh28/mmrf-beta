@@ -192,6 +192,21 @@ body {
 	margin-top: 26px;
 }
 
+
+
+/*.scrolldown{
+	position: absolute;
+bottom: -97px;
+left: 50%;
+width: 45px;
+height: 45px;
+cursor: pointer;
+line-height: 0.9em;
+
+}*/
+
+
+
 .building1 {
 	height: 202px;
 	width: 320px;
