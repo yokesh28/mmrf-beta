@@ -719,6 +719,7 @@ line-height: 0.9em;
 .menu1 {
 	padding: 10px 0px;
 	background: rgba(250, 247, 247, 0.78);
+	border-radius: 20px;
 }
 
 .menu1 li {
@@ -1628,6 +1629,7 @@ left: 77px;
 }
 
 .tab-content .tab-pane {
+	border-radius:20px;
 	background: rgba(250, 247, 247, 0.78);
 	overflow: hidden;
 	margin-top: 59px;

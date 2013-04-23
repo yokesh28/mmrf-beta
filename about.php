@@ -51,7 +51,7 @@
 				<div class="tab-content span9">
 					<div class="tab-pane active overview effect1" id="aboutcontent">
 						<h4 class="">
-							<img src="images/group.png" class="img-rounded"><span
+							<img src="images/group.png" class="img-rounded" style="margin: 6px;"><span
 								class="txt_under_headin"> OVERVIEW</span>
 						</h4>
 						<p >The top-notch names of the Real Estate sector have
@@ -200,7 +200,7 @@
 												height="115">
 										</div>
 										<p>
-											<span class="fn">Ms.Divya S</span><span class="title">VP-From
+											<span class="fn">Ms.Divya S</span><span class="" style="padding-left: 8px; color: #888;">VP-From
 											</span><span class="divider">/</span><span class="year">2012</span>
 										</p>
 									</li>
@@ -221,7 +221,7 @@
 												height="115">
 										</div>
 										<p>
-											<span class="fn move">Ms.Chitra V</span><span class="title">General
+											<span class="fn move">Ms.Chitra V</span><span class=""style="padding-left: 3px; color: #888;">General
 												Manager-From</span><span class="divider">/</span><span
 												class="year">2012</span>
 										</p>
