@@ -98,12 +98,11 @@
 	<div class="scrolldown">
 
 		<div id="scrollTeaser-down1" class="scrollTeaser-fleche"
-			style="display: none;"></div>
+			></div>
 
 		<div id="scrollTeaser-down2" class="scrollTeaser-fleche"
-			style="display: none;"></div>
-		<div id="scrollTeaser-down3" class="scrollTeaser-fleche"
-			style="display: none;"></div>
+			></div>
+		<div id="scrollTeaser-down3" class="scrollTeaser-fleche"></div>
 	</div>
 
 	<script src="js/bootstrap.min.js"></script>
@@ -125,7 +124,7 @@
 		        { complete:function(){
 		        	$('.menu li a').css('visibility','visible');
 		        	$('.menu').css('height','auto');
-		        	$('.scrolldown').css('display','none');
+		        	$('.scrolldown').css();
 		        }}
 		);
 	
@@ -155,7 +154,7 @@
 		        { complete:function(){
 		        	$('.menu li a').css('visibility','visible');
 		        	$('.menu').css('height','auto');
-		        	$('.scrolldown').css('display','none');
+		        	$('.scrolldown').css();
 		        }}
 		);
 	});
