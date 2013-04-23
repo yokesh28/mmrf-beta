@@ -20,7 +20,7 @@
 								style="display: none" class="back">
 							</li>
 							<li class="span2" onclick="location.href='projdetail.php'"><a
-								href="projdetail.php">Projects</a> <img src="img/2.jpg"
+								href="projdetail.php">Projects</a> <img src="img/proj.jpg"
 								style="display: none" class="back">
 							</li>
 							<li class="span2" onclick="location.href='about.php'"><a
@@ -29,7 +29,7 @@
 							</li>
 
 							<li class="span2" onclick="location.href='gallery.php'"><a
-								href="gallery.php">Gallery</a> <img src="img/4.jpg"
+								href="gallery.php">Gallery</a> <img src="img/gall.jpg"
 								style="display: none" class="back">
 							</li>
 							<li class="span2" onclick="location.href='media.php'"><a
