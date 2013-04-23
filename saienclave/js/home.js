@@ -136,10 +136,11 @@ $("#abt_t").click(function(){
 	
 $("#down_t").click(function(){
 	$("#bg_img5").delay(500).fadeIn(500);
+	$("#bg_img1").delay(500).fadeOut(500);
 	$("#bg_img2").delay(500).fadeOut(500);
 	$("#bg_img3").delay(500).fadeOut(500);
 	$("#bg_img4").delay(500).fadeOut(500);
-	$("#bg_img1").delay(500).fadeOut(500);
+	
 	$("#bg_img6").delay(500).fadeOut(500);
 	$("#bg_img7").delay(500).fadeOut(500);
 
@@ -154,7 +155,10 @@ $("#loc_t").click(function(){
 	$("#bg_img2").delay(500).fadeOut(500);
 	$("#bg_img4").delay(500).fadeOut(500);
 	$("#bg_img5").delay(500).fadeOut(500);
-	$("#bg_img6").delay(500).fadeOut(500);
+
+	$("#bg_img6").delay(500).fadeIn(500);
+
+
 	//$("#pattern").delay(1000).fadeOut(1000);
 
 
@@ -165,6 +169,7 @@ $("#loc_t").click(function(){
 	})
 
 	
+
 $("#cnt_t").click(function(){
 	
 	
@@ -181,6 +186,7 @@ $("#cnt_t").click(function(){
 	})
 	
 	
+
 $("#amen_t").click(function(){
 	
 	
@@ -191,6 +197,7 @@ $("#amen_t").click(function(){
 	$("#bg_img3").delay(500).fadeOut(500);
 	$("#bg_img4").delay(500).fadeOut(500);
 	$("#bg_img5").delay(500).fadeOut(500);
+
 	$("#bg_img6").delay(500).fadeOut(500);
 	$("#bg_img7").delay(500).fadeOut(500);
 
@@ -199,17 +206,37 @@ $("#amen_t").click(function(){
 	
 	
 	
+$("#gal_t").click(function(){
+	
+	
+	$("#bg_img6").delay(500).fadeIn(500);
+	//$("#pattern").delay(1000).fadeIn(1000);
+
+	$("#bg_img1").delay(500).fadeOut(500);
+	$("#bg_img2").delay(500).fadeIn(500);
+	$("#bg_img3").delay(500).fadeOut(500);
+	$("#bg_img4").delay(500).fadeOut(500);
+	$("#bg_img5").delay(500).fadeOut(500);
+
+	})
+	
+	
+	
+	
+	
 $("#spe_t").click(function(){
 	
-	$("#bg_img4").delay(1000).fadeIn(500);
+	$("#bg_img4").delay(500).fadeIn(500);
 	//$("#pattern").delay(1000).fadeIn(1000);
 
 	$("#bg_img1").delay(500).fadeOut(500);
 	$("#bg_img2").delay(500).fadeOut(500);
 	$("#bg_img3").delay(500).fadeOut(500);
 	$("#bg_img5").delay(500).fadeOut(500);
+
 	$("#bg_img6").delay(500).fadeOut(500);	
 	$("#bg_img7").delay(500).fadeOut(500);
+
 	})
 
 	
@@ -227,6 +254,13 @@ $("#spe_t").click(function(){
 	$("#bg_img4").delay(500).fadeOut(500);
 	})
 
+	
+	
+	
+
+	
+	
+	
 	
 	
 	
