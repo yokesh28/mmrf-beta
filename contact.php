@@ -72,7 +72,7 @@
 					<address>
 						<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
 						New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
-						Chennai - 600020.<br> <br> <br> Phone : +91 98400 09118, 20 <br> <br>
+						Chennai - 600020,<br> India.<br> <br> Phone : +91 98400 09118, 20 <br> <br>
 						Mail : info@mmrf.in<br> Website : www.mmrf.in
 					</address>
 				</div>

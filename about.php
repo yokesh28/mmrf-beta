@@ -56,13 +56,13 @@
 						</h4>
 						<p >The top-notch names of the Real Estate sector have
 							joined hands to create and bestow an exceptional projects with
-							unparalleled quality. MMRF is a collaboraive endeavor of four
+							unparalleled quality. MMRF is a collaborative endeavor of four
 							leading Real Estate Developers; Mayflower Enterprises Private
 							Limited, Mount Housing &amp; Infrastructure Limited, Ramani
 							Realtors Private Limited &amp; Fairyland Foundations Private
 							Limited. MMRF with its team of experts further aims to develop
 							ambience based Residential Flats, and commercial units at
-							strategically chosen locations. this extraordinary amalgamatin of
+							strategically chosen locations. This extraordinary amalgamatin of
 							dedicated and esteemed Real Estate Developers ensures of a larger
 							than life dwelling in each of their project which will surpass
 							the expectaions of a high-end living.</p>
