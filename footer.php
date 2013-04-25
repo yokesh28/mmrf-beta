@@ -28,7 +28,7 @@
 					<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
 					<div class="span3 addborder">
 						New no. 21, Old no.8, 1st Avenue,<br>Indra Nagar, Adyar,<br>
-						Chennai - 600020.
+						Chennai - 600020,<br>India.
 					</div>
 					<div class="span3 ph">
 						<ul>
