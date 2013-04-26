@@ -67,12 +67,21 @@
 		<div class="hidden-desktop tab-menu">
 			<span class="active on">On Going</span> <span class="up">Up Coming</span>
 		</div>
+		
+		 <div id="tab-container">
+      <ul>
+         
+         <li><a href="#">Html</a></li>
+         <li><a href="#">CSS</a></li>
+         </ul>
+         </div>
 
 		<div class="im">
-
+		
+                 
 			<div class="middle1 span12" style="right: -100%;" id="ongoing">
 
-				<div class="position1 ">
+				<div class="position1">
 					<div class="building pull-left visible-desktop ">
 						<img src="img/sai.jpg" class="img-polaroid">
 					</div>
@@ -1019,12 +1028,29 @@
 
 
 	<script type="text/javascript" src="js/jquery.pfold.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function () {
+   var location = window.location;
+   var found = false;
+   $("#tab-container a").each(function(){
+      var href = $(this).attr("href");
+      if(href==location){
+         $(this).parent().addClass("selected");
+         found = true;
+      }
+   });
+   if(!found){
+      $("#tab-container li:first").addClass("selected");
+   }
+});
+	</script>
 	<script type="text/javascript">
 			$(function() {
 				
 
                
-				$('#ongoing').animate({"right":"12%",opacity:1},500);
+				$('#ongoing').animate({"right":"0%",opacity:1},500);
 
 				  $(".ongoing").click(function() {
 					  $('.middle1').animate({"right":"-100%",opacity:0},500);
