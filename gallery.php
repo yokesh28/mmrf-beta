@@ -104,11 +104,7 @@
 								class="img-polaroid">
 						</a>
 						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/glarge14.JPG"> <img
-								src="images/gal/gsmall14.JPG" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
+						
 						<li class="span3"><a class="fancybox" href="images/gal/large8.JPG"> <img
 								src="images/gal/gsmall8.JPG" width="300" height="300"
 								class="img-polaroid">
