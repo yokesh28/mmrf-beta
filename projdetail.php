@@ -84,7 +84,7 @@
 
 				<div class="position1">
 					<div class="building pull-left visible-desktop ">
-						<img src="img/sai.jpg" class="img-polaroid">
+						<img src="images/images/building.png" class="img-polaroid">
 					</div>
 
 					<div class="textright enclave pull-left" style="cursor: pointer;">
