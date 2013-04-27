@@ -1,6 +1,8 @@
 <!DOCTYPE html >
 <html>
 <head>
+
+<link rel="shortcut icon" type="image/x-icon" href="fav/mmrf.ico">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta charset="UTF-8" />
 
