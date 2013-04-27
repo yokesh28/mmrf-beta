@@ -204,7 +204,48 @@ cursor: pointer;
 line-height: 0.9em;
 
 }*/
-
+#tab-container
+{
+   float: left;
+   margin: 50px 0 0 0;
+   width: 126px;
+}
+#tab-container ul
+{
+   list-style: none;
+   text-align: center;
+}
+#tab-container ul li
+{
+   border-top: 1px solid #666;
+   border-right: 1px solid #666;
+   border-bottom: 1px solid #666;
+   border-left: 8px solid #666;
+   background-color: #ddd;
+   margin: 8px 0;
+}
+#tab-container ul li a,
+#tab-container ul li a:visited
+{
+   text-decoration: none;
+   color: #666;
+   display: block;
+   padding: 15px 5px;
+}
+#tab-container ul li:hover
+{
+   border-left: 8px solid #333;
+}
+#tab-container ul li a:hover
+{
+   color: #000;
+}
+#tab-container ul li.selected
+{
+   border-right: none;
+   background-color: #fff;
+   border-left: 8px solid #006699;
+}
 
 
 .building1 {
@@ -368,6 +409,7 @@ line-height: 0.9em;
 #menu a {
 	cursor: pointer;
 	color: black;
+	font-weight: bold;
 }
 
 #menu img {
@@ -451,7 +493,7 @@ line-height: 0.9em;
 	margin-top: 22px !important;
 	margin-bottom: 22px !important;
 	border-right: 1px solid white;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .navbar .container li:last-child a {
@@ -1566,6 +1608,9 @@ blockquote {
 	height: 100%;
 	-webkit-filter: blur(1px);
 	opacity: 1;
+}
+#lz_overlay_chat{
+	z-index: 999999999 !important;
 }
 /*#overlay_form{
 position: absolute;

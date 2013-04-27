@@ -24,21 +24,21 @@
 
 				<h4>Contact Info</h4>
 				<address>
-				<div class="fcontentborder">
-					<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
-					<div class="span3 addborder">
-						New no. 21, Old no.8, 1st Avenue,<br>Indra Nagar, Adyar,<br>
-						Chennai - 600020,<br>India.
-					</div>
-					<div class="span3 ph">
-						<ul>
-							<li><label>Phone :</label> + 91 44 43551600<br> + 91 44 24400523</li>
+					<div class="fcontentborder">
+						<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
+						<div class="span3 addborder">
+							New no. 21, Old no.8, 1st Avenue,<br>Indra Nagar, Adyar,<br>
+							Chennai - 600020,<br>India.
+						</div>
+						<div class="span3 ph">
+							<ul>
+								<li><label>Phone :</label> + 91 44 43551600<br> + 91 44 24400523</li>
 
-							<li><label>Mail :</label><label> info@mmrf.in</label></li>
-							
-						</ul>
+								<li><label>Mail :</label><label> info@mmrf.in</label></li>
 
-					</div>
+							</ul>
+
+						</div>
 					</div>
 				</address>
 
@@ -48,15 +48,15 @@
 			</div>
 
 			<div id="fcontentbloc3" class="fcontent span4">
-              <div class="fcontentborder1">
-				<div class="mprojects">
-					<a href="saienclave/" data-toggle="modal" target="_blank"><h5>
-							<img src="images/sailogo.png">&nbsp; MMRF- SAIENCLAVE
-						</h5> </a> <a href="vistaoceana/" data-toggle="modal"
-						target="_blank"><h5>
-							<img src="images/vistalogo.png">&nbsp; MMRF- VISTAOCEANA
-						</h5> </a>
-				</div>
+				<div class="fcontentborder1">
+					<div class="mprojects">
+						<a href="saienclave/" data-toggle="modal" target="_blank"><h5>
+								<img src="images/sailogo.png">&nbsp; MMRF- SAIENCLAVE
+							</h5> </a> <a href="vistaoceana/" data-toggle="modal"
+							target="_blank"><h5>
+								<img src="images/vistalogo.png">&nbsp; MMRF- VISTAOCEANA
+							</h5> </a>
+					</div>
 				</div>
 			</div>
 			<div id="fcontentbloc1" class="fcontent span2">
@@ -67,11 +67,11 @@
 						</h5> </a>
 				</div>
 				<div class="emiloan">
-					<h5>
-						Designed by:</h5> <a href="http://s-creative.me"
-							target="_blank" class="desined">
-							<div class="screative">S-Creative</div> </a>
-					
+					<h5>Designed by:</h5>
+					<a href="http://s-creative.me" target="_blank" class="desined">
+						<div class="screative">S-Creative</div>
+					</a>
+
 				</div>
 			</div>
 
@@ -147,7 +147,7 @@
 		</div>
 	</div>
 
-	<span class="copyright">Copyright © 2013. S-Creative. All Rights
+	<span class="copyright">Copyright ï¿½ 2013. S-Creative. All Rights
 		Reserved</span>
 
 </footer>
@@ -223,3 +223,13 @@
 				return false;
 			}
 			</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39668573-2', 'mmrf.in');
+  ga('send', 'pageview');
+
+</script>
