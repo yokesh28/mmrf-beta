@@ -1567,6 +1567,9 @@ blockquote {
 	-webkit-filter: blur(1px);
 	opacity: 1;
 }
+#lz_overlay_chat{
+	z-index: 999999999 !important;
+}
 /*#overlay_form{
 position: absolute;
 

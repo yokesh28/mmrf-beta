@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html >
 <html lang="en">
 <head>
@@ -74,17 +77,19 @@
 		<div id="welcomemmrf" class=" span6">
 
 			<h2>Welcome to MMRF</h2>
-			<p>A real estate conglomerate created by the coming together of 4 of
+			<p>
+				A real estate conglomerate created by the coming together of 4 of
 				Coimbatore's most renowned construction giants.<br>
-				MayflowerEnterprises, Mount Housing & Infrastructure, Ramani Realtors &
-				Fairyland Foundations. MMRF is a seamless blend of several decades
-				of profound expertise and valuable experience in the construction
-				and real estate domain. MMRF aims to create world-class spaces that
-				continually set new benchmarks and exceed expectations in every way.
-				What will elevate the goodwill of MMRF is its strong value system,
-				unparalleled quality standards and the keen attention to finer
-				details that will ensure every project stands out and adds greater
-				value to life in so many ways.</p>
+				MayflowerEnterprises, Mount Housing & Infrastructure, Ramani
+				Realtors & Fairyland Foundations. MMRF is a seamless blend of
+				several decades of profound expertise and valuable experience in the
+				construction and real estate domain. MMRF aims to create world-class
+				spaces that continually set new benchmarks and exceed expectations
+				in every way. What will elevate the goodwill of MMRF is its strong
+				value system, unparalleled quality standards and the keen attention
+				to finer details that will ensure every project stands out and adds
+				greater value to life in so many ways.
+			</p>
 		</div>
 
 
@@ -97,11 +102,9 @@
 
 	<div class="scrolldown">
 
-		<div id="scrollTeaser-down1" class="scrollTeaser-fleche"
-			></div>
+		<div id="scrollTeaser-down1" class="scrollTeaser-fleche"></div>
 
-		<div id="scrollTeaser-down2" class="scrollTeaser-fleche"
-			></div>
+		<div id="scrollTeaser-down2" class="scrollTeaser-fleche"></div>
 		<div id="scrollTeaser-down3" class="scrollTeaser-fleche"></div>
 	</div>
 
@@ -171,9 +174,16 @@
 	  
 </script>
 
-
-
-
+	<!-- LiveZilla Tracking Code (ALWAYS PLACE IN BODY ELEMENT) -->
+	<div id="livezilla_tracking" style="display: none"></div>
+	<script type="text/javascript">
+var script = document.createElement("script");script.async=true;script.type="text/javascript";var src = "http://www.mmrf.in/chat/server.php?acid=a622a&request=track&output=jcrpt&ovlp=MjI_&ovlc=I2M0MDAwMA__&ovlct=I2ZmZmZmZg__&ovlt=TGl2ZSBIZWxwIChTdGFydCBDaGF0KQ__&ovlto=TGl2ZSBIZWxwIChMZWF2ZSBNZXNzYWdlKQ__&ovls=MQ__&nse="+Math.random();setTimeout("script.src=src;document.getElementById('livezilla_tracking').appendChild(script)",1);</script>
+	<noscript>
+		<img
+			src="http://www.mmrf.in/chat/server.php?acid=a622a&amp;request=track&amp;output=nojcrpt&amp;ovlp=MjI_&amp;ovlc=I2M0MDAwMA__&amp;ovlct=I2ZmZmZmZg__&amp;ovlt=TGl2ZSBIZWxwIChTdGFydCBDaGF0KQ__&amp;ovlto=TGl2ZSBIZWxwIChMZWF2ZSBNZXNzYWdlKQ__&amp;ovls=MQ__"
+			width="0" height="0" style="visibility: hidden;" alt="">
+	</noscript>
+	<!-- http://www.LiveZilla.net Tracking Code -->
 
 </body>
 </html>
