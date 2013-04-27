@@ -5,6 +5,7 @@
 <html lang="en">
 <head>
 <title>mmrf</title>
+<link rel="shortcut icon" type="image/x-icon" href="fav/mmrf.ico">
 <meta name="description" content="Real Estate Site">
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
