@@ -1659,6 +1659,43 @@ left: 77px;
 
 /*padur css*/
 
+
+
+/*New*/
+.imagess{
+	top:35%;
+}
+
+body{
+	background:black;
+}
+
+
+
+
+
+
+
+
+
+
+.right{
+
+padding-bottom:39px;
+
+}
+
+/**/
+
+
+
+
+
+
+
+
+
+
 /*upcoming project*/
 #ottiyam .grid {
 	
@@ -1747,3 +1784,7 @@ left: 77px;
 }
 
 /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+
+
+
