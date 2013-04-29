@@ -24,10 +24,10 @@
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-<link href="css/res.css" rel="stylesheet">
+
 <link href="css/style1.css" rel="stylesheet">
 <link href="css/project.css" rel="stylesheet">
-
+<link href="css/res.css" rel="stylesheet">
 <script src="js/jquery.queryloader2.js"></script>
 
 <script src="js/jsscript.js"></script>
@@ -93,7 +93,7 @@
 						<img src="images/images/build.gif" class="img-polaroid">
 					</div>
 
-					<div class="textright enclave pull-left" style="cursor: pointer;">
+					<div class="textright1 enclave pull-left" style="cursor: pointer;">
 						<img src="images/sai1.jpg" class="img-polaroid">
 
 					</div>
@@ -101,7 +101,7 @@
 
 				</div>
 				<div class="center1 ">
-					<div class="textleft padur pull-left" style="cursor: pointer;">
+					<div class="textleft1 padur pull-left" style="cursor: pointer;">
 						<img src="images/pud1.jpg" class="img-polaroid">
 
 					</div>
@@ -117,7 +117,7 @@
 						<img src="img/padur.jpg" class="img-polaroid">
 					</div>
 
-					<div class="textright ottiyam pull-left " style="cursor: pointer;">
+					<div class="textright22 ottiyam pull-left " style="cursor: pointer;">
 						<img src="images/otti.jpg" class="img-polaroid">
 
 					</div>
