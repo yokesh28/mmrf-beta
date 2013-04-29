@@ -21,12 +21,12 @@
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
 <!-- Bootstrap -->
-<link href="css/res.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
+<link href="css/res.css" rel="stylesheet">
 <link rel="stylesheet" href="css/easy-fancybox.css">
 
 
