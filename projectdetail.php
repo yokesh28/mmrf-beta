@@ -13,7 +13,7 @@
 
 
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
-<link rel="stylesheet" type="text/css" href="css/pfold.css" />
+
 <link rel="stylesheet" type="text/css" href="css/custom2.css" />
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -24,9 +24,6 @@
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-<link href="css/res.css" rel="stylesheet">
-<link href="css/style1.css" rel="stylesheet">
-
 
 <script src="js/jquery.queryloader2.js"></script>
 
@@ -58,8 +55,35 @@
 <![endif]-->
 </head>
 <body>
-	<div class="slide1 row-fluid">
 
+
+<?php include 'header.php';?>
+	
 		
-		<?php include 'header.php';?>
+		<div class="container  imagess">
+		<div class="span3">
+		
 		</div>
+		<div class="row-fluid">
+		<div class="white span7">
+        <div class="span6 hidden-phone build">
+        <img  src="images/images/building.png">
+        </div>
+        <div class="span6">
+        <img class="right" src="images/sai1.jpg" >
+        </div>   
+        
+          
+          
+      
+
+        <div class="span6 hidden-phone left">
+          <img src="img/pad.jpg" ></div>
+          <div class="span6 boottom">  <img src="images/pud1.jpg" ></div>
+          </div> 
+         
+      </div>
+		
+	</body>
+	</html>	
+		

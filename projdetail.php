@@ -1009,7 +1009,7 @@
 
 
 	<div class="position visible-desktop">
-		<img src="images/l-slide.png">
+		
 
 		<div class="ongoing">
 			<p>Ongoing</p>
@@ -1051,7 +1051,9 @@
 				
 
                
+
 				$('#ongoing').animate({"right":"12%",opacity:1},500);
+
 
 				  $(".ongoing").click(function() {
 					  $('.middle1').animate({"right":"-100%",opacity:0},500);
