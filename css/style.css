@@ -372,11 +372,11 @@ line-height: 0.9em;
 
 .ongoing {
 	background-color: white;
-	background: url(../images/images/on.png) 0 0 no-repeat;
+	background: url(../images/images/button1.png) 0 0 no-repeat;
 	position: absolute;
-	top: 30%;
-	opacity: 0.7;
-	left: 30%;
+	top: 23%;
+	
+	left: 114px;
 	height: 42px;
 	width: 80%;
 	cursor: pointer;
@@ -384,11 +384,11 @@ line-height: 0.9em;
 
 .upcoming {
 	background-color: white;
-	background: url(../images/images/on.png) 0 0 no-repeat;
+	background: url(../images/images/button2.png) 0 0 no-repeat;
 	position: absolute;
-	top: 40%;
-	opacity: 0.7;
-	left: 40%;
+	top: 32%;
+	
+	left: 114px;
 	height: 42px;
 	width: 80%;
 	cursor: pointer;
