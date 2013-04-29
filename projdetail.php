@@ -2,6 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd" >
 <html lang="en">
 <head>
+<link rel="shortcut icon" type="image/x-icon" href="fav/mmrf.ico">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -83,7 +84,7 @@
 
 				<div class="position1">
 					<div class="building pull-left visible-desktop ">
-						<img src="img/sai.jpg" class="img-polaroid">
+						<img src="images/images/build.gif" class="img-polaroid">
 					</div>
 
 					<div class="textright enclave pull-left" style="cursor: pointer;">
@@ -1008,7 +1009,7 @@
 
 
 	<div class="position visible-desktop">
-		<img src="images/l-slide.png">
+		
 
 		<div class="ongoing">
 			<p>Ongoing</p>
@@ -1050,7 +1051,9 @@
 				
 
                
-				$('#ongoing').animate({"right":"0%",opacity:1},500);
+
+				$('#ongoing').animate({"right":"12%",opacity:1},500);
+
 
 				  $(".ongoing").click(function() {
 					  $('.middle1').animate({"right":"-100%",opacity:0},500);

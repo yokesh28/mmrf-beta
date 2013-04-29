@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta charset="UTF-8" />
-
+<link rel="shortcut icon" type="image/x-icon" href="fav/mmrf.ico">
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
@@ -72,20 +72,35 @@
 
 				<div class=" span12">
 					<ul>
-						<li class="span3"><a class="fancybox" href="saienclave.pdf"
+					<li class="span3"><a class="fancybox" href="saienclave.pdf"
 							target="_blank"> <img src="img/pdf1.png" class="img-polaroid"><span><h5>SaiEnclave
 										(10/4/2013)</h5> </span>
 						</a></li>
-
-						<li class="span3"><a class="fancybox"
-							href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWT_MDe9CpU "
-							target="_blank"> <img src="img/pdf2.png" height="300px"
-								class="img-polaroid"><span><h5>Chennai media (11/4/2013)</h5> </span>
+					<li class="span3"><a class="fancybox" href="http://www.thehindubusinessline.com/industry-and-economy/real-estate/consortium-of-developers-launches-2-projects-in-chennai/article4610003.ece" target="_blank">
+								<img src="img/hindu.jpg" width="300px" height="300px"
+								class="img-polaroid"><span><h5>The Hindu (12/4/2013)</h5> </span>
 						</a></li>
-
-
-
-
+						<li class="span3"><a class="fancybox" href="img/city.jpg">
+								<img src="img/city.jpg" width="300px" height="300px"
+								class="img-polaroid"><span><h5>City Express (27/4/2013)</h5> </span>
+						</a></li>
+					<li class="span3"><a class="fancybox" href="img/images/deccan.jpg">
+								<img src="img/images/1.jpg" width="300px" height="300px"
+								class="img-polaroid"><span><h5>Deccan Chronicle (12/4/2013)</h5> </span>
+						</a></li>
+						<li class="span3"><a class="fancybox"
+							href="img/images/trinity.jpg"> <img src="img/images/4.jpg"
+								class="img-polaroid"><span><h5>Trinity Mirror(12/4/2013)</h5> </span>
+						</a></li>
+						<li class="span3"><a class="fancybox" href="http://constructionworld.in/News.aspx?nId=K4dQ+pbDf+ddkpXnoMmmiw==&NewsType=Developers%27-JV-launches-2-projects-in-Chennai-India-Sector" target="_blank">
+								<img src="img/construction.jpg" width="300px" height="300px"
+								class="img-polaroid"><span><h5>Construction World (April/2013)</h5> </span>
+						</a></li>
+						<li class="span3"><a class="fancybox" href="http://www.track2realty.com/mmrf-realty-infrastructure-launches-two-residential-projects-in-chennai" target="_blank">
+								<img src="img/track.jpg" width="300px" height="300px"
+								class="img-polaroid"><span><h5>Track2Reality (25/4/2013)</h5> </span>
+						</a></li>
+						
 						<li class="span3"><a class="fancybox"
 							href="http://property.sulekha.com/mmrf-realty-infrastructure-launches-two-prestigious-residential-projects-in-chennai_601343_blog "
 							target="_blank"> <img src="img/pdf3.png" class="img-polaroid"><span><h5>Sulekha
@@ -102,14 +117,20 @@
 						</a></li>
 
 						<li class="span3"><a class="fancybox"
+							href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWT_MDe9CpU "
+							target="_blank"> <img src="img/pdf2.png" height="300px"
+								class="img-polaroid"><span><h5>Chennai media (11/4/2013)</h5> </span>
+						</a></li>
+
+			
+												
+
+						<li class="span3"><a class="fancybox"
 							href="http://chennaivideo.com/newsdetails/2164/Sai-Enclave-and-Vista-Oceana-of-MMRF-Realty-and-Infrastructure#.UWUbkqJHLe4"
 							target="_blank"> <img src="img/pdf6.png" class="img-polaroid"><span><h5>Chennai video (12/4/2013)</h5> </span>
 						</a></li>
 
-						<li class="span3"><a class="fancybox" href="img/images/deccan.jpg">
-								<img src="img/images/1.jpg" width="300px" height="300px"
-								class="img-polaroid"><span><h5>Deccan Chronicle (12/4/2013)</h5> </span>
-						</a></li>
+						
 
 						<li class="span3"><a class="fancybox" href="img/images/makkal.jpg">
 								<img src="img/images/6.jpg" class="img-polaroid"><span><h5> Makkal Kural (12/4/2013)</h5> </span>
@@ -117,10 +138,7 @@
 						<li class="span3"><a class="fancybox" href="img/images/kathir.jpg">
 								<img src="img/images/3.jpg" class="img-polaroid"><span><h5>Dina Bhoomi (12/4/2013)</h5> </span>
 						</a></li>
-						<li class="span3"><a class="fancybox"
-							href="img/images/trinity.jpg"> <img src="img/images/4.jpg"
-								class="img-polaroid"><span><h5>Trinity Mirror(12/4/2013)</h5> </span>
-						</a></li>
+						
 
 					</ul>
 
