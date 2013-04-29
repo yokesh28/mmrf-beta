@@ -1038,8 +1038,9 @@ line-height: 0.9em;
 
 .down {
 	position: absolute;
-	right: -36px;
+	right: 0px;
 	top: 200px;
+	width:240px;
 }
 
 .enquiry textarea {
