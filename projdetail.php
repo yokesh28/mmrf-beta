@@ -1056,7 +1056,9 @@
 				
 
                
-				$('#ongoing').animate({"right":"18%",opacity:1},500);
+
+				$('#ongoing').animate({"right":"12%",opacity:1},500);
+
 
 				  $(".ongoing").click(function() {
 					  $('.middle1').animate({"right":"-100%",opacity:0},500);

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://mmrf.in/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/index.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/projdetail.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/about.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/gallery.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/media.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/contact.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/saienclave/</loc>
+  <lastmod>2013-04-27T07:28:59+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/vistaoceana/</loc>
+  <lastmod>2013-04-27T07:27:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/saienclave.pdf</loc>
+  <lastmod>2013-04-27T07:26:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/Vista%20Oceana%20Brochure.pdf</loc>
+  <lastmod>2013-04-27T07:28:52+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/saienclave/index.html</loc>
+  <lastmod>2013-04-27T07:28:59+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/saienclave/pdf/saienclave.pdf</loc>
+  <lastmod>2013-04-27T07:31:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://mmrf.in/vistaoceana/pdf/vistaoceanabrochure.pdf</loc>
+  <lastmod>2013-04-27T07:31:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
