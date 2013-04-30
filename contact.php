@@ -22,7 +22,7 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
-<link rel="stylesheet" href="css/easy-fancybox.css">
+
 <script src="js/jquery.queryloader2.js"></script>
 
 <script src="js/jsscript.js"></script>
@@ -300,20 +300,7 @@ return false;
 
 
 
-		<script type="text/javascript">
-/* <![CDATA[ */
-jQuery(document).ready(function($){
-var fb_timeout = null;
-var fb_opts = { 'overlayShow' : true, 'centerOnScroll' : true, 'showCloseButton' : true, 'showNavArrows' : true, 'onCleanup' : function() { if(fb_timeout) { window.clearTimeout(fb_timeout); fb_timeout = null; } } };
-/* IMG */
-var fb_IMG_select = 'a[href$=".jpg"]:not(.nofancybox),a[href$=".JPG"]:not(.nofancybox),a[href$=".gif"]:not(.nofancybox),a[href$=".GIF"]:not(.nofancybox),a[href$=".png"]:not(.nofancybox),a[href$=".PNG"]:not(.nofancybox)';
-$(fb_IMG_select).addClass('fancybox').attr('rel', 'gallery');
-$('a.fancybox, area.fancybox').fancybox( $.extend({}, fb_opts, { 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true }) );
-/* Auto-click */ 
-$('#fancybox-auto').trigger('click');
-});
-/* ]]> */
-</script>
+
 	</div>
 
 </body>

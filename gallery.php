@@ -60,8 +60,8 @@
 	<img src="images/2.jpg" width="100%" height="100%"
 		class="backimage back">
 	<?php include 'header.php';?>
-	<div class="container" style="position: relative;">
-		<div class="row-fluid ">
+	<div class="container1" style="position: relative;">
+		<div class="row">
 			<div class="gallery">
 
 
