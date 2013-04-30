@@ -1521,11 +1521,8 @@ footer nav  .header {
 	
 	position: relative;
 }
-.span3 img{
-	
-	height:300px !important;
-	}
-.span3{
+
+.mediapage .span3{
 	
 	width:270px !important;
 	
@@ -1574,6 +1571,7 @@ blockquote {
 .fancybox img {
 	float: left;
 margin-bottom:15px;
+height:230px;
 }
 
  
