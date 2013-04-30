@@ -184,10 +184,11 @@ body {
 .building {
 	background: white;
 	padding: 0px;
-	margin: 15px;
+	margin: 54px 28px;
 	width: 324px;
 	height: 200px;
-	margin-top: 26px;
+	margin-bottom: 20px;
+
 }
 
 

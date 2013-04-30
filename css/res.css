@@ -4,38 +4,24 @@
 	.middle1 {
 		width: 780px !important;
 	}
-	
-	.ong{
-	left: 127px !important;
+	.ong {
+		left: 127px !important;
 	}
-	
-	.upc{
-	left: 127px !important;
+	.upc {
+		left: 127px !important;
 	}
-	
 	.building1 {
-background: white;
-position: absolute;
-top: 38%;
-left: 31%;}
-
-
-.textright1 {
-width: 100%;
-position: absolute;
-top: 8%;
-left: 33%;
-}
-
-.textleft1 {
-width: 100%;
-height: 100%;
-left: 3%;
-top: 43%;
-font-size: 30px;
-position: absolute;
-}
-	
+		background: white;
+		position: absolute;
+		top: 38%;
+		left: 31%;
+	}
+	.textright1 {
+		margin: 50px 34px;
+	}
+	.textleft1 {
+		margin: 10px 48px;
+	}
 }
 
 @media ( min-width : 980px) and (max-width: 1200px) {
@@ -45,63 +31,41 @@ position: absolute;
 	.im .middle1 {
 		width: 77% !important;
 	}
-	
-	.ong{
-	position: absolute;
-top: 15%;
-left: 383px;
-}
-
-.upc{
-	position: absolute;
-top: 15%;
-left:620px;
-}
-
-.center {
-
-top: 27%;
-left: 17%;
-position: absolute;}
-	
-	
-.center1 {
-
-top: 27%;
-left: 17%;
-position: absolute;}	
-	
-.textright1 {
-width: 100%;
-position: absolute;
-top: 8%;
-left: 40%;
-}
-
-
-.textright22 {
-width: 100%;
-position: absolute;
-top: 8%;
-left:39%;
-}
-
-.textleft1 {
-
-left: 3%;
-top: 46%;
-font-size: 30px;
-position: absolute;
-}
- 
-.building1 {
-background: white;
-position: absolute;
-top: 40%;
-left:39%;
-}
-
-	
+	.ong {
+		position: absolute;
+		top: 15%;
+		left: 383px;
+	}
+	.upc {
+		position: absolute;
+		top: 15%;
+		left: 620px;
+	}
+	.center {
+		top: 27%;
+		left: 17%;
+		position: absolute;
+	}
+	.center1 {
+		top: 27%;
+		left: 17%;
+		position: absolute;
+	}
+	.textright1 {
+		margin: 48px 35px;
+	}
+	.textright22 {
+		
+	}
+	.textleft1 {
+		margin: 15px 60px;
+	}
+	.building1 {
+		background: white;
+		position: absolute;
+		top: 40%;
+		left: 39%;
+	}
 }
 /* Portrait tablet to landscape and desktop */
 @media ( min-width : 768px) and (max-width: 979px) {
@@ -193,56 +157,41 @@ left:39%;
 		opacity: 0;
 	}
 	#welcomemmrf {
-	top:30%;
-	overflow-y:hidden;
-	width:650px;
-	left:12%;
+		top: 30%;
+		overflow-y: hidden;
+		width: 650px;
+		left: 12%;
 	}
-
- .ongoing{
-   top: 23%;
-left:84px;
-   }
-
-
-
-.upcoming{
-   top:39%;
-left: 84px;
-   }
-  .center{
-	background:none;
-	width: 97%;
-height: 99%;
-margin-top: 65px;
-}
-
-.center1{
-background:none;
-margin-top:40px;
-
-}
-.textright22 {
-width: 100%;
-position: absolute;
-top: 8%;
-left: 7%;
-}
-
-	 
-.textright1 {
-width: 100%;
-position: absolute;
-top: 8%;
-left: 8%;
-}
-.textleft1 {
-width: 100%;
-height: 100%;
-left: 8%;
-top: 25%;
-}
-
+	.ongoing {
+		top: 23%;
+		left: 84px;
+	}
+	.upcoming {
+		top: 39%;
+		left: 84px;
+	}
+	.center {
+		background: none;
+		width: 36%; height : 100%;
+		margin-top: 120px;
+		height: 100%;
+	}
+	.center1 {
+		background: none;
+		margin-top: 40px;
+	}
+	.textright22 {
+		width: 100%;
+		position: absolute;
+		top: 8%;
+		left: 7%;
+	}
+	.textright1 {
+		margin: 12px 0px;
+	}
+	.textleft1 {
+		
+	}
 }
 
 /* Landscape phone to portrait tablet */
@@ -250,8 +199,7 @@ top: 25%;
 	body {
 		padding: 0px !important;
 		margin: 0px !important;
-		height:auto !important;
-		
+		height: auto !important;
 	}
 	header {
 		position: absolute;
@@ -317,116 +265,93 @@ top: 25%;
 		background: red;
 		color: white;
 	}
-	
-	
 	#welcomemmrf {
-	left: 5%;
-width: 500px;
-overflow-y: hidden;
-	
-	}	
-	
-.center{
-background:none;
+		left: 5%;
+		width: 500px;
+		overflow-y: hidden;
+	}
+	.center {
+		background: none;
+		height: 100%;
+		width: 100%;
+		top: 15%;
+		left: 25%;
+		position: absolute;
+	}
+	.center1 {
+		background: none;
+	}
+	.textright1 {
+		width: 100%;
+		position: absolute;
+		margin-top: 250px;
+		left: 3%;
+	}
+	.textleft1 {
+		width: 100%;
+		height: 100%;
+		left: 3%;
+		margin-top: 450px;
+		font-size: 30px;
+		position: absolute;
+	}
+	.textright22 {
+		width: 100%;
+		position: absolute;
+		left: 1%;
+		margin-top: 228px;
+	}
 }
-
-.center1{
-background:none;
-}
-.textright1 {
-width: 100%;
-position: absolute;
-margin-top:250px;
-left: 3%;
-}
-
-.textleft1 {
-width: 100%;
-height: 100%;
-left: 3%;
-margin-top:450px;
-font-size: 30px;
-position: absolute;
-
-}
-
-.textright22{
-	
-width: 100%;
-position: absolute;
-left: 1%;
-margin-top: 228px;
-}
-	
-}
-
 
 /* Landscape phones and down */
 @media ( max-width : 448px) {
-.textleft1 {
-width: 100%;
-height: 100%;
-left: 24%;
-top: 364px;
-font-size: 30px;
-position: absolute;
-
+	.textleft1 {
+		width: 100%;
+		height: 100%;
+		left: 24%;
+		top: 364px;
+		font-size: 30px;
+		position: absolute;
+	}
+	.textright1 {
+		width: 100%;
+		position: absolute;
+		top: 95%;
+		left: 3%;
+	}
 }
-
-.textright1 {
-width: 100%;
-position: absolute;
-top: 95%;
-left: 3%;
-}
-
-}
-
-
-
-
-
-
-
-
 
 /* Landscape phones and down */
 @media ( max-width : 510px) {
-#welcomemmrf {
-	left: 9%;
-width:86%;
-overflow-y: hidden;
-	
-	}	
-
+	#welcomemmrf {
+		left: 9%;
+		width: 86%;
+		overflow-y: hidden;
+	}
 }
 
 /* Landscape phones and down */
 @media ( max-width : 480px) {
 	.textleft1 {
-width: 100%;
-left: -22%;
-margin-top:105px;
-font-size: 30px;
-position: absolute;
-
-}
-
-.textright1 {
-width: 100%;
-position: absolute;
-top: 95%;
-left: -22%;
-}
-.textright22{
-position: absolute;
-top: 9%;
-left: -25%;
-width:100%;
-height:100%;
-}
-
-
+		width: 100%;
+		left: -22%;
+		margin-top: 105px;
+		font-size: 30px;
+		position: absolute;
+	}
+	.textright1 {
+		width: 100%;
+		position: absolute;
+		top: 95%;
+		left: -22%;
+	}
+	.textright22 {
+		position: absolute;
+		top: 9%;
+		left: -25%;
+		width: 100%;
+		height: 100%;
+	}
 	.im {
 		position: static;
 		margin: 0 auto;
@@ -489,7 +414,4 @@ height:100%;
 		background: red;
 		color: white;
 	}
-	
-	
-	
 }

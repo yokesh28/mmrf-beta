@@ -80,7 +80,7 @@
 
 
 		<div class="center">
-			<div class="visible-desktop ">
+			<div class="visible-desktop building">
 				<img src="images/images/build.gif" class="img-polaroid">
 			</div>
 
