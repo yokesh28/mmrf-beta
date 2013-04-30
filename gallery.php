@@ -12,7 +12,7 @@
 
 
 
-<link href="css/res.css" rel="stylesheet">
+
 <link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
 
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -20,7 +20,7 @@
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
-
+<link href="css/res.css" rel="stylesheet">
 <script src="js/bootstrap.min.js"></script>
 
 
@@ -66,75 +66,79 @@
 
 
 				<div class=" span12">
-					<ul>
+					<ul class="sizing">
 					
-					 <li class="span3"><a class="fancybox" href="images/gal/large1.JPG"> <img
-								src="images/gal/gsmall1.JPG" width="300" height="300"
+					 <li class="span3"><a class="fancybox" href="images/gal/large1.jpg"> <img
+								src="images/gal/gsmall1.jpg" width="300" height="300"
 								class="img-polaroid">
 						</a>
 						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/large6.JPG"> <img
-								src="images/gal/gsmall6.JPG" width="300" height="300"
+						<li class="span3"><a class="fancybox" href="images/gal/large6.jpg"> <img
+								src="images/gal/gsmall6.jpg" width="300" height="300"
 								class="img-polaroid">
 						</a>
 						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/large7.JPG"> <img
-								src="images/gal/gsmall7.JPG" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
-						
-						<li class="span3"><a class="fancybox" href="images/gal/large2.JPG"> <img
-								src="images/gal/gsmall2.JPG" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/ga1.JPG"> <img
-								src="images/ga1.JPG" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/ga2.JPG"> <img
-								src="images/ga2.JPG" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/glarge13.JPG"> <img
-								src="images/gal/gsmall13.JPG" width="300" height="300"
+						<li class="span3"><a class="fancybox" href="images/gal/large7.jpg"> <img
+								src="images/gal/gsmall7.jpg" width="300" height="300"
 								class="img-polaroid">
 						</a>
 						</li>
 						
-						<li class="span3"><a class="fancybox" href="images/gal/large8.JPG"> <img
-								src="images/gal/gsmall8.JPG" width="300" height="300"
+						<li class="span3"><a class="fancybox" href="images/gal/large2.jpg"> <img
+								src="images/gal/gsmall2.jpg" width="300" height="300"
+								class="img-polaroid">
+						</a>
+						</li>
+						<li class="span3"><a class="fancybox" href="images/ga1.jpg"> <img
+								src="images/ga1.jpg" width="300" height="300"
+								class="img-polaroid">
+						</a>
+						</li>
+						<li class="span3"><a class="fancybox" href="images/ga2.jpg"> <img
+								src="images/ga2.jpg" width="300" height="300"
+								class="img-polaroid">
+						</a>
+						</li>
+						<li class="span3"><a class="fancybox" href="images/gal/glarge13.jpg"> <img
+								src="images/gal/gsmall13.jpg" width="300" height="300"
 								class="img-polaroid">
 						</a>
 						</li>
 						
-						<li class="span3"><a class="fancybox" href="images/gal/large3.JPG"> <img
-								src="images/gal/gsmall3.JPG" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li><br><br>
-						<li class="span3"><a class="fancybox" href="images/gal/large4.JPG"> <img
-								src="images/gal/gsmall4.JPG" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/large5.JPG"> <img
-								src="images/gal/gsmall5.JPG" width="300" height="300"
+						
+						
+						<li class="span3"><a class="fancybox" href="images/gal/glarge8.jpg"> <img
+								src="images/gal/gsmall8.jpg" width="300" height="300"
 								class="img-polaroid">
 						</a>
 						</li>
 						
-						<li class="span3"><a class="fancybox" href="images/gal/large10.JPG"> <img
-								src="images/gal/gsmall10.JPG" width="300" height="300"
+						
+							
+						<li class="span3"><a class="fancybox" href="images/gal/large3.jpg"> <img
+								src="images/gal/gsmall3.jpg" width="300" height="300"
+								class="img-polaroid">
+						</a>
+						</li>
+						<li class="span3"><a class="fancybox" href="images/gal/large4.jpg"> <img
+								src="images/gal/gsmall4.jpg" width="300" height="300"
+								class="img-polaroid">
+						</a>
+						</li>
+						<li class="span3"><a class="fancybox" href="images/gal/large5.jpg"> <img
+								src="images/gal/gsmall5.jpg" width="300" height="300"
 								class="img-polaroid">
 						</a>
 						</li>
 						
-						<li class="span3"><a class="fancybox" href="images/gal/large9.JPG"> <img
-								src="images/gal/gsmall9.JPG" width="300" height="300"
+						<li class="span3"><a class="fancybox" href="images/gal/large10.jpg"> <img
+								src="images/gal/gsmall10.jpg" width="300" height="300"
+								class="img-polaroid">
+						</a>
+						</li>
+						
+						<li class="span3"><a class="fancybox" href="images/gal/large9.jpg"> <img
+								src="images/gal/gsmall9.jpg" width="300" height="300"
 								class="img-polaroid">
 						</a>
 						</li>

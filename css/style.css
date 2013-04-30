@@ -34,9 +34,7 @@ body {
 	background: url(../images/2.jpg) 0 0 no-repeat;
 }
 
-.gallery li {
-	margin: 0 20px 0 0 !important;
-}
+
 
 .as h4 {
 	color: black;
@@ -1537,8 +1535,16 @@ blockquote {
 
 .fancybox img {
 	float: left;
+margin-bottom:15px;
 }
 
+ 
+ .sizing img{
+ width:230px;
+ height:195px;
+ }
+ 
+ 
  .container1 {
 	position: relative;
 	width: 1170px;
