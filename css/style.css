@@ -1505,10 +1505,10 @@ footer nav  .header {
 	text-align: center;
 }
 
-.vission {
+/*.vission {
 	margin-top: 85px;
 	height: 100%;
-}
+}*/
 
 #mytab {
 	background: rgba(250, 247, 247, 0.78);
@@ -1537,8 +1537,10 @@ blockquote {
 	float: left;
 }
 
-#about .container {
+ .container1 {
 	position: relative;
+	width: 1170px;
+margin: 0px auto;
 }
 
 #about p {
