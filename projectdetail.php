@@ -184,6 +184,17 @@
 			 
 		      
 		});
+			$(".enclave").click(function() {
+
+				  window.open("saienclave", "_blank");
+				  return false;
+			});
+			$(".padur").click(function() {
+
+
+				  window.open("vistaoceana", "_blank");
+				  return false;
+			});
 
 			
 			
