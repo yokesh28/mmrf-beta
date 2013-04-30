@@ -280,6 +280,10 @@
 	}
 	.center1 {
 		background: none;
+		left: 162px;
+		height: auto;
+		width: auto;
+		top: 60px;
 	}
 	.textright1 {
 		width: 100%;
