@@ -184,10 +184,11 @@ body {
 .building {
 	background: white;
 	padding: 0px;
-	margin: 15px;
+	margin: 54px 28px;
 	width: 324px;
 	height: 200px;
-	margin-top: 26px;
+	margin-bottom: 20px;
+
 }
 
 
@@ -1520,11 +1521,8 @@ footer nav  .header {
 	
 	position: relative;
 }
-.span3 img{
-	
-	height:300px !important;
-	}
-.span3{
+
+.mediapage .span3{
 	
 	width:270px !important;
 	
@@ -1573,6 +1571,8 @@ blockquote {
 .fancybox img {
 	float: left;
 margin-bottom:15px;
+height:230px;
+width: 100%;
 }
 
  

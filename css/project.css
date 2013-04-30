@@ -49,10 +49,8 @@ left: 340px;
 }
 
 .building {
-background: white;
-position:absolute;
-top:4%;
-left:1%;
+	float: left;
+
 }
 
 
@@ -65,46 +63,31 @@ left:31%;
 }
 
 .textleft1 {
-width: 100%;
-height: 100%;
-left: 3%;
-top:43%;
-font-size: 30px;
 
-position: absolute;
 }
 
 .textright1 {
-width: 100%;
-position: absolute;
-top: 8%;
 
-left: 31%;
 }
 
 
 .center1{
-display:none;
-
-height:100%;
-width:100%;
-top: 15%;
-left: 25%;
-position:absolute;
-background :url("../images/images/project.png")no-repeat;
+	display:none;
+width: 780px;
+height: 518px;
+position: relative;
+background: url("../images/images/project.png")no-repeat;
+top: 120px;
+left: 340px;
 }
 
 
 .building22{
-	
-background: white;
-position: absolute;
-top: 11%;
-left: 3%;
+
 }
 .textright22 {
 width: 100%;
 position: absolute;
-top: 8%;
-left: 31%;
+top: 11%;
+left: 36%;
 }
