@@ -72,9 +72,9 @@
 			<div class="span3">
 				<a class="fancybox" href="saienclave.pdf" target="_blank"> <img
 					src="img/pdf1.png" class="img-polaroid">
-				</a> <a class="fancybox" href="saienclave.pdf">
+				</a> 
 					<h5>SaiEnclave(10/4/2013)</h5>
-				</a>
+				
 
 			</div>
 
