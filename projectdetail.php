@@ -104,11 +104,11 @@
 
 
 		<div class="center1">
-			<div class="building22 pull-left visible-desktop">
+			<div class="building pull-left visible-desktop">
 				<img src="img/padur.jpg" class="img-polaroid">
 			</div>
 
-			<div class="textright22 ottiyam pull-left " style="cursor: pointer;">
+			<div class="textright1 ottiyam pull-left " style="cursor: pointer;">
 				<img src="images/otti.jpg" class="img-polaroid">
 
 			</div>
