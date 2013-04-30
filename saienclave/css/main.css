@@ -377,13 +377,13 @@ a img {
 	height: auto;
 	right: 20px;
 	top: 5px;
-	font-size: 11px;
+	font-size: 12px;
 	opacity: .9;
 	color: #FFF;
 }
 
 #btm_link a {
-	color: #FFF;
+	color: #0088cc;
 	text-decoration: none;
 }
 
@@ -625,4 +625,8 @@ td {
 	position: absolute;
 	right: 84px;
 	top: 40px;
+}
+
+#bottom #btm_link{
+margin-right: 200px;
 }
