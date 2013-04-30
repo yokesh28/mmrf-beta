@@ -1110,6 +1110,13 @@ $.ajax({
 
 return false;
 }
+
+$('#cons_updt li').click(function(){
+	var url=$(this).find('a').attr('href');
+	$('#bg_img5').attr('src',url);
+	console.log(url);
+	return false;
+});
 </script>
 
 </html>
