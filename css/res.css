@@ -6,14 +6,35 @@
 	}
 	
 	.ong{
-	left: 121px !important;
+	left: 127px !important;
 	}
 	
 	.upc{
-	left: 121px !important;
+	left: 127px !important;
 	}
 	
-	
+	.building1 {
+background: white;
+position: absolute;
+top: 38%;
+left: 31%;}
+
+
+.textright1 {
+width: 100%;
+position: absolute;
+top: 8%;
+left: 33%;
+}
+
+.textleft1 {
+width: 100%;
+height: 100%;
+left: 3%;
+top: 43%;
+font-size: 30px;
+position: absolute;
+}
 	
 }
 
@@ -43,17 +64,32 @@ top: 27%;
 left: 17%;
 position: absolute;}
 	
-	.textright1 {
+	
+.center1 {
+
+top: 27%;
+left: 17%;
+position: absolute;}	
+	
+.textright1 {
 width: 100%;
 position: absolute;
-top: 7%;
-left: 38%;
+top: 8%;
+left: 40%;
+}
+
+
+.textright22 {
+width: 100%;
+position: absolute;
+top: 8%;
+left:39%;
 }
 
 .textleft1 {
 
-left: 19%;
-top: 73%;
+left: 3%;
+top: 46%;
 font-size: 30px;
 position: absolute;
 }
@@ -61,8 +97,8 @@ position: absolute;
 .building1 {
 background: white;
 position: absolute;
-top: 68%;
-left:55%;
+top: 40%;
+left:39%;
 }
 
 	
@@ -176,7 +212,23 @@ left: 84px;
    }
   .center{
 	background:none;
+	width: 97%;
+height: 99%;
+margin-top: 65px;
 }
+
+.center1{
+background:none;
+margin-top:40px;
+
+}
+.textright22 {
+width: 100%;
+position: absolute;
+top: 8%;
+left: 7%;
+}
+
 	 
 .textright1 {
 width: 100%;
@@ -187,8 +239,8 @@ left: 8%;
 .textleft1 {
 width: 100%;
 height: 100%;
-left: 33%;
-top: 39%;
+left: 8%;
+top: 25%;
 }
 
 }
@@ -278,23 +330,33 @@ overflow-y: hidden;
 background:none;
 }
 
+.center1{
+background:none;
+}
 .textright1 {
 width: 100%;
 position: absolute;
-top: 18%;
+margin-top:250px;
 left: 3%;
 }
 
 .textleft1 {
 width: 100%;
 height: 100%;
-left: 28%;
-top: 64%;
+left: 3%;
+margin-top:450px;
 font-size: 30px;
 position: absolute;
-overflow-y:hidden;
+
 }
 
+.textright22{
+	
+width: 100%;
+position: absolute;
+left: 1%;
+margin-top: 228px;
+}
 	
 }
 
@@ -308,7 +370,7 @@ left: 24%;
 top: 364px;
 font-size: 30px;
 position: absolute;
-overflow-y: hidden;
+
 }
 
 .textright1 {
@@ -343,12 +405,11 @@ overflow-y: hidden;
 @media ( max-width : 480px) {
 	.textleft1 {
 width: 100%;
-height: 100%;
-left: 3%;
-top: 399px;
+left: -22%;
+margin-top:105px;
 font-size: 30px;
 position: absolute;
-overflow-y: hidden;
+
 }
 
 .textright1 {
@@ -360,7 +421,7 @@ left: -22%;
 .textright22{
 position: absolute;
 top: 9%;
-left: 28%;
+left: -25%;
 width:100%;
 height:100%;
 }
