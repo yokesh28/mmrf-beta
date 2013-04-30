@@ -26,7 +26,7 @@
 							<li class="span2" onclick="location.href='about.php'"><a
 								href="about.php">About Us</a> <img src="img/3.jpg"
 								style="display: none" class="back">
-							</li>
+							</li> 
 
 							<li class="span2" onclick="location.href='gallery.php'"><a
 								href="gallery.php">Gallery</a> <img src="img/gall.jpg"

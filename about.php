@@ -44,7 +44,7 @@
 		class="backimage back">
 
 	<?php include 'header.php';?>
-	<div class="container">
+	<div class="container1">
 		<div class="row-fluid ">
 			<div class="vission">
 

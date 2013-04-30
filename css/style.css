@@ -34,9 +34,7 @@ body {
 	background: url(../images/2.jpg) 0 0 no-repeat;
 }
 
-.gallery li {
-	margin: 0 20px 0 0 !important;
-}
+
 
 .as h4 {
 	color: black;
@@ -1505,10 +1503,10 @@ footer nav  .header {
 	text-align: center;
 }
 
-.vission {
+/*.vission {
 	margin-top: 85px;
 	height: 100%;
-}
+}*/
 
 #mytab {
 	background: rgba(250, 247, 247, 0.78);
@@ -1566,10 +1564,20 @@ blockquote {
 
 .fancybox img {
 	float: left;
+margin-bottom:15px;
 }
 
-#about .container {
+ 
+ .sizing img{
+ width:230px;
+ height:195px;
+ }
+ 
+ 
+ .container1 {
 	position: relative;
+	width: 1170px;
+margin: 0px auto;
 }
 
 #about p {
