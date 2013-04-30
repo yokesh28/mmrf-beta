@@ -67,7 +67,7 @@
 <div class="hidden-desktop tab-menu">
 			<span class="active on">On Going</span> <span class="up">Up Coming</span>
 		</div>
-		
+		<div class="projectdetail">
 		<div class="row visible-desktop">
 			<div class="ong">
 				<p>Ongoing</p>
@@ -80,7 +80,7 @@
 
 
 		<div class="center">
-			<div class="building pull-left visible-desktop ">
+			<div class="visible-desktop ">
 				<img src="images/images/build.gif" class="img-polaroid">
 			</div>
 
@@ -96,7 +96,7 @@
 				<img src="images/pud1.jpg" class="img-polaroid">
 
 			</div>
-			<div class="building1 pull-left visible-desktop">
+			<div class="visible-desktop">
 				<img src="img/pad.jpg" class="img-polaroid">
 			</div>
 
@@ -119,7 +119,7 @@
 
 
 
-
+</div>
 		
 
 							
