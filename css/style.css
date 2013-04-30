@@ -1515,9 +1515,10 @@ footer nav  .header {
 }
 
 .gallery {
-	margin-top: 120px;
-	background: rgba(250, 247, 247, 0.52);
-	position: relative;
+	color: #fff;
+position: fixed;
+margin-top: 120px;
+margin-left: 100px;
 }
 
 .media_info {
