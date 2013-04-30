@@ -40,14 +40,12 @@
 
 
 .center {
-display: inline-block;
-
-height:100%;
-width:100%;
-top: 15%;
-left: 25%;
-position:absolute;
+width: 780px;
+height: 518px;
+position: relative;
 background :url("../images/images/project.png")no-repeat;
+top: 120px;
+left: 340px;
 }
 
 .building {
