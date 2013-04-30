@@ -1,0 +1,112 @@
+.ong{
+	background-color: white;
+	background: url(../images/images/button1.png) 0 0 no-repeat;
+	position: absolute;
+	top: 23%;
+	
+	left: 124px;
+	height: 42px;
+	width: 80%;
+	cursor: pointer;
+}
+
+.upc{
+	background-color: white;
+	background: url(../images/images/button1.png) 0 0 no-repeat;
+	position: absolute;
+	top:32%;
+	
+	left: 124px;
+	height: 42px;
+	width: 80%;
+	cursor: pointer;
+}
+	
+.upc p {
+	
+	font-size: 30px;
+	padding-top: 11px;
+	padding-left: 27px;
+	font-style: italic;
+}
+
+.ong p {
+	
+	font-size: 30px;
+	padding-top: 11px;
+	padding-left: 27px;
+	font-style: italic;
+}
+
+
+.center {
+display: inline-block;
+
+height:100%;
+width:100%;
+top: 15%;
+left: 25%;
+position:absolute;
+background :url("../images/images/project.png")no-repeat;
+}
+
+.building {
+background: white;
+position:absolute;
+top:4%;
+left:1%;
+}
+
+
+
+.building1 {
+background: white;
+position:absolute;
+top:38%;
+left:31%;
+}
+
+.textleft1 {
+width: 100%;
+height: 100%;
+left: 3%;
+top:43%;
+font-size: 30px;
+
+position: absolute;
+}
+
+.textright1 {
+width: 100%;
+position: absolute;
+top: 8%;
+
+left: 31%;
+}
+
+
+.center1{
+display:none;
+
+height:100%;
+width:100%;
+top: 15%;
+left: 25%;
+position:absolute;
+background :url("../images/images/project.png")no-repeat;
+}
+
+
+.building22{
+	
+background: white;
+position: absolute;
+top: 11%;
+left: 3%;
+}
+.textright22 {
+width: 100%;
+position: absolute;
+top: 8%;
+left: 31%;
+}

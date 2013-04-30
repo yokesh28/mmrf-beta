@@ -155,7 +155,7 @@ body {
 }
 
 .homepage {
-	height: 1500px !important;
+	height: 1500px ;
 }
 
 .con {
@@ -398,7 +398,7 @@ line-height: 0.9em;
 	text-align: right;
 	font-size: 30px;
 	padding-top: 11px;
-	padding-right: 8px;
+	padding-right: 52px;
 	font-style: italic;
 }
 
@@ -420,7 +420,7 @@ line-height: 0.9em;
 	text-align: right;
 	font-size: 30px;
 	padding-top: 11px;
-	padding-right: 8px;
+	padding-right: 48px;
 	font-style: italic;
 }
 
@@ -1038,8 +1038,9 @@ line-height: 0.9em;
 
 .down {
 	position: absolute;
-	right: -36px;
+	right: 0px;
 	top: 200px;
+	width:240px;
 }
 
 .enquiry textarea {
@@ -1361,7 +1362,7 @@ margin-top: 20px;
 
 .emiloan {
 	margin-top: 134px;
-	margin-left: 140px;
+
 }
 
 .emiloan h4 {
@@ -1515,10 +1516,11 @@ footer nav  .header {
 }
 
 .gallery {
-	color: #fff;
-position: fixed;
-margin-top: 120px;
-margin-left: 100px;
+
+	margin-top: 181px;
+	background: rgba(250, 247, 247, 0.52);
+	position: relative;
+
 }
 
 .media_info {

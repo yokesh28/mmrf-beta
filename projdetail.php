@@ -77,7 +77,22 @@
          </ul>
          </div>
 
-		<div class="im">
+		<div class="">
+		
+		
+		<div class="position visible-desktop">
+		
+
+		<div class="ongoing">
+			<p>Ongoing</p>
+		</div>
+		<div class="upcoming">
+			<p>Upcoming</p>
+		</div>
+	</div>
+		
+		
+		
 		
                  
 			<div class="middle1 span12" style="right: -100%;" id="ongoing">
@@ -1008,17 +1023,7 @@
 	</div>
 
 
-	<div class="position visible-desktop">
-		
-
-		<div class="ongoing">
-			<p>Ongoing</p>
-		</div>
-		<div class="upcoming">
-			<p>Upcoming</p>
-		</div>
-	</div>
-
+	
 
 
 

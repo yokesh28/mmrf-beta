@@ -98,7 +98,7 @@
 									Director, the company has today grown to become a leading
 									developer of gated communities, independent villas and
 									townships. The company has completed over 8 commercial projects
-									measuring over 250,000 sq. ft and 18 residential projects –
+									measuring over 250,000 sq. ft and 18 residential projects ï¿½
 									apartment complexes and independent villas measuring an
 									estimated 1,200,000 sq. ft.</p>
 								<br>
@@ -133,7 +133,7 @@
 									</span>
 								</h5>
 								<p class="span7">
-									Ramani Realtors Pvt. Limited – RRPL, an ISO 9001:2008 certified
+									Ramani Realtors Pvt. Limited ï¿½ RRPL, an ISO 9001:2008 certified
 									Company is professionally managed by its Chairman Shri V S
 									Venkatraman Founded as Rajmani Builders, VSV Builders &amp;
 									Balaji Constructions by its Chairman, the Company has projects
@@ -285,16 +285,16 @@
 		 });
 
   $(window).load(function() {
-	  $(".down").delay(1500).animate({right:'-173px'},700);
+	  $(".down").delay(1500).animate({width:'102px'},700);
   });
   
   $(".down").mouseenter(function(){
-	  $(".down").animate({right:'-20px'},700);
+	  $(".down").animate({width:'240px'},700);
   });
   
   $(".down").mouseleave(function(){
 	  $(this).clearQueue();
-	  $(".down").delay(500).animate({right:'-173px'},700);
+	  $(".down").delay(500).animate({width:'102px'},700);
   });
 </script>
 <script src="js/bootstrap-tab.js"></script>
