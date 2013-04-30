@@ -60,97 +60,102 @@
 	<img src="images/2.jpg" width="100%" height="100%"
 		class="backimage back">
 	<?php include 'header.php';?>
-	<div class="container1" style="position: relative;">
+	
+
+<div class="container mediapage">
 		<div class="row">
-			<div class="gallery">
-
-
-				<div class=" span12">
-					<ul class="sizing">
-					
-					 <li class="span3"><a class="fancybox" href="images/gal/large1.jpg"> <img
-								src="images/gal/gsmall1.jpg" width="300" height="300"
+		
+		
+		<div class="span3">
+					 <a class="fancybox" href="images/gal/large1.jpg"> <img
+								src="images/gal/gsmall1.jpg" 
 								class="img-polaroid">
 						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/large6.jpg"> <img
-								src="images/gal/gsmall6.jpg" width="300" height="300"
+						</div>
+				
+					<div class="span3"><a class="fancybox" href="images/gal/large6.jpg"> <img
+								src="images/gal/gsmall6.jpg" 
 								class="img-polaroid">
 						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/large7.jpg"> <img
-								src="images/gal/gsmall7.jpg" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
+						</div>
 						
-						<li class="span3"><a class="fancybox" href="images/gal/large2.jpg"> <img
-								src="images/gal/gsmall2.jpg" width="300" height="300"
+						<div class="span3"><a class="fancybox" href="images/gal/large7.jpg"> <img
+								src="images/gal/gsmall7.jpg" 
 								class="img-polaroid">
 						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/ga1.jpg"> <img
-								src="images/ga1.jpg" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/ga2.jpg"> <img
-								src="images/ga2.jpg" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/glarge13.jpg"> <img
-								src="images/gal/gsmall13.jpg" width="300" height="300"
-								class="img-polaroid">
-						</a>
-						</li>
+						</div>
+					 
+					 
 						
 						
 						
-						<li class="span3"><a class="fancybox" href="images/gal/glarge8.jpg"> <img
-								src="images/gal/gsmall8.jpg" width="300" height="300"
+						<div class="span3"><a class="fancybox" href="images/gal/large2.jpg"> <img
+								src="images/gal/gsmall2.jpg" 
 								class="img-polaroid">
 						</a>
-						</li>
+						</div>
+						<div class="span3"><a class="fancybox" href="images/ga1.jpg"> <img
+								src="images/ga1.jpg" 
+								class="img-polaroid">
+						</a>
+						</div>
+						<div class="span3"><a class="fancybox" href="images/ga2.jpg"> <img
+								src="images/ga2.jpg" 
+								class="img-polaroid">
+						</a>
+						</div>
+						<div class="span3"><a class="fancybox" href="images/gal/glarge13.jpg"> <img
+								src="images/gal/gsmall13.jpg" 
+								class="img-polaroid">
+						</a>
+						</div>
+						
+						
+						
+						<div class="span3"><a class="fancybox" href="images/gal/large8.jpg"> <img
+								src="images/gal/gsmall8.jpg" 
+								class="img-polaroid">
+						</a>
+						</div>
 						
 						
 							
-						<li class="span3"><a class="fancybox" href="images/gal/large3.jpg"> <img
-								src="images/gal/gsmall3.jpg" width="300" height="300"
+						<div class="span3"><a class="fancybox" href="images/gal/large3.jpg"> <img
+								src="images/gal/gsmall3.jpg" 
 								class="img-polaroid">
 						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/large4.jpg"> <img
-								src="images/gal/gsmall4.jpg" width="300" height="300"
+						</div>
+						<div class="span3"><a class="fancybox" href="images/gal/large4.jpg"> <img
+								src="images/gal/gsmall4.jpg" 
 								class="img-polaroid">
 						</a>
-						</li>
-						<li class="span3"><a class="fancybox" href="images/gal/large5.jpg"> <img
-								src="images/gal/gsmall5.jpg" width="300" height="300"
+						</div>
+						<div class="span3"><a class="fancybox" href="images/gal/large5.jpg"> <img
+								src="images/gal/gsmall5.jpg" 
 								class="img-polaroid">
 						</a>
-						</li>
+						</div>
 						
-						<li class="span3"><a class="fancybox" href="images/gal/large10.jpg"> <img
-								src="images/gal/gsmall10.jpg" width="300" height="300"
+						<div class="span3"><a class="fancybox" href="images/gal/large10.jpg"> <img
+								src="images/gal/gsmall10.jpg" 
 								class="img-polaroid">
 						</a>
-						</li>
+						</div>
 						
-						<li class="span3"><a class="fancybox" href="images/gal/large9.jpg"> <img
-								src="images/gal/gsmall9.jpg" width="300" height="300"
+						<div class="span3"><a class="fancybox" href="images/gal/large9.jpg"> <img
+								src="images/gal/gsmall9.jpg" 
 								class="img-polaroid">
 						</a>
-						</li>
+						</div>
 						
 
-					</ul>
-				</div>
+					
+				
+</div>
+</div>
 
-
-			</div>
-		</div>
-	</div>
+		
+	
 	<?php include 'footer.php';?>
 </body>
 <style type="text/css">
