@@ -243,6 +243,12 @@ left: 8%;
 top: 25%;
 }
 
+
+
+.enquiry label.city {
+
+margin-left: 64px;
+}
 }
 
 /* Landscape phone to portrait tablet */
@@ -357,7 +363,15 @@ position: absolute;
 left: 1%;
 margin-top: 228px;
 }
-	
+
+
+
+.enquiry label.city {
+margin-left: -252px;
+margin-top: 111px;
+}
+
+
 }
 
 
@@ -491,5 +505,17 @@ height:100%;
 	}
 	
 	
+	.enquiry label {
+text-align: right;
+width: 97px;
+display: inline-block;
+margin: 0px -3px;
+}
 	
+	.enquiry textarea.enquiry_text{
+margin-top: 0;
+width: 185px;
+height: 72px;
+margin-left: 13px;
+}
 }
