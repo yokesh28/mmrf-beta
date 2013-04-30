@@ -147,7 +147,7 @@
 		</div>
 	</div>
 
-	<span class="copyright">Copyright � 2013. S-Creative. All Rights
+	<span class="copyright">Copyright &#64; 2013. MMRF. All Rights
 		Reserved</span>
 
 </footer>
