@@ -54,18 +54,11 @@
 	.textright1 {
 		margin: 48px 35px;
 	}
-	.textright22 {
-		
-	}
+	
 	.textleft1 {
 		margin: 15px 60px;
 	}
-	.building1 {
-		background: white;
-		position: absolute;
-		top: 40%;
-		left: 39%;
-	}
+
 }
 /* Portrait tablet to landscape and desktop */
 @media ( min-width : 768px) and (max-width: 979px) {
@@ -163,17 +156,9 @@
 		left: 12%;
 	}
 
- .ongoing{
-   top: 23%;
-left:84px;
-   }
 
 
 
-.upcoming{
-   top:39%;
-left: 84px;
-   }
   .center{
 	background:none;
 	width: 97%;
@@ -185,26 +170,6 @@ margin-top: 65px;
 background:none;
 margin-top:40px;
 
-}
-.textright22 {
-width: 100%;
-position: absolute;
-top: 8%;
-left: 7%;
-}
-
-	 
-.textright1 {
-width: 100%;
-position: absolute;
-top: 8%;
-left: 8%;
-}
-.textleft1 {
-width: 100%;
-height: 100%;
-left: 8%;
-top: 25%;
 }
 
 
@@ -232,18 +197,11 @@ margin-left: 64px;
 		background: none;
 		margin-top: 40px;
 	}
-	.textright22 {
-		width: 100%;
-		position: absolute;
-		top: 8%;
-		left: 7%;
-	}
+
 	.textright1 {
 		margin: 12px 0px;
 	}
-	.textleft1 {
-		
-	}
+
 
 }
 
@@ -323,77 +281,6 @@ margin-left: 64px;
 		width: 500px;
 		overflow-y: hidden;
 	}
-	.center {
-		background: none;
-		height: 100%;
-		width: 100%;
-		top: 15%;
-		left: 25%;
-		position: absolute;
-	}
-	.center1 {
-		background: none;
-		left: 162px;
-		height: auto;
-		width: auto;
-		top: 60px;
-	}
-	.textright1 {
-		width: 100%;
-		position: absolute;
-		margin-top: 250px;
-		left: 3%;
-	}
-	.textleft1 {
-		width: 100%;
-		height: 100%;
-		left: 3%;
-		margin-top: 450px;
-		font-size: 30px;
-		position: absolute;
-	}
-	.textright22 {
-		width: 100%;
-		position: absolute;
-		left: 1%;
-		margin-top: 228px;
-	}
-
-
-.center1{
-background:none;
-}
-.textright1 {
-width: 100%;
-position: absolute;
-margin-top:250px;
-left: 3%;
-}
-
-.textleft1 {
-width: 100%;
-height: 100%;
-left: 3%;
-margin-top:450px;
-font-size: 30px;
-position: absolute;
-
-}
-
-.textright22{
-	
-width: 100%;
-position: absolute;
-left: 1%;
-margin-top: 228px;
-}
-
-
-
-.enquiry label.city {
-margin-left: -252px;
-margin-top: 111px;
-}
 
 
 }
