@@ -1024,7 +1024,7 @@ line-height: 0.9em;
 	/*background: transparent;*/
 }
 
- .down {
+.down {
 	position: absolute;
 	right: 0px;
 	top: 200px;
@@ -1101,7 +1101,7 @@ line-height: 0.9em;
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                        100);
+	filter: alpha(opacity =                              100);
 	margin-left: 0 !important;
 }
 
@@ -1111,12 +1111,12 @@ line-height: 0.9em;
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                        100);
+	filter: alpha(opacity =                              100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                        100);
+	filter: alpha(opacity =                              100);
 	opacity: 1;
 }
 
@@ -1134,7 +1134,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =                       85);
+	filter: alpha(opacity =                             85);
 	opacity: 1;
 	min-width: 700px;
 	margin: 0 auto;
@@ -1546,9 +1546,8 @@ blockquote {
 
 .container1 {
 	position: absolute;
-	top: 200px;
-	left: 70px;
-	width: 100%;
+	top: 320px;
+	margin: 0px 40px;
 }
 
 }
@@ -1625,6 +1624,25 @@ blockquote {
 #lz_overlay_chat {
 	z-index: 999999999 !important;
 }
+
+#menu_about {
+	position: absolute;
+	width: 62%;
+	top: 150px;
+	left: 23%;
+}
+
+#menu_about a {
+	color: black;
+	background: rgba(250, 247, 247, 0.78);
+	padding: 10px 16px;
+	font-weight: bold;
+	cursor: pointer;
+	float: left;
+	margin: 5px;
+}
+
+
 /*#overlay_form{
 position: absolute;
 
