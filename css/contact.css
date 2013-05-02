@@ -1,0 +1,44 @@
+
+.container{
+	position: relative;
+}
+
+
+
+.contact{
+background: rgba(250, 247, 247, 0.76);
+max-width: 1170px;
+height: 100%;
+top: 8%;
+margin: 0 auto;
+margin-top:150px;
+}
+
+
+
+.contact h2{
+	color:black;
+	margin-left:10px;
+}
+
+
+
+.form h2,h5{
+	color:black;
+}
+.form{
+background: rgba(250, 247, 247, 0.76);
+margin:22px 0px;	
+}
+
+.button {
+float: right;
+margin-top: 145px !important;
+}
+
+.enquiry textarea.enquiry_text {
+width: 408px;
+height: 72px;
+margin-left: 128px;
+margin-top: -23px;
+}
