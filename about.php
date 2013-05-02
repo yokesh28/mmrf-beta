@@ -44,7 +44,7 @@
 		class="backimage back">
 
 	<?php include 'header.php';?>
-	<div class="container1">
+	<div class="container" style="top: 300px;">
 		<div class="row-fluid ">
 			<div class="vission">
 
@@ -265,11 +265,20 @@
 		</ul>
 
 	</div>
+	<div class="hidden-desktop" id="menu_about">
+		<a href="#aboutcontent"> Overview </a> <a href="#management">
+			Management </a> <a href="#app"> Team </a>
+
+	</div>
 	<?php include 'footer.php';?>
 </body>
 <script>
 
-  
+$('#menu_about a').click(function (e) {
+	  e.preventDefault();
+	  $(this).tab('show');
+	})
+
   $('#myTab a').click(function (e) {
   e.preventDefault();
   $(this).tab('show');
