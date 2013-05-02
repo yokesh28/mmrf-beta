@@ -1547,8 +1547,8 @@ blockquote {
 .container1 {
 	position: absolute;
 	top: 200px;
-	left: 70px;
-	width: 100%;
+	margin: 0px 40px;
+	
 }
 
 }
