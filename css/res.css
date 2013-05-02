@@ -162,7 +162,6 @@
 		width: 650px;
 		left: 12%;
 	}
-<<<<<<< HEAD
 
  .ongoing{
    top: 23%;
@@ -214,7 +213,7 @@ top: 25%;
 
 margin-left: 64px;
 }
-=======
+
 	.ongoing {
 		top: 23%;
 		left: 84px;
@@ -245,7 +244,7 @@ margin-left: 64px;
 	.textleft1 {
 		
 	}
->>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -359,8 +358,7 @@ margin-left: 64px;
 		left: 1%;
 		margin-top: 228px;
 	}
-}
-<<<<<<< HEAD
+
 
 .center1{
 background:none;
@@ -400,8 +398,6 @@ margin-top: 111px;
 
 }
 
-=======
->>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
 
 /* Landscape phones and down */
 @media ( max-width : 448px) {
@@ -443,7 +439,7 @@ margin-top: 111px;
 		width: 100%;
 		position: absolute;
 		top: 95%;
-		left: -22%;
+		left: -25%;
 	}
 	.textright22 {
 		position: absolute;
@@ -514,7 +510,7 @@ margin-top: 111px;
 		background: red;
 		color: white;
 	}
-<<<<<<< HEAD
+
 	
 	
 	.enquiry label {
@@ -530,6 +526,5 @@ width: 185px;
 height: 72px;
 margin-left: 13px;
 }
-=======
->>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
+
 }
