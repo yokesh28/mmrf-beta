@@ -162,37 +162,6 @@
 		width: 650px;
 		left: 12%;
 	}
-<<<<<<< HEAD
-
-
-
-
-  .center{
-	background:none;
-	width: 97%;
-height: 99%;
-margin-top: 65px;
-}
-
-.center1{
-background:none;
-margin-top:40px;
-
-}
-
-.enquiry textarea.enquiry_text {
-width: 408px;
-height: 72px;
-margin-left: 128px;
-margin-top: -21px;
-}
-
-.enquiry label.city {
-
-margin-left: 64px;
-}
-
-=======
 	.center {
 		background: none;
 		width: 97%;
@@ -206,7 +175,6 @@ margin-left: 64px;
 	.enquiry label.city {
 		margin-left: 64px;
 	}
->>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
 	.ongoing {
 		top: 23%;
 		left: 84px;
@@ -421,17 +389,6 @@ margin-left: 64px;
 		background: red;
 		color: white;
 	}
-<<<<<<< HEAD
-
-
-.enquiry textarea.enquiry_text {
-width: 176px;
-height: 72px;
-margin-left: 6px;
-margin-top: 4px;
-}
-}
-=======
 	.textright1 {
 		width: 60%;
 	}
@@ -439,4 +396,3 @@ margin-top: 4px;
 		width: 60%;
 	}
 }
->>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
