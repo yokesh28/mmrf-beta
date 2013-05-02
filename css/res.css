@@ -313,8 +313,8 @@
 		top: 206px;
 		left: 14%;
 	}
-	.center1{
-		left:12%;
+	.center1 {
+		left: 12%;
 	}
 }
 
@@ -388,5 +388,11 @@
 	.tab-menu span.active {
 		background: red;
 		color: white;
+	}
+	.textright1 {
+		width: 60%;
+	}
+	.textleft1 {
+		width: 60%;
 	}
 }
