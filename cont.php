@@ -65,16 +65,22 @@
 
 	</div>
 
-	<div class="container">
+	<div class="container1">
 		<div class="contact row">
 
 			<h2>Contact Us</h2>
 
 			<div class="google-map">
 
-				<iframe width="1100" height="300"
-					src="http://regiohelden.de/google-maps/map_en.php?width=1100&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"
-					frameborder="0" scrolling="no" marginheight="0" marginwidth="0"> </iframe>
+			
+			
+		
+        <iframe width="425" height="350" frameborder="0" scrolling="no"
+         marginheight="0" marginwidth="0" src=" http://regiohelden.de/google-maps/map_en.php?width=1100&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://regiohelden.de/google-maps/map_en.php?width=1100&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+    
+			
+			
+			
 
 			</div>
 		</div>
@@ -98,10 +104,10 @@
 					<form name="contactus" id="contactus_form"
 						onSubmit="return validateForm();">
 						<ul>
-							<li class="span4"><label>Name<span>*</span>
-							</label><input type="text" name="name" style="width: 180px;"></li>
+							<li class="span6"><label>Name<span>*</span>
+							</label><input type="text" name="name" style="width: 140px;"></li>
 
-							<li class="span4">
+							<li class="span6">
 								<ul class="add-sub">
 									<li><label>Address<span>*</span>
 									</label> <textArea name="address"
@@ -114,35 +120,35 @@
 
 							
 
-							<li class="span4"><label>City</label><input type="text"
+							<li class="span6"><label>City</label><input type="text"
 								name="city" style="width: 140px"></li>
-							<li class="span4"><label >Pincode</label><input type="text"
-								name="pincode" style="width: 138px"></li>
+							<li class="span6"><label >Pincode</label><input type="text"
+								name="pincode" style="width: 140px"></li>
 
 
 
 
-							<li class="span4"><label>Email <span>*</span>
-							</label> <input type="email" name="email" style="width: 180px;">
+							<li class="span6"><label>Email <span>*</span>
+							</label> <input type="email" name="email" style="width: 140px;">
 							</li>
 
-							<li class="span4"><label>Mobie No<span>*</span>
-							</label><input type="text" name="mobile" style="width: 180px;">
+							<li class="span6"><label>Mobie No<span>*</span>
+							</label><input type="text" name="mobile" style="width: 140px;">
 							</li>
 
-							<li class="span4"><label>Phone No </label><input type="text" name="pho_ex"
+							<li class="span6"><label  class="break">Phone No </label><input type="text" name="pho_ex"
 								style="width: 42px"> <input type="text" name="phone"
 								style="width: 66px">
 							</li>
 
-							<li class="span4"><label>Location<span>*</span>
-							</label><input type="text" name="location" style="width: 180px;">
+							<li class="span6"><label>Location<span>*</span>
+							</label><input type="text" name="location" style="width: 140px;">
 							</li>
-							<li class="span4"><label>BuildUp Area<span>*</span>
+							<li class="span6"><label>BuildUp Area<span>*</span>
 							</label>
 
-								<div class="select" style="width: 200px;">
-									<select style="width: 200px;" name="build_area" id="bulid">
+								<div class="select" style="width: 140px;">
+									<select style="width: 140px;" name="build_area" id="bulid">
 										<option value="">--Select--</option>
 
 
@@ -162,12 +168,12 @@
 									</select>
 								</div>
 							</li>
-							<li class="span4"><label>Budget<span>*</span>
+							<li class="span6"><label>Budget<span>*</span>
 							</label>
 
 
-								<div class="select" style="width: 153px">
-									<select style="width: 154px" name="budget" id="bud">
+								<div class="select" style="width: 140px">
+									<select style="width: 140px" name="budget" id="bud">
 										<option value="">--Select--</option>
 
 
@@ -190,7 +196,7 @@
 									</select>
 								</div>
 							</li>
-							<li class="span4"><label style="width: auto">Post Your Enquiry</label> <textarea
+							<li class="span6"><label style="width: auto">Post Your Enquiry</label> <textarea
 									class="enquiry_text" name="enquiry"></textarea>
 							</li>
 							<li class="button"><input type="submit" name="submit"

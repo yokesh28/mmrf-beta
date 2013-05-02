@@ -36,7 +36,7 @@
 								href="media.php">Media Center</a> <img src="img/5.jpg"
 								style="display: none" class="back">
 							</li>
-							<li class="span2" onclick="location.href='contact.php'"><a
+							<li class="span2" onclick="location.href='cont.php'"><a
 								href="contact.php">Contact Us</a> <img src="img/6.jpg"
 								style="display: none" class="back">
 							</li>

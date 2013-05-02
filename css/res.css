@@ -66,6 +66,11 @@
 		top: 40%;
 		left: 39%;
 	}
+	
+	
+	
+	
+	
 }
 /* Portrait tablet to landscape and desktop */
 @media ( min-width : 768px) and (max-width: 979px) {
@@ -200,6 +205,8 @@
 	.textright1 {
 		margin: 12px 0px;
 	}
+	
+	
 }
 
 /* Landscape phone to portrait tablet */
@@ -294,6 +301,15 @@
 	.textright1 {
 		margin-bottom: 30px;
 	}
+	
+	
+	
+	.enquiry textarea.enquiry_text {
+width: 408px;
+height: 72px;
+margin-left: 4px;
+margin-top: 3px;
+}
 }
 
 /* Landscape phones and down */
@@ -395,4 +411,20 @@
 	.textleft1 {
 		width: 60%;
 	}
+	.enquiry textarea.enquiry_text {
+width: 197px;
+height: 72px;
+margin-left: 6px;
+margin-top: -3px;
+}
+
+.button{
+	float:left;
+	
+}
+
+.break{
+	margin-right:60px !important;
+}
+
 }

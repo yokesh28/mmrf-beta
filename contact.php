@@ -113,9 +113,9 @@
 							</label><input type="text" name="mobile" style="width: 180px;">
 							</li>
 
-							<li><label>Phone No </label><input type="text" name="pho_ex"
-								style="width: 42px"> <input type="text" name="phone"
-								style="width: 66px">
+							<li><label>Phone No </label><input type="text" name="phone"
+								style="width: 82px">
+								
 							</li>
 
 							<li><label>Location<span>*</span>
