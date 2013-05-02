@@ -162,6 +162,7 @@
 		width: 650px;
 		left: 12%;
 	}
+<<<<<<< HEAD
 
 
 
@@ -191,6 +192,21 @@ margin-top: -21px;
 margin-left: 64px;
 }
 
+=======
+	.center {
+		background: none;
+		width: 97%;
+		height: 99%;
+		margin-top: 65px;
+	}
+	.center1 {
+		background: none;
+		margin-top: 40px;
+	}
+	.enquiry label.city {
+		margin-left: 64px;
+	}
+>>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
 	.ongoing {
 		top: 23%;
 		left: 84px;
@@ -201,19 +217,21 @@ margin-left: 64px;
 	}
 	.center {
 		background: none;
-		width: 36%; height : 100%;
+		width: 36%;
+		height: 100%;
 		margin-top: 120px;
 		height: 100%;
+		left: 33%;
 	}
 	.center1 {
 		background: none;
-		margin-top: 40px;
+		margin-top: 250px;
+		left: 33%;
+		margin-top: 250px;
 	}
-
 	.textright1 {
 		margin: 12px 0px;
 	}
-
 }
 
 /* Landscape phone to portrait tablet */
@@ -294,58 +312,24 @@ margin-left: 64px;
 	}
 	.center {
 		background: none;
-		height: 100%;
-		width: 100%;
-		top: 15%;
-		left: 25%;
-		position: absolute;
+		width: 310px;
+		top: 206px;
+		left: 27%;
 	}
 	.center1 {
 		background: none;
-		left: 162px;
+		left: 27%;
 		height: auto;
 		width: auto;
-		top: 60px;
+		top: 220px;
 	}
 	.textright1 {
-		width: 100%;
-		position: absolute;
-		margin-top: 250px;
-		left: 3%;
-	}
-	.textleft1 {
-		width: 100%;
-		height: 100%;
-		left: 3%;
-		margin-top: 450px;
-		font-size: 30px;
-		position: absolute;
-	}
-	.textright22 {
-		width: 100%;
-		position: absolute;
-		left: 1%;
-		margin-top: 228px;
+		margin-bottom: 30px;
 	}
 }
 
-
 /* Landscape phones and down */
 @media ( max-width : 448px) {
-	.textleft1 {
-		width: 100%;
-		height: 100%;
-		left: 24%;
-		top: 364px;
-		font-size: 30px;
-		position: absolute;
-	}
-	.textright1 {
-		width: 100%;
-		position: absolute;
-		top: 95%;
-		left: 3%;
-	}
 }
 
 /* Landscape phones and down */
@@ -355,23 +339,19 @@ margin-left: 64px;
 		width: 86%;
 		overflow-y: hidden;
 	}
+	.center {
+		background: none;
+		width: 310px;
+		top: 206px;
+		left: 14%;
+	}
+	.center1 {
+		left: 12%;
+	}
 }
 
 /* Landscape phones and down */
 @media ( max-width : 480px) {
-	.textleft1 {
-		width: 100%;
-		left: -22%;
-		margin-top: 105px;
-		font-size: 30px;
-		position: absolute;
-	}
-	.textright1 {
-		width: 100%;
-		position: absolute;
-		top: 95%;
-		left: -22%;
-	}
 	.textright22 {
 		position: absolute;
 		top: 9%;
@@ -441,6 +421,7 @@ margin-left: 64px;
 		background: red;
 		color: white;
 	}
+<<<<<<< HEAD
 
 
 .enquiry textarea.enquiry_text {
@@ -450,3 +431,12 @@ margin-left: 6px;
 margin-top: 4px;
 }
 }
+=======
+	.textright1 {
+		width: 60%;
+	}
+	.textleft1 {
+		width: 60%;
+	}
+}
+>>>>>>> branch 'master' of https://github.com/yokesh28/mmrf-beta.git
