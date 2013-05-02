@@ -34,8 +34,6 @@ body {
 	background: url(../images/2.jpg) 0 0 no-repeat;
 }
 
-
-
 .as h4 {
 	color: black;
 	margin: 120px 0px;
@@ -153,7 +151,7 @@ body {
 }
 
 .homepage {
-	height: 1500px ;
+	height: 1500px;
 }
 
 .con {
@@ -188,10 +186,7 @@ body {
 	width: 324px;
 	height: 200px;
 	margin-bottom: 20px;
-
 }
-
-
 
 /*.scrolldown{
 	position: absolute;
@@ -203,49 +198,46 @@ cursor: pointer;
 line-height: 0.9em;
 
 }*/
-#tab-container
-{
-   float: left;
-   margin: 50px 0 0 0;
-   width: 126px;
-}
-#tab-container ul
-{
-   list-style: none;
-   text-align: center;
-}
-#tab-container ul li
-{
-   border-top: 1px solid #666;
-   border-right: 1px solid #666;
-   border-bottom: 1px solid #666;
-   border-left: 8px solid #666;
-   background-color: #ddd;
-   margin: 8px 0;
-}
-#tab-container ul li a,
-#tab-container ul li a:visited
-{
-   text-decoration: none;
-   color: #666;
-   display: block;
-   padding: 15px 5px;
-}
-#tab-container ul li:hover
-{
-   border-left: 8px solid #333;
-}
-#tab-container ul li a:hover
-{
-   color: #000;
-}
-#tab-container ul li.selected
-{
-   border-right: none;
-   background-color: #fff;
-   border-left: 8px solid #006699;
+#tab-container {
+	float: left;
+	margin: 50px 0 0 0;
+	width: 126px;
 }
 
+#tab-container ul {
+	list-style: none;
+	text-align: center;
+}
+
+#tab-container ul li {
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-left: 8px solid #666;
+	background-color: #ddd;
+	margin: 8px 0;
+}
+
+#tab-container ul li a,#tab-container ul li a:visited {
+	text-decoration: none;
+	color: #666;
+	display: block;
+	padding: 15px 5px;
+}
+
+#tab-container ul li:hover {
+	border-left: 8px solid #333;
+}
+
+#tab-container ul li a:hover {
+	color: #000;
+}
+
+#tab-container ul li.selected {
+	border-right: none;
+	background-color: #fff;
+	border-left: 8px solid #006699;
+}
 
 .building1 {
 	height: 202px;
@@ -374,7 +366,6 @@ line-height: 0.9em;
 	background: url(../images/images/button1.png) 0 0 no-repeat;
 	position: absolute;
 	top: 23%;
-	
 	left: 114px;
 	height: 42px;
 	width: 80%;
@@ -386,7 +377,6 @@ line-height: 0.9em;
 	background: url(../images/images/button2.png) 0 0 no-repeat;
 	position: absolute;
 	top: 32%;
-	
 	left: 114px;
 	height: 42px;
 	width: 80%;
@@ -857,8 +847,7 @@ line-height: 0.9em;
 }
 
 #contactus_page input[type="text"],input[type="password"],input[type="email"]
-	{
-	/*border: 1px solid #D40E1E;*/
+	{ /*border: 1px solid #D40E1E;*/
 	
 }
 
@@ -1039,7 +1028,7 @@ line-height: 0.9em;
 	position: absolute;
 	right: 0px;
 	top: 200px;
-	width:240px;
+	width: 240px;
 }
 
 .enquiry textarea {
@@ -1112,7 +1101,7 @@ line-height: 0.9em;
 	background-color: rgba(30, 3, 3, 0.9);
 	opacity: 1;
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                      100);
+	filter: alpha(opacity =                        100);
 	margin-left: 0 !important;
 }
 
@@ -1122,12 +1111,12 @@ line-height: 0.9em;
 
 footer:hover {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                      100);
+	filter: alpha(opacity =                        100);
 }
 
 footer .open {
 	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity =                      100);
+	filter: alpha(opacity =                        100);
 	opacity: 1;
 }
 
@@ -1145,7 +1134,7 @@ footer .open {
 	moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity =                     85);
+	filter: alpha(opacity =                       85);
 	opacity: 1;
 	min-width: 700px;
 	margin: 0 auto;
@@ -1194,16 +1183,14 @@ footer nav.footnav .footheader {
 #fcontentbloc {
 	width: 31.93617%;
 	padding: 0px 0px 0px 34px;
-	
-}
-#fcontentbloc .fcontentborder{
-	
-	border-right: 1px solid !important;
-padding-bottom: 100px;
-}
-	
 }
 
+#fcontentbloc .fcontentborder {
+	border-right: 1px solid !important;
+	padding-bottom: 100px;
+}
+
+}
 footer .footer-content .titlefooter .extramobile {
 	font: 20px 'FrutigerLTStd47LightCnBold';
 	font-weight: bold;
@@ -1339,29 +1326,24 @@ footer .footer-content .titlefooter .extramobile {
 
 #fcontentbloc3 {
 	padding: 20px 0px 0px 0px;
-	
-	
 }
 
-#fcontentbloc3 .fcontentborder1{
-	
+#fcontentbloc3 .fcontentborder1 {
 	border-right: 1px solid !important;
-padding-bottom: 60px;
+	padding-bottom: 60px;
 }
 
 #fcontentbloc3 .mprojects {
 	margin-left: 70px;
-margin-top: 20px;
+	margin-top: 20px;
 }
 
-#fcontentbloc1 h4 {
-	/*margin-left: 70px;*/
+#fcontentbloc1 h4 { /*margin-left: 70px;*/
 	margin-top: 55px;
 }
 
 .emiloan {
 	margin-top: 134px;
-
 }
 
 .emiloan h4 {
@@ -1508,53 +1490,35 @@ footer nav  .header {
 	margin-top: 85px;
 	height: 100%;
 }*/
-
 #mytab {
 	background: rgba(250, 247, 247, 0.78);
 	margin-top: 127px;
 }
 
-
 .gallery {
-
 	margin-top: 181px;
-	
 	position: relative;
 }
 
-.mediapage .span3{
-	
-	width:270px !important;
-	
-
+.mediapage .span3 {
+	width: 270px !important;
 }
 
-.mediapage{
-	
-	position:absolute;
+.mediapage {
+	position: absolute;
 	top: 200px;
-left: 70px;
-	
-	
+	left: 70px;
 }
-.mediapage a{
-	
+
+.mediapage a {
 	text-decoration: none;
-	
-}
-@media (max-width: 480px) { 
-
-.mediapage{
-	
-	left: 5px;
-	
-	
-}
-	
-	
-	
 }
 
+@media ( max-width : 480px) {
+	.mediapage {
+		left: 5px;
+	}
+}
 
 .media_info {
 	margin-top: 120px;
@@ -1570,24 +1534,24 @@ blockquote {
 
 .fancybox img {
 	float: left;
-margin-bottom:15px;
-height:230px;
-width: 100%;
+	margin-bottom: 15px;
+	height: 230px;
+	width: 100%;
 }
 
- 
- .sizing img{
- width:230px;
- height:195px;
- }
- 
- 
- .container1 {
-	position: relative;
-	width: 1170px;
-margin: 0px auto;
+.sizing img {
+	width: 230px;
+	height: 195px;
 }
 
+.container1 {
+	position: absolute;
+	top: 200px;
+	left: 70px;
+	width: 100%;
+}
+
+}
 #about p {
 	padding: 14px;
 	font-size: 13px;
@@ -1657,7 +1621,8 @@ margin: 0px auto;
 	-webkit-filter: blur(1px);
 	opacity: 1;
 }
-#lz_overlay_chat{
+
+#lz_overlay_chat {
 	z-index: 999999999 !important;
 }
 /*#overlay_form{
@@ -1707,42 +1672,20 @@ left: 77px;
 
 /*padur css*/
 
-
-
 /*New*/
-.imagess{
-	top:35%;
+.imagess {
+	top: 35%;
 }
 
-body{
-	background:black;
+body {
+	background: black;
 }
 
-
-
-
-
-
-
-
-
-
-.right{
-
-padding-bottom:39px;
-
+.right {
+	padding-bottom: 39px;
 }
 
 /**/
-
-
-
-
-
-
-
-
-
 
 /*upcoming project*/
 #ottiyam .grid {
@@ -1751,7 +1694,7 @@ padding-bottom:39px;
 
 /*media*/
 .tab-content {
-	margin-top: 70px;
+	
 }
 
 .desined:HOVER {
@@ -1759,10 +1702,9 @@ padding-bottom:39px;
 }
 
 .tab-content .tab-pane {
-	border-radius:20px;
+	border-radius: 20px;
 	background: rgba(250, 247, 247, 0.78);
 	overflow: hidden;
-	margin-top: 59px;
 }
 
 .overview h4 {
@@ -1832,7 +1774,3 @@ padding-bottom:39px;
 }
 
 /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
-
-
-
-

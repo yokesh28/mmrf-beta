@@ -52,21 +52,21 @@
 				<div class="tab-content span9">
 					<div class="tab-pane active overview effect1" id="aboutcontent">
 						<h4 class="">
-							<img src="images/group.png" class="img-rounded" style="margin: 6px;"><span
-								class="txt_under_headin"> OVERVIEW</span>
+							<img src="images/group.png" class="img-rounded"
+								style="margin: 6px;"><span class="txt_under_headin"> OVERVIEW</span>
 						</h4>
-						<p >The top-notch names of the Real Estate sector have
-							joined hands to create and bestow an exceptional projects with
-							unparalleled quality. MMRF is a collaborative endeavor of four
-							leading Real Estate Developers; Mayflower Enterprises Private
-							Limited, Mount Housing &amp; Infrastructure Limited, Ramani
-							Realtors Private Limited &amp; Fairyland Foundations Private
-							Limited. MMRF with its team of experts further aims to develop
-							ambience based Residential Flats, and commercial units at
-							strategically chosen locations. This extraordinary amalgamatin of
-							dedicated and esteemed Real Estate Developers ensures of a larger
-							than life dwelling in each of their project which will surpass
-							the expectaions of a high-end living.</p>
+						<p>The top-notch names of the Real Estate sector have joined hands
+							to create and bestow an exceptional projects with unparalleled
+							quality. MMRF is a collaborative endeavor of four leading Real
+							Estate Developers; Mayflower Enterprises Private Limited, Mount
+							Housing &amp; Infrastructure Limited, Ramani Realtors Private
+							Limited &amp; Fairyland Foundations Private Limited. MMRF with
+							its team of experts further aims to develop ambience based
+							Residential Flats, and commercial units at strategically chosen
+							locations. This extraordinary amalgamatin of dedicated and
+							esteemed Real Estate Developers ensures of a larger than life
+							dwelling in each of their project which will surpass the
+							expectaions of a high-end living.</p>
 
 					</div>
 
@@ -201,8 +201,9 @@
 												height="115">
 										</div>
 										<p>
-											<span class="fn">Ms.Divya S</span><span class="" style="padding-left: 8px; color: #888;">VP-From
-											</span><span class="divider">/</span><span class="year">2012</span>
+											<span class="fn">Ms.Divya S</span><span class=""
+												style="padding-left: 8px; color: #888;">VP-From </span><span
+												class="divider">/</span><span class="year">2012</span>
 										</p>
 									</li>
 									<li>
@@ -222,9 +223,9 @@
 												height="115">
 										</div>
 										<p>
-											<span class="fn move">Ms.Chitra V</span><span class=""style="padding-left: 3px; color: #888;">General
-												Manager-From</span><span class="divider">/</span><span
-												class="year">2012</span>
+											<span class="fn move">Ms.Chitra V</span><span class=""
+												style="padding-left: 3px; color: #888;">General Manager-From</span><span
+												class="divider">/</span><span class="year">2012</span>
 										</p>
 									</li>
 
@@ -246,7 +247,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="span3 down">
+	<div class="span3 down visible-desktop">
 
 		<ul class="unstyled menu1" id="myTab">
 			<li class="active"><a href="#aboutcontent"><img
