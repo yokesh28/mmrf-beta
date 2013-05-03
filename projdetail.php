@@ -28,7 +28,7 @@
 <link href="css/style1.css" rel="stylesheet">
 
 
-<script src="js/jquery.queryloader2.js"></script>
+<!-- <script src="js/jquery.queryloader2.js"></script> -->
 
 <script src="js/jsscript.js"></script>
 
@@ -157,7 +157,7 @@
 									amidst the sprawling locale of Arasankazhani near
 									Sithalapakkam, off the OMR in Chennai. Sai Enclave features 1,
 									2 & 3 BHK homes featuring world-class construction standards,
-									the choicest amenities and are surrounded by India’s finest BPO
+									the choicest amenities and are surrounded by Indiaï¿½s finest BPO
 									and IT/ITES companies. The abodes at Sai Enclave are built to
 									continually impart peace and happiness making them an ideal
 									investment.</p>

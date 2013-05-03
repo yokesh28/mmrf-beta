@@ -28,7 +28,7 @@
 <link href="css/style1.css" rel="stylesheet">
 <link href="css/project.css" rel="stylesheet">
 <link href="css/res.css" rel="stylesheet">
-<script src="js/jquery.queryloader2.js"></script>
+<!-- <script src="js/jquery.queryloader2.js"></script> -->
 
 <script src="js/jsscript.js"></script>
 

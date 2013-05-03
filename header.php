@@ -37,7 +37,7 @@
 								style="display: none" class="back">
 							</li>
 							<li class="span2" onclick="location.href='cont.php'"><a
-								href="contact.php">Contact Us</a> <img src="img/6.jpg"
+								href="cont.php">Contact Us</a> <img src="img/6.jpg"
 								style="display: none" class="back">
 							</li>
 

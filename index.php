@@ -32,7 +32,6 @@
 
 
 
-<script src="js/jquery.queryloader2.js"></script>
 
 
 <script src="js/jsscript.js"></script>
