@@ -19,7 +19,7 @@
 <script
 	type="text/javascript" src="//use.typekit.net/oxe2gpf.js"></script>
 
-<script src="js/jquery.queryloader2.js"></script>
+<!-- <script src="js/jquery.queryloader2.js"></script> -->
 
 <script src="js/jsscript.js"></script>
 <?php include 'header.php';?>
@@ -36,11 +36,11 @@
 	<div class="bd" id="content">
 		<div class="holler">
 			<h4>The right people with the right tools.</h4>
-			<p>Since 2006 we’ve proven that just a few smart people working with
+			<p>Since 2006 weï¿½ve proven that just a few smart people working with
 				the right tools is all it takes to outperform larger organizations
 				which are often more concerned with their pecking order than their
 				productivity. Good workers want, need, and deserve responsibility
-				for their work. We’re busy building applications for companies who
+				for their work. Weï¿½re busy building applications for companies who
 				know that an empowered team builds a more effective business.</p>
 		</div>
 		<blockquote>
@@ -188,7 +188,7 @@
 						</span>
 				
 				</li>
-				<li><em>The Developer’s Code</em> (Pragmatic Bookshelf, 2011)</li>
+				<li><em>The Developerï¿½s Code</em> (Pragmatic Bookshelf, 2011)</li>
 				<li>
 					<div class="photo">
 						<img
