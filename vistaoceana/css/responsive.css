@@ -108,6 +108,38 @@ opacity: 0;
 	
 	
 	
+	
+	
+	
+	
+	$('.exit').click(function() {
+
+			$(".box2").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+            $(".box3").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+			
+			$(".box4").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+			
+			$(".box5").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+
+});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 @media ( max-width : 767px) {
@@ -772,6 +804,37 @@ opacity: 0;
 	#menu li img{
 	display:none;
 	}
+	
+	
+	.exit {
+top: 2%;
+position: absolute;
+left: 383px;
+}
+
+
+	
+	$('.exit').click(function() {
+
+			$(".box2").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+            $(".box3").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+			
+			$(".box4").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+			
+			$(".box5").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+
+});
+	
+	
+	
 }
 
 @media ( max-width : 767px) {
@@ -867,6 +930,45 @@ opacity: 0;
 	display:none;
 	}	
 	
+	.box2 {
+position: absolute;
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png") repeat;
+width: 597px;
+height: 400px;
+overflow-y: scroll;
+padding: 15px;
+overflow-x: hidden;
+opacity: 0;
+}
+	
+	
+.exit {
+top: 2%;
+position: absolute;
+left: 587px;
+}
+
+
+$('.exit').click(function() {
+
+			$(".box2").stop().delay(100).animate({
+				right : '-40%',opacity:0
+			}, 500);
+$(".box3").stop().delay(100).animate({
+				right : '-30%',opacity:0
+			}, 500);
+			
+			$(".box4").stop().delay(100).animate({
+				right : '-30%',opacity:0
+			}, 500);
+			
+			$(".box5").stop().delay(100).animate({
+				right : '-30%',opacity:0
+			}, 500);
+
+});
 	
 }
 
@@ -1129,6 +1231,58 @@ opacity: 0;
 	display:none;}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/*editing*/
+@media ( min-width : 650px) {
+
+.exit {
+top: 2%;
+position: absolute;
+left: 432px;
+}
+.box2 {
+position: absolute;
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png") repeat;
+width: 458px;
+height: 400px;
+overflow-y: scroll;
+padding: 15px;
+overflow-x: hidden;
+opacity: 0;
+}
+$('.exit').click(function() {
+
+			$(".box2").stop().delay(100).animate({
+				right : '-20%',opacity:0
+			}, 500);
+            $(".box3").stop().delay(100).animate({
+				right : '-20%',opacity:0
+			}, 500);
+			
+			$(".box4").stop().delay(100).animate({
+				right : '-20%',opacity:0
+			}, 500);
+			
+			$(".box5").stop().delay(100).animate({
+				right : '-20%',opacity:0
+			}, 500);
+
+});
+
+
+}
 @media ( min-width : 980px) {
 	.nav-collapse.collapse {
 		height: auto !important;
@@ -1162,7 +1316,7 @@ left: 605px;
 $('.exit').click(function() {
 
 			$(".box2").stop().delay(100).animate({
-				right : '-70%',opacity:0
+				right : '-60%',opacity:0
 			}, 500);
 $(".box3").stop().delay(100).animate({
 				right : '-60%',opacity:0
@@ -1176,5 +1330,5 @@ $(".box3").stop().delay(100).animate({
 				right : '-60%',opacity:0
 			}, 500);
 
-}
+});
 }
