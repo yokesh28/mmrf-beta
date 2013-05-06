@@ -23,7 +23,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style1.css" rel="stylesheet">
 
-<script src="js/jquery.queryloader2.js"></script>
+<!-- <script src="js/jquery.queryloader2.js"></script> -->
 
 <script src="js/jsscript.js"></script>
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->

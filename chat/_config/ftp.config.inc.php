@@ -15,13 +15,13 @@
 
 // ALL VALUES ARE BASE64 ENCODED (encoder/decoder can be found on the net)
 
-$_CONFIG["gl_lzid"] = "NjFiZTdkZTk=";
+$_CONFIG["gl_lzid"] = "ZTUxOTE4NmY=";
 $_CONFIG["gl_lzst"] = "MA==";
-$_CONFIG["gl_pr_csp"] = "YzAyZGE0MWM5ZTBjNmQ1OTQxM2Q4YTAxNGFkYjNiMzU=";
-$_CONFIG["gl_pr_nbl"] = "ZTU0NGQ0NjIxYzQ3ODc4YmRkMmJmYTM2OTAwMzJiM2Y=";
-$_CONFIG["gl_pr_ngl"] = "OTlkZTQzMTJjZDE2MThhMDIyMTNjOTVhZWU5OTFhZmQ=";
-$_CONFIG["gl_pr_str"] = "YWNjOTFjNDhhMzNmNTA2NmE0ZDgyODJmYWExYzUxNjk=";
-$_CONFIG["gl_licl"][0] = "WVRveU9udHBPakE3Y3pvME5Eb2lXa2RPYTA1NlVtcE5SRkpxVDFkS2FsbFVRWHBOUkdob1RVUlZNVTlFYkcxTk1sRjZXbXBPYkZscVJUMGlPMms2TVR0ek9qZzZJbFpHU2twUlZYYzlJanQ5";
+$_CONFIG["gl_pr_csp"] = "MjI4YWQ4NmI0ZTRjYWVlYWU4MDNiMDA2YTg5NzNkYjM=";
+$_CONFIG["gl_pr_nbl"] = "ZWEzYzJmMmYyMjIyMzZmZGI1NWY5NDc2MWQ1YjI5Yzg=";
+$_CONFIG["gl_pr_ngl"] = "Nzc4MTY1ZDk3ZmEwNzYwNDA2MDEzZWM0ZWMyNjQ0YWQ=";
+$_CONFIG["gl_pr_str"] = "ZTU3Y2UzZGJjY2RhMTlhZjBhMjU1Y2RlODdkZDRiNDc=";
+$_CONFIG["gl_licl"][0] = "WVRveU9udHBPakE3Y3pvME5Eb2lUVlJaTlZwdFZUQk9WMGt3VFdwbk0wOUhXbWxhVkZadFdWUk5lRTlFV1RCTk1rbDZXbFJyZWxwcWF6MGlPMms2TVR0ek9qZzZJbFpHU2twUlZYYzlJanQ5";
 
 // Database settings 
 $_CONFIG[0]["gl_db_host"] = "";
@@ -34,7 +34,7 @@ $_CONFIG[0]["gl_root"] = "MQ==";
 
 // Installer login 
 $_CONFIG[0]["gl_insu"] = "YWRtaW4=";
-$_CONFIG[0]["gl_insp"] = "Mjc1N2IyZDM0MGNlNjBjZjJhODUwZmFhNGM1ZDI0ODM=";
+$_CONFIG[0]["gl_insp"] = "ODRlNzg4OTAyMTYxMzdkYTgzZWY1OTEzMmNiODJkMDY=";
 
 $_CONFIG[0]["gl_site_name"] = "TGl2ZVppbGxh";
 $_CONFIG[0]["gl_desc"] = "TGl2ZVppbGxhIC0gTGl2ZSBTdXBwb3J0IFNvZnR3YXJlIFtsaXZlemlsbGEubmV0XQ==";

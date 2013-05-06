@@ -23,12 +23,12 @@
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet"> 
+<link href="css/style.css" rel="stylesheet">
 
 <link href="css/style1.css" rel="stylesheet">
 <link href="css/project.css" rel="stylesheet">
 <link href="css/res.css" rel="stylesheet">
-<script src="js/jquery.queryloader2.js"></script>
+<!-- <script src="js/jquery.queryloader2.js"></script> -->
 
 <script src="js/jsscript.js"></script>
 
@@ -64,80 +64,59 @@
 			class="backimage back">
 		<?php include 'header.php';?>
 
-<div class="hidden-desktop tab-menu">
+		<div class="hidden-desktop tab-menu">
 			<span class="active on">On Going</span> <span class="up">Up Coming</span>
 		</div>
 		<div class="projectdetail">
-		<div class="row visible-desktop">
-			<div class="ong">
-				<p>Ongoing</p>
-			</div>
-			<div class="upc">
-				<p>Upcoming</p>
+			<div class="row visible-desktop">
+				<div class="ong">
+					<p>Ongoing</p>
+				</div>
+				<div class="upc">
+					<p>Upcoming</p>
+				</div>
+
 			</div>
 
+
+			<div class="center">
+				<div class="visible-desktop building">
+					<img src="images/images/build.gif" class="img-polaroid">
+				</div>
+
+				<div class="textright1 enclave pull-left" style="cursor: pointer;">
+					<img src="images/sai1.jpg" class="img-polaroid">
+
+				</div>
+
+
+
+
+				<div class="textleft1 padur pull-left" style="cursor: pointer;">
+					<img src="images/pud1.jpg" class="img-polaroid">
+
+				</div>
+				<div class="visible-desktop">
+					<img src="img/pad.jpg" class="img-polaroid">
+				</div>
+
+			</div>
+
+
+			<div class="center1">
+				<div class="building pull-left visible-desktop">
+					<img src="img/padur.jpg" class="img-polaroid">
+				</div>
+
+				<div class="textright1 ottiyam pull-left " style="cursor: pointer;">
+					<img src="images/otti.jpg" class="img-polaroid">
+
+				</div>
+
+			</div>
 		</div>
-
-
-		<div class="center">
-			<div class="visible-desktop building">
-				<img src="images/images/build.gif" class="img-polaroid">
-			</div>
-
-			<div class="textright1 enclave pull-left" style="cursor: pointer;">
-				<img src="images/sai1.jpg" class="img-polaroid">
-
-			</div>
-
-
-
-
-			<div class="textleft1 padur pull-left" style="cursor: pointer;">
-				<img src="images/pud1.jpg" class="img-polaroid">
-
-			</div>
-			<div class="visible-desktop">
-				<img src="img/pad.jpg" class="img-polaroid">
-			</div>
-
-		</div>
-
-
-		<div class="center1">
-			<div class="building pull-left visible-desktop">
-				<img src="img/padur.jpg" class="img-polaroid">
-			</div>
-
-			<div class="textright1 ottiyam pull-left " style="cursor: pointer;">
-				<img src="images/otti.jpg" class="img-polaroid">
-
-			</div>
-
-		</div>
-
-
-
-
-
-</div>
-		
-
-							
-
-
-
-
-
-
-	<?php include 'footer.php';?>
-
-
-
-
-
-	
-			
-<script>
+		<?php include 'footer.php';?>
+		<script>
 			$('.tab-menu span').click(function(){
 				var current=this;
 				$('.tab-menu').find('span').each(function(){
@@ -162,16 +141,7 @@
 			
 				console.log($(window).width());
 			});
-		</script>
-
-
-
-
-
-
-	
-
-	<script>
+			
 	$('.ong').click(function() {
 		 $('.center').fadeIn();
 		 $('.center1').fadeOut();
@@ -198,9 +168,6 @@
 
 			
 			
-	</script>
-
-	<script type="text/javascript">
 		$(document).ready(function() {
 		
 
@@ -208,10 +175,10 @@
 		});
 		</script>
 
-	<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 
 
-	<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
 
 </body>
 </html>
