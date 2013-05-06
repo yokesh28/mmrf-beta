@@ -66,7 +66,7 @@
 	</div>
 
 	<div class="container1">
-		<div class="contact row">
+		<div class="contact row visible-desktop">
 
 			<h2>Contact Us</h2>
 
@@ -210,28 +210,6 @@
 			</div>
 
 		</div>
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	<div class="scrolldown">
 

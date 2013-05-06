@@ -77,6 +77,22 @@
 	.hidden-tablet {
 		display: none !important;
 	}
+	
+	#menu li img{
+	display:none;
+	}
+	
+	.box1 li {
+margin: 36px 11px;
+	}
+	
+	.box1 ul {
+float: right;
+margin-right: 30%;
+}
+	
+	
+	
 }
 
 @media ( max-width : 767px) {
@@ -859,6 +875,9 @@
 	.carousel-caption {
 		position: static;
 	}
+	
+	
+	
 }
 
 @media ( max-width : 979px) {
