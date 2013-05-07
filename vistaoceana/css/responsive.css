@@ -83,12 +83,28 @@
 	}
 	
 	.box1 li {
-margin: 36px 11px;
+margin: 34px 6px !important;
 	}
 	
 	.box1 ul {
 float: right;
-margin-right: 30%;
+margin-right: 26% !important;
+}
+	
+	
+	#menu li span {
+padding-left: 0px;
+float: none;
+padding-bottom: 20px;
+padding: 0px;
+border-bottom: 1px solid #5CC7D1;
+}
+	
+	.logo {
+float: right;
+margin-right: 0%;
+margin-top: 6px;
+cursor: pointer;
 }
 	
 	
@@ -1231,10 +1247,25 @@ opacity: 0;
 	display:none;}
 }
 
+.exit {
+top: 2%;
+position: absolute;
+left: 561px;
+}
 
-
-
-
+.box8 {
+position: absolute;
+top: 27%;
+right: -60%;
+width: 492px;
+text-align: justify;
+height: 155px;
+overflow-y: scroll;
+padding: 50px;
+overflow-x: hidden;
+background: url("../menulist/color.png") repeat;
+opacity: 0;
+}
 
 
 
@@ -1248,20 +1279,45 @@ opacity: 0;
 .exit {
 top: 2%;
 position: absolute;
-left: 432px;
+left: 553px;
 }
 .box2 {
 position: absolute;
 top: 27%;
 right: -87%;
 background: url("../menulist/color.png") repeat;
-width: 458px;
+width: 622px;
 height: 400px;
 overflow-y: scroll;
 padding: 15px;
 overflow-x: hidden;
 opacity: 0;
 }
+
+.box4 {
+position: absolute;
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png") repeat;
+width: 525px;
+height: 400px;
+overflow-y: scroll;
+padding: 25px;
+opacity: 0;
+}
+
+.box3 {
+position: absolute;
+top: 27%;
+right: -87%;
+width: 562px;
+height: 400px;
+opacity: 0;
+}
+
+
+
+
 $('.exit').click(function() {
 
 			$(".box2").stop().delay(100).animate({
