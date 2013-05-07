@@ -77,6 +77,85 @@
 	.hidden-tablet {
 		display: none !important;
 	}
+	
+	#menu li img{
+	display:none;
+	}
+	
+	.box1 li {
+margin: 34px 6px !important;
+	}
+	
+	.box1 ul {
+float: right;
+margin-right: 26% !important;
+}
+	
+	
+	#menu li span {
+padding-left: 0px;
+float: none;
+padding-bottom: 20px;
+padding: 0px;
+border-bottom: 1px solid #5CC7D1;
+}
+	
+	.logo {
+float: right;
+margin-right: 0%;
+margin-top: 6px;
+cursor: pointer;
+}
+	
+	
+	.box5 {
+position: absolute;
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png") repeat;
+width: 68% !important;
+height: 400px !important;
+overflow-y: scroll;
+opacity: 0;
+}
+	#menu li img{
+	display:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	$('.exit').click(function() {
+
+			$(".box2").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+            $(".box3").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+			
+			$(".box4").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+			
+			$(".box5").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+
+});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 @media ( max-width : 767px) {
@@ -92,6 +171,18 @@
 	.hidden-phone {
 		display: none !important;
 	}
+	
+	/*editing*/
+	.table1{
+	display:none;
+    }
+    #menu li img{
+	display:none;
+	}
+
+
+
+
 }
 
 @media ( min-width : 1200px) {
@@ -723,6 +814,43 @@
 	input.span1,textarea.span1,.uneditable-input.span1 {
 		width: 28px;
 	}
+	
+	
+	/*editing*/
+	#menu li img{
+	display:none;
+	}
+	
+	
+	.exit {
+top: 2%;
+position: absolute;
+left: 383px;
+}
+
+
+	
+	$('.exit').click(function() {
+
+			$(".box2").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+            $(".box3").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+			
+			$(".box4").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+			
+			$(".box5").stop().delay(100).animate({
+				right : '-50%',opacity:0
+			}, 500);
+
+});
+	
+	
+	
 }
 
 @media ( max-width : 767px) {
@@ -809,6 +937,55 @@
 	.modal.fade.in {
 		top: 20px;
 	}
+	
+	/*editing*/
+	.table1{
+	display:none;
+}
+#menu li img{
+	display:none;
+	}	
+	
+	.box2 {
+position: absolute;
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png") repeat;
+width: 597px;
+height: 400px;
+overflow-y: scroll;
+padding: 15px;
+overflow-x: hidden;
+opacity: 0;
+}
+	
+	
+.exit {
+top: 2%;
+position: absolute;
+left: 587px;
+}
+
+
+$('.exit').click(function() {
+
+			$(".box2").stop().delay(100).animate({
+				right : '-40%',opacity:0
+			}, 500);
+$(".box3").stop().delay(100).animate({
+				right : '-30%',opacity:0
+			}, 500);
+			
+			$(".box4").stop().delay(100).animate({
+				right : '-30%',opacity:0
+			}, 500);
+			
+			$(".box5").stop().delay(100).animate({
+				right : '-30%',opacity:0
+			}, 500);
+
+});
+	
 }
 
 @media ( max-width : 480px) {
@@ -859,6 +1036,68 @@
 	.carousel-caption {
 		position: static;
 	}
+	
+	
+	
+	/*editing*/
+	.box {
+background: url("../header/box.jpg");
+top: 3%;
+position: absolute;
+height: 112px;
+width: 87%;
+left: -15%;
+}
+
+.box1 {
+background: white;
+position: absolute;
+width: 100%;
+height: 112px;
+top: 3%;
+right: -67%;
+}
+
+.box7 {
+position: absolute;
+top: 27%;
+
+background: url("../menulist/color.png") repeat;
+width: 175px;
+text-align: justify;
+height: 408px;
+overflow-y: hidden;
+padding: 18px;
+overflow-x: hidden;
+opacity: 0;
+}
+
+	
+.table1{
+	display:none;
+}	
+	
+.exit {
+top: 2%;
+position: absolute;
+left: 232px;
+}	
+	
+.box2 {
+position: absolute;
+
+background: url("../menulist/color.png") repeat;
+width: 212px;
+height: 500px;
+overflow-y: scroll;
+padding: 0px;
+overflow-x: hidden;
+opacity: 0;
+}	
+	
+	
+	
+	
 }
 
 @media ( max-width : 979px) {
@@ -1003,11 +1242,149 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	
+	.table1{
+	display:none;}
 }
 
+.exit {
+top: 2%;
+position: absolute;
+left: 561px;
+}
+
+.box8 {
+position: absolute;
+top: 27%;
+right: -60%;
+width: 492px;
+text-align: justify;
+height: 155px;
+overflow-y: scroll;
+padding: 50px;
+overflow-x: hidden;
+background: url("../menulist/color.png") repeat;
+opacity: 0;
+}
+
+
+
+
+
+
+
+/*editing*/
+@media ( min-width : 650px) {
+
+.exit {
+top: 2%;
+position: absolute;
+left: 553px;
+}
+.box2 {
+position: absolute;
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png") repeat;
+width: 622px;
+height: 400px;
+overflow-y: scroll;
+padding: 15px;
+overflow-x: hidden;
+opacity: 0;
+}
+
+.box4 {
+position: absolute;
+top: 27%;
+right: -87%;
+background: url("../menulist/color.png") repeat;
+width: 525px;
+height: 400px;
+overflow-y: scroll;
+padding: 25px;
+opacity: 0;
+}
+
+.box3 {
+position: absolute;
+top: 27%;
+right: -87%;
+width: 562px;
+height: 400px;
+opacity: 0;
+}
+
+
+
+
+$('.exit').click(function() {
+
+			$(".box2").stop().delay(100).animate({
+				right : '-20%',opacity:0
+			}, 500);
+            $(".box3").stop().delay(100).animate({
+				right : '-20%',opacity:0
+			}, 500);
+			
+			$(".box4").stop().delay(100).animate({
+				right : '-20%',opacity:0
+			}, 500);
+			
+			$(".box5").stop().delay(100).animate({
+				right : '-20%',opacity:0
+			}, 500);
+
+});
+
+
+}
 @media ( min-width : 980px) {
 	.nav-collapse.collapse {
 		height: auto !important;
 		overflow: visible !important;
 	}
+	
+
+
+
+/*editing*/
+.table1{
+	display:none;}
+
+.exit {
+top: 2%;
+position: absolute;
+left: 605px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+$('.exit').click(function() {
+
+			$(".box2").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+$(".box3").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+			
+			$(".box4").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+			
+			$(".box5").stop().delay(100).animate({
+				right : '-60%',opacity:0
+			}, 500);
+
+});
 }

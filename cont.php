@@ -66,7 +66,7 @@
 	</div>
 
 	<div class="container1">
-		<div class="contact row">
+		<div class="contact row visible-desktop">
 
 			<h2>Contact Us</h2>
 
@@ -77,7 +77,7 @@
 
 				<iframe width="425" height="350" frameborder="0" scrolling="no"
 					marginheight="0" marginwidth="0"
-					src=" http://regiohelden.de/google-maps/map_en.php?width=1100&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"></iframe>
+					<img src=" http://regiohelden.de/google-maps/map_en.php?width=1100&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"></iframe>
 				<br /> <small><a
 					href="http://regiohelden.de/google-maps/map_en.php?width=1100&amp;height=300&amp;hl=en&amp;q=New%20no.%2021%2C%20Old%20no.8%2C%201st%20Avenue%2C%20%20Indra%20Nagar%2C%20Adyar%2C%20Chennai%20-%20600020.+(MMRF%20Realty%20and%20Infrastructure%20Pvt.%20Ltd.)&amp;ie=UTF8&amp;t=&amp;z=19&amp;iwloc=A&amp;output=embed"
 					style="color: #0000FF; text-align: left">View Larger Map</a> </small>
@@ -95,7 +95,7 @@
 
 				<h2>Contact Info</h2>
 				<address>
-					<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
+		<h5>MMRF Realty and Infrastructure Pvt. Ltd.</h5>
 					New no. 21, Old no.8, 1st Avenue, <br> Indra Nagar, Adyar,<br>
 					Chennai - 600020,<br> India.<br> <br> Phone : +91 98400 09118, 20 <br>
 					<br> Mail : info@mmrf.in<br> Website : www.mmrf.in
@@ -213,7 +213,9 @@
 			</div>
 		</div>
 
+
 	</div>
+
 
 
 
