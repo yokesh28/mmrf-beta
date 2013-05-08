@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LiveZilla version="4.2.0.5">
+  <server>
+    <item lastsiteselected="" httpkeepalive="True" localdirectory="C:\xampp\htdocs\mmrf-beta\chat" savepassword="True" location="Local" validated="False" autologin="True" selected="False" ftpproxybypasslocal="True" ftpproxyauthentication="False" ftpproxyusername="" ftpproxypassword="" httppassword="bW1yZjEyMw==" httpusername="YWRtaW4=" ftpproxyusage="False" ftpproxyport="3128" autologininstancenumber="1" defaultloginstatus="Online" ftpproxytype="HttpConnect" httpproxybypasslocal="True" httpproxyusage="False" httpproxyauthentication="False" httpproxyusername="" httpproxypassword="" httpusestandardproxy="True" httpproxyport="3128" httpproxytype="HttpConnect" ftppassive="False" httpuri="http://mmrf.in/chat/" ftphost="" ftpfolder="/livezilla" id="mmrf" ftpuser="" ftpport="21" ftpanonymous="False" />
+  </server>
+</LiveZilla>
