@@ -49,7 +49,7 @@
     <item key="ShowReportInBrowser">False</item>
     <item key="CloseOnAccept">False</item>
     <item key="OrderOperatorsByGroups">True</item>
-    <item key="StartupCounter">9</item>
+    <item key="StartupCounter">11</item>
     <item key="ShowRightPanel">True</item>
     <item key="HideDomains">False</item>
     <item key="SoundVolume">10</item>
@@ -132,7 +132,7 @@
     <item key="AutoScroll">True</item>
     <item key="HintWorkInBackGround">True</item>
     <item key="MessageCenterNewExternChat">True</item>
-    <item key="MessageCenterNewVisitor">True</item>
+    <item key="MessageCenterNewVisitor">False</item>
     <item key="MessageCenterNewTicket">True</item>
     <item key="MessageCenterNewMessage">True</item>
     <item key="MessageCenterInternalLoggedOn">True</item>
