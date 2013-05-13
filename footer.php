@@ -146,7 +146,9 @@
 
 		</div>
 	</div>
-
+<iframe src="https://www.facebook.com/plugins/like.php?href=http://www.facebook.com/mmrfindia"
+        scrolling="no" frameborder="0"
+        style="border:none; width:450px; height:80px; margin: 0px 0px 0px 50px; "></iframe>
 	<span class="copyright">Copyright &#64; 2013. MMRF. All Rights
 		Reserved</span>
 

@@ -200,6 +200,7 @@
 	box-shadow: 0 0 50px #222;
 }
 </style>
+
 <script src="js/bootstrap-tab.js"></script>
 <script type="text/javascript">
 		$(document).ready(function() {
