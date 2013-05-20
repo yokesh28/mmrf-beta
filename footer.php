@@ -64,8 +64,24 @@
 				<div class="emical">
 					<a href="#emi" data-toggle="modal"><h5>
 							<img src="images/cal.png">&nbsp; EMI Calculator
-						</h5> </a>
+						</h5>
+																					
+						 </a>
 				</div>
+				<div class="">
+				<iframe src="https://www.facebook.com/plugins/like.php?href=http://www.facebook.com/mmrfindia"
+         scrolling="no" frameborder="0"
+        style="border:none; width:450px; height:62px; margin: 4px 0px 0px 100px; "></iframe>
+        
+				</div>
+				<div class="twitter">
+				<a href=" https://twitter.com/mmrfindia" target="_blank">
+							<img src="images/twitter.png">
+						
+																					
+						 </a>
+				</div>
+				
 				<div class="emiloan">
 					<h5>Designed by:</h5>
 					<a href="http://s-creative.me" target="_blank" class="desined">
@@ -146,9 +162,7 @@
 
 		</div>
 	</div>
-<iframe src="https://www.facebook.com/plugins/like.php?href=http://www.facebook.com/mmrfindia"
-        scrolling="no" frameborder="0"
-        style="border:none; width:450px; height:80px; margin: 0px 0px 0px 50px; "></iframe>
+
 	<span class="copyright">Copyright &#64; 2013. MMRF. All Rights
 		Reserved</span>
 

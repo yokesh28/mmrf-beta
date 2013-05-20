@@ -26,9 +26,21 @@
 
 <script src="js/jquery.mobilemenu.js"></script>
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- <script src="js/jquery.queryloader2.js"></script> -->
 
-<script src="js/jsscript.js"></script>
+
 
 <!-- Add fancyBox main JS and CSS files -->
 <script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>

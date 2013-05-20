@@ -28,6 +28,7 @@
 <link href="css/style1.css" rel="stylesheet">
 <link href="css/res.css" rel="stylesheet">
 <link rel="stylesheet" href="css/easy-fancybox.css">
+<link href="css/bootslider.css" rel="stylesheet">
 
 
 
@@ -91,10 +92,29 @@
 				greater value to life in so many ways.
 			</p>
 		</div>
-
-
-
-
+ 
+<br>
+<br>
+<br>
+     
+	<h2>Patnerships slider</h2>
+      <div id="patnerSlider" class="carousel carousel-patner slide" style="margin-top: 420px; margin-left: 590px; position: fixed;">
+        <div class="carousel-inner">
+          <div class="active item">
+            <ul class="thumbnails" style="background-color: white; width:135px; height:150px;">
+              <li class="thumbnail" style="margin-top: 18px; margin-right: 20px;"><a href="http://mmrf.in/saienclave" target="_blank"><img src="images/enclave.png" alt="Patner">SAIENCLAVE</a></li>
+              
+            </ul>
+          </div>
+          <div class="item">
+            <ul class="thumbnails" style="background-color: white; width:135px; height:150px;">
+              <li class="thumbnail" style="margin-top: 15px; margin-right: 20px;"><a href="http://mmrf.in/vistaoceana" target="_blank"><img src="images/vislogo.png" alt="Patner">VISTAOCEANA</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+		
 
 		<?php include 'footer.php';?>
 	</div>
@@ -184,7 +204,10 @@ var script = document.createElement("script");script.async=true;script.type="tex
 			width="0" height="0" style="visibility: hidden;" alt="">
 	</noscript>
 	<!-- http://www.LiveZilla.net Tracking Code -->
-
+<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootslider.js"></script>
+	
 </body>
 </html>
 

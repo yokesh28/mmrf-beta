@@ -29,7 +29,7 @@
 <script src="js/bootstrap.min.js"></script>
 <!-- <script src="js/jquery.queryloader2.js"></script> -->
 
-<script src="js/jsscript.js"></script>
+
 <script src="js/jquery.mobilemenu.js"></script>
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
