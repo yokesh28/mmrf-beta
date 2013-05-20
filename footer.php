@@ -76,7 +76,7 @@
 				</div>
 				<div class="twitter">
 				<a href=" https://twitter.com/mmrfindia" target="_blank">
-							<img src="images/twitter.png">
+							<img src="images/twitter.png" style="background: none;">
 						
 																					
 						 </a>
