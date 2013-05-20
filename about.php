@@ -48,7 +48,7 @@
 			<div class="vission">
 
 
-				<div class="tab-content span9">
+				<div class="tab-content span9 about_content">
 					<div class="tab-pane active overview effect1" id="aboutcontent">
 						<h4 class="">
 							<img src="images/group.png" class="img-rounded"
