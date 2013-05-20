@@ -79,7 +79,7 @@
 						</h4>
 						<div class="mange_over">
 							<div class="span12"></div>
-							<div class="content span12">
+							<div id="mayflower" class="content span12">
 								<img src="img/about.png">
 								<h4>Mr.V.Mohan</h4>
 
@@ -105,7 +105,7 @@
 
 
 
-							<div class="content span12">
+							<div id="mounthousing" class="content span12">
 								<img src="img/about.png">
 								<h4>Mr. Ramesh Bafna</h4>
 								<h5>
@@ -122,7 +122,7 @@
 									underway.</p>
 							</div>
 
-							<div class="content span12">
+							<div id="ramanirealtors" class="content span12">
 								<img src="img/about.png">
 								<h4>Mr. V. Subramanian</h4>
 								<h5>
@@ -147,7 +147,7 @@
 									families and over 4 million sq ft of completed constructions.<br>
 								</p>
 							</div>
-							<div class="content span12">
+							<div id="fairyland" class="content span12">
 								<img src="img/about.png">
 								<h4>Mr. Saravanan</h4>
 								<h5>

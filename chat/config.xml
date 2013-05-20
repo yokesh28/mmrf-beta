@@ -2,7 +2,7 @@
 <LiveZilla version="4.2.0.5">
   <clientConfiguration>
     <item key="RightToLeft">False</item>
-    <item key="ONEInit">0</item>
+    <item key="ONEInit">1369021220</item>
     <item key="AdvancedTextControl">True</item>
     <item key="ChatTicketSortColumn">2</item>
     <item key="ChatTicketSortDirection">1</item>
@@ -49,7 +49,7 @@
     <item key="ShowReportInBrowser">False</item>
     <item key="CloseOnAccept">False</item>
     <item key="OrderOperatorsByGroups">True</item>
-    <item key="StartupCounter">19</item>
+    <item key="StartupCounter">20</item>
     <item key="ShowRightPanel">True</item>
     <item key="HideDomains">False</item>
     <item key="SoundVolume">10</item>

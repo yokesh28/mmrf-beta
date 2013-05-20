@@ -97,19 +97,24 @@
 <br>
 <br>
      
-	<h2>Patnerships slider</h2>
+	
       <div id="patnerSlider" class="carousel carousel-patner slide" style="margin-top: 420px; margin-left: 590px; position: fixed;">
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="background: black;
+opacity: 0.8;
+border-radius: 6px; margin-top:40px; position: fixed;
+width: 410px;
+right: 18%;
+height:120px;">
           <div class="active item">
-            <ul class="thumbnails" style="background-color: white; width:135px; height:150px;">
-              <li class="thumbnail" style="margin-top: 18px; margin-right: 20px;"><a href="http://mmrf.in/saienclave" target="_blank"><img src="images/enclave.png" alt="Patner">SAIENCLAVE</a></li>
-              
+            <ul class="thumbnails" style="margin-top: 13px;">
+              <li class="thumbnail" style=" margin-right: 20px; "><a href="#"><img src="images/may.png" alt="Patner" style="height:90px;"></a></li>
+               <li class="thumbnail" style=" margin-right: 20px; "><a href="#"><img src="images/fairy.png" alt="Patner" style="height:90px;"></a></li>
             </ul>
           </div>
           <div class="item">
-            <ul class="thumbnails" style="background-color: white; width:135px; height:150px;">
-              <li class="thumbnail" style="margin-top: 15px; margin-right: 20px;"><a href="http://mmrf.in/vistaoceana" target="_blank"><img src="images/vislogo.png" alt="Patner">VISTAOCEANA</a></li>
-              
+            <ul class="thumbnails" style="margin-top: 13px;">
+              <li class="thumbnail" style=" margin-right: 20px;"><a href="#"><img src="images/mount.png" alt="Patner" style="height:90px;"></a></li>
+              <li class="thumbnail" style=" margin-right: 20px;"><a href="#"><img src="images/ramani.png" alt="Patner" style="height:90px;"></a></li>
             </ul>
           </div>
         </div>

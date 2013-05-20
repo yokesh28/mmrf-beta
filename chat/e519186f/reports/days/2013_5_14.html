@@ -1,0 +1,3380 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>LiveZilla Statistics</title>
+<STYLE TYPE="text/css">
+<!--
+  .ico_trend_up{margin:0px;width:13px;height:14px; background: url(data:image/gif;base64,R0lGODlhDQAOAOYAAHnTTFa7VpXVlbTsmL7wpZrdeKLdnM3uxH3XUNb3x6Hcm7zuo7/xpqHlgKnhkbLlnYDYVLDplM7vxKHbmmfDZrLrltX0xNLvz47eZXzWT5bfcbHkoH/Mf7jppqniksfzsIrQidLzwoDWVnrUTZLfbZLdbbzuomfCZaHigqrjjtb2xnvVTrfpndL3v8bruKbhidDwybnsoUi2SH7YUdT2wuD42Lvos6vkj9fz0x6lHvv++7Djn5vjd63pj9TxzqjhkoDVVqfgkHjSS3zTUIHNgTqwOv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAEYALAAAAAANAA4AAAd9gEaCg4SFAkSIiYkCgkUcFzg+MAcSGzsBg0UgNS0fJiQjBZiZNjQEPTNCopkGCQwDGCtCLzKNBioEAzwIQkIpRUZFChYLFQ0QAENAN0VFEyExERoZyQ4PLM0uKCUiAEJDQUUnHcBFQUO94OUUwMHn6pk5mT8e7YM6hM2FgoEAOw==) no-repeat}
+  .ico_trend_up_r{margin:0px;width:15px;height:14px; background: url(data:image/gif;base64,R0lGODlhDQAQANUAAPDw8NbW1ujo6MvLy83Nzdra2uDg4Ovr6+Tk5Ly8vN7e3tzc3OLi4tnZ2e3t7dXV1ba2tuPj4+bm5t/f39DQ0Ofn56enp9vb2+/v7/T09PHx8c7OzuXl5be3t+7u7sPDw93d3crKyrKysrGxsczMzPf6/QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACUALAAAAAANABAAAAZzwJJwSCxCRMhkEiIckRwAjONwMEwSwxElAzhUAoMANssBCAyEkDh70QgiD1Jo0WkWzIhGOqQYlUZ3EgwLGwMkBH0jDR4IDAEkhiAGESMjAgUPBAMhJCCVCH4jIHKcnn8ffn+jnal/FlkgfUVFlbO2t7hDQQA7) no-repeat}
+  .ico_trend_down{margin:0px;width:13px;height:14px; background: url(data:image/gif;base64,R0lGODlhDQAOANUmAN7e3uzs7L29vb+/v+jo6OTk5M3NzdXV1d/f39fX1/Hx8e3t7cnJyfLy8tzc3NPT08HBwebm5v39/d3d3eLi4qSkpOXl5cXFxenp6cbGxry8vKGhob6+vtvb2/X19bu7u9nZ2dbW1tTU1Nra2rq6uqqqqv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACYALAAAAAANAA4AAAZvQJNwSCwKSyUjseSxJJVMxYLyNCGtnkaAEAEkSxekRxHAFACOUCmjLmkJBcTowTgYEt9FfCQycAYkIE8lBHwGEB8kgVUlEwwDiYojVVYhAookHx1VIAIiGoofAw5PnSMhIiIHCSNeJhIbSLKyFSVBADs=) no-repeat}
+  .ico_trend_down_r{margin:0px;width:15px;height:14px; background: url(data:image/gif;base64,R0lGODlhDQANAPcAACQkJDGsMT+yP2vEaXPFc3vTUH7WU3/UVIDWVoLaVoTbWYTcWIXXXIjcXX3LfYDMfpXhb5bhcJzdgqzjkZ3leZ/le6vqiqvqi6zri6zhk6fgmqffn6rgnq3jka7hnLPjorPjo6/mk67kl7HllrLpl7btmrbwmbfvmrbxmbTlo7Xlo7XnpLjpp7rrqrvqqbvwob/zpL/0pcD0pbjlsr7ousbpw8r2tMn3ssz2uM7ywtD5vdH6vdn7yNr2z9n6ydz6zOL81uL91uP53eP91+n65Or65er65SqqKqPngKTlg6TogqTpgqjkiqbphqrpiazpjqzqjqvri6zrjJzalJ3blaPdl6Pdm6TenaTfn6bfoafgo67hnLPjorHllrLtk7PvlLXomrfwm7jwnbjxnLnynbnxnrnpo73pp7vso77zpL/0pL/0pcT0rMX1rMfys8b1rsb1rcb2rcr2tMv4tcz4tcz4tc73us70vc/1vdD4vM/5u9D6vNT6wtX6wtb6w9f2xtj4yNn6yNr6ytr7ytv7yt75zt/7z+D60eD80OD90OP62Ob72+f83en83+n93un84On+3+795vH+6vL+6vL+6/L/6ySnJLPnorbppLjnobjnorrpo7nmrLrrorrvoLjxo7ryo7ntp7r6m7rypL3ppr3pp77pqb7qqMDprMDqrLzrpLzupL7wpb/rqb7tp8Dsq8Dtq8DwqcHwqsLurMLvrLzzob31o73yo7/4o7/2pMD3pcPyq73nscDptb/puMPpuMPsrcXur8XrssTwrcTxrsbsssbss8byr8bwscfutcbrvMX1s8jys8ntt8ruuMnwtcvxt8zvucrswM3uvczvvMzxu87vvc7wvczuxM/xvtDywNHwwtLxw9PyxNTyxtbyyMzyudLzwtfyydjzytj0y9z0ztzy1Nzy1dzz1d301uH11+H11+H11+H12OT22+f43ySnJM/yvtHywtPyxNXyx9jyy9jyytn0zNryztz0z+D11d/10+H11+X43CSnJD+M2SH5BAEAAAAALAAAAAANAA0AAAiHAAEIBCBAwMCDAwUQqWEQoUABRoD8oNGQoEGIQ3jowDHjooOCRYLw2HEDxosNAh5wKCjEh44bMkxYiKBBgoeLPWzEQIGBQgIGBT40FJDjxIUKDQwUKACiogAXEBQoXZqiIkERCJYWMLCiIoEBGQ4sNbCARcOvKkZM6BCCRIkWDY8UnDs3gICAADs=) no-repeat}
+  .ico_trend_const{padding:0px;margin:0px;width:11px;height:14px; background: url(data:image/gif;base64,R0lGODlhCwAEAMQAAMPDw8bGxsLCwtPT09LS0s3NzcDAwMnJyeXl5cjIyNTU1MTExNHR0eHh4b6+vru7u7+/v9nZ2by8vNDQ0NfX187OzsvLy9jY2NbW1srKygAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAQAAAUj4MUMChZFFJZZ1lVRDdK42JQV0FIRU+BYmQNA8nAYIERBIgQAOw==) no-repeat;background-position:center;}
+  .ico_trend_new{padding:0px;margin:0px;width:14px;height:14px; background: url(data:image/gif;base64,R0lGODlhDQANANU+ACipKMPrtlu8Wz2xPTOsM8Xst2y+bIXUbNDzxYvWcsLptpLdbLPtlovaZKzjkZHcaovZY4vhYJnXmZjhhLztq+D51+j+3ZfcdorZcsbxtJHabITWW6LaotX8wtH0xMD0pkS0RHLHcoLRa6fcp7PuljivOMHtr87txIHXVsv4tMbwuYbXXZrcgqvwiKDih9n3zpzmgVi8WMnytZfbgYzXc43cZsjvuqThht722H7UU37HfpfagGK7Yla3Vvf6/QAAACH5BAEAAD4ALAAAAAANAA0AAAZrQJ/QxxtJOLyh0terWHC95bD36iCiUqYnpcIKDbqwIPOhCMI6A0gRKNhkJIapEDiFBpfcBlJbPBorOTcAADQ7hw45GgmHMzE8PZEEOzkiBJE9SVMsKAdeSz0uERifSj0wLROlQzwAAyWaQkEAOw==) no-repeat;background-position:center;}
+  .ico_info{cursor:pointer;padding:0px;margin:0px;width:16px;height:16px; background: url(data:image/gif;base64,R0lGODdhEAAQAOcAAAAAAAuI2RaO3C2a4Tig41al31um31+o31+p30yh4E6s6FGk4VOk4Vam4lqn4Fqy62yu3m+v32Os4mSu5HO36Xi76Xy86nvE8oXB64nC7Y7G7YfK9ZzO9ZvO/5zO/5zP/5LQ95/S857S/5/S/53W+qHE3aDS86PV86DR/6HR/6DS/6HU/6fX/6zW9qnU/6vX/6/X/6/c9anY/6ra/6zb/6/Y/a/Z/azc/7Ha9bfe9bDe/7Hf/7Ta+Lje/7ne/7Hg/7Ti/7Xi/7bj/73g97ng/7rj/7vj/7nk/77g/b3l/73m/77o/8Hk/8Ln/8Tl+MTn/8Lq/8Tp/8Xt/8bs/8rq+Mrr/8js/8nv/8vs/8vt/8zq/83q/8/s+c7x/8/x/9Pu/9Pv/9Dw/9Lw/9Py/9Tz/db3/9v0/9v1/9v2/9n4/9v4/+L6/+P6/+P9/+X7/uT9/+X8/+j+/wCD17Dg/7Pg/7Tg/7Xg/7Ti/7fg/7fh/7bi/7fj/7zk9r3l9rji/7jj/7ni/7nj/7vj/7jl/7rk/7rl/7vl/7rm/7zh/7zj/73i/7/j/73k/73l/7zm/73m/7/m/7/n/73o/77o/7/p/8Dk/8Hl/8Hm/8Hn/8Lm/8Pm/8Xk/8Tn/8bl/8Do/8Ho/8Hp/8Lp/8Po/8Pp/8Tp/MXp/MXp/8Tq/8Xr/8bp/8fp/8bs/8bt/8fs/8ft/8nn/8no/8np/8nq/Mnr/8ro/8js/8jt/8vs/8ru/8rv/8vv/83q/87q/8zt/83v/M3v/8/s/87v/8zw/83x/87w/M/w/8/x/9Ht/dDs/9Dv/9Pu/9Tv/9Dw/9Dx/9Dz/9Hz/9Px/NLx/9Ly/9Py/9L0/9Tw/9Ty/9Xz/9T0/9X2/9b0/9b3/9f3/9jy/9nz/9n0/9j2/9n2/9n3/9v0/dr0/9v0/9r3/972/973/9v4/9v6/9z4/9z7/937/9/4/938/978/9/8/+L5/+P5/+L9/+P9/+T7/+T8/+X8/+X9/+b8/+f+/+j9/+j+/wCD1wCD1yH5BAEAAAAALAAAAAAQABAAAAjkAAEIBFACwoIJDSCUGMgQgAEMVNzEccNFA4KGABzkYAPnTZs3cNY4kcDQAI4zaNJIAbKkDBozQw4ILGEBjBgvV0DIIQCli5gvGRZCaLElypQlJAQ8WDIlihYeEQAkQMLEiBIhCgYoOJKkCBMkDAAsgPGCxY0fF+QM2EGDxQsYC6TWcPFhxIoNameI+ODCRgIAEDj0QNFBBd4BMzyk8MEBAkEKT4jI0PFAToANMog8obDQYYgqTYIAGQ2kCRYTBhgWODEmTBYrWcKMOVEAo4EKMcioIROjQmqMBCEkWJBAIfDjGAMCADs=) no-repeat}
+  body{font-family:arial,verdana;font-size:11px;matgin:0px;background:#ffffff;}
+  img.chart{padding:0px;margin:0px;background-position: 0px 0;background: url(data:image/gif;base64,R0lGODlhygAMAPfiAOjo6Obm5uDn5Tux/+fn5/Hv9Z7X/zmh9PTx9fPx9Dmh9u7s8jmx/5fV/5nV/zms/+/t8+Hm6PX19fXx9pzW/5bV/zmg9zmh953W/+Pn5pnW/5rT/zqw/+3r8ePo6ZvW/5vV/zmr/pfW/zml9uLn6Ovt8evu8eTo6pfU/+fp7ejq7urs8ejr7zmq/Ozv8prV/+bp5vHw9vLw8zmm9jmn+5XQ/+bo7Ozr8ZHO/zmm9+bq65TQ/5jS/+nr8JjV/5nU/zmi+VWx/zmp+zmo+mi5/+Tn4zmk+pzU/4zI/zmn+Tmm/ZbR/2O4/zmk/PLv9UCo/1ex/1+1/zmp/JjT/+br7JLP/zml/zmi9ubo6/bx8o7L//T09OXn60yt/4zM/4bI/06t/2y8/+Xo6Dmm+pvX/2m6/4jJ/1u0/4TI/3zD/zmo/HjD/5jW/+Tp7prW//Ht8zmm+YnJ/0us/1Cs/0Oq/5zV/+fs8W+8/3zB/4zL/0Sq/47P/160/3bC/3/D/2a5/4LF/3TB/+vr9Tmh+1Gw/0qt/4bH/zmk9ubr8VKw/zml94DD/5DM/3rD/5DN/5zX/+jt8YvL/0Go/zml+5PP/zuo/0Ko/268/4XJ//Pw9uvq9Fmx/5fT/+vq8YPG/2G4/+br8Orp8+Lo7Ga3/zmg+lOw/0ir/0es/43N/zmk/0aq/+Po7Uqr/+3w83C+/+Xo5HnC/4zK/zmk/Vev/3/G/+js7nK9/1Gt/4nH/33C/4vJ/3G+/zms/jmo/eHn6+Xq7zmv/+Tm6oHE/+vp8Fuy/0as/161/3LA/z2m/+bo5YDF/1y0/0ap/z+o//Hu9Dmu/4TG/+fr7Y3J/4bK/162/4DI/z2n/5TP/1mz/zmq+zmk9+bp6Dqv/+Lm5qHY//Du9KDX/+Xp6////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAOIALAAAAADKAAwAAAj/AMUJHEiwoMGDCBMqXMiwocOHECNKnMgQnMWLGDNq3Mixo8eP3kKKHEmypEmTElKqXMly5YSXMGPKhJmlZpYtOLcg2Mmzp08EmWIITUC0qFGiTpwUWMq0aVMZUJ19m/rt48WTWLNq1WqVo4GvYMOCxUCW7M+dQYXGOMo2QVKncJdChUq1rt27ePPq3Tv1DQQIXLtmFEv4a9nDZR9RWMyYMZkPkCO/eKGhsgYHmDNjriyic+cGoENXGF2Br+nTet/4/cu6NYRWC2LLnh3bhW0Xgjro3m2id29NN4KXGD48VKcVyBU3bkzmceQPky1X1pyZs2cRoUWT3k4ahXcU2LNP/5nCZrKP8z8yg1i//oj7Om42yJ+/4ccPHvg5LXH9mrb/27jtxptvJgAnHHElGIfcgsP04GAPkLAgIQt2qGChCohEk8KGKYBCBRU2hKjDiFhg0UYb4aTIBRernODiCcGI4sGMM472nXfZNTAeG+Wd50N6mLHH3ntuxEdfffflt8SSS9TgZA3X7CAlJVVUgcOVjDiyhxZaoBKLF0ggkQcSkcQRhxlmfDGNIZigAY0ngCizCC1+pIFHGo2ssUYfDkY4oR21XIghhx1+GKINv4yoQ4koqsjiiy7KSOOMvpBg6aUZRKDpppt246mnAoQq6qikivrpqag+KeUOVFqJpZZcov8ijRdgjhmJLnHgkuYXbKKBBpzCVLOIH7nc2QgsewYSyDG27OLKHZeEUUYZRBDxxyhMZPtJFFEYw8cZZ2CzCRSzBGFuKYkQMgcYYHQhhxysFGLKKaowowcdlkjyxBOXksDpvxGcWurApKJq8MEIfxrAwgwvXMTDGUQsccMUU/wKARgT8Gy00lZrLbZMbBsFNXwscwYx40IBxbmJ3KJuu+4Wwsq8qhRzb777NmMNMpVUYoUVqSghdBNNDDIJKUYYAcTSF1hgwQVQR+301E4rYPXVWFt9wNYHJHxqxQ4XIfHYYIOd8dlop02AGGIA4PbbcMct99sw1L3N3Xjj/XMqsgzUXfTRSSsNBNRPRy011RZkrbgCXDfuONeHjCC55FdcMcPlimiTw+ZwJOH5GEOEToMQpNNAgxRSqKFGC6y3EMLrIaidcTJtz2277XXbnffuvPfOe4rABy/88MQL/3jkk49Q+eWYb54DHJ0nMQboQ5heOg3ZoL56673A7j0vD4Qv/vjPcGP++einr/763DDg/vvu++578fTXb//9+Odf/Pj8h88++8D43/ngR0ACcuCACEwgAgfAwAY68IEQjCAE9UfBClrwghSkiAY3yMEOevCDIHRIQAAAOw==) no-repeat;}
+  table{spacing:0px;padding:0px;margin:0px;}
+  .main_stats{margin-top:10px;}
+  .main_stats_field{font-size:14px;padding-right:14px;padding-left:10px;border-left:1px solid #bbbbbb;}
+  .main_stats B{font-family:arial,verdana;font-size:17px;line-height:22px;}
+  .main_stats DIV{font-size:12px;color:#6c6c6c;}
+  .header_line{color:#414141;font-weight:bold;font-size:19px;border-bottom:1px solid #000000; padding-bottom:6px;}
+  .render_time{color:#bbbbbb;font-size:10px;}
+  .header_nav_line{background:url(data:image/gif;base64,R0lGODlhCAAeAOYAAJOTk5GRkqSkpZiYmI+Oj5SUlI+Pj5ubm5uam6alpZSTlJqZmY6Pj6KhoqGiopCRkJCRkZeXl5aXlo+QkJqbm6alpp6enpCPj6SkpKKio5OUlJiXmKOjo52enY+PkKKioqWkpJKSkZeWl5KRko+PjpGSkZ2enqWlpZ2dnpaXl5ycnaSko6GhoqKioaWlpJ6fnpGQkaKhoZGRkZKSkpOSkqGgoJ6en5WVlqKjo6OjoqWmpaCgoaWkpZaWlqSjo5KRkZ+en5aWl5qZmpCQkKGioZeYl5CQkaSjpJ6dnpmZmqSlpJeXmJ6dnaOkpJOTkpOSk6OjpJCPkKGgoaWlpqOioqOko5+fn6CgoJWVlZycnJmZmY6OjgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAB4AAAengDoVFQkJJwlTAjwCAi4gAko+VU0YGCtQRx8ZORwcGVQ4LTEsDg4NRA1XV1JXNao7VlY2QLFWL0wdJhYWHShIWcDAKsAHCAgUFAgHB1oLQs3NSRsDS9MDA0U9EikRERJBIlji4jfiBQoKGhoKBQUA709OMzQAASMBASE/ASVDDxAyIDwwAsOAhwtRJhycQIIAAQYMCBgwsKWixYsYM2rcyLGjx48VAwEAOw==);color:#FFFFFF;font-weight:bold;font-size:11px;padding:3px;height:5px;}
+  .header_nav_line td{font-size:11px;padding:1px;}
+  .header_nav_line a{color:#FFFFFF;font-weight:bold;font-size:11px;text-decoration:none;}
+  .header_link{color:#0776fe;border-bottom:0px;cursor:pointer;font-weight:normal;font-size:11px;}
+  .header_link_selected{color:#0776fe;cursor:default;border-bottom:1px solid #0776fe;cursor:pointer;font-weight:normal;font-size:11px;}
+  .bt_header TD{font-size:10px;color:#7a7a7a;}
+  .bt_header{border-bottom:1px solid #bbbbbb;padding-top:11px;padding-bottom:3px;}
+  .bt_header_inner{padding-top:11px;padding-bottom:3px;}
+  .bt_sub_header{color:#6c6c6c;font-weight:bold;font-size:16px;}
+  .bt_values{background:#f3f3f3;border-bottom:1px solid #bbbbbb;padding-top:1px;}
+  .bt_values TD{font-size:11px;border-bottom:1px solid #FFFFFF;padding-left:7px;padding-right:7px;padding-top:3px;}
+  .bt_values DIV{color:#6c6c6c;}
+  .bt_column_header{background:url(data:image/gif;base64,R0lGODlhCAAbANUAAOPj4+Pk5Onq6uHg4eTj5ODf4Ono6Ojo6eDg3+Dh4OPi4+Xl5ubl5eDh4enq6erp6uTl5Orp6efo6ODf3+Lh4eXk5OXl5OTk4+jp6Onp6OHg4OLi4+fn5ubm5+Lj4+fm5ujn5+Tl5eXk5d/f4Ojp6eXm5eXl5eXm5uHi4eTk5ebn5uPk4+Tk5Orq6ejo6Obm5uHh4enp6eDg4OLi4ufn5+rq6t/f3wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIABsAAAZwwJpwSCzWHI9HS8CsxSKxpyMaIx0wBsMh4+qCJJIubUwevzivzkf1ap8WJYZpwahALPaQKLUiEC4BgSweAAoKAIgbM4uMizCPFCgwFDAJAwMaDQ0JMDKeBZ4yBSMTCDYyphM2q6ytrq+wsbKztLWrQQA7);font-weight:bold;}
+  .bt_values a{color:#000000;text-decoration:none;}
+  .bt_values a:hover{color:#0093ff;text-decoration:underline;}
+  .bt_values_url{background:#fbfbfb;}
+  .bt_values_inner{padding:0px;border:0px;}
+  .bt_values_inner TD{border-bottom:0px;}
+  .bt_values_inner_number{text-align:center;background-position:0px 0px;color:#FFFFFF;vertical-align:top;background: url(data:image/gif;base64,R0lGODlhHAAOAIAAAPPz86GgoSH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzVCMzI5MDM0MDUxMTFFMUI0OTZBMzU2NzkwNDA5NTIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzVCMzI5MDQ0MDUxMTFFMUI0OTZBMzU2NzkwNDA5NTIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNUIzMjkwMTQwNTExMUUxQjQ5NkEzNTY3OTA0MDk1MiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNUIzMjkwMjQwNTExMUUxQjQ5NkEzNTY3OTA0MDk1MiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAcAA4AAAIURI6pq8YPo5y02ouz3rz7D4ZNCBQAOw==) no-repeat;background-position:center;}
+  .description{color:#828282;font-size:10px;padding-top:3px;}
+  .vs{border-right: 5px solid #d3d3d3;}
+  .vm{border-right: 5px solid #ffd700;}
+  .vn{border-right: 5px solid #3cb371;}
+  #info_box{border:1px solid #bbbbbb;padding:5px;background:#ffffcc;display:none;position:absolute;width:340px;}
+-->
+</STYLE>
+
+</head>
+<body topmargin="0" leftmargin="0"><a name="ooverview"></a><br>
+<noscript><center><br><br><h2>This page requires Javascript.</h2><h3>Please activate Javascript in your browser and reload this page.</h3><br></center></noscript>
+<span id="info_box"></span>
+<div align="center"><table cellpadding="0" cellspacing="0" width="900">
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line">Day Report</td>
+					<td class="header_line" align="right">14.05.2013</td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">&nbsp;&nbsp;Overview</td>
+					<td class="header_nav_line" align="right">Status:&nbsp;&nbsp;Closed&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td>
+						<table cellspacing="0" cellpadding="0" class="main_stats" width="100%">
+							<tr>
+								<td class="main_stats_field" valign="top" width="24%">
+									Visitors
+									<table>
+										<tr>
+											<td><b>14</b>&nbsp;</td>
+											<td><div class="ico_trend_down"></div></td>
+										</tr>
+									</table>
+									<div>13 <em>unique</em> (92.86%)<br>10 new (71.43%)<br>4 recurring (28.57%)</div>
+								</td>
+								<td class="main_stats_field" valign="top" width="18%">
+									Bounce rate
+									<table>
+										<tr>
+											<td><b>64.29%</b>&nbsp;</td>
+											<td><div class="ico_trend_up_r"></div></td>
+										</tr>
+									</table>
+									<div>9 in total</div>
+								</td>
+								<td class="main_stats_field" valign="top" width="18%">
+									Conversion rate
+									<table>
+										<tr>
+											<td><b>0%</b>&nbsp;</td>
+											<td><div class="ico_trend_const"></div></td>
+										</tr>
+									</table>
+									<div>0 in total</div>
+								</td>
+								<td class="main_stats_field" valign="top" width="17%">
+									Chats
+									<table>
+										<tr>
+											<td><b>0</b>&nbsp;</td>
+											<td><div class="ico_trend_down"></div></td>
+										</tr>
+									</table>
+									<div>00:00:00 Waiting time</div></td>
+								<td class="main_stats_field" valign="top" width="*">
+									Operator Availability
+									<table>
+										<tr>
+											<td><b>32.89%</b>&nbsp;</td>
+											<td><div class="ico_trend_up"></div></td>
+										</tr>
+									</table>
+									<div>07:53:41 of 24:00:00</div>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td><br>
+						<table cellspacing="0" cellpadding="0" width="100%">
+							<tr>
+								<td width="33%" valign="top"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header"></td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="*">Visitors</td>
+					<td align="left" class="bt_column_header" width="85">Value</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+				</tr>
+				
+				<tr>
+					<td NOWRAP>Page impressions</td>
+					<td align="left" NOWRAP>18</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Pages per visitor</td>
+					<td align="left" NOWRAP>1.29</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Browser instances</td>
+					<td align="left" NOWRAP>27</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Browser instances per visitor</td>
+					<td align="left" NOWRAP>1.93</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>View time per visitor</td>
+					<td align="left" NOWRAP>00:04:59</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>View time per page</td>
+					<td align="left" NOWRAP>00:03:52</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header"></td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="*">Javascript</td>
+					<td align="left" class="bt_column_header" width="85">Value</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+				</tr>
+				
+				<tr>
+					<td NOWRAP>Activated</td>
+					<td align="left" NOWRAP>14 (100%)</td>
+					<td align="center"><div class="ico_trend_const"></div></td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+</td>
+								<td width="10"></td>
+								<td valign="top" width="*"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header"></td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="*">Chats</td>
+					<td align="left" class="bt_column_header" width="85">Value</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+				</tr>
+				
+				<tr>
+					<td NOWRAP>On chat page</td>
+					<td align="left" NOWRAP>13</td>
+					<td align="center"><div class="ico_trend_const"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Chats</td>
+					<td align="left" NOWRAP>0</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Chats Accepted</td>
+					<td align="left" NOWRAP>0 (0%)</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Chats Declined</td>
+					<td align="left" NOWRAP>0  (0%)</td>
+					<td align="center"><div class="ico_trend_const"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Duration</td>
+					<td align="left" NOWRAP>00:00:00</td>
+					<td align="center"><div class="ico_trend_down_r"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Waiting time</td>
+					<td align="left" NOWRAP>00:00:00</td>
+					<td align="center"><div class="ico_trend_down_r"></div></td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header"></td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="*">Advert. value (CPT)</td>
+					<td align="left" class="bt_column_header" width="85">Value</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+				</tr>
+				
+				<tr>
+					<td NOWRAP>0,50 EUR</td>
+					<td align="left" NOWRAP>0.01 EUR</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+</td>
+								<td width="10"></td>
+								<td width="33%" valign="top"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header"></td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="*">Traffic Sources</td>
+					<td align="left" class="bt_column_header" width="85">Value</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+				</tr>
+				
+				<tr>
+					<td NOWRAP>Search engines</td>
+					<td align="left" NOWRAP>6 (42.86%)</td>
+					<td align="center"><div class="ico_trend_up"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Referrer</td>
+					<td align="left" NOWRAP>0 (0%)</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Direct access</td>
+					<td align="left" NOWRAP>8 (57.14%)</td>
+					<td align="center"><div class="ico_trend_down"></div></td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="ogoals"><br></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Goals</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Goals</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top"></td>
+		<td NOWRAP valign="top">None</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">0</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	
+		<tr>
+		<td>
+			<a name="ooperators"></a>
+			<br>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line">By Operators</td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#oavailability">Operator Availability</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#ochats">Chats</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#oduration">Chat Duration</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#oresponsetime">Response Time</a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="oavailability"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Operator Availability</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Operator</td>
+					<td align="center" class="bt_column_header" width="25">&nbsp;</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">mmrf</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">07:53:41</td>
+		<td align="center" NOWRAP valign="top">32.89%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -68px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="ochats"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Chats</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Operator</td>
+					<td align="center" class="bt_column_header" width="25">&nbsp;</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">mmrf</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description">Absolute: Chats (accepted / declined / missed)</div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="oduration"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Chat Duration</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Operator</td>
+					<td align="center" class="bt_column_header" width="25">&nbsp;</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">mmrf</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description">Absolute: Average chat duration (average waiting time)</div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="oresponsetime"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Response Time</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Operator</td>
+					<td align="center" class="bt_column_header" width="25">&nbsp;</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">mmrf</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description">Absolute: Average chat response time (total amount of messages)</div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<!--months-->
+	
+		<tr>
+		<td>
+			<a name="hhours">
+			<br>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line">By Hours</td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#hvisitors">Visitors & Pages</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#hchats">Chats & Availibility</a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td width="440" valign="top"><a name="hvisitors"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Visitors</span></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="25">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Hour</td>
+					<td align="center" class="bt_column_header" width="50" NOWRAP>Absolute</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>00:00</td>
+		<td align="center" NOWRAP>3</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>01:00</td>
+		<td align="center" NOWRAP>2</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -34px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>02:00</td>
+		<td align="center" NOWRAP>1</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -67px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>03:00</td>
+		<td align="center" NOWRAP>1</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -67px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>04:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>05:00</td>
+		<td align="center" NOWRAP>3</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>06:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>07:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>08:00</td>
+		<td align="center" NOWRAP>1</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -67px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>09:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>10:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>11:00</td>
+		<td align="center" NOWRAP>1</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -67px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>12:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>13:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>14:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>15:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>16:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>17:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>18:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>19:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>20:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>21:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>22:00</td>
+		<td align="center" NOWRAP>2</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -34px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>23:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<br></td>
+					<td width="*">&nbsp;</td>
+					<td width="440" valign="top" align="right"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Page impressions</span></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="25">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Hour</td>
+					<td align="center" class="bt_column_header" width="50" NOWRAP>Absolute</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>00:00</td>
+		<td align="center" NOWRAP>7</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>01:00</td>
+		<td align="center" NOWRAP>5</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -29px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>02:00</td>
+		<td align="center" NOWRAP>2</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -72px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>03:00</td>
+		<td align="center" NOWRAP>2</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -72px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>04:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>05:00</td>
+		<td align="center" NOWRAP>6</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -15px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>06:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>07:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>08:00</td>
+		<td align="center" NOWRAP>2</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -72px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>09:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>10:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>11:00</td>
+		<td align="center" NOWRAP>2</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -72px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>12:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>13:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>14:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>15:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>16:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>17:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>18:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>19:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>20:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>21:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>22:00</td>
+		<td align="center" NOWRAP>5</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -29px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>23:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+				<tr>
+					<td valign="top" colspan="3"><a name="hchats"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Chats</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('cbh',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('cbh',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="25" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Hour</td>
+					<td align="center" class="bt_column_header" width="25">&nbsp;</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">00:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">01:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">02:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">03:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">04:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">05:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">06:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">07:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">08:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">09:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">10:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">11:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">12:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">13:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">14:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">15:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">16:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">17:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">18:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">19:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">20:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">21:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">22:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">23:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description">Absolute: Chats (accepted / declined / missed)</div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+				<tr>
+					<td valign="top" align="right" colspan="3"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Operator Availability</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('oa',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('oa',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="25" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Hour</td>
+					<td align="center" class="bt_column_header" width="25">&nbsp;</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top"><a href="javascript:switchRowVisibility('oa_0');"><b>00:00</b></a></td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">01:00:00</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr height="19" style="display:none" id="oa_01">
+		<td class="bt_values_inner_number">1</td>
+		<td>mmrf</td>
+		<td align="center" valign="middle">&nbsp;</div></td>
+		<td align="center">01:00:00&nbsp;(00:00:00)</td>
+		<td align="center">100%</td>
+		<td align="center"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top"><a href="javascript:switchRowVisibility('oa_1');"><b>01:00</b></a></td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">01:00:00</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr height="19" style="display:none" id="oa_11">
+		<td class="bt_values_inner_number">1</td>
+		<td>mmrf</td>
+		<td align="center" valign="middle">&nbsp;</div></td>
+		<td align="center">01:00:00&nbsp;(00:00:00)</td>
+		<td align="center">100%</td>
+		<td align="center"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top"><a href="javascript:switchRowVisibility('oa_2');"><b>02:00</b></a></td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:48:21</td>
+		<td align="center" NOWRAP valign="top">80.58%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -20px 0pt;"></td>
+	</tr>
+
+	<tr height="19" style="display:none" id="oa_21">
+		<td class="bt_values_inner_number">1</td>
+		<td>mmrf</td>
+		<td align="center" valign="middle">&nbsp;</div></td>
+		<td align="center">00:48:21&nbsp;(00:00:00)</td>
+		<td align="center">80.58%</td>
+		<td align="center"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -20px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top"><a href="javascript:switchRowVisibility('oa_3');"><b>03:00</b></a></td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">01:00:00</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr height="19" style="display:none" id="oa_31">
+		<td class="bt_values_inner_number">1</td>
+		<td>mmrf</td>
+		<td align="center" valign="middle">&nbsp;</div></td>
+		<td align="center">01:00:00&nbsp;(00:00:00)</td>
+		<td align="center">100%</td>
+		<td align="center"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top"><a href="javascript:switchRowVisibility('oa_4');"><b>04:00</b></a></td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">01:00:00</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr height="19" style="display:none" id="oa_41">
+		<td class="bt_values_inner_number">1</td>
+		<td>mmrf</td>
+		<td align="center" valign="middle">&nbsp;</div></td>
+		<td align="center">01:00:00&nbsp;(00:00:00)</td>
+		<td align="center">100%</td>
+		<td align="center"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top"><a href="javascript:switchRowVisibility('oa_5');"><b>05:00</b></a></td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">01:00:00</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr height="19" style="display:none" id="oa_51">
+		<td class="bt_values_inner_number">1</td>
+		<td>mmrf</td>
+		<td align="center" valign="middle">&nbsp;</div></td>
+		<td align="center">01:00:00&nbsp;(00:00:00)</td>
+		<td align="center">100%</td>
+		<td align="center"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top"><a href="javascript:switchRowVisibility('oa_6');"><b>06:00</b></a></td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">01:00:00</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr height="19" style="display:none" id="oa_61">
+		<td class="bt_values_inner_number">1</td>
+		<td>mmrf</td>
+		<td align="center" valign="middle">&nbsp;</div></td>
+		<td align="center">01:00:00&nbsp;(00:00:00)</td>
+		<td align="center">100%</td>
+		<td align="center"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top"><a href="javascript:switchRowVisibility('oa_7');"><b>07:00</b></a></td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">01:00:00</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr height="19" style="display:none" id="oa_71">
+		<td class="bt_values_inner_number">1</td>
+		<td>mmrf</td>
+		<td align="center" valign="middle">&nbsp;</div></td>
+		<td align="center">01:00:00&nbsp;(00:00:00)</td>
+		<td align="center">100%</td>
+		<td align="center"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top"><a href="javascript:switchRowVisibility('oa_8');"><b>08:00</b></a></td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:05:20</td>
+		<td align="center" NOWRAP valign="top">8.89%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92px 0pt;"></td>
+	</tr>
+
+	<tr height="19" style="display:none" id="oa_81">
+		<td class="bt_values_inner_number">1</td>
+		<td>mmrf</td>
+		<td align="center" valign="middle">&nbsp;</div></td>
+		<td align="center">00:05:20&nbsp;(00:00:00)</td>
+		<td align="center">8.89%</td>
+		<td align="center"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">09:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">10:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">11:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">12:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">13:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">14:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">15:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">16:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">17:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">18:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">19:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">20:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">21:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">22:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">23:00</td>
+		<td align="center" valign="top">&nbsp;</div></td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description">Absolute: Online (Busy)</div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	
+	<tr style="display:;">
+		<td>
+			<a name="ttops"></a>
+			<br>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line">TOPs Visitors</td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#tsystems">Browser & Operating System</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#torigins">Origin</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#tvisits">Visits</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#tisps">Internet Service Providers</a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td colspan="3" valign="top"><a name="tsystems"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Operating Systems</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>System</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Windows XP</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">7</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -50px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">Windows 7</td>
+		<td align="center" valign="top"><div class="ico_trend_down"></div></td>
+		<td align="center" NOWRAP valign="top">7</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -50px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+				<tr>
+					<td width="440" valign="top"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Browsers</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Browser</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Chrome 26</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">11</td>
+		<td align="center" NOWRAP valign="top">78.57%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -21.428571428571px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">Opera 9</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -85.714285714286px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top">Internet Explorer 10</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+					<td width="*">&nbsp;</td>
+					<td width="440" valign="top" align="right"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Resolutions</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Resolution</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">1024 x 768 (32 Bit)</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">4</td>
+		<td align="center" NOWRAP valign="top">28.57%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -71.428571428571px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">1366 x 768 (32 Bit)</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -85.714285714286px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top">1600 x 900 (32 Bit)</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -85.714285714286px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top">1152 x 864 (32 Bit)</td>
+		<td align="center" valign="top"><div class="ico_trend_down"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">5</td>
+		<td NOWRAP valign="top">1366 x 768 (24 Bit)</td>
+		<td align="center" valign="top"><div class="ico_trend_down"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">6</td>
+		<td NOWRAP valign="top">1440 x 900 (32 Bit)</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">7</td>
+		<td NOWRAP valign="top">1360 x 768 (32 Bit)</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">8</td>
+		<td NOWRAP valign="top">1280 x 720 (32 Bit)</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">9</td>
+		<td NOWRAP valign="top">1024 x 768 (16 Bit)</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+				<tr>
+					<td colspan="3" valign="top"><a name="torigins"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Cities</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>City</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Chennai</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">6</td>
+		<td align="center" NOWRAP valign="top">42.86%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -57.142857142857px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">Coimbatore</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">4</td>
+		<td align="center" NOWRAP valign="top">28.57%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -71.428571428571px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top">Mumbai</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -85.714285714286px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top">New Delhi</td>
+		<td align="center" valign="top"><div class="ico_trend_down"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">5</td>
+		<td NOWRAP valign="top">Philadelphia</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+				<tr>
+					<td colspan="3" valign="top"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Regions</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Region</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Tamil Nadu</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">10</td>
+		<td align="center" NOWRAP valign="top">71.43%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -28.571428571429px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">Maharashtra</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -85.714285714286px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top">Delhi</td>
+		<td align="center" valign="top"><div class="ico_trend_down"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top">Pennsylvania</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+				<tr>
+					<td width="440" valign="top"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Countries</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Country</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">India</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">13</td>
+		<td align="center" NOWRAP valign="top">92.86%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -7.1428571428571px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">United States</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+					<td width="*">&nbsp;</td>
+					<td width="440" valign="top" align="right"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Languages</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Language</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">English (US)</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">13</td>
+		<td align="center" NOWRAP valign="top">92.86%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -7.1428571428571px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">English</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+				<tr>
+					<td width="440" valign="top"><a name="tvisits"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Visits</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Visits</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">1</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">10</td>
+		<td align="center" NOWRAP valign="top">71.43%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -28.571428571429px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">2</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -85.714285714286px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top">15</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top">18</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+					<td width="*">&nbsp;</td>
+					<td width="440" valign="top" align="right"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Time on page</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Duration</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">00 - 01 min</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">5</td>
+		<td align="center" NOWRAP valign="top">35.71%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -64.285714285714px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">01 - 05 min</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">5</td>
+		<td align="center" NOWRAP valign="top">35.71%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -64.285714285714px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top">05 - 10 min</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -85.714285714286px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top">10 - 15 min</td>
+		<td align="center" valign="top"><div class="ico_trend_down"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">5</td>
+		<td NOWRAP valign="top">15 - 30 min</td>
+		<td align="center" valign="top"><div class="ico_trend_down"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+				<tr>
+					<td colspan="3"><a name="tisps"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Internet Service Providers</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Internet Service Provider</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Bharti Telenet Ltd. Tamilnadu</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">3</td>
+		<td align="center" NOWRAP valign="top">21.43%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -78.571428571429px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">Abts Tamilnadu</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">3</td>
+		<td align="center" NOWRAP valign="top">21.43%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -78.571428571429px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top">Broadband Multiplay Project</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -85.714285714286px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top">Bharti Airtel Limited</td>
+		<td align="center" valign="top"><div class="ico_trend_down"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">5</td>
+		<td NOWRAP valign="top">Bharti Airtel Ltd.</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">6</td>
+		<td NOWRAP valign="top">Sify Limited</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">7</td>
+		<td NOWRAP valign="top">Tata Teleservices Ltd - Tata Indicom - Cdma Division</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">8</td>
+		<td NOWRAP valign="top">Tata Communications Internet Services Ltd</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">9</td>
+		<td NOWRAP valign="top">Verizon Online Llc</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -92.857142857143px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr style="display:;">
+		<td>
+			<br>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line">TOPs Pages</td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#tpages">Pages</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#tentranceexit">Entry pages &amp; Exit pages</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#tsearch">Search engines</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#treferrers">Referrers</a></td>
+								<td style="display:;">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td style="display:;"><a href="#tdomains">Domains</a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="height:200px;" valign="top">
+			<table cellspacing="0" cellpadding="0" width="100%" id="p_pages">
+				<tr>
+					<td><a name="tpages"></a><table width="100%" cellspacing="0" cellpadding="0" id="p_url_top_9">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Pages (URL)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_9','header');switchVisibility('p_url_top_9','header');" class="header_link">Titles</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div class="header_link_selected">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Page</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/" target="_blank">http://www.mmrf.in/</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">8</td>
+		<td align="center" NOWRAP valign="top">44.44%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -56px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/" target="_blank">http://mmrf.in/</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">5</td>
+		<td align="center" NOWRAP valign="top">27.78%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -73px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/cont.php" target="_blank">http://www.mmrf.in/cont.php</a></td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">3</td>
+		<td align="center" NOWRAP valign="top">16.67%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -84px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/cont.php" target="_blank">http://mmrf.in/cont.php</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">11.11%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -89px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="display:none;" id="p_title_top_9">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Pages (Titles)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div class="header_link_selected">Titles</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_9','header');switchVisibility('p_url_top_9','header');" class="header_link">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Page</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="50">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">8</td>
+		<td align="center" NOWRAP valign="top">44.44%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -56px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">5</td>
+		<td align="center" NOWRAP valign="top">27.78%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -73px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/cont.php" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">3</td>
+		<td align="center" NOWRAP valign="top">16.67%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -84px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/cont.php" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">11.11%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -89px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%" id="p_entrance_exit_pages">
+				<tr>
+					<td><a name="tentranceexit"></a><table width="100%" cellspacing="0" cellpadding="0" id="p_url_top_17">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Entry pages (URL)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_17','header');switchVisibility('p_url_top_17','header');" class="header_link">Titles</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div class="header_link_selected">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Page</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/" target="_blank">http://www.mmrf.in/</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">8</td>
+		<td align="center" NOWRAP valign="top">57.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -43px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/" target="_blank">http://mmrf.in/</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">5</td>
+		<td align="center" NOWRAP valign="top">35.71%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -65px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/cont.php" target="_blank">http://mmrf.in/cont.php</a></td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -93px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="display:none;" id="p_title_top_17">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Entry pages (Titles)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div class="header_link_selected">Titles</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_17','header');switchVisibility('p_url_top_17','header');" class="header_link">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Page</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="50">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">8</td>
+		<td align="center" NOWRAP valign="top">57.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -43px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">5</td>
+		<td align="center" NOWRAP valign="top">35.71%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -65px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/cont.php" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">7.14%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -93px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+
+</td>
+				</tr>
+				<tr>
+					<td><br><table width="100%" cellspacing="0" cellpadding="0" id="p_url_top_19">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Exit pages (URL)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_19','header');switchVisibility('p_url_top_19','header');" class="header_link">Titles</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div class="header_link_selected">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Page</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/" target="_blank">http://www.mmrf.in/</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">5</td>
+		<td align="center" NOWRAP valign="top">35.71%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -65px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/" target="_blank">http://mmrf.in/</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">4</td>
+		<td align="center" NOWRAP valign="top">28.57%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -72px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/cont.php" target="_blank">http://www.mmrf.in/cont.php</a></td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">3</td>
+		<td align="center" NOWRAP valign="top">21.43%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -79px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/cont.php" target="_blank">http://mmrf.in/cont.php</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -86px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="display:none;" id="p_title_top_19">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Exit pages (Titles)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div class="header_link_selected">Titles</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_19','header');switchVisibility('p_url_top_19','header');" class="header_link">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Page</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="50">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">5</td>
+		<td align="center" NOWRAP valign="top">35.71%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -65px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">4</td>
+		<td align="center" NOWRAP valign="top">28.57%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -72px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.mmrf.in/cont.php" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">3</td>
+		<td align="center" NOWRAP valign="top">21.43%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -79px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://mmrf.in/cont.php" target="_blank">mmrf</a></td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">14.29%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -86px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%" id="p_search">
+				<tr>
+					<td><a name="tsearch"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Search phrases</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Search phrase</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">mmrf chennai</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">25%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -75px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">mmrf</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">25%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -75px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top">mmrf realty chennai</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">25%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -75px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">4</td>
+		<td NOWRAP valign="top">www.mmrf reality</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">25%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -75px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+</td>
+				</tr>
+				<tr>
+					<td><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Search engines</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Search engines</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.google.co.in" target="_blank">http://www.google.co.in</a></td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">3</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -50px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=https://www.google.co.in" target="_blank">https://www.google.co.in</a></td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">33.33%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -67px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">3</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.biz/?url=http://www.bing.com" target="_blank">http://www.bing.com</a></td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">16.67%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -84px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+</td>
+				</tr>
+				<tr>
+					<td><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Crawlers / Bots</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Crawler</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">None</td>
+		<td align="center" valign="top"><div class="ico_trend_const"></div></td>
+		<td align="center" NOWRAP valign="top">0</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%" id="p_referrers">
+				<tr>
+					<td><a name="treferrers"></a><table width="100%" cellspacing="0" cellpadding="0" id="p_url_top_30">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Referrers (URL)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_30','header');switchVisibility('p_url_top_30','header');" class="header_link">Domains</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div class="header_link_selected">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Referrer</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">None</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">0</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="display:none;" id="p_title_top_30">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Referrers (Domains)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div class="header_link_selected">Domains</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_30','header');switchVisibility('p_url_top_30','header');" class="header_link">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Referrer</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="50">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">None</td>
+		<td align="center" valign="top"><div class="ico_trend_new"></div></td>
+		<td align="center" NOWRAP valign="top">0</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%" id="p_domains">
+				<tr>
+					<td><a name="tdomains"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header">Domains</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link">Expand All</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link">Collapse All</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP>Domain</td>
+					<td align="center" class="bt_column_header" width="25">Trend</td>
+					<td align="center" class="bt_column_header" width="95">Absolute</td>
+					<td align="center" class="bt_column_header" width="50">Relative</td>
+					<td align="center" class="bt_column_header" width="104">Chart</td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">http://www.mmrf.in</td>
+		<td align="center" valign="top"><div class="ico_trend_up"></div></td>
+		<td align="center" NOWRAP valign="top">11</td>
+		<td align="center" NOWRAP valign="top">61.11%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -38.888888888889px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">http://mmrf.in</td>
+		<td align="center" valign="top"><div class="ico_trend_down"></div></td>
+		<td align="center" NOWRAP valign="top">7</td>
+		<td align="center" NOWRAP valign="top">38.89%</td>
+		<td align="center" NOWRAP valign="top"><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -61.111111111111px 0pt;"></td>
+	</tr>
+
+			</table>
+			<div align="right" class="description"><!--description--></div>
+		</td>
+	</tr>
+</table>
+<br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+<script type="text/javascript">
+var cX = 0; var cY = 0; var rX = 0; var rY = 0;
+var chart_image = "data:image/gif;base64,R0lGODlhZgAMAIAAAKampv///yH5BAEAAAEALAAAAABmAAwAAAI+DI6py+0Po3QGhIuz3rz7D4Yih4zmiaZqtbbuOx7wTM9yjefmrfe+xvsJdcGh0WY5KmGlpTMlm0in1KrVUgAAOw==";
+var ibCurrent = "";
+var images = document.getElementsByTagName('img');
+
+function UpdateCursorPosition(e){ cX = e.pageX; cY = e.pageY;}
+function UpdateCursorPositionDocAll(e){ cX = event.clientX; cY = event.clientY;}
+if(document.all) 
+	document.onmousemove = UpdateCursorPositionDocAll; 
+else 
+	document.onmousemove = UpdateCursorPosition;
+	
+for (var i = 0; i < images.length; i++) 
+	if(images[i].className=="chart")
+		images[i].src = chart_image;
+
+function showInfoBox(_isp, _visits, _visits_day, _ip, _host, _id, _parent)
+{
+	if(ibCurrent != _parent)
+	{
+		document.getElementById("info_box").innerHTML = "<strong>ID:</strong> " + _id + "<br><strong>Internet Service Provider:</strong> " + _isp + "<br><strong>IP:</strong> " +_ip + "<br><strong>Host:</strong> " +_host + "<br><strong>Visits:</strong> " + _visits + "<br><strong>Visits today:</strong> " + _visits_day;
+		assignPosition(document.getElementById("info_box"));
+		document.getElementById("info_box").style.display = "block";
+		ibCurrent = _parent;
+	}
+	else
+	{
+		document.getElementById("info_box").style.display = "none";
+		ibCurrent = null;
+	}
+}
+
+function assignPosition(_obj) 
+{
+	if(self.pageYOffset) 
+	{
+		rX = self.pageXOffset;
+		rY = self.pageYOffset;
+	}
+	else if(document.documentElement && document.documentElement.scrollTop) 
+	{
+		rX = document.documentElement.scrollLeft;
+		rY = document.documentElement.scrollTop;
+	}
+	else if(document.body) 
+	{
+		rX = document.body.scrollLeft;
+		rY = document.body.scrollTop;
+	}
+	if(document.all) 
+	{
+		cX += rX; 
+		cY += rY;
+	}
+	_obj.style.left = (cX-330) + "px";
+	_obj.style.top = (cY+5) + "px";
+}
+
+function switchRowVisibility(_id)
+{
+	var count = 1;
+	while(true)
+	{
+		if(document.getElementById(_id+count)==null)
+			break;
+		if(document.getElementById(_id+count).style.display == "none")
+			setRowVisibility(_id+count,true);
+		else
+			setRowVisibility(_id+count,false);
+		count++;
+	}
+}
+
+function setRowVisibility(_id,_visible)
+{
+	if(_visible)
+		document.getElementById(_id).style.display = "";
+	else
+		document.getElementById(_id).style.display = "none";
+}
+
+function expandBlock(_id,_visible)
+{
+	for(var i=1;i<=31;i++)
+	{
+		var count = 1;
+		if(document.getElementById(_id + "_" + i+count) == null)
+			continue;
+		while(true)
+		{
+			if(document.getElementById(_id + "_" + i+count)==null)
+				break;
+			setRowVisibility(_id + "_" + i+count,_visible);
+			count++;
+		}
+	}
+}
+
+function switchVisibility(_id,_style)
+{
+	if(document.getElementById(_id) == null)
+		return;
+
+	var visible = false;
+	if(document.getElementById(_id).style.display == "none")
+	{
+		visible = true;
+		document.getElementById(_id).style.display = "";
+	}
+	else
+	{
+		document.getElementById(_id).style.display = "none";
+	}
+	
+	if(document.getElementById("l_" + _id) != null)
+		document.getElementById("l_" + _id).className = (visible) ? _style + "_link_selected" : _style + "_link";
+}
+</script>
+</body>
+</html>
