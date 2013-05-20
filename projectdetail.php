@@ -30,7 +30,7 @@
 <link href="css/res.css" rel="stylesheet">
 <!-- <script src="js/jquery.queryloader2.js"></script> -->
 
-<script src="js/jsscript.js"></script>
+
 
 <!-- Add fancyBox main JS and CSS files -->
 <script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.4"></script>
@@ -57,7 +57,7 @@
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </head>
-<body>
+<body >
 	<div class="slide1 row-fluid">
 
 		<img src="images/2.jpg" width="100%" height="100%"
@@ -116,6 +116,9 @@
 			</div>
 		</div>
 		<?php include 'footer.php';?>
+		
+		</div>
+		
 		<script>
 			$('.tab-menu span').click(function(){
 				var current=this;

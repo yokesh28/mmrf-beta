@@ -24,6 +24,19 @@ body {
 	font-family: gisha;
 	height: 100%;
 }
+.twitter  img{
+width: 25px;
+margin-left: 100px;
+margin-top: 6px;
+
+}
+
+.tube img{
+	
+	width: 25px;
+margin-left: 132px;
+margin-top: -47px;
+}
 
 .back {
 	min-width: 100%;
