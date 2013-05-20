@@ -102,7 +102,7 @@
         <div class="carousel-inner" style="background: black;
 opacity: 0.8;
 border-radius: 6px; margin-top:40px; position: fixed;
-width: 410px;
+width: 400px;
 right: 18%;
 height:120px;">
           <div class="active item">
